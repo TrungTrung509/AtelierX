@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-47/v4-surface/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-47/v4-surface/front.png",
+    "back": "quality/evidence/ATEL-47/v4-surface/back.png",
+    "side": "quality/evidence/ATEL-47/v4-surface/side.png",
+    "oblique": "quality/evidence/ATEL-47/v4-surface/oblique.png"
+  },
+  "errors": []
+}

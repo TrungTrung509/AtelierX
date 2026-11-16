@@ -1,0 +1,130 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.4",
+  "status": "designer corrective candidate; Lead verification and QA independent retest pending",
+  "sourceRevision": {
+    "revision": "v2.3 frozen unchanged",
+    "garmentPath": "orders/ATEL-23/v2.3/designer/garment-v2.3.glb",
+    "sha256": "24fc2581746470437be2e35e99fc22ddd67ee57c8a43a30bb7d69d476ca2e80a"
+  },
+  "geometryChange": {
+    "scope": "Only neck/head/collar opening geometry; artwork, PBR/material, viewer and catalog were not modified.",
+    "method": "Expanded neck void from mannequin-measured opening; regenerated isosurface at 4 mm grid resolution; removed residual collar/head intrusion within a centered elliptical clearance opening (x radius 0.110 m, z radius 0.140 m, z center 0.020 m) over y=1.564–1.650 m.",
+    "clippedTriangles": 25248,
+    "sourceScript": "orders/ATEL-23/v2.4/designer/build-shirt-v2_4.mjs"
+  },
+  "garment": {
+    "path": "orders/ATEL-23/v2.4/designer/garment-v2.4.glb",
+    "sha256": "b2cdec66077a9d0e49082bd93f73374ceb9519a7a7c2a8ec2857b91a2cb5be46",
+    "hasUV0": true
+  },
+  "combinedPreview": {
+    "path": "orders/ATEL-23/v2.4/fit-evidence/garment-on-mannequin-v2.4.glb",
+    "sha256": "a54a77c35a965b300e12f59746c1e4fc38f675736f4a780de2b2d3e8f00759d6",
+    "mannequinPath": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  },
+  "clearance": {
+    "method": "AABB-BVH broad phase, exact triangle segment intersections, per-pair triangle distance, ray-parity and nearest-surface tests for involved garment samples.",
+    "reportPath": "quality/evidence/ATEL-23/v2.4/contact-clearance-analysis.json",
+    "reportSha256": "8b6e4ace36dbfdfd043641ee0178f95272bebcc77f3b178fc9d5608dba0cd807",
+    "candidatePairs": 47,
+    "intersectionPairs": 0,
+    "insideSamples": 0,
+    "minBroadphaseCandidateClearanceMeters": 0.0005931,
+    "maxSampledDepthMeters": 0,
+    "byZone": {
+      "shoulder/upper torso": {
+        "candidatePairs": 42,
+        "intersections": 0,
+        "insideSamples": 0,
+        "minCandidateDistanceMeters": 0.0005931
+      },
+      "neck/collar": {
+        "candidatePairs": 4,
+        "intersections": 0,
+        "insideSamples": 0,
+        "minCandidateDistanceMeters": 0.0132475
+      },
+      "other": {
+        "candidatePairs": 1,
+        "intersections": 0,
+        "insideSamples": 0,
+        "minCandidateDistanceMeters": 0.0181558
+      }
+    },
+    "triangleScreenPath": "quality/evidence/ATEL-23/v2.4/triangle-intersection-result.json",
+    "triangleScreenSha256": "fd1c71806272ccdf2675a9e797b749b578a4cb247e331acb962c63f11b6da0a2",
+    "limitations": [
+      "Clearance distances cover broad-phase candidate pairs only; they are not a whole-garment lower bound.",
+      "Interior classification samples candidate garment triangle vertices and centroids only.",
+      "No fabric thickness or cloth simulation is modeled."
+    ]
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit-v2_4/index.html",
+    "reportPath": "quality/evidence/ATEL-23/v2.4/browser-qa/browser-result.json",
+    "loaded": true,
+    "rotated": false,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "rotationNote": "Browser QA confirmed load, zoom, desktop and mobile captures; drag-rotation check returned false and is reported for QA/Lead follow-up.",
+    "captures": {
+      "browser-fit/armhole-rear-wide.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-fit/armhole-rear-wide.png",
+        "sha256": "e3934f364538969952dffe4bab0798b9254ea1c3b71826ab6340539ba2610860"
+      },
+      "browser-fit/collar-front-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-fit/collar-front-detail.png",
+        "sha256": "23770f36e17dad4e388894f71e6af96ea8eabe23a4d1efb8d1206f84f544b776"
+      },
+      "browser-fit/collar-side-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-fit/collar-side-detail.png",
+        "sha256": "1a014da4cbbf618c813ff56c21fcc434c9396e47f1a917e1fef4986998fb9b01"
+      },
+      "browser-fit/cuff-negativeX-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-fit/cuff-negativeX-detail.png",
+        "sha256": "997866dadd3097b2febdb9ba200197c590566a92268299a5839470ae0a107922"
+      },
+      "browser-fit/cuff-positiveX-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-fit/cuff-positiveX-detail.png",
+        "sha256": "1cd4cf662c8201444d1efdb8a19713786e63bc62bc05eff1bccedd6d9bc074ee"
+      },
+      "browser-fit/hem-front-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-fit/hem-front-detail.png",
+        "sha256": "78f94faf4779fa59b8aef0dce99fa9c2cceb88eaea843f521d15f6e34214fcea"
+      },
+      "browser-qa/back.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-qa/back.png",
+        "sha256": "1c0078f72d491421827405b10f8a03b8393baa97c056d76803b9d14efdd47b65"
+      },
+      "browser-qa/detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-qa/detail.png",
+        "sha256": "acef967831c11e63ae59fb7be3b3bb478523c7e0c1090a71a1eda2b615e3ca3f"
+      },
+      "browser-qa/front.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-qa/front.png",
+        "sha256": "449b3e77712ce8733c89f95e6fd390ab07c343f1e9a7adf7325c8834741b766f"
+      },
+      "browser-qa/left.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-qa/left.png",
+        "sha256": "26db92e6b6951422f8f4370f58127a3705c1a8f4e7b803c5108abacc74d3e65b"
+      },
+      "browser-qa/mobile.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-qa/mobile.png",
+        "sha256": "929534a132e395e4659a597b8e05d34c9e83899731a3936aa8c177ce54679a30"
+      },
+      "browser-qa/right.png": {
+        "path": "quality/evidence/ATEL-23/v2.4/browser-qa/right.png",
+        "sha256": "1cab8b35f5d95c7eefb52cfee06444ed4cf2272b6b91ffec939e83d13612c42e"
+      }
+    }
+  },
+  "detailCaptureManifest": {
+    "path": "quality/evidence/ATEL-23/v2.4/browser-fit/clearance-oblique-result.json",
+    "sha256": "ee1175c3d3328a8456d2c0aeb34b3ff62873c928059fcffbbc1982e53df53159"
+  },
+  "decision": "Candidate handoff only. No G1 pass claimed; Lead verifies hashes and evidence, then QA independently retests."
+}

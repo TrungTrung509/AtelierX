@@ -1,0 +1,15 @@
+{
+  "url": "http://127.0.0.1:8788/index.html",
+  "source": "quality/candidates/makehuman-tshirt.glb",
+  "loaded": true,
+  "desktop": true,
+  "views": {
+    "front": "/home/node/project/AtelierX/quality/evidence/ATEL-35/source-assessment/makehuman-front.png",
+    "back": "/home/node/project/AtelierX/quality/evidence/ATEL-35/source-assessment/makehuman-back.png",
+    "side": "/home/node/project/AtelierX/quality/evidence/ATEL-35/source-assessment/makehuman-side.png",
+    "oblique": "/home/node/project/AtelierX/quality/evidence/ATEL-35/source-assessment/makehuman-oblique.png"
+  },
+  "rotated": true,
+  "zoomed": true,
+  "errors": []
+}

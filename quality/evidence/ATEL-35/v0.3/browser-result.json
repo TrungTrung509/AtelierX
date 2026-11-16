@@ -1,0 +1,23 @@
+{
+  "revision": "v0.3-gray",
+  "garment": "orders/ATEL-35/v0.3/designer/garment-v0_3.glb",
+  "garmentSha256": "e39794b78415b5c61d6a76b08b9c2c0c97039aecbc7d33dee2a858965b38e9f8",
+  "url": "http://127.0.0.1:8788/index.html",
+  "loaded": true,
+  "desktop": true,
+  "rotated": true,
+  "zoomed": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-35/v0.3/front.png",
+    "back": "quality/evidence/ATEL-35/v0.3/back.png",
+    "side": "quality/evidence/ATEL-35/v0.3/side.png",
+    "oblique": "quality/evidence/ATEL-35/v0.3/oblique.png"
+  },
+  "screenshotSha256": {
+    "front": "0b307677eae5c09d48b0a4f9f2164ac3c929028c689a3a837152a9e0a1ddd50e",
+    "back": "b2ef7b5c5fddde7b0b0374af93eea6bfe0a4bb80df3435b3bab8a2c0c0e7059b",
+    "side": "58229fcd1a7f1e1cade3811b890c0ae706831784f772ce6d7cfe7c5322ef8d4f",
+    "oblique": "04526ee03f29f793b92344418df083eb740d2d4d9426bc85328223821419cfa4"
+  },
+  "errors": []
+}

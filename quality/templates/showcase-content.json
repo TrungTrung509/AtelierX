@@ -1,0 +1,17 @@
+{
+  "orderId": "ATEL-N",
+  "revision": "vN",
+  "title": "Tên sản phẩm",
+  "summary": "Mô tả cụ thể trong 2–4 câu: loại áo, màu, kiểu dáng, họa tiết và chi tiết nhìn thấy. Không viết tính năng vải chưa được xác định.",
+  "material": {"name": "Tên chất liệu thiết kế từ brief/preset", "source": "brief hoặc preset:<id>"},
+  "style": "Kiểu dáng cụ thể",
+  "specifications": [
+    {"label": "chestWidthCm", "value": null, "unit": "cm", "source": "measurements.json"},
+    {"label": "garmentLengthCm", "value": null, "unit": "cm", "source": "measurements.json"},
+    {"label": "sleeveExtentCm", "value": null, "unit": "cm", "source": "measurements.json"},
+    {"label": "shoulderReferenceCm", "value": null, "unit": "cm", "source": "measurements.json: mốc mannequin, không phải kích thước vai áo"}
+  ],
+  "paragraphs": [],
+  "details": [],
+  "credits": ["Điền nguồn mannequin/phom theo asset thực tế, giữ ghi công bắt buộc."]
+}

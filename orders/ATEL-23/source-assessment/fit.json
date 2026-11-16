@@ -1,0 +1,201 @@
+{
+  "workItemId": "41a80a90-af18-40f5-b554-3e7aa98bf4a5:retry:1",
+  "order": "ATEL-23",
+  "candidateStatus": "source assessment candidate; not suitable fit; no QA/ATEL-25, no G1/base approval",
+  "source": {
+    "path": "quality/candidates/user-supplied/white_shirt_black_leather_skirt_outfit.glb",
+    "sha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+    "license": "CC-BY-4.0",
+    "author": "Style3D CG",
+    "url": "https://sketchfab.com/3d-models/white-shirt-black-leather-skirt-outfit-9f9e3d05217a4f969cd08224ad0b0aee",
+    "registryId": "user-white-shirt-black-leather-skirt-outfit-48f2e9ba-v1",
+    "registryStatus": "candidate",
+    "sourceUnmodified": true
+  },
+  "derived": {
+    "path": "orders/ATEL-23/source-assessment/candidate-shirt-islands.glb",
+    "sha256": "d4d27b29cead3a83141d67a1cbaffd0bca0822f1030df4407b9f319c6d7fe41e",
+    "bytes": 8979896,
+    "uv0": true,
+    "transforms": "Preserves source node hierarchy/rotation; appends diagnostic wrapper scale [0.001,0.001,0.001] to express source mm assumption in meters.",
+    "extraction": "Only whole disconnected triangle components identified by shared original index IDs; no vertex welding, face deletion or remesh.",
+    "selectedIslands": {
+      "2": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "5": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "6": [
+        6,
+        7
+      ],
+      "7": [
+        0,
+        1
+      ],
+      "8": [
+        0,
+        1
+      ],
+      "10": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "11": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "12": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "excludedSkirtIslands": "See island-map-all.json disposition fields; includes mesh 5 waist tie and mesh 10–12 skirt button groups removed."
+  },
+  "mannequin": {
+    "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "units": "meters; +Y up; +Z front; T-pose; no additional mannequin scaling"
+  },
+  "fitPreview": {
+    "path": "orders/ATEL-23/source-assessment/fit-evidence/shirt-candidate-on-mannequin-v1.glb",
+    "sha256": "b55785dafefbbf1f2c54ab704ba323aaf3d8ccbba978c09910aa85e15ed5622e",
+    "browserUrl": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel32-fit-screen/index.html",
+    "browserLoaded": true,
+    "desktopCapture": true,
+    "mobileCapture": true,
+    "rotation": true,
+    "zoom": true,
+    "pageErrors": []
+  },
+  "clearance": {
+    "path": "quality/evidence/ATEL-32-source-assessment/contact-clearance-analysis.json",
+    "screenInput": "orders/ATEL-23/source-assessment/fit-evidence/triangle-screen-input.glb",
+    "screenInputSha256": "4bc44b9ea496174e83b98c19b9f4f311f7f4843e52091425ea1ab2cc2cbe9d07",
+    "candidatePairs": 35479,
+    "triangleIntersectionPairs": 4600,
+    "byZone": {
+      "other": {
+        "candidatePairs": 26530,
+        "intersections": 3627,
+        "insideSamples": 48612,
+        "minPairClearanceMeters": 0,
+        "maxSampledDepthMeters": 0.0217876
+      },
+      "shoulder/upper torso": {
+        "candidatePairs": 8949,
+        "intersections": 973,
+        "insideSamples": 23463,
+        "minPairClearanceMeters": 0,
+        "maxSampledDepthMeters": 0.0240511
+      }
+    },
+    "maxSampledPenetrationMeters": 0.0240511,
+    "interpretation": "Not fit-approved: strong intersections and sampled penetration remain. Candidate retains source garment shape and is only submitted for independent Lead/QA assessment; not a G1 finding."
+  },
+  "candidateBrowser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel32-shirt-candidate/index.html",
+    "loaded": true,
+    "rotation": true,
+    "zoom": true,
+    "mobile": true,
+    "pageErrors": []
+  },
+  "evidence": {
+    "componentMap": "quality/evidence/ATEL-32-source-assessment/component-map.json",
+    "islandMap": "quality/evidence/ATEL-32-source-assessment/island-map-all.json",
+    "candidateCaptures": "quality/evidence/ATEL-32-source-assessment/candidate-browser-qa",
+    "fitCaptures": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa",
+    "captureHashManifest": "quality/evidence/ATEL-32-source-assessment/capture-hashes.json"
+  },
+  "unchanged": {
+    "v2_4Sha256": "b2cdec66077a9d0e49082bd93f73374ceb9519a7a7c2a8ec2857b91a2cb5be46",
+    "v2_5Sha256": "951e128906de9a94f4e663f0ced528da13759cd5a3385b32d5f0cf2d7f832936",
+    "registryModified": false,
+    "artworkMaterialViewerCatalogModified": false
+  },
+  "leadReview": {
+    "reviewed": true,
+    "decision": "Extraction follows whole indexed-island rule, but source-derived candidate is not fit; no QA/ATEL-25 and no base/G1 approval.",
+    "evidence": {
+      "triangleIntersections": 4600,
+      "candidatePairs": 35479,
+      "maxSampledPenetrationMeters": 0.0240511,
+      "visualFinding": "front capture shows shirt form visibly short/narrow against mannequin-v1 T-pose"
+    },
+    "nextAction": "Stop variants from this source unless a newly approved source/form correction is provided.",
+    "preserve": [
+      "source outfit",
+      "registry status candidate",
+      "ATEL-23 v2.4",
+      "ATEL-23 v2.5"
+    ]
+  }
+}

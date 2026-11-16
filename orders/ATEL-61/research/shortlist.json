@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-61",
+  "round": 4,
+  "profile": "invisible-body-v1",
+  "benchmark": "ATEL-35/v1",
+  "selectionLimit": {
+    "minutes": 15,
+    "maxSources": 2
+  },
+  "sourcesChecked": 2,
+  "downloadablePermittedGLBsObtained": 0,
+  "decision": "no-suitable-download-blocked",
+  "selectedBase": null,
+  "sources": [
+    {
+      "id": "github-dnewcome-custom-shirts",
+      "page": "https://github.com/dnewcome/custom-shirts",
+      "decision": "excluded",
+      "reason": "No explicit license and no prebuilt GLB; documented collar caveat."
+    },
+    {
+      "id": "artstation-3d-drape-shirt-male-shirt-agpaq",
+      "page": "https://www.artstation.com/marketplace/p/agpaq/3d-drape-shirt-male-shirt",
+      "decision": "excluded",
+      "reason": "Wrong garment construction despite listing title; purchasing the GLB would not satisfy the button-down brief."
+    }
+  ],
+  "blocker": "Không có GLB sơ mi độc lập mới vừa tải được vừa có provenance phù hợp. GitHub repo không có license/GLB phát hành; ArtStation có GLB sau sign-in và mua $12 nhưng gallery thể hiện áo cổ tròn tay ngắn, sai cấu trúc sơ mi.",
+  "acquisitionRequest": "Owner cung cấp trực tiếp một GLB sơ mi độc lập có quyền dùng trong AtelierX hoặc URL tải được kèm license rõ; cần cổ bẻ có chân cổ + hai lá, nẹp/khuy, tay dài/cuff, cửa vỏ áo mở và drape tự nhiên. Không yêu cầu tải ArtStation asset sai loại.",
+  "etaMinutes": 15,
+  "etaBasis": "15 phút tính từ lúc nhận file/URL tải được để kiểm provenance, SHA-256, chụp front/back/side/oblique và báo quyết định."
+}

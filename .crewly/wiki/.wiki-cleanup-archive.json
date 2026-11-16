@@ -1,0 +1,2345 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "relPath": "llm-curated/patterns/2026-11-06-bbs-5-current-booking-implementation-is-publicbookingpage.md",
+      "archivedAt": "2026-11-13T18:17:10.488Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# [[BBS-5]] Current booking implementation is PublicBookingPage\n\n[[BBS-5]] Current booking implementation is PublicBookingPage.tsx. Strict frontend lint requires type aliases, braced void handlers, SyntheticEvent instead of deprecated FormEvent, and normalized Headers. Async effect cancellation checks use a helper function to avoid TypeScript narrowing across await causing no-unnecessary-condition false positives. Source lint and web typecheck/build pass; component suite pending.\n",
+      "frontmatter": {
+        "title": "[[BBS-5]] Current booking implementation is PublicBookingPage",
+        "migrated_from": "agent/qlda-team-fe-developer-690d736f/memory.json",
+        "original_id": "63d51ac9-8e41-4160-a091-0a66ae73a471",
+        "original_author": "qlda-team-fe-developer-690d736f",
+        "original_date": "2026-11-06T17:10:43.078Z",
+        "category": "best-practice",
+        "confidence": 0.3,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-06-bbs-5-qa-created.md",
+      "archivedAt": "2026-11-13T18:17:10.605Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# [[BBS-5]] QA-created\n\n[[BBS-5]] QA-created .env enables VITE_API_URL and exposes hardcoded relative URL expectations in frontend API tests. Failed assertions bypass inline mockRestore, polluting later tests and creating misleading Content-Type failures. Tests should honor configured API origin and restore mocks in afterEach regardless of assertion outcomes.\n",
+      "frontmatter": {
+        "title": "[[BBS-5]] QA-created",
+        "migrated_from": "agent/qlda-team-fe-developer-690d736f/memory.json",
+        "original_id": "67f3af8d-6b17-43a7-974f-fa7bfcead27b",
+        "original_author": "qlda-team-fe-developer-690d736f",
+        "original_date": "2026-11-06T17:13:49.203Z",
+        "category": "best-practice",
+        "confidence": 0.3,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-06-claimed-workitem-migrate-4-legacy-wiki-item-s-barbershop-booking-system-id-d8516.md",
+      "archivedAt": "2026-11-13T18:17:10.669Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 4 legacy wiki item(s) — Barbershop-Booking-System' (id: d851693c-3dd2-4f19\n\nClaimed WorkItem 'Migrate 4 legacy wiki item(s) — Barbershop-Booking-System' (id: d851693c-3dd2-4f19-a4d3-8993694c3f06, claim: 4675ba9c-6631-48dc-8dac-655b1a40fb20) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 4 legacy wiki item(s) — Barbershop-Booking-System' (id: d851693c-3dd2-4f19",
+        "migrated_from": "agent/qlda-team-team-leader-0f797e8a/memory.json",
+        "original_id": "51a84317-4b28-4190-ab44-ebee6f1f786b",
+        "original_author": "qlda-team-team-leader-0f797e8a",
+        "original_date": "2026-11-06T15:45:48.368Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-06-claimed-workitem-mission-review-x-y-d-ng-ho-n-ch-nh-h-th-ng-website-qu-n-l-v-t-l.md",
+      "archivedAt": "2026-11-13T18:17:10.806Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Mission review — Xây dựng hoàn chỉnh hệ thống Website Quản lý và Đặt lịch cắt' (id\n\nClaimed WorkItem 'Mission review — Xây dựng hoàn chỉnh hệ thống Website Quản lý và Đặt lịch cắt' (id: mission-1793857893021:review:2026-11-06, claim: 03d27af2-953b-4fd5-978a-31940c16d1a7) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Mission review — Xây dựng hoàn chỉnh hệ thống Website Quản lý và Đặt lịch cắt' (id",
+        "migrated_from": "agent/qlda-team-team-leader-0f797e8a/memory.json",
+        "original_id": "6ae2e23a-61a2-4ebe-826f-333a18a80d69",
+        "original_author": "qlda-team-team-leader-0f797e8a",
+        "original_date": "2026-11-06T15:40:27.273Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-06-claimed-workitem-verify-barbershop-worker-output-id-da91f0a4-a12c-4618-9037-4535.md",
+      "archivedAt": "2026-11-13T18:17:10.840Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Verify Barbershop worker output' (id: da91f0a4-a12c-4618-9037-4535f1bb6289, claim:\n\nClaimed WorkItem 'Verify Barbershop worker output' (id: da91f0a4-a12c-4618-9037-4535f1bb6289, claim: d5f88c82-6f91-4fc4-95e7-551ba80c1da6) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Verify Barbershop worker output' (id: da91f0a4-a12c-4618-9037-4535f1bb6289, claim:",
+        "migrated_from": "agent/qlda-team-team-leader-0f797e8a/memory.json",
+        "original_id": "ac468fde-bbcf-48d1-90f8-f89b71373236",
+        "original_author": "qlda-team-team-leader-0f797e8a",
+        "original_date": "2026-11-06T15:45:32.236Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-06-claimed-workitem-verify-persistence-and-safe-booking-backend.md",
+      "archivedAt": "2026-11-13T18:17:10.858Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Verify: # Persistence and safe booking backend\n\nClaimed WorkItem 'Verify: # Persistence and safe booking backend\nGoal: Deliver approved Mission mission-1793857893021 for Barbershop Booking System: responsive landing/prices, online service/barber/date/time booking with colli' (id: 6dcc9378-0bba-409a-a903-977cec55282c:verify:6dcc9378-0bba-409a-a903-977cec55282c, claim: 226ca568-ca98-48b7-a724-3e3e63ac74f8) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Verify: # Persistence and safe booking backend",
+        "migrated_from": "agent/qlda-team-team-leader-0f797e8a/memory.json",
+        "original_id": "ccc485a1-9a4c-4672-a75b-c9f4847cc3d1",
+        "original_author": "qlda-team-team-leader-0f797e8a",
+        "original_date": "2026-11-06T15:36:08.194Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-13-task-blocked-d-ng-viewer-shell-t-i-site-atel-1-dist-index.md",
+      "archivedAt": "2026-11-13T18:17:10.878Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã dựng viewer shell tại site-atel-1/dist/index\n\nTask blocked: Đã dựng viewer shell tại site-atel-1/dist/index.html; URL model xác nhận đúng. Chưa thể hoàn tất hoặc chụp QA vì GLB ATEL-2 chưa được bàn giao và môi trường không có Chrome/Chromium. Cần file hoodie-skull-v1.glb trong assets/models/ATEL-2/v1/ để tích hợp và kiểm desktop/mobile.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã dựng viewer shell tại site-atel-1/dist/index",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "a4e48b45-afa7-4518-8e80-6dec9ed962d8",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-13T13:29:01.444Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-13-task-blocked-s-a-ch-nh-x-c-ng-d-n-glb-v-g-c-kh-i-u-nh-n-m-t-l-ng-180-v-panel-sau.md",
+      "archivedAt": "2026-11-13T18:17:10.895Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã sửa chính xác đường dẫn GLB và góc khởi đầu nhìn mặt lưng (180° vì panel sau ở Z âm\n\nTask blocked: Đã sửa chính xác đường dẫn GLB và góc khởi đầu nhìn mặt lưng (180° vì panel sau ở Z âm); xác minh GLB v2 đọc được và HTTP local trả 200 cho HTML + model. Chưa thể hoàn tất QA: runtime không có Chrome/Chromium hay browser tool, nên không xác nhận render/interaction trên desktop/mobile và chưa có ảnh. Cần lead cung cấp browser runner/fallback QA để tiếp tục kiểm tra mô hình thật.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã sửa chính xác đường dẫn GLB và góc khởi đầu nhìn mặt lưng (180° vì panel sau ở Z âm",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "30165d54-d78b-483b-a8e0-489a628459fd",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-13T13:29:01.449Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-13-task-blocked-th-fallback-playwright-chromium-c-s-n-launcher-l-i-thi-u-libglib-2.md",
+      "archivedAt": "2026-11-13T18:17:11.012Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã thử fallback Playwright Chromium có sẵn; launcher lỗi thiếu libglib-2\n\nTask blocked: Đã thử fallback Playwright Chromium có sẵn; launcher lỗi thiếu libglib-2.0.so.0. Không cài system library theo chỉ dẫn. Chrome attach execute.sh và browser tool không có trong runtime. HTML/model HTTP 200 và GLB parse pass; render, tương tác chuột/cảm ứng và ảnh desktop/mobile vẫn chưa xác nhận. Đã nhờ lead cung cấp Sites preview/browser runner.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã thử fallback Playwright Chromium có sẵn; launcher lỗi thiếu libglib-2",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "b2b5caf1-7d6e-49bb-a367-d4450f61945c",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-13T13:29:01.452Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-atel-15-atel-9-ki-m-m-p-c-vai-v-th-placement-clean-v2-id-299929.md",
+      "archivedAt": "2026-11-14T15:14:13.103Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-15: ATEL-9: Kiểm mép cổ vai và thử placement clean-v2' (id: 29992930-0f82-42e\n\nClaimed WorkItem 'ATEL-15: ATEL-9: Kiểm mép cổ vai và thử placement clean-v2' (id: 29992930-0f82-42e2-b9b5-fdfc3f8fb015, claim: 6cebc955-7607-40c5-9ddc-91a43c08088b) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-15: ATEL-9: Kiểm mép cổ vai và thử placement clean-v2' (id: 29992930-0f82-42e",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "d914ce74-f4c5-4d44-82be-86e1956a4faa",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-14T14:37:48.929Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-atel-3-frontend-idle-verify-hoodie-viewer-id-8c53e4d6-44a7-49ec.md",
+      "archivedAt": "2026-11-14T15:14:13.140Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-3 frontend idle — verify hoodie viewer' (id: 8c53e4d6-44a7-49ec-ac7d-eecfd33b\n\nClaimed WorkItem 'ATEL-3 frontend idle — verify hoodie viewer' (id: 8c53e4d6-44a7-49ec-ac7d-eecfd33b1536, claim: 8be35c42-4a94-4c5b-9589-02efd50bdb5d) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-3 frontend idle — verify hoodie viewer' (id: 8c53e4d6-44a7-49ec-ac7d-eecfd33b",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "ccd55c2d-8a78-4f13-9008-d455e01dc436",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T04:44:20.043Z",
+        "category": "best-practice",
+        "confidence": 0.7,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-blocked-atel-1-m-ph-ng-o-hoodie-en-c-h-a-ti-t-u-l-u-l-ng-id-413.md",
+      "archivedAt": "2026-11-14T15:14:13.188Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Blocked: ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: 4135de19-\n\nClaimed WorkItem 'Blocked: ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: 4135de19-2d39-4291-978c-146f773882c4:review:blocked, claim: ee5ebfe3-c6cb-48bd-a202-0dbcf9bc11d2) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Blocked: ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: 4135de19-",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "b4bb93bd-1e7a-42f2-a024-7139ef82b84f",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T14:41:32.362Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-blocked-atel-9-n-ng-chu-n-ch-t-l-ng-phom-hoodie-v-browser-qa-at.md",
+      "archivedAt": "2026-11-14T15:14:13.263Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Blocked: ATEL-9: Nâng chuẩn chất lượng phom hoodie và browser QA AtelierX' (id: 10\n\nClaimed WorkItem 'Blocked: ATEL-9: Nâng chuẩn chất lượng phom hoodie và browser QA AtelierX' (id: 10a71ef9-29ea-4acc-bb26-a222559cb11e:review:blocked, claim: f6c493c9-018a-4195-86f1-9959ff1d0a0b) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Blocked: ATEL-9: Nâng chuẩn chất lượng phom hoodie và browser QA AtelierX' (id: 10",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "4779a18f-781d-4704-802c-d0e5c89d1ad7",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T14:39:56.794Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-blocked-retry-2-3-atel-10-t-m-ngu-n-phom-hoodie-s-ch-c-quy-n-s-.md",
+      "archivedAt": "2026-11-14T15:14:13.337Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Blocked: Retry 2/3: ATEL-10: Tìm nguồn phom hoodie sạch, có quyền sử dụng' (id: b8\n\nClaimed WorkItem 'Blocked: Retry 2/3: ATEL-10: Tìm nguồn phom hoodie sạch, có quyền sử dụng' (id: b8205063-7496-4ade-83b7-1941d053e7f8:retry:2:review:blocked, claim: 154a28f4-cb7e-438f-8758-43fa968d2202) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Blocked: Retry 2/3: ATEL-10: Tìm nguồn phom hoodie sạch, có quyền sử dụng' (id: b8",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "a5655a13-2606-4866-91c6-b25998fea1dd",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T14:45:11.542Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-47f006cc-fc45-4d04-89f.md",
+      "archivedAt": "2026-11-14T15:14:13.398Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 47f006cc-fc45-4d04-89f8-bd45f420465\n\nClaimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 47f006cc-fc45-4d04-89f8-bd45f4204650, claim: 9c93d272-5058-4d6a-9287-dfdc190be73c) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 47f006cc-fc45-4d04-89f8-bd45f420465",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "0803aa00-4cf6-44fb-b0e7-087e80b3d0b7",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T11:00:51.068Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-ce0ec325-5b40-4392-945.md",
+      "archivedAt": "2026-11-14T15:14:13.453Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: ce0ec325-5b40-4392-9453-b8354a892ac\n\nClaimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: ce0ec325-5b40-4392-9453-b8354a892ac3, claim: 95563b5a-ac70-4d95-acb1-496df034f0c6) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: ce0ec325-5b40-4392-9453-b8354a892ac",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "ea11a7a8-f3e7-471e-aedd-40174b841393",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T10:19:31.843Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-migrate-23-legacy-wiki-item-s-atelierx-id-46c2314b-60ad-4312-81.md",
+      "archivedAt": "2026-11-14T15:14:13.494Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 23 legacy wiki item(s) — AtelierX' (id: 46c2314b-60ad-4312-81d1-19a2765848\n\nClaimed WorkItem 'Migrate 23 legacy wiki item(s) — AtelierX' (id: 46c2314b-60ad-4312-81d1-19a276584816, claim: 45c0728e-3007-4fba-a075-66f4be5cee42) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 23 legacy wiki item(s) — AtelierX' (id: 46c2314b-60ad-4312-81d1-19a2765848",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "a1bcb518-edb7-4eff-b806-c0dd0f33fa0b",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T14:48:47.907Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-went-quiet-on-a-running-task-atel-15-atel-9-ki-m-m-p-c-vai-v-th.md",
+      "archivedAt": "2026-11-14T15:14:13.548Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Went quiet on a running task: ATEL-15: ATEL-9: Kiểm mép cổ vai và thử placement cl\n\nClaimed WorkItem 'Went quiet on a running task: ATEL-15: ATEL-9: Kiểm mép cổ vai và thử placement clean-v2' (id: 29992930-0f82-42e2-b9b5-fdfc3f8fb015:review:idle_holder, claim: 8c12fe53-42f9-4de7-975b-18765c994d91) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Went quiet on a running task: ATEL-15: ATEL-9: Kiểm mép cổ vai và thử placement cl",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "f8349966-1bf5-4aad-8174-6dcd861ad165",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T14:43:02.642Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-atel-1-m-ph-ng-o-hoodie-en-c-h-a-ti-t-u-l-u-l-ng-id-d801bc39-6b.md",
+      "archivedAt": "2026-11-14T15:27:37.903Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: d801bc39-6b18-4c21\n\nClaimed WorkItem 'ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: d801bc39-6b18-4c21-882b-03054725150f, claim: a75ae899-6c59-4acd-afef-9a63d0c81713) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: d801bc39-6b18-4c21",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "e9d3147b-693e-4e05-8029-630852ecc1e5",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T15:05:32.497Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-atel-17-atel-17-s-a-phom-c-vai-v-t-i-u-placement-clean-v2-theo-.md",
+      "archivedAt": "2026-11-14T15:27:37.972Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-17: ATEL-17: Sửa phom cổ-vai và tối ưu placement clean-v2 theo G1' (id: f7b91\n\nClaimed WorkItem 'ATEL-17: ATEL-17: Sửa phom cổ-vai và tối ưu placement clean-v2 theo G1' (id: f7b9150d-49c1-4b0b-a6ff-84a81b7fe504, claim: 17a1b57b-e9c3-4496-a290-e8e2ca73d7ab) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-17: ATEL-17: Sửa phom cổ-vai và tối ưu placement clean-v2 theo G1' (id: f7b91",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "6ad4a985-9875-4fec-87f9-585b6bc7dc5c",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-14T15:10:42.712Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-sent-back-tkt-004-id-79975d62-9fea-4987-9c29-a1141830c71a-claim.md",
+      "archivedAt": "2026-11-14T15:27:38.020Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Sent back TKT-004' (id: 79975d62-9fea-4987-9c29-a1141830c71a, claim: 85f97415-443d\n\nClaimed WorkItem 'Sent back TKT-004' (id: 79975d62-9fea-4987-9c29-a1141830c71a, claim: 85f97415-443d-4c31-8285-0962fff2068a) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Sent back TKT-004' (id: 79975d62-9fea-4987-9c29-a1141830c71a, claim: 85f97415-443d",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "24469188-1bd2-4125-97ad-ebdfb396633b",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T14:49:20.124Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-atel-8-qa-report-was-already-posted-to-the-specified-atelierx-order.md",
+      "archivedAt": "2026-11-14T15:27:38.085Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: ATEL-8 QA report was already posted to the specified AtelierX order thread and logged;\n\nTask blocked: ATEL-8 QA report was already posted to the specified AtelierX order thread and logged; no duplicate owner post. Runtime browser checks remain blocked, so preserve the blocked WorkItem state.\n",
+      "frontmatter": {
+        "title": "Task blocked: ATEL-8 QA report was already posted to the specified AtelierX order thread and logged;",
+        "migrated_from": "agent/atelierx-qa-0004/memory.json",
+        "original_id": "52b018f3-74a9-4a3c-bb18-c5a4c879a229",
+        "original_author": "atelierx-qa-0004",
+        "original_date": "2026-11-14T14:38:02.348Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-g-i-studio-lead-y-u-c-u-c-n-ch-nh-atel-1-l-ticket-cha-thu-c-lead-tr.md",
+      "archivedAt": "2026-11-14T15:27:38.106Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã gửi Studio Lead yêu cầu căn chỉnh: ATEL-1 là ticket cha thuộc Lead, trong khi WorkI\n\nTask blocked: Đã gửi Studio Lead yêu cầu căn chỉnh: ATEL-1 là ticket cha thuộc Lead, trong khi WorkItem được route nhầm cho backend; poll-tasks không nhận claim. Ticket còn thiếu browser QA/report revision 02 và Lead cần chạy quality gate.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã gửi Studio Lead yêu cầu căn chỉnh: ATEL-1 là ticket cha thuộc Lead, trong khi WorkI",
+        "migrated_from": "agent/atelierx-backend-developer-0005/memory.json",
+        "original_id": "e4b61fc6-4515-413f-b58a-3d791333af9c",
+        "original_author": "atelierx-backend-developer-0005",
+        "original_date": "2026-11-14T14:38:02.370Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-kh-i-ph-c-ng-c-nh-atel-1-hi-n-c-ghi-blocked-l-ch-s-n-u-ticket-cha-t.md",
+      "archivedAt": "2026-11-14T15:27:38.199Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã khôi phục ngữ cảnh: ATEL-1 hiện được ghi blocked; lịch sử nêu ticket cha thuộc Stud\n\nTask blocked: Đã khôi phục ngữ cảnh: ATEL-1 hiện được ghi blocked; lịch sử nêu ticket cha thuộc Studio Lead và thiếu browser capture QA thực tế cùng revision. Tôi đã đăng ký active; sẽ kiểm tra state và cập nhật người phụ trách theo operating model.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã khôi phục ngữ cảnh: ATEL-1 hiện được ghi blocked; lịch sử nêu ticket cha thuộc Stud",
+        "migrated_from": "agent/atelierx-tpm-0002/memory.json",
+        "original_id": "847a6d12-203d-42d3-ae74-58fd6f3757ad",
+        "original_author": "atelierx-tpm-0002",
+        "original_date": "2026-11-14T14:38:02.253Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-kh-i-ph-c-phi-n-atel-1-l-ticket-cha-thu-c-studio-lead-workitem-back.md",
+      "archivedAt": "2026-11-14T15:27:38.259Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Khôi phục phiên: ATEL-1 là ticket cha thuộc Studio Lead; WorkItem backend trước đây bị\n\nTask blocked: Khôi phục phiên: ATEL-1 là ticket cha thuộc Studio Lead; WorkItem backend trước đây bị route nhầm, và còn thiếu QA browser/report revision 02 cùng bước quality gate của Lead. Đang xác minh trạng thái authoritative trước khi nhận thêm việc.\n",
+      "frontmatter": {
+        "title": "Task blocked: Khôi phục phiên: ATEL-1 là ticket cha thuộc Studio Lead; WorkItem backend trước đây bị",
+        "migrated_from": "agent/atelierx-backend-developer-0005/memory.json",
+        "original_id": "6cc846b4-b20a-4122-ba86-4872336913ba",
+        "original_author": "atelierx-backend-developer-0005",
+        "original_date": "2026-11-14T14:38:02.375Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-kh-i-ph-c-phi-n-v-x-c-minh-workitem-atel-1-v-n-blocked-lead-x-c-nh-.md",
+      "archivedAt": "2026-11-14T15:27:38.319Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã khôi phục phiên và xác minh WorkItem ATEL-1 vẫn blocked; Lead xác nhận QA đủ bằng c\n\nTask blocked: Đã khôi phục phiên và xác minh WorkItem ATEL-1 vẫn blocked; Lead xác nhận QA đủ bằng chứng nhưng sản phẩm còn preview do phom chưa được duyệt. Đây là ticket cha thuộc Lead, không có phần backend được giao hợp lệ. Cần Lead căn chỉnh/đóng route WorkItem hoặc giao ticket con backend riêng nếu có.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã khôi phục phiên và xác minh WorkItem ATEL-1 vẫn blocked; Lead xác nhận QA đủ bằng c",
+        "migrated_from": "agent/atelierx-backend-developer-0005/memory.json",
+        "original_id": "a414b0be-5d31-4fa5-9e32-a51b6016630a",
+        "original_author": "atelierx-backend-developer-0005",
+        "original_date": "2026-11-14T14:38:02.398Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-dispatch-atel-10-nh-ng-poll-fifo-claim-nh-m-workitem-atel-1-hai-l-n.md",
+      "archivedAt": "2026-11-14T15:58:59.412Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Dispatch ATEL-10 nhưng poll FIFO claim nhầm WorkItem ATEL-1 hai lần\n\nTask blocked: Dispatch ATEL-10 nhưng poll FIFO claim nhầm WorkItem ATEL-1 hai lần. Đã release claim nhầm và báo Lead; cần sửa routing/claim để tiếp tục đúng ticket ATEL-10.\n",
+      "frontmatter": {
+        "title": "Task blocked: Dispatch ATEL-10 nhưng poll FIFO claim nhầm WorkItem ATEL-1 hai lần",
+        "migrated_from": "agent/atelierx-tpm-0002/memory.json",
+        "original_id": "a1dd821a-39a5-4b82-aebb-561ecac7d310",
+        "original_author": "atelierx-tpm-0002",
+        "original_date": "2026-11-14T14:38:02.262Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-kh-ng-c-vi-c-backend-c-n-ti-p-t-c.md",
+      "archivedAt": "2026-11-14T15:58:59.477Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Không có việc backend cần tiếp tục\n\nTask blocked: Không có việc backend cần tiếp tục. Route sai ATEL-1 vẫn chưa được Lead chỉnh; ticket in_progress/frontmatter backend-0005 nhưng WorkItem blocked do ownership mismatch. ATEL-12 done. QA v2 chưa đạt nên preview; Lead cần căn chỉnh assignment/status. ## Migrated learnings.md — imported 2026-11-14T11:01:02.883Z # Project Learnings: AtelierX This file contains learnings discovered during development. --- ## 2026-11-13 ### [frontend-developer/atelierx-frontend-developer-0006] 12:50:33 Task blocked: Đã dựng viewer shell tại site-atel-1/dist/index.html; URL model xác nhận đúng. Chưa th…\n",
+      "frontmatter": {
+        "title": "Task blocked: Không có việc backend cần tiếp tục",
+        "migrated_from": "agent/atelierx-backend-developer-0005/memory.json",
+        "original_id": "ebc28a32-346a-431e-bfcf-201607d5914d",
+        "original_author": "atelierx-backend-developer-0005",
+        "original_date": "2026-11-14T14:38:02.392Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-kh-ng-th-nh-n-verify-atel-10-task-pool-v-n-b-o-queued-v-ng-target-p.md",
+      "archivedAt": "2026-11-14T15:58:59.525Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Không thể nhận Verify ATEL-10: Task Pool vẫn báo queued và đúng target phiên này, nhưn\n\nTask blocked: Không thể nhận Verify ATEL-10: Task Pool vẫn báo queued và đúng target phiên này, nhưng poll trượt vào review ATEL-1 cũ rồi trả 404; claim ID đích cũng trả 404 not claimable.\n",
+      "frontmatter": {
+        "title": "Task blocked: Không thể nhận Verify ATEL-10: Task Pool vẫn báo queued và đúng target phiên này, nhưn",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "289bd1ae-f0b1-4051-897a-ff7d7d5a0d79",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T14:38:02.157Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-ng-b-nh-n-ui-sang-atel-1-v2-revision-02-local-http-source-checks-pa.md",
+      "archivedAt": "2026-11-14T15:58:59.582Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đồng bộ nhãn UI sang ATEL-1 v2/REVISION 02; local HTTP/source checks pass cho trang và\n\nTask blocked: Đồng bộ nhãn UI sang ATEL-1 v2/REVISION 02; local HTTP/source checks pass cho trang và GLB canonical v2, không sửa model. Chưa đạt nghiệm thu browser: Chromium thiếu system libraries, nên render desktop/mobile, xoay/zoom thực tế và screenshots chưa xác minh.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đồng bộ nhãn UI sang ATEL-1 v2/REVISION 02; local HTTP/source checks pass cho trang và",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "54b56274-c8ed-4ce2-a1c3-2fc6afd110a3",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-14T14:38:02.436Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-phi-u-qa-atel-2-v2-ho-n-t-t-v-ng-trong-thread-asset-glb-manifest-te.md",
+      "archivedAt": "2026-11-14T15:58:59.643Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Phiếu QA ATEL-2/v2 hoàn tất và đăng trong thread; asset, GLB, manifest, tests và HTTP \n\nTask blocked: Phiếu QA ATEL-2/v2 hoàn tất và đăng trong thread; asset, GLB, manifest, tests và HTTP đạt kiểm tra tĩnh. WorkItem bị chặn cho runtime vì không có browser runner; viewer source cũng còn nhãn v1.\n",
+      "frontmatter": {
+        "title": "Task blocked: Phiếu QA ATEL-2/v2 hoàn tất và đăng trong thread; asset, GLB, manifest, tests và HTTP ",
+        "migrated_from": "agent/atelierx-qa-0004/memory.json",
+        "original_id": "319ba3d4-6255-4ec4-9e82-1250e179a9e1",
+        "original_author": "atelierx-qa-0004",
+        "original_date": "2026-11-14T14:38:02.329Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-release-atel-1-v-ready-studio-lead-ti-p-qu-n-ng-ownership-g-i-struc.md",
+      "archivedAt": "2026-11-14T15:58:59.693Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã release ATEL-1 về ready để Studio Lead tiếp quản đúng ownership; gửi structured blo\n\nTask blocked: Đã release ATEL-1 về ready để Studio Lead tiếp quản đúng ownership; gửi structured blocker và bước tiếp theo. Viewer v2 đã có, nhưng thiếu QA browser capture và report revision 02, nên gate/publish chưa đạt.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã release ATEL-1 về ready để Studio Lead tiếp quản đúng ownership; gửi structured blo",
+        "migrated_from": "agent/atelierx-tpm-0002/memory.json",
+        "original_id": "c7972149-7aa7-4c7b-ad81-4c61a9eaa845",
+        "original_author": "atelierx-tpm-0002",
+        "original_date": "2026-11-14T14:38:02.258Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-t-ch-h-p-local-atel-2-v2-ho-n-t-t-source-url-c-p-nh-t-ng-canonical-.md",
+      "archivedAt": "2026-11-14T15:58:59.739Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Tích hợp local ATEL-2/v2 hoàn tất: source URL cập nhật đúng canonical GLB; không sửa a\n\nTask blocked: Tích hợp local ATEL-2/v2 hoàn tất: source URL cập nhật đúng canonical GLB; không sửa asset/model. HTTP page và GLB trả 200; GLB v2 parse và các UI/controls được source-check. Browser QA desktop/mobile, render thực, rotation/zoom và screenshots chưa xác nhận vì Chromium thiếu system libraries và không có browser runner.\n",
+      "frontmatter": {
+        "title": "Task blocked: Tích hợp local ATEL-2/v2 hoàn tất: source URL cập nhật đúng canonical GLB; không sửa a",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "b176a978-dfc7-4d83-bc86-297a3aa4cd7b",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-14T14:38:02.422Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-t-ch-h-p-local-atel-2-v2-ho-n-t-t-source-url-canonical-ng-kh-ng-s-a.md",
+      "archivedAt": "2026-11-14T15:58:59.784Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Tích hợp local ATEL-2/v2 hoàn tất: source URL canonical đúng; không sửa asset/model\n\nTask blocked: Tích hợp local ATEL-2/v2 hoàn tất: source URL canonical đúng; không sửa asset/model. HTTP page và GLB trả 200; GLB v2 parse và source checks loading/error, back orbit, mouse/touch controls đạt. Browser QA desktop/mobile, render thực, rotation/zoom và screenshots chưa xác nhận vì Chromium thiếu system libraries và không có browser runner.\n",
+      "frontmatter": {
+        "title": "Task blocked: Tích hợp local ATEL-2/v2 hoàn tất: source URL canonical đúng; không sửa asset/model",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "4cb0acb7-35e2-4cd0-9e71-9fef88e92ecd",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-14T14:38:02.429Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-team-lead-x-c-nh-n-kh-ng-giao-th-m-vi-c-backend-cho-atel-1.md",
+      "archivedAt": "2026-11-14T15:58:59.825Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Team Lead xác nhận không giao thêm việc backend cho ATEL-1\n\nTask blocked: Team Lead xác nhận không giao thêm việc backend cho ATEL-1. Material spec ATEL-12 đã done; không sửa assets/catalog/QA. WorkItem ATEL-1 vẫn blocked do route sai ownership; Lead xử lý routing và tiếp tục Designer/QA ATEL-15. QA v2 còn blocker nên catalog giữ preview.\n",
+      "frontmatter": {
+        "title": "Task blocked: Team Lead xác nhận không giao thêm việc backend cho ATEL-1",
+        "migrated_from": "agent/atelierx-backend-developer-0005/memory.json",
+        "original_id": "a2e61394-b4f9-4671-9b4d-9529e9124b42",
+        "original_author": "atelierx-backend-developer-0005",
+        "original_date": "2026-11-14T14:38:02.386Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-505ee26c-e2dd-4539-8c9.md",
+      "archivedAt": "2026-11-15T01:11:12.695Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 505ee26c-e2dd-4539-8c92-8235b4996c1\n\nClaimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 505ee26c-e2dd-4539-8c92-8235b4996c19, claim: ce173f42-d90b-4689-8dd3-64c0e2d6667e) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 505ee26c-e2dd-4539-8c92-8235b4996c1",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "df39b889-0fd2-431e-8fb0-16e75458cc69",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T22:02:33.992Z",
+        "category": "best-practice",
+        "confidence": 0.7,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-claimed-workitem-verify-retry-1-3-atel-29-atel-23-s-a-ph-n-ch-sau-v-fit-tay-o-id.md",
+      "archivedAt": "2026-11-15T01:11:12.754Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Verify: Retry 1/3: ATEL-29: ATEL-23: Sửa độ phủ nách sau và fit tay áo' (id: db390\n\nClaimed WorkItem 'Verify: Retry 1/3: ATEL-29: ATEL-23: Sửa độ phủ nách sau và fit tay áo' (id: db390237-7612-4ce1-b2f0-85e87dde7d20:retry:1:verify:db390237-7612-4ce1-b2f0-85e87dde7d20:retry:1, claim: b3c1c519-b916-4cae-a74a-a8df2139ced0) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Verify: Retry 1/3: ATEL-29: ATEL-23: Sửa độ phủ nách sau và fit tay áo' (id: db390",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "a299ff88-d3a5-477a-aaf6-a7a2623d0609",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-14T21:58:27.994Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-current-unfinished-work-snapshot-2026-11-14-atel-26-workitem-8f3dbfab-9acd-44ce-.md",
+      "archivedAt": "2026-11-15T01:11:12.964Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Current unfinished-work snapshot (2026-11-14): ATEL-26 WorkItem 8f3dbfab-9acd-44ce-a97c-8c3b65d4b8cd\n\nCurrent unfinished-work snapshot (2026-11-14): ATEL-26 WorkItem 8f3dbfab-9acd-44ce-a97c-8c3b65d4b8cd is blocked. The ATEL-23/v1 viewer scaffold/content draft is ready, but QA report quality/reports/ATEL-23/v1.json returned G1 because the mannequin shows/intersects through both rear armholes. Studio Lead assigned ATEL-29 corrective garment work to Designer. Do not integrate material, create display.glb, or change showcase catalog until revised frozen fit passes independent QA and Lead grants G1. ATEL-25 final product QA is pending.\n",
+      "frontmatter": {
+        "title": "Current unfinished-work snapshot (2026-11-14): ATEL-26 WorkItem 8f3dbfab-9acd-44ce-a97c-8c3b65d4b8cd",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "adfd9989-c302-48fb-b56c-e3a7f575cec6",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-14T20:42:16.142Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-x-c-minh-workitem-6dc47db3-ang-running-ticket-cha-ghi-r-ch-studio-l.md",
+      "archivedAt": "2026-11-15T01:11:13.176Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã xác minh WorkItem 6dc47db3 đang running; ticket cha ghi rõ chỉ Studio Lead sở hữu v\n\nTask blocked: Đã xác minh WorkItem 6dc47db3 đang running; ticket cha ghi rõ chỉ Studio Lead sở hữu và quyết định nghiệm thu. Poll FIFO không claim vì WorkItem đã được gán/claim; accept-task targeted bị 404 vì item không còn claimable. Hợp đồng hiện có yêu cầu QA browser thực tế cùng revision; lịch sử ticket ghi browser relay disconnected, không có screenshots render/xoay/zoom desktop/mobile. Tôi không thể thay QA hoặc Lead. Đề nghị Lead khôi phục browser runner/ủy quyền QA đúng agent, hoàn tất evidence rồi Lead chạy quality gate và publish.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã xác minh WorkItem 6dc47db3 đang running; ticket cha ghi rõ chỉ Studio Lead sở hữu v",
+        "migrated_from": "agent/atelierx-tpm-0002/memory.json",
+        "original_id": "19c5147d-d6d5-48a9-babb-8bd0782af894",
+        "original_author": "atelierx-tpm-0002",
+        "original_date": "2026-11-14T14:38:02.199Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-x-c-nh-n-browser-capture-th-t-ho-t-ng-tr-n-quality-preview-desktop-.md",
+      "archivedAt": "2026-11-15T01:11:13.341Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã xác nhận browser capture thật hoạt động trên quality-preview desktop/mobile; ảnh tư\n\nTask blocked: Đã xác nhận browser capture thật hoạt động trên quality-preview desktop/mobile; ảnh tương tác đạt nhưng QA thấy giá đỡ che/xuyên qua hoodie. Base mesh vẫn candidate nên chưa thể duyệt phom.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã xác nhận browser capture thật hoạt động trên quality-preview desktop/mobile; ảnh tư",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "bd1bc820-6201-4362-bf43-bbf032eb999e",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-14T14:38:02.441Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-14-task-blocked-y-u-c-u-team-lead-g-i-l-i-k-t-qu-v-h-p-ng-task-b-th-t-l-c.md",
+      "archivedAt": "2026-11-15T01:11:13.396Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: Đã yêu cầu Team Lead gửi lại kết quả và hợp đồng task bị thất lạc\n\nTask blocked: Đã yêu cầu Team Lead gửi lại kết quả và hợp đồng task bị thất lạc. Chưa bắt đầu sửa ATEL-1 vì ticket cha thuộc Lead và chưa có phân công backend hợp lệ; chờ xác nhận scope/WorkItem.\n",
+      "frontmatter": {
+        "title": "Task blocked: Đã yêu cầu Team Lead gửi lại kết quả và hợp đồng task bị thất lạc",
+        "migrated_from": "agent/atelierx-backend-developer-0005/memory.json",
+        "original_id": "c7d48e26-342a-4779-956c-04d0a085da5c",
+        "original_author": "atelierx-backend-developer-0005",
+        "original_date": "2026-11-14T14:38:02.382Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-idle-self-ping-atel-30-v2.md",
+      "archivedAt": "2026-11-15T01:11:13.451Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Blocked: Idle self-ping — ATEL-30 v2\n\nClaimed WorkItem 'Blocked: Idle self-ping — ATEL-30 v2.2 handoff' (id: 0525b818-0e97-4c92-a271-f6b2feaba897:review:blocked, claim: 16f9001e-66fb-4ca9-a333-5839806c02cb) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Blocked: Idle self-ping — ATEL-30 v2",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "bfebcc2e-96d1-47d2-8c6f-2d07e6d37261",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T00:41:36.423Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-idle-self-ping-atel-30-v2.md",
+      "archivedAt": "2026-11-15T01:11:13.503Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Idle self-ping — ATEL-30 v2\n\nClaimed WorkItem 'Idle self-ping — ATEL-30 v2.2 handoff' (id: 0525b818-0e97-4c92-a271-f6b2feaba897, claim: ac2fe84d-9b01-420d-9cae-050d0d29506d) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Idle self-ping — ATEL-30 v2",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "7235c80a-c4e3-45c2-b894-397318ec9007",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T00:34:48.095Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-d135a3b9-c02a-4f26-908.md",
+      "archivedAt": "2026-11-15T01:11:13.587Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: d135a3b9-c02a-4f26-908e-6b8da8e266f\n\nClaimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: d135a3b9-c02a-4f26-908e-6b8da8e266f5, claim: e58b7256-6f7e-42cc-b3d8-711aa186d1af) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: d135a3b9-c02a-4f26-908e-6b8da8e266f",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "75d91094-84b3-41a1-9826-ad6fdfd93b7e",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T00:29:06.254Z",
+        "category": "best-practice",
+        "confidence": 0.7,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-2026-11-15-atel-23-latest-status-after-v2.md",
+      "archivedAt": "2026-11-15T02:13:43.409Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# 2026-11-15 ATEL-23 latest status after v2\n\n2026-11-15 ATEL-23 latest status after v2.4 QA: report quality/reports/ATEL-23/v2.4.json SHA-256 2785a8b946d5f3a018ad1685cabd6325af220b21d81d4fdad4dfe88c7fad1fcf records TRẢ LẠI G1. Clearance screen has 47 broad-phase candidates, 0 intersections/inside samples, but captures show jagged collar opening and triangular fragments; fit.json has no baseMeshId and quality/base-meshes.json contains no approved shirt base. Lead assigned Designer ATEL-32 / WorkItem e84d77dd-2a18-4167-957c-2081aeef06b0 for a new corrective revision and base provenance assessment. ATEL-25 remains blocked pending new Lead-verified handoff; ATEL-26 official viewer integration/QA and publish remain pending. ATEL-1/v3 is done.\n",
+      "frontmatter": {
+        "title": "2026-11-15 ATEL-23 latest status after v2",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "ff07cf3c-113b-47f4-9465-275a82bee693",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T01:27:19.795Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-13-low-quality-wiki-page-s-project-atelierx-id-fd.md",
+      "archivedAt": "2026-11-15T02:13:43.456Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Cleanup 10 of 13 low-quality wiki page(s) — project AtelierX' (id: fd40d352-8275-4\n\nClaimed WorkItem 'Cleanup 10 of 13 low-quality wiki page(s) — project AtelierX' (id: fd40d352-8275-404b-aa44-1a6f387b1d7d, claim: c12db841-8509-4d29-99e7-1c25750d94d8) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Cleanup 10 of 13 low-quality wiki page(s) — project AtelierX' (id: fd40d352-8275-4",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "f282dba5-4cb4-4182-868b-c846147e62d3",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T01:10:39.679Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-5-legacy-wiki-item-s-atelierx-id-05a61502-2bdd-408b-b70.md",
+      "archivedAt": "2026-11-15T02:13:43.501Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 5 legacy wiki item(s) — AtelierX' (id: 05a61502-2bdd-408b-b708-f9555d90cfb\n\nClaimed WorkItem 'Migrate 5 legacy wiki item(s) — AtelierX' (id: 05a61502-2bdd-408b-b708-f9555d90cfb8, claim: ff21739e-3a84-4e3b-a4e9-0c5d25252b35) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 5 legacy wiki item(s) — AtelierX' (id: 05a61502-2bdd-408b-b708-f9555d90cfb",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "a162760a-8c47-4149-b3f8-fe522eb89312",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T01:00:11.142Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-6-legacy-wiki-item-s-atelierx-id-ed66be6f-cce5-43a4-856.md",
+      "archivedAt": "2026-11-15T02:13:43.544Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 6 legacy wiki item(s) — AtelierX' (id: ed66be6f-cce5-43a4-856a-f6c046c4646\n\nClaimed WorkItem 'Migrate 6 legacy wiki item(s) — AtelierX' (id: ed66be6f-cce5-43a4-856a-f6c046c46461, claim: bb35706a-38c2-41f4-8c6c-11c6b51046c4) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 6 legacy wiki item(s) — AtelierX' (id: ed66be6f-cce5-43a4-856a-f6c046c4646",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "89f86a29-6767-4527-b678-384ed02e72c1",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T01:31:24.125Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-refresh-standing-answer-what-is-my-unfinished-work-and-what-is-.md",
+      "archivedAt": "2026-11-15T02:13:43.590Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Refresh standing answer \"What is my unfinished work, and what is blocking it\n\nClaimed WorkItem 'Refresh standing answer \"What is my unfinished work, and what is blocking it?\" — atelierx-team-leader-0001 (10 newer)' (id: b260eba1-da6d-4c78-80dc-e763783e6271, claim: 28b0b512-500d-4c18-973c-9aeab78ce9ed) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Refresh standing answer \\\"What is my unfinished work, and what is blocking it",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "6250c584-25a6-44b9-a17e-431548cc7083",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T01:20:58.375Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-retry-1-2-different-approach-idle-self-ping-atel-30-v2.md",
+      "archivedAt": "2026-11-15T02:13:43.633Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Retry 1/2 (different approach): Idle self-ping — ATEL-30 v2\n\nClaimed WorkItem 'Retry 1/2 (different approach): Idle self-ping — ATEL-30 v2.2 handoff' (id: 0525b818-0e97-4c92-a271-f6b2feaba897:giveup:1, claim: 92a11396-b7db-4c7f-bafd-e96e7b855fce) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Retry 1/2 (different approach): Idle self-ping — ATEL-30 v2",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "0b511475-e906-4369-8641-a98fc25d95a6",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T00:35:32.696Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-30-atel-30-atel-23-ph-n-lo-i-giao-c-t-v-ch-t-cleara.md",
+      "archivedAt": "2026-11-15T02:13:43.675Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Verify: ATEL-30: ATEL-30: ATEL-23: Phân loại giao cắt và chốt clearance v2\n\nClaimed WorkItem 'Verify: ATEL-30: ATEL-30: ATEL-23: Phân loại giao cắt và chốt clearance v2.1' (id: dfe654fe-2c05-404d-8f2f-d45eea1abf13:verify:dfe654fe-2c05-404d-8f2f-d45eea1abf13, claim: 1717b293-5953-4fe1-b48a-49c63dad4b67) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Verify: ATEL-30: ATEL-30: ATEL-23: Phân loại giao cắt và chốt clearance v2",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "5f22cd43-0308-46b2-831e-6320659dd8b5",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T00:41:51.961Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-31-atel-23-s-a-giao-c-t-u-c-t-i-mi-ng-o-sau-qa-v2.md",
+      "archivedAt": "2026-11-15T02:13:43.716Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Verify: ATEL-31: ATEL-23: Sửa giao cắt đầu/cổ tại miệng áo sau QA v2\n\nClaimed WorkItem 'Verify: ATEL-31: ATEL-23: Sửa giao cắt đầu/cổ tại miệng áo sau QA v2.3' (id: beb903da-4f07-4f7c-a8e5-0035b6b6010c:verify:beb903da-4f07-4f7c-a8e5-0035b6b6010c, claim: 6746ce84-f217-42b3-9052-4652260c16fa) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Verify: ATEL-31: ATEL-23: Sửa giao cắt đầu/cổ tại miệng áo sau QA v2",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "a88f9193-6cd1-44dc-a8a9-cc1746216db0",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T01:16:01.551Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-tr-ng-th-i-atel-23-ng-y-2026-11-15-sau-lead-review-atel-31-handoff-v2.md",
+      "archivedAt": "2026-11-15T02:13:43.754Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Trạng thái ATEL-23 ngày 2026-11-15 sau Lead review: ATEL-31 handoff v2\n\nTrạng thái ATEL-23 ngày 2026-11-15 sau Lead review: ATEL-31 handoff v2.4 được xác minh và đóng review; SHA garment b2cdec66077a9d0e49082bd93f73374ceb9519a7a7c2a8ec2857b91a2cb5be46, combined a54a77c35a965b300e12f59746c1e4fc38f675736f4a780de2b2d3e8f00759d6, fit.json 2521d46a1d7aa4b3e55e7408f056a20dc98a5b1060883026b06a7577fcd287e8; clearance/intersection 47 candidate pairs, 0 intersections/inside samples, 12 captures hash-matched. ATEL-25 QA has claimed and is independently retesting v2.4; report/verdict pending. Mép opening cổ còn gồ ghề, rotation=false trên fit-preview. G1 chưa được duyệt; ATEL-26 final viewer integration vẫn blocked/held pending G1; không publish. ATEL-1/v3 ticket is done; its old pending-QA standing section is stale.\n",
+      "frontmatter": {
+        "title": "Trạng thái ATEL-23 ngày 2026-11-15 sau Lead review: ATEL-31 handoff v2",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "94fb4bba-3221-435c-b4d5-1ac95f4c6516",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T01:22:28.709Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-atel-23-status-2026-11-15-after-v2.md",
+      "archivedAt": "2026-11-15T04:33:40.143Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# ATEL-23 status 2026-11-15 after v2\n\nATEL-23 status 2026-11-15 after v2.5: v2.4 independent QA report returned G1 for ragged collar opening and missing baseMeshId. Designer v2.5 candidate worsened geometry: 1,295 intersection pairs, 34,745 inside samples, max sampled depth 16.1595 mm; collar detail remains visibly ragged. Lead stopped further SDF/clipping retries and re-scoped ATEL-32 / WorkItem 41a80a90-af18-40f5-b554-3e7aa98bf4a5 to map and optionally extract shirt-only geometry from user-authorized candidate outfit user-white-shirt-black-leather-skirt-outfit-48f2e9ba-v1 for source/QA evaluation only. Registry status remains candidate; no final use or base approval. ATEL-25 remains blocked until Lead verifies this source handoff; ATEL-26 official viewer integration/QA and publish remain held. ATEL-1 is done.\n",
+      "frontmatter": {
+        "title": "ATEL-23 status 2026-11-15 after v2",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "05117adc-99c8-4ce7-9984-53986ee29182",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T02:26:44.254Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-32-atel-23-l-m-s-ch-opening-c-v-ch-t-provenance-ph.md",
+      "archivedAt": "2026-11-15T04:33:40.240Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Blocked: ATEL-32: ATEL-23: Làm sạch opening cổ và chốt provenance phom sau QA v2\n\nClaimed WorkItem 'Blocked: ATEL-32: ATEL-23: Làm sạch opening cổ và chốt provenance phom sau QA v2.4' (id: e84d77dd-2a18-4167-957c-2081aeef06b0:review:blocked, claim: b15fe527-0e36-4443-b99f-9852c798786c) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Blocked: ATEL-32: ATEL-23: Làm sạch opening cổ và chốt provenance phom sau QA v2",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "a10e6e07-a206-4627-913a-586ded3cc929",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T02:22:19.258Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-brief-not-reaching-atelierx-designer-0003-atel-34-atel-23-proto.md",
+      "archivedAt": "2026-11-15T04:33:40.334Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Brief not reaching atelierx-designer-0003: ATEL-34: ATEL-23: Prototype phom sơ mi \n\nClaimed WorkItem 'Brief not reaching atelierx-designer-0003: ATEL-34: ATEL-23: Prototype phom sơ mi mới từ số đo mannequin' (id: 03387d63-e12e-47a6-8356-6d427e787d72:review:redelivery_miss, claim: 3d60b7fd-eb8a-4d5a-b0f9-e300a7ad78bc) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Brief not reaching atelierx-designer-0003: ATEL-34: ATEL-23: Prototype phom sơ mi ",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "241c7b09-a2d9-4c58-bdb5-796058d74497",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:17:08.368Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-brief-not-reaching-atelierx-tpm-0002-atel-33-atel-23-r-hai-ngu-.md",
+      "archivedAt": "2026-11-15T04:33:40.514Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Brief not reaching atelierx-tpm-0002: ATEL-33: ATEL-23: Rà hai nguồn phom sơ mi mớ\n\nClaimed WorkItem 'Brief not reaching atelierx-tpm-0002: ATEL-33: ATEL-23: Rà hai nguồn phom sơ mi mới cho mannequin' (id: 2e7ea55b-bc71-4a4f-ab28-be00900aecea:review:redelivery_miss, claim: af5031e5-22b2-45d6-b7ee-de20dc366c4b) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Brief not reaching atelierx-tpm-0002: ATEL-33: ATEL-23: Rà hai nguồn phom sơ mi mớ",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "2973011b-2e5b-453f-915d-6ca430c90e31",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:16:45.263Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-10-low-quality-wiki-page-s-project-atelierx-id-f6.md",
+      "archivedAt": "2026-11-15T04:33:40.641Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Cleanup 10 of 10 low-quality wiki page(s) — project AtelierX' (id: f6fdf5f5-85ef-4\n\nClaimed WorkItem 'Cleanup 10 of 10 low-quality wiki page(s) — project AtelierX' (id: f6fdf5f5-85ef-4fc8-a556-88e89452b25b, claim: e18d11d9-2405-48e9-814f-4624c8ba70fe) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Cleanup 10 of 10 low-quality wiki page(s) — project AtelierX' (id: f6fdf5f5-85ef-4",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "14b23584-3e83-42b5-a441-910a3ff45552",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T02:13:06.901Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-10bcad88-7dd7-49f7-b83.md",
+      "archivedAt": "2026-11-15T04:33:40.741Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 10bcad88-7dd7-49f7-b839-473c02e901b\n\nClaimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 10bcad88-7dd7-49f7-b839-473c02e901be, claim: f8cbd93a-640d-47c8-ad20-25d2b187f111) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 10bcad88-7dd7-49f7-b839-473c02e901b",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "d0a2a891-aeca-47e7-9faf-7e21960273a9",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T02:25:33.876Z",
+        "category": "best-practice",
+        "confidence": 0.7999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-3-legacy-wiki-item-s-atelierx-id-e5dd920c-c9a9-43c1-8bc.md",
+      "archivedAt": "2026-11-15T04:33:40.910Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 3 legacy wiki item(s) — AtelierX' (id: e5dd920c-c9a9-43c1-8bca-f9850d09044\n\nClaimed WorkItem 'Migrate 3 legacy wiki item(s) — AtelierX' (id: e5dd920c-c9a9-43c1-8bca-f9850d09044e, claim: 59ba3aa7-ce26-4278-a1d8-6b9796bb09f3) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 3 legacy wiki item(s) — AtelierX' (id: e5dd920c-c9a9-43c1-8bca-f9850d09044",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "44ade938-69df-4ab5-a368-4761ec487a1b",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T02:54:51.983Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-5-legacy-wiki-item-s-atelierx-id-988f25c1-6c45-47b0-9cc.md",
+      "archivedAt": "2026-11-15T04:33:41.098Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 5 legacy wiki item(s) — AtelierX' (id: 988f25c1-6c45-47b0-9cc8-1ce57f618e3\n\nClaimed WorkItem 'Migrate 5 legacy wiki item(s) — AtelierX' (id: 988f25c1-6c45-47b0-9cc8-1ce57f618e3a, claim: 459cb34a-8262-484c-aec5-cf2a3d8d34a2) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 5 legacy wiki item(s) — AtelierX' (id: 988f25c1-6c45-47b0-9cc8-1ce57f618e3",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "c38d9916-88cc-4240-8b46-817d7ad2bc9c",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:23:08.010Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-32-atel-23-th-m-nh-t-ch-phom-o-s-mi-t-outfit-candid.md",
+      "archivedAt": "2026-11-15T04:33:41.263Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Verify: ATEL-32: ATEL-23: Thẩm định tách phom áo sơ mi từ outfit candidate' (id: 4\n\nClaimed WorkItem 'Verify: ATEL-32: ATEL-23: Thẩm định tách phom áo sơ mi từ outfit candidate' (id: 41a80a90-af18-40f5-b554-3e7aa98bf4a5:verify:41a80a90-af18-40f5-b554-3e7aa98bf4a5, claim: fd031a0e-32ae-45e1-b1dc-293e8e53321b) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Verify: ATEL-32: ATEL-23: Thẩm định tách phom áo sơ mi từ outfit candidate' (id: 4",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "638cb137-434d-40c8-a1cf-4f9da671abd2",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T02:37:12.980Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-34-v3.md",
+      "archivedAt": "2026-11-15T05:05:05.991Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-34 v3\n\nClaimed WorkItem 'ATEL-34 v3.1 Designer idle — verify handoff' (id: d32e61be-4b2b-4fda-a79b-a9aa57cbed64, claim: 799f83b5-c38b-4706-b930-b703189ccf21) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-34 v3",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "72cd9559-5a67-4655-9f40-45cdffdbc971",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:40:01.022Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-34-v3.md",
+      "archivedAt": "2026-11-15T05:05:06.022Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Blocked: ATEL-34 v3\n\nClaimed WorkItem 'Blocked: ATEL-34 v3.1 Designer idle — verify handoff' (id: d32e61be-4b2b-4fda-a79b-a9aa57cbed64:review:blocked, claim: a5b0c2ae-29fa-46a5-abcd-f5e570c70979) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Blocked: ATEL-34 v3",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "d1044df3-a47a-4306-a06f-90870568d379",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:41:51.557Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-13-low-quality-wiki-page-s-project-atelierx-id-f8.md",
+      "archivedAt": "2026-11-15T05:05:06.043Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Cleanup 10 of 13 low-quality wiki page(s) — project AtelierX' (id: f83ed216-ef7f-4\n\nClaimed WorkItem 'Cleanup 10 of 13 low-quality wiki page(s) — project AtelierX' (id: f83ed216-ef7f-4be5-9289-f78821d9e31d, claim: c0fed87b-6cb5-49c9-8ef2-b31d7e69d8bf) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Cleanup 10 of 13 low-quality wiki page(s) — project AtelierX' (id: f83ed216-ef7f-4",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "57d131d2-f481-40e3-80a9-ff6cd04aea9d",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:32:45.244Z",
+        "category": "best-practice",
+        "confidence": 0.7,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-idle-self-ping-atel-33-34-reset-probe-id-f740bf95-c39c-4334-b5e.md",
+      "archivedAt": "2026-11-15T05:05:06.062Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Idle self-ping — ATEL-33/34 reset probe' (id: f740bf95-c39c-4334-b5e6-dbe2a8460502\n\nClaimed WorkItem 'Idle self-ping — ATEL-33/34 reset probe' (id: f740bf95-c39c-4334-b5e6-dbe2a8460502, claim: 3ea670a9-243f-4dfd-9eb4-3658d3b0c2fc) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Idle self-ping — ATEL-33/34 reset probe' (id: f740bf95-c39c-4334-b5e6-dbe2a8460502",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "200d400e-56ed-4fd8-bfbc-990e0f6099eb",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:33:59.670Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-idle-self-ping-atel-34-v3.md",
+      "archivedAt": "2026-11-15T05:05:06.081Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Idle self-ping — ATEL-34 v3\n\nClaimed WorkItem 'Idle self-ping — ATEL-34 v3.1 handoff' (id: 5e3d02d6-f276-47f4-b9a1-5bffb3ed7f45, claim: 9928da51-90d1-4feb-a99f-9493a5df20ef) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Idle self-ping — ATEL-34 v3",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "bcf92d74-6916-45ca-9365-47c0a1c4963f",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:49:58.365Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-7-legacy-wiki-item-s-atelierx-id-609cbf03-8900-46ea-bb3.md",
+      "archivedAt": "2026-11-15T05:05:06.111Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 7 legacy wiki item(s) — AtelierX' (id: 609cbf03-8900-46ea-bb30-c05c33d75d3\n\nClaimed WorkItem 'Migrate 7 legacy wiki item(s) — AtelierX' (id: 609cbf03-8900-46ea-bb30-c05c33d75d38, claim: 19565c4a-0a48-4362-8dcf-f61ac9d97519) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 7 legacy wiki item(s) — AtelierX' (id: 609cbf03-8900-46ea-bb30-c05c33d75d3",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "3447d1df-a193-43d9-ac5d-4d29fc2da361",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:53:44.255Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-33-atel-23-r-hai-ngu-n-phom-s-mi-m-i-cho-mannequin-.md",
+      "archivedAt": "2026-11-15T05:05:06.163Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Verify: ATEL-33: ATEL-23: Rà hai nguồn phom sơ mi mới cho mannequin' (id: 2e7ea55b\n\nClaimed WorkItem 'Verify: ATEL-33: ATEL-23: Rà hai nguồn phom sơ mi mới cho mannequin' (id: 2e7ea55b-bc71-4a4f-ab28-be00900aecea:verify:2e7ea55b-bc71-4a4f-ab28-be00900aecea, claim: c6b5ca22-930a-49d4-8be0-54ce110a4bfe) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Verify: ATEL-33: ATEL-23: Rà hai nguồn phom sơ mi mới cho mannequin' (id: 2e7ea55b",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "538d1079-1c44-4bdf-8a43-336bc33b5902",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:29:04.808Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-retry-1-3-atel-32-atel-23-th-m-nh-t-ch-phom-o-s-mi-t-out.md",
+      "archivedAt": "2026-11-15T05:05:06.231Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Verify: Retry 1/3: ATEL-32: ATEL-23: Thẩm định tách phom áo sơ mi từ outfit candid\n\nClaimed WorkItem 'Verify: Retry 1/3: ATEL-32: ATEL-23: Thẩm định tách phom áo sơ mi từ outfit candidate' (id: 41a80a90-af18-40f5-b554-3e7aa98bf4a5:retry:1:verify:41a80a90-af18-40f5-b554-3e7aa98bf4a5:retry:1, claim: 57ac0a93-4a03-4c0e-b410-ee540e0ab7ef) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Verify: Retry 1/3: ATEL-32: ATEL-23: Thẩm định tách phom áo sơ mi từ outfit candid",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "17814ea4-b5d5-4ab7-a2a7-bdd0ef8613d9",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T03:02:03.922Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-went-quiet-on-a-running-task-atel-33-atel-23-r-hai-ngu-n-phom-s.md",
+      "archivedAt": "2026-11-15T05:05:06.282Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Went quiet on a running task: ATEL-33: ATEL-23: Rà hai nguồn phom sơ mi mới cho ma\n\nClaimed WorkItem 'Went quiet on a running task: ATEL-33: ATEL-23: Rà hai nguồn phom sơ mi mới cho mannequin' (id: 2e7ea55b-bc71-4a4f-ab28-be00900aecea:review:idle_holder, claim: 59633d03-f049-4c36-8d45-f523a9676fc1) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Went quiet on a running task: ATEL-33: ATEL-23: Rà hai nguồn phom sơ mi mới cho ma",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "1416a0a3-3ba8-482b-8d9e-7158315ce28c",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:14:23.798Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc--1.md",
+      "archivedAt": "2026-11-15T06:56:27.915Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919\n\nClaimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919064a86, claim: 85aa6ac2-4342-4346-9057-20e095217de6) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "6b1b159f-1f88-4e1b-93bc-95807bf11a00",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T06:05:37.596Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc--2.md",
+      "archivedAt": "2026-11-15T06:56:27.963Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919\n\nClaimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919064a86, claim: ae9f53bd-cffc-4b59-a2b6-e37b26e1d7a3) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "bff448ac-7e7f-4b6e-9afd-10233fac418c",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T06:21:33.354Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc--3.md",
+      "archivedAt": "2026-11-15T06:56:27.988Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919\n\nClaimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919064a86, claim: 1f9308aa-a5e3-45df-a330-0f0d0038762a) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "ba111fc5-9da3-4f73-89bd-96184460203b",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T06:24:35.891Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc-.md",
+      "archivedAt": "2026-11-15T06:56:28.015Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919\n\nClaimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919064a86, claim: 6e4c2e1a-908d-471c-9f56-a2a21418a99c) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "4681c15d-a85d-48a0-bad5-17a28acfffba",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T05:21:58.640Z",
+        "category": "best-practice",
+        "confidence": 0.9999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-34-atel-23-prototype-phom-s-mi-m-i-t-s-o-mannequin.md",
+      "archivedAt": "2026-11-15T06:56:28.036Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Blocked: ATEL-34: ATEL-23: Prototype phom sơ mi mới từ số đo mannequin' (id: 03387\n\nClaimed WorkItem 'Blocked: ATEL-34: ATEL-23: Prototype phom sơ mi mới từ số đo mannequin' (id: 03387d63-e12e-47a6-8356-6d427e787d72:review:blocked, claim: 4a583908-2f6e-4018-9a16-9e87f64d2353) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Blocked: ATEL-34: ATEL-23: Prototype phom sơ mi mới từ số đo mannequin' (id: 03387",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "ee12b8be-6e92-4c5a-a22a-8c49971f5c45",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T05:07:27.838Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-11-low-quality-wiki-page-s-project-atelierx-id-72.md",
+      "archivedAt": "2026-11-15T06:56:28.057Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Cleanup 10 of 11 low-quality wiki page(s) — project AtelierX' (id: 72419b02-4c4a-4\n\nClaimed WorkItem 'Cleanup 10 of 11 low-quality wiki page(s) — project AtelierX' (id: 72419b02-4c4a-4a0d-af8f-5daaf9dcfc20, claim: 4dfca7b4-f45f-49f5-b0eb-c6a095347aab) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Cleanup 10 of 11 low-quality wiki page(s) — project AtelierX' (id: 72419b02-4c4a-4",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "3d898acd-19f8-446b-b0ec-daecb7209857",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T05:04:37.476Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-idle-self-ping-atel-34-v3.md",
+      "archivedAt": "2026-11-15T06:56:28.087Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Idle self-ping — ATEL-34 v3\n\nClaimed WorkItem 'Idle self-ping — ATEL-34 v3.1 provenance fix' (id: ea003f59-98d9-4c73-b535-0efa35d7649b, claim: 2d5da1e5-f49d-429f-9ade-0ce39cd32996) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Idle self-ping — ATEL-34 v3",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "52aadacf-713a-42c8-9868-5e9b71b4d91e",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T05:05:18.955Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-f9f61df3-1e7c-43ac-a5b.md",
+      "archivedAt": "2026-11-15T06:56:28.243Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: f9f61df3-1e7c-43ac-a5bc-a1fb26f9372\n\nClaimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: f9f61df3-1e7c-43ac-a5bc-a1fb26f9372e, claim: 927cf9f4-7d09-49cc-b1c2-e43bd4697480) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: f9f61df3-1e7c-43ac-a5bc-a1fb26f9372",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "350ef88b-bacb-4407-aa0b-b137db56a831",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T06:25:34.003Z",
+        "category": "best-practice",
+        "confidence": 0.8999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-5-legacy-wiki-item-s-atelierx-id-9fd7b92e-2cd4-48e0-b04.md",
+      "archivedAt": "2026-11-15T06:56:28.405Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 5 legacy wiki item(s) — AtelierX' (id: 9fd7b92e-2cd4-48e0-b04b-3d81e6709d1\n\nClaimed WorkItem 'Migrate 5 legacy wiki item(s) — AtelierX' (id: 9fd7b92e-2cd4-48e0-b04b-3d81e6709d1a, claim: c1de377f-b28b-4506-a0e2-3ffb1af101fd) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 5 legacy wiki item(s) — AtelierX' (id: 9fd7b92e-2cd4-48e0-b04b-3d81e6709d1",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "18af4cb2-0ae1-4a3d-80d7-3bf2da2ca393",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T05:57:49.343Z",
+        "category": "best-practice",
+        "confidence": 0.7,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-13-gltf-uv-mapping-uv-origin-is-upper-left.md",
+      "archivedAt": "2026-11-15T09:47:49.472Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# [[glTF UV mapping]] UV origin is upper-left\n\n[[glTF UV mapping]] UV origin is upper-left. Map garment hem to V=1 and shoulders to V=0 so an upright top-to-bottom artwork PNG renders upright on the garment. Keep Khronos Validator output in evidence and distinguish it from viewer QA.\n",
+      "frontmatter": {
+        "title": "[[glTF UV mapping]] UV origin is upper-left",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "2da9a454-d9a4-4e30-b4aa-69413f28f8ed",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-13T13:02:20.805Z",
+        "category": "best-practice",
+        "confidence": 0.4,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc-.md",
+      "archivedAt": "2026-11-15T09:47:49.609Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919\n\nClaimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919064a86, claim: ffe25d29-8214-48eb-9e35-c96f06f68a54) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-23: Áo sơ mi công sở Gen Z màu tươi sáng' (id: 083ef786-18bf-40dc-a863-62b919",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "b046bcc6-29cf-4626-afa3-1bc5a0859bdf",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T06:42:59.746Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-35-early-shape-review-v0.md",
+      "archivedAt": "2026-11-15T09:47:49.683Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-35 early shape-review v0\n\nClaimed WorkItem 'ATEL-35 early shape-review v0.1-gray. GOAL independently assess the untextured standalone tee before decoration. EXPECTED OUTCOME inspect actual front/back/side/oblique images plus garment GLB/source-UV-provenance and write orders/ATEL-35/v0.1/shape-review.json with orderId, revision, garment path/hash, evidence paths, checks garmentType/connectedParts/structure, decision, reviewer. EVAL: confirm it reads as the brief's T-shirt (not polo unless owner asked), parts/seams visually join with no obvious holes/floating geometry, volume/folds read; no mannequin, no artwork/material judgment yet. Inspect 9 topology islands in images, do not assume failure solely from count. Review only exact v0.1-gray, not final QA. If any clear issue, return at most three precise image-based corrections; one correction then switch form if still wrong. Do not modify garment or publish. Read atelierx-qa-v8 and PLAN_STANDALONE.md; use your session and post NHẬN VIỆC/BÀN GIAO in thread root e793f080-22d1-4258-b5c1-1874267ccd75.' (id: 6267c67a-e2ce-492f-84df-f5af4d779b46, claim: b4aa23b9-646d-4b39-964f-1030ae347d96) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-35 early shape-review v0",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "75a3247f-7009-49c1-8993-b75b3838993c",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T08:21:39.211Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-16-low-quality-wiki-page-s-project-atelierx-id-85.md",
+      "archivedAt": "2026-11-15T09:47:49.799Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Cleanup 10 of 16 low-quality wiki page(s) — project AtelierX' (id: 850d444a-038e-4\n\nClaimed WorkItem 'Cleanup 10 of 16 low-quality wiki page(s) — project AtelierX' (id: 850d444a-038e-4068-80ce-30a95a557c88, claim: 6b156948-445b-45a8-a56c-4ed619e24a72) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Cleanup 10 of 16 low-quality wiki page(s) — project AtelierX' (id: 850d444a-038e-4",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "bbf5473f-9d12-449d-879f-9548aa83ce8e",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T06:54:36.069Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-ac79c50f-6328-40d6-bb2.md",
+      "archivedAt": "2026-11-15T09:47:49.930Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: ac79c50f-6328-40d6-bb28-d400eb06776\n\nClaimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: ac79c50f-6328-40d6-bb28-d400eb067761, claim: 36f35a5d-7bc9-4cdc-9ccf-555591e3913e) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: ac79c50f-6328-40d6-bb28-d400eb06776",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "03d892a4-4b4f-4fe7-96af-df7ede95bdca",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T08:23:13.339Z",
+        "category": "best-practice",
+        "confidence": 0.9999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-6-legacy-wiki-item-s-atelierx-id-a6ef735e-b98a-4e3d-a54.md",
+      "archivedAt": "2026-11-15T09:47:50.023Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 6 legacy wiki item(s) — AtelierX' (id: a6ef735e-b98a-4e3d-a542-225bb6109f5\n\nClaimed WorkItem 'Migrate 6 legacy wiki item(s) — AtelierX' (id: a6ef735e-b98a-4e3d-a542-225bb6109f56, claim: c956d1b8-663c-412b-838a-2a36e25ff21d) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 6 legacy wiki item(s) — AtelierX' (id: a6ef735e-b98a-4e3d-a542-225bb6109f5",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "981a478a-a691-4ecc-a9f5-89442a9c20a6",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T06:38:50.235Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-25-atel-23-qa-c-l-p-fit-v-s-n-ph-m-mannequin-v1-id-.md",
+      "archivedAt": "2026-11-15T09:47:50.055Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Verify: ATEL-25: ATEL-23: QA độc lập fit và sản phẩm mannequin-v1' (id: af1fad6d-e\n\nClaimed WorkItem 'Verify: ATEL-25: ATEL-23: QA độc lập fit và sản phẩm mannequin-v1' (id: af1fad6d-e258-49c3-ba71-0e573f1e646e:verify:af1fad6d-e258-49c3-ba71-0e573f1e646e, claim: 79f25116-8fdd-4902-9a20-02d778d95b17) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Verify: ATEL-25: ATEL-23: QA độc lập fit và sản phẩm mannequin-v1' (id: af1fad6d-e",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "b14d813c-0e16-422f-9cae-2193f087a72b",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T06:21:50.661Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-went-quiet-on-a-running-task-atel-34-atel-23-prototype-phom-s-m.md",
+      "archivedAt": "2026-11-15T09:47:50.081Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Went quiet on a running task: ATEL-34: ATEL-23: Prototype phom sơ mi mới từ số đo \n\nClaimed WorkItem 'Went quiet on a running task: ATEL-34: ATEL-23: Prototype phom sơ mi mới từ số đo mannequin' (id: 03387d63-e12e-47a6-8356-6d427e787d72:review:idle_holder, claim: 4f88dbcb-eabf-4371-964d-033140f883a3) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Went quiet on a running task: ATEL-34: ATEL-23: Prototype phom sơ mi mới từ số đo ",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "229a10ae-b121-416e-b292-ecf33bff28df",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T04:16:23.489Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-current-unfinished-work-state-2026-11-15-atel-23-v4.md",
+      "archivedAt": "2026-11-15T09:47:50.131Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Current unfinished-work state (2026-11-15): ATEL-23/v4\n\nCurrent unfinished-work state (2026-11-15): ATEL-23/v4.3 Visual repair bundle was handed to QA with matching hashes and five browser captures. QA report quality/reports/ATEL-23/v4.3.json returns return-after-correction: mannequin remains visible at shoulder/underarm in side/oblique and front buttons remain unreadable. Content, viewer, and evidence integrity pass. The one authorized repair was used; Lead says product remains blocked, no further same-form repair, catalog unchanged, and no publish. Waiting on Lead disposition/owner decision; no active Visual action.\n",
+      "frontmatter": {
+        "title": "Current unfinished-work state (2026-11-15): ATEL-23/v4",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "2b80bee9-ea06-4203-812b-82593b1ca7b8",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-15T06:28:46.820Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-task-blocked-atel-23-v4.md",
+      "archivedAt": "2026-11-15T09:47:50.210Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Task blocked: ATEL-23/v4\n\nTask blocked: ATEL-23/v4.1 final đã tồn tại và được kiểm hash/captures; stage final không chạy lại. what_tried: đối chiếu showcase-builds ledger, assembly.json, Designer fit.json, content và SHA; kiểm 4 ảnh browser + mobile; browser-qa --basic xác nhận loaded/rotate/zoom/mobile, errors rỗng; cập nhật content trung thực và tạo manifest. what_failed: visual gate của Lead chưa đạt — pattern chưa áp; áo hiện trắng; cánh tay mannequin lộ; khuy/nếp gấp lệch khỏi bề mặt. what_needed: Lead quyết định sau khi correction duy nhất đã dùng; chưa chuyển QA do điều kiện pattern/buttons/collar/coverage chưa đạt. partial_result: final display SHA 661160106217cf94ca7750e54ca44044746255f24a0a33c939e9d3483282ffa6 khớp ledger/assembly; content + manifest v4.1 và 5 captures đã lưu. Catalog nguyên trạng. Team thread messageId ac5704ff-e8d7-4e64-9043-f5c6dee749fb.\n",
+      "frontmatter": {
+        "title": "Task blocked: ATEL-23/v4",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "aa16d102-677a-4fef-af7a-461d3a97742c",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-15T05:30:25.316Z",
+        "category": "best-practice",
+        "confidence": 0.3,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-35-v0-1.md",
+      "archivedAt": "2026-11-15T10:03:17.311Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-35 v0\n\nClaimed WorkItem 'ATEL-35 v0.5 handoff checkpoint' (id: bd2782ef-2c1f-44ae-b5e8-7ea09468e2c1, claim: 6751e1a2-3718-48dc-83bd-31962dcf18be) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-35 v0",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "6e66099f-b99d-4f8d-911a-943b7b39c29b",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T09:48:10.258Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-35-v0.md",
+      "archivedAt": "2026-11-15T10:03:17.473Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-35 v0\n\nClaimed WorkItem 'ATEL-35 v0.5 Designer idle — inspect gray handoff' (id: f2964134-764d-4cf4-9eb6-52994f5443b8, claim: c2977ed8-a23f-4666-a42e-07158c97c0fd) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-35 v0",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "4b3430c6-bbe6-49a0-bdcb-aad63e87e676",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T09:47:59.392Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-11-low-quality-wiki-page-s-project-atelierx-id-ea.md",
+      "archivedAt": "2026-11-15T10:03:17.657Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Cleanup 10 of 11 low-quality wiki page(s) — project AtelierX' (id: ea1ade36-adf0-4\n\nClaimed WorkItem 'Cleanup 10 of 11 low-quality wiki page(s) — project AtelierX' (id: ea1ade36-adf0-4ea0-9123-c0234331bf73, claim: 49e5ef5e-5334-4731-954d-d1265cd90a65) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Cleanup 10 of 11 low-quality wiki page(s) — project AtelierX' (id: ea1ade36-adf0-4",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "2f911e1b-f53a-4b67-a043-56d13f7a3e1d",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T09:46:58.041Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-goal-1.md",
+      "archivedAt": "2026-11-15T10:03:17.800Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem '## GOAL\n\nClaimed WorkItem '## GOAL\nChọn phom áo thun khác cho ATEL-35 sau v0.1/v0.2 không đạt và MakeHuman v0.3 bị loại khỏi thư viện. Dùng candidate user-authorized `quality/candidates/user-supplied/t-shirt_' (id: ee9d6cb1-295b-4f9b-8713-072906ce34a4, claim: 150df9ae-1058-4e25-b096-fdcbb4eff25b) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem '## GOAL",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "5f31beb0-a216-4e38-b55c-6798100a0a6f",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-15T08:56:54.144Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-goal.md",
+      "archivedAt": "2026-11-15T10:03:17.984Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem '## GOAL\n\nClaimed WorkItem '## GOAL\nThay hướng phom ATEL-35 sau khi hai nguồn xám trước chưa đạt: v0.1 đọc như polo; v0.2 từ t-shirt (1).glb có cổ cắt mỏng và gần như không có nếp gấp. Không ' (id: 834572fd-bede-404f-a884-285bc7e77fa8, claim: 9537f154-9ca5-41e2-bae1-6c86a2e87113) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem '## GOAL",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "5442881e-0370-4a81-8416-5d105dba85de",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-15T08:44:55.822Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-31e98563-b5ea-4884-aee.md",
+      "archivedAt": "2026-11-15T10:03:18.187Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 31e98563-b5ea-4884-aee6-22d0a97afcd\n\nClaimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 31e98563-b5ea-4884-aee6-22d0a97afcd8, claim: 308b9e37-e5e0-46c0-90d2-578369a9b6ab) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 31e98563-b5ea-4884-aee6-22d0a97afcd",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "74a24a6d-273d-41b3-afcb-18307bc8c1c5",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T09:46:33.305Z",
+        "category": "best-practice",
+        "confidence": 0.7999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-3-legacy-wiki-item-s-atelierx-id-767d73bb-6d94-4cda-b6a.md",
+      "archivedAt": "2026-11-15T10:03:18.461Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 3 legacy wiki item(s) — AtelierX' (id: 767d73bb-6d94-4cda-b6ac-0d015aedd50\n\nClaimed WorkItem 'Migrate 3 legacy wiki item(s) — AtelierX' (id: 767d73bb-6d94-4cda-b6ac-0d015aedd50d, claim: 6886891e-cbe2-413a-9b6a-57e1e400ae8b) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 3 legacy wiki item(s) — AtelierX' (id: 767d73bb-6d94-4cda-b6ac-0d015aedd50",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "8c55a15b-a72b-45db-b31d-e6ba48244a32",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T09:51:48.389Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-o-thun-3d-m-u-kem-h-a-ti-t-hoa-nh-ng-c-tr-i-id-a7994afe-7761-48-1.md",
+      "archivedAt": "2026-11-15T10:03:18.662Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Áo thun 3D màu kem họa tiết hoa nhỏ ngực trái' (id: a7994afe-7761-480c-ba15-97d221\n\nClaimed WorkItem 'Áo thun 3D màu kem họa tiết hoa nhỏ ngực trái' (id: a7994afe-7761-480c-ba15-97d22109e25b, claim: ac70466b-5ed4-45a9-993c-d1f5ab3cd216) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Áo thun 3D màu kem họa tiết hoa nhỏ ngực trái' (id: a7994afe-7761-480c-ba15-97d221",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "f1941170-4ca7-4169-bdf8-19d984d69cbf",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T08:35:28.866Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-o-thun-3d-m-u-kem-h-a-ti-t-hoa-nh-ng-c-tr-i-id-a7994afe-7761-48.md",
+      "archivedAt": "2026-11-15T10:03:18.887Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Áo thun 3D màu kem họa tiết hoa nhỏ ngực trái' (id: a7994afe-7761-480c-ba15-97d221\n\nClaimed WorkItem 'Áo thun 3D màu kem họa tiết hoa nhỏ ngực trái' (id: a7994afe-7761-480c-ba15-97d22109e25b, claim: 10237772-d3fd-40d6-a745-2ee29327041c) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Áo thun 3D màu kem họa tiết hoa nhỏ ngực trái' (id: a7994afe-7761-480c-ba15-97d221",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "96a36526-5dcf-4c1e-9213-295c5747194a",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T08:23:53.493Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-refresh-standing-answer-what-is-my-unfinished-work-and-what-is-.md",
+      "archivedAt": "2026-11-15T10:03:19.054Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Refresh standing answer \"What is my unfinished work, and what is blocking it\n\nClaimed WorkItem 'Refresh standing answer \"What is my unfinished work, and what is blocking it?\" — atelierx-designer-0003 (2 newer)' (id: 1a563917-df56-435a-9659-7c977a2cfa08, claim: 4a48e798-628d-40ea-a451-a718c2c52e0c) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Refresh standing answer \\\"What is my unfinished work, and what is blocking it",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "cc3b27b7-2a80-4903-b3a8-f01ccc19f41b",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-15T09:38:31.307Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-atel-41-i-u-ph-i-v-b-n-giao-qu-n-cargo-be-c-t-id-6e0058.md",
+      "archivedAt": "2026-11-15T12:56:52.903Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-41: ATEL-41 · Điều phối và bàn giao · Quần cargo be cát' (id: 6e0058f6-aa5c-4\n\nClaimed WorkItem 'ATEL-41: ATEL-41 · Điều phối và bàn giao · Quần cargo be cát' (id: 6e0058f6-aa5c-4a8b-bef4-06d1dc218578, claim: 363e6b71-f169-4e2e-aa65-27ff535f8235) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-41: ATEL-41 · Điều phối và bàn giao · Quần cargo be cát' (id: 6e0058f6-aa5c-4",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "d8f5ce64-9fb9-4ca2-a9ee-b9b73a8a89b2",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T11:18:39.132Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-d-ng-s-n-ph-m-trong-s-n-tr-ng-b-y-qu-n-cargo-be-c-t-id--1.md",
+      "archivedAt": "2026-11-15T12:56:52.995Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: bae5141a-29e\n\nClaimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: bae5141a-29e1-4436-a9a4-c53e25f6e190, claim: 8b4d7c1c-9244-41db-8e06-12376b17a59b) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: bae5141a-29e",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "b6eb2282-fb0d-4b07-a24c-409b51cc6ef5",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-15T12:13:42.623Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-d-ng-s-n-ph-m-trong-s-n-tr-ng-b-y-qu-n-cargo-be-c-t-id--2.md",
+      "archivedAt": "2026-11-15T12:56:53.028Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: bae5141a-29e\n\nClaimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: bae5141a-29e1-4436-a9a4-c53e25f6e190, claim: 90d37385-6808-4836-b165-03f76954561a) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: bae5141a-29e",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "9d85acbf-d26e-4944-9960-a0dcbe0c4ab7",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-15T12:16:08.695Z",
+        "category": "best-practice",
+        "confidence": 0.7,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-d-ng-s-n-ph-m-trong-s-n-tr-ng-b-y-qu-n-cargo-be-c-t-id--3.md",
+      "archivedAt": "2026-11-15T12:56:53.110Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: 541b4670-fb3\n\nClaimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: 541b4670-fb3c-422c-89e5-0f969d06e8ec, claim: 36407a75-4951-478c-8797-79df51fe940c) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: 541b4670-fb3",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "3a417fa3-313d-484a-a506-5efbbe8e23f9",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-15T12:34:44.894Z",
+        "category": "best-practice",
+        "confidence": 0.7999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-d-ng-s-n-ph-m-trong-s-n-tr-ng-b-y-qu-n-cargo-be-c-t-id-.md",
+      "archivedAt": "2026-11-15T12:56:53.311Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: bae5141a-29e\n\nClaimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: bae5141a-29e1-4436-a9a4-c53e25f6e190, claim: 5cd4e37c-9911-4a79-9ea7-c29392c690f1) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát' (id: bae5141a-29e",
+        "migrated_from": "agent/atelierx-frontend-developer-0006/memory.json",
+        "original_id": "f270e214-2e1e-4c66-be8d-af6331683d6a",
+        "original_author": "atelierx-frontend-developer-0006",
+        "original_date": "2026-11-15T11:27:53.815Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-13-low-quality-wiki-page-s-project-atelierx-id-3d.md",
+      "archivedAt": "2026-11-15T12:56:53.336Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Cleanup 10 of 13 low-quality wiki page(s) — project AtelierX' (id: 3d91a99e-5993-4\n\nClaimed WorkItem 'Cleanup 10 of 13 low-quality wiki page(s) — project AtelierX' (id: 3d91a99e-5993-4663-b8b4-a83f722740ba, claim: bda7dda7-887c-4543-88eb-92a8de28e294) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Cleanup 10 of 13 low-quality wiki page(s) — project AtelierX' (id: 3d91a99e-5993-4",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "3c1617d8-d0e8-41d1-bc39-934df60415ef",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T10:02:36.783Z",
+        "category": "best-practice",
+        "confidence": 0.7999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-21ced91b-9b8a-44f7-bd4.md",
+      "archivedAt": "2026-11-15T12:56:53.359Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 21ced91b-9b8a-44f7-bd41-f9a746946ed\n\nClaimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 21ced91b-9b8a-44f7-bd41-f9a746946ed6, claim: a34bdbbf-500b-400b-b985-9faba799c949) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 21ced91b-9b8a-44f7-bd41-f9a746946ed",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "e0e61234-41ac-4efe-a5af-8533f34249a3",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T11:03:14.712Z",
+        "category": "best-practice",
+        "confidence": 0.8999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-3-legacy-wiki-item-s-atelierx-id-49cd0ecc-c706-48b1-87f.md",
+      "archivedAt": "2026-11-15T12:56:53.382Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 3 legacy wiki item(s) — AtelierX' (id: 49cd0ecc-c706-48b1-87fd-6e8fe6829c1\n\nClaimed WorkItem 'Migrate 3 legacy wiki item(s) — AtelierX' (id: 49cd0ecc-c706-48b1-87fd-6e8fe6829c1a, claim: 0eccbc2b-6f35-4ba2-9ac3-f8920bac87f1) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 3 legacy wiki item(s) — AtelierX' (id: 49cd0ecc-c706-48b1-87fd-6e8fe6829c1",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "85584895-9a83-4859-a042-2fe824eaca13",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T12:50:35.305Z",
+        "category": "best-practice",
+        "confidence": 0.7,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-handoff-task-handoff-from-atelierx-team-leader-0001-to-atelierx-frontend-develop.md",
+      "archivedAt": "2026-11-15T12:56:53.416Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# [HANDOFF] Task handoff from atelierx-team-leader-0001 to atelierx-frontend-developer-0006: Independe\n\n[HANDOFF] Task handoff from atelierx-team-leader-0001 to atelierx-frontend-developer-0006: Independent shape QA for v0.5-gray passed; continue the existing owner WorkItem through standalone product integration. The owner canceled intermediate Verify tasks and asked us to keep independent final product QA and the quality gate.\n",
+      "frontmatter": {
+        "title": "[HANDOFF] Task handoff from atelierx-team-leader-0001 to atelierx-frontend-developer-0006: Independe",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "d4810952-2a3b-4d84-afa9-e5060966542b",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T09:25:29.627Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-atel-53-qa-must-wait-for-an-actual-gray-handoff.md",
+      "archivedAt": "2026-11-15T17:58:14.415Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# [[ATEL-53]] QA must wait for an actual gray handoff\n\n[[ATEL-53]] QA must wait for an actual gray handoff. Studio Lead replanned at 17:38 UTC: prior two sources rejected; a 15-minute preparation round will find at most two standalone shirt GLBs with collar stand/lapel, placket, cuffs, and open openings. Designer assignment and handoff follow source selection. Keep the single QA WorkItem at studio-wait: shape, hold Material until shape pass, and do not use rejected ATEL-47/v4 as evidence.\n",
+      "frontmatter": {
+        "title": "[[ATEL-53]] QA must wait for an actual gray handoff",
+        "migrated_from": "agent/atelierx-qa-0004/memory.json",
+        "original_id": "626fd942-3cf4-4f94-b95c-8b73aa44b5cf",
+        "original_author": "atelierx-qa-0004",
+        "original_date": "2026-11-15T17:39:04.375Z",
+        "category": "best-practice",
+        "confidence": 0.3,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-atelierx-researcher-artwork-handoff-eta-2-ph-t-theo-median-other-th-p-cho-u-ra-a.md",
+      "archivedAt": "2026-11-15T17:58:14.504Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# [[AtelierX Researcher Artwork Handoff]] ETA 2 phút theo median other thấp cho đầu ra artwork gốc, co\n\n[[AtelierX Researcher Artwork Handoff]] ETA 2 phút theo median other thấp cho đầu ra artwork gốc, copy, preview, hash và phối hợp; ATEL-28 mất 5 phút. Lần sau ước lượng riêng phần tạo artwork và kiểm manifest; ref WorkItem 001c8134-44f4-4f15-9a6c-b92c4429cde4.\n",
+      "frontmatter": {
+        "title": "[[AtelierX Researcher Artwork Handoff]] ETA 2 phút theo median other thấp cho đầu ra artwork gốc, co",
+        "migrated_from": "agent/atelierx-tpm-0002/memory.json",
+        "original_id": "428b457c-1acb-4046-959e-87c95780efc7",
+        "original_author": "atelierx-tpm-0002",
+        "original_date": "2026-11-15T17:12:48.676Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-atelierx-revision-eta-calibration-in-atel-20-the-published-revision-median-was-2.md",
+      "archivedAt": "2026-11-15T17:58:14.533Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# [[AtelierX revision ETA calibration]] In ATEL-20, the published revision median was 23 min, but the \n\n[[AtelierX revision ETA calibration]] In ATEL-20, the published revision median was 23 min, but the work completed in 15 min because the approved mesh, existing Crewly browser runner, placement profile and preview route were already available; reserve extra time only for new artwork/texture, not setup that can be reused. Ref: WorkItem 07ca64d9-6a31-449a-b43e-df924903212a.\n",
+      "frontmatter": {
+        "title": "[[AtelierX revision ETA calibration]] In ATEL-20, the published revision median was 23 min, but the ",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "811a5ee4-030e-45d8-8f80-5a3e6f869ee0",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-15T17:12:48.709Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-1-m-ph-ng-o-hoodie-en-c-h-a-ti-t-u-l-u-l-ng-id-d801bc39-6b.md",
+      "archivedAt": "2026-11-15T17:58:14.556Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: d801bc39-6b18-4c21\n\nClaimed WorkItem 'ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: d801bc39-6b18-4c21-882b-03054725150f, claim: a75ae899-6c59-4acd-afef-9a63d0c81713) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: d801bc39-6b18-4c21",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "b68e6642-ba30-4d5a-ab32-be33ad6b20dd",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T17:12:48.642Z",
+        "category": "best-practice",
+        "confidence": 0.7999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-qa-idle-inspect-final-decision-id-5bc97047-eb5a-4509-92.md",
+      "archivedAt": "2026-11-15T17:58:14.577Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-41 QA idle — inspect final decision' (id: 5bc97047-eb5a-4509-92e8-2262b5339bc\n\nClaimed WorkItem 'ATEL-41 QA idle — inspect final decision' (id: 5bc97047-eb5a-4509-92e8-2262b5339bc3, claim: 367e6f07-4864-4a0b-9fd8-9e978674b204) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-41 QA idle — inspect final decision' (id: 5bc97047-eb5a-4509-92e8-2262b5339bc",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "a8b40308-dac6-4ac8-a9c4-f1a996866255",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T12:52:57.014Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-research-fallback-check-id-a6d3df0b-8ec5-42e4-9722-ff85.md",
+      "archivedAt": "2026-11-15T17:58:14.600Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-41 Research fallback check' (id: a6d3df0b-8ec5-42e4-9722-ff8505fa9f1f, claim:\n\nClaimed WorkItem 'ATEL-41 Research fallback check' (id: a6d3df0b-8ec5-42e4-9722-ff8505fa9f1f, claim: 313f6f61-9e79-4829-98d8-8f50e658566a) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-41 Research fallback check' (id: a6d3df0b-8ec5-42e4-9722-ff8505fa9f1f, claim:",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "fbe6f23e-67cc-46c4-92de-d55a571e19ca",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T12:52:03.927Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-visual-idle-inspect-viewer-handoff-id-651b8e5a-88ad-4ca.md",
+      "archivedAt": "2026-11-15T17:58:14.623Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-41 Visual idle — inspect viewer handoff' (id: 651b8e5a-88ad-4ca5-b22d-74eb220\n\nClaimed WorkItem 'ATEL-41 Visual idle — inspect viewer handoff' (id: 651b8e5a-88ad-4ca5-b22d-74eb220de15e, claim: 88f4bbf9-043a-4fb7-8802-71bb4e479d35) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-41 Visual idle — inspect viewer handoff' (id: 651b8e5a-88ad-4ca5-b22d-74eb220",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "23d7e106-df31-495e-b1f5-f36f0a487b5b",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T12:53:31.481Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-47-atel-47-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-56.md",
+      "archivedAt": "2026-11-15T23:01:11.530Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-47: ATEL-47 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 56def604-\n\nClaimed WorkItem 'ATEL-47: ATEL-47 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 56def604-c31a-488c-8b30-399648f98d02, claim: 7273cac9-d5e5-490a-a84d-b8f6c7e07d9a) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-47: ATEL-47 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 56def604-",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "f78f6ae4-cb76-47e7-8396-9cb2a0735ce2",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T14:59:15.627Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-1-m-ph-ng-o-hoodie-en-c-h-a-ti-t-u-l-u-l-ng-id-413.md",
+      "archivedAt": "2026-11-15T23:01:11.548Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Blocked: ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: 4135de19-\n\nClaimed WorkItem 'Blocked: ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: 4135de19-2d39-4291-978c-146f773882c4:review:blocked, claim: ee5ebfe3-c6cb-48bd-a202-0dbcf9bc11d2) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Blocked: ATEL-1: Mô phỏng áo hoodie đen có họa tiết đầu lâu ở lưng' (id: 4135de19-",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "4a131b08-c26b-4c90-8512-b55141f6708f",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T17:12:48.614Z",
+        "category": "best-practice",
+        "confidence": 0.7,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-goal-ch-n-phom-o-thun-kh-c-cho-atel-35-sau-v0.md",
+      "archivedAt": "2026-11-15T23:01:11.568Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem '## GOAL Chọn phom áo thun khác cho ATEL-35 sau v0\n\nClaimed WorkItem '## GOAL Chọn phom áo thun khác cho ATEL-35 sau v0.1/v0.2 không đạt và MakeHuman v0.3 bị loại khỏi thư viện. Dùng candidate user-authorized `quality/candidates/user-supplied/t-shirt_' (id: ee9d6cb1-295b-4f9b-8713-072906ce34a4, claim: 150df9ae-1058-4e25-b096-fdcbb4eff25b) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem '## GOAL Chọn phom áo thun khác cho ATEL-35 sau v0",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "87daa74d-a1c1-4df2-9a0c-d49ea294f541",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-15T17:12:48.726Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-goal-thay-h-ng-phom-atel-35-sau-khi-hai-ngu-n-x-m-tr-c-ch-a-t-v.md",
+      "archivedAt": "2026-11-15T23:01:11.588Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem '## GOAL Thay hướng phom ATEL-35 sau khi hai nguồn xám trước chưa đạt: v0\n\nClaimed WorkItem '## GOAL Thay hướng phom ATEL-35 sau khi hai nguồn xám trước chưa đạt: v0.1 đọc như polo; v0.2 từ t-shirt (1).glb có cổ cắt mỏng và gần như không có nếp gấp. Không ' (id: 834572fd-bede-404f-a884-285bc7e77fa8, claim: 9537f154-9ca5-41e2-bae1-6c86a2e87113) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem '## GOAL Thay hướng phom ATEL-35 sau khi hai nguồn xám trước chưa đạt: v0",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "45a1492e-9494-4f3c-844d-c72a4cfe84f5",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-15T17:12:48.721Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-060ce049-19fc-4b6a-807.md",
+      "archivedAt": "2026-11-15T23:01:11.605Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 060ce049-19fc-4b6a-8073-455783a1699\n\nClaimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 060ce049-19fc-4b6a-8073-455783a1699d, claim: f2b1f850-8a89-46ed-a5d0-6121231b6d64) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 1 legacy wiki item(s) — AtelierX' (id: 060ce049-19fc-4b6a-8073-455783a1699",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "ea3bd336-2053-42aa-8b1a-d9bbf7d8fa8f",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T18:17:09.460Z",
+        "category": "best-practice",
+        "confidence": 0.9999999999999999,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-20a6c020-f302-43c2-b07.md",
+      "archivedAt": "2026-11-15T23:01:11.623Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 20a6c020-f302-43c2-b07c-0786e0d82cf\n\nClaimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 20a6c020-f302-43c2-b07c-0786e0d82cfb, claim: 5def205d-39b0-4402-a1cd-ca7a789d98cb) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 20a6c020-f302-43c2-b07c-0786e0d82cf",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "91c5c318-e52d-45da-9659-7cf322f2c038",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T10:20:49.347Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-505ee26c-e2dd-4539-8c9.md",
+      "archivedAt": "2026-11-15T23:01:11.642Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 505ee26c-e2dd-4539-8c92-8235b4996c1\n\nClaimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 505ee26c-e2dd-4539-8c92-8235b4996c19, claim: ce173f42-d90b-4689-8dd3-64c0e2d6667e) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Migrate 2 legacy wiki item(s) — AtelierX' (id: 505ee26c-e2dd-4539-8c92-8235b4996c1",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "55b5c799-b126-4ecb-85f1-b85c53f5091a",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T17:12:48.648Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05-1.md",
+      "archivedAt": "2026-11-16T05:48:05.530Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-\n\nClaimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-6f92-42b2-9b39-c912582fd424, claim: b13f5a6d-87c1-41aa-98a9-1f53aa48867c) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "0f757368-a3c8-47e0-bd19-d9561e5e7faf",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T18:23:35.050Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05-2.md",
+      "archivedAt": "2026-11-16T05:48:05.606Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-\n\nClaimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-6f92-42b2-9b39-c912582fd424, claim: 4f188257-3880-41df-9b8c-c9374d6f48f5) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "7063e55e-75b3-4ac8-bec2-2c29c0e26914",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T20:09:48.728Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05-3.md",
+      "archivedAt": "2026-11-16T05:48:05.677Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-\n\nClaimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-6f92-42b2-9b39-c912582fd424, claim: 032b0c05-8650-4c87-9232-1648d4a763a1) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "4151644b-3e72-474f-b08e-ffe8cbd48db7",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T20:39:37.314Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05-4.md",
+      "archivedAt": "2026-11-16T05:48:05.782Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-\n\nClaimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-6f92-42b2-9b39-c912582fd424, claim: d149ce29-6d5b-49cc-895f-3d29b98e3293) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "0471fe27-03f0-40fc-87e5-74c8019348a7",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T21:24:47.556Z",
+        "category": "best-practice",
+        "confidence": 1,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05.md",
+      "archivedAt": "2026-11-16T05:48:05.848Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-\n\nClaimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-6f92-42b2-9b39-c912582fd424, claim: 61fedacb-8bf7-4c3a-a99f-040a8faa4083) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "12487f58-3658-48e7-aca4-f22d40a8119d",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T18:18:02.633Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-62-atel-53-thi-t-k-phom-o-o-s-mi-xanh-s-c-tr-ng-id-ec09071.md",
+      "archivedAt": "2026-11-16T05:48:05.955Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'ATEL-62: ATEL-53 · Thiết kế phom áo · Áo sơ mi xanh sọc trắng' (id: ec090719-14b6-\n\nClaimed WorkItem 'ATEL-62: ATEL-53 · Thiết kế phom áo · Áo sơ mi xanh sọc trắng' (id: ec090719-14b6-4e75-8615-7260c53cdade, claim: 538fad2a-a909-4774-88a1-02afec64af9f) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'ATEL-62: ATEL-53 · Thiết kế phom áo · Áo sơ mi xanh sọc trắng' (id: ec090719-14b6-",
+        "migrated_from": "agent/atelierx-designer-0003/memory.json",
+        "original_id": "59000b9f-bd61-4236-b722-fce0a199065a",
+        "original_author": "atelierx-designer-0003",
+        "original_date": "2026-11-15T19:36:59.332Z",
+        "category": "best-practice",
+        "confidence": 0.5,
+        "routing_uncertain": false
+      }
+    },
+    {
+      "relPath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-.md",
+      "archivedAt": "2026-11-16T05:48:06.070Z",
+      "reasons": [
+        "apply-list"
+      ],
+      "body": "\n# Claimed WorkItem 'Blocked: ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: \n\nClaimed WorkItem 'Blocked: ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: 051ab175-6f92-42b2-9b39-c912582fd424:review:blocked, claim: 48eec2f7-fda7-4297-b867-eae4ed3cbd05) from Task Pool\n",
+      "frontmatter": {
+        "title": "Claimed WorkItem 'Blocked: ATEL-53: ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng' (id: ",
+        "migrated_from": "agent/atelierx-team-leader-0001/memory.json",
+        "original_id": "ea5286f0-0e72-424f-bea1-9250cc8df7ed",
+        "original_author": "atelierx-team-leader-0001",
+        "original_date": "2026-11-15T18:20:36.296Z",
+        "category": "best-practice",
+        "confidence": 0.6,
+        "routing_uncertain": false
+      }
+    }
+  ]
+}

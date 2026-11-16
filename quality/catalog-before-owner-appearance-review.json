@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "products": [
+    {
+      "id": "ATEL-1",
+      "name": "Hoodie đen · Đầu lâu một mắt",
+      "revision": "v3",
+      "status": "complete",
+      "statusLabel": "Đã nghiệm thu",
+      "category": "Hoodie",
+      "description": "Hoodie đen với họa tiết đầu lâu một mắt ở mặt lưng.",
+      "viewer": "products/ATEL-1/v3/index.html",
+      "model": "products/ATEL-1/v3/assets/hoodie-black-one-eyed-skull-v3.glb"
+    },
+    {
+      "id": "ATEL-35",
+      "name": "Áo thun kem · Hoa nhỏ",
+      "revision": "v1",
+      "status": "complete",
+      "statusLabel": "Hoàn thành · chờ bạn xem",
+      "category": "Áo thun",
+      "description": "Áo thun độc lập màu kem, hoa nhỏ ngực trái; cotton-like matte là mô phỏng PBR.",
+      "deliveryProfile": "showcase-basic-v1",
+      "presentation": "standalone",
+      "viewer": "products/ATEL-35/v1/index.html",
+      "model": "products/ATEL-35/v1/assets/display.glb",
+      "content": "products/ATEL-35/v1/content.json"
+    },
+    {
+      "id": "ATEL-41",
+      "name": "Quần cargo be cát ống suông",
+      "revision": "v4",
+      "status": "complete",
+      "statusLabel": "Hoàn thành · chờ bạn xem",
+      "category": "Quần cargo",
+      "description": "Quần cargo dáng ống suông được dựng độc lập, có hai túi hộp lớn ở đùi, cạp đỉa, khóa kéo và nút trước cùng dây rút gấu. Bề mặt mô phỏng vải twill cotton-canvas lì màu be cát (#C8B58F), với độ nhám cao và nếp vải mềm; đây là mô phỏng thị giác, không xác nhận thành phần hay tính năng của vải thật. Kích thước bao mesh hiển thị là rộng 54,59 × dài 110,5 × sâu 25,72 cm, đo trên GLB surface v3; đây là thông số trưng bày, không phải size may.",
+      "deliveryProfile": "showcase-basic-v1",
+      "presentation": "standalone",
+      "viewer": "products/ATEL-41/v4/index.html",
+      "model": "products/ATEL-41/v4/assets/display.glb",
+      "content": "products/ATEL-41/v4/content.json",
+      "requestId": "62d6b870-6d4b-4308-821b-04714d728cd1"
+    },
+    {
+      "id": "ATEL-47",
+      "name": "Sơ mi công sở xanh da trời sọc trắng",
+      "revision": "v4",
+      "status": "complete",
+      "statusLabel": "Hoàn thành · chờ bạn xem",
+      "category": "Áo sơ mi",
+      "description": "Áo sơ mi standalone phom vừa, nền xanh da trời sáng với pinstripe trắng mảnh; cotton-poplin mô phỏng, có cổ bẻ, hàng khuy trước, tay dài và khuy cổ tay.",
+      "deliveryProfile": "showcase-basic-v1",
+      "presentation": "standalone",
+      "viewer": "products/ATEL-47/v4/index.html",
+      "model": "products/ATEL-47/v4/assets/display.glb",
+      "content": "products/ATEL-47/v4/content.json",
+      "requestId": "7580966e-280f-471f-b141-1d9f2924b260"
+    }
+  ]
+}

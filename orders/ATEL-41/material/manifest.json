@@ -1,0 +1,17 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v1",
+  "preset": {
+    "path": "orders/ATEL-41/material/pbr-preset-v1.json",
+    "sha256": "df493e7058c12a1fa8497bbc1bbed0f342d4edf6fa61e1b5ac7f1d11aac91c8d",
+    "bytes": 1421
+  },
+  "source": "ATEL-41 owner brief",
+  "shader": "glTF 2.0 metallicRoughness",
+  "parameters": {
+    "baseColorHexSRGB": "#C8B58F",
+    "roughnessFactor": 0.88,
+    "metallicFactor": 0
+  },
+  "evidenceScope": "Preset only; not applied or visually assessed because shape-review pass and geometry hash are not available."
+}

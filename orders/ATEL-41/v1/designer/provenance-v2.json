@@ -1,0 +1,41 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v2",
+  "designer": "atelierx-designer-0003",
+  "construction": "Authored pants geometry generated from a continuous joined leg/seat volume with cargo panels, waistband, belt loops, fly/button, cuff channels and drawcord details.",
+  "referenceBaseId": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1",
+  "referenceSource": {
+    "path": "quality/candidates/user-supplied/jnco_twin_cannon_baggy_jeans.glb",
+    "sha256": "7b0af5c3aee5e7f423107d5f7d2eae48f17699c9404326d86e9642ca62dda08c",
+    "role": "Silhouette reference only; no source geometry, texture, logo or label carried into the authored garment."
+  },
+  "geometry": {
+    "path": "orders/ATEL-41/v1/designer/garment-gray-authored-v2.glb",
+    "materialGroups": ["Neutral gray shape review"],
+    "textureMaps": [],
+    "uv": {
+      "attribute": "TEXCOORD_0",
+      "coverage": "All authored mesh vertices have UVs; panel details use local panel coordinates and body uses a planar world-space projection.",
+      "limitations": "Front/back UV overlap is not intended for artwork placement; current shape review uses a solid neutral material. Material should preserve the UVs and avoid artwork placement until QA shape pass."
+    },
+    "displayEnvelopeCm": {
+      "width": 54.59,
+      "height": 106.0,
+      "depth": 23.86,
+      "source": "tools/showcase-glb.mjs primitives() world-space bounds of authored GLB",
+      "meaning": "Display envelope only, not apparel or sewing size."
+    }
+  },
+  "review": {
+    "status": "pending_independent_shape_qa",
+    "previewCaption": "Geometry quần cargo được dựng độc lập; JNCO chỉ tham chiếu silhouette, không kế thừa geometry, logo hoặc nhãn.",
+    "previewUrl": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel41-shape-v1/index.html",
+    "browserEvidence": "quality/evidence/ATEL-41/v1/shape-gray-authored-v2/browser-result.json",
+    "captures": [
+      "quality/evidence/ATEL-41/v1/shape-gray-authored-v2/front.png",
+      "quality/evidence/ATEL-41/v1/shape-gray-authored-v2/back.png",
+      "quality/evidence/ATEL-41/v1/shape-gray-authored-v2/side.png",
+      "quality/evidence/ATEL-41/v1/shape-gray-authored-v2/oblique.png"
+    ]
+  }
+}

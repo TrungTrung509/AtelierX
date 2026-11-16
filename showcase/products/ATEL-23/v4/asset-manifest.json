@@ -1,0 +1,73 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4",
+  "deliveryProfile": "showcase-basic-v1",
+  "stage": "draft",
+  "sources": {
+    "garment": {
+      "path": "orders/ATEL-23/v3.1/designer/garment-v3_1.glb",
+      "sha256": "584c2e1e9843e4a1197781b3b25b9f77b488326ee7e5b03f229ef2dba166869d"
+    },
+    "mannequin": {
+      "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+      "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+    },
+    "material": "preset:poplin"
+  },
+  "outputs": {
+    "display": {
+      "path": "showcase/products/ATEL-23/v4/assets/display.glb",
+      "sha256": "c35bc28175d605321253e63eb334be3d1d0fdf46ade47eeeb48385c59516a255"
+    },
+    "content": {
+      "path": "showcase/products/ATEL-23/v4/content.json",
+      "sha256": "eed3b1bf3bfc80e753e6058bb298b4c0036808c5e8cd1e4605adf46be548ff97"
+    },
+    "measurements": {
+      "path": "showcase/products/ATEL-23/v4/measurements.json",
+      "sha256": "3ae941372973828b02c294f3789f02d236da9b75023902c46ef591e7924b9f5e"
+    },
+    "assembly": {
+      "path": "showcase/products/ATEL-23/v4/assembly.json",
+      "sha256": "ca6385ece840a76b9222c57be122f9800eb26147dfdade266e009ee9a489a55b"
+    }
+  },
+  "qa": {
+    "path": "quality/evidence/ATEL-23/v4/draft/browser-result.json",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "captures": {
+      "front": {
+        "path": "quality/evidence/ATEL-23/v4/draft/front.png",
+        "sha256": "35d7c067407c3e751c8e38a6a57867a60616616b95754757ce7d68ccb3f71aed"
+      },
+      "back": {
+        "path": "quality/evidence/ATEL-23/v4/draft/back.png",
+        "sha256": "91b82690b3ad58e1648136088f4721e2b63ebad1b4608f840e113ff7d7d66c7d"
+      },
+      "side": {
+        "path": "quality/evidence/ATEL-23/v4/draft/side.png",
+        "sha256": "e8e3f8316812a1f899cfa25825a22be653e143a1f6e532f074f481c4464d99a5"
+      },
+      "oblique": {
+        "path": "quality/evidence/ATEL-23/v4/draft/oblique.png",
+        "sha256": "41b8f960405f14dc06c6a7a25c5a5fbb6bb26c78d032f71ff5a3cfc7f42eed62"
+      },
+      "mobile": {
+        "path": "quality/evidence/ATEL-23/v4/draft/mobile.png",
+        "sha256": "c16a9aaed0a224cfb5d8c3a76ac0f603bccd18fe64a845306f1d2027e713e82b"
+      }
+    }
+  },
+  "visibleFindings": [
+    "Họa tiết và hàng khuy chưa có trên mẫu.",
+    "Cổ/tay áo chưa đọc rõ như sơ mi; mannequin bàn tay lộ qua ống tay.",
+    "Cần Designer sửa tập trung trước final; không che lỗi trong bản chốt."
+  ],
+  "catalog": "unchanged",
+  "decision": "draft for focused correction; not final or complete"
+}

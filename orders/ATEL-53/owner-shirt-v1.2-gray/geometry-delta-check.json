@@ -1,0 +1,48 @@
+{
+  "parentSha256": "dba1bcc1ae6ff2f1a02bbc557eb17bdfc210b2184c39a67f7d665dec2268be13",
+  "derivedSha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c",
+  "derivedBytes": 2038132,
+  "originalGeometryBufferSha256": "cbebd849a6c6b6fe83220ecf4b259c2ce4e33f18e8b63b4117acc9f5670c9eba",
+  "derivedOriginalGeometryPrefixSha256": "cbebd849a6c6b6fe83220ecf4b259c2ce4e33f18e8b63b4117acc9f5670c9eba",
+  "oldGeometryBytesPreserved": true,
+  "addedFasteners": [
+    {
+      "side": "right",
+      "mesh": 2,
+      "surfacePosition": [
+        0.2590560019016266,
+        -0.13465799391269684,
+        1.1480180025100708
+      ],
+      "surfaceNormal": [
+        -0.09284003462703506,
+        -0.9802333736552523,
+        0.17470907573132288
+      ],
+      "vertex": 6039
+    },
+    {
+      "side": "left",
+      "mesh": 3,
+      "surfacePosition": [
+        -0.2803339958190918,
+        -0.1304820030927658,
+        1.1396230459213257
+      ],
+      "surfaceNormal": [
+        0.1354610385578903,
+        -0.989192302821754,
+        0.05611501644847784
+      ],
+      "vertex": 5928
+    }
+  ],
+  "newButtonVertices": 196,
+  "newButtonTriangles": 192,
+  "newMeshIndex": 6,
+  "newNodeIndex": 8,
+  "sourceMeshCount": 6,
+  "derivedMeshCount": 7,
+  "sourceTextureCount": 0,
+  "derivedTextureCount": 0
+}

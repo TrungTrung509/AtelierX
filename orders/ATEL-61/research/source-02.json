@@ -1,0 +1,49 @@
+{
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-61",
+  "round": 4,
+  "candidateId": "artstation-3d-drape-shirt-male-shirt-agpaq",
+  "sourcePage": "https://www.artstation.com/marketplace/p/agpaq/3d-drape-shirt-male-shirt",
+  "provenance": {
+    "creator": "nana jimoh",
+    "license": "Standard Use License, shown on listing",
+    "price": "USD 12.00",
+    "accountGate": "Listing exposes Sign Up/Sign In and Add to Cart; no unauthenticated GLB download URL."
+  },
+  "availableFilesOnListing": [
+    "Shirt.blend.glb (13 MB)",
+    "Shirt.blend",
+    "Drape shirt.zpac",
+    "FBX/OBJ/DAE/STL and 4K textures"
+  ],
+  "sourceGlb": {
+    "path": null,
+    "sha256": null,
+    "reason": "Not purchased/downloaded; no source GLB available for inspection or hashing."
+  },
+  "sellerGallery": {
+    "images": [
+      "orders/ATEL-61/research/source-02/gallery-01.jpg",
+      "orders/ATEL-61/research/source-02/gallery-02.jpg",
+      "orders/ATEL-61/research/source-02/gallery-03.jpg",
+      "orders/ATEL-61/research/source-02/gallery-04.jpg",
+      "orders/ATEL-61/research/source-02/gallery-05.jpg",
+      "orders/ATEL-61/research/source-02/gallery-06.jpg",
+      "orders/ATEL-61/research/source-02/gallery-07.jpg"
+    ],
+    "sha256": {
+      "orders/ATEL-61/research/source-02/gallery-01.jpg": "b2cc23d19d0a9631e883b1f1e6acc9a297be7f654ebe029eb3e70bfbeef19349",
+      "orders/ATEL-61/research/source-02/gallery-02.jpg": "38b3521aca4c7215b1c70b23ef8b3baf196ecf712809a163ec385a055cc0e04f",
+      "orders/ATEL-61/research/source-02/gallery-03.jpg": "7672105beab054001262756b2a5cf2ba2e0fbe2a2bc5abf97c059336f6d9e552",
+      "orders/ATEL-61/research/source-02/gallery-04.jpg": "f21abc33f8a490aadccd95016bc0b4d6e64ed1e58bfb615e247dd13514283cef",
+      "orders/ATEL-61/research/source-02/gallery-05.jpg": "b49db69a4f572f944cc5f03151378d3b199ea020775d129abe1082911f6a5586",
+      "orders/ATEL-61/research/source-02/gallery-06.jpg": "0ac057e82b241fe20785931187b13c035f30759a6a6f32d3a6fd9c966684fa82",
+      "orders/ATEL-61/research/source-02/gallery-07.jpg": "5a0ebd93aa471a6c0a202f2bd62c2a87a76a99b5ddf7de0ca2455b77b8d84326"
+    }
+  },
+  "visualInspection": {
+    "observation": "Seller gallery images show a short-sleeve crew-neck T-shirt from front and oblique angles; no turned collar leaves, button placket, buttons, or cuffs. These are product-gallery images, not captures from downloaded GLB.",
+    "decision": "excluded",
+    "reason": "Wrong garment construction despite listing title; purchasing the GLB would not satisfy the button-down brief."
+  }
+}

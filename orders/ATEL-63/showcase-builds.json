@@ -1,0 +1,22 @@
+{
+  "ATEL-63:draft": {
+    "revision": "v1",
+    "model": "showcase/products/ATEL-63/v1/assets/display.glb",
+    "sha256": "3f0a7ae35b70083e42c30bdcda01354128a0ec3a244348adeefb5d345e845b7f"
+  },
+  "ATEL-63:final": {
+    "revision": "v1",
+    "model": "showcase/products/ATEL-63/v1/assets/display.glb",
+    "sha256": "3f0a7ae35b70083e42c30bdcda01354128a0ec3a244348adeefb5d345e845b7f"
+  },
+  "ATEL-63:correction": {
+    "revision": "v2",
+    "model": "showcase/products/ATEL-63/v2/assets/display.glb",
+    "sha256": "91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99"
+  },
+  "ATEL-63:repair": {
+    "revision": "v2.1",
+    "model": "showcase/products/ATEL-63/v2.1/assets/display.glb",
+    "sha256": "91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99"
+  }
+}

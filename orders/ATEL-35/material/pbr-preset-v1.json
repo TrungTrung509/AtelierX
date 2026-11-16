@@ -1,0 +1,35 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v1",
+  "materialName": "ATEL-35 cream cotton-like matte",
+  "shader": "glTF 2.0 metallicRoughness",
+  "scope": "Reusable base-color/PBR preset for the T-shirt shell; no artwork or garment geometry included.",
+  "appearance": {
+    "simulatedMaterial": "cotton-like matte",
+    "baseColorHexSRGB": "#EBDDCA",
+    "baseColorFactorLinear": [
+      0.83077,
+      0.72306,
+      0.59062,
+      1.0
+    ],
+    "roughnessFactor": 0.82,
+    "metallicFactor": 0.0,
+    "alphaMode": "OPAQUE"
+  },
+  "textureMaps": {
+    "baseColor": null,
+    "roughness": null,
+    "normal": null
+  },
+  "applicationNotes": [
+    "Apply the linear baseColorFactor, roughnessFactor, and metallicFactor using the glTF 2.0 metallic-roughness workflow.",
+    "The matte roughness and zero metallic value keep specular response restrained; fold readability still depends on garment normals, geometry, and neutral scene lighting.",
+    "Keep any chest-flower artwork as a separate UV-aligned artwork layer or texture; this preset does not contain it."
+  ],
+  "source": {
+    "brief": "orders/ATEL-35/brief.md",
+    "provenance": "Cream color follows the ATEL-35 owner brief. PBR values are an artist-authored reusable visualization preset; no external texture or measured material data was used.",
+    "limitations": "Cotton-like is a visual simulation only; these values do not describe or certify real textile composition, hand, or production properties."
+  }
+}

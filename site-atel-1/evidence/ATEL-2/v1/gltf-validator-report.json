@@ -1,0 +1,13 @@
+{
+  "validator": "Khronos glTF Validator",
+  "version": "2.0.0-dev.3.10",
+  "asset": "site-atel-1/dist/assets/models/ATEL-2/v1/hoodie-skull-v1.glb",
+  "checkedAt": "2026-11-13T13:00:37.750Z",
+  "errors": 0,
+  "warnings": 0,
+  "infos": 0,
+  "triangleCount": 7156,
+  "vertexCount": 3927,
+  "hasEmbeddedTexture": true,
+  "messages": []
+}

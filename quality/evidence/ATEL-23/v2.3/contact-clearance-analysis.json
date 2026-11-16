@@ -1,0 +1,5612 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.3",
+  "method": "Reconstructed every QA segment/triangle crossing pair from the exact frozen combined GLB; grouped by the QA point bands. For each unique involved garment triangle, measured centroid and 3 vertices against the mannequin with closest-point triangle distance plus oblique ray-parity inside test. This tests sampled garment surface points, not continuous volume or fabric thickness.",
+  "source": {
+    "qaReport": "quality/reports/ATEL-23/v2.1.json",
+    "qaReportSha256": "0626be5dfda5edff33ba4b78fdf3e54e6a26637f4a30afd2e6fe7c1407553913",
+    "intersectionResult": "quality/evidence/ATEL-23/v2.1/triangle-intersection-result.json",
+    "combined": "orders/ATEL-23/v2.3/fit-evidence/garment-on-mannequin-v2.3.glb",
+    "combinedSha256": "fad5884a02488a0d5c488d5d419960de8d24cdbfd088f933365fc3c5132fbcbb",
+    "garmentSha256": "24fc2581746470437be2e35e99fc22ddd67ee57c8a43a30bb7d69d476ca2e80a",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  },
+  "contactPairs": 377,
+  "contactPairsByZone": {
+    "neck/collar": 377
+  },
+  "zoneMeasurements": {
+    "neck/collar": {
+      "intersectingTrianglePairs": 377,
+      "uniqueGarmentTriangles": 295,
+      "surfaceSamples": 1180,
+      "insideSamples": 580,
+      "nearestSurfaceDistanceRangeMeters": [
+        0.0000094,
+        0.0171069
+      ],
+      "garmentTrianglesWithInsideSamples": 295,
+      "maxObservedSampledDepthMeters": 0.0071316,
+      "penetratingTriangles": [
+        {
+          "garmentTriangle": 101720,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0071316,
+          "deepestSamplePoint": [
+            -0.05584946274757385,
+            1.616538405418396,
+            -0.007894129492342472
+          ]
+        },
+        {
+          "garmentTriangle": 101721,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0071316,
+          "deepestSamplePoint": [
+            -0.05584946274757385,
+            1.616538405418396,
+            -0.007894129492342472
+          ]
+        },
+        {
+          "garmentTriangle": 101723,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0067509,
+          "deepestSamplePoint": [
+            -0.05584946274757385,
+            1.6173343658447266,
+            -0.01119739469140768
+          ]
+        },
+        {
+          "garmentTriangle": 101623,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.006745,
+          "deepestSamplePoint": [
+            -0.05660270154476166,
+            1.615789532661438,
+            -0.0047552683390676975
+          ]
+        },
+        {
+          "garmentTriangle": 101624,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.006745,
+          "deepestSamplePoint": [
+            -0.05660270154476166,
+            1.615789532661438,
+            -0.0047552683390676975
+          ]
+        },
+        {
+          "garmentTriangle": 101626,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.006745,
+          "deepestSamplePoint": [
+            -0.05660270154476166,
+            1.615789532661438,
+            -0.0047552683390676975
+          ]
+        },
+        {
+          "garmentTriangle": 101625,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.006745,
+          "deepestSamplePoint": [
+            -0.05660270154476166,
+            1.615789532661438,
+            -0.0047552683390676975
+          ]
+        },
+        {
+          "garmentTriangle": 101712,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0066585,
+          "deepestSamplePoint": [
+            -0.05584946274757385,
+            1.6175154447555542,
+            -0.012000000104308128
+          ]
+        },
+        {
+          "garmentTriangle": 101719,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0066585,
+          "deepestSamplePoint": [
+            -0.05584946274757385,
+            1.6175154447555542,
+            -0.012000000104308128
+          ]
+        },
+        {
+          "garmentTriangle": 101722,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0066585,
+          "deepestSamplePoint": [
+            -0.05584946274757385,
+            1.6175154447555542,
+            -0.012000000104308128
+          ]
+        },
+        {
+          "garmentTriangle": 101631,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0065807,
+          "deepestSamplePoint": [
+            -0.05679706484079361,
+            1.6155962944030762,
+            -0.004000000189989805
+          ]
+        },
+        {
+          "garmentTriangle": 131422,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0057172,
+          "deepestSamplePoint": [
+            0.057943377643823624,
+            1.6186203956604004,
+            -0.017900442704558372
+          ]
+        },
+        {
+          "garmentTriangle": 131421,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0057172,
+          "deepestSamplePoint": [
+            0.057943377643823624,
+            1.6186203956604004,
+            -0.017900442704558372
+          ]
+        },
+        {
+          "garmentTriangle": 107695,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.005713,
+          "deepestSamplePoint": [
+            -0.03564358502626419,
+            1.6207629442214966,
+            -0.0477396585047245
+          ]
+        },
+        {
+          "garmentTriangle": 107696,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.005713,
+          "deepestSamplePoint": [
+            -0.03564358502626419,
+            1.6207629442214966,
+            -0.0477396585047245
+          ]
+        },
+        {
+          "garmentTriangle": 131283,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0056109,
+          "deepestSamplePoint": [
+            0.05584946274757385,
+            1.6086057424545288,
+            0.0163575429469347
+          ]
+        },
+        {
+          "garmentTriangle": 131284,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0056109,
+          "deepestSamplePoint": [
+            0.05584946274757385,
+            1.6086057424545288,
+            0.0163575429469347
+          ]
+        },
+        {
+          "garmentTriangle": 101643,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0053618,
+          "deepestSamplePoint": [
+            -0.05584946274757385,
+            1.6103739738464355,
+            0.012000000104308128
+          ]
+        },
+        {
+          "garmentTriangle": 101646,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0053618,
+          "deepestSamplePoint": [
+            -0.05584946274757385,
+            1.6103739738464355,
+            0.012000000104308128
+          ]
+        },
+        {
+          "garmentTriangle": 101647,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0053618,
+          "deepestSamplePoint": [
+            -0.05584946274757385,
+            1.6103739738464355,
+            0.012000000104308128
+          ]
+        },
+        {
+          "garmentTriangle": 228958,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0053561,
+          "deepestSamplePoint": [
+            0,
+            1.6030000448226929,
+            0.10599999874830246
+          ]
+        },
+        {
+          "garmentTriangle": 228959,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0053561,
+          "deepestSamplePoint": [
+            0,
+            1.6030000448226929,
+            0.10599999874830246
+          ]
+        },
+        {
+          "garmentTriangle": 228864,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0053561,
+          "deepestSamplePoint": [
+            0,
+            1.6030000448226929,
+            0.10599999874830246
+          ]
+        },
+        {
+          "garmentTriangle": 125230,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0053509,
+          "deepestSamplePoint": [
+            0.034529026597738266,
+            1.5874077081680298,
+            0.0546220988035202
+          ]
+        },
+        {
+          "garmentTriangle": 125231,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0053509,
+          "deepestSamplePoint": [
+            0.034529026597738266,
+            1.5874077081680298,
+            0.0546220988035202
+          ]
+        }
+      ]
+    }
+  },
+  "classificationByPair": [
+    {
+      "pair": 1,
+      "mannequinTriangle": 11683,
+      "garmentTriangle": 105707,
+      "intersectionPointMeters": [
+        -0.043947782635358625,
+        1.6207547107945603,
+        -0.04806623901758252
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004494
+    },
+    {
+      "pair": 2,
+      "mannequinTriangle": 11682,
+      "garmentTriangle": 103716,
+      "intersectionPointMeters": [
+        -0.04807117193477312,
+        1.6208571407096157,
+        -0.04420074368534379
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0002803
+    },
+    {
+      "pair": 3,
+      "mannequinTriangle": 11683,
+      "garmentTriangle": 105708,
+      "intersectionPointMeters": [
+        -0.044303332767188355,
+        1.6207629442214966,
+        -0.0477396585047245
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004494
+    },
+    {
+      "pair": 4,
+      "mannequinTriangle": 11683,
+      "garmentTriangle": 105705,
+      "intersectionPointMeters": [
+        -0.043637583002946595,
+        1.620747527543085,
+        -0.04835116411244932
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004494
+    },
+    {
+      "pair": 5,
+      "mannequinTriangle": 11683,
+      "garmentTriangle": 105706,
+      "intersectionPointMeters": [
+        -0.039892472326755524,
+        1.6206608025151357,
+        -0.05179112955148973
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.00291
+    },
+    {
+      "pair": 6,
+      "mannequinTriangle": 11683,
+      "garmentTriangle": 107690,
+      "intersectionPointMeters": [
+        -0.03747526074252553,
+        1.6204926321002069,
+        -0.05404298107189547
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0025092
+    },
+    {
+      "pair": 7,
+      "mannequinTriangle": 11683,
+      "garmentTriangle": 105709,
+      "intersectionPointMeters": [
+        -0.04751823036235585,
+        1.6208415753303214,
+        -0.044785527179442744
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0004494
+    },
+    {
+      "pair": 8,
+      "mannequinTriangle": 11682,
+      "garmentTriangle": 103723,
+      "intersectionPointMeters": [
+        -0.048260985193831346,
+        1.6208624839782715,
+        -0.04399999976158142
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0002803
+    },
+    {
+      "pair": 9,
+      "mannequinTriangle": 11682,
+      "garmentTriangle": 105709,
+      "intersectionPointMeters": [
+        -0.04751823036235584,
+        1.6208415753303214,
+        -0.044785527179442744
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0004494
+    },
+    {
+      "pair": 10,
+      "mannequinTriangle": 11682,
+      "garmentTriangle": 103725,
+      "intersectionPointMeters": [
+        -0.04970082335746324,
+        1.620824531817746,
+        -0.04249225984758418
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0002803
+    },
+    {
+      "pair": 11,
+      "mannequinTriangle": 11683,
+      "garmentTriangle": 107695,
+      "intersectionPointMeters": [
+        -0.03966507266865236,
+        1.6206555366516113,
+        -0.052000001072883606
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.005713
+    },
+    {
+      "pair": 12,
+      "mannequinTriangle": 11683,
+      "garmentTriangle": 107696,
+      "intersectionPointMeters": [
+        -0.039892472326755524,
+        1.6206608025151357,
+        -0.05179112955148973
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.005713
+    },
+    {
+      "pair": 13,
+      "mannequinTriangle": 11690,
+      "garmentTriangle": 111578,
+      "intersectionPointMeters": [
+        -0.018109973085542797,
+        1.6197464443276446,
+        -0.062158788254194304
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0023392
+    },
+    {
+      "pair": 14,
+      "mannequinTriangle": 11690,
+      "garmentTriangle": 111585,
+      "intersectionPointMeters": [
+        -0.02029644636013959,
+        1.619786161749106,
+        -0.06185947632119471
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0023392
+    },
+    {
+      "pair": 15,
+      "mannequinTriangle": 11690,
+      "garmentTriangle": 113545,
+      "intersectionPointMeters": [
+        -0.012827010283112686,
+        1.6196504789835322,
+        -0.06288198657851495
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0033819
+    },
+    {
+      "pair": 16,
+      "mannequinTriangle": 11690,
+      "garmentTriangle": 113538,
+      "intersectionPointMeters": [
+        -0.011089891603437532,
+        1.6196189241159147,
+        -0.06311978520880424
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0033819
+    },
+    {
+      "pair": 17,
+      "mannequinTriangle": 11690,
+      "garmentTriangle": 113544,
+      "intersectionPointMeters": [
+        -0.014507160008491775,
+        1.6196809990065923,
+        -0.06265198657445605
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0027979
+    },
+    {
+      "pair": 18,
+      "mannequinTriangle": 11690,
+      "garmentTriangle": 113543,
+      "intersectionPointMeters": [
+        -0.01595698855817318,
+        1.6197073352313354,
+        -0.06245351582671587
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0023392
+    },
+    {
+      "pair": 19,
+      "mannequinTriangle": 11690,
+      "garmentTriangle": 115495,
+      "intersectionPointMeters": [
+        -0.00797849427908659,
+        1.6195624053922233,
+        -0.06354571236661638
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0033819
+    },
+    {
+      "pair": 20,
+      "mannequinTriangle": 11690,
+      "garmentTriangle": 115496,
+      "intersectionPointMeters": [
+        -0.005883266275064253,
+        1.6195243454467119,
+        -0.0638325335005607
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0038581
+    },
+    {
+      "pair": 21,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 109643,
+      "intersectionPointMeters": [
+        -0.029721078327320963,
+        1.6201994315944581,
+        -0.057801188582242646
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0020917
+    },
+    {
+      "pair": 22,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 109644,
+      "intersectionPointMeters": [
+        -0.03191397711634636,
+        1.620279884488142,
+        -0.056738882218125695
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0020917
+    },
+    {
+      "pair": 23,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 107686,
+      "intersectionPointMeters": [
+        -0.0330583691364057,
+        1.6203218698501587,
+        -0.05618450418114662
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004836
+    },
+    {
+      "pair": 24,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 109632,
+      "intersectionPointMeters": [
+        -0.0243449613497327,
+        1.6199784240921413,
+        -0.060410580309835406
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0005268
+    },
+    {
+      "pair": 25,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 109639,
+      "intersectionPointMeters": [
+        -0.025182116576492122,
+        1.6200329065322876,
+        -0.05999999865889549
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0005268
+    },
+    {
+      "pair": 26,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 109641,
+      "intersectionPointMeters": [
+        -0.028284896285994034,
+        1.6201467410637047,
+        -0.058496918512947804
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0020917
+    },
+    {
+      "pair": 27,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 111583,
+      "intersectionPointMeters": [
+        -0.023518327205194478,
+        1.6199246263687765,
+        -0.060816001910201686
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0005268
+    },
+    {
+      "pair": 28,
+      "mannequinTriangle": 11685,
+      "garmentTriangle": 111583,
+      "intersectionPointMeters": [
+        -0.023518327205194478,
+        1.6199246263687765,
+        -0.060816001910201686
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0005268
+    },
+    {
+      "pair": 29,
+      "mannequinTriangle": 11685,
+      "garmentTriangle": 111584,
+      "intersectionPointMeters": [
+        -0.021834606070539372,
+        1.6198142176606787,
+        -0.06164804595094579
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0017566
+    },
+    {
+      "pair": 30,
+      "mannequinTriangle": 11691,
+      "garmentTriangle": 111584,
+      "intersectionPointMeters": [
+        -0.021834606070539372,
+        1.6198142176606787,
+        -0.06164804595094579
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0017566
+    },
+    {
+      "pair": 31,
+      "mannequinTriangle": 11691,
+      "garmentTriangle": 111585,
+      "intersectionPointMeters": [
+        -0.020296446360139594,
+        1.619786161749106,
+        -0.06185947632119471
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0023392
+    },
+    {
+      "pair": 32,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 107690,
+      "intersectionPointMeters": [
+        -0.03747526074252553,
+        1.6204926321002069,
+        -0.05404298107189547
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0025092
+    },
+    {
+      "pair": 33,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 107684,
+      "intersectionPointMeters": [
+        -0.035100008413314225,
+        1.6204008020377245,
+        -0.05519461851444915
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.004131
+    },
+    {
+      "pair": 34,
+      "mannequinTriangle": 11684,
+      "garmentTriangle": 107691,
+      "intersectionPointMeters": [
+        -0.03597385063910267,
+        1.6204345858110134,
+        -0.05477093745381987
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.004131
+    },
+    {
+      "pair": 35,
+      "mannequinTriangle": 12791,
+      "garmentTriangle": 101703,
+      "intersectionPointMeters": [
+        -0.057647010745916015,
+        1.620061079002519,
+        -0.028351808320499605
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.00176
+    },
+    {
+      "pair": 36,
+      "mannequinTriangle": 12783,
+      "garmentTriangle": 101703,
+      "intersectionPointMeters": [
+        -0.057647010745916015,
+        1.620061079002519,
+        -0.028351808320499605
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.00176
+    },
+    {
+      "pair": 37,
+      "mannequinTriangle": 12791,
+      "garmentTriangle": 101696,
+      "intersectionPointMeters": [
+        -0.05595334010620076,
+        1.6203259779011419,
+        -0.031659768429013774
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.00176
+    },
+    {
+      "pair": 38,
+      "mannequinTriangle": 12790,
+      "garmentTriangle": 101696,
+      "intersectionPointMeters": [
+        -0.05595334010620076,
+        1.6203259779011419,
+        -0.03165976842901378
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.00176
+    },
+    {
+      "pair": 39,
+      "mannequinTriangle": 12790,
+      "garmentTriangle": 103735,
+      "intersectionPointMeters": [
+        -0.05342778625787118,
+        1.6206555366516113,
+        -0.035999998450279236
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0031605
+    },
+    {
+      "pair": 40,
+      "mannequinTriangle": 12790,
+      "garmentTriangle": 103737,
+      "intersectionPointMeters": [
+        -0.05584946274757385,
+        1.6203402573449388,
+        -0.03183808487614586
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0031605
+    },
+    {
+      "pair": 41,
+      "mannequinTriangle": 12790,
+      "garmentTriangle": 103736,
+      "intersectionPointMeters": [
+        -0.055672766655052726,
+        1.6203645467758179,
+        -0.03214140236377716
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0031605
+    },
+    {
+      "pair": 42,
+      "mannequinTriangle": 12790,
+      "garmentTriangle": 103730,
+      "intersectionPointMeters": [
+        -0.05342778625787118,
+        1.6206555366516113,
+        -0.035999998450279236
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0014799
+    },
+    {
+      "pair": 43,
+      "mannequinTriangle": 12783,
+      "garmentTriangle": 101704,
+      "intersectionPointMeters": [
+        -0.05865136068795966,
+        1.619614357872847,
+        -0.024679279172208517
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0041441
+    },
+    {
+      "pair": 44,
+      "mannequinTriangle": 12783,
+      "garmentTriangle": 101706,
+      "intersectionPointMeters": [
+        -0.058598483457578496,
+        1.6196401119232178,
+        -0.024871982634067535
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0026506
+    },
+    {
+      "pair": 45,
+      "mannequinTriangle": 12783,
+      "garmentTriangle": 101705,
+      "intersectionPointMeters": [
+        -0.05814705313953739,
+        1.6198471682143059,
+        -0.026520874544103755
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.00176
+    },
+    {
+      "pair": 46,
+      "mannequinTriangle": 12782,
+      "garmentTriangle": 101714,
+      "intersectionPointMeters": [
+        -0.06092111885715502,
+        1.6186203956604004,
+        -0.017900442704558372
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0048121
+    },
+    {
+      "pair": 47,
+      "mannequinTriangle": 12782,
+      "garmentTriangle": 101711,
+      "intersectionPointMeters": [
+        -0.06021715045438533,
+        1.6189889907836914,
+        -0.019999999552965164
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0041441
+    },
+    {
+      "pair": 48,
+      "mannequinTriangle": 12782,
+      "garmentTriangle": 101704,
+      "intersectionPointMeters": [
+        -0.05865136068795967,
+        1.619614357872847,
+        -0.024679279172208517
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0041441
+    },
+    {
+      "pair": 49,
+      "mannequinTriangle": 12782,
+      "garmentTriangle": 101713,
+      "intersectionPointMeters": [
+        -0.06081065450204445,
+        1.6186782343679773,
+        -0.018229898106767804
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0041441
+    },
+    {
+      "pair": 50,
+      "mannequinTriangle": 12790,
+      "garmentTriangle": 103725,
+      "intersectionPointMeters": [
+        -0.04970082335746324,
+        1.620824531817746,
+        -0.04249225984758418
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0002803
+    },
+    {
+      "pair": 51,
+      "mannequinTriangle": 12790,
+      "garmentTriangle": 103726,
+      "intersectionPointMeters": [
+        -0.05127629698294503,
+        1.6207554340362549,
+        -0.03974718600511551
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0029314
+    },
+    {
+      "pair": 52,
+      "mannequinTriangle": 12790,
+      "garmentTriangle": 103724,
+      "intersectionPointMeters": [
+        -0.05139751955943655,
+        1.6207498054614382,
+        -0.03953605609836299
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0047834
+    },
+    {
+      "pair": 53,
+      "mannequinTriangle": 12790,
+      "garmentTriangle": 103731,
+      "intersectionPointMeters": [
+        -0.05162433976471174,
+        1.6207392738052708,
+        -0.03914100981098525
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0047834
+    },
+    {
+      "pair": 54,
+      "mannequinTriangle": 14143,
+      "garmentTriangle": 101644,
+      "intersectionPointMeters": [
+        -0.060818036920551544,
+        1.6094368339788012,
+        0.014341820897986064
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0038663
+    },
+    {
+      "pair": 55,
+      "mannequinTriangle": 14143,
+      "garmentTriangle": 101651,
+      "intersectionPointMeters": [
+        -0.0600548672471557,
+        1.6086057424545288,
+        0.0163575429469347
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0005266
+    },
+    {
+      "pair": 56,
+      "mannequinTriangle": 14143,
+      "garmentTriangle": 101577,
+      "intersectionPointMeters": [
+        -0.058960358809044974,
+        1.6074168299750178,
+        0.019253137489362568
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0019983
+    },
+    {
+      "pair": 57,
+      "mannequinTriangle": 14143,
+      "garmentTriangle": 101578,
+      "intersectionPointMeters": [
+        -0.058960358809044974,
+        1.6074168299750178,
+        0.019253137489362568
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0019983
+    },
+    {
+      "pair": 58,
+      "mannequinTriangle": 14143,
+      "garmentTriangle": 101576,
+      "intersectionPointMeters": [
+        -0.0600548672471557,
+        1.6086057424545288,
+        0.0163575429469347
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0019983
+    },
+    {
+      "pair": 59,
+      "mannequinTriangle": 14143,
+      "garmentTriangle": 101575,
+      "intersectionPointMeters": [
+        -0.05908186114003173,
+        1.6075530052185059,
+        0.018938282504677773
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0019983
+    },
+    {
+      "pair": 60,
+      "mannequinTriangle": 14143,
+      "garmentTriangle": 101583,
+      "intersectionPointMeters": [
+        -0.05867214523115248,
+        1.6070938110351562,
+        0.019999999552965164
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.001197
+    },
+    {
+      "pair": 61,
+      "mannequinTriangle": 14143,
+      "garmentTriangle": 101581,
+      "intersectionPointMeters": [
+        -0.05806907309571412,
+        1.6063989458021133,
+        0.021532975677736575
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0025951
+    },
+    {
+      "pair": 62,
+      "mannequinTriangle": 14143,
+      "garmentTriangle": 101582,
+      "intersectionPointMeters": [
+        -0.05772043004941296,
+        1.605997236093803,
+        0.022419207082970988
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0025951
+    },
+    {
+      "pair": 63,
+      "mannequinTriangle": 12782,
+      "garmentTriangle": 101712,
+      "intersectionPointMeters": [
+        -0.061125742510900465,
+        1.6185061747290548,
+        -0.01729050243825713
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0066585
+    },
+    {
+      "pair": 64,
+      "mannequinTriangle": 12782,
+      "garmentTriangle": 101719,
+      "intersectionPointMeters": [
+        -0.06236807605523424,
+        1.6178127040971004,
+        -0.01358736627097637
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0066585
+    },
+    {
+      "pair": 65,
+      "mannequinTriangle": 12781,
+      "garmentTriangle": 101719,
+      "intersectionPointMeters": [
+        -0.06236807605523424,
+        1.6178127040971004,
+        -0.01358736627097637
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0066585
+    },
+    {
+      "pair": 66,
+      "mannequinTriangle": 12781,
+      "garmentTriangle": 101722,
+      "intersectionPointMeters": [
+        -0.06263976393545334,
+        1.617344147389117,
+        -0.011240749936027094
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0066585
+    },
+    {
+      "pair": 67,
+      "mannequinTriangle": 12781,
+      "garmentTriangle": 101723,
+      "intersectionPointMeters": [
+        -0.06264478943076186,
+        1.6173343658447266,
+        -0.01119739469140768
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0067509
+    },
+    {
+      "pair": 68,
+      "mannequinTriangle": 12781,
+      "garmentTriangle": 101727,
+      "intersectionPointMeters": [
+        -0.06302795067698136,
+        1.616538405418396,
+        -0.007894129492342472
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0032733
+    },
+    {
+      "pair": 69,
+      "mannequinTriangle": 12781,
+      "garmentTriangle": 101720,
+      "intersectionPointMeters": [
+        -0.0626641835746102,
+        1.6172940773991749,
+        -0.011030196152745503
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0071316
+    },
+    {
+      "pair": 70,
+      "mannequinTriangle": 12781,
+      "garmentTriangle": 101721,
+      "intersectionPointMeters": [
+        -0.0626641835746102,
+        1.6172940773991749,
+        -0.011030196152745503
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0071316
+    },
+    {
+      "pair": 71,
+      "mannequinTriangle": 12781,
+      "garmentTriangle": 101623,
+      "intersectionPointMeters": [
+        -0.06339200280961316,
+        1.615789532661438,
+        -0.0047552683390676975
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.006745
+    },
+    {
+      "pair": 72,
+      "mannequinTriangle": 12781,
+      "garmentTriangle": 101624,
+      "intersectionPointMeters": [
+        -0.06302795067698136,
+        1.616538405418396,
+        -0.007894129492342472
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.006745
+    },
+    {
+      "pair": 73,
+      "mannequinTriangle": 12780,
+      "garmentTriangle": 101626,
+      "intersectionPointMeters": [
+        -0.06341711237891283,
+        1.6156072823044985,
+        -0.004042946198921283
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.006745
+    },
+    {
+      "pair": 74,
+      "mannequinTriangle": 12780,
+      "garmentTriangle": 101625,
+      "intersectionPointMeters": [
+        -0.06342042998037149,
+        1.61572687189872,
+        -0.004510359910069444
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.006745
+    },
+    {
+      "pair": 75,
+      "mannequinTriangle": 12781,
+      "garmentTriangle": 101625,
+      "intersectionPointMeters": [
+        -0.06342042998037149,
+        1.61572687189872,
+        -0.004510359910069445
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.006745
+    },
+    {
+      "pair": 76,
+      "mannequinTriangle": 12780,
+      "garmentTriangle": 101632,
+      "intersectionPointMeters": [
+        -0.06336241168751891,
+        1.6141436179010107,
+        0.0009840820449875066
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0049199
+    },
+    {
+      "pair": 77,
+      "mannequinTriangle": 12780,
+      "garmentTriangle": 101631,
+      "intersectionPointMeters": [
+        -0.06341680755742711,
+        1.6155962944030762,
+        -0.004000000189989805
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0065807
+    },
+    {
+      "pair": 78,
+      "mannequinTriangle": 14150,
+      "garmentTriangle": 101640,
+      "intersectionPointMeters": [
+        -0.06307745314120385,
+        1.6120280027389526,
+        0.007451275363564491
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0026397
+    },
+    {
+      "pair": 79,
+      "mannequinTriangle": 14150,
+      "garmentTriangle": 101639,
+      "intersectionPointMeters": [
+        -0.06323558647941314,
+        1.6132123470306396,
+        0.004000000189989805
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0040166
+    },
+    {
+      "pair": 80,
+      "mannequinTriangle": 14150,
+      "garmentTriangle": 101634,
+      "intersectionPointMeters": [
+        -0.0632471502269975,
+        1.6132974269618836,
+        0.003727252783560357
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0049199
+    },
+    {
+      "pair": 81,
+      "mannequinTriangle": 14150,
+      "garmentTriangle": 101633,
+      "intersectionPointMeters": [
+        -0.0632471502269975,
+        1.6132974269618836,
+        0.0037272527835603567
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0049199
+    },
+    {
+      "pair": 82,
+      "mannequinTriangle": 14150,
+      "garmentTriangle": 101632,
+      "intersectionPointMeters": [
+        -0.06336241168751891,
+        1.6141436179010107,
+        0.0009840820449875066
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0049199
+    },
+    {
+      "pair": 83,
+      "mannequinTriangle": 14151,
+      "garmentTriangle": 101643,
+      "intersectionPointMeters": [
+        -0.061852291448073894,
+        1.6105701171637254,
+        0.011460588752956281
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0053618
+    },
+    {
+      "pair": 84,
+      "mannequinTriangle": 14151,
+      "garmentTriangle": 101642,
+      "intersectionPointMeters": [
+        -0.06234637641920705,
+        1.6110859362917387,
+        0.010042040842482626
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0026397
+    },
+    {
+      "pair": 85,
+      "mannequinTriangle": 14151,
+      "garmentTriangle": 101641,
+      "intersectionPointMeters": [
+        -0.06305003307249502,
+        1.6118205458883175,
+        0.008021799925372261
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0026397
+    },
+    {
+      "pair": 86,
+      "mannequinTriangle": 14150,
+      "garmentTriangle": 101641,
+      "intersectionPointMeters": [
+        -0.06305003307249502,
+        1.6118205458883175,
+        0.008021799925372261
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0026397
+    },
+    {
+      "pair": 87,
+      "mannequinTriangle": 14151,
+      "garmentTriangle": 101646,
+      "intersectionPointMeters": [
+        -0.061292530140859225,
+        1.6099685166068276,
+        0.01303934052625135
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0053618
+    },
+    {
+      "pair": 88,
+      "mannequinTriangle": 14151,
+      "garmentTriangle": 101645,
+      "intersectionPointMeters": [
+        -0.06093495298902086,
+        1.6095686246711074,
+        0.014022176915862244
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0049376
+    },
+    {
+      "pair": 89,
+      "mannequinTriangle": 14151,
+      "garmentTriangle": 101647,
+      "intersectionPointMeters": [
+        -0.061206505451084664,
+        1.6098747253417969,
+        0.013279763050377369
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0053618
+    },
+    {
+      "pair": 90,
+      "mannequinTriangle": 14151,
+      "garmentTriangle": 101644,
+      "intersectionPointMeters": [
+        -0.06081803692055154,
+        1.6094368339788012,
+        0.014341820897986062
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0038663
+    },
+    {
+      "pair": 91,
+      "mannequinTriangle": 14142,
+      "garmentTriangle": 101582,
+      "intersectionPointMeters": [
+        -0.05772043004941296,
+        1.605997236093803,
+        0.02241920708297099
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0025951
+    },
+    {
+      "pair": 92,
+      "mannequinTriangle": 14142,
+      "garmentTriangle": 101580,
+      "intersectionPointMeters": [
+        -0.056865900612063223,
+        1.604017219368127,
+        0.02666146599894953
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0013239
+    },
+    {
+      "pair": 93,
+      "mannequinTriangle": 13974,
+      "garmentTriangle": 115265,
+      "intersectionPointMeters": [
+        -0.006141170043440891,
+        1.571447904549682,
+        0.07784227518789782
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.001975
+    },
+    {
+      "pair": 94,
+      "mannequinTriangle": 13974,
+      "garmentTriangle": 115266,
+      "intersectionPointMeters": [
+        -0.00705378853894804,
+        1.5715919084832808,
+        0.07767723742896708
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0014509
+    },
+    {
+      "pair": 95,
+      "mannequinTriangle": 13975,
+      "garmentTriangle": 115266,
+      "intersectionPointMeters": [
+        -0.007053788538948039,
+        1.5715919084832808,
+        0.07767723742896707
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0014509
+    },
+    {
+      "pair": 96,
+      "mannequinTriangle": 13975,
+      "garmentTriangle": 113312,
+      "intersectionPointMeters": [
+        -0.00797849427908659,
+        1.5716650398303351,
+        0.07759342420717638
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0014509
+    },
+    {
+      "pair": 97,
+      "mannequinTriangle": 13975,
+      "garmentTriangle": 113311,
+      "intersectionPointMeters": [
+        -0.012106479702285972,
+        1.5720060022210112,
+        0.07756513771175899
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0014509
+    },
+    {
+      "pair": 98,
+      "mannequinTriangle": 14132,
+      "garmentTriangle": 103586,
+      "intersectionPointMeters": [
+        -0.05022082296864536,
+        1.5944489612263348,
+        0.04443379624021013
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021421
+    },
+    {
+      "pair": 99,
+      "mannequinTriangle": 14132,
+      "garmentTriangle": 103587,
+      "intersectionPointMeters": [
+        -0.04983209631841218,
+        1.5939737558364868,
+        0.04524386674165726
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0021421
+    },
+    {
+      "pair": 100,
+      "mannequinTriangle": 14132,
+      "garmentTriangle": 103583,
+      "intersectionPointMeters": [
+        -0.05081307679879027,
+        1.5951720098759075,
+        0.043193494566484
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0021421
+    },
+    {
+      "pair": 101,
+      "mannequinTriangle": 14140,
+      "garmentTriangle": 101591,
+      "intersectionPointMeters": [
+        -0.056013874753718745,
+        1.6027114547992376,
+        0.02934253128008136
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0005285
+    },
+    {
+      "pair": 102,
+      "mannequinTriangle": 14141,
+      "garmentTriangle": 101591,
+      "intersectionPointMeters": [
+        -0.056013874753718745,
+        1.6027114547992376,
+        0.02934253128008136
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0005285
+    },
+    {
+      "pair": 103,
+      "mannequinTriangle": 14141,
+      "garmentTriangle": 101590,
+      "intersectionPointMeters": [
+        -0.056394359320579374,
+        1.603296483928906,
+        0.02816069616158836
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0005285
+    },
+    {
+      "pair": 104,
+      "mannequinTriangle": 14141,
+      "garmentTriangle": 101587,
+      "intersectionPointMeters": [
+        -0.05644609418582495,
+        1.603376030921936,
+        0.02800000086426735
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0005285
+    },
+    {
+      "pair": 105,
+      "mannequinTriangle": 14141,
+      "garmentTriangle": 101580,
+      "intersectionPointMeters": [
+        -0.056865900612063223,
+        1.604017219368127,
+        0.02666146599894953
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0013239
+    },
+    {
+      "pair": 106,
+      "mannequinTriangle": 14140,
+      "garmentTriangle": 101589,
+      "intersectionPointMeters": [
+        -0.05584946274757385,
+        1.6024596504527113,
+        0.029849562128775497
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0000094
+    },
+    {
+      "pair": 107,
+      "mannequinTriangle": 14131,
+      "garmentTriangle": 103579,
+      "intersectionPointMeters": [
+        -0.053037237392173434,
+        1.5980950702161463,
+        0.03806507891617204
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0039464
+    },
+    {
+      "pair": 108,
+      "mannequinTriangle": 14140,
+      "garmentTriangle": 103579,
+      "intersectionPointMeters": [
+        -0.05303723739217343,
+        1.5980950702161463,
+        0.03806507891617204
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0039464
+    },
+    {
+      "pair": 109,
+      "mannequinTriangle": 14140,
+      "garmentTriangle": 103630,
+      "intersectionPointMeters": [
+        -0.05584946274757385,
+        1.6024596504527113,
+        0.029849562128775493
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0016148
+    },
+    {
+      "pair": 110,
+      "mannequinTriangle": 14140,
+      "garmentTriangle": 103631,
+      "intersectionPointMeters": [
+        -0.054693978117611446,
+        1.6006730794906616,
+        0.033278729766607285
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0036381
+    },
+    {
+      "pair": 111,
+      "mannequinTriangle": 14140,
+      "garmentTriangle": 103571,
+      "intersectionPointMeters": [
+        -0.054094517902150925,
+        1.5997473001480103,
+        0.0350663922727108
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0046859
+    },
+    {
+      "pair": 112,
+      "mannequinTriangle": 14140,
+      "garmentTriangle": 103573,
+      "intersectionPointMeters": [
+        -0.05386099312722667,
+        1.5993833555646175,
+        0.03573657540724653
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0046859
+    },
+    {
+      "pair": 113,
+      "mannequinTriangle": 14140,
+      "garmentTriangle": 103574,
+      "intersectionPointMeters": [
+        -0.05386099312722667,
+        1.5993833555646175,
+        0.03573657540724653
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0046859
+    },
+    {
+      "pair": 114,
+      "mannequinTriangle": 14140,
+      "garmentTriangle": 103572,
+      "intersectionPointMeters": [
+        -0.05469397811761145,
+        1.6006730794906616,
+        0.033278729766607285
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0046859
+    },
+    {
+      "pair": 115,
+      "mannequinTriangle": 14131,
+      "garmentTriangle": 103582,
+      "intersectionPointMeters": [
+        -0.051993498908500156,
+        1.5967318280819085,
+        0.040508749904176744
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004112
+    },
+    {
+      "pair": 116,
+      "mannequinTriangle": 14131,
+      "garmentTriangle": 103581,
+      "intersectionPointMeters": [
+        -0.051993498908500156,
+        1.5967318280819085,
+        0.040508749904176744
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004112
+    },
+    {
+      "pair": 117,
+      "mannequinTriangle": 14131,
+      "garmentTriangle": 103580,
+      "intersectionPointMeters": [
+        -0.05212752185745183,
+        1.5969089269638062,
+        0.04020392894744873
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004112
+    },
+    {
+      "pair": 118,
+      "mannequinTriangle": 14131,
+      "garmentTriangle": 103583,
+      "intersectionPointMeters": [
+        -0.05081307679879027,
+        1.5951720098759075,
+        0.043193494566484
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0021421
+    },
+    {
+      "pair": 119,
+      "mannequinTriangle": 14133,
+      "garmentTriangle": 103538,
+      "intersectionPointMeters": [
+        -0.04858848015904551,
+        1.5924410197271417,
+        0.047756464887637934
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008044
+    },
+    {
+      "pair": 120,
+      "mannequinTriangle": 14133,
+      "garmentTriangle": 103537,
+      "intersectionPointMeters": [
+        -0.04787096753716469,
+        1.5920501620620082,
+        0.04831775543470721
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008044
+    },
+    {
+      "pair": 121,
+      "mannequinTriangle": 14132,
+      "garmentTriangle": 103584,
+      "intersectionPointMeters": [
+        -0.04883148843140223,
+        1.5927404165267944,
+        0.047264814376831055
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008044
+    },
+    {
+      "pair": 122,
+      "mannequinTriangle": 14132,
+      "garmentTriangle": 103538,
+      "intersectionPointMeters": [
+        -0.04858848015904551,
+        1.5924410197271417,
+        0.047756464887637934
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008044
+    },
+    {
+      "pair": 123,
+      "mannequinTriangle": 14132,
+      "garmentTriangle": 103585,
+      "intersectionPointMeters": [
+        -0.048999005278753394,
+        1.5929468961234037,
+        0.04692647727105654
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0016423
+    },
+    {
+      "pair": 124,
+      "mannequinTriangle": 14133,
+      "garmentTriangle": 105527,
+      "intersectionPointMeters": [
+        -0.0477458669909987,
+        1.5919835104330229,
+        0.04841942842678969
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0033488
+    },
+    {
+      "pair": 125,
+      "mannequinTriangle": 14128,
+      "garmentTriangle": 105530,
+      "intersectionPointMeters": [
+        -0.04561266122771875,
+        1.5902058288585934,
+        0.05130219558521729
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0033488
+    },
+    {
+      "pair": 126,
+      "mannequinTriangle": 14128,
+      "garmentTriangle": 105529,
+      "intersectionPointMeters": [
+        -0.04561266122771875,
+        1.5902058288585934,
+        0.05130219558521729
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0033488
+    },
+    {
+      "pair": 127,
+      "mannequinTriangle": 14128,
+      "garmentTriangle": 105527,
+      "intersectionPointMeters": [
+        -0.0477458669909987,
+        1.5919835104330229,
+        0.04841942842678969
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0033488
+    },
+    {
+      "pair": 128,
+      "mannequinTriangle": 14128,
+      "garmentTriangle": 105536,
+      "intersectionPointMeters": [
+        -0.04513329295677735,
+        1.589814305305481,
+        0.052000001072883606
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0016528
+    },
+    {
+      "pair": 129,
+      "mannequinTriangle": 14129,
+      "garmentTriangle": 105533,
+      "intersectionPointMeters": [
+        -0.042008600641572635,
+        1.5871769901974377,
+        0.056012710378842916
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018553
+    },
+    {
+      "pair": 130,
+      "mannequinTriangle": 14128,
+      "garmentTriangle": 105535,
+      "intersectionPointMeters": [
+        -0.04276057856087656,
+        1.5878083597103898,
+        0.055026165194266924
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0036756
+    },
+    {
+      "pair": 131,
+      "mannequinTriangle": 14128,
+      "garmentTriangle": 105534,
+      "intersectionPointMeters": [
+        -0.043886057648783575,
+        1.588769685699065,
+        0.05365247344676832
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0036756
+    },
+    {
+      "pair": 132,
+      "mannequinTriangle": 14128,
+      "garmentTriangle": 105533,
+      "intersectionPointMeters": [
+        -0.042008600641572635,
+        1.5871769901974377,
+        0.056012710378842916
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018553
+    },
+    {
+      "pair": 133,
+      "mannequinTriangle": 14129,
+      "garmentTriangle": 107526,
+      "intersectionPointMeters": [
+        -0.039892472326755524,
+        1.5861366471153175,
+        0.05757325468513605
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0034905
+    },
+    {
+      "pair": 134,
+      "mannequinTriangle": 14129,
+      "garmentTriangle": 107527,
+      "intersectionPointMeters": [
+        -0.038486108977147035,
+        1.5854650122327252,
+        0.058682039212635644
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0034905
+    },
+    {
+      "pair": 135,
+      "mannequinTriangle": 265,
+      "garmentTriangle": 109456,
+      "intersectionPointMeters": [
+        -0.030546814127775768,
+        1.5785314148535055,
+        0.06922718383713705
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0013109
+    },
+    {
+      "pair": 136,
+      "mannequinTriangle": 265,
+      "garmentTriangle": 109452,
+      "intersectionPointMeters": [
+        -0.02724492244596396,
+        1.5768749713897705,
+        0.07162563569594368
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0016144
+    },
+    {
+      "pair": 137,
+      "mannequinTriangle": 265,
+      "garmentTriangle": 109455,
+      "intersectionPointMeters": [
+        -0.030176511213182655,
+        1.5783447179918755,
+        0.06948215594101166
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0036012
+    },
+    {
+      "pair": 138,
+      "mannequinTriangle": 265,
+      "garmentTriangle": 109453,
+      "intersectionPointMeters": [
+        -0.0300087157047791,
+        1.5782605942371195,
+        0.06960484562016918
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0027797
+    },
+    {
+      "pair": 139,
+      "mannequinTriangle": 265,
+      "garmentTriangle": 109454,
+      "intersectionPointMeters": [
+        -0.030347969655430247,
+        1.5784320460709302,
+        0.06937742229320996
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0036012
+    },
+    {
+      "pair": 140,
+      "mannequinTriangle": 14124,
+      "garmentTriangle": 107527,
+      "intersectionPointMeters": [
+        -0.038486108977147035,
+        1.5854650122327252,
+        0.058682039212635644
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0034905
+    },
+    {
+      "pair": 141,
+      "mannequinTriangle": 14124,
+      "garmentTriangle": 107491,
+      "intersectionPointMeters": [
+        -0.036476651467968246,
+        1.5846492052078247,
+        0.05999999865889549
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0022569
+    },
+    {
+      "pair": 142,
+      "mannequinTriangle": 14124,
+      "garmentTriangle": 107485,
+      "intersectionPointMeters": [
+        -0.0365390658324849,
+        1.5846737175761656,
+        0.059956653191819656
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0023617
+    },
+    {
+      "pair": 143,
+      "mannequinTriangle": 14124,
+      "garmentTriangle": 107484,
+      "intersectionPointMeters": [
+        -0.036854250690658064,
+        1.5848076343536377,
+        0.059767287224531174
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0024131
+    },
+    {
+      "pair": 144,
+      "mannequinTriangle": 14124,
+      "garmentTriangle": 107486,
+      "intersectionPointMeters": [
+        -0.0365390658324849,
+        1.5846737175761656,
+        0.059956653191819656
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0023617
+    },
+    {
+      "pair": 145,
+      "mannequinTriangle": 14125,
+      "garmentTriangle": 107490,
+      "intersectionPointMeters": [
+        -0.03215034938250526,
+        1.5827098002992592,
+        0.06230431545703599
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0023191
+    },
+    {
+      "pair": 146,
+      "mannequinTriangle": 14125,
+      "garmentTriangle": 109450,
+      "intersectionPointMeters": [
+        -0.030998614981063315,
+        1.5797158784488023,
+        0.0671762344622452
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0034646
+    },
+    {
+      "pair": 147,
+      "mannequinTriangle": 14124,
+      "garmentTriangle": 107483,
+      "intersectionPointMeters": [
+        -0.03662325907646381,
+        1.5847067832946777,
+        0.05989818274974823
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0023617
+    },
+    {
+      "pair": 148,
+      "mannequinTriangle": 14124,
+      "garmentTriangle": 107490,
+      "intersectionPointMeters": [
+        -0.03215034938250526,
+        1.5827098002992592,
+        0.06230431545703599
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0023191
+    },
+    {
+      "pair": 149,
+      "mannequinTriangle": 14124,
+      "garmentTriangle": 107489,
+      "intersectionPointMeters": [
+        -0.03340328028347586,
+        1.5833268961083613,
+        0.06179847469621232
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0023191
+    },
+    {
+      "pair": 150,
+      "mannequinTriangle": 14125,
+      "garmentTriangle": 109448,
+      "intersectionPointMeters": [
+        -0.03191397711634636,
+        1.5821200943052194,
+        0.06295871540905537
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0034646
+    },
+    {
+      "pair": 151,
+      "mannequinTriangle": 14125,
+      "garmentTriangle": 109456,
+      "intersectionPointMeters": [
+        -0.030546814127775768,
+        1.5785314148535055,
+        0.06922718383713705
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0013109
+    },
+    {
+      "pair": 152,
+      "mannequinTriangle": 14125,
+      "garmentTriangle": 109449,
+      "intersectionPointMeters": [
+        -0.030998614981063315,
+        1.5797158784488023,
+        0.0671762344622452
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0034646
+    },
+    {
+      "pair": 153,
+      "mannequinTriangle": 265,
+      "garmentTriangle": 109398,
+      "intersectionPointMeters": [
+        -0.025069564644567176,
+        1.575747389848568,
+        0.0726585152045217
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0016144
+    },
+    {
+      "pair": 154,
+      "mannequinTriangle": 265,
+      "garmentTriangle": 109397,
+      "intersectionPointMeters": [
+        -0.024812651629092294,
+        1.5756128421142737,
+        0.07275970348274224
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0016144
+    },
+    {
+      "pair": 155,
+      "mannequinTriangle": 14118,
+      "garmentTriangle": 109397,
+      "intersectionPointMeters": [
+        -0.024812651629092294,
+        1.5756128421142737,
+        0.07275970348274224
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0016144
+    },
+    {
+      "pair": 156,
+      "mannequinTriangle": 14119,
+      "garmentTriangle": 111347,
+      "intersectionPointMeters": [
+        -0.02136711353148587,
+        1.5743351473166198,
+        0.07439351581629673
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009523
+    },
+    {
+      "pair": 157,
+      "mannequinTriangle": 15013,
+      "garmentTriangle": 111347,
+      "intersectionPointMeters": [
+        -0.02136711353148587,
+        1.5743351473166198,
+        0.07439351581629673
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009523
+    },
+    {
+      "pair": 158,
+      "mannequinTriangle": 15013,
+      "garmentTriangle": 111348,
+      "intersectionPointMeters": [
+        -0.02060206544127067,
+        1.5742338729671224,
+        0.07465620682489452
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009523
+    },
+    {
+      "pair": 159,
+      "mannequinTriangle": 14118,
+      "garmentTriangle": 111345,
+      "intersectionPointMeters": [
+        -0.022039704292211547,
+        1.574900355834561,
+        0.07338003588671958
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0016144
+    },
+    {
+      "pair": 160,
+      "mannequinTriangle": 14119,
+      "garmentTriangle": 111345,
+      "intersectionPointMeters": [
+        -0.022039704292211547,
+        1.574900355834561,
+        0.07338003588671958
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0016144
+    },
+    {
+      "pair": 161,
+      "mannequinTriangle": 15013,
+      "garmentTriangle": 111349,
+      "intersectionPointMeters": [
+        -0.01884705421141152,
+        1.5740015508125575,
+        0.07525881687773765
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0009523
+    },
+    {
+      "pair": 162,
+      "mannequinTriangle": 15013,
+      "garmentTriangle": 111342,
+      "intersectionPointMeters": [
+        -0.016415865373110294,
+        1.573583658580978,
+        0.07553988453711903
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0012682
+    },
+    {
+      "pair": 163,
+      "mannequinTriangle": 15013,
+      "garmentTriangle": 113308,
+      "intersectionPointMeters": [
+        -0.015434459872602332,
+        1.5734354037440732,
+        0.07577114887201608
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0027543
+    },
+    {
+      "pair": 164,
+      "mannequinTriangle": 15013,
+      "garmentTriangle": 113313,
+      "intersectionPointMeters": [
+        -0.014452193894875679,
+        1.573293981336298,
+        0.07604274937215984
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0014286
+    },
+    {
+      "pair": 165,
+      "mannequinTriangle": 15013,
+      "garmentTriangle": 113307,
+      "intersectionPointMeters": [
+        -0.01595698855817318,
+        1.5735085182827016,
+        0.07561446526054595
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0027543
+    },
+    {
+      "pair": 166,
+      "mannequinTriangle": 15012,
+      "garmentTriangle": 113313,
+      "intersectionPointMeters": [
+        -0.014452193894875679,
+        1.573293981336298,
+        0.07604274937215982
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0014286
+    },
+    {
+      "pair": 167,
+      "mannequinTriangle": 15012,
+      "garmentTriangle": 113311,
+      "intersectionPointMeters": [
+        -0.012106479702285972,
+        1.5720060022210112,
+        0.07756513771175898
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0014509
+    },
+    {
+      "pair": 168,
+      "mannequinTriangle": 14112,
+      "garmentTriangle": 228957,
+      "intersectionPointMeters": [
+        -0.01882735454076326,
+        1.5999769864102533,
+        0.10522496353418712
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018821
+    },
+    {
+      "pair": 169,
+      "mannequinTriangle": 14112,
+      "garmentTriangle": 228958,
+      "intersectionPointMeters": [
+        -0.013380192003418636,
+        1.5924312764362234,
+        0.10724235828977778
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0053561
+    },
+    {
+      "pair": 170,
+      "mannequinTriangle": 14112,
+      "garmentTriangle": 228956,
+      "intersectionPointMeters": [
+        -0.02002077888249771,
+        1.6013912101477836,
+        0.1047293691279845
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018821
+    },
+    {
+      "pair": 171,
+      "mannequinTriangle": 14109,
+      "garmentTriangle": 228958,
+      "intersectionPointMeters": [
+        -0.013380192003418636,
+        1.5924312764362234,
+        0.10724235828977778
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0053561
+    },
+    {
+      "pair": 172,
+      "mannequinTriangle": 14110,
+      "garmentTriangle": 228958,
+      "intersectionPointMeters": [
+        -0.01121744820483567,
+        1.5911874631072584,
+        0.10761056692460706
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0053561
+    },
+    {
+      "pair": 173,
+      "mannequinTriangle": 14110,
+      "garmentTriangle": 228959,
+      "intersectionPointMeters": [
+        -0.004627661572385907,
+        1.5888249085536723,
+        0.10845412611182047
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0053561
+    },
+    {
+      "pair": 174,
+      "mannequinTriangle": 14111,
+      "garmentTriangle": 228959,
+      "intersectionPointMeters": [
+        -0.004627661572385906,
+        1.5888249085536723,
+        0.10845412611182048
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0053561
+    },
+    {
+      "pair": 175,
+      "mannequinTriangle": 14103,
+      "garmentTriangle": 228959,
+      "intersectionPointMeters": [
+        -0.0009715046678822746,
+        1.5877716804755888,
+        0.10887145673779587
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0053561
+    },
+    {
+      "pair": 176,
+      "mannequinTriangle": 14369,
+      "garmentTriangle": 228956,
+      "intersectionPointMeters": [
+        -0.02002077888249771,
+        1.6013912101477836,
+        0.1047293691279845
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018821
+    },
+    {
+      "pair": 177,
+      "mannequinTriangle": 11695,
+      "garmentTriangle": 115490,
+      "intersectionPointMeters": [
+        -0.0036393501522707667,
+        1.6195008442289631,
+        -0.06400963953245672
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0038366
+    },
+    {
+      "pair": 178,
+      "mannequinTriangle": 11695,
+      "garmentTriangle": 115497,
+      "intersectionPointMeters": [
+        -0.0045852988686306065,
+        1.6195007677889726,
+        -0.06401021558700731
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0038581
+    },
+    {
+      "pair": 179,
+      "mannequinTriangle": 11690,
+      "garmentTriangle": 115497,
+      "intersectionPointMeters": [
+        -0.0045852988686306065,
+        1.6195007677889726,
+        -0.06401021558700731
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0038581
+    },
+    {
+      "pair": 180,
+      "mannequinTriangle": 11694,
+      "garmentTriangle": 115490,
+      "intersectionPointMeters": [
+        -0.003639350152270765,
+        1.6195008442289631,
+        -0.06400963953245672
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0038366
+    },
+    {
+      "pair": 181,
+      "mannequinTriangle": 11694,
+      "garmentTriangle": 117454,
+      "intersectionPointMeters": [
+        0.004025044357877542,
+        1.6195068859689827,
+        -0.06396410875987887
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0037836
+    },
+    {
+      "pair": 182,
+      "mannequinTriangle": 11694,
+      "garmentTriangle": 117460,
+      "intersectionPointMeters": [
+        0.002173174002258479,
+        1.6195054261642685,
+        -0.06397510990131199
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0038366
+    },
+    {
+      "pair": 183,
+      "mannequinTriangle": 11694,
+      "garmentTriangle": 117461,
+      "intersectionPointMeters": [
+        0.002984745483904718,
+        1.6195060659152485,
+        -0.063970288714653
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0038102
+    },
+    {
+      "pair": 184,
+      "mannequinTriangle": 11694,
+      "garmentTriangle": 117459,
+      "intersectionPointMeters": [
+        0,
+        1.6195037130801726,
+        -0.0639880197653773
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0038366
+    },
+    {
+      "pair": 185,
+      "mannequinTriangle": 11694,
+      "garmentTriangle": 119454,
+      "intersectionPointMeters": [
+        0.01249930485870301,
+        1.6195135661155666,
+        -0.06391376693220838
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0031501
+    },
+    {
+      "pair": 186,
+      "mannequinTriangle": 11694,
+      "garmentTriangle": 119459,
+      "intersectionPointMeters": [
+        0.00797849427908659,
+        1.6195100024208529,
+        -0.06394062306521348
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0037836
+    },
+    {
+      "pair": 187,
+      "mannequinTriangle": 11694,
+      "garmentTriangle": 119460,
+      "intersectionPointMeters": [
+        0.010125840791890493,
+        1.619511695145483,
+        -0.06392786663082184
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0037836
+    },
+    {
+      "pair": 188,
+      "mannequinTriangle": 11694,
+      "garmentTriangle": 119461,
+      "intersectionPointMeters": [
+        0.010969570033542514,
+        1.6195123602459967,
+        -0.06392285440915604
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0037636
+    },
+    {
+      "pair": 189,
+      "mannequinTriangle": 13979,
+      "garmentTriangle": 115262,
+      "intersectionPointMeters": [
+        -0.003145967500333431,
+        1.570976887352514,
+        0.07850440742149858
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001317
+    },
+    {
+      "pair": 190,
+      "mannequinTriangle": 13979,
+      "garmentTriangle": 117231,
+      "intersectionPointMeters": [
+        0.00081858207175994,
+        1.5709094331190716,
+        0.07853165784721616
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0001317
+    },
+    {
+      "pair": 191,
+      "mannequinTriangle": 13978,
+      "garmentTriangle": 117231,
+      "intersectionPointMeters": [
+        0.0008185820717599391,
+        1.5709094331190716,
+        0.07853165784721616
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0001317
+    },
+    {
+      "pair": 192,
+      "mannequinTriangle": 13978,
+      "garmentTriangle": 117232,
+      "intersectionPointMeters": [
+        0.0019931394738700826,
+        1.570926573925584,
+        0.0784829490261715
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001216
+    },
+    {
+      "pair": 193,
+      "mannequinTriangle": 13978,
+      "garmentTriangle": 117233,
+      "intersectionPointMeters": [
+        0.001995784553696411,
+        1.5709266125263381,
+        0.07848283933487869
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001216
+    },
+    {
+      "pair": 194,
+      "mannequinTriangle": 13978,
+      "garmentTriangle": 117226,
+      "intersectionPointMeters": [
+        0.004665273162935549,
+        1.5709650310216563,
+        0.07848782631144864
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001216
+    },
+    {
+      "pair": 195,
+      "mannequinTriangle": 13974,
+      "garmentTriangle": 115264,
+      "intersectionPointMeters": [
+        -0.003976869521713178,
+        1.5711057052205901,
+        0.07818177684684675
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0020464
+    },
+    {
+      "pair": 196,
+      "mannequinTriangle": 13974,
+      "garmentTriangle": 115263,
+      "intersectionPointMeters": [
+        -0.005551927034177959,
+        1.5713549266935494,
+        0.07794883378406163
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0020464
+    },
+    {
+      "pair": 197,
+      "mannequinTriangle": 13974,
+      "garmentTriangle": 115262,
+      "intersectionPointMeters": [
+        -0.003145967500333431,
+        1.570976887352514,
+        0.07850440742149858
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001317
+    },
+    {
+      "pair": 198,
+      "mannequinTriangle": 14103,
+      "garmentTriangle": 228864,
+      "intersectionPointMeters": [
+        0.0026943992469563964,
+        1.5886499844233102,
+        0.10859958099995065
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0053561
+    },
+    {
+      "pair": 199,
+      "mannequinTriangle": 14102,
+      "garmentTriangle": 228865,
+      "intersectionPointMeters": [
+        0.009559799584817496,
+        1.5898201706844073,
+        0.10796761129423639
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021446
+    },
+    {
+      "pair": 200,
+      "mannequinTriangle": 14102,
+      "garmentTriangle": 228864,
+      "intersectionPointMeters": [
+        0.0026943992469563964,
+        1.5886499844233102,
+        0.10859958099995065
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0053561
+    },
+    {
+      "pair": 201,
+      "mannequinTriangle": 11699,
+      "garmentTriangle": 119454,
+      "intersectionPointMeters": [
+        0.014503764998337821,
+        1.6195572170581904,
+        -0.06358481184063314
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0031501
+    },
+    {
+      "pair": 202,
+      "mannequinTriangle": 11698,
+      "garmentTriangle": 119454,
+      "intersectionPointMeters": [
+        0.014503764998337821,
+        1.6195572170581904,
+        -0.06358481184063314
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0031501
+    },
+    {
+      "pair": 203,
+      "mannequinTriangle": 11698,
+      "garmentTriangle": 121481,
+      "intersectionPointMeters": [
+        0.01595698855817318,
+        1.6195896386878674,
+        -0.06334048125993227
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0031501
+    },
+    {
+      "pair": 204,
+      "mannequinTriangle": 11698,
+      "garmentTriangle": 121482,
+      "intersectionPointMeters": [
+        0.017629485274206616,
+        1.619626952333656,
+        -0.06305928426785004
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0031501
+    },
+    {
+      "pair": 205,
+      "mannequinTriangle": 11698,
+      "garmentTriangle": 121476,
+      "intersectionPointMeters": [
+        0.0215401583997959,
+        1.6197142000217404,
+        -0.062401782516492026
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018851
+    },
+    {
+      "pair": 206,
+      "mannequinTriangle": 11698,
+      "garmentTriangle": 121483,
+      "intersectionPointMeters": [
+        0.019096216781577347,
+        1.6196596753276136,
+        -0.06281268259496721
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0025929
+    },
+    {
+      "pair": 207,
+      "mannequinTriangle": 11698,
+      "garmentTriangle": 123449,
+      "intersectionPointMeters": [
+        0.023935483768582344,
+        1.6197676400802483,
+        -0.061999056291499224
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018851
+    },
+    {
+      "pair": 208,
+      "mannequinTriangle": 11698,
+      "garmentTriangle": 123450,
+      "intersectionPointMeters": [
+        0.024936362301718133,
+        1.6197899698263727,
+        -0.06183077851238051
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0018851
+    },
+    {
+      "pair": 209,
+      "mannequinTriangle": 11698,
+      "garmentTriangle": 123451,
+      "intersectionPointMeters": [
+        0.02940340593022036,
+        1.6198896302215637,
+        -0.06107973414870966
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0013279
+    },
+    {
+      "pair": 210,
+      "mannequinTriangle": 11700,
+      "garmentTriangle": 123451,
+      "intersectionPointMeters": [
+        0.02940340593022036,
+        1.6198896302215637,
+        -0.06107973414870966
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0013279
+    },
+    {
+      "pair": 211,
+      "mannequinTriangle": 11700,
+      "garmentTriangle": 123453,
+      "intersectionPointMeters": [
+        0.031609662434197126,
+        1.6200539778037009,
+        -0.059721771926490974
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0048416
+    },
+    {
+      "pair": 212,
+      "mannequinTriangle": 11700,
+      "garmentTriangle": 123454,
+      "intersectionPointMeters": [
+        0.03191397711634636,
+        1.620067993617459,
+        -0.059536706014355865
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0048416
+    },
+    {
+      "pair": 213,
+      "mannequinTriangle": 11700,
+      "garmentTriangle": 125397,
+      "intersectionPointMeters": [
+        0.03308819208153444,
+        1.620122074406949,
+        -0.05882261899745453
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008533
+    },
+    {
+      "pair": 214,
+      "mannequinTriangle": 11700,
+      "garmentTriangle": 125398,
+      "intersectionPointMeters": [
+        0.03191397711634636,
+        1.620067993617459,
+        -0.059536706014355865
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0027554
+    },
+    {
+      "pair": 215,
+      "mannequinTriangle": 11700,
+      "garmentTriangle": 125395,
+      "intersectionPointMeters": [
+        0.03563629476484065,
+        1.6202394323089526,
+        -0.05727301598793322
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008533
+    },
+    {
+      "pair": 216,
+      "mannequinTriangle": 11700,
+      "garmentTriangle": 125396,
+      "intersectionPointMeters": [
+        0.037426198268280676,
+        1.6203218698501587,
+        -0.05618450418114662
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008533
+    },
+    {
+      "pair": 217,
+      "mannequinTriangle": 11700,
+      "garmentTriangle": 125394,
+      "intersectionPointMeters": [
+        0.03989116005581626,
+        1.620441528074435,
+        -0.054683874783093785
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.002199
+    },
+    {
+      "pair": 218,
+      "mannequinTriangle": 11701,
+      "garmentTriangle": 125394,
+      "intersectionPointMeters": [
+        0.03989116005581626,
+        1.620441528074435,
+        -0.054683874783093785
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.002199
+    },
+    {
+      "pair": 219,
+      "mannequinTriangle": 11701,
+      "garmentTriangle": 127335,
+      "intersectionPointMeters": [
+        0.039892472326755524,
+        1.6204415926096611,
+        -0.05468306544919284
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.002199
+    },
+    {
+      "pair": 220,
+      "mannequinTriangle": 11701,
+      "garmentTriangle": 127336,
+      "intersectionPointMeters": [
+        0.04366552144248803,
+        1.6206271446708482,
+        -0.05235606386137843
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.002199
+    },
+    {
+      "pair": 221,
+      "mannequinTriangle": 12831,
+      "garmentTriangle": 127341,
+      "intersectionPointMeters": [
+        0.04397883744699111,
+        1.6206555366516113,
+        -0.052000001072883606
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.002644
+    },
+    {
+      "pair": 222,
+      "mannequinTriangle": 12831,
+      "garmentTriangle": 127336,
+      "intersectionPointMeters": [
+        0.04366552144248803,
+        1.6206271446708482,
+        -0.05235606386137843
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.002199
+    },
+    {
+      "pair": 223,
+      "mannequinTriangle": 12831,
+      "garmentTriangle": 127338,
+      "intersectionPointMeters": [
+        0.04787096753716469,
+        1.6207650600105905,
+        -0.04766016936952813
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.002644
+    },
+    {
+      "pair": 224,
+      "mannequinTriangle": 12831,
+      "garmentTriangle": 129313,
+      "intersectionPointMeters": [
+        0.04787096753716469,
+        1.6207650600105905,
+        -0.04766016936952813
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0023713
+    },
+    {
+      "pair": 225,
+      "mannequinTriangle": 12831,
+      "garmentTriangle": 127340,
+      "intersectionPointMeters": [
+        0.04779971259902154,
+        1.6207629442214966,
+        -0.0477396585047245
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.002644
+    },
+    {
+      "pair": 226,
+      "mannequinTriangle": 12831,
+      "garmentTriangle": 127339,
+      "intersectionPointMeters": [
+        0.04403493817881768,
+        1.6206571136838446,
+        -0.051937447776480135
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.002644
+    },
+    {
+      "pair": 227,
+      "mannequinTriangle": 12831,
+      "garmentTriangle": 129314,
+      "intersectionPointMeters": [
+        0.051138382248607894,
+        1.6208620800991893,
+        -0.044015173296150595
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0023713
+    },
+    {
+      "pair": 228,
+      "mannequinTriangle": 12830,
+      "garmentTriangle": 129314,
+      "intersectionPointMeters": [
+        0.051138382248607894,
+        1.6208620800991893,
+        -0.044015173296150595
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0023713
+    },
+    {
+      "pair": 229,
+      "mannequinTriangle": 12830,
+      "garmentTriangle": 129319,
+      "intersectionPointMeters": [
+        0.05114990671684889,
+        1.6208624839782715,
+        -0.04399999976158142
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0023713
+    },
+    {
+      "pair": 230,
+      "mannequinTriangle": 12830,
+      "garmentTriangle": 129318,
+      "intersectionPointMeters": [
+        0.05423949917541923,
+        1.6207612732543542,
+        -0.03997916284314285
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018151
+    },
+    {
+      "pair": 231,
+      "mannequinTriangle": 12830,
+      "garmentTriangle": 129317,
+      "intersectionPointMeters": [
+        0.05218587613293846,
+        1.6208285470704222,
+        -0.04265177531759968
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018151
+    },
+    {
+      "pair": 232,
+      "mannequinTriangle": 12829,
+      "garmentTriangle": 129318,
+      "intersectionPointMeters": [
+        0.05423949917541923,
+        1.6207612732543542,
+        -0.03997916284314285
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018151
+    },
+    {
+      "pair": 233,
+      "mannequinTriangle": 12829,
+      "garmentTriangle": 129316,
+      "intersectionPointMeters": [
+        0.05584946274757385,
+        1.6206724853840166,
+        -0.036635751622055734
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0018151
+    },
+    {
+      "pair": 234,
+      "mannequinTriangle": 12829,
+      "garmentTriangle": 131402,
+      "intersectionPointMeters": [
+        0.05606423585662805,
+        1.6206605952098245,
+        -0.03618974682507006
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0002737
+    },
+    {
+      "pair": 235,
+      "mannequinTriangle": 12829,
+      "garmentTriangle": 131408,
+      "intersectionPointMeters": [
+        0.056565035919814814,
+        1.6205923876953454,
+        -0.0351626280268239
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0020986
+    },
+    {
+      "pair": 236,
+      "mannequinTriangle": 12828,
+      "garmentTriangle": 131409,
+      "intersectionPointMeters": [
+        0.05879584494176047,
+        1.620286825920918,
+        -0.031170852886431018
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0041204
+    },
+    {
+      "pair": 237,
+      "mannequinTriangle": 12828,
+      "garmentTriangle": 131408,
+      "intersectionPointMeters": [
+        0.05656503591981482,
+        1.6205923876953454,
+        -0.03516262802682389
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0020986
+    },
+    {
+      "pair": 238,
+      "mannequinTriangle": 12828,
+      "garmentTriangle": 131410,
+      "intersectionPointMeters": [
+        0.05879584494176047,
+        1.620286825920918,
+        -0.031170852886431018
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0041204
+    },
+    {
+      "pair": 239,
+      "mannequinTriangle": 12829,
+      "garmentTriangle": 131401,
+      "intersectionPointMeters": [
+        0.05584946274757385,
+        1.6206724853840166,
+        -0.036635751622055734
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0002737
+    },
+    {
+      "pair": 240,
+      "mannequinTriangle": 12829,
+      "garmentTriangle": 131407,
+      "intersectionPointMeters": [
+        0.056155608973391,
+        1.6206555366516113,
+        -0.035999998450279236
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0002737
+    },
+    {
+      "pair": 241,
+      "mannequinTriangle": 12828,
+      "garmentTriangle": 131411,
+      "intersectionPointMeters": [
+        0.05951576631714718,
+        1.620183718270547,
+        -0.02988328243565433
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0010518
+    },
+    {
+      "pair": 242,
+      "mannequinTriangle": 12828,
+      "garmentTriangle": 131413,
+      "intersectionPointMeters": [
+        0.061435502332919036,
+        1.6198394994158722,
+        -0.026459804099779174
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0028914
+    },
+    {
+      "pair": 243,
+      "mannequinTriangle": 12828,
+      "garmentTriangle": 131414,
+      "intersectionPointMeters": [
+        0.061626036441579025,
+        1.6197969827209582,
+        -0.02612122257725387
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0028914
+    },
+    {
+      "pair": 244,
+      "mannequinTriangle": 14221,
+      "garmentTriangle": 131414,
+      "intersectionPointMeters": [
+        0.061626036441579025,
+        1.6197969827209582,
+        -0.02612122257725387
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0028914
+    },
+    {
+      "pair": 245,
+      "mannequinTriangle": 14221,
+      "garmentTriangle": 131412,
+      "intersectionPointMeters": [
+        0.06308897374344394,
+        1.6190880188922134,
+        -0.020740972683746757
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0028914
+    },
+    {
+      "pair": 246,
+      "mannequinTriangle": 14221,
+      "garmentTriangle": 131422,
+      "intersectionPointMeters": [
+        0.06382795423269272,
+        1.618645765315193,
+        -0.018044950944347354
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0057172
+    },
+    {
+      "pair": 247,
+      "mannequinTriangle": 14221,
+      "garmentTriangle": 131419,
+      "intersectionPointMeters": [
+        0.06329054519249815,
+        1.6189889907836914,
+        -0.019999999552965164
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0048024
+    },
+    {
+      "pair": 248,
+      "mannequinTriangle": 14220,
+      "garmentTriangle": 133550,
+      "intersectionPointMeters": [
+        0.0646937926099586,
+        1.6175154447555542,
+        -0.012000000104308128
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0008542
+    },
+    {
+      "pair": 249,
+      "mannequinTriangle": 14220,
+      "garmentTriangle": 133544,
+      "intersectionPointMeters": [
+        0.06445048551558942,
+        1.6178439515548422,
+        -0.013754227830164324
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008542
+    },
+    {
+      "pair": 250,
+      "mannequinTriangle": 14220,
+      "garmentTriangle": 133543,
+      "intersectionPointMeters": [
+        0.06388325127894615,
+        1.618609816208355,
+        -0.017843948384981836
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0008542
+    },
+    {
+      "pair": 251,
+      "mannequinTriangle": 14221,
+      "garmentTriangle": 131421,
+      "intersectionPointMeters": [
+        0.0633385442440049,
+        1.6189583353690842,
+        -0.019825383065625726
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0057172
+    },
+    {
+      "pair": 252,
+      "mannequinTriangle": 14221,
+      "garmentTriangle": 133543,
+      "intersectionPointMeters": [
+        0.06388325127894615,
+        1.618609816208355,
+        -0.017843948384981836
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0008542
+    },
+    {
+      "pair": 253,
+      "mannequinTriangle": 14221,
+      "garmentTriangle": 133542,
+      "intersectionPointMeters": [
+        0.06382795423269272,
+        1.618645765315193,
+        -0.018044950944347354
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0000383
+    },
+    {
+      "pair": 254,
+      "mannequinTriangle": 14220,
+      "garmentTriangle": 133548,
+      "intersectionPointMeters": [
+        0.06475619752669004,
+        1.6174120010180693,
+        -0.011541501081663122
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0000954
+    },
+    {
+      "pair": 255,
+      "mannequinTriangle": 14219,
+      "garmentTriangle": 133553,
+      "intersectionPointMeters": [
+        0.06441430452300873,
+        1.616538405418396,
+        -0.007894129492342472
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.000583
+    },
+    {
+      "pair": 256,
+      "mannequinTriangle": 14219,
+      "garmentTriangle": 133548,
+      "intersectionPointMeters": [
+        0.06475619752669004,
+        1.6174120010180693,
+        -0.011541501081663122
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0000954
+    },
+    {
+      "pair": 257,
+      "mannequinTriangle": 14219,
+      "garmentTriangle": 133547,
+      "intersectionPointMeters": [
+        0.0647203304502054,
+        1.6173241726605772,
+        -0.011155092600305094
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0000954
+    },
+    {
+      "pair": 258,
+      "mannequinTriangle": 14219,
+      "garmentTriangle": 133549,
+      "intersectionPointMeters": [
+        0.06472430030089779,
+        1.6173343658447266,
+        -0.01119739469140768
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0000954
+    },
+    {
+      "pair": 259,
+      "mannequinTriangle": 14219,
+      "garmentTriangle": 133546,
+      "intersectionPointMeters": [
+        0.0647203304502054,
+        1.6173241726605772,
+        -0.011155092600305096
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0000954
+    },
+    {
+      "pair": 260,
+      "mannequinTriangle": 14219,
+      "garmentTriangle": 133449,
+      "intersectionPointMeters": [
+        0.06412029692409713,
+        1.615789532661438,
+        -0.0047552683390676975
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.000583
+    },
+    {
+      "pair": 261,
+      "mannequinTriangle": 14219,
+      "garmentTriangle": 133451,
+      "intersectionPointMeters": [
+        0.0640715841419812,
+        1.6156582849938554,
+        -0.004242289264394551
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0002907
+    },
+    {
+      "pair": 262,
+      "mannequinTriangle": 14219,
+      "garmentTriangle": 133450,
+      "intersectionPointMeters": [
+        0.06441430452300873,
+        1.616538405418396,
+        -0.007894129492342472
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.000583
+    },
+    {
+      "pair": 263,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131283,
+      "intersectionPointMeters": [
+        0.061452722800016256,
+        1.6075530052185059,
+        0.018938282504677773
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0056109
+    },
+    {
+      "pair": 264,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131284,
+      "intersectionPointMeters": [
+        0.0616605275809395,
+        1.6080064312783988,
+        0.017826728235258934
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0056109
+    },
+    {
+      "pair": 265,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131352,
+      "intersectionPointMeters": [
+        0.06193519138762479,
+        1.6086057424545288,
+        0.0163575429469347
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0050869
+    },
+    {
+      "pair": 266,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131353,
+      "intersectionPointMeters": [
+        0.062134449360329684,
+        1.6090409091274207,
+        0.015302093538659703
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0050869
+    },
+    {
+      "pair": 267,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131282,
+      "intersectionPointMeters": [
+        0.06193519138762479,
+        1.6086057424545288,
+        0.0163575429469347
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0016042
+    },
+    {
+      "pair": 268,
+      "mannequinTriangle": 14218,
+      "garmentTriangle": 133457,
+      "intersectionPointMeters": [
+        0.06408337546848016,
+        1.6155962944030762,
+        -0.004000000189989805
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0002475
+    },
+    {
+      "pair": 269,
+      "mannequinTriangle": 14218,
+      "garmentTriangle": 133458,
+      "intersectionPointMeters": [
+        0.06430363869733353,
+        1.6140083074569702,
+        0.0014483274426311255
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0004609
+    },
+    {
+      "pair": 270,
+      "mannequinTriangle": 14218,
+      "garmentTriangle": 133452,
+      "intersectionPointMeters": [
+        0.06408208267311179,
+        1.6156030910216457,
+        -0.0040265646476209315
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0002475
+    },
+    {
+      "pair": 271,
+      "mannequinTriangle": 14218,
+      "garmentTriangle": 133451,
+      "intersectionPointMeters": [
+        0.0640715841419812,
+        1.6156582849938554,
+        -0.004242289264394553
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0002907
+    },
+    {
+      "pair": 272,
+      "mannequinTriangle": 14218,
+      "garmentTriangle": 133459,
+      "intersectionPointMeters": [
+        0.0643397180689128,
+        1.6136929751828843,
+        0.002459212837847456
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0004901
+    },
+    {
+      "pair": 273,
+      "mannequinTriangle": 14989,
+      "garmentTriangle": 133466,
+      "intersectionPointMeters": [
+        0.06429758857819191,
+        1.6122237414050185,
+        0.006880877039831094
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0004901
+    },
+    {
+      "pair": 274,
+      "mannequinTriangle": 14989,
+      "garmentTriangle": 133465,
+      "intersectionPointMeters": [
+        0.06433237618967888,
+        1.6132123470306396,
+        0.004000000189989805
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004901
+    },
+    {
+      "pair": 275,
+      "mannequinTriangle": 14989,
+      "garmentTriangle": 133460,
+      "intersectionPointMeters": [
+        0.06433350744813822,
+        1.6132864036373615,
+        0.003762591119283448
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004901
+    },
+    {
+      "pair": 276,
+      "mannequinTriangle": 14989,
+      "garmentTriangle": 133459,
+      "intersectionPointMeters": [
+        0.0643397180689128,
+        1.6136929751828843,
+        0.002459212837847456
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0004901
+    },
+    {
+      "pair": 277,
+      "mannequinTriangle": 14988,
+      "garmentTriangle": 133466,
+      "intersectionPointMeters": [
+        0.06429758857819191,
+        1.6122237414050185,
+        0.006880877039831095
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0004901
+    },
+    {
+      "pair": 278,
+      "mannequinTriangle": 14988,
+      "garmentTriangle": 131354,
+      "intersectionPointMeters": [
+        0.06297660658838995,
+        1.6103105564678024,
+        0.012162562857240704
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0050869
+    },
+    {
+      "pair": 279,
+      "mannequinTriangle": 14988,
+      "garmentTriangle": 131355,
+      "intersectionPointMeters": [
+        0.06268379378772405,
+        1.6098747253417969,
+        0.013279763050377369
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0050869
+    },
+    {
+      "pair": 280,
+      "mannequinTriangle": 14988,
+      "garmentTriangle": 131351,
+      "intersectionPointMeters": [
+        0.06301921350455643,
+        1.6103739738464355,
+        0.012000000104308128
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0049343
+    },
+    {
+      "pair": 281,
+      "mannequinTriangle": 14988,
+      "garmentTriangle": 131344,
+      "intersectionPointMeters": [
+        0.06318167607096017,
+        1.6106096101346652,
+        0.011351979613894824
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0044555
+    },
+    {
+      "pair": 282,
+      "mannequinTriangle": 14988,
+      "garmentTriangle": 133467,
+      "intersectionPointMeters": [
+        0.06382795423269272,
+        1.6115469742953175,
+        0.008774145836059849
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0003035
+    },
+    {
+      "pair": 283,
+      "mannequinTriangle": 14988,
+      "garmentTriangle": 131353,
+      "intersectionPointMeters": [
+        0.062134449360329684,
+        1.6090409091274207,
+        0.015302093538659703
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0050869
+    },
+    {
+      "pair": 284,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131286,
+      "intersectionPointMeters": [
+        0.06141163571025516,
+        1.6074629228978643,
+        0.01914656461939593
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0049305
+    },
+    {
+      "pair": 285,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131285,
+      "intersectionPointMeters": [
+        0.06141163571025516,
+        1.6074629228978643,
+        0.01914656461939593
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0051414
+    },
+    {
+      "pair": 286,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131291,
+      "intersectionPointMeters": [
+        0.0612432815634372,
+        1.6070938110351562,
+        0.019999999552965164
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0049305
+    },
+    {
+      "pair": 287,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131290,
+      "intersectionPointMeters": [
+        0.06032791694508581,
+        1.6050795316696167,
+        0.024443799629807472
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.000043
+    },
+    {
+      "pair": 288,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131289,
+      "intersectionPointMeters": [
+        0.060366329367401654,
+        1.6051640590241811,
+        0.02425731970495931
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.000043
+    },
+    {
+      "pair": 289,
+      "mannequinTriangle": 14321,
+      "garmentTriangle": 131295,
+      "intersectionPointMeters": [
+        0.05992324832093964,
+        1.6041853775376775,
+        0.026310421662189068
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0007148
+    },
+    {
+      "pair": 290,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131288,
+      "intersectionPointMeters": [
+        0.060319595452334285,
+        1.6050611445333682,
+        0.024482184324803466
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.000043
+    },
+    {
+      "pair": 291,
+      "mannequinTriangle": 14324,
+      "garmentTriangle": 131295,
+      "intersectionPointMeters": [
+        0.05992324832093964,
+        1.6041853775376775,
+        0.026310421662189065
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0007148
+    },
+    {
+      "pair": 292,
+      "mannequinTriangle": 14097,
+      "garmentTriangle": 123211,
+      "intersectionPointMeters": [
+        0.02456496261051732,
+        1.575573048682938,
+        0.07264955277552913
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0015065
+    },
+    {
+      "pair": 293,
+      "mannequinTriangle": 14097,
+      "garmentTriangle": 123212,
+      "intersectionPointMeters": [
+        0.0263798091802747,
+        1.5762724371772054,
+        0.07189008062645569
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0015065
+    },
+    {
+      "pair": 294,
+      "mannequinTriangle": 14096,
+      "garmentTriangle": 123211,
+      "intersectionPointMeters": [
+        0.02456496261051732,
+        1.575573048682938,
+        0.07264955277552913
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0015065
+    },
+    {
+      "pair": 295,
+      "mannequinTriangle": 14096,
+      "garmentTriangle": 121241,
+      "intersectionPointMeters": [
+        0.02254314698352418,
+        1.5745217287613071,
+        0.07362675112048324
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0015065
+    },
+    {
+      "pair": 296,
+      "mannequinTriangle": 14096,
+      "garmentTriangle": 121240,
+      "intersectionPointMeters": [
+        0.0220839762032953,
+        1.5742865528207965,
+        0.07414350067688727
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004299
+    },
+    {
+      "pair": 297,
+      "mannequinTriangle": 14096,
+      "garmentTriangle": 121247,
+      "intersectionPointMeters": [
+        0.021193779592873413,
+        1.5738289908688354,
+        0.07501176048081826
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004299
+    },
+    {
+      "pair": 298,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 125230,
+      "intersectionPointMeters": [
+        0.0397720496505897,
+        1.5848076343536377,
+        0.05974813949531667
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0053509
+    },
+    {
+      "pair": 299,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 125231,
+      "intersectionPointMeters": [
+        0.0398264764413187,
+        1.5848396276248018,
+        0.0597039769417876
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0053509
+    },
+    {
+      "pair": 300,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 125193,
+      "intersectionPointMeters": [
+        0.039590904224461584,
+        1.5847009420394897,
+        0.05989233776926994
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0042723
+    },
+    {
+      "pair": 301,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 125194,
+      "intersectionPointMeters": [
+        0.039692291600808484,
+        1.584759722273914,
+        0.059799280694932073
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0042723
+    },
+    {
+      "pair": 302,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 125192,
+      "intersectionPointMeters": [
+        0.0397720496505897,
+        1.5848076343536377,
+        0.05974813949531667
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.000086
+    },
+    {
+      "pair": 303,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 125196,
+      "intersectionPointMeters": [
+        0.03958766480118874,
+        1.5846990432884056,
+        0.05989503825678618
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0041021
+    },
+    {
+      "pair": 304,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 125195,
+      "intersectionPointMeters": [
+        0.03958766480118874,
+        1.5846990432884056,
+        0.05989503825678618
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0041722
+    },
+    {
+      "pair": 305,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 125202,
+      "intersectionPointMeters": [
+        0.03501523757978513,
+        1.5819752526400424,
+        0.06312978120912188
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0041021
+    },
+    {
+      "pair": 306,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 125201,
+      "intersectionPointMeters": [
+        0.039461757472502426,
+        1.584625244140625,
+        0.05999999865889549
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0041021
+    },
+    {
+      "pair": 307,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 127172,
+      "intersectionPointMeters": [
+        0.039892472326755524,
+        1.5848784214347087,
+        0.05965042667682479
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0026839
+    },
+    {
+      "pair": 308,
+      "mannequinTriangle": 269,
+      "garmentTriangle": 127173,
+      "intersectionPointMeters": [
+        0.04279805219831435,
+        1.5865552730543802,
+        0.05688215603008801
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009196
+    },
+    {
+      "pair": 309,
+      "mannequinTriangle": 14083,
+      "garmentTriangle": 127169,
+      "intersectionPointMeters": [
+        0.04432216968057494,
+        1.5881279583758494,
+        0.05441825878200347
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009196
+    },
+    {
+      "pair": 310,
+      "mannequinTriangle": 14083,
+      "garmentTriangle": 127173,
+      "intersectionPointMeters": [
+        0.04279805219831435,
+        1.5865552730543802,
+        0.05688215603008801
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009196
+    },
+    {
+      "pair": 311,
+      "mannequinTriangle": 14083,
+      "garmentTriangle": 127166,
+      "intersectionPointMeters": [
+        0.0435449992461025,
+        1.5873141377070337,
+        0.05563163911054279
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009196
+    },
+    {
+      "pair": 312,
+      "mannequinTriangle": 14083,
+      "garmentTriangle": 127167,
+      "intersectionPointMeters": [
+        0.0435449992461025,
+        1.5873141377070337,
+        0.05563163911054279
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009196
+    },
+    {
+      "pair": 313,
+      "mannequinTriangle": 14077,
+      "garmentTriangle": 127169,
+      "intersectionPointMeters": [
+        0.044322169680574945,
+        1.5881279583758494,
+        0.05441825878200347
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009196
+    },
+    {
+      "pair": 314,
+      "mannequinTriangle": 14077,
+      "garmentTriangle": 127168,
+      "intersectionPointMeters": [
+        0.04461562995278074,
+        1.5884672494859877,
+        0.053902157844710086
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0009196
+    },
+    {
+      "pair": 315,
+      "mannequinTriangle": 279,
+      "garmentTriangle": 117228,
+      "intersectionPointMeters": [
+        0.007892577913082888,
+        1.5712712430495057,
+        0.07804226150740237
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0017693
+    },
+    {
+      "pair": 316,
+      "mannequinTriangle": 278,
+      "garmentTriangle": 117228,
+      "intersectionPointMeters": [
+        0.00789257791308289,
+        1.5712712430495057,
+        0.07804226150740237
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0017693
+    },
+    {
+      "pair": 317,
+      "mannequinTriangle": 278,
+      "garmentTriangle": 117226,
+      "intersectionPointMeters": [
+        0.004665273162935548,
+        1.5709650310216563,
+        0.07848782631144863
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001216
+    },
+    {
+      "pair": 318,
+      "mannequinTriangle": 279,
+      "garmentTriangle": 119230,
+      "intersectionPointMeters": [
+        0.00797849427908659,
+        1.5712779025422778,
+        0.07803710840956475
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0017693
+    },
+    {
+      "pair": 319,
+      "mannequinTriangle": 279,
+      "garmentTriangle": 119229,
+      "intersectionPointMeters": [
+        0.009844707111316856,
+        1.5714226304971899,
+        0.07787124087569675
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0017693
+    },
+    {
+      "pair": 320,
+      "mannequinTriangle": 279,
+      "garmentTriangle": 119227,
+      "intersectionPointMeters": [
+        0.010526319591381518,
+        1.5714754906954365,
+        0.07781065969268834
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0013959
+    },
+    {
+      "pair": 321,
+      "mannequinTriangle": 279,
+      "garmentTriangle": 119228,
+      "intersectionPointMeters": [
+        0.011814411264130695,
+        1.5715752385600792,
+        0.07780062854574706
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009167
+    },
+    {
+      "pair": 322,
+      "mannequinTriangle": 280,
+      "garmentTriangle": 119228,
+      "intersectionPointMeters": [
+        0.011814411264130695,
+        1.5715752385600792,
+        0.07780062854574707
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009167
+    },
+    {
+      "pair": 323,
+      "mannequinTriangle": 280,
+      "garmentTriangle": 121252,
+      "intersectionPointMeters": [
+        0.01595698855817318,
+        1.572395697767173,
+        0.07715161566235644
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009167
+    },
+    {
+      "pair": 324,
+      "mannequinTriangle": 280,
+      "garmentTriangle": 121251,
+      "intersectionPointMeters": [
+        0.018441464653329298,
+        1.5728874456627444,
+        0.07654458834557577
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009167
+    },
+    {
+      "pair": 325,
+      "mannequinTriangle": 281,
+      "garmentTriangle": 121251,
+      "intersectionPointMeters": [
+        0.018441464653329298,
+        1.5728874456627444,
+        0.07654458834557577
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009167
+    },
+    {
+      "pair": 326,
+      "mannequinTriangle": 14095,
+      "garmentTriangle": 121246,
+      "intersectionPointMeters": [
+        0.019600415877890617,
+        1.5733286142349243,
+        0.07599999755620956
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0009167
+    },
+    {
+      "pair": 327,
+      "mannequinTriangle": 14095,
+      "garmentTriangle": 121251,
+      "intersectionPointMeters": [
+        0.01955887139874001,
+        1.5733143235522409,
+        0.07601763837347063
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009167
+    },
+    {
+      "pair": 328,
+      "mannequinTriangle": 14095,
+      "garmentTriangle": 121247,
+      "intersectionPointMeters": [
+        0.021193779592873413,
+        1.5738289908688354,
+        0.07501176048081826
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0004299
+    },
+    {
+      "pair": 329,
+      "mannequinTriangle": 14093,
+      "garmentTriangle": 125202,
+      "intersectionPointMeters": [
+        0.03501523757978513,
+        1.5819752526400424,
+        0.06312978120912188
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0041021
+    },
+    {
+      "pair": 330,
+      "mannequinTriangle": 14092,
+      "garmentTriangle": 123271,
+      "intersectionPointMeters": [
+        0.02667849247736674,
+        1.5768749713897705,
+        0.0712357833981514
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0018924
+    },
+    {
+      "pair": 331,
+      "mannequinTriangle": 14092,
+      "garmentTriangle": 123212,
+      "intersectionPointMeters": [
+        0.0263798091802747,
+        1.5762724371772054,
+        0.07189008062645569
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0015065
+    },
+    {
+      "pair": 332,
+      "mannequinTriangle": 14092,
+      "garmentTriangle": 123263,
+      "intersectionPointMeters": [
+        0.02811496001300034,
+        1.5798146022384962,
+        0.06631995211306989
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0015196
+    },
+    {
+      "pair": 333,
+      "mannequinTriangle": 14092,
+      "garmentTriangle": 123266,
+      "intersectionPointMeters": [
+        0.027481841244978746,
+        1.5785117873105243,
+        0.06879021680214098
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0018924
+    },
+    {
+      "pair": 334,
+      "mannequinTriangle": 14092,
+      "garmentTriangle": 123267,
+      "intersectionPointMeters": [
+        0.02731062861392564,
+        1.5781632327273025,
+        0.0692991799592275
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018924
+    },
+    {
+      "pair": 335,
+      "mannequinTriangle": 14093,
+      "garmentTriangle": 123256,
+      "intersectionPointMeters": [
+        0.029512181631971484,
+        1.580230930222378,
+        0.06559173192495558
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0015196
+    },
+    {
+      "pair": 336,
+      "mannequinTriangle": 14093,
+      "garmentTriangle": 123263,
+      "intersectionPointMeters": [
+        0.028114960013000345,
+        1.5798146022384962,
+        0.0663199521130699
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0015196
+    },
+    {
+      "pair": 337,
+      "mannequinTriangle": 14093,
+      "garmentTriangle": 125203,
+      "intersectionPointMeters": [
+        0.03191397711634636,
+        1.5809657578971401,
+        0.06441438371953725
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001258
+    },
+    {
+      "pair": 338,
+      "mannequinTriangle": 14092,
+      "garmentTriangle": 123265,
+      "intersectionPointMeters": [
+        0.027096220213908055,
+        1.5777267044559102,
+        0.06993806313064545
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018924
+    },
+    {
+      "pair": 339,
+      "mannequinTriangle": 14092,
+      "garmentTriangle": 123264,
+      "intersectionPointMeters": [
+        0.027096220213908055,
+        1.5777267044559102,
+        0.06993806313064545
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0018924
+    },
+    {
+      "pair": 340,
+      "mannequinTriangle": 14322,
+      "garmentTriangle": 131303,
+      "intersectionPointMeters": [
+        0.0574372066292369,
+        1.6006730794906616,
+        0.033278729766607285
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0013846
+    },
+    {
+      "pair": 341,
+      "mannequinTriangle": 14074,
+      "garmentTriangle": 129168,
+      "intersectionPointMeters": [
+        0.05328056262901024,
+        1.5968557495323703,
+        0.04021424168778336
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0010023
+    },
+    {
+      "pair": 342,
+      "mannequinTriangle": 14322,
+      "garmentTriangle": 131244,
+      "intersectionPointMeters": [
+        0.0574372066292369,
+        1.6006730794906616,
+        0.033278729766607285
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0013846
+    },
+    {
+      "pair": 343,
+      "mannequinTriangle": 14322,
+      "garmentTriangle": 131243,
+      "intersectionPointMeters": [
+        0.05677359543677757,
+        1.5997510428687094,
+        0.03505916514940334
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0013846
+    },
+    {
+      "pair": 344,
+      "mannequinTriangle": 14323,
+      "garmentTriangle": 131243,
+      "intersectionPointMeters": [
+        0.05677359543677757,
+        1.5997510428687094,
+        0.03505916514940334
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0013846
+    },
+    {
+      "pair": 345,
+      "mannequinTriangle": 14323,
+      "garmentTriangle": 131245,
+      "intersectionPointMeters": [
+        0.05612661728523591,
+        1.5992602418186201,
+        0.03596328232901985
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0007038
+    },
+    {
+      "pair": 346,
+      "mannequinTriangle": 14323,
+      "garmentTriangle": 131251,
+      "intersectionPointMeters": [
+        0.05610033772343654,
+        1.5992403030395508,
+        0.035999998450279236
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001921
+    },
+    {
+      "pair": 347,
+      "mannequinTriangle": 14323,
+      "garmentTriangle": 131252,
+      "intersectionPointMeters": [
+        0.05584946274757385,
+        1.5990483609659374,
+        0.03634610783406707
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001921
+    },
+    {
+      "pair": 348,
+      "mannequinTriangle": 14323,
+      "garmentTriangle": 129170,
+      "intersectionPointMeters": [
+        0.055366283056773886,
+        1.5986752293777382,
+        0.03700320317205298
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0010023
+    },
+    {
+      "pair": 349,
+      "mannequinTriangle": 14074,
+      "garmentTriangle": 129170,
+      "intersectionPointMeters": [
+        0.05536628305677389,
+        1.5986752293777382,
+        0.03700320317205298
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0010023
+    },
+    {
+      "pair": 350,
+      "mannequinTriangle": 14322,
+      "garmentTriangle": 131299,
+      "intersectionPointMeters": [
+        0.05873302738754729,
+        1.6024760007858276,
+        0.029818179085850716
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009334
+    },
+    {
+      "pair": 351,
+      "mannequinTriangle": 14322,
+      "garmentTriangle": 131298,
+      "intersectionPointMeters": [
+        0.05886017169330312,
+        1.6026508063171325,
+        0.029465049121330897
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0009334
+    },
+    {
+      "pair": 352,
+      "mannequinTriangle": 14322,
+      "garmentTriangle": 131297,
+      "intersectionPointMeters": [
+        0.058547143835434426,
+        1.6022173744191976,
+        0.030314589911715536
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009334
+    },
+    {
+      "pair": 353,
+      "mannequinTriangle": 14322,
+      "garmentTriangle": 131295,
+      "intersectionPointMeters": [
+        0.05978027917402822,
+        1.6039115772560948,
+        0.026882002802195125
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0007148
+    },
+    {
+      "pair": 354,
+      "mannequinTriangle": 14322,
+      "garmentTriangle": 131296,
+      "intersectionPointMeters": [
+        0.05854714383543442,
+        1.6022173744191976,
+        0.030314589911715536
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0009334
+    },
+    {
+      "pair": 355,
+      "mannequinTriangle": 14323,
+      "garmentTriangle": 131246,
+      "intersectionPointMeters": [
+        0.05612661728523591,
+        1.5992602418186201,
+        0.03596328232901985
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0001921
+    },
+    {
+      "pair": 356,
+      "mannequinTriangle": 14075,
+      "garmentTriangle": 129175,
+      "intersectionPointMeters": [
+        0.05096829793232362,
+        1.5947034358978271,
+        0.04399999976158142
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0010023
+    },
+    {
+      "pair": 357,
+      "mannequinTriangle": 14075,
+      "garmentTriangle": 129168,
+      "intersectionPointMeters": [
+        0.05328056262901024,
+        1.5968557495323703,
+        0.04021424168778336
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0010023
+    },
+    {
+      "pair": 358,
+      "mannequinTriangle": 14075,
+      "garmentTriangle": 129178,
+      "intersectionPointMeters": [
+        0.05033177693780535,
+        1.5941059049752742,
+        0.04501859547704166
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0008776
+    },
+    {
+      "pair": 359,
+      "mannequinTriangle": 14075,
+      "garmentTriangle": 129183,
+      "intersectionPointMeters": [
+        0.04974717955867489,
+        1.5935527540545764,
+        0.04593371952496626
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0008437
+    },
+    {
+      "pair": 360,
+      "mannequinTriangle": 14075,
+      "garmentTriangle": 129177,
+      "intersectionPointMeters": [
+        0.050016390102327724,
+        1.5938081205958863,
+        0.045515276357131845
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008437
+    },
+    {
+      "pair": 361,
+      "mannequinTriangle": 14076,
+      "garmentTriangle": 129183,
+      "intersectionPointMeters": [
+        0.04974717955867489,
+        1.5935527540545764,
+        0.04593371952496626
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0008437
+    },
+    {
+      "pair": 362,
+      "mannequinTriangle": 14076,
+      "garmentTriangle": 129132,
+      "intersectionPointMeters": [
+        0.04873461161553142,
+        1.5927404165267944,
+        0.047264814376831055
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0006534
+    },
+    {
+      "pair": 363,
+      "mannequinTriangle": 14076,
+      "garmentTriangle": 129131,
+      "intersectionPointMeters": [
+        0.0484999835515953,
+        1.5925476869432946,
+        0.04755881159363599
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0006534
+    },
+    {
+      "pair": 364,
+      "mannequinTriangle": 14076,
+      "garmentTriangle": 127159,
+      "intersectionPointMeters": [
+        0.0473290709755025,
+        1.5915698214104799,
+        0.04897449457256514
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0006534
+    },
+    {
+      "pair": 365,
+      "mannequinTriangle": 14077,
+      "garmentTriangle": 127159,
+      "intersectionPointMeters": [
+        0.0473290709755025,
+        1.5915698214104799,
+        0.04897449457256514
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 3,
+      "sampledDepthMeters": 0.0006534
+    },
+    {
+      "pair": 366,
+      "mannequinTriangle": 14077,
+      "garmentTriangle": 127158,
+      "intersectionPointMeters": [
+        0.04641659727943631,
+        1.5905064894973675,
+        0.05054171081910251
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0006487
+    },
+    {
+      "pair": 367,
+      "mannequinTriangle": 14077,
+      "garmentTriangle": 127165,
+      "intersectionPointMeters": [
+        0.04569720713152444,
+        1.5897177374267124,
+        0.052000001072883606
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 2,
+      "sampledDepthMeters": 0.0007344
+    },
+    {
+      "pair": 368,
+      "mannequinTriangle": 14075,
+      "garmentTriangle": 129176,
+      "intersectionPointMeters": [
+        0.050016390102327724,
+        1.5938081205958863,
+        0.045515276357131845
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008437
+    },
+    {
+      "pair": 369,
+      "mannequinTriangle": 14075,
+      "garmentTriangle": 129179,
+      "intersectionPointMeters": [
+        0.05019100480690676,
+        1.5939737558364868,
+        0.04524386674165726
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0008437
+    },
+    {
+      "pair": 370,
+      "mannequinTriangle": 14098,
+      "garmentTriangle": 228865,
+      "intersectionPointMeters": [
+        0.011930972298558978,
+        1.591864923947839,
+        0.10743423448699539
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021446
+    },
+    {
+      "pair": 371,
+      "mannequinTriangle": 14099,
+      "garmentTriangle": 228865,
+      "intersectionPointMeters": [
+        0.01060342560732547,
+        1.5911031355328207,
+        0.10765904028601805
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021446
+    },
+    {
+      "pair": 372,
+      "mannequinTriangle": 14088,
+      "garmentTriangle": 228866,
+      "intersectionPointMeters": [
+        0.023526226749563114,
+        1.602762628129413,
+        0.10382517574088845
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021446
+    },
+    {
+      "pair": 373,
+      "mannequinTriangle": 14089,
+      "garmentTriangle": 228866,
+      "intersectionPointMeters": [
+        0.02279582461843627,
+        1.6020951517725799,
+        0.10408833187802828
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021446
+    },
+    {
+      "pair": 374,
+      "mannequinTriangle": 15004,
+      "garmentTriangle": 228865,
+      "intersectionPointMeters": [
+        0.011930972298558978,
+        1.591864923947839,
+        0.10743423448699539
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021446
+    },
+    {
+      "pair": 375,
+      "mannequinTriangle": 15005,
+      "garmentTriangle": 228865,
+      "intersectionPointMeters": [
+        0.01609444533764161,
+        1.5969700341742725,
+        0.10620575376832704
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021446
+    },
+    {
+      "pair": 376,
+      "mannequinTriangle": 14356,
+      "garmentTriangle": 228866,
+      "intersectionPointMeters": [
+        0.023526226749563114,
+        1.602762628129413,
+        0.10382517574088845
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021446
+    },
+    {
+      "pair": 377,
+      "mannequinTriangle": 15005,
+      "garmentTriangle": 228866,
+      "intersectionPointMeters": [
+        0.02197834198585802,
+        1.6004485078462936,
+        0.10456007855398347
+      ],
+      "zone": "neck/collar",
+      "classification": "penetration at garment surface samples; verify and correct",
+      "insideSurfaceSamples": 1,
+      "sampledDepthMeters": 0.0021446
+    }
+  ],
+  "rayParitySanityChecks": [
+    {
+      "point": [
+        0,
+        0,
+        2
+      ],
+      "expectedInside": false,
+      "measuredInside": false,
+      "nearest": {
+        "distance": 1.8619680515719286,
+        "triangle": 19529
+      }
+    },
+    {
+      "point": [
+        0,
+        1.38,
+        0.02
+      ],
+      "expectedInside": true,
+      "measuredInside": true,
+      "nearest": {
+        "distance": 0.07914593474085091,
+        "triangle": 13901
+      }
+    },
+    {
+      "point": [
+        1.2,
+        1.5,
+        0
+      ],
+      "expectedInside": false,
+      "measuredInside": false,
+      "nearest": {
+        "distance": 0.23624435134389266,
+        "triangle": 608
+      }
+    }
+  ],
+  "limitations": [
+    "This is sampled point-in-mesh evidence, not a volumetric boolean or continuous signed-distance field; narrow penetrations between samples can be missed.",
+    "At exact contact/intersection points, distance is zero by construction; this report separately samples involved garment triangle vertices and centroids.",
+    "A crossing pair can reflect a boundary/opening contact; pair counts are not defect counts.",
+    "Inside/outside classification assumes mannequin shell is closed and uses one oblique ray; sanity points are included.",
+    "No garment thickness/cloth simulation is modeled. QA/Lead must interpret clearances visually and decide G1."
+  ]
+}

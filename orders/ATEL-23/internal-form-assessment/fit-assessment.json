@@ -1,0 +1,63 @@
+{
+  "order": "ATEL-23",
+  "revision": "internal-form-assessment/japanese-shirt-01",
+  "status": "not suitable as a direct shirt base; exploratory only",
+  "source": {
+    "path": "quality/candidates/user-supplied/japanese_school_uniform.glb",
+    "sha256": "2061a93d7c86dd9a32eba365e26caee59526b69eb93df49b943e387815620390",
+    "author": "sivayuce",
+    "sourceUrl": "https://sketchfab.com/3d-models/japanese-school-uniform-5358af0b05724d509be427628a316397",
+    "license": "CC-BY-4.0; user-supplied internal asset",
+    "selectedMeshes": [1, 2, 3],
+    "excludedMeshes": [0, 4, 5, 6],
+    "selectionMeaning": "shirt body shells and collar/cuff mesh; bow and skirt excluded"
+  },
+  "normalization": {
+    "sourceUnitMetadata": "not present",
+    "workingAssumption": "centimeters, inferred from full outfit source bounds about 0.75 m high after scaling",
+    "scale": 0.01,
+    "axisMapping": "source (x,y,z) -> mannequin (x,z,-y)",
+    "resultAxes": "+Y up, +Z front; transform baked into vertex positions/normals/tangents; no nested source root transform retained",
+    "candidateWorldBoundsMeters": {
+      "min": [-0.326761, 1.161328, -0.168698],
+      "max": [0.324622, 1.614840, 0.093327]
+    }
+  },
+  "mannequin": {
+    "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "units": "meters",
+    "axes": "+Y up, +Z front",
+    "additionalTransform": "none"
+  },
+  "artifacts": {
+    "extractScript": "orders/ATEL-23/internal-form-assessment/extract-japanese-shirt.mjs",
+    "garmentPath": "orders/ATEL-23/internal-form-assessment/japanese-school-shirt.glb",
+    "garmentSha256": "4b92b206fb8974a55d516bc8773b0deffbe1b77cf2c63cecc091ee1579a53690",
+    "fitPreviewPath": "showcase/quality-preview/atel23-japanese-shirt-assessment/assets/fit.glb",
+    "fitPreviewSha256": "02acc6243bd7d339f393f99b27822091b036a29125e68d5ee2d2f0598923d238",
+    "previewUrl": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-japanese-shirt-assessment/index.html"
+  },
+  "browser": {
+    "resultPath": "quality/evidence/ATEL-23/japanese-uniform-assessment/browser-result.json",
+    "loaded": true,
+    "scriptedViews": ["front", "back", "side", "oblique"],
+    "zoomed": true,
+    "mobile": true,
+    "dragRotation": false,
+    "errors": [],
+    "captures": {
+      "front": {"path": "quality/evidence/ATEL-23/japanese-uniform-assessment/front.png", "sha256": "d2901f2e2f7af7e1b105da4b1aa8e70ca29c6ca648a73219309f8f9847703108"},
+      "back": {"path": "quality/evidence/ATEL-23/japanese-uniform-assessment/back.png", "sha256": "d2d1a2a5ee09b44d041c9b092b6891a7534fbecf9bcbc9809c108e63bd7cee7b"},
+      "side": {"path": "quality/evidence/ATEL-23/japanese-uniform-assessment/side.png", "sha256": "e11717f304fad0110b814f45157944631292ee55450db1d98991e612f32f4ff0"},
+      "oblique": {"path": "quality/evidence/ATEL-23/japanese-uniform-assessment/oblique.png", "sha256": "1e0da41f88404a657e771fb1fbf0dee65e16ce666fe6b9745b117773e59d49cb"}
+    }
+  },
+  "visualAssessment": {
+    "coverage": "fail for showcase use: white shirt body is mostly obscured by the mannequin; collar and dark sleeve bands remain visible, and the back shows a ragged lower edge",
+    "silhouette": "source is a short-sleeve sailor uniform top, not a long-sleeve office shirt",
+    "fitScreen": "visual coverage check only; no intersection count or clearance gate was run",
+    "disposition": "do not use this extraction as the ATEL-23 shirt base without substantial geometry work"
+  },
+  "recommendedAlternative": "Use this source only as a collar/cuff visual reference. For a new base, choose another internal long-sleeve garment source with a separable shirt shell, or build a simple shirt shell directly from mannequin-fit section anchors; evaluate that source independently before production."
+}

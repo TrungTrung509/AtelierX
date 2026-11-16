@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480" fill="none">
+  <title>ATEL-23 · Tuyến sáng · họa tiết vi tuyến đô thị v1</title>
+  <desc>Ô họa tiết lặp nền trong suốt: đường tuyến xanh trời, khối phố bo góc, điểm giao coral và vàng chanh; nhịp nhỏ, thoáng, phù hợp sơ mi công sở.</desc>
+  <defs>
+    <pattern id="cityline" width="240" height="240" patternUnits="userSpaceOnUse">
+      <g stroke="#579BB3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity=".88">
+        <path d="M-24 41h61q12 0 12 12v9q0 12 12 12h42q12 0 12-12V49q0-12 12-12h42q12 0 12 12v34q0 12 12 12h49"/>
+        <path d="M-24 46h57q8 0 8 8v8q0 17 17 17h44q17 0 17-17V49q0-17 17-17h39q17 0 17 17v34q0 17 17 17h55" opacity=".52"/>
+        <path d="M68-24v26q0 12 12 12h19q12 0 12 12v21M74-24v24q0 7 7 7h18q18 0 18 18v22" opacity=".64"/>
+        <path d="M176 109v28q0 12-12 12h-18q-12 0-12 12v30q0 12-12 12H92q-12 0-12 12v49"/>
+        <path d="M182 109v25q0 18-18 18h-18q-6 0-6 9v30q0 18-18 18H92q-18 0-18 18v43" opacity=".5"/>
+        <path d="M-16 165h27q12 0 12 12v15q0 12 12 12h17M119 240v-18q0-12 12-12h24q12 0 12-12v-9M240 164h-22q-12 0-12 12v16q0 12-12 12h-17" opacity=".62"/>
+        <path d="M25 112h26v20H25zM31 118h14v8H31z" opacity=".86"/>
+        <path d="M143 5h28v22h-28zM149 11h16v10h-16z" opacity=".86"/>
+        <path d="M198 132h27v22h-27zM204 138h15v10h-15z" opacity=".86"/>
+        <path d="M28 222h30v20H28zM34 228h18v8H34z" opacity=".86"/>
+        <path d="M92 105v17m-8-8h16" opacity=".58"/>
+        <path d="M215 58v17m-8-8h16" opacity=".58"/>
+      </g>
+      <g fill="#E98979">
+        <circle cx="61" cy="74" r="3.2"/><circle cx="114" cy="34" r="3.2"/>
+        <circle cx="176" cy="101" r="3.2"/><circle cx="68" cy="202" r="3.2"/>
+        <circle cx="181" cy="201" r="3.2"/><circle cx="13" cy="165" r="3.2"/>
+      </g>
+      <g fill="#D9B94C">
+        <circle cx="99" cy="113" r="2.4"/><circle cx="216" cy="74" r="2.4"/>
+        <circle cx="151" cy="188" r="2.4"/><circle cx="42" cy="190" r="2.4"/>
+      </g>
+      <g stroke="#D9B94C" stroke-width="1.35" stroke-linecap="round" opacity=".92">
+        <path d="M222 21v10m-5-5h10"/><path d="M8 134v8m-4-4h8"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="480" height="480" fill="url(#cityline)"/>
+</svg>

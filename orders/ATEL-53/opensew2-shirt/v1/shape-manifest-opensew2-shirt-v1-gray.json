@@ -1,0 +1,171 @@
+{
+  "orderId": "ATEL-53",
+  "workItemId": "ec090719-14b6-4e75-8615-7260c53cdade",
+  "revision": "opensew2-shirt-v1-gray",
+  "stage": "shape-candidate-lead-review",
+  "decision": "FAILED visual self-review; not shape-approved; no QA or Material handoff. Per Lead instruction stop if this candidate fails; do not patch this route.",
+  "construction": {
+    "authoring": "OpenSew2 / Clothing Design GPL-3.0 addon, unmodified source pinned to commit 86b432238464d88e3d2c5e1cf3fbf693f1e51722. Fresh tailored shirt pattern draft from addon jacket block, with custom stand/leaves/cuff bands and gray trial buttons.",
+    "flow": "OpenSew2 workflow: low-gravity stitch (24 frames at 0.12 gravity), weld paired seam vertices (440 merged), full-gravity settle (55 frames), relax (frame 230); self-collision enabled.",
+    "fittingAid": "Bundled CC0 male fitting avatar used only in working .blend for measurements/collision; final GLB scene contains no avatar/body.",
+    "exportSceneNodes": [
+      "CD_Garment_ATEL53_OpenSew2_Shirt"
+    ],
+    "surface": "Neutral gray only; neck, hem and cuff openings intended to remain open; no stripe/material artwork."
+  },
+  "tool": {
+    "name": "Blender 5.2.4 LTS",
+    "executable": "/tmp/atelierx-blender-tools/blender-5.2.4-linux-x64/blender",
+    "blenderArchiveSha256": "2fd14c50987426897ba60237ee996edf2b4151f4b1a72a460ca20be58c1d2d86",
+    "addon": "OpenSew2 / Clothing Design",
+    "addonCommit": "86b432238464d88e3d2c5e1cf3fbf693f1e51722",
+    "license": "GPL-3.0"
+  },
+  "snapshot": {
+    "path": "orders/ATEL-53/opensew2-shirt/v1/garment-opensew2-shirt-gray-v1.glb",
+    "bytes": 532332,
+    "sha256": "4a7e0a049e1e2b2cec7d8247ebad64d013b6139c2b267b961fd5ad1d12b0f782",
+    "immutableAfterCapture": true
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/opensew2-shirt-v1-gray/index.html",
+    "glbPath": "showcase/quality-preview/ATEL-53/opensew2-shirt-v1-gray/garment.glb",
+    "glbSha256": "4a7e0a049e1e2b2cec7d8247ebad64d013b6139c2b267b961fd5ad1d12b0f782",
+    "browserEvidence": "orders/ATEL-53/opensew2-shirt/v1/evidence-gray-candidate1/browser-result.json",
+    "browserCheck": "loaded, rotated, zoomed, desktop; no errors"
+  },
+  "views": {
+    "front": {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-gray-candidate1/front.png",
+      "bytes": 485036,
+      "sha256": "d0dc2ba36b63aa8f61aed94457bbeb3cca62e7529c7ad8e8ba6f9dfa2e1a60e8"
+    },
+    "back": {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-gray-candidate1/back.png",
+      "bytes": 479586,
+      "sha256": "b40f24b5a4a20b48a543d4175a6f994c4303e1f43e6cbe6af6b4d987222bbd7d"
+    },
+    "side": {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-gray-candidate1/side.png",
+      "bytes": 439867,
+      "sha256": "8a43a8e74203f6dc441ed212e0f08ea2a8cc8d680d0495fd83d3add6885c9aef"
+    },
+    "oblique": {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-gray-candidate1/oblique.png",
+      "bytes": 477470,
+      "sha256": "530898912cc65c78fb0ef0d364e14adb05826d0ef05a035674dd8e2882042947"
+    },
+    "top": {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-gray-candidate1/top.png",
+      "bytes": 437289,
+      "sha256": "15e2668c14aad08ea68650fd07a59ac19f0d8d5eb7aa9dae9c16f7f3981b1da7"
+    },
+    "bottom": {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-gray-candidate1/bottom.png",
+      "bytes": 448514,
+      "sha256": "937b49f30e5de94027f7ab9d5f42ef37a75289b0b45dd7ce39789498453254c7"
+    }
+  },
+  "details": {
+    "collarCloseup": {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-details-candidate1/collarCloseup.png",
+      "bytes": 518941,
+      "sha256": "303d3ce5c42fe760946da8086ee14db2035ef548869691732a5817a036326803"
+    },
+    "placketSideCloseup": {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-details-candidate1/placketSideCloseup.png",
+      "bytes": 547417,
+      "sha256": "eacd11fab3f241cd475f2e9c50a049e18abe1f75d2a54e5e2cb3766707f1fe83"
+    },
+    "cuffCloseup": {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-details-candidate1/cuffCloseup.png",
+      "bytes": 423427,
+      "sha256": "ec4b71d878837dd9d143626de6279e364f31fb71f4886337eca81146cc23cc59"
+    }
+  },
+  "projectArtifacts": [
+    {
+      "path": "showcase/quality-preview/ATEL-53/opensew2-shirt-v1-gray/index.html",
+      "bytes": 1096,
+      "sha256": "28cd0709675fa91fbd40ec1d185af93c9444075e2fb757d997a54251556d3ddf"
+    },
+    {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/build-opensew2-shirt.py",
+      "bytes": 8771,
+      "sha256": "b7ce304d932c3c4224334068d7a85cf741216e80b06bfceb3604136d95aa36a2"
+    },
+    {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/opensew2-shirt-simulation.blend",
+      "bytes": 1312973,
+      "sha256": "73c2d3648e535999665a1fcc18e12587c2d0f15341a3da6082410a59cc318180"
+    }
+  ],
+  "captureArtifacts": [
+    {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-gray-candidate1/browser-result.json",
+      "bytes": 728,
+      "sha256": "d59873025896dd1cbe6acbb2fac6e5619d77ab593ee934a8f0e2665faea99ff8"
+    },
+    {
+      "path": "orders/ATEL-53/opensew2-shirt/v1/evidence-details-candidate1/detail-browser-result.json",
+      "bytes": 458,
+      "sha256": "f6ee7cfd446653d54dec3285f50184a4f57615fa43f31ace1e8c0b1d90e179bc"
+    }
+  ],
+  "sourceProvenance": [
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/clothing_design/README.md",
+      "bytes": 16092,
+      "sha256": "8c3e061bfa9ca9faa06dae1fd8c8a4f2fb36203daf574557d2a7b15aaecbd838"
+    },
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/clothing_design/__init__.py",
+      "bytes": 1055,
+      "sha256": "b130ccd67dbfd1ec3ccf7f8b09c4cbcbe3077730bdf810d2942b154c36c0f846"
+    },
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/clothing_design/library.py",
+      "bytes": 42654,
+      "sha256": "199ba395d511c7d0d36be78a5c02f4a6d785a23e99b09d7729e6f0186e7a71f0"
+    },
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/clothing_design/build.py",
+      "bytes": 16262,
+      "sha256": "6f3f305ab80c0b8798be5853a5db124c19aa2be7c819c0728d6d30f70be0f9b8"
+    },
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/clothing_design/patterns.py",
+      "bytes": 16902,
+      "sha256": "fbbad1908de985b169fa668c6e53f60867ed0809c4a89be0456dffbbc7fe4dcd"
+    },
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/clothing_design/sim.py",
+      "bytes": 41544,
+      "sha256": "3c7b2dc09c91422972e8493bc20b062bfb5bdcc398a39b0e34c7bab013f52904"
+    },
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/clothing_design/ops.py",
+      "bytes": 58005,
+      "sha256": "739e733f72b0bd23fdb4ca7e7a977eb100e9bec5b9753eb797face83a40a6da8"
+    },
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/clothing_design/avatar.py",
+      "bytes": 25419,
+      "sha256": "8c11f49ca6fb8d9a2f55fdcf71d5dc388ababca2c6b4429a679ea7f9e5e2da37"
+    },
+    {
+      "path": "/tmp/atelierx-blender-tools/opensew-2/clothing_design/assets/default_man.blend",
+      "bytes": 851151,
+      "sha256": "2d9871b9082e423e54e51c8bc48c7ed76343d2a48c885b52d1bef2035f9b136b"
+    }
+  ],
+  "selfAssessment": "FAILED: Front/oblique show severe triangular gaps and distortion across shoulder/armhole; collar stand/leaves are not seated and form jagged collapsed panels; torso gathered into strong horizontal/diagonal bands; cuffs are ragged and detached-looking. Back/top/bottom show loose, deformed seams. Browser operations passing is not shape approval.",
+  "qaStatus": "blocked: studio-wait: shape; Lead has not released",
+  "materialStatus": "hold",
+  "nextStep": "Stop this OpenSew2 route as directed after the one candidate fails; notify Lead with blocker and let Lead decide next tool/source. No further candidate or QA handoff."
+}

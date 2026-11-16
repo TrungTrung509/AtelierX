@@ -1,0 +1,19 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/opensew2-shirt-v1-gray/index.html",
+  "loaded": true,
+  "errors": [],
+  "views": {
+    "collarCloseup": {
+      "orbit": "12deg 69deg 0.36m",
+      "target": "0m 1.42m 0m"
+    },
+    "placketSideCloseup": {
+      "orbit": "25deg 86deg 0.40m",
+      "target": "0m 1.10m 0m"
+    },
+    "cuffCloseup": {
+      "orbit": "18deg 82deg 0.36m",
+      "target": "0.45m 0.84m 0m"
+    }
+  }
+}

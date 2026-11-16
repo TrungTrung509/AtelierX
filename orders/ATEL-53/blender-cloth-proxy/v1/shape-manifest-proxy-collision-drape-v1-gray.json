@@ -1,0 +1,117 @@
+{
+  "orderId": "ATEL-53",
+  "workItemId": "ec090719-14b6-4e75-8615-7260c53cdade",
+  "revision": "proxy-collision-drape-v1-gray",
+  "stage": "shape-candidate-lead-review",
+  "decision": "FAILED visual self-review; not shape-approved; do not release QA or Material. Per Lead instruction stop this Blender route; no further patches without a new route decision.",
+  "construction": {
+    "method": "New welded garment shell, shared armhole/collar/cuff boundary vertex loops; Blender Cloth with torso/arm collision proxies and self-collision; no sewing springs.",
+    "simulation": "Blender 5.2.4 LTS, frames 1-36, gravity (0,0,-0.22), quality 8, self-collision enabled, collision quality 4. Temporary torso and two arm collision meshes existed only in simulation .blend and were deleted before GLB export.",
+    "exportSceneNodes": [
+      "ATEL-53 standalone garment shell · proxy cloth sim"
+    ],
+    "temporaryProxiesInGLB": false,
+    "surface": "Neutral gray only; standalone garment shell, no body/mannequin, no color/stripe/material artwork."
+  },
+  "tool": {
+    "name": "Blender",
+    "version": "5.2.4 LTS",
+    "executable": "/tmp/atelierx-blender-tools/blender-5.2.4-linux-x64/blender",
+    "archiveSha256": "2fd14c50987426897ba60237ee996edf2b4151f4b1a72a460ca20be58c1d2d86"
+  },
+  "snapshot": {
+    "path": "orders/ATEL-53/blender-cloth-proxy/v1/garment-proxy-collision-drape-gray-v1.glb",
+    "bytes": 331876,
+    "sha256": "fed5ae64eaf50fc077a385294dfd49d3c4e9d5789e330677486e64f015fe77a0",
+    "immutableAfterCapture": true
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/proxy-collision-drape-v1-gray/index.html",
+    "glbPath": "showcase/quality-preview/ATEL-53/proxy-collision-drape-v1-gray/garment.glb",
+    "glbSha256": "fed5ae64eaf50fc077a385294dfd49d3c4e9d5789e330677486e64f015fe77a0",
+    "browserEvidence": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/browser-result.json",
+    "browserCheck": "loaded, rotated, zoomed, desktop; no errors"
+  },
+  "views": {
+    "front": {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/front.png",
+      "bytes": 416646,
+      "sha256": "58b5970bee782f03c65ae553e510380eddf304e40e43792504bd71efecfc000c"
+    },
+    "back": {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/back.png",
+      "bytes": 392484,
+      "sha256": "af1ee831f525a01be6829ac1d26266e34ff4db806d50e8428037dfccb81edbcc"
+    },
+    "side": {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/side.png",
+      "bytes": 423546,
+      "sha256": "4a95d57a515912b332e49cc3f450991b1bab09f252de27642253d9afdad8cd53"
+    },
+    "oblique": {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/oblique.png",
+      "bytes": 432031,
+      "sha256": "8225d1b3852624c360cd4163b5d30c83cd8bbf4948e456f328636b82bc6b9d46"
+    },
+    "top": {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/top.png",
+      "bytes": 409708,
+      "sha256": "4610cf6d4f7286179bb6fbabf5683536dc3393a357873d9e84c6a3aac97b186e"
+    },
+    "bottom": {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/bottom.png",
+      "bytes": 423634,
+      "sha256": "fa82d584ecc4bd4b1a757395dd60af110aad9633acbba88ec3fb9870f9c9dfbd"
+    }
+  },
+  "details": {
+    "collarCloseup": {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-details-candidate1/collarCloseup.png",
+      "bytes": 361332,
+      "sha256": "0cbccf7aa189500a19951de4f22f750a5c114fdfc5eff42bf8d20992bc6b6f75"
+    },
+    "placketSideCloseup": {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-details-candidate1/placketSideCloseup.png",
+      "bytes": 335109,
+      "sha256": "12b060a2e2fc2b28ffdb8de021ffbfe9a2d119802d8c8e89ba39033716554f70"
+    },
+    "cuffCloseup": {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-details-candidate1/cuffCloseup.png",
+      "bytes": 279740,
+      "sha256": "d24fd57adb95f95265516a8a2d02fadd81a12131d46151bf49087280baa7b3ee"
+    }
+  },
+  "provenanceArtifacts": [
+    {
+      "path": "showcase/quality-preview/ATEL-53/proxy-collision-drape-v1-gray/index.html",
+      "bytes": 1093,
+      "sha256": "ac2a9a8b80ff12158d7a89b087c69dff2286fb67f8bf6979faa9c152fd16a297"
+    },
+    {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/build-proxy-collision-shirt.py",
+      "bytes": 9280,
+      "sha256": "c724a4dba98285b39b7a451a547c3bfc0f16fe5b4377f6b4a17a86935150ef4b"
+    },
+    {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/shirt-proxy-cloth-sim.blend",
+      "bytes": 285527,
+      "sha256": "458f6d49e96d66c9e3691b60f30df0ff2be902b4f3484c9e5bf61c9e7f94c89a"
+    }
+  ],
+  "evidenceArtifacts": [
+    {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/browser-result.json",
+      "bytes": 765,
+      "sha256": "3019d485c20c8b2452861c73468232f95247f7c902d608bba9ff63af0cdbd67f"
+    },
+    {
+      "path": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-details-candidate1/detail-browser-result.json",
+      "bytes": 465,
+      "sha256": "ac971678b693ecd80d8be520ce7631cc527c54aab77e322f5fdde47a5082178d"
+    }
+  ],
+  "selfAssessment": "FAILED: Simulation collapsed/over-folded the garment. Front/back silhouette is bunched and not shirt-like; armhole/shoulder transitions are hidden under severe folds; collar stand/leaves have tangled into a crumpled cluster; hem and sleeve openings are wrinkled and distorted. Top/bottom show openings but not clean garment boundaries. Browser operation passing is not shape approval.",
+  "nextRecommendation": "Stop this Blender proxy-collision route as directed. Lead should select a genuinely different available garment-authoring tool or initiate Research for a qualified independently authored standalone woven-shirt base. No further geometry patch or QA handoff until route is chosen.",
+  "qaStatus": "blocked: studio-wait: shape; Lead has not released",
+  "materialStatus": "hold"
+}

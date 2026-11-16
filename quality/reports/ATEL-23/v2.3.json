@@ -1,0 +1,222 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.3",
+  "sourceRevision": "v2.2 frozen unchanged",
+  "supersedes": "ATEL-23/v2.1 report remains TRẢ LẠI; this retest is specific to v2.3",
+  "gate": "G1",
+  "decision": "return",
+  "garmentType": "áo sơ mi dài tay — geometry fit candidate",
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false,
+  "summary": "TRẢ LẠI G1 — hash garment/combined/fit/clearance review và 12 capture khớp handoff v2.3. Kiểm ảnh browser độc lập cho thấy vùng đầu/cổ còn giao với miệng áo; clearance screen ghi 377 crossing pairs tại neck/collar, 295 garment triangles có inside samples, 580 inside samples và sampled penetration tối đa 7.1316 mm. Chưa thể xác nhận no-clipping. Vùng posterior armhole đã đóng, không còn lộ mannequin trong ảnh; screen không còn pairs ở cuff, front hip/hem hay ngoài bands. Fit preview tải và capture đủ desktop/mobile nhưng thao tác xoay không đạt; đây không phải official product viewer. Trả Designer xử lý collar/head penetration trên corrective revision tiếp theo. G1 chưa đạt; artwork/PBR, approved base registration và official viewer/product QA chưa được đánh giá trong lượt fit retest này. Không publish.",
+  "assets": {
+    "garment": "orders/ATEL-23/v2.3/designer/garment-v2.3.glb",
+    "garmentSha256": "24fc2581746470437be2e35e99fc22ddd67ee57c8a43a30bb7d69d476ca2e80a",
+    "combinedPreview": "orders/ATEL-23/v2.3/fit-evidence/garment-on-mannequin-v2.3.glb",
+    "combinedPreviewSha256": "fad5884a02488a0d5c488d5d419960de8d24cdbfd088f933365fc3c5132fbcbb",
+    "mannequin": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinId": "atelierx-mannequin-180cm-v1",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "mannequinProfile": "quality/mannequin-fit.json",
+    "fitManifest": "orders/ATEL-23/v2.3/designer/fit.json",
+    "fitManifestSha256": "cb96655f8fafe4e059272bcf133938366410a7512cd2652ea1d961775fc648dc",
+    "candidateReview": "orders/ATEL-23/v2.3/designer/candidate-review.json",
+    "candidateReviewSha256": "e02636261fab9c3b44354eb3e3a3972fd61576ab887d588c66bdde9839129522",
+    "clearanceReview": "quality/evidence/ATEL-23/v2.3/contact-clearance-review.json",
+    "clearanceReviewSha256": "9c23727b17e2536a3435f901b8532dd43e39d926addb760418646328d28e8e1b",
+    "triangleIntersectionResult": "quality/evidence/ATEL-23/v2.3/triangle-intersection-result.json",
+    "triangleIntersectionResultSha256": "6e880229fc7933857fe1e774ac07a338308563a3e4574177a64aa82ca7c4257d",
+    "baseMeshApproval": "No approved shirt baseMeshId is declared in v2.3 fit.json/candidate-review; G1 base-mesh decision remains with Studio Lead.",
+    "triangleIntersectionScript": "quality/evidence/ATEL-23/v2.3/triangle-intersection-screen.mjs",
+    "triangleIntersectionScriptSha256": "26dd9fc4de96edd68e7f6d99f879e88d4732bfaeb59264de932406491c0ef73e"
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit-v2_3/index.html",
+    "loaded": true,
+    "rotated": false,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "scope": "QA-run Chromium capture of the v2.3 fit preview; not the official product viewer. The run failed its rotation check; final product viewer QA remains pending."
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-23/v2.3/browser-fit/front.png",
+    "back": "quality/evidence/ATEL-23/v2.3/browser-fit/back.png",
+    "left": "quality/evidence/ATEL-23/v2.3/browser-fit/left.png",
+    "right": "quality/evidence/ATEL-23/v2.3/browser-fit/right.png",
+    "detail": "quality/evidence/ATEL-23/v2.3/browser-fit/detail.png",
+    "mobile": "quality/evidence/ATEL-23/v2.3/browser-fit/mobile.png",
+    "collar-front-detail": "quality/evidence/ATEL-23/v2.3/browser-fit/collar-front-detail.png",
+    "collar-side-detail": "quality/evidence/ATEL-23/v2.3/browser-fit/collar-side-detail.png",
+    "cuff-positiveX-detail": "quality/evidence/ATEL-23/v2.3/browser-fit/cuff-positiveX-detail.png",
+    "cuff-negativeX-detail": "quality/evidence/ATEL-23/v2.3/browser-fit/cuff-negativeX-detail.png",
+    "hem-front-detail": "quality/evidence/ATEL-23/v2.3/browser-fit/hem-front-detail.png",
+    "armhole-rear-wide": "quality/evidence/ATEL-23/v2.3/browser-fit/armhole-rear-wide.png",
+    "qa_front": "quality/evidence/ATEL-23/v2.3/qa-browser/front.png",
+    "qa_back": "quality/evidence/ATEL-23/v2.3/qa-browser/back.png",
+    "qa_left": "quality/evidence/ATEL-23/v2.3/qa-browser/left.png",
+    "qa_right": "quality/evidence/ATEL-23/v2.3/qa-browser/right.png",
+    "qa_detail": "quality/evidence/ATEL-23/v2.3/qa-browser/detail.png",
+    "qa_mobile": "quality/evidence/ATEL-23/v2.3/qa-browser/mobile.png"
+  },
+  "evidenceSha256": {
+    "front": "90b766b9620742c31099a124d282d00d8fa5b609554958e8fee5378d25757486",
+    "back": "168c7fa2891e35950966984fc17ad29cf48858f90a0a525a6a05b822ef2f5cb1",
+    "left": "0203ca2956658cd796a1e6f1b1854ba7237d9c60426a906e9190d55399d38e34",
+    "right": "8b15754e40b4f505a8fa63d6eca582b6b4df2eaf4ac700150222e64d76eb219c",
+    "detail": "82f8a5428968b1bf2e0858140015686947671a678982fc76cb5f4db8b6928210",
+    "mobile": "ae7782e84fde84dbd68640f531192c2383cd62a461732ccd5b05352c85e1248a",
+    "collar-front-detail": "dc8c3a86669944e25f27ec0b07d6d296593a0b27fdd230975cff1ee3a80526dd",
+    "collar-side-detail": "82e3389b3e7730504d62dbacaa25356885c9c9e865b03b1cf5cdb47cab42285a",
+    "cuff-positiveX-detail": "e0991ad1e6fdb375a64c66baff2d1ab9d1d9b98f6ed4b3e46c5b84e78d497feb",
+    "cuff-negativeX-detail": "4e105c2b39e5068050b11ba576470292de6b9fb50a14583403639c59817bc23a",
+    "hem-front-detail": "76f3d3e65131e93f85d371f6ca9f1c2e236e11b088082c1160206b550d4e7dda",
+    "armhole-rear-wide": "75676964227cfaa2d93fdf5f02ec42c7012bc5504d9e8dabf11f3e0a0b8b940d",
+    "qa_front": "90b766b9620742c31099a124d282d00d8fa5b609554958e8fee5378d25757486",
+    "qa_back": "168c7fa2891e35950966984fc17ad29cf48858f90a0a525a6a05b822ef2f5cb1",
+    "qa_left": "0203ca2956658cd796a1e6f1b1854ba7237d9c60426a906e9190d55399d38e34",
+    "qa_right": "8b15754e40b4f505a8fa63d6eca582b6b4df2eaf4ac700150222e64d76eb219c",
+    "qa_detail": "82f8a5428968b1bf2e0858140015686947671a678982fc76cb5f4db8b6928210",
+    "qa_mobile": "ae7782e84fde84dbd68640f531192c2383cd62a461732ccd5b05352c85e1248a",
+    "browser_result": "e09b74a48f262e26f0b482a6868d96b8864a46ce0a21bf8f2f41996a369160c9"
+  },
+  "featureChecks": [
+    {
+      "feature": "Đúng garment v2.3, combined preview, mannequin-v1, fit.json và clearance review theo handoff",
+      "passed": true,
+      "observation": "SHA khớp Lead xác minh: garment 24fc2581746470437be2e35e99fc22ddd67ee57c8a43a30bb7d69d476ca2e80a; combined fad5884a02488a0d5c488d5d419960de8d24cdbfd088f933365fc3c5132fbcbb; fit.json cb96655f8fafe4e059272bcf133938366410a7512cd2652ea1d961775fc648dc; clearance review 9c23727b17e2536a3435f901b8532dd43e39d926addb760418646328d28e8e1b. Mannequin SHA da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9 trùng profile. UV0 có mặt; 12/12 capture handoff hash khớp.",
+      "evidence": "orders/ATEL-23/v2.3/designer/fit.json"
+    },
+    {
+      "feature": "Cổ/cổ áo/đầu mannequin — không xuyên hoặc clipping",
+      "passed": false,
+      "observation": "LỖI CHẶN G1: ảnh cận trước và bên cho thấy đầu/cổ mannequin giao vào miệng áo/cổ áo. Triangle/clearance evidence có 377 crossing pairs tại neck/collar; 295 garment triangles có inside samples, 580 inside samples; độ xuyên lấy mẫu tối đa 0.0071316 m (7.1316 mm). Đây là penetration thực trong vùng cổ, không chỉ contact chưa phân loại.",
+      "evidence": "quality/evidence/ATEL-23/v2.3/browser-fit/collar-front-detail.png"
+    },
+    {
+      "feature": "Vai, lưng trên và hai posterior armhole che phủ mannequin",
+      "passed": true,
+      "observation": "Ảnh front/back và armhole-rear-wide không cho thấy khe hở posterior armhole hoặc mảng mannequin xuyên qua lưng như các revision trước; v2.3 intersection pairs đều ở cổ/cổ áo, không ở posterior armhole band.",
+      "evidence": "quality/evidence/ATEL-23/v2.3/browser-fit/armhole-rear-wide.png"
+    },
+    {
+      "feature": "Tay/cổ tay/cuff, thân, hông và gấu không giao cắt nhìn thấy",
+      "passed": true,
+      "observation": "Ảnh hai bên, cuff và hem không cho thấy mannequin xuyên qua vải ở các vùng này; clearance screen không còn crossing pairs ở wrist/cuff hoặc front hip/hem. Bằng chứng là sampled mesh screen, không phải cloth simulation; kết luận chỉ áp dụng cho các vùng được kiểm.",
+      "evidence": "quality/evidence/ATEL-23/v2.3/browser-fit/cuff-positiveX-detail.png"
+    },
+    {
+      "feature": "Loại áo sơ mi và hình dáng geometry candidate",
+      "passed": false,
+      "observation": "Nhận diện được áo dài tay dạng sơ mi nhưng mesh vẫn là geometry diagnostic đơn giản, chưa có chi tiết cấu tạo đủ để nghiệm thu sản phẩm cuối. Đây là fit candidate retest, không chấm artwork/PBR.",
+      "evidence": "quality/evidence/ATEL-23/v2.3/qa-browser/front.png"
+    },
+    {
+      "feature": "Fit preview browser desktop/mobile; tải, xoay, zoom",
+      "passed": false,
+      "observation": "Chromium fit-preview tải được, ảnh đủ front/back/left/right/detail/mobile, zoom đạt và không có page errors. Drag xoay không làm thay đổi camera orbit (rotated=false); runner exit không đạt. URL này là fit preview, không phải official product viewer.",
+      "evidence": "quality/evidence/ATEL-23/v2.3/qa-browser/browser-result.json"
+    },
+    {
+      "feature": "Artwork, màu/PBR và bài giới thiệu tiếng Việt trong official product viewer",
+      "passed": false,
+      "observation": "Chưa thể đánh giá ở lượt G1 này: candidate chỉ là geometry fit preview; official viewer chưa được tích hợp geometry pass. QA sản phẩm cuối, artwork/PBR và nội dung tiếng Việt tiếp tục pending sau G1.",
+      "evidence": "showcase/products/ATEL-23/v1/asset-manifest.json"
+    }
+  ],
+  "scores": {
+    "silhouette": 3,
+    "construction": 1,
+    "artwork": 0,
+    "placement": 0,
+    "material": 0,
+    "web": 1
+  },
+  "checks": [
+    {
+      "criterion": "Revision, mannequin và evidence identity",
+      "score": 5,
+      "passed": true,
+      "observation": "Đối chiếu lại hash GLB/fit/clearance và capture độc lập; 12/12 capture handoff đúng SHA.",
+      "evidence": [
+        "orders/ATEL-23/v2.3/designer/fit.json",
+        "quality/evidence/ATEL-23/v2.3/qa-browser/browser-result.json"
+      ]
+    },
+    {
+      "criterion": "Cổ/cổ áo và head clearance",
+      "score": 1,
+      "passed": false,
+      "observation": "377 crossing pairs tập trung neck/collar; sampled penetration 7.1316 mm và ảnh cận xác nhận giao vào đầu/cổ mannequin.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v2.3/browser-fit/collar-front-detail.png",
+        "quality/evidence/ATEL-23/v2.3/triangle-intersection-result.json"
+      ]
+    },
+    {
+      "criterion": "Vai/lưng/nách sau",
+      "score": 4,
+      "passed": true,
+      "observation": "Không còn thấy khe hở posterior armhole hoặc lộ mannequin ở ảnh wide/rear.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v2.3/browser-fit/armhole-rear-wide.png"
+      ]
+    },
+    {
+      "criterion": "Tay/cuff/thân/hông/gấu",
+      "score": 4,
+      "passed": true,
+      "observation": "Không thấy clipping rõ; screen không ghi pairs ở các band cuff hoặc front hip/hem. Sampled screen không loại trừ mọi lỗi dưới mức lấy mẫu.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v2.3/browser-fit/cuff-positiveX-detail.png",
+        "quality/evidence/ATEL-23/v2.3/browser-fit/hem-front-detail.png"
+      ]
+    },
+    {
+      "criterion": "Fit-preview browser",
+      "score": 1,
+      "passed": false,
+      "observation": "Loaded/zoomed/desktop/mobile true, errors rỗng; rotate false. Không phải official viewer.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v2.3/qa-browser/browser-result.json"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "issue": "Penetration vùng cổ/head còn tồn tại: 377 crossing pairs, 295 garment triangles with inside samples, max sampled depth 7.1316 mm; ảnh cận xác nhận giao vào mannequin.",
+      "owner": "Fashion Designer",
+      "nextStep": "Sửa collar/head opening trên revision mới, giữ v2.3 frozen; xuất garment/combined/fit manifest cùng SHA, clearance analysis và capture cận/front/back/sides/mobile; Lead xác minh handoff trước QA retest.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v2.3/browser-fit/collar-front-detail.png",
+        "quality/evidence/ATEL-23/v2.3/browser-fit/collar-side-detail.png",
+        "quality/evidence/ATEL-23/v2.3/contact-clearance-review.json"
+      ]
+    },
+    {
+      "issue": "Official product viewer, artwork/PBR và bài tiếng Việt chưa tích hợp/đánh giá; browser fit-preview rotate check failed.",
+      "owner": "Studio Lead + Visual + Material sau G1",
+      "nextStep": "Sau khi Lead quyết định G1, hoàn thiện viewer chính thức; giao QA product QA trên revision đã tích hợp, gồm rotation/zoom desktop/mobile, nội dung và ảnh browser thật."
+    }
+  ],
+  "nextOwner": "Studio Lead",
+  "nextStep": "Lead xem kết luận G1 TRẢ LẠI; giao Designer sửa residual neck/head penetration và xác minh base mesh decision. Final product QA tiếp tục sau geometry pass và official viewer integration. Không publish.",
+  "clearanceSummary": {
+    "intersectionPairs": 377,
+    "byZone": {
+      "neck/collar": 377
+    },
+    "uniqueGarmentTrianglesWithInsideSamples": 295,
+    "insideSamples": 580,
+    "maxSampledDepthMeters": 0.0071316,
+    "method": "AABB-BVH triangle segment intersections on exact combined GLB; for involved garment triangles sampled centroid and vertices for nearest mannequin distance plus oblique ray-parity inside/outside check. Sampled surface evidence; not continuous volume or cloth thickness.",
+    "limitations": [
+      "This is sampled point-in-mesh evidence, not a volumetric boolean or continuous signed-distance field; narrow penetrations between samples can be missed.",
+      "At exact contact/intersection points, distance is zero by construction; this report separately samples involved garment triangle vertices and centroids.",
+      "A crossing pair can reflect a boundary/opening contact; pair counts are not defect counts.",
+      "Inside/outside classification assumes mannequin shell is closed and uses one oblique ray; sanity points are included.",
+      "No garment thickness/cloth simulation is modeled. QA/Lead must interpret clearances visually and decide G1."
+    ]
+  }
+}

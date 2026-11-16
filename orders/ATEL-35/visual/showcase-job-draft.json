@@ -1,0 +1,13 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v1",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "garment": "orders/ATEL-35/visual/garment-v1-cream-flower.glb",
+  "garmentType": "tshirt",
+  "maskBody": false,
+  "material": {
+    "name": "Cotton-like matte màu kem (mô phỏng PBR)",
+    "source": "orders/ATEL-35/material/pbr-preset-v1.json; màu theo brief, thông số PBR là preset mô phỏng, không phải dữ liệu vải thật."
+  }
+}

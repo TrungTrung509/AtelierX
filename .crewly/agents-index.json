@@ -1,0 +1,34 @@
+{
+  "agents": [
+    {
+      "agentId": "atelierx-team-leader-0001",
+      "role": "team-leader",
+      "lastActive": "2026-11-16T15:14:33.397Z"
+    },
+    {
+      "agentId": "atelierx-tpm-0002",
+      "role": "tpm",
+      "lastActive": "2026-11-16T15:14:41.243Z"
+    },
+    {
+      "agentId": "atelierx-designer-0003",
+      "role": "designer",
+      "lastActive": "2026-11-16T15:15:06.716Z"
+    },
+    {
+      "agentId": "atelierx-qa-0004",
+      "role": "qa",
+      "lastActive": "2026-11-16T15:14:56.688Z"
+    },
+    {
+      "agentId": "atelierx-backend-developer-0005",
+      "role": "backend-developer",
+      "lastActive": "2026-11-16T15:15:04.478Z"
+    },
+    {
+      "agentId": "atelierx-frontend-developer-0006",
+      "role": "frontend-developer",
+      "lastActive": "2026-11-16T15:15:12.121Z"
+    }
+  ]
+}

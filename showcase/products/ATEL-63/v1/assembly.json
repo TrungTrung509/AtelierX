@@ -1,0 +1,38 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v1",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "stage": "final",
+  "garmentSha256": "36c76397c280f496f2361568ed73c242a9798e4a195d7fa4fd4ab9ac07258a45",
+  "displaySha256": "3f0a7ae35b70083e42c30bdcda01354128a0ec3a244348adeefb5d345e845b7f",
+  "mannequinSha256": null,
+  "mask": {
+    "enabled": false,
+    "removedTriangles": 0,
+    "exception": false
+  },
+  "status": "pass",
+  "errors": [],
+  "warnings": [],
+  "measurements": {
+    "envelopeWidthCm": 138.17005157470703,
+    "garmentLengthCm": 64.38845501509908,
+    "envelopeDepthCm": 34.20142388389865,
+    "upperBodySpanCm": 67.39964153355679
+  },
+  "boundsMeters": {
+    "min": [
+      -0.6908502578735352,
+      1.1146577537891502,
+      -0.19961368208882194
+    ],
+    "max": [
+      0.6908502578735352,
+      1.758542303940141,
+      0.14240055675016453
+    ]
+  },
+  "displayScale": 0.25,
+  "method": "World-space mesh envelope and horizontal silhouette section at 75% of garment height, scaled for display by 0.25. Display references only, not sewing or body measurements."
+}

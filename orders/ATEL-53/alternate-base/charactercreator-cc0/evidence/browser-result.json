@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/alt-cc0-shirt-v0/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+    "back": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/back.png",
+    "side": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/side.png",
+    "oblique": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/oblique.png",
+    "top": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/top.png",
+    "bottom": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/bottom.png"
+  },
+  "errors": []
+}

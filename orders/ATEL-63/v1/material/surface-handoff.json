@@ -1,0 +1,163 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v1",
+  "stage": "surface",
+  "geometryChanged": false,
+  "sourceGeometry": {
+    "path": "orders/ATEL-63/v1/designer/sweater-gray-v1.glb",
+    "sha256": "9c7d8b646bcbb72c2a9c10893dd2169b9a0eeee462ee5559ed07e769caca5e0a",
+    "bufferBytes": 12904896,
+    "bufferSha256": "90f7cc2b327a673fd473f9654fdb5e2bbec798918b0a6463f1cbb43d1f2848f4"
+  },
+  "surface": {
+    "path": "orders/ATEL-63/v1/material/garment.glb",
+    "sha256": "36c76397c280f496f2361568ed73c242a9798e4a195d7fa4fd4ab9ac07258a45",
+    "geometryBufferPrefixPreserved": true,
+    "attributeValuesPreserved": {
+      "POSITION": true,
+      "NORMAL": true,
+      "TEXCOORD_0": true,
+      "indices": true
+    }
+  },
+  "material": {
+    "path": "orders/ATEL-63/material/pbr-preset-v1.json",
+    "simulatedFiber": "len dệt matte giả lập, không tuyên bố thành phần thật",
+    "baseColorHexSRGB": "#6F1C31",
+    "roughnessFactor": 0.9,
+    "metallicFactor": 0
+  },
+  "artwork": {
+    "source": "orders/ATEL-63/research/christmas-tree-snowflakes.svg",
+    "placementSource": "orders/ATEL-63/research/artwork-placement.json",
+    "placement": {
+      "centerUV": [
+        0.625,
+        0.28
+      ],
+      "sizeUV": [
+        0.096,
+        0.096
+      ],
+      "orientation": "upright"
+    },
+    "visualCheck": "Motif cây thông và tuyết sáng nằm giữa ngực trước; không thấy trên lưng/tay trong các góc đã kiểm."
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-63/sweater-surface-v1/index.html",
+    "type": "material surface preview; not final viewer or final QA",
+    "browserEvidence": "orders/ATEL-63/v1/material/evidence/browser-result.json",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "views": [
+      "front",
+      "back",
+      "side",
+      "oblique",
+      "top",
+      "bottom"
+    ],
+    "errors": []
+  },
+  "visualInspection": {
+    "reviewer": "atelierx-backend-developer-0005",
+    "status": "surface ready for Visual handoff; not final QA",
+    "observations": {
+      "front": "Màu đỏ rượu vang; cây thông đứng thẳng, snowflakes sáng màu, đặt giữa ngực.",
+      "back": "Bề mặt trơn; không có artwork bleed.",
+      "side": "Không có artwork trên tay; phần bo kem ở cổ tay theo vùng cuối ống tay.",
+      "top": "Cổ vẫn mở; viền cổ kem theo atlas.",
+      "bottom": "Gấu vẫn mở; bo gấu kem theo atlas."
+    }
+  },
+  "inputs": {
+    "shapeQaReport": "quality/reports/ATEL-63/sweater-v1-gray.json",
+    "shapeDecision": "pass",
+    "shapeRevision": "sweater-v1-gray",
+    "researchRevision": "research-1"
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-63/v1/material/garment.glb",
+      "sha256": "36c76397c280f496f2361568ed73c242a9798e4a195d7fa4fd4ab9ac07258a45"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/basecolor.png",
+      "sha256": "a034692deb05f08d1b92ab852f20a873c1e0a41aae2746981377d065c53a2f2a"
+    },
+    {
+      "path": "orders/ATEL-63/material/pbr-preset-v1.json",
+      "sha256": "9a0ab0b1e79b83a135788b03443b0648b56d936d1c574655c861fc8edec2c8e0"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/sweater-uv-atlas-v1.svg",
+      "sha256": "8bda8e4b1526df6c7538363e9a936f883fe986b96b9a19cea365eb8eef494636"
+    },
+    {
+      "path": "orders/ATEL-63/material/placement-v1.json",
+      "sha256": "58e0ca83392ca489eb813a7e9cba26134db1cebdfb6091ede057337e4300479d"
+    },
+    {
+      "path": "orders/ATEL-63/material/surface-job-v1.json",
+      "sha256": "069f1a966ea6571564c086262c755ccaf2b02b64c0a682547eecda0b854fc19e"
+    },
+    {
+      "path": "orders/ATEL-63/material/build-atlas-v1.mjs",
+      "sha256": "b2e20d33fbb7bc9d1787c81d0e3620ef9a58fc17fc741e244141748a46d8ab9f"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/surface.json",
+      "sha256": "3ecc7d143769f5c226af3665569ce1c22d0c65bb3a5065edf86e499d31797ed1"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-63/sweater-surface-v1/index.html",
+      "sha256": "4474df6e6a1dd4da00081de379080c40dd0b269b0b1fde909d555120bae09494"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-63/sweater-surface-v1/garment.glb",
+      "sha256": "36c76397c280f496f2361568ed73c242a9798e4a195d7fa4fd4ab9ac07258a45"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/evidence/browser-result.json",
+      "sha256": "f8ee59b3b8d3bfebf125d650a35de897cd5ed3ccc0097eaa03085eb265bae40d"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/evidence/front.png",
+      "sha256": "2ac4645c192075add2a2fe86fd042ee3dd8d5342c7799ee2e8f86d6c5f704656"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/evidence/back.png",
+      "sha256": "9f18a5555e85b872a70e688f73d486f6f8da46bc7a69d67f03261b8bf626db67"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/evidence/side.png",
+      "sha256": "60a3bef6b648908d8a0ec0a77ec77132357e00dbf9223a78f2ec3fed5ade41da"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/evidence/oblique.png",
+      "sha256": "a1f69f43b8cad24b743c546005004b6adf0adb660dbf103d5fc17e9932b70dd4"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/evidence/top.png",
+      "sha256": "2544be0cfb08cb3c44362badadc7656d2c159dc9eb4da8e359f4c4f6f08f99c1"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/evidence/bottom.png",
+      "sha256": "52ce4472b1ab411ccf9e9083708589a1f6aadbb50a7acdad46939402bc201157"
+    },
+    {
+      "path": "orders/ATEL-63/research/christmas-tree-snowflakes.svg",
+      "sha256": "65a81edb11deca9d9b5602a0f33d416faa966dd2546b0e8606a556714a2187d7"
+    },
+    {
+      "path": "orders/ATEL-63/research/artwork-placement.json",
+      "sha256": "407ef704daefd9d3813157ad93b0456ddc317fb714609a3679fe11026b3d3e49"
+    },
+    {
+      "path": "orders/ATEL-63/v1/designer/uv-placement.json",
+      "sha256": "ea3e649e1bf21834ee2d5ae5c7b9f2790755a0e95decdb5664072a29bd5d6c95"
+    }
+  ]
+}

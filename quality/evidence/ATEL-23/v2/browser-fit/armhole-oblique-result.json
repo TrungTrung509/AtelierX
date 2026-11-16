@@ -1,0 +1,72 @@
+{
+  "loaded": true,
+  "errors": [],
+  "captures": [
+    {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/armhole-oblique-positiveX.png",
+      "sha256": "3c833c6671e48865ae26c7aad1c12b51df45638f0fde6d493824e779edfb93f4",
+      "camera": {
+        "target": {
+          "x": 0.22,
+          "y": 1.475,
+          "z": -0.045
+        },
+        "orbit": {
+          "theta": 2.356194490192345,
+          "phi": 1.2740903539558606,
+          "radius": 1.15
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/armhole-oblique-negativeX.png",
+      "sha256": "313f2241b286b7894fcb5a33b59f5b55c72b66b3e80a028336021e6774da0dca",
+      "camera": {
+        "target": {
+          "x": -0.22,
+          "y": 1.475,
+          "z": -0.045
+        },
+        "orbit": {
+          "theta": 3.9269908169872414,
+          "phi": 1.2740903539558606,
+          "radius": 1.15
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/armhole-rear-wide.png",
+      "sha256": "53678c54bd0b0299bd60df9ce29b4c07a50c345092b15e48d42ab9cb89b99028",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 1.405,
+          "z": -0.045
+        },
+        "orbit": {
+          "theta": 2.9633426204263777,
+          "phi": 1.3962634015954636,
+          "radius": 2.25
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/armhole-side-wide.png",
+      "sha256": "625967b862ae361a535dcf2d23a2a0e94b02e90a8d767b22901934bcdb8b0df5",
+      "camera": {
+        "target": {
+          "x": 0.04,
+          "y": 1.435,
+          "z": 0
+        },
+        "orbit": {
+          "theta": 1.5707963267948966,
+          "phi": 1.3962634015954636,
+          "radius": 2.35
+        }
+      }
+    }
+  ],
+  "garmentSha256": "d51cbc10580d04b6195dae7fc041e297461fe217a94fcbc4487cf07319747f66",
+  "fitPreviewSha256": "9d58af5fe58ad7a6fedd14778b6ea4fef9b38be0b3289b1de1b4a4c7f2829fb8"
+}

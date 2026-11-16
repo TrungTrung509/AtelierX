@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-47/v2-shape/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "--basic/front.png",
+    "back": "--basic/back.png",
+    "side": "--basic/side.png",
+    "oblique": "--basic/oblique.png"
+  },
+  "errors": []
+}

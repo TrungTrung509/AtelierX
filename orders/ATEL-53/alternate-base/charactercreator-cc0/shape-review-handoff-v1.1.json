@@ -1,0 +1,21 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "alternate-cc0-shirt-v1.1-gray",
+  "decision": "return",
+  "correctionOwner": "designer",
+  "nextAction": "Designer sửa drape/silhouette, cấu tạo lá cổ/chân cổ và junction cuff/button trên cùng nhánh geometry; QA tiếp tục cùng WorkItem sau candidate gray mới và handoff.",
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-53/alternate-cc0-shirt-v1.1-gray.json",
+      "sha256": "97a58efbeeeaf640bcc85b2e36cb0ea8909f4a9ac23461ee50d0e610a592cd31"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/shape-correction-v1.1-manifest.json",
+      "sha256": "e2788cdde28921f17fc46afb63346dc1596153df8047d9535f4ac8d2fe2a729e"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/gray-shirt-correction-v1.1.glb",
+      "sha256": "d2b5c13c29d605f1bb6eec6b9ac8c6fb1d3c8e30758f51fa6062a4d5fef59158"
+    }
+  ]
+}

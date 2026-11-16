@@ -1,0 +1,12 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie/index.html",
+  "viewport": "390x844",
+  "loaded": true,
+  "touchRotated": true,
+  "touchZoomed": true,
+  "beforeRotate": {"theta": 3.141592653589793, "radius": 2.6},
+  "afterRotate": {"theta": 2.4325826967264716, "radius": 2.6},
+  "beforeZoom": {"theta": 3.141592653589793, "radius": 2.6},
+  "afterZoom": {"theta": 3.141592653589793, "radius": 2.463471970454563},
+  "errors": []
+}

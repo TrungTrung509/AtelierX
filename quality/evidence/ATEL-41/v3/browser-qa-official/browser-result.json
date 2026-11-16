@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-41/v3/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-41/v3/browser-qa-official/front.png",
+    "back": "quality/evidence/ATEL-41/v3/browser-qa-official/back.png",
+    "side": "quality/evidence/ATEL-41/v3/browser-qa-official/side.png",
+    "oblique": "quality/evidence/ATEL-41/v3/browser-qa-official/oblique.png"
+  },
+  "errors": []
+}

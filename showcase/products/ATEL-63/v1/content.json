@@ -1,0 +1,59 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v1",
+  "title": "Áo sweater Giáng sinh đỏ rượu vang",
+  "summary": "Sweater cổ tròn tay dài màu đỏ rượu vang, bo kem ở cổ, cổ tay và gấu; cây thông cùng bông tuyết tông sáng đặt giữa ngực trước. Bề mặt len dệt matte là mô phỏng PBR theo preset AtelierX, không xác nhận thành phần sợi hay đặc tính sản xuất.",
+  "paragraphs": [
+    "Mẫu sweater 3D do Tristen cung cấp theo giấy phép CC BY 4.0; hình học được giữ nguyên. Các số đo dưới đây mô tả mẫu trưng bày đã thu tỷ lệ hiển thị 0,25 lần, chỉ để tham khảo mô hình 3D, không phải size may hoặc thông số sản xuất."
+  ],
+  "details": [],
+  "material": {
+    "name": "Len dệt matte đỏ rượu vang (mô phỏng PBR)",
+    "source": "orders/ATEL-63/material/pbr-preset-v1.json; màu #6F1C31, roughness 0.9, metallic 0. Mô phỏng thị giác do AtelierX thiết lập, không phải thành phần vật liệu được xác minh."
+  },
+  "style": "Sweater cổ tròn tay dài, bo kem tương phản ở cổ, cổ tay và gấu; họa tiết Giáng sinh đặt giữa ngực trước.",
+  "displayDimensionsNote": "Kích thước tham khảo của mẫu hiển thị 3D ở displayScale 0.25; không phải số đo may, không phải size sản xuất.",
+  "dimensionsSource": {
+    "path": "showcase/products/ATEL-63/v1/measurements.json",
+    "garmentSha256": "36c76397c280f496f2361568ed73c242a9798e4a195d7fa4fd4ab9ac07258a45",
+    "method": "World-space mesh envelope and horizontal silhouette section at 75% of garment height, scaled for display by 0.25. Display references only, not sewing or body measurements."
+  },
+  "specifications": [
+    {
+      "label": "Ngang bao áo (gồm tay)",
+      "value": 138.2,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-63/v1/measurements.json · envelopeWidthCm; tham khảo mẫu hiển thị 3D, không phải size may."
+    },
+    {
+      "label": "Dài bao áo",
+      "value": 64.4,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-63/v1/measurements.json · garmentLengthCm; tham khảo mẫu hiển thị 3D, không phải size may."
+    },
+    {
+      "label": "Sâu bao áo",
+      "value": 34.2,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-63/v1/measurements.json · envelopeDepthCm; tham khảo mẫu hiển thị 3D, không phải size may."
+    },
+    {
+      "label": "Ngang hình chiếu ở 3/4 chiều cao",
+      "value": 67.4,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-63/v1/measurements.json · upperBodySpanCm; mặt cắt hình chiếu ngang tại 75% chiều cao mẫu, tham khảo 3D, không phải size may."
+    }
+  ],
+  "credits": [
+    "Phom sweater: Tristen, “Sweater”, Sketchfab, CC BY 4.0 (https://sketchfab.com/3d-models/sweater-03ec2c29e4dc497080b32951f3168754). Hình học nguồn được giữ nguyên.",
+    "Họa tiết cây thông và bông tuyết: artwork SVG AtelierX, orders/ATEL-63/research/christmas-tree-snowflakes.svg.",
+    "Preset len dệt matte PBR do AtelierX thiết lập để mô phỏng thị giác; không xác nhận thành phần sợi thật."
+  ],
+  "sourceRevision": {
+    "surface": {
+      "revision": "v1",
+      "path": "orders/ATEL-63/v1/material/surface-handoff.json",
+      "sha256": "fa131b6585e028616a69d0014405d96cbee49371cdc26266cfdbe9f89d3c5da1"
+    }
+  }
+}

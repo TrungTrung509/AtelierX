@@ -1,0 +1,106 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "v1.4-gray",
+  "decision": "return",
+  "reviewer": "atelierx-qa-0004",
+  "correctionOwner": "designer",
+  "nextAction": "Sửa SHAPE-01 và SHAPE-02; bàn giao revision gray mới để QA tiếp tục bằng cùng WorkItem 92ff0d6b-d686-441f-889e-55756bafa5a2. Giữ Material ở hold đến shape pass.",
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-53/v1.4-gray.json",
+      "sha256": "92e34129ac3ca201349f0645ce811bdaa6dac7a36634284fc8444ba0ab6ea28c"
+    },
+    {
+      "path": "orders/ATEL-53/v1/shape-v1.4-gray.json",
+      "sha256": "3ae192e963312652462de30c33d906822ce300f03797dc94fb082a375af95fcd"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/garment-gray-v1.4.glb",
+      "sha256": "a67a5bdafe473dbf968eeddd6e0321d506fbfb4519e41043c4be93778c291f6b"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/build-shirt-shell-v1.4.mjs",
+      "sha256": "08961c10cca954e04a469fa15b02be93f835b1b53f2d99421f16ee45f640e17d"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/v1.4/garment.glb",
+      "sha256": "a67a5bdafe473dbf968eeddd6e0321d506fbfb4519e41043c4be93778c291f6b"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/v1.4/index.html",
+      "sha256": "982a465a1e907d65e6ae7b8bdca6d512d6a6f5c6e2f2f230759bd0341efe12b5"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.4/browser-result.json",
+      "sha256": "8405b3a494ec441189a11faa240b6dff834808e01f2f406329e44693218dbf42"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.4/back.png",
+      "sha256": "d8de97e3c2564384fa9d71649f73e0596e525a540e9a1a771e88f143c2ff8b33"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.4/bottom.png",
+      "sha256": "30a3044a0d01a8618c176d72d3698614c2d302e1666c1e876a1207272762c78d"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.4/front.png",
+      "sha256": "7b3416b0c95b910d261757f96daf0001cefe3cb61235ddda2df4c24cb83c8227"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.4/oblique.png",
+      "sha256": "e0fcea7d3ef70e1b90283806d617907b4f46993807cc11641661c1ba512d9a5f"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.4/side.png",
+      "sha256": "2c0ea7020c712ce5b1f31329fa56acf056860b3c2a70a9119a7e7a09aa3c2494"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.4/top.png",
+      "sha256": "794ffcc6cb64775e0065e31a9a0999a4b4a1b53fecf2931755c08af69bccf48a"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.4/collarCloseup.png",
+      "sha256": "6c5c984d528950d59bc4e3d1ae0c45708658184f31eeb11a0b492ccfaef36443"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.4/placketSideCloseup.png",
+      "sha256": "c35c2586842638dd396aa493cb6df3c1034ce66da98c3fc87f1de0389e3cd355"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.4/cuffCloseup.png",
+      "sha256": "5f1e8997e9d6a2970961a0d803bc35b159faea2d49d36124cbe158ac07dffd3a"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.4/detail-browser-result.json",
+      "sha256": "806a04ee5c83c8cd5c6dbd5403513cb28b6ea1b171f063cf7ef1fceb3cb04955"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/front.png",
+      "sha256": "d4eb871ce6dedfef328b9f6a654d1e3bdba13ae1ad66784b0f354fd0c3951e04"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/oblique.png",
+      "sha256": "b8f3f285ea2447cbcbf71c3cb28c458538b8f2afaaec9d340b081c812954d98b"
+    }
+  ],
+  "findings": [
+    {
+      "id": "SHAPE-01",
+      "area": "Nối vai và armhole — front/back/oblique",
+      "observation": "Còn dải tối dạng khe ở đỉnh vai phía sau và notch tối tại hai chỗ nối tay-thân; các mảng làm đường vai/nách không đọc thành một đường ráp vải liên tục.",
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-02",
+      "area": "Cấu tạo cổ bẻ — front/back/top/collar closeup",
+      "observation": "Hai lá cổ hẹp, nhọn và rủ gần thẳng song song trên nẹp; chân cổ thành bản phẳng rộng. Chưa đọc thành cổ bẻ với lá gập mở tự nhiên, dù khoang cổ còn mở.",
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-03",
+      "area": "Drape thân/tay — front/back/side/oblique so benchmark",
+      "observation": "Thân vẫn khá phẳng; nếp tập trung thành gờ ngang eo, tay gần như trơn. Nếp vải ít và kém phân bố tự nhiên hơn ATEL-35/v1.",
+      "correctionOwner": "designer"
+    }
+  ]
+}

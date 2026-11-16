@@ -1,0 +1,65 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v3",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "assembly": {
+    "path": "showcase/products/ATEL-41/v3/assembly.json",
+    "sha256": "f6778a8cff2c6e2b79a200b5801bbc2011e1e60d0b041373b7fd82e7ab663421"
+  },
+  "display": {
+    "path": "showcase/products/ATEL-41/v3/assets/display.glb",
+    "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+  },
+  "integratedGarment": {
+    "path": "orders/ATEL-41/v3/material/garment-surface-v3.glb",
+    "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+  },
+  "surfaceManifest": {
+    "path": "orders/ATEL-41/v3/material/surface-manifest-v3.json",
+    "sha256": "2362fc94b612cc3adffdfbe3938cc03df0bd560a1e97c07c2c1ec18f315d36e0"
+  },
+  "content": {
+    "path": "showcase/products/ATEL-41/v3/content.json",
+    "sha256": "a1dfb0d7d8422f8616079337f431d5beae6632ade63751ca71203cb2aae49fe1"
+  },
+  "sourceContent": {
+    "path": "orders/ATEL-41/v3/visual/content.json",
+    "sha256": "a1dfb0d7d8422f8616079337f431d5beae6632ade63751ca71203cb2aae49fe1"
+  },
+  "viewer": {
+    "path": "showcase/products/ATEL-41/v3/index.html",
+    "sha256": "03cdb39f007760124b8eefa5c8331f7fa9e7e0702e7c55808dd77fb4fabaa926"
+  },
+  "measurements": {
+    "path": "showcase/products/ATEL-41/v3/measurements.json",
+    "sha256": "2ed1524b84cca70864888d96bdb53efa73881fd547ac6b84ae9c081647399bda",
+    "kind": "3D display references, not manufactured garment sizing"
+  },
+  "shapeReview": {
+    "path": "orders/ATEL-41/v3/independent-shape-review.json",
+    "sha256": "1c70b8b160ee5410a37b781bdb9ca5579e1f266e322780ffb44723bf98577c43"
+  },
+  "browserEvidence": {
+    "browserResult": {
+      "path": "quality/evidence/ATEL-41/v3/browser-qa-official/browser-result.json",
+      "sha256": "5019c65a47446844ad9cc29b91baaf3bd424c96c475f8c44dd39a4c1e18a6abc"
+    },
+    "front": {
+      "path": "quality/evidence/ATEL-41/v3/browser-qa-official/front.png",
+      "sha256": "c78b687503232b81d3372e3037ce3b7ae04d1825b18b860fe5a988cae1e0c7a3"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-41/v3/browser-qa-official/back.png",
+      "sha256": "4127f61b0d6e39cf75f9d8c06edc9e180006ce8b1e79a98d43515efaa304da79"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-41/v3/browser-qa-official/side.png",
+      "sha256": "cb75a012953b19f438cfd750256429dbc0def5bd517d192d59be4ce70bd9dca5"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-41/v3/browser-qa-official/oblique.png",
+      "sha256": "7bbc282c9166d6ce13d4c191f5dd9199cf7da696da627fa33c2be81757666ae4"
+    }
+  }
+}

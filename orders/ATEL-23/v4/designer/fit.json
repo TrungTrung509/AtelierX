@@ -1,0 +1,33 @@
+{
+  "orderId": "ATEL-23",
+  "workItemId": "03387d63-e12e-47a6-8356-6d427e787d72",
+  "revision": "v4.1",
+  "deliveryProfile": "showcase-basic-v1",
+  "sourceGarment": "orders/ATEL-23/v1/designer/garment-v1.glb",
+  "garment": "orders/ATEL-23/v4/designer/garment-v4_1.glb",
+  "garmentSha256": "c0c88a9af99feb3b66948ffbb81fc75d570071bd0cf86da3e461397dc6a7ca19",
+  "display": "showcase/products/ATEL-23/v4.1/assets/display.glb",
+  "displaySha256": "661160106217cf94ca7750e54ca44044746255f24a0a33c939e9d3483282ffa6",
+  "assembly": "showcase/products/ATEL-23/v4.1/assembly.json",
+  "measurements": "showcase/products/ATEL-23/v4.1/measurements.json",
+  "browserEvidence": {
+    "directory": "quality/evidence/ATEL-23/v4.1",
+    "front": "quality/evidence/ATEL-23/v4.1/front.png",
+    "back": "quality/evidence/ATEL-23/v4.1/back.png",
+    "side": "quality/evidence/ATEL-23/v4.1/side.png",
+    "oblique": "quality/evidence/ATEL-23/v4.1/oblique.png",
+    "mobile": "quality/evidence/ATEL-23/v4.1/mobile.png",
+    "viewer": {"loaded": true, "rotated": true, "zoomed": true, "mobile": true}
+  },
+  "designerVisualReview": {
+    "status": "needs-qa-review; visible issues remain",
+    "observed": [
+      "Final source geometry appears short-sleeved/arm coverage is incomplete on the mannequin.",
+      "Shirt body renders white while brief/content says pale blue.",
+      "Tuyến sáng artwork is not applied to the visible garment.",
+      "Added buttons and raised creases appear offset from the garment surface in the browser capture."
+    ],
+    "clearanceCounts": "Not run under showcase-basic-v1."
+  },
+  "note": "The existing v4 draft was preserved. v4.1 is the single final build; no further designer correction or publish was performed. QA and Lead decision required."
+}

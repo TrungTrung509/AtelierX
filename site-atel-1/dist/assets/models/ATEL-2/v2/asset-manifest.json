@@ -1,0 +1,15 @@
+{
+  "order": "ATEL-2",
+  "revision": "v2",
+  "sourceRevision": "v1",
+  "garment": "black pullover hoodie MVP",
+  "model": "hoodie-skull-v2.glb",
+  "texture": "hoodie-back-skull-texture-v2.png",
+  "artwork": "hoodie-back-skull-artwork-v2.svg",
+  "source": "site-atel-1/tools/generate-atel2-v2.mjs",
+  "formNote": "Procedural MVP mesh; no approved base hoodie mesh or UV source was present.",
+  "printPlacement": "Centered on back panel, upright, below hood; front torso has no print.",
+  "artworkNote": "One-eyed animal skull with one centered open eye socket; no second eye socket.",
+  "runtimeBrowserQA": "Not confirmed; deferred to ATEL-3 / ATEL-1.",
+  "physicalFitQA": "Not confirmed; this is a procedural MVP mesh."
+}

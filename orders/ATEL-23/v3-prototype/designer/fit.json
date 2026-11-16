@@ -1,0 +1,126 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v3-prototype",
+  "status": "prototype delivered for independent QA; fit failed initial penetration screen; G1 not approved",
+  "designer": "atelierx-designer-0003",
+  "baseMeshId": "designer-parametric-measured-shirt-v3-prototype",
+  "source": {
+    "type": "new procedural measured-loft geometry authored from mannequin anchors and measurement stations",
+    "referenceProfile": "quality/mannequin-fit.json",
+    "referenceMannequin": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "priorCandidateUsed": false,
+    "sourceCandidatesModified": false,
+    "algorithm": "parametric ellipse lofts with grid-cut armscye boundaries and shared seam vertices; no SDF, no clipping, no artwork or production material"
+  },
+  "garment": {
+    "path": "orders/ATEL-23/v3-prototype/designer/garment-v3-prototype.glb",
+    "sha256": "547192b5428be8ceb3b1faf9a3312cc5f746534fc3ae9dc38e4139085136e8fc",
+    "previewPath": "orders/ATEL-23/v3-prototype/fit-evidence/garment-on-mannequin-v3-prototype.glb",
+    "previewSha256": "83ed5ac0df014449e70d4daeb696a868a07c20548a474c7234641cf9744a368a",
+    "vertices": 5976,
+    "triangles": 11152,
+    "uv": {
+      "hasUV0": true,
+      "layout": "cylindrical loft UV plan: torso U=0..1 and vertical V; sleeve islands mapped in local angular/length coordinates; collar island separated. Prototype UV is provisional."
+    },
+    "topology": {
+      "method": "explicit loft grids; torso and each sleeve share 26 boundary vertices at each armscye; open cuff edges; no cloth thickness",
+      "armscyeLoops": [
+        26,
+        26
+      ],
+      "collarAttached": false,
+      "limitations": [
+        "collar remains separate from torso",
+        "outer shell has no cloth thickness",
+        "armhole junction silhouette visibly rough"
+      ]
+    }
+  },
+  "clearance": {
+    "method": "AABB BVH broad phase, exact triangle segment intersection/closest distance on candidate pairs, then garment vertex/centroid ray parity and nearest-surface sampling; not continuous whole-surface minimum",
+    "candidatePairs": 17709,
+    "intersectionPairs": 1039,
+    "regions": {
+      "other": {
+        "candidatePairs": 3264,
+        "intersections": 215,
+        "insideSamples": 3688,
+        "minPairClearanceMeters": 0,
+        "maxSampledDepthMeters": 0.0081109
+      },
+      "shoulder/upper torso": {
+        "candidatePairs": 13692,
+        "intersections": 648,
+        "insideSamples": 19700,
+        "minPairClearanceMeters": 0,
+        "maxSampledDepthMeters": 0.0510337
+      },
+      "neck/collar": {
+        "candidatePairs": 753,
+        "intersections": 176,
+        "insideSamples": 1128,
+        "minPairClearanceMeters": 0,
+        "maxSampledDepthMeters": 0.0254081
+      }
+    },
+    "maxSampledDepthMeters": 0.0510337,
+    "penetrationDetected": true,
+    "reportPath": "quality/evidence/ATEL-23/v3-prototype/contact-clearance-analysis.json",
+    "reportSha256": "94e9a0477a3c57b1e0cd2f412f4ca054bf5edbc470e1c8594f6c66c17a1f4efa",
+    "intersectionReport": "quality/evidence/ATEL-23/v3-prototype/triangle-intersection-result.json",
+    "intersectionReportSha256": "7515ac7c0fb63a71b4f30f9fb92b7281d21847cc1c3fe359451ea5b9ac843c71",
+    "limitations": [
+      "candidate-pair surface sampling only",
+      "not a cloth-thickness model",
+      "small unsampled penetrations may be missed"
+    ]
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-v3-prototype/index.html",
+    "report": "quality/evidence/ATEL-23/v3-prototype/browser-fit/browser-result.json",
+    "reportSha256": "d255811c6e97c216a67cbd4f58cd454da2ac71186fb92f7aa0bd39592b4c3e7a",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "mobile": true,
+    "errors": [],
+    "captures": {
+      "front": {
+        "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/front.png",
+        "sha256": "e8e05b8fa95221f7349e34a728cb3e3d07aff5e7b72a34564339bcc07d3e85e2"
+      },
+      "back": {
+        "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/back.png",
+        "sha256": "d2ccf50f966e9c594777b3c595980594e137081bc134a4f8596ea04900773711"
+      },
+      "left": {
+        "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/left.png",
+        "sha256": "65966674b33e65ad3033ad1e249e4778fe6736719e1c13ad06c213ed547b439b"
+      },
+      "right": {
+        "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/right.png",
+        "sha256": "dee06cb38c2ca4b00689e50d4b422bb257ddcbe8f4efdfe245b74e5e45888105"
+      },
+      "detail": {
+        "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/detail.png",
+        "sha256": "f2dba4fa11e0de8a7b739efa19caed570ac8e66b460539578a1b3f0bec0290be"
+      },
+      "mobile": {
+        "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/mobile.png",
+        "sha256": "8960003ad78d37d0bc9b2d73619bcc4f774986c09bbc0cac2ad7e9c7557968ad"
+      }
+    }
+  },
+  "visualReview": {
+    "front": "Torso silhouette is visible; shoulder/armhole junctions show exposed mannequin and jagged panel edges.",
+    "back": "Capture supplied; independent QA should inspect upper back, shoulder and sleeve root.",
+    "sides": "Body side remains visibly too flat/blocky for G1.",
+    "neck": "Raised collar stand present but unattached; front neck detail supplied.",
+    "verdict": "Prototype proves a new measured-loft branch and provides early fit evidence, but geometry is not fit-ready. QA to return prioritized correction list; Lead chooses whether to refine this branch."
+  },
+  "artworkApplied": false,
+  "productionMaterialApplied": false,
+  "publish": false
+}

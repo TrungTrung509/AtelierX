@@ -1,0 +1,6 @@
+site-atel-1/dist/assets/models/ATEL-2/v1/asset-manifest.json: OK
+site-atel-1/dist/assets/models/ATEL-2/v1/hoodie-back-skull-artwork-v1.svg: OK
+site-atel-1/dist/assets/models/ATEL-2/v1/hoodie-back-skull-texture-v1.png: OK
+site-atel-1/dist/assets/models/ATEL-2/v1/hoodie-skull-v1.glb: OK
+site-atel-1/tools/generate-atel2.mjs: OK
+site-atel-1/tools/generate-atel2.test.mjs: OK

@@ -1,0 +1,73 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v2",
+  "profile": "single-mesh-uv-atlas-neckline-boundary-v2",
+  "sourceGeometry": {
+    "path": "orders/ATEL-63/v1/designer/sweater-gray-v1.glb",
+    "sha256": "9c7d8b646bcbb72c2a9c10893dd2169b9a0eeee462ee5559ed07e769caca5e0a"
+  },
+  "sourceUv": {
+    "path": "orders/ATEL-63/v1/designer/uv-placement.json",
+    "attribute": "TEXCOORD_0",
+    "coordinates": "U left-right; V top-bottom as recorded by Designer for the chest safe zone.",
+    "unchanged": true
+  },
+  "surfaceMapping": {
+    "flowerMaterialMeshes": [
+      0
+    ],
+    "creamOnlyMeshes": [],
+    "basis": "GLB has one fabric mesh (defaultMaterial, mesh 0) with one TEXCOORD_0 atlas. Apply one complete base-color texture to that mesh; cream trim colors are baked from world-space triangle masks into the existing UV atlas. No mesh split or geometry edits."
+  },
+  "spatialTrimMasks": {
+    "coordinateSpace": "world meters from Designer's preserved transforms",
+    "method": "Identify open neckline boundary edges from the original indexed mesh, calculate each vertex minimum 3D distance to those edge segments, clip triangles by the interpolated distance field, and paint their existing UV polygons. Keep v1 cuff/hem bounds.",
+    "neck": "Distance <= 0.07 world units to source boundary segments with both endpoints worldY > 6.50 and abs(worldX) < 0.45; project each clipped triangle through its unchanged TEXCOORD_0.",
+    "cuffs": "abs(worldX) >= 2.52",
+    "hem": "worldY <= 4.72 and abs(worldX) <= 1.2",
+    "trimColorHexSRGB": "#F4EBDD"
+  },
+  "placement": {
+    "coordinateSpace": "Full UV atlas as a single SVG texture input to studio-surface",
+    "center": {
+      "u": 0.5,
+      "v": 0.5
+    },
+    "size": {
+      "width": 1.0,
+      "height": 1.0
+    },
+    "orientation": "Atlas laid across the complete source UV domain; motif orientation is already baked into the atlas."
+  },
+  "textureRaster": {
+    "width": 2048,
+    "height": 2048,
+    "uvVOrigin": "top-left",
+    "dilationPixels": 0
+  },
+  "artworkPlacement": {
+    "coordinateSpace": "Existing TEXCOORD_0 UV atlas; V origin top-left per Designer's placement note.",
+    "center": {
+      "u": 0.625,
+      "v": 0.28
+    },
+    "size": {
+      "width": 0.096,
+      "height": 0.096
+    },
+    "sourceSafeZone": {
+      "u": [
+        0.54,
+        0.71
+      ],
+      "v": [
+        0.22,
+        0.34
+      ]
+    },
+    "orientation": "Upright, not mirrored; tree trunk vertical.",
+    "surfaceExtent": "Artwork restricted to front chest safe zone; red knit simulation covers the remaining atlas; cream spatial trims follow the source neck, cuffs and hem.",
+    "uvPolicy": "Preserve TEXCOORD_0 and all geometry buffers byte-for-byte."
+  },
+  "correction": "QA F-01: narrow neck band follows the source opening contour; no planar shoulder yoke."
+}

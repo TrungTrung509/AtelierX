@@ -1,0 +1,67 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "v1-gray-wip",
+  "status": "prototype checkpoint; not QA reviewed, not approved, not a shape pass",
+  "createdAt": "2026-11-15T18:36:50Z",
+  "geometryOrigin": "Fresh procedural construction from the owner brief. No prior garment geometry or rejected base was reused.",
+  "generator": "orders/ATEL-53/v1/designer/build-shirt-shell-v1.mjs",
+  "toolSteps": [
+    "Generated named front/back cloth panels, side seam allowances, swept open sleeve shells and cuff bands, U-shaped collar stand, two folded collar leaf surfaces, and raised front placket surfaces.",
+    "Wrote standalone GLB with gray PBR materials and UV0/material groups.",
+    "Copied GLB to isolated Crewly quality-preview route and captured six real browser angles with browser-qa --basic --garment."
+  ],
+  "artifacts": [
+    {
+      "path": "orders/ATEL-53/v1/designer/garment-gray-v1-wip.glb",
+      "sha256": "950c278e11bce09994ca72237245dd38232c5215f2d489050a84e5c51964172c"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/checkpoint-capture/front.png",
+      "sha256": "8013fdf083bb04106cd47fcba5a128f4778187942cbf4d56a8e33f098cf09595"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/checkpoint-capture/back.png",
+      "sha256": "de1330b909ded24f29e41aa1a44a02f34bc23fa06b6fbff93265579bde53b307"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/checkpoint-capture/side.png",
+      "sha256": "15f5b90d1f1c27ac9a963903529531ce57f4b55480829ce1c44b5f0699aa613a"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/checkpoint-capture/oblique.png",
+      "sha256": "775c6af01f9d5119133bc8cb20564a7df7c1bc1d47b6fd48125ac60f8a81b413"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/checkpoint-capture/top.png",
+      "sha256": "a72a4ad787c1bc1563fbddfc59a09c788e66a5817669e1e284b4bb24ad92dfb8"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/checkpoint-capture/bottom.png",
+      "sha256": "6f354d72fa72ecfafe72712c1df29b24d7a8377c8868ca342180e8b70fdf0f4f"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/checkpoint-capture/browser-result.json",
+      "sha256": "2903fa3ca9c29c2f26cfdb3105f95842cddd9f775c46b65c6e4f3c125c50d3c3"
+    }
+  ],
+  "knownWipIssues": [
+    "Collar leaves are oversized and need construction/shape refinement.",
+    "Torso drape reads too flat under gray; tune volume and fold shading.",
+    "Sleeve roots/shoulder join and surface normals need oblique/top inspection and refinement."
+  ],
+  "uvNotes": "UV0 origin upper-left; torso panels U center-front/back to side seam and V shoulder to hem; sleeves U around circumference, V shoulder to cuff; collar/placket/cuffs grouped separately.",
+  "anchors": {
+    "placket": "Two folded textile strips follow center-front body curvature; button anchors intentionally not added before gray shape review.",
+    "collar": "U-shaped neck-following stand plus left/right leaf panels; refine attachment to neckline before review.",
+    "cuffs": "Open annular textile bands at distal sleeve ends; cuff button anchors deferred until geometry is accepted."
+  },
+  "browserEvidence": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/v1/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobileTested": false
+  },
+  "leadAcknowledgementMessageId": "b5e3c3b8-80ba-47b3-ae95-d2ed947ca451"
+}

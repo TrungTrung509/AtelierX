@@ -1,0 +1,194 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "v1.1-gray",
+  "reviewType": "independent-shape-review",
+  "reviewedAt": "2026-11-15T19:08:13Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "qaReviewer": "atelierx-qa-0004",
+  "decision": "return",
+  "garment": {
+    "path": "orders/ATEL-53/v1/designer/garment-gray-v1.1.glb",
+    "sha256": "2b394d52ddc64b1ba5b60eba92102ac5cd1accc14a06347dcd5461cbc74cad5a"
+  },
+  "sourceManifest": {
+    "path": "orders/ATEL-53/v1/designer/shape-manifest-v1.1.json",
+    "sha256": "834213e7a212cc07781a999c0590d7006745ac1c311226ee7c251454049e5ca7"
+  },
+  "provenance": {
+    "method": "Fresh standalone geometry authored for the shirt brief.",
+    "sourceAssets": [],
+    "reusedGeometry": false,
+    "rejectedGeometryUsed": false,
+    "mannequin": false
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/v1.1/index.html",
+    "garmentSha256": "2b394d52ddc64b1ba5b60eba92102ac5cd1accc14a06347dcd5461cbc74cad5a"
+  },
+  "browserEvidence": {
+    "path": "orders/ATEL-53/v1/designer/evidence-v1.1/browser-result.json",
+    "sha256": "a89d45ce5341b292e8aee45ba3aaa52d215474fb454f4faa9b4c0895a37c446a",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": []
+  },
+  "garmentAppearance": {
+    "profile": "invisible-body-v1",
+    "reviewer": "atelierx-qa-0004",
+    "benchmark": "ATEL-35/v1",
+    "garmentType": "shirt",
+    "checks": {
+      "hollowOpenings": {
+        "passed": true,
+        "observation": "Top và bottom cho thấy lòng thân mở; cổ và hai cửa cuff còn khoảng rỗng, không thấy mặt cap bịt ngang.",
+        "evidence": [
+          "orders/ATEL-53/v1/designer/evidence-v1.1/top.png",
+          "orders/ATEL-53/v1/designer/evidence-v1.1/bottom.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/cuffCloseup.png"
+        ]
+      },
+      "naturalDrape": {
+        "passed": false,
+        "observation": "Mặt thân trước/sau gần như phẳng và trơn; tay là ống phồng đều, thiếu nếp rủ cấu trúc ở vai, nách và thân như benchmark.",
+        "evidence": [
+          "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+          "orders/ATEL-53/v1/designer/evidence-v1.1/back.png",
+          "orders/ATEL-53/v1/designer/evidence-v1.1/oblique.png"
+        ]
+      },
+      "fabricEdges": {
+        "passed": true,
+        "observation": "Các miệng cổ, gấu và cuff nhìn thấy là mép bao quanh khoang rỗng; chưa thấy đĩa phẳng đóng kín các cửa này.",
+        "evidence": [
+          "orders/ATEL-53/v1/designer/evidence-v1.1/top.png",
+          "orders/ATEL-53/v1/designer/evidence-v1.1/bottom.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/cuffCloseup.png"
+        ]
+      },
+      "garmentConstruction": {
+        "passed": false,
+        "observation": "Áo tay dài và nẹp giữa có thể nhận ra, nhưng vai/nách lộ khe tối, cổ chưa đọc thành cấu tạo sơ mi liền, và không có khuy trước hoặc khuy cuff để kiểm.",
+        "evidence": [
+          "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+          "orders/ATEL-53/v1/designer/evidence-v1.1/oblique.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/collarCloseup.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/placketSideCloseup.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/cuffCloseup.png"
+        ]
+      },
+      "benchmarkComparison": {
+        "passed": false,
+        "observation": "ATEL-35/v1 có nếp mềm rõ ở ngực, nách, tay và thân; bản này sạch nhưng gần như không có nếp vải, vai/nách còn khe và cảm giác vải yếu hơn.",
+        "evidence": [
+          "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+          "orders/ATEL-53/v1/designer/evidence-v1.1/oblique.png",
+          "quality/evidence/ATEL-35/v0.5/front.png",
+          "quality/evidence/ATEL-35/v0.5/oblique.png"
+        ]
+      },
+      "collarConstruction": {
+        "passed": false,
+        "observation": "Hai lá cổ hiện như các mảng tam giác phẳng, cạnh sắc trên một mảng đứng rộng; ảnh trước và cận chưa cho thấy mép gập/nối tự nhiên thành cổ sơ mi bẻ.",
+        "evidence": [
+          "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+          "orders/ATEL-53/v1/designer/evidence-v1.1/back.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/collarCloseup.png"
+        ]
+      },
+      "buttonAttachment": {
+        "passed": false,
+        "observation": "Không có khuy trên nẹp hoặc cuff trong revision gray này; vì vậy không thể xác nhận điểm bám/hướng khuy theo bề mặt vải ở góc nghiêng.",
+        "evidence": [
+          "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/placketSideCloseup.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/cuffCloseup.png"
+        ]
+      },
+      "trimFollowsGeometry": {
+        "passed": true,
+        "observation": "Dải nẹp giữa và băng cuff chạy theo bề mặt thân/tay trong ảnh hiện có; chưa đánh giá được khuy hoặc đường may final.",
+        "evidence": [
+          "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/placketSideCloseup.png",
+          "orders/ATEL-53/v1/designer/detail-evidence-v1.1/cuffCloseup.png"
+        ]
+      }
+    }
+  },
+  "evidence": {
+    "front": "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+    "back": "orders/ATEL-53/v1/designer/evidence-v1.1/back.png",
+    "side": "orders/ATEL-53/v1/designer/evidence-v1.1/side.png",
+    "oblique": "orders/ATEL-53/v1/designer/evidence-v1.1/oblique.png",
+    "top": "orders/ATEL-53/v1/designer/evidence-v1.1/top.png",
+    "bottom": "orders/ATEL-53/v1/designer/evidence-v1.1/bottom.png",
+    "collarCloseup": "orders/ATEL-53/v1/designer/detail-evidence-v1.1/collarCloseup.png",
+    "placketSideCloseup": "orders/ATEL-53/v1/designer/detail-evidence-v1.1/placketSideCloseup.png",
+    "cuffCloseup": "orders/ATEL-53/v1/designer/detail-evidence-v1.1/cuffCloseup.png",
+    "benchmarkFront": "quality/evidence/ATEL-35/v0.5/front.png",
+    "benchmarkOblique": "quality/evidence/ATEL-35/v0.5/oblique.png"
+  },
+  "evidenceSha256": {
+    "front": "64536f76e8fd833b037fdb5f504220a63601ec109ea06a9333669e138e6924fa",
+    "back": "8349006405fb436c3a21bff61ba332d8691111db6c9dd398c7b827331112fe6f",
+    "side": "220d4283fd260c05c44d495d3c9a79fd391cf2e27165001f1dc5cd185c8f5518",
+    "oblique": "782f32d5b93bdd5f1a6ceeffec8cb4f969284a780d64434287474a08c933451a",
+    "top": "d93398a436bb13f28ad38c6b4ea743d240fbb36393c37860dcb547d3e8259aa3",
+    "bottom": "1e6cfe912994588b150492d97676c0be00ab3eb12fdeb9f1a4a1f95e1637ab7b",
+    "collarCloseup": "e561c7ffcae2c313014c076b82a8d74d5b6554713b5ac6718f16cfeec1fdb2ad",
+    "placketSideCloseup": "ff766cdd55308b2fe6a6f76c0c51ac196a51e0d186372ca39de378f4fd733f41",
+    "cuffCloseup": "c446027f42b7feb7cf69e48ca496ac490cd1ac71f69292d4fb581adbe6f30253",
+    "benchmarkFront": "d4eb871ce6dedfef328b9f6a654d1e3bdba13ae1ad66784b0f354fd0c3951e04",
+    "benchmarkOblique": "b8f3f285ea2447cbcbf71c3cb28c458538b8f2afaaec9d340b081c812954d98b"
+  },
+  "findings": [
+    {
+      "id": "SHAPE-01",
+      "area": "Thân, vai và nách — front/back/oblique",
+      "severity": "blocking",
+      "observation": "Thân trước/sau gần như phẳng, không có nếp rủ rõ; tay phồng thành ống đều. Các khe tối ở vùng vai/nách làm đường nối thân-tay chưa liền. Thấp hơn ATEL-35/v1 về cảm giác vải.",
+      "expected": "Thân và tay có volume mặc cùng nếp vải tự nhiên, vai/nách chuyển liên tục không lộ khe hoặc mảng lạc.",
+      "evidence": [
+        "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+        "orders/ATEL-53/v1/designer/evidence-v1.1/back.png",
+        "orders/ATEL-53/v1/designer/evidence-v1.1/oblique.png",
+        "quality/evidence/ATEL-35/v0.5/front.png",
+        "quality/evidence/ATEL-35/v0.5/oblique.png"
+      ],
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-02",
+      "area": "Cổ sơ mi — front/back/collar closeup",
+      "severity": "blocking",
+      "observation": "Cổ đọc thành hai mảng tam giác phẳng, cạnh sắc trên một bản đứng rộng; chưa thấy cấu tạo cổ bẻ với chân cổ và hai lá gập/nối tự nhiên. Back/top cũng cho thấy mép sau cổ chưa liên tục.",
+      "expected": "Chân cổ bám quanh neckline mở; hai lá cổ bẻ mềm, nối liên tục với chân cổ và nẹp.",
+      "evidence": [
+        "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+        "orders/ATEL-53/v1/designer/evidence-v1.1/back.png",
+        "orders/ATEL-53/v1/designer/evidence-v1.1/top.png",
+        "orders/ATEL-53/v1/designer/detail-evidence-v1.1/collarCloseup.png"
+      ],
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-03",
+      "area": "Nẹp trước và cuff — front/placketSideCloseup/cuffCloseup",
+      "severity": "blocking",
+      "observation": "Revision không có khuy nẹp hoặc khuy cuff nên không thể kiểm yêu cầu khuy gắn vải khi nhìn nghiêng; ảnh cận hiện chỉ cho thấy các dải nẹp/cuff trơn.",
+      "expected": "Thêm khuy thử ở đúng điểm bám trên nẹp và cuff trong bản xám để QA xác nhận chúng áp theo bề mặt, đúng hướng và không bay/chìm.",
+      "evidence": [
+        "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+        "orders/ATEL-53/v1/designer/detail-evidence-v1.1/placketSideCloseup.png",
+        "orders/ATEL-53/v1/designer/detail-evidence-v1.1/cuffCloseup.png"
+      ],
+      "correctionOwner": "designer"
+    }
+  ],
+  "summary": "TRẢ LẠI shape ATEL-53/v1.1-gray. 14/14 artifact hashes trong manifest khớp; GLB v2 có kích thước khai báo hợp lệ; preview evidence ghi nhận desktop loaded/rotated/zoomed và không có lỗi. Ảnh thật cho thấy cửa cổ/gấu/cuff mở, nhưng drape và vai/nách chưa đạt benchmark, cổ chưa đọc thành cổ sơ mi cấu tạo liền, và không có khuy để kiểm điểm bám. Giữ Material; Designer sửa ba điểm trong cùng đơn và QA WorkItem."
+}

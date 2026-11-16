@@ -1,0 +1,40 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v1",
+  "title": "Áo thun kem · Hoa nhỏ",
+  "summary": "Áo thun màu kem dáng tay ngắn, cổ tròn bo liền, điểm một bông hoa năm cánh hồng đất ở ngực trái. Bề mặt cotton-like matte và màu sắc là mô phỏng thị giác, không mô tả thành phần hay tính năng của vải thật.",
+  "paragraphs": [
+    "Phom được chuẩn hóa ở chiều cao hiển thị 0,68 m; đây là tỷ lệ trưng bày, không phải cỡ áo may mặc."
+  ],
+  "details": [],
+  "material": {
+    "name": "Cotton-like matte màu kem (mô phỏng PBR)",
+    "source": "orders/ATEL-35/material/pbr-preset-v1.json; màu theo brief, PBR do AtelierX thiết lập để mô phỏng thị giác, không phải thông số vật liệu đo thực tế."
+  },
+  "style": "Áo thun cơ bản tay ngắn, cổ tròn bo liền; một hoa nhỏ ở ngực trái.",
+  "specifications": [
+    {
+      "label": "Ngang bao áo (gồm tay)",
+      "value": 65.6,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-35/v1/measurements.json · envelopeWidthCm; kích thước hiển thị 3D, không phải size may."
+    },
+    {
+      "label": "Dài bao áo",
+      "value": 68,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-35/v1/measurements.json · garmentLengthCm; kích thước hiển thị 3D, không phải size may."
+    },
+    {
+      "label": "Sâu bao áo",
+      "value": 29.4,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-35/v1/measurements.json · envelopeDepthCm; kích thước hiển thị 3D, không phải size may."
+    }
+  ],
+  "credits": [
+    "Phom nguồn: Tabbuso, “Tshirt”, Sketchfab, CC BY 4.0 (https://sketchfab.com/3d-models/tshirt-5a21282b2e454d1696547148f617d3d0); hình học giữ nguyên, chỉ chuẩn hóa tỷ lệ trưng bày và vật liệu.",
+    "Hoa năm cánh: artwork SVG nguyên bản AtelierX từ orders/ATEL-35/research/artwork/atel35-chest-flower-v1.svg.",
+    "Preset PBR do AtelierX thiết lập theo brief; cotton-like matte chỉ là mô phỏng thị giác."
+  ]
+}

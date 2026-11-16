@@ -1,0 +1,10 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v1",
+  "garment": "orders/ATEL-63/v1/designer/sweater-gray-v1.glb",
+  "garmentSha256": "9c7d8b646bcbb72c2a9c10893dd2169b9a0eeee462ee5559ed07e769caca5e0a",
+  "material": "orders/ATEL-63/material/pbr-preset-v1.json",
+  "placementProfile": "orders/ATEL-63/material/placement-v1.json",
+  "artwork": "orders/ATEL-63/v1/material/sweater-uv-atlas-v1.svg",
+  "method": "Single-mesh TEXCOORD_0 base-color atlas; exact source geometry and UVs preserved; world-space triangle masks color neck, cuffs, hem; Research-1 artwork is baked only into its front-chest UV safe zone."
+}

@@ -1,0 +1,104 @@
+{
+  "loaded": true,
+  "errors": [],
+  "captures": [
+    {
+      "path": "quality/evidence/ATEL-23/v2.5/browser-fit/collar-front-detail.png",
+      "sha256": "8160dde65e2f9481276d5c0dedbce1d2fecaa3aa27e5b49c134e9ced2d6dfee5",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 1.56,
+          "z": 0.02
+        },
+        "orbit": {
+          "theta": 0,
+          "phi": 1.2217304763960306,
+          "radius": 0.72
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2.5/browser-fit/collar-side-detail.png",
+      "sha256": "32ab74e8b04ee21bc44fcd37e9844e9b99a7f1746348e1e4b0e19c52d1f49d93",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 1.56,
+          "z": -0.01
+        },
+        "orbit": {
+          "theta": 1.5707963267948966,
+          "phi": 1.2566370614359172,
+          "radius": 0.72
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2.5/browser-fit/cuff-positiveX-detail.png",
+      "sha256": "fcba4352060f7e8efd82a5bfedfb8e32c9cf3441aeb7055f641e3882a3ec3ebb",
+      "camera": {
+        "target": {
+          "x": 0.7,
+          "y": 1.5,
+          "z": -0.02
+        },
+        "orbit": {
+          "theta": 1.4157274293384097,
+          "phi": 1.3089969389957472,
+          "radius": 0.68
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2.5/browser-fit/cuff-negativeX-detail.png",
+      "sha256": "2436769be429a6e3963e141d9c351ce2ddd4c98903e83f07647174fad8e53446",
+      "camera": {
+        "target": {
+          "x": -0.7,
+          "y": 1.5,
+          "z": -0.02
+        },
+        "orbit": {
+          "theta": 4.544670246694384,
+          "phi": 1.3089969389957472,
+          "radius": 0.68
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2.5/browser-fit/hem-front-detail.png",
+      "sha256": "424f06d6446a31d0e8cfbffa8bc59fa28b5cb8b2c26e9d94059b0af1953fceab",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 0.95,
+          "z": 0.05
+        },
+        "orbit": {
+          "theta": 2.7755575615628914e-17,
+          "phi": 1.3089969389957472,
+          "radius": 0.85
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2.5/browser-fit/armhole-rear-wide.png",
+      "sha256": "8449ebda145e2ca32c716f1fe7a15812f133fb7b85ad794033d609d3534b6d73",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 1.405,
+          "z": -0.045
+        },
+        "orbit": {
+          "theta": 3.1415926535897936,
+          "phi": 1.3962634015954636,
+          "radius": 2.25
+        }
+      }
+    }
+  ],
+  "garmentSha256": "951e128906de9a94f4e663f0ced528da13759cd5a3385b32d5f0cf2d7f832936",
+  "fitPreviewSha256": "063df1f6de0f9e47bebcc3bfc02bc5dd35d912a898f5a2f4019a63122b3ceb2a"
+}

@@ -1,0 +1,64 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v1",
+  "producer": "atelierx-tpm-0002",
+  "handoffType": "research-shortlist-and-content-draft",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v1/research/handoff.md",
+      "sha256": "772bf6aa1359fb45c508d0171d5d437408177814acd88377059197c1e8ae90f1"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/shortlist.json",
+      "sha256": "a049b7bc818e994b1d1cc13f2801359205f8246757e733b2f929c2a62d3151e3"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/studio-base-shirt.json",
+      "sha256": "5cff0e3a8847c9a9b6cd461759056c5842cfe82d53f3f1befb9c340fa481ba79"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/content-draft.json",
+      "sha256": "108179d17ced9fd807067b94427eec0702cbb7860a1ee657a09323ad35dd793d"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/artwork-placement.md",
+      "sha256": "8fb20b11d94aa755d837ced2965065cb07eb382a9d836c7ac3beb34b00dd8793"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/pinstripe-tile.svg",
+      "sha256": "28c043dd7244938392dd3c4fdbaf881c9cef5693fbb2da84db5814bc06875c02"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/source-01/index.html",
+      "sha256": "d2e0671f800be068bf99d19097cbc18a7cecea2b2dbe70f41f0a9556569f25dd"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/source-01/browser-result.json",
+      "sha256": "9b5af2badb5466df13ab6f67a93c0a2269e4fa074e97023374b0ea670165bcbf"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/source-01/front.png",
+      "sha256": "71eb9e64b587ec09e3e65e9ffa287cd5964b9f8230a5fd0e0473b3704fb085c9"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/source-01/back.png",
+      "sha256": "461147b161added83239e7ffbeaa0a55497d12bceb29cceea145cf853ab1dd2c"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/source-01/side.png",
+      "sha256": "0c046153c369fa5536ee1b7cfd77d5fd88473f13a2a44dec4ef6e2949f6f2709"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/source-01/oblique.png",
+      "sha256": "566103e53b8c9d418a242d5c99d0b5bdf1bfc7feef054f9977f1ddca85b586bf"
+    },
+    {
+      "path": "showcase/quality-preview/atel47-candidate-b/index.html",
+      "sha256": "d2e0671f800be068bf99d19097cbc18a7cecea2b2dbe70f41f0a9556569f25dd"
+    },
+    {
+      "path": "quality/candidates/user-supplied/jk_school_uniform_4.glb",
+      "sha256": "5a70461c73f68660f0f1cd6f8e53878c58054c8b9e39ee65b1013b2709a8c406"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v1",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-41/v1/research/shortlist.json",
+      "sha256": "4ced8cb5fc8e2791cb98a7d137d4dda10a1204f3fc86aa653f0152beee4d3fb5"
+    },
+    {
+      "path": "orders/ATEL-41/v1/research/content-draft.json",
+      "sha256": "3499c2c07f8cc9e3c2ef9c279b9afb03ee4a6ed85ac071c349c4939ffce2e143"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/research/candidate-jnco/browser-result.json",
+      "sha256": "4ffbfca02caf33a629685b3431d1f8790ecfedf9cf47f1951518c327cee9aece"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/research/candidate-oversized/browser-result.json",
+      "sha256": "9a517917f05eb34f44914759b58ce22e3c39aa277c2c6ad1fa43cc63f2b8946a"
+    }
+  ]
+}

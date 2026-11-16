@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-9998/v1-smoke/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/showcase-pipeline-smoke/front.png",
+    "back": "quality/evidence/showcase-pipeline-smoke/back.png",
+    "side": "quality/evidence/showcase-pipeline-smoke/side.png",
+    "oblique": "quality/evidence/showcase-pipeline-smoke/oblique.png",
+    "mobile": "quality/evidence/showcase-pipeline-smoke/mobile.png"
+  },
+  "errors": []
+}

@@ -1,0 +1,90 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "geometryChanged": false,
+  "shapeReview": {
+    "path": "orders/ATEL-47/v4/shape-review-handoff.json",
+    "sha256": "505095d3ac6bca59b84448d57ee39f1c8c80c22f4628fe6b534f1815672f37bf",
+    "decision": "pass"
+  },
+  "sourceGeometry": {
+    "path": "orders/ATEL-47/v4/designer/garment-gray-v4.glb",
+    "sha256": "493dfca00032176e3cc3178d46ce7ebf5113c9b6c765befdc4b6b2202aa2bccc"
+  },
+  "surface": {
+    "path": "orders/ATEL-47/v4/material/garment-surface-v4.glb",
+    "sha256": "34c4183689f4022d89d55cc33b8a31a7ccb43299a64a95caee4c29a9cede5f12"
+  },
+  "texture": {
+    "path": "orders/ATEL-47/v4/material/basecolor-pinstripe-v4.png",
+    "sha256": "dd780247da520d294cff8fefd0ef462bcc3ae5418467e9c151a35a40f9222a3d"
+  },
+  "preset": {
+    "path": "orders/ATEL-47/material/pbr-preset-v1.json",
+    "sha256": "6447378c46d3bea0d7c90f1055b55d917847f3eaada3e8544e903dfe5626ea2b"
+  },
+  "placement": {
+    "path": "orders/ATEL-47/v4/designer/placement-v4.md",
+    "sha256": "545ddfcb6017da444923570d87904606e2d437a6fa87a626891ec984c1ed6106"
+  },
+  "provenance": {
+    "path": "orders/ATEL-47/v4/designer/provenance-v4.json",
+    "sha256": "29df9d0c8655f595140fabdfa7331687ca9f6e4c30f617af1e7cf7052efd67dc"
+  },
+  "pattern": {
+    "stripeCountPerPanel": 12,
+    "repeatUv": 0.08333333333333333,
+    "widthUv": 0.006,
+    "orientation": "vertical, parallel to centerline",
+    "panels": [
+      "Front body panel",
+      "Back body panel"
+    ],
+    "solidTrim": [
+      "Shoulder yokes",
+      "Neckline facing",
+      "Collar stand and leaves",
+      "Sleeves and root closures",
+      "Cuffs",
+      "Front placket",
+      "Buttons"
+    ]
+  },
+  "material": {
+    "simulatedMaterial": "matte cotton-poplin weave",
+    "baseColorHexSRGB": "#79BCEB",
+    "stripeColorHexSRGB": "#F8FBFF",
+    "roughnessFactor": 0.82,
+    "metallicFactor": 0
+  },
+  "evidence": {
+    "geometryAccessorsPreserved": true,
+    "bodyMeshesTextured": [
+      "Front body panel",
+      "Back body panel"
+    ],
+    "allOtherMeshesSolid": true
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v4/material/garment-surface-v4.glb",
+      "sha256": "34c4183689f4022d89d55cc33b8a31a7ccb43299a64a95caee4c29a9cede5f12"
+    },
+    {
+      "path": "orders/ATEL-47/v4/material/basecolor-pinstripe-v4.png",
+      "sha256": "dd780247da520d294cff8fefd0ef462bcc3ae5418467e9c151a35a40f9222a3d"
+    },
+    {
+      "path": "orders/ATEL-47/material/pbr-preset-v1.json",
+      "sha256": "6447378c46d3bea0d7c90f1055b55d917847f3eaada3e8544e903dfe5626ea2b"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/placement-v4.md",
+      "sha256": "545ddfcb6017da444923570d87904606e2d437a6fa87a626891ec984c1ed6106"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/provenance-v4.json",
+      "sha256": "29df9d0c8655f595140fabdfa7331687ca9f6e4c30f617af1e7cf7052efd67dc"
+    }
+  ]
+}

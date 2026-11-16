@@ -1,0 +1,2331 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.4",
+  "status": "designer candidate; Lead verification and independent QA retest pending",
+  "source": {
+    "combinedPath": "orders/ATEL-23/v2.4/fit-evidence/garment-on-mannequin-v2.4.glb",
+    "combinedSha256": "a54a77c35a965b300e12f59746c1e4fc38f675736f4a780de2b2d3e8f00759d6",
+    "garmentPath": "orders/ATEL-23/v2.4/designer/garment-v2.4.glb",
+    "garmentSha256": "b2cdec66077a9d0e49082bd93f73374ceb9519a7a7c2a8ec2857b91a2cb5be46",
+    "mannequinPath": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  },
+  "method": "AABB-BVH broad phase followed by exact triangle segment intersection and closest triangle-triangle distance for every candidate pair; sampled each unique involved garment triangle at three vertices and centroid with oblique ray parity and nearest mannequin triangle distance. Surface sampling is not a volumetric boolean or cloth thickness model.",
+  "candidatePairs": 47,
+  "intersectionPairs": 0,
+  "perPairClearanceAndDepth": [
+    {
+      "mannequinTriangle": 16950,
+      "garmentTriangle": 883795,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0079925,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.463574210802714,
+            0.02904116486509641
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.01741
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16950,
+      "garmentTriangle": 883794,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0078771,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0064671
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.460038383801778,
+            0.025890639672676723
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0103819
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16957,
+      "garmentTriangle": 883795,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0104932,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.463574210802714,
+            0.02904116486509641
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.01741
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16957,
+      "garmentTriangle": 883794,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0045531,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0064671
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.460038383801778,
+            0.025890639672676723
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0103819
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16949,
+      "garmentTriangle": 883795,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0070115,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.463574210802714,
+            0.02904116486509641
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.01741
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16949,
+      "garmentTriangle": 883794,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.003561,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0064671
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.460038383801778,
+            0.025890639672676723
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0103819
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16948,
+      "garmentTriangle": 883795,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.003483,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.463574210802714,
+            0.02904116486509641
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.01741
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16948,
+      "garmentTriangle": 883794,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0015826,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0064671
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.460038383801778,
+            0.025890639672676723
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0103819
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16947,
+      "garmentTriangle": 883795,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0013844,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.463574210802714,
+            0.02904116486509641
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.01741
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16947,
+      "garmentTriangle": 883794,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0013844,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0277087
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0064671
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.460038383801778,
+            0.025890639672676723
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0103819
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 17667,
+      "garmentTriangle": 883797,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0038031,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0271445
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0172747
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 17667,
+      "garmentTriangle": 883796,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0035961,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0080592
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16947,
+      "garmentTriangle": 883797,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0111623,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0271445
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0172747
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16947,
+      "garmentTriangle": 883796,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0010013,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0080592
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16946,
+      "garmentTriangle": 883797,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0086541,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0271445
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0172747
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 16946,
+      "garmentTriangle": 883796,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0005931,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0080592
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 17670,
+      "garmentTriangle": 883797,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0054191,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0271445
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0172747
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 17670,
+      "garmentTriangle": 883796,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0005931,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0080592
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 17671,
+      "garmentTriangle": 883797,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0037874,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0271445
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0172747
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 17671,
+      "garmentTriangle": 883796,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0016058,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0080592
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 17666,
+      "garmentTriangle": 883797,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0035352,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0271445
+        },
+        {
+          "point": [
+            -0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0172747
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 17666,
+      "garmentTriangle": 883796,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0021113,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0262019
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0013844
+        },
+        {
+          "point": [
+            -0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0035352
+        },
+        {
+          "point": [
+            -0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0080592
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 12684,
+      "garmentTriangle": 883978,
+      "zone": "neck/collar",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0187991,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.09475231170654297,
+            1.5549999475479126,
+            -0.09485281258821487
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0112085
+        },
+        {
+          "point": [
+            -0.10710269957780838,
+            1.5770000219345093,
+            -0.08366013318300247
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0294075
+        },
+        {
+          "point": [
+            -0.10630934685468674,
+            1.5549999475479126,
+            -0.08305136859416962
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0089616
+        },
+        {
+          "point": [
+            -0.1027214527130127,
+            1.562333305676778,
+            -0.08718810478846233
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0158738
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 12684,
+      "garmentTriangle": 883977,
+      "zone": "neck/collar",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0190862,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            -0.09475231170654297,
+            1.5549999475479126,
+            -0.09485281258821487
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0112085
+        },
+        {
+          "point": [
+            -0.09545941650867462,
+            1.5770000219345093,
+            -0.09555991739034653
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0294675
+        },
+        {
+          "point": [
+            -0.10710269957780838,
+            1.5770000219345093,
+            -0.08366013318300247
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0294075
+        },
+        {
+          "point": [
+            -0.099104809264342,
+            1.5696666638056438,
+            -0.09135762105385463
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0227879
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 9820,
+      "garmentTriangle": 592520,
+      "zone": "other",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0181558,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.15002846717834473,
+            1.3013768196105957,
+            -0.1080000028014183
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0179476
+        },
+        {
+          "point": [
+            0.15399999916553497,
+            1.3031421899795532,
+            -0.10622822493314743
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0184845
+        },
+        {
+          "point": [
+            0.15399999916553497,
+            1.3013768196105957,
+            -0.10498940944671631
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.018515
+        },
+        {
+          "point": [
+            0.1526761551698049,
+            1.3019652764002483,
+            -0.10640587906042735
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0183315
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 12859,
+      "garmentTriangle": 883953,
+      "zone": "neck/collar",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0132475,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.09475231170654297,
+            1.5549999475479126,
+            -0.09485281258821487
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0104926
+        },
+        {
+          "point": [
+            0.09545941650867462,
+            1.5770000219345093,
+            -0.09555991739034653
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0285512
+        },
+        {
+          "point": [
+            0.08218279480934143,
+            1.5770000219345093,
+            -0.10599575191736221
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0306979
+        },
+        {
+          "point": [
+            0.09079817434151967,
+            1.5696666638056438,
+            -0.0988028272986412
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0233361
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 12859,
+      "garmentTriangle": 883954,
+      "zone": "neck/collar",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0132475,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.09475231170654297,
+            1.5549999475479126,
+            -0.09485281258821487
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0104926
+        },
+        {
+          "point": [
+            0.08218279480934143,
+            1.5770000219345093,
+            -0.10599575191736221
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0306979
+        },
+        {
+          "point": [
+            0.08157403022050858,
+            1.5549999475479126,
+            -0.10520239919424057
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0132821
+        },
+        {
+          "point": [
+            0.08616971224546432,
+            1.562333305676778,
+            -0.10201698789993922
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.018408
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 12002,
+      "garmentTriangle": 883923,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0122499,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0299091
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.463574210802714,
+            0.02904116486509641
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0195554
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 12002,
+      "garmentTriangle": 883922,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0063211,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0299091
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.007268
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.460038383801778,
+            0.025890639672676723
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0122507
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11998,
+      "garmentTriangle": 883923,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0105751,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0299091
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.463574210802714,
+            0.02904116486509641
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0195554
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11998,
+      "garmentTriangle": 883922,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0058628,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0299091
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.007268
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.460038383801778,
+            0.025890639672676723
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0122507
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11999,
+      "garmentTriangle": 883923,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0053466,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0299091
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.463574210802714,
+            0.02904116486509641
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0195554
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11999,
+      "garmentTriangle": 883922,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0031427,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0299091
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.007268
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.460038383801778,
+            0.025890639672676723
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0122507
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 10387,
+      "garmentTriangle": 883924,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0022722,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0104334
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 10387,
+      "garmentTriangle": 883925,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0051858,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0288854
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.019224
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11994,
+      "garmentTriangle": 883923,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0028309,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0299091
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.463574210802714,
+            0.02904116486509641
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0195554
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11994,
+      "garmentTriangle": 883922,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0028309,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0299091
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4565025568008423,
+            0.022740114480257034
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.007268
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.460038383801778,
+            0.025890639672676723
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0122507
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11994,
+      "garmentTriangle": 883924,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0023011,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0104334
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11994,
+      "garmentTriangle": 883925,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0110607,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0288854
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.019224
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11995,
+      "garmentTriangle": 883924,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0022722,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0104334
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 11995,
+      "garmentTriangle": 883925,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0105124,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0288854
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.019224
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 10386,
+      "garmentTriangle": 883924,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0030118,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0104334
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 10386,
+      "garmentTriangle": 883925,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0051229,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0288854
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.019224
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 10382,
+      "garmentTriangle": 883924,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0030613,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0104334
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 10382,
+      "garmentTriangle": 883925,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.004927,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0288854
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.019224
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 10383,
+      "garmentTriangle": 883924,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0030831,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0028309
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7786666750907898,
+            1.4711440801620483,
+            0.03453274195392927
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0104334
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    },
+    {
+      "mannequinTriangle": 10383,
+      "garmentTriangle": 883925,
+      "zone": "shoulder/upper torso",
+      "classification": "disjoint candidate; sampled penetration check below",
+      "minimumTriangleDistanceMeters": 0.0046674,
+      "intersects": false,
+      "garmentSamples": [
+        {
+          "point": [
+            0.7559999823570251,
+            1.46711003780365,
+            0.0321916900575161
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0279891
+        },
+        {
+          "point": [
+            0.7900000214576721,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0046674
+        },
+        {
+          "point": [
+            0.7559999823570251,
+            1.4792121648788452,
+            0.0392148457467556
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.0288854
+        },
+        {
+          "point": [
+            0.7673333287239075,
+            1.4751781225204468,
+            0.03687379385034243
+          ],
+          "inside": false,
+          "nearestSurfaceDistanceMeters": 0.019224
+        }
+      ],
+      "insideSampleCount": 0,
+      "maxSampledDepthMeters": 0
+    }
+  ],
+  "byZone": {
+    "shoulder/upper torso": {
+      "candidatePairs": 42,
+      "intersections": 0,
+      "insideSamples": 0,
+      "minPairClearanceMeters": 0.0005931,
+      "maxSampledDepthMeters": 0
+    },
+    "neck/collar": {
+      "candidatePairs": 4,
+      "intersections": 0,
+      "insideSamples": 0,
+      "minPairClearanceMeters": 0.0132475,
+      "maxSampledDepthMeters": 0
+    },
+    "other": {
+      "candidatePairs": 1,
+      "intersections": 0,
+      "insideSamples": 0,
+      "minPairClearanceMeters": 0.0181558,
+      "maxSampledDepthMeters": 0
+    }
+  },
+  "rayParitySanityChecks": [
+    {
+      "point": [
+        0,
+        0,
+        2
+      ],
+      "expectedInside": false,
+      "measuredInside": false
+    },
+    {
+      "point": [
+        0,
+        1.37,
+        0
+      ],
+      "expectedInside": true,
+      "measuredInside": true
+    },
+    {
+      "point": [
+        1.2,
+        1.5,
+        0
+      ],
+      "expectedInside": false,
+      "measuredInside": false
+    }
+  ],
+  "limitations": [
+    "Triangle distances apply to broad-phase candidate pairs only; they are not whole-garment minimum-distance bounds.",
+    "Interior classification samples vertices and centroids of candidate garment triangles; narrow unsampled penetrations may be missed.",
+    "No cloth thickness or simulation is modeled; QA/Lead must interpret browser captures and decide G1."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v1",
+  "status": "designer-fit-handoff; independent QA pending; not approved",
+  "designer": "atelierx-designer-0003",
+  "garment": {
+    "path": "orders/ATEL-23/v1/designer/garment-v1.glb",
+    "sha256": "87d6d1f1fa98bae641df5578b634ca08a9453026586e314e2ba7d13e59a0c3bd",
+    "type": "long-sleeve button-up shirt geometry preview",
+    "baseMeshId": "designer-parametric-shirt-v1",
+    "referenceBaseMeshId": "user-white-shirt-black-leather-skirt-outfit-48f2e9ba-v1",
+    "referenceBaseMeshSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+    "dimensionsMeters": {
+      "min": [-0.79, 0.855, -0.164],
+      "max": [0.79, 1.603, 0.127]
+    },
+    "topology": {
+      "vertices": 1911,
+      "triangles": 3226,
+      "primitiveCount": 1,
+      "hasPOSITION": true,
+      "hasNORMAL": true,
+      "hasTEXCOORD_0": true,
+      "uvZones": {
+        "torso": {"u": [0.02, 0.48], "v": [0.04, 0.72]},
+        "positiveXSleeve": {"u": [0.52, 0.96], "v": [0.04, 0.46]},
+        "negativeXSleeve": {"u": [0.52, 0.96], "v": [0.54, 0.96]},
+        "collarAndDetails": {"u": [0.02, 0.48], "v": [0.77, 0.96]}
+      }
+    },
+    "materialSlot": {
+      "primitiveIndex": 0,
+      "materialIndex": 0,
+      "name": "ATEL-23 shirt_body (geometry preview only)",
+      "semantic": "shirt_shell_all_panels",
+      "previewOnly": true,
+      "productionArtworkOrPbrApplied": false,
+      "note": "Một primitive phủ thân, tay, cổ, nẹp và cúc; cần Material/Visual đánh giá phân vùng khi tích hợp."
+    }
+  },
+  "mannequin": {
+    "id": "atelierx-mannequin-180cm-v1",
+    "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "profile": "quality/mannequin-fit.json",
+    "units": "meters",
+    "heightMeters": 1.8,
+    "up": "+Y",
+    "front": "+Z",
+    "floorY": 0,
+    "pose": "T-pose",
+    "sourceGLBModified": false
+  },
+  "fitAssessment": {
+    "method": "Geometry generated to the measured mannequin-v1 body and arm stations; inspected as a combined GLB in browser captures. These checks are approximate design clearances, not a collision solver result or independent QA.",
+    "bodyEaseApproxMeters": {
+      "chestPerSide": 0.015,
+      "waistPerSide": 0.016,
+      "hipPerSide": 0.02
+    },
+    "sleeveEaseApproxMeters": {
+      "shoulder": {"vertical": 0.024, "depth": 0.02},
+      "upperArm": {"vertical": 0.017, "depth": 0.015},
+      "elbow": {"vertical": 0.014, "depth": 0.015},
+      "wrist": {"vertical": 0.019, "depth": 0.019}
+    },
+    "visualReview": {
+      "neckAndShoulder": "Collar stand and leaves are visible around the neck in the front capture; independent neck/shoulder intersection check remains required.",
+      "armhole": "Sleeve roots extend into the torso shell to avoid visible armhole gaps; hidden overlap/self-intersection must be checked independently.",
+      "sleevesAndCuffs": "Sleeves follow T-pose arm stations; mannequin hands remain visible beyond open cuffs in the captures.",
+      "torsoAndHem": "Shirt body follows chest, waist and hip stations and ends at y=0.855 m; hem is open.",
+      "knownLimitations": [
+        "Parametric geometry preview; not a sewn-garment pattern or final product mesh.",
+        "One shared material primitive; no separate trim/material zones.",
+        "Browser runner reports loaded=true and errors=[] but rotated=false; rotation interaction is not claimed as verified.",
+        "No independent collision/clipping verdict yet."
+      ]
+    },
+    "garmentFitApproved": false,
+    "requiredNextReview": "QA independently checks neck/shoulder, armhole overlap, sleeve/cuff clearance, torso and hem intersections on this exact garment and mannequin SHA."
+  },
+  "artworkReference": {
+    "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+    "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99",
+    "appliedToGeometry": false,
+    "note": "Researcher artwork is recorded as a downstream input only; no artwork, texture or PBR was edited or applied in this Designer task."
+  },
+  "fitPreview": {
+    "path": "orders/ATEL-23/v1/fit-evidence/garment-on-mannequin-v1.glb",
+    "sha256": "977a6d60620b35ed63df1107c581037280b0ca1db7a8028d7d6b22ef6da4b2c4",
+    "includes": ["mannequin-v1 unchanged", "garment-v1.glb"],
+    "garmentContrastColorIsDiagnosticOnly": true
+  },
+  "candidateReview": "orders/ATEL-23/v1/designer/candidate-review.json",
+  "evidence": {
+    "browserUrl": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit/index.html",
+    "browserReport": "quality/evidence/ATEL-23/v1/browser-fit/browser-result.json",
+    "captures": {
+      "front": "quality/evidence/ATEL-23/v1/browser-fit/front.png",
+      "back": "quality/evidence/ATEL-23/v1/browser-fit/back.png",
+      "left": "quality/evidence/ATEL-23/v1/browser-fit/left.png",
+      "right": "quality/evidence/ATEL-23/v1/browser-fit/right.png",
+      "detail": "quality/evidence/ATEL-23/v1/browser-fit/detail.png",
+      "mobile": "quality/evidence/ATEL-23/v1/browser-fit/mobile.png",
+      "neckShoulder": "quality/evidence/ATEL-23/v1/browser-fit/neck-shoulder-front.png",
+      "armhole": "quality/evidence/ATEL-23/v1/browser-fit/armhole-right.png",
+      "cuff": "quality/evidence/ATEL-23/v1/browser-fit/cuff-right.png",
+      "bodyHem": "quality/evidence/ATEL-23/v1/browser-fit/body-hem.png"
+    },
+    "browserStatus": {"loaded": true, "rotated": false, "zoomed": true, "desktop": true, "mobile": true, "errors": []},
+    "sourceCandidateCaptures": "quality/evidence/ATEL-23/v1/source-inspection/"
+  }
+}

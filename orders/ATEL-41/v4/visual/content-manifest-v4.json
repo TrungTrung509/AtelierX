@@ -1,0 +1,28 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v4",
+  "correctionFrom": "v3",
+  "finding": "CONTENT-01",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-41/v4/visual/content.json",
+      "sha256": "084fa4535b80ee4819b2ce7b9e78f7ac25cec4b75c12fa1c2601283ebd171605"
+    },
+    {
+      "path": "orders/ATEL-41/v3/material/surface-manifest-v3.json",
+      "sha256": "2362fc94b612cc3adffdfbe3938cc03df0bd560a1e97c07c2c1ec18f315d36e0"
+    },
+    {
+      "path": "orders/ATEL-41/v3/material/garment-surface-v3.glb",
+      "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+    },
+    {
+      "path": "orders/ATEL-41/v3/designer/provenance-v3.json",
+      "sha256": "8f76fa7929cde3f48e356f2182a5837d4cc724c592e155487c5c0bf64b920bdf"
+    },
+    {
+      "path": "orders/ATEL-41/material/pbr-preset-v1.json",
+      "sha256": "df493e7058c12a1fa8497bbc1bbed0f342d4edf6fa61e1b5ac7f1d11aac91c8d"
+    }
+  ]
+}

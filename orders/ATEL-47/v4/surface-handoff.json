@@ -1,0 +1,64 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "sourceRole": "material",
+  "geometryChanged": false,
+  "sourceGeometry": {
+    "path": "orders/ATEL-47/v4/designer/garment-gray-v4.glb",
+    "sha256": "493dfca00032176e3cc3178d46ce7ebf5113c9b6c765befdc4b6b2202aa2bccc"
+  },
+  "shapeReviewDecision": "pass",
+  "contentRevision": "v4",
+  "stripeCountPerBodyPanel": 12,
+  "artworkScope": "front/back body panels only; trim remains solid",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v4/material/surface-manifest-v4.json",
+      "sha256": "e8279252af08bd5b40b6bd90aa900045ecfe8131154525d6377408ac0d24d913"
+    },
+    {
+      "path": "orders/ATEL-47/v4/material/garment-surface-v4.glb",
+      "sha256": "34c4183689f4022d89d55cc33b8a31a7ccb43299a64a95caee4c29a9cede5f12"
+    },
+    {
+      "path": "orders/ATEL-47/v4/material/basecolor-pinstripe-v4.png",
+      "sha256": "dd780247da520d294cff8fefd0ef462bcc3ae5418467e9c151a35a40f9222a3d"
+    },
+    {
+      "path": "orders/ATEL-47/v4/material/build-surface-v4.mjs",
+      "sha256": "e332a5db60b073acaa59d379ffdcc8e068e7e373ba488a27866e4df92a99886c"
+    },
+    {
+      "path": "orders/ATEL-47/material/pbr-preset-v1.json",
+      "sha256": "6447378c46d3bea0d7c90f1055b55d917847f3eaada3e8544e903dfe5626ea2b"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/placement-v4.md",
+      "sha256": "545ddfcb6017da444923570d87904606e2d437a6fa87a626891ec984c1ed6106"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/provenance-v4.json",
+      "sha256": "29df9d0c8655f595140fabdfa7331687ca9f6e4c30f617af1e7cf7052efd67dc"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-surface/browser-result.json",
+      "sha256": "90b58340ff951ef8b8363c47ef6a8d1d4663d50365164b8f0de435289820d7d6"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-surface/front.png",
+      "sha256": "d3387b0ba50edd5e337b3e1badbb3f7912c93f5456cc65d43a1fb13b318779bb"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-surface/back.png",
+      "sha256": "d6cfc006ae7ea2112e9e986eee3119c263a314a3629125505d86e343ce6b5b97"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-surface/side.png",
+      "sha256": "3aab4900568e4efed782402f2e1174dec5f6e3d8b5466fe33426759c88c03dcd"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-surface/oblique.png",
+      "sha256": "58633b2c7b928a31cb78a84e1dcab457eea5680d0e0f10fea856fa816987ed5c"
+    }
+  ]
+}

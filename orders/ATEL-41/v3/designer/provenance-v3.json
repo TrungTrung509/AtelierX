@@ -1,0 +1,45 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v3",
+  "designer": "atelierx-designer-0003",
+  "construction": "Authored standalone cargo trouser volume with a continuous joined seat and two straight legs; all geometry is authored for this order.",
+  "referenceBaseId": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1",
+  "referenceSource": {
+    "path": "quality/candidates/user-supplied/jnco_twin_cannon_baggy_jeans.glb",
+    "sha256": "7b0af5c3aee5e7f423107d5f7d2eae48f17699c9404326d86e9642ca62dda08c",
+    "role": "Silhouette reference only. No source mesh, texture, logo, patch, or label is included in the authored garment."
+  },
+  "revisionChanges": [
+    "Added eight raised belt-loop straps crossing both waistband edges, distributed around the waist so they read in front, back, side, and oblique views.",
+    "Added cuff eyelet exits and two short knotted drawcord ends per hem, visible from front and back while remaining attached at each channel."
+  ],
+  "geometry": {
+    "path": "orders/ATEL-41/v3/designer/garment-gray-authored-v3.glb",
+    "materialGroups": ["Neutral gray shape review"],
+    "textureMaps": [],
+    "uv": {
+      "attribute": "TEXCOORD_0",
+      "coverage": "All mesh vertices carry UVs; detail panels use local panel UV and the body uses planar world-space projection.",
+      "limitations": "Front/back UV overlap is not intended for artwork placement. The gray review has no texture maps; Material must preserve UVs and wait for independent shape QA pass before surface work."
+    },
+    "displayEnvelopeCm": {
+      "width": 54.59,
+      "height": 110.5,
+      "depth": 25.72,
+      "source": "tools/showcase-glb.mjs primitives() world-space bounds of authored GLB",
+      "meaning": "Display envelope only, not apparel or sewing size."
+    }
+  },
+  "review": {
+    "status": "pending_independent_shape_retest",
+    "previewCaption": "Geometry quần cargo được dựng độc lập; JNCO chỉ tham chiếu silhouette, không kế thừa geometry, logo hoặc nhãn.",
+    "previewUrl": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel41-shape-v1/index.html",
+    "browserEvidence": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/browser-result.json",
+    "captures": [
+      "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/front.png",
+      "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/back.png",
+      "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/side.png",
+      "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/oblique.png"
+    ]
+  }
+}

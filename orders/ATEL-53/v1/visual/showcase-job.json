@@ -1,0 +1,10 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "v1.2-surface-v1",
+  "garment": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/garment.glb",
+  "presentation": "standalone",
+  "material": {
+    "name": "Cotton-poplin mô phỏng · xanh da trời sáng",
+    "source": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/content/content.json"
+  }
+}

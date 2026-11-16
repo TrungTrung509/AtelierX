@@ -1,0 +1,132 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.5",
+  "status": "candidate only — clearance and base approval unresolved; Lead review required",
+  "sourceRevision": {
+    "revision": "v2.4 frozen",
+    "garmentPath": "orders/ATEL-23/v2.4/designer/garment-v2.4.glb",
+    "sha256": "b2cdec66077a9d0e49082bd93f73374ceb9519a7a7c2a8ec2857b91a2cb5be46"
+  },
+  "baseMeshId": null,
+  "baseProvenance": {
+    "status": "blocked-no-approved-shirt-base",
+    "registryPath": "quality/base-meshes.json",
+    "approvedShirtBaseFound": false,
+    "review": "Only approved base is a hoodie; no approved long-sleeve button-shirt base. Candidate outfit below was not used.",
+    "lineage": {
+      "type": "procedural geometry regenerated from frozen ATEL-23/v2.4; pattern-boundary reference is Christina M. Hein, ChristinaHein/shirt, revision 7c0c47ada21ba59eede853bc022a059412befe0c, MIT",
+      "notice": "orders/ATEL-23/v2.5/designer/references/PATTERN-SOURCE-NOTICE.md",
+      "sourceRevisionPath": "orders/ATEL-23/v2.4/designer/garment-v2.4.glb",
+      "sourceRevisionSha256": "b2cdec66077a9d0e49082bd93f73374ceb9519a7a7c2a8ec2857b91a2cb5be46"
+    },
+    "proposedSourceForLeadReview": {
+      "id": "user-white-shirt-black-leather-skirt-outfit-48f2e9ba-v1",
+      "path": "quality/candidates/user-supplied/white_shirt_black_leather_skirt_outfit.glb",
+      "sha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "status": "candidate",
+      "reason": "Only shirt-like long-sleeve garment candidate found; multi-piece outfit, not used as base.",
+      "approvalStep": "Lead approves source investigation; extract/validate shirt-only geometry, UV and mannequin fit; QA independently reviews; Lead updates registry to approved before any final use."
+    }
+  },
+  "geometryChange": {
+    "scope": "ATEL-23 collar opening/neck shell only; no artwork, material, official viewer or catalog changed.",
+    "method": "Rounded top contour via smooth implicit blend; neck clearance ellipsoid integrated into torso field; sleeve loft clipped at measured root station to prevent refilling opening; 2.5 mm implicit grid; no post-mesh triangle deletion.",
+    "sourceScript": "orders/ATEL-23/v2.5/designer/build-shirt-v2_5.mjs",
+    "meshVertices": 1180395,
+    "triangles": 2358520
+  },
+  "garment": {
+    "path": "orders/ATEL-23/v2.5/designer/garment-v2.5.glb",
+    "sha256": "951e128906de9a94f4e663f0ced528da13759cd5a3385b32d5f0cf2d7f832936",
+    "hasUV0": true
+  },
+  "combinedPreview": {
+    "path": "orders/ATEL-23/v2.5/fit-evidence/garment-on-mannequin-v2.5.glb",
+    "sha256": "063df1f6de0f9e47bebcc3bfc02bc5dd35d912a898f5a2f4019a63122b3ceb2a",
+    "mannequinPath": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  },
+  "clearance": {
+    "method": "AABB-BVH broad phase followed by exact triangle segment intersection and closest triangle-triangle distance for every candidate pair; sampled each unique involved garment triangle at three vertices and centroid with oblique ray parity and nearest mannequin triangle distance. Surface sampling is not a volumetric boolean or cloth thickness model.",
+    "reportPath": "quality/evidence/ATEL-23/v2.5/contact-clearance-analysis.json",
+    "reportSha256": "3ff932a30046f2ac4b0f4ee677f67c0602be058524562833805eadfcba384174",
+    "candidatePairs": 24460,
+    "intersectionPairs": 1295,
+    "insideSamples": 34745,
+    "maxSampledDepthMeters": 0.0161595,
+    "triangleScreenPath": "quality/evidence/ATEL-23/v2.5/triangle-intersection-result.json",
+    "triangleScreenSha256": "9b6e2da6fd372784ee5e20c148018a88a3d204adb3cb6c1497cb0486394cc39d",
+    "triangleScreen": {
+      "candidatePairs": 24460,
+      "intersectionPairs": 1295
+    },
+    "limitations": [
+      "Triangle distances apply to broad-phase candidate pairs only; they are not whole-garment minimum-distance bounds.",
+      "Interior classification samples vertices and centroids of candidate garment triangles; narrow unsampled penetrations may be missed.",
+      "No cloth thickness or simulation is modeled; QA/Lead must interpret browser captures and decide G1."
+    ]
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit-v2_5/index.html",
+    "reportPath": "quality/evidence/ATEL-23/v2.5/browser-qa/browser-result.json",
+    "reportSha256": "31ee3e1f5070a3fdd2a11fbf99e8f7a1d895f053cde93a6ff7af7b7565260240",
+    "loaded": true,
+    "rotated": false,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "rotationNote": "Rotation check returned false; reported for Lead/QA review.",
+    "captures": {
+      "browser-qa/front.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-qa/front.png",
+        "sha256": "81a45aa6df487f5aa756812590c1ede5463890961c8f2179ce920bcfea8797b6"
+      },
+      "browser-qa/back.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-qa/back.png",
+        "sha256": "e4758ab21ae88d5925e2fc44351a176fdd5e511dffa2f2a3cd224b7427bb6306"
+      },
+      "browser-qa/left.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-qa/left.png",
+        "sha256": "0d1bdfed5d737afb876ceac7433ba6fc3babf38cb4cb7e7c26531ed95860fc19"
+      },
+      "browser-qa/right.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-qa/right.png",
+        "sha256": "364b0001f67f5f557cb26e515464a0d0134308557fba93a63b526e1b88d3a3f4"
+      },
+      "browser-qa/detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-qa/detail.png",
+        "sha256": "61027d2691b76cd173cdc3e931fb6ea802a81db0f0ce09073502fa06f37b49aa"
+      },
+      "browser-qa/mobile.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-qa/mobile.png",
+        "sha256": "37672b959a982b0152fca5d27b6a70b260bd628ef1b592b313e8db97b8e94e96"
+      },
+      "browser-fit/collar-front-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-fit/collar-front-detail.png",
+        "sha256": "8160dde65e2f9481276d5c0dedbce1d2fecaa3aa27e5b49c134e9ced2d6dfee5"
+      },
+      "browser-fit/collar-side-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-fit/collar-side-detail.png",
+        "sha256": "32ab74e8b04ee21bc44fcd37e9844e9b99a7f1746348e1e4b0e19c52d1f49d93"
+      },
+      "browser-fit/cuff-positiveX-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-fit/cuff-positiveX-detail.png",
+        "sha256": "fcba4352060f7e8efd82a5bfedfb8e32c9cf3441aeb7055f641e3882a3ec3ebb"
+      },
+      "browser-fit/cuff-negativeX-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-fit/cuff-negativeX-detail.png",
+        "sha256": "2436769be429a6e3963e141d9c351ce2ddd4c98903e83f07647174fad8e53446"
+      },
+      "browser-fit/hem-front-detail.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-fit/hem-front-detail.png",
+        "sha256": "424f06d6446a31d0e8cfbffa8bc59fa28b5cb8b2c26e9d94059b0af1953fceab"
+      },
+      "browser-fit/armhole-rear-wide.png": {
+        "path": "quality/evidence/ATEL-23/v2.5/browser-fit/armhole-rear-wide.png",
+        "sha256": "8449ebda145e2ca32c716f1fe7a15812f133fb7b85ad794033d609d3534b6d73"
+      }
+    }
+  },
+  "decision": "Candidate/evidence bundle only. Clearance screen still reports intersections and no approved shirt base exists. Do not use as final or claim G1. Lead decision required before reopening independent QA."
+}

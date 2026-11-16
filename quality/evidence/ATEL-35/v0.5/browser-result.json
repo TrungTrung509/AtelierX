@@ -1,0 +1,29 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v0.5-gray",
+  "garment": "orders/ATEL-35/v0.5/designer/garment-v0_5.glb",
+  "garmentSha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+  "url": "http://127.0.0.1:8788/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-35/v0.5/front.png",
+    "back": "quality/evidence/ATEL-35/v0.5/back.png",
+    "side": "quality/evidence/ATEL-35/v0.5/side.png",
+    "oblique": "quality/evidence/ATEL-35/v0.5/oblique.png"
+  },
+  "screenshotSha256": {
+    "front": "d4eb871ce6dedfef328b9f6a654d1e3bdba13ae1ad66784b0f354fd0c3951e04",
+    "back": "1687957b564f9915b94019c9b0838e6e21b83e1ea3527e28a28fe3c5544d237e",
+    "side": "38773a97e62c377b5fe864773b14477208f124f69fbd7f75b0cccd785b6569e2",
+    "oblique": "b8f3f285ea2447cbcbf71c3cb28c458538b8f2afaaec9d340b081c812954d98b"
+  },
+  "errors": [],
+  "interactionOrbit": {
+    "before": 1.5571572354872067,
+    "afterRotate": 1.5571572354872067,
+    "afterZoom": 0.934882867382674
+  }
+}

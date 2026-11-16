@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-59/source-01/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": false,
+  "desktop": true,
+  "screenshots": {
+    "front": "orders/ATEL-59/research/source-01/front.png",
+    "back": "orders/ATEL-59/research/source-01/back.png",
+    "side": "orders/ATEL-59/research/source-01/side.png",
+    "oblique": "orders/ATEL-59/research/source-01/oblique.png"
+  },
+  "errors": []
+}

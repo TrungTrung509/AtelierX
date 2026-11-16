@@ -1,0 +1,12 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env.local
+

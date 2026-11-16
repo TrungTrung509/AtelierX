@@ -1,0 +1,83 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v2.1",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "displayScale": 0.25,
+  "assembly": {
+    "path": "showcase/products/ATEL-63/v2.1/assembly.json",
+    "sha256": "374abf0dbcd113be2f0f9ca7f992639fff446a6a208ecec6291af24ffa7acd96"
+  },
+  "display": {
+    "path": "showcase/products/ATEL-63/v2.1/assets/display.glb",
+    "sha256": "ca09e7424368bced2e1720078f1eb8c880c160f09422c635bdb5745051d246f0"
+  },
+  "integratedGarment": {
+    "path": "orders/ATEL-63/v2/material/garment.glb",
+    "sha256": "69736e2659da1de08145f48bbd60ab8b0abcdaa0fddbf48c2f10c4ab35699cfa"
+  },
+  "surfaceHandoff": {
+    "path": "orders/ATEL-63/v2/material/surface-handoff.json",
+    "sha256": "e040fd903fbe1a9309ba8a6dd453dde2f15fa8a91224ab79aee2edeefd891c52"
+  },
+  "materialPreset": {
+    "path": "orders/ATEL-63/v2/material/pbr-preset-v2.json",
+    "sha256": "4449e538e8e7a1095f87cc5f4e593752f94e8d8d94bab6ef728ce01782ecd978"
+  },
+  "shapeReview": {
+    "path": "orders/ATEL-63/v1/shape-review-handoff.json",
+    "sha256": "bb347f22dbbe9bac4afc9627695a0fde75f3357ae72cf6cadb7653c1aee27bc1"
+  },
+  "artwork": {
+    "path": "orders/ATEL-63/research/christmas-tree-snowflakes.svg",
+    "sha256": "65a81edb11deca9d9b5602a0f33d416faa966dd2546b0e8606a556714a2187d7"
+  },
+  "sourceMeasurements": {
+    "path": "showcase/products/ATEL-63/v2/measurements.json",
+    "sha256": "b390b352bca1a6db8133cb9578ea1e46c7949557a93f88d3d04e360558f30d4c"
+  },
+  "content": {
+    "path": "showcase/products/ATEL-63/v2.1/content.json",
+    "sha256": "9fbf025d2b700d9eb78724d0e1a0b1e9132d2a73cce00b1b7ba55f69edd0e8db"
+  },
+  "viewer": {
+    "path": "showcase/products/ATEL-63/v2.1/index.html",
+    "sha256": "f7ea4d7ca25e098310777e17728134134006c6161f618c442fccb9b48b9ad406"
+  },
+  "measurements": {
+    "path": "showcase/products/ATEL-63/v2.1/measurements.json",
+    "sha256": "120bbb79e63876453d858c04bf6210ca8df484012414d62c0a9b01e649365913",
+    "kind": "Final viewer-scale display references, not manufactured garment sizing"
+  },
+  "browserEvidence": {
+    "path": "orders/ATEL-63/v2.1/visual/evidence/browser-result.json",
+    "sha256": "175a1b89b4f08c8c1bbf2c8bfe5f99b873ca446787736e0440cf8328b780957d"
+  },
+  "viewerScale": 0.25,
+  "screenshots": {
+    "front": {
+      "path": "quality/evidence/ATEL-63/direct-edit/front.png",
+      "sha256": "bced4df3d51c0fbe77047926c2a5335a42c40379cd32da8fc5436657fd3010fe"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-63/direct-edit/back.png",
+      "sha256": "78b61a11663f6b81e4da3871206ff4ab4b00b809eb87bb3162c4bd7aff17d069"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-63/direct-edit/side.png",
+      "sha256": "8afb3e07f0a58ed82a30b62c99d8abbfc09e1170028b09be295b5ad8e58ab1db"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-63/direct-edit/oblique.png",
+      "sha256": "6e6ec2d11e3773af6c0c2b3b7cc30851d3a79aa539b316437f42e55c2b10113c"
+    },
+    "top": {
+      "path": "quality/evidence/ATEL-63/direct-edit/top.png",
+      "sha256": "593035ec036ffdaaa90c18bb363022ce8ae16a23dcb776948ecec56af18ca6e6"
+    },
+    "bottom": {
+      "path": "quality/evidence/ATEL-63/direct-edit/bottom.png",
+      "sha256": "b25b8ba6dd41256372d6f71b00679c6b5f5aa07a039e5074f97c3f5796d29b83"
+    }
+  }
+}

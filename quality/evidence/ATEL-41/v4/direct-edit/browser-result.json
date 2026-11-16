@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-41/v4/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "/home/node/project/AtelierX/quality/evidence/ATEL-41/v4/direct-edit/front.png",
+    "back": "/home/node/project/AtelierX/quality/evidence/ATEL-41/v4/direct-edit/back.png",
+    "side": "/home/node/project/AtelierX/quality/evidence/ATEL-41/v4/direct-edit/side.png",
+    "oblique": "/home/node/project/AtelierX/quality/evidence/ATEL-41/v4/direct-edit/oblique.png",
+    "top": "/home/node/project/AtelierX/quality/evidence/ATEL-41/v4/direct-edit/top.png",
+    "bottom": "/home/node/project/AtelierX/quality/evidence/ATEL-41/v4/direct-edit/bottom.png"
+  },
+  "errors": []
+}

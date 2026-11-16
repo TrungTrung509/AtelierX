@@ -1,0 +1,47 @@
+{
+  "sourceSha256": "1de5a29649bd5520bc5163660c40e58799f514c8cbb36cbbcd18611cc3c497d3",
+  "sourceBytes": 5536028,
+  "derivedSha256": "8f9a8e7ef5cfa6963b8cb8701d02aa6bdd2bfd90e8fea08515695d33b6158588",
+  "derivedBytes": 2030296,
+  "geometryBufferViewsPreserved": [
+    0,
+    1,
+    2
+  ],
+  "geometryBinBytesPreserved": 2023888,
+  "sourceGeometryBufferSha256": "cbebd849a6c6b6fe83220ecf4b259c2ce4e33f18e8b63b4117acc9f5670c9eba",
+  "derivedGeometryBufferSha256": "cbebd849a6c6b6fe83220ecf4b259c2ce4e33f18e8b63b4117acc9f5670c9eba",
+  "sourceMeshCount": 6,
+  "sourceNodeCount": 8,
+  "remainingTextures": 0,
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Shirt00_1Button_FRONT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.34,
+          0.34,
+          0.34,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.72
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Shirt00_1Material4782",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.64,
+          0.64,
+          0.64,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.86
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v4",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "decision": "pass",
+  "qaReviewer": "atelierx-qa-0004",
+  "reviewedAt": "2026-11-15T12:42:29.368Z",
+  "leadApproved": true,
+  "summary": "QA retest độc lập ATEL-41/v4 đạt correction CONTENT-01. Hai khoản credits có trong content và hiển thị trên viewer, nội dung ghi công phù hợp provenance hình học và chất liệu. Bốn góc, model/viewer/content hash và browser desktop đều khớp revision v4; chuyển Studio Lead duyệt và chạy quality gate.",
+  "assets": {
+    "model": "products/ATEL-41/v4/assets/display.glb",
+    "modelSha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd",
+    "viewer": "products/ATEL-41/v4/index.html",
+    "viewerSha256": "be9be5970b88b59b1c0a4097b03cf9acc2a20b5a9a86a834fea547eda3de4a49",
+    "content": "products/ATEL-41/v4/content.json",
+    "contentSha256": "084fa4535b80ee4819b2ce7b9e78f7ac25cec4b75c12fa1c2601283ebd171605",
+    "assembly": "showcase/products/ATEL-41/v4/assembly.json",
+    "assetManifest": "showcase/products/ATEL-41/v4/assets/asset-manifest.json",
+    "assetManifestSha256": "e77bde4491fd04cf6d057edcc267ac4c035a1922e1b750f1387cfb08cb90feb6",
+    "measurements": "showcase/products/ATEL-41/v4/measurements.json",
+    "shapeReview": "orders/ATEL-41/v3/independent-shape-review.json",
+    "visualManifest": "orders/ATEL-41/v4/visual/visual-manifest-v4.json",
+    "contentManifest": "orders/ATEL-41/v4/visual/content-manifest-v4.json"
+  },
+  "brief": {
+    "requiredFeatures": [
+      "Quần cargo độc lập, không mannequin",
+      "Ống suông có volume và nếp vải",
+      "Cạp đỉa, khóa kéo và nút phía trước",
+      "Hai túi hộp lớn ở đùi và dây rút gấu",
+      "Màu be cát và chất liệu mô phỏng có nguồn",
+      "Nội dung tiếng Việt với ba thông số display sourced và credits",
+      "Viewer desktop đúng revision, xoay và zoom"
+    ]
+  },
+  "featureChecks": [
+    {
+      "feature": "Quần cargo độc lập, không mannequin",
+      "passed": true,
+      "observation": "Ảnh bốn góc hiện quần standalone; không có mannequin.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v4/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/back.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/side.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Ống suông có volume và nếp vải",
+      "passed": true,
+      "observation": "Silhouette hai ống suông, khối hông/ống và nếp shading đọc được ở front, side, oblique.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v4/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/side.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Cạp đỉa, khóa kéo và nút phía trước",
+      "passed": true,
+      "observation": "Front/oblique cho thấy cạp có đỉa, nút và fly trước.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v4/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Hai túi hộp lớn ở đùi và dây rút gấu",
+      "passed": true,
+      "observation": "Túi đùi gắn liền đọc được ở các góc trước/nghiêng/chéo; dây rút thấy tại hai gấu trong front/back.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v4/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/back.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/side.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Màu be cát và chất liệu mô phỏng có nguồn",
+      "passed": true,
+      "observation": "Content khai báo #C8B58F và cotton-canvas twill mô phỏng; material/preset sources và hashes khớp manifest. Màu render đọc là be cát sáng.",
+      "evidence": [
+        "showcase/products/ATEL-41/v4/content.json",
+        "orders/ATEL-41/v3/material/surface-manifest-v3.json",
+        "orders/ATEL-41/material/pbr-preset-v1.json",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/front.png"
+      ]
+    },
+    {
+      "feature": "Nội dung tiếng Việt với ba thông số display sourced và credits",
+      "passed": true,
+      "observation": "Summary tiếng Việt có ba câu, ghi rõ mô phỏng vật liệu và kích thước mesh chỉ dùng tham khảo trưng bày; ba specifications có nguồn. CONTENT-01 đã sửa: hai khoản credits render hiển thị và khớp provenance hình học/màu PBR.",
+      "evidence": [
+        "showcase/products/ATEL-41/v4/content.json",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/content-dom-audit.json",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/credits-visible.png"
+      ]
+    },
+    {
+      "feature": "Viewer desktop đúng revision, xoay và zoom",
+      "passed": true,
+      "observation": "Browser QA độc lập trên URL Crewly v4 ghi loaded/rotated/zoomed/desktop=true, errors=[]; captures đúng revision. Manifest visual/content có 26 artifact entries được kiểm SHA-256.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v4/qa-final-independent/browser-result.json",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/back.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/side.png",
+        "quality/evidence/ATEL-41/v4/qa-final-independent/oblique.png"
+      ]
+    }
+  ],
+  "visual": {
+    "coverage": true,
+    "silhouette": true,
+    "folds": true,
+    "closures": true,
+    "contentMatches": true,
+    "observations": {
+      "coverage": "Standalone garment surface đầy đủ, không thấy mannequin.",
+      "silhouette": "Quần cargo ống suông; túi đùi, cạp và gấu đọc rõ.",
+      "folds": "Nếp/shading mềm có thể thấy quanh hông và ống.",
+      "closures": "Nút và fly trước thấy rõ.",
+      "contentMatches": "Màu, style, mô phỏng chất liệu, ba thông số display sourced và credits khớp model/viewer."
+    }
+  },
+  "scores": {
+    "silhouette": 4,
+    "construction": 4,
+    "artwork": 5,
+    "placement": 5,
+    "material": 4,
+    "content": 5,
+    "web": 5
+  },
+  "blockers": [],
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-41/v4/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "screenshots": {
+      "front": "/tmp/atel41-qa-independent-v4/front.png",
+      "back": "/tmp/atel41-qa-independent-v4/back.png",
+      "side": "/tmp/atel41-qa-independent-v4/side.png",
+      "oblique": "/tmp/atel41-qa-independent-v4/oblique.png"
+    },
+    "errors": [],
+    "browserResultSha256": "7c4c864d0d1e25f602355e82650b01c6bb67ff10065af34609d6c715887a4603"
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-41/v4/qa-final-independent/front.png",
+    "back": "quality/evidence/ATEL-41/v4/qa-final-independent/back.png",
+    "side": "quality/evidence/ATEL-41/v4/qa-final-independent/side.png",
+    "oblique": "quality/evidence/ATEL-41/v4/qa-final-independent/oblique.png"
+  },
+  "evidenceSha256": {
+    "front": "72e2b5c47e33f9d1b3eb24b35e6d34f49cdec95de45ae97c588cb5656e6facac",
+    "back": "4d34eda2efe7b5572e2f9af89c09b83d40d0b21ccbfa12b591f95c003fdce4f8",
+    "side": "5032a356254198e086f35d5332a0d1a2e1dd4eea2ae23d0d8efd8cf9dde7666d",
+    "oblique": "3ac33fb18950c81d0f4901ea8d332ea5b2ec2fb518d266898b9564e7fb8eaa9d",
+    "credits-visible": "bc6df4f7bd07042b47611fca00d9b26c75cc25f07b19c143e978c81b6f405b05"
+  },
+  "contentDisplayEvidence": {
+    "path": "quality/evidence/ATEL-41/v4/qa-final-independent/content-dom-audit.json",
+    "sha256": "4e9a7495eab98893e382c2abeb81dceca004574109c5457234648e6f36ee46e7",
+    "creditsCount": 2,
+    "creditsVisible": true
+  },
+  "gate": {
+    "status": "ready-for-studio-lead-review",
+    "catalogModified": false,
+    "note": "QA final pass recorded. Studio Lead reviews same-revision evidence and runs quality-gate/publish; catalog left unchanged."
+  },
+  "nextOwner": "Studio Lead",
+  "nextStep": "Review v4 report/evidence, set leadApproved and run quality gate; publish only through the Lead workflow.",
+  "leadReview": {
+    "reviewer": "atelierx-team-leader-0001",
+    "decision": "approve",
+    "reviewedAt": "2026-11-15T12:46:09.982Z",
+    "summary": "Đã xem front/back/side/oblique và ảnh credits cùng revision v4; đối chiếu viewer/content/material/dimensions và hash artifacts với manifest, không thấy lỗi chặn."
+  }
+}

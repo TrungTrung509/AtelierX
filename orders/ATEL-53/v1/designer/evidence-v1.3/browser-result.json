@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/v1.3/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "orders/ATEL-53/v1/designer/evidence-v1.3/front.png",
+    "back": "orders/ATEL-53/v1/designer/evidence-v1.3/back.png",
+    "side": "orders/ATEL-53/v1/designer/evidence-v1.3/side.png",
+    "oblique": "orders/ATEL-53/v1/designer/evidence-v1.3/oblique.png",
+    "top": "orders/ATEL-53/v1/designer/evidence-v1.3/top.png",
+    "bottom": "orders/ATEL-53/v1/designer/evidence-v1.3/bottom.png"
+  },
+  "errors": []
+}

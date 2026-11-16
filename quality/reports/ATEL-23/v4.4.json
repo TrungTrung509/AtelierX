@@ -1,0 +1,92 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4.4",
+  "deliveryProfile": "showcase-basic-v1",
+  "decision": "return-after-correction",
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false,
+  "summary": "QA độc lập v4.4 theo diagnosis-v44: bundle đúng revision/hash và captures khớp. Sửa hướng/màu mặt khuy đã hiệu quả: front cho thấy rõ hàng 6 khuy xanh đậm, nằm trên nẹp và hướng ra trước. Tuy nhiên side/oblique vẫn lộ vùng trắng mannequin tại junction vai/nách. Một target đạt, coverage chưa đạt; chuyển Lead quyết định disposition, không approve/publish.",
+  "assets": {
+    "garment": "orders/ATEL-23/v4.4/designer/garment-v4_4.glb",
+    "garmentSha256": "fc6b3282a4bd0a5b4d81d167feb598e6c6619a0c3c5e1ffa767781a9910dd442",
+    "fitManifest": "orders/ATEL-23/v4.4/designer/fit.json",
+    "fitManifestSha256": "edd0b42bb492b4afdcc169ee13949276770b074610e8ac532652eb33b76d8451",
+    "diagnosis": "orders/ATEL-23/diagnosis-v44.json",
+    "diagnosisSha256": "026db640322ca9e9cec2ff2815ed6e0795cff74c5b1b14120730e6b76b8f2ed1",
+    "display": "showcase/products/ATEL-23/v4.4/assets/display.glb",
+    "displaySha256": "36af61d8a9fa6a965585a96b3972c7d594d37830bf9e29d11b44db1702622ed3",
+    "assembly": "showcase/products/ATEL-23/v4.4/assembly.json",
+    "assemblySha256": "4723d85eb3ed80a8b3bb2a92cbe071a8c84c3e06c85c8c8cf3336f36520d56fa",
+    "assetManifest": "showcase/products/ATEL-23/v4.4/asset-manifest.json",
+    "assetManifestSha256": "e6d807babeb80e4fbfe7d53a1f2bfd829060039a70e185f2f6b0c56c4b202369",
+    "content": "showcase/products/ATEL-23/v4.4/content.json",
+    "contentSha256": "f884e18c206a2c8d8f9dd2b262693b70a1ead97064e31cfa06f2a63cba2730bb",
+    "measurements": "showcase/products/ATEL-23/v4.4/measurements.json",
+    "measurementsSha256": "6e10c9fef4219054df4741f71a0625974caa4271df80b03bf4ebd1371d0ab022",
+    "browserResult": "quality/evidence/ATEL-23/v4.4/browser-result.json",
+    "browserResultSha256": "5a643fabae6a62a89fef1f2685c69d6d84029579fd01943acba945e9fe5bbac2"
+  },
+  "visual": {
+    "coverage": false,
+    "silhouette": true,
+    "folds": true,
+    "closures": true,
+    "contentMatches": true
+  },
+  "featureChecks": [
+    {
+      "feature": "Revision và asset hashes v4.4",
+      "passed": true,
+      "observation": "SHA-256 garment, fit.json, display, assembly, content, measurements, diagnosis và browser-result khớp với artifact đang có. Fit/assembly ghi v4.4; assembly stage verified-fix.",
+      "evidence": "orders/ATEL-23/v4.4/designer/fit.json"
+    },
+    {
+      "feature": "Coverage mannequin tại junction vai/nách side/oblique",
+      "passed": false,
+      "observation": "Vùng trắng hình thể mannequin vẫn lộ bên trong đường mở vai/nách ở góc side và oblique sau khi mask nâng lên y=1.55. Đây là mannequin lộ, không phải phần áo; tiêu chí coverage chưa đạt.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v4.4/side.png",
+        "quality/evidence/ATEL-23/v4.4/oblique.png"
+      ]
+    },
+    {
+      "feature": "Độ đọc và hướng mặt hàng khuy front",
+      "passed": true,
+      "observation": "Front capture hiện sáu nút xanh đậm thành hàng thẳng, tương phản tốt với nền và mặt nút hướng camera; đọc được là khuy gắn trên nẹp. Kích thước 21 mm trong fit checker khớp cấu hình, nhưng kết luận dựa trên ảnh trực quan.",
+      "evidence": "quality/evidence/ATEL-23/v4.4/front.png"
+    },
+    {
+      "feature": "Viewer desktop/mobile",
+      "passed": true,
+      "observation": "Browser result ghi loaded/rotated/zoomed/desktop/mobile=true và errors rỗng.",
+      "evidence": "quality/evidence/ATEL-23/v4.4/browser-result.json"
+    }
+  ],
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-23/v4.4/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "browserResultSha256": "5a643fabae6a62a89fef1f2685c69d6d84029579fd01943acba945e9fe5bbac2"
+  },
+  "evidence": {
+    "front": { "path": "quality/evidence/ATEL-23/v4.4/front.png", "sha256": "a11ff23d36da5b45aa257b3bb69391e1c4817bc1ce031fdb4fcf9cacd4b70065" },
+    "back": { "path": "quality/evidence/ATEL-23/v4.4/back.png", "sha256": "055982fbb4a75fd76660dc9b64cc00fc68fce915fde4d149c6a555fa994e6184" },
+    "side": { "path": "quality/evidence/ATEL-23/v4.4/side.png", "sha256": "ec1a1c5aa4ced017af32930a0e05b540b2224d1930a4cd9985eddb13d5e1def9" },
+    "oblique": { "path": "quality/evidence/ATEL-23/v4.4/oblique.png", "sha256": "ffa6625e0db171402d72d498d8c380405595dc24563b0243dde80301a8533778" },
+    "mobile": { "path": "quality/evidence/ATEL-23/v4.4/mobile.png", "sha256": "b77467348748dd2cc0d8b9ccfa64351501f2069afe2f8d0a7a6084a956d03d77" }
+  },
+  "blockers": [
+    {
+      "priority": "P0",
+      "issue": "Mannequin còn lộ tại vai/nách trong side/oblique sau verified-fix v4.4.",
+      "owner": "Studio Lead quyết định disposition; Designer/Visual phụ trách artifact.",
+      "nextStep": "Chuyển Lead quyết định theo diagnosis-v44 và kết quả retest. QA không tự mở thêm sửa, không approve/publish."
+    }
+  ],
+  "nextOwner": "Studio Lead",
+  "nextStep": "Một target (khuy) đã đạt; coverage vai/nách vẫn fail nhìn thấy. Lead quyết định disposition; sản phẩm chưa được approve/publish."
+}

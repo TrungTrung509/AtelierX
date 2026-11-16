@@ -1,0 +1,14 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v2.1",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "garment": "orders/ATEL-63/v2/material/garment.glb",
+  "garmentType": "sweater",
+  "displayScale": 0.25,
+  "maskBody": false,
+  "material": {
+    "name": "Len dệt matte đỏ rượu vang (mô phỏng PBR)",
+    "source": "orders/ATEL-63/v2/material/pbr-preset-v2.json; mô phỏng thị giác, không xác nhận thành phần sợi thật."
+  }
+}

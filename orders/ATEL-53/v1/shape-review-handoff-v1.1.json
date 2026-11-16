@@ -1,0 +1,102 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "v1.1-gray",
+  "decision": "return",
+  "reviewer": "atelierx-qa-0004",
+  "correctionOwner": "designer",
+  "nextAction": "Sửa SHAPE-01..03 trong cùng đơn; bàn giao gray revision mới để QA tiếp tục bằng cùng WorkItem. Giữ Material chờ shape pass.",
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-53/v1.1-gray.json",
+      "sha256": "58dca2420659b636f3b51295ed5adef3bc455a3ca83400706b4e273820785b89"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/shape-manifest-v1.1.json",
+      "sha256": "834213e7a212cc07781a999c0590d7006745ac1c311226ee7c251454049e5ca7"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/garment-gray-v1.1.glb",
+      "sha256": "2b394d52ddc64b1ba5b60eba92102ac5cd1accc14a06347dcd5461cbc74cad5a"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/build-shirt-shell-v1.mjs",
+      "sha256": "139aecae6a2dda723770e95186ac2e8d1da16ad3ddab9b27b3436f16948f55c9"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/capture-shirt-details.mjs",
+      "sha256": "1db65e664f1cdb86864d491c8350cfc63a0de5e37adb5d12501c211fd308df18"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.1/front.png",
+      "sha256": "64536f76e8fd833b037fdb5f504220a63601ec109ea06a9333669e138e6924fa"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.1/back.png",
+      "sha256": "8349006405fb436c3a21bff61ba332d8691111db6c9dd398c7b827331112fe6f"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.1/side.png",
+      "sha256": "220d4283fd260c05c44d495d3c9a79fd391cf2e27165001f1dc5cd185c8f5518"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.1/oblique.png",
+      "sha256": "782f32d5b93bdd5f1a6ceeffec8cb4f969284a780d64434287474a08c933451a"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.1/top.png",
+      "sha256": "d93398a436bb13f28ad38c6b4ea743d240fbb36393c37860dcb547d3e8259aa3"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.1/bottom.png",
+      "sha256": "1e6cfe912994588b150492d97676c0be00ab3eb12fdeb9f1a4a1f95e1637ab7b"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.1/browser-result.json",
+      "sha256": "a89d45ce5341b292e8aee45ba3aaa52d215474fb454f4faa9b4c0895a37c446a"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.1/collarCloseup.png",
+      "sha256": "e561c7ffcae2c313014c076b82a8d74d5b6554713b5ac6718f16cfeec1fdb2ad"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.1/placketSideCloseup.png",
+      "sha256": "ff766cdd55308b2fe6a6f76c0c51ac196a51e0d186372ca39de378f4fd733f41"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.1/cuffCloseup.png",
+      "sha256": "c446027f42b7feb7cf69e48ca496ac490cd1ac71f69292d4fb581adbe6f30253"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.1/detail-browser-result.json",
+      "sha256": "e210f3af394d2984c28cbbfb8c021f70bd928183295100f0722afed5f13c0b22"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/front.png",
+      "sha256": "d4eb871ce6dedfef328b9f6a654d1e3bdba13ae1ad66784b0f354fd0c3951e04"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/oblique.png",
+      "sha256": "b8f3f285ea2447cbcbf71c3cb28c458538b8f2afaaec9d340b081c812954d98b"
+    }
+  ],
+  "findings": [
+    {
+      "id": "SHAPE-01",
+      "area": "Thân, vai và nách — front/back/oblique",
+      "observation": "Thân trước/sau gần như phẳng, không có nếp rủ rõ; tay phồng thành ống đều. Các khe tối ở vùng vai/nách làm đường nối thân-tay chưa liền. Thấp hơn ATEL-35/v1 về cảm giác vải.",
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-02",
+      "area": "Cổ sơ mi — front/back/collar closeup",
+      "observation": "Cổ đọc thành hai mảng tam giác phẳng, cạnh sắc trên một bản đứng rộng; chưa thấy cấu tạo cổ bẻ với chân cổ và hai lá gập/nối tự nhiên. Back/top cũng cho thấy mép sau cổ chưa liên tục.",
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-03",
+      "area": "Nẹp trước và cuff — front/placketSideCloseup/cuffCloseup",
+      "observation": "Revision không có khuy nẹp hoặc khuy cuff nên không thể kiểm yêu cầu khuy gắn vải khi nhìn nghiêng; ảnh cận hiện chỉ cho thấy các dải nẹp/cuff trơn.",
+      "correctionOwner": "designer"
+    }
+  ]
+}

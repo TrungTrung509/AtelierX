@@ -1,0 +1,252 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.2-surface-v1",
+  "stage": "surface",
+  "geometryChanged": false,
+  "sourceGeometry": {
+    "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+    "sha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c",
+    "bytes": 2038132,
+    "geometryBufferSha256": "3e1fa89b7447c7a228033a2582f893e06e0b62a32b3b09ca1f294c4a46632a35"
+  },
+  "garment": {
+    "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/garment.glb",
+    "sha256": "bc15ebd82d9b4ca3ddbdd3d7792f139313cf37687895a462b8c86ad5aa42793b",
+    "bytes": 2423128
+  },
+  "textures": [
+    {
+      "mesh": 1,
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh1.png",
+      "sha256": "7f7a041f1411cb99de8d34a426a38aad9b6893e8f7a1715d32af8b5b7e2ceda7",
+      "bytes": 71051,
+      "size": "2048x2048",
+      "repeatCount": 120,
+      "centerlineU": 0.07584
+    },
+    {
+      "mesh": 2,
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh2.png",
+      "sha256": "c20389b9cf7d3346d07a132ec79841706829be10836c788ffdb9e15a4fbc4bab",
+      "bytes": 79672,
+      "size": "2048x2048",
+      "repeatCount": 60,
+      "centerlineU": 0.305
+    },
+    {
+      "mesh": 3,
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh3.png",
+      "sha256": "6424bf86fc41ad7b522a5c1b3899bed9acb9b9163e9d84ecc66d8374dc61f08b",
+      "bytes": 82298,
+      "size": "2048x2048",
+      "repeatCount": 55,
+      "centerlineU": 0.792
+    },
+    {
+      "mesh": 4,
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh4.png",
+      "sha256": "90534a83a0b79970b9531fcff4ae12e32cd9c3668d03905d3aff6b92de0a3c26",
+      "bytes": 78614,
+      "size": "2048x2048",
+      "repeatCount": 74,
+      "centerlineU": 0.42135
+    },
+    {
+      "mesh": 5,
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh5.png",
+      "sha256": "8aa852d2ed6edc4f81ea800a67e8657ced9f2b90dc38cff2dc85541206002393",
+      "bytes": 70888,
+      "size": "2048x2048",
+      "repeatCount": 120,
+      "centerlineU": 0.76644
+    }
+  ],
+  "material": {
+    "path": "orders/ATEL-53/material/pbr-preset-owner-shirt-v1.2.json",
+    "sha256": "1366e6ccb6bbfc889e1c91dbcddebbf8f699f93977fc2352ad94bdf5961ca118",
+    "shader": "glTF 2.0 metallicRoughness",
+    "simulatedSource": "Display-only color and material simulation derived from the owner brief. The stripe artwork is project-original; cotton-poplin appearance is not a physical fiber, hand-feel, or manufacturing claim.",
+    "baseColorHexSRGB": "#79BCEB",
+    "roughnessFactor": 0.82,
+    "metallicFactor": 0,
+    "hardware": {
+      "baseColorHexSRGB": "#F8FBFF",
+      "baseColorFactorLinear": [
+        0.9387,
+        0.9647,
+        1,
+        1
+      ],
+      "roughnessFactor": 0.68,
+      "metallicFactor": 0,
+      "meshes": [
+        0,
+        6
+      ]
+    }
+  },
+  "placement": {
+    "path": "orders/ATEL-53/material/placement-owner-shirt-v1.2.json",
+    "sha256": "f7d611721e1a45808904deb24e696f67738b2e8f6157212c780ef62af8432128",
+    "profile": "uv-pinstripe-per-fabric-mesh-v1",
+    "surfaceMapping": {
+      "fabricMeshes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "buttonMeshes": [
+        0,
+        6
+      ],
+      "basis": "GLB inspection identifies mesh 0 as the original placket-button group, meshes 1-5 as source shirt-fabric group, and mesh 6 as the two added cuff fasteners. Existing UV islands overlap across some mesh groups, so each fabric mesh receives an independent texture with matched phase/frequency."
+    },
+    "coordinateSpace": "Existing TEXCOORD_0 UV space",
+    "stripeAxis": "parallel to UV V on body/sleeve fabric islands; stripe bands vary across U",
+    "surfaceExtent": "all shirt fabric surfaces, front/back/sleeves; buttons unpatterned",
+    "uvPolicy": "Preserve source geometry, transforms, topology, and all original UV accessors. Each fabric mesh gets its own texture so overlapping atlas islands cannot overwrite one another.",
+    "textureRaster": {
+      "width": 2048,
+      "height": 2048,
+      "uvVOrigin": "top-left interpretation used by glTF browser sampling",
+      "dilationPixels": 0
+    },
+    "lineWidthRatio": 0.055
+  },
+  "integrity": {
+    "sourceBinaryPrefixPreserved": true,
+    "sourceGeometryBufferSha256": "3e1fa89b7447c7a228033a2582f893e06e0b62a32b3b09ca1f294c4a46632a35",
+    "geometryAndUvBytesUnchanged": true,
+    "uvAccessorsChanged": false,
+    "transformsChanged": false,
+    "topologyChanged": false
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/garment.glb",
+      "sha256": "bc15ebd82d9b4ca3ddbdd3d7792f139313cf37687895a462b8c86ad5aa42793b",
+      "bytes": 2423128
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh1.png",
+      "sha256": "7f7a041f1411cb99de8d34a426a38aad9b6893e8f7a1715d32af8b5b7e2ceda7",
+      "bytes": 71051
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh2.png",
+      "sha256": "c20389b9cf7d3346d07a132ec79841706829be10836c788ffdb9e15a4fbc4bab",
+      "bytes": 79672
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh3.png",
+      "sha256": "6424bf86fc41ad7b522a5c1b3899bed9acb9b9163e9d84ecc66d8374dc61f08b",
+      "bytes": 82298
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh4.png",
+      "sha256": "90534a83a0b79970b9531fcff4ae12e32cd9c3668d03905d3aff6b92de0a3c26",
+      "bytes": 78614
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/basecolor-mesh5.png",
+      "sha256": "8aa852d2ed6edc4f81ea800a67e8657ced9f2b90dc38cff2dc85541206002393",
+      "bytes": 70888
+    },
+    {
+      "path": "orders/ATEL-53/material/pbr-preset-owner-shirt-v1.2.json",
+      "sha256": "1366e6ccb6bbfc889e1c91dbcddebbf8f699f93977fc2352ad94bdf5961ca118",
+      "bytes": 1708
+    },
+    {
+      "path": "orders/ATEL-53/material/pinstripe-artwork-v1.svg",
+      "sha256": "09bbc8455d16de151408e27def97a813a1b791e4e464ed857f46977fe91c817b",
+      "bytes": 372
+    },
+    {
+      "path": "orders/ATEL-53/material/placement-owner-shirt-v1.2.json",
+      "sha256": "f7d611721e1a45808904deb24e696f67738b2e8f6157212c780ef62af8432128",
+      "bytes": 2034
+    },
+    {
+      "path": "orders/ATEL-53/material/surface-job-owner-shirt-v1.2.json",
+      "sha256": "e898d514adcf93a051d15aa6735bd39eff5333e5167e6169786f8c682d773e94",
+      "bytes": 565
+    },
+    {
+      "path": "orders/ATEL-53/material/apply-shirt-surface.mjs",
+      "sha256": "01b0d674fb5f90460a2ff9bc46d64478d7d7ab6f327f7e3a67042d9e47871d7e",
+      "bytes": 9312
+    }
+  ],
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/owner-shirt-v1.2-surface-v1/index.html",
+    "path": "showcase/quality-preview/ATEL-53/owner-shirt-v1.2-surface-v1/index.html",
+    "sha256": "fa1ac35d569beb0434079c49b576152bd1895888d4fda0bb2c4605f85bc547a8",
+    "garmentPath": "showcase/quality-preview/ATEL-53/owner-shirt-v1.2-surface-v1/garment.glb",
+    "garmentSha256": "bc15ebd82d9b4ca3ddbdd3d7792f139313cf37687895a462b8c86ad5aa42793b"
+  },
+  "browserEvidence": [
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/browser-result.json",
+      "sha256": "b9aaf93ea974f7fc53d77e7ef0f66670534efa3adc217fcc4445aecefc3314da",
+      "bytes": 697
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/front.png",
+      "sha256": "09c18de48940afdf8fd019a162fd75f4736fab0c0cbb805b722b6a386defbfdd",
+      "bytes": 568354
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/back.png",
+      "sha256": "06ce101d33bb3be52baef4fad6f414c8b51b29abdc146e440a8fe578b2c7e659",
+      "bytes": 569869
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/side.png",
+      "sha256": "6d40ecead1b3f13c8fa11ab4605956300da3f42597353f9ddae7558bd8d80d98",
+      "bytes": 532990
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/oblique.png",
+      "sha256": "3c1b844bbaba3bf8b23019cc5c8c02f0765ae9548dd5da889d77dfc3ee1bc6b2",
+      "bytes": 576446
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/top.png",
+      "sha256": "2ddde4c17f95740503f48e13c60816c8f8b408afdfd00759f2382ff64e8cb7f6",
+      "bytes": 479724
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/bottom.png",
+      "sha256": "1974e98a28c68152a4ceaec5153acaff87715d3c552923cdd0c9d1ae7d609de6",
+      "bytes": 517063
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/closeup-result.json",
+      "sha256": "6292c9d87937a686d40c61fba44708c4e2ee21cf2e4bf503e6a35db2c1e5906f",
+      "bytes": 526
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/collarCloseup.png",
+      "sha256": "48d41ae8152cde7e07576d033746771fdaee991ec5a640b24acc8a2f0fecd245",
+      "bytes": 498859
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/placketSideCloseup.png",
+      "sha256": "6f13598242136bce15db042c641d1573bcd1529d8c62da86043db20ac91bf0e6",
+      "bytes": 593932
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/cuffRightCloseup.png",
+      "sha256": "84c20cf59fb0ee63bcf76944d8a5ebb40dc6f18adc32b0d9d849d6d8050ddd64",
+      "bytes": 488548
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/evidence/cuffLeftCloseup.png",
+      "sha256": "e69759dd0338c9a59131f9a176fa8eb12d1290f6620e490aa729690a49b87b53",
+      "bytes": 501437
+    }
+  ]
+}

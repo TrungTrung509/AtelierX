@@ -1,0 +1,12 @@
+{
+  "orderId": "",
+  "revision": "",
+  "receivedAt": null,
+  "targetMinutes": 60,
+  "readiness": {"baseMeshId":null,"mannequinProfile":"quality/mannequin-fit.json","fitReady":false,"preparationMinutes":0},
+  "milestones": {"assignedAt":null,"firstArtifactAt":null,"fitReviewedAt":null,"assembledAt":null,"qaVerdictAt":null,"publishedAt":null},
+  "lanes": {},
+  "blockers": [],
+  "reworkCount": 0,
+  "note": "Lead sao chép vào orders/<id>/<rev>/flow.json; lanes theo agent: owner, ticketId, workItemId, output, dependsOn, startedAt, handoffAt, waitingMinutes, waitingReason. Không bịa số thời gian."
+}

@@ -1,0 +1,43 @@
+{
+  "meshes_unchanged": true,
+  "nodes_unchanged": true,
+  "accessors_unchanged": true,
+  "scenes_unchanged": true,
+  "scene_unchanged": true,
+  "skins_unchanged": true,
+  "animations_unchanged": true,
+  "cameras_unchanged": true,
+  "geometryBufferPrefixByteIdentical": true,
+  "sourceGeometryBufferSha256": "cbebd849a6c6b6fe83220ecf4b259c2ce4e33f18e8b63b4117acc9f5670c9eba",
+  "derivedGeometryBufferSha256": "cbebd849a6c6b6fe83220ecf4b259c2ce4e33f18e8b63b4117acc9f5670c9eba",
+  "sourceNormalsAccessorIds": [
+    1,
+    5,
+    9,
+    13,
+    17,
+    21
+  ],
+  "derivedNormalsAccessorIds": [
+    1,
+    5,
+    9,
+    13,
+    17,
+    21
+  ],
+  "uvAccessorIds": [
+    2,
+    6,
+    10,
+    14,
+    18,
+    22
+  ],
+  "sourceMeshes": 6,
+  "sourceNodes": 8,
+  "sourceSkins": 0,
+  "sourceTextures": 2,
+  "derivedTextures": 0,
+  "passed": true
+}

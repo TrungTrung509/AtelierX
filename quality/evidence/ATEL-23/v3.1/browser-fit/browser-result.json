@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-v3_1/index.html",
+  "loaded": true,
+  "rotated": false,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-23/v3.1/browser-fit/front.png",
+    "back": "quality/evidence/ATEL-23/v3.1/browser-fit/back.png",
+    "left": "quality/evidence/ATEL-23/v3.1/browser-fit/left.png",
+    "right": "quality/evidence/ATEL-23/v3.1/browser-fit/right.png",
+    "detail": "quality/evidence/ATEL-23/v3.1/browser-fit/detail.png",
+    "mobile": "quality/evidence/ATEL-23/v3.1/browser-fit/mobile.png"
+  },
+  "errors": []
+}

@@ -1,0 +1,110 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v1",
+  "owner": "atelierx-backend-developer-0005",
+  "designIntent": "Áo sơ mi công sở trẻ trung, nền xanh trời nhạt và microprint Tuyến sáng; đây là màu/chất liệu biểu kiến số.",
+  "shader": "glTF 2.0 metallicRoughness",
+  "slots": [
+    {
+      "primitiveIndex": 0,
+      "materialIndex": 0,
+      "currentGeometryMaterialName": "ATEL-23 shirt_body (geometry preview only)",
+      "semanticSlot": "shirt_shell_all_panels",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "baseColorTexture": "base-color.png",
+      "roughnessFactor": 0.96,
+      "roughnessTexture": "roughness.png",
+      "metallicFactor": 0,
+      "normalTexture": "normal.png",
+      "normalScale": 0.12,
+      "textureColorSpaces": {
+        "baseColor": "sRGB",
+        "roughness": "linear",
+        "normal": "linear"
+      },
+      "textureWrap": "repeat",
+      "texCoord": 0,
+      "doubleSided": true,
+      "notes": "Một primitive dùng chung cho thân, tay, cổ, nẹp và cúc. UV atlas đã có ở input frozen; kiểm placement trên áo sau Visual integrate. Không có slot phụ liệu riêng."
+    }
+  ],
+  "palette": {
+    "shirtBase": "#D9EEF4",
+    "cityline": "#579BB3",
+    "coral": "#E98979",
+    "softYellow": "#D9B94C",
+    "viewerBackdrop": "#CBD2D8"
+  },
+  "colorChecks": {
+    "shirtVsViewerBackdrop": {
+      "contrastRatio": 1.27,
+      "deltaE76": 10.1,
+      "note": "Hue/value difference is visible in swatch capture; this is not a garment edge-readability verdict."
+    },
+    "printVsShirt": {
+      "cityline": {
+        "contrastRatio": 2.59
+      },
+      "coral": {
+        "contrastRatio": 2.1
+      },
+      "softYellow": {
+        "contrastRatio": 1.59
+      }
+    }
+  },
+  "dependencies": {
+    "artwork": {
+      "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+      "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99"
+    },
+    "garment": {
+      "path": "orders/ATEL-23/v1/designer/garment-v1.glb",
+      "sha256": "87d6d1f1fa98bae641df5578b634ca08a9453026586e314e2ba7d13e59a0c3bd"
+    },
+    "fit": {
+      "path": "orders/ATEL-23/v1/designer/fit.json",
+      "sha256": "acfb9a9b0b1f26b6dab7588b10eb3e54c4827ba27c9f1056098d9811505d5ba1",
+      "status": "designer-fit-handoff; independent QA pending; not approved"
+    },
+    "fitPreview": {
+      "path": "orders/ATEL-23/v1/fit-evidence/garment-on-mannequin-v1.glb",
+      "sha256": "977a6d60620b35ed63df1107c581037280b0ca1db7a8028d7d6b22ef6da4b2c4"
+    },
+    "uvStatus": "TEXCOORD_0 present; UV atlas is recorded in fit.json."
+  },
+  "inputStatus": {
+    "designerGeometry": "Frozen Designer geometry verified against fit.json; channel handoff 654c563f-698a-49b7-8f40-9b51492f92ec.",
+    "fitApproval": "independent QA pending; not approved",
+    "g1": "not approved until independent QA/Lead review"
+  },
+  "designerHandoff": {
+    "teamThreadRootMessageId": "dcd7029e-6652-4d5f-9056-ada1cd5de5a1",
+    "messageId": "654c563f-698a-49b7-8f40-9b51492f92ec"
+  },
+  "mappingEvidence": {
+    "capture": {
+      "path": "orders/ATEL-23/v1/material/evidence/texture-mapped-fit-preview.png",
+      "sha256": "33393a4c18c9295e691f6c9d5559a5c847fada489a3f33b40e94b67af03ef2c2"
+    },
+    "report": {
+      "path": "orders/ATEL-23/v1/material/evidence/capture-report.json",
+      "sha256": "22446919fb5242940bd33033f398581e64443e8fdbceb4a2b257d09ef203876a"
+    },
+    "diagnosticGlb": {
+      "path": "orders/ATEL-23/v1/material/evidence/texture-mapped-fit-preview.glb",
+      "sha256": "f8fd800b09d2b67baa15d9ec5189feba474180c156692839377f978e4dde8b51"
+    },
+    "scope": "Local diagnostic application to Designer fit-preview copy; mapping visually inspected. Not final product QA/G1."
+  },
+  "preview": {
+    "path": "material-preview.png",
+    "scope": "Palette/PBR swatch; UV0 atlas exists but garment fit has not passed G1.",
+    "contrastNote": "Diagnostic mapping capture exists; independent QA must verify final garment appearance after G1 correction. This preview is not product QA or G1 approval."
+  }
+}

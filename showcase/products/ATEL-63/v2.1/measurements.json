@@ -1,0 +1,16 @@
+{
+  "envelopeWidthCm": 34.54251289367676,
+  "garmentLengthCm": 16.09711375377477,
+  "envelopeDepthCm": 8.550355970974662,
+  "upperBodySpanCm": 16.849910383389197,
+  "units": "cm",
+  "kind": "3D display references, not manufactured garment sizing",
+  "displayScale": 0.25,
+  "method": "World-space mesh envelope and horizontal silhouette section at 75% of garment height; v2 measurements multiplied by the model-viewer scale 0.25 to report the final displayed dimensions. Display references only, not sewing or body measurements.",
+  "garmentSha256": "47265ba5174e6aac8ec164d3c0d1998eac55c6a71372eb47b4cbe09fd96bc21b",
+  "viewerScale": 0.25,
+  "sourceMeasurements": {
+    "path": "showcase/products/ATEL-63/v2/measurements.json",
+    "sha256": "b390b352bca1a6db8133cb9578ea1e46c7949557a93f88d3d04e360558f30d4c"
+  }
+}

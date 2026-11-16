@@ -1,0 +1,62 @@
+{
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-61",
+  "revision": "preparation-round-4",
+  "decision": "no-suitable-download-blocked",
+  "sourcesChecked": 2,
+  "downloadedSourceGlbHashes": [],
+  "artifacts": [
+    {
+      "path": "orders/ATEL-61/research/source-01.json",
+      "sha256": "0950c776bad44d77f7fd8a0c19cf1152aa25f5972cca8bd814df55cc353a5ef9"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-02.json",
+      "sha256": "a2aeb445cf538f8bded6a87431e5b96d3b80c121d7b1ea2c496ff858ade156c9"
+    },
+    {
+      "path": "orders/ATEL-61/research/shortlist.json",
+      "sha256": "5e2c6a2b302bb5d40ab02c05f863447a30e0eae7d8e947a1bbdb60a232c43960"
+    },
+    {
+      "path": "orders/ATEL-61/research/handoff.md",
+      "sha256": "889100b57aa6f8594bd08cc38cefb57fdfa68b5108f08409e6908e4935c6d527"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-01/github-metadata.json",
+      "sha256": "49d4cc1f6bdbe7ed467dd6fa507e66e794ce5080f95f04e5923b47f3a5281acd"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-01/README.md",
+      "sha256": "2d41f3bd72ad3767c469e7f0d4c1e0887b1d3919cc597f28248670f2306408ec"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-02/gallery-01.jpg",
+      "sha256": "b2cc23d19d0a9631e883b1f1e6acc9a297be7f654ebe029eb3e70bfbeef19349"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-02/gallery-02.jpg",
+      "sha256": "38b3521aca4c7215b1c70b23ef8b3baf196ecf712809a163ec385a055cc0e04f"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-02/gallery-03.jpg",
+      "sha256": "7672105beab054001262756b2a5cf2ba2e0fbe2a2bc5abf97c059336f6d9e552"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-02/gallery-04.jpg",
+      "sha256": "f21abc33f8a490aadccd95016bc0b4d6e64ed1e58bfb615e247dd13514283cef"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-02/gallery-05.jpg",
+      "sha256": "b49db69a4f572f944cc5f03151378d3b199ea020775d129abe1082911f6a5586"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-02/gallery-06.jpg",
+      "sha256": "0ac057e82b241fe20785931187b13c035f30759a6a6f32d3a6fd9c966684fa82"
+    },
+    {
+      "path": "orders/ATEL-61/research/source-02/gallery-07.jpg",
+      "sha256": "5a0ebd93aa471a6c0a202f2bd62c2a87a76a99b5ddf7de0ca2455b77b8d84326"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v1",
+  "stage": "qa-final",
+  "decision": "return",
+  "correctionOwner": "material",
+  "sourceManifest": {
+    "path": "orders/ATEL-63/v1/visual/visual-manifest.json",
+    "sha256": "54a197f4e28c961bb9b2025504378fe85dda80243314494b152b8d065fe8147f"
+  },
+  "displayGlb": {
+    "path": "showcase/products/ATEL-63/v1/assets/display.glb",
+    "sha256": "3f0a7ae35b70083e42c30bdcda01354128a0ec3a244348adeefb5d345e845b7f"
+  },
+  "report": {
+    "path": "quality/reports/ATEL-63/v1-final.json",
+    "sha256": "e1909837f260efac7b92fa0e1693d2d88b07f5d5719c7a50f49b8265f72e5744"
+  },
+  "findings": [
+    {
+      "id": "F-01",
+      "severity": "blocker",
+      "owner": "material",
+      "location": "Cổ/vai trên, front và top",
+      "issue": "Thu hẹp và căn lại vùng màu kem của viền cổ trong UV atlas để chỉ phủ lên băng cổ theo đường mở. Ở ảnh front/top hiện tại, phần kem tạo thành mảng phẳng rộng như yoke với cạnh vuông lộ trên vai; brief chỉ yêu cầu bo kem ở cổ, cổ tay và gấu.",
+      "evidence": [
+        "quality/evidence/ATEL-63/v1-final-browser/front.png",
+        "quality/evidence/ATEL-63/v1-final-browser/top.png"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-63/v1-final.json",
+      "sha256": "e1909837f260efac7b92fa0e1693d2d88b07f5d5719c7a50f49b8265f72e5744"
+    },
+    {
+      "path": "orders/ATEL-63/v1/visual/visual-manifest.json",
+      "sha256": "54a197f4e28c961bb9b2025504378fe85dda80243314494b152b8d065fe8147f"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v1-final-browser/front.png",
+      "sha256": "b83c73bab3ad2eb353cb951ca4846b0efac24c98a0ad0462301431ee6bd69c80"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v1-final-browser/top.png",
+      "sha256": "27394799a8327d5d5cc4d36075befa13b0e62c3b9bbad1a7da95a560aaa080cd"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v1-final-browser/browser-result.json",
+      "sha256": "dee1d84173b0cd4736ea90600151f0ae6e40968d829805aaa1a1f47b22c337f3"
+    }
+  ]
+}

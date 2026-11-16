@@ -1,0 +1,212 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.2",
+  "status": "designer-candidate-handoff; clearance retest has residual sampled penetration; QA/Lead review required; G1 not approved",
+  "designer": "atelierx-designer-0003",
+  "sourceRevision": {
+    "revision": "v2.1 frozen unchanged",
+    "garmentSha256": "d910a20b53d022754137060f2f5b0302dddbecdad685577fe0116bdc08975fda"
+  },
+  "geometryChange": {
+    "method": "Increased torso and sleeve loft radii by 30 mm; increased open cuff and collar stand radii by 30 mm; moved front placket/collar leaves/buttons outward to clear torso surface; no mannequin transforms or artwork/material changes.",
+    "clearanceTargetMeters": 0.03,
+    "sourceScript": "orders/ATEL-23/v2.2/designer/build-shirt-v2_2.mjs"
+  },
+  "garment": {
+    "path": "orders/ATEL-23/v2.2/designer/garment-v2.2.glb",
+    "sha256": "db2cd7b037dfcb3546f4e072faa59c7092d9ae4e005cdc255165909c024e2412",
+    "hasUV0": true
+  },
+  "combinedPreview": {
+    "path": "orders/ATEL-23/v2.2/fit-evidence/garment-on-mannequin-v2.2.glb",
+    "sha256": "afb221333f0d0ff752ac8efe3dd73e1bb1feb78125e627c78d98ab556ea99fe3",
+    "includes": [
+      "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+      "orders/ATEL-23/v2.2/designer/garment-v2.2.glb"
+    ],
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  },
+  "clearanceRetest": {
+    "method": "Triangle segment intersection screen plus unique involved garment triangle centroid/vertex nearest-distance and oblique ray parity against mannequin-v1; sampled only, no fabric thickness or continuous SDF.",
+    "intersectionPairs": 462,
+    "contactClearanceAnalysis": "quality/evidence/ATEL-23/v2.2/contact-clearance-analysis.json",
+    "analysisSha256": "3a0e5297a88de2d57a522273b1f1add35d3fb7f91d3dec061e898ab8109b512a",
+    "byZone": {
+      "outside QA bands": {
+        "pairs": 278,
+        "insideSamples": 453,
+        "penetratingTriangles": 233,
+        "maxSampledDepthMeters": 0.0089839
+      },
+      "neck/collar": {
+        "pairs": 184,
+        "insideSamples": 272,
+        "penetratingTriangles": 141,
+        "maxSampledDepthMeters": 0.0060405
+      }
+    },
+    "residual": true
+  },
+  "baselineClassification": {
+    "path": "quality/evidence/ATEL-30/v2.1/contact-clearance-analysis.json",
+    "sha256": "fbd630ca440f158bedde1faae5f0d27e25f1eded12d3b95af2355cf9da9a54ca",
+    "pairs": 931,
+    "pairsByZone": {
+      "front torso/hip/hem": 360,
+      "wrist/cuff": 68,
+      "neck/collar": 494,
+      "outside QA bands": 9
+    },
+    "classificationByPair": 931
+  },
+  "candidateReview": "The 30 mm radius ease removed all screened wrist/cuff and front torso/hip/hem pair contacts in v2.2, but 462 intersections remain, mostly at the upper neck/head boundary; sampled points still penetrate up to 8.98 mm outside bands and 6.04 mm at neck/collar. This candidate is not a no-clipping pass. Lead should keep QA blocked or request another geometry correction; do not approve G1.",
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit-v2_2/index.html",
+    "loaded": true,
+    "rotated": false,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "screenshots": {
+      "front": "quality/evidence/ATEL-23/v2.2/browser-fit/front.png",
+      "back": "quality/evidence/ATEL-23/v2.2/browser-fit/back.png",
+      "left": "quality/evidence/ATEL-23/v2.2/browser-fit/left.png",
+      "right": "quality/evidence/ATEL-23/v2.2/browser-fit/right.png",
+      "detail": "quality/evidence/ATEL-23/v2.2/browser-fit/detail.png",
+      "mobile": "quality/evidence/ATEL-23/v2.2/browser-fit/mobile.png"
+    },
+    "errors": [],
+    "garmentSha256": "db2cd7b037dfcb3546f4e072faa59c7092d9ae4e005cdc255165909c024e2412",
+    "combinedPreviewSha256": "afb221333f0d0ff752ac8efe3dd73e1bb1feb78125e627c78d98ab556ea99fe3"
+  },
+  "captures": {
+    "front": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/front.png",
+      "sha256": "0894fbf2a75f2edbb5f086791c84dd7ea27226e5bb919d7531022d256d1316ba"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/back.png",
+      "sha256": "1992c8dc81fc009d0346fecbca078a69754548bdaa9a6fd955fb4744557285ff"
+    },
+    "left": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/left.png",
+      "sha256": "abbb3c9a3b805183d6e2b5d153b6c57cefbf5e39123cececa53560984346fa3c"
+    },
+    "right": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/right.png",
+      "sha256": "50fbc725bdf747cfb6cb97cc889ce090d80c87042aab4eaf6511afcce1daadbd"
+    },
+    "detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/detail.png",
+      "sha256": "1b8b4338e837ea0a11645ec8b5f096610db1998968d56c13730905ab123b368d"
+    },
+    "mobile": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/mobile.png",
+      "sha256": "3023946ca887e3ef1024f9a40e94e6ef5acecfd5ec07beaf7307e6bf0cff86a4"
+    },
+    "collar-front-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/collar-front-detail.png",
+      "sha256": "eb939d5486fad039a20aadfd91cffe4396e4bf628c6342b9b363b3ca65440ca0",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 1.56,
+          "z": 0.02
+        },
+        "orbit": {
+          "theta": 0,
+          "phi": 1.2217304763960306,
+          "radius": 0.72
+        }
+      }
+    },
+    "collar-side-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/collar-side-detail.png",
+      "sha256": "e001da2ea17e247a6d696dd2453e332b2a0c5f8a5ba46692584e135f881d208e",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 1.56,
+          "z": -0.01
+        },
+        "orbit": {
+          "theta": 1.5707963267948966,
+          "phi": 1.2566370614359172,
+          "radius": 0.72
+        }
+      }
+    },
+    "cuff-positiveX-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/cuff-positiveX-detail.png",
+      "sha256": "39695a33bd6d1dbbed1ac1d6a4faf5ee9a118127f0557ccb28feac414f7d97d0",
+      "camera": {
+        "target": {
+          "x": 0.7,
+          "y": 1.5,
+          "z": -0.02
+        },
+        "orbit": {
+          "theta": 1.650819767950989,
+          "phi": 1.3089969389957472,
+          "radius": 0.68
+        }
+      }
+    },
+    "cuff-negativeX-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/cuff-negativeX-detail.png",
+      "sha256": "a235de00b7dae50a0f3e864c4af383ab6947f0c294b92bccb107ad14639ae990",
+      "camera": {
+        "target": {
+          "x": -0.7,
+          "y": 1.5,
+          "z": -0.02
+        },
+        "orbit": {
+          "theta": 4.71238898038469,
+          "phi": 1.3089969389957472,
+          "radius": 0.68
+        }
+      }
+    },
+    "hem-front-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/hem-front-detail.png",
+      "sha256": "c9f8c9c4f8fc53b16fce440fec6f7591e4fe45a22e9244f5a4736efadd6d5884",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 0.95,
+          "z": 0.05
+        },
+        "orbit": {
+          "theta": 0.17732902980324286,
+          "phi": 1.3089969389957472,
+          "radius": 0.85
+        }
+      }
+    },
+    "armhole-rear-wide": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/armhole-rear-wide.png",
+      "sha256": "2edc56efa751e33d5a1f835811fb97a122197d9af544cfaf0c6f8f6496a15084",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 1.405,
+          "z": -0.045
+        },
+        "orbit": {
+          "theta": 3.337942194439155,
+          "phi": 1.3962634015954636,
+          "radius": 2.25
+        }
+      }
+    }
+  },
+  "mannequin": {
+    "id": "atelierx-mannequin-180cm-v1",
+    "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "profile": "quality/mannequin-fit.json",
+    "sourceGLBModified": false
+  },
+  "artworkOrMaterialModified": false
+}

@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/sweater-owner/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": false,
+  "desktop": true,
+  "screenshots": {
+    "front": "/home/node/project/AtelierX/quality/evidence/sweater-owner/browser/front.png",
+    "back": "/home/node/project/AtelierX/quality/evidence/sweater-owner/browser/back.png",
+    "side": "/home/node/project/AtelierX/quality/evidence/sweater-owner/browser/side.png",
+    "oblique": "/home/node/project/AtelierX/quality/evidence/sweater-owner/browser/oblique.png",
+    "top": "/home/node/project/AtelierX/quality/evidence/sweater-owner/browser/top.png",
+    "bottom": "/home/node/project/AtelierX/quality/evidence/sweater-owner/browser/bottom.png"
+  },
+  "errors": []
+}

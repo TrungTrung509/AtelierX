@@ -1,0 +1,17 @@
+{
+  "garmentSha256": "584c2e1e9843e4a1197781b3b25b9f77b488326ee7e5b03f229ef2dba166869d",
+  "combinedSha256": "0892361ac82f570e4b8d039d998cd40a9cb33954e05ae0726da0bff329951a16",
+  "clearanceSha256": "282c1768783d70d6c49379ec0b75e4d54a92a03427d84e61d6c6f35626029cd0",
+  "intersectionSha256": "3de1d5095b2be7890973ed50230769780739632161c949f748969003ba4ff578",
+  "browserSha256": "697a1db48574f66df3674b6f4b125d461958dae25703dc389d8866d81e966735",
+  "captures": 9,
+  "revision": "v3.1",
+  "provenance": {
+    "combinedPath": "orders/ATEL-23/v3.1/fit-evidence/garment-on-mannequin-v3_1.glb",
+    "combinedSha256": "0892361ac82f570e4b8d039d998cd40a9cb33954e05ae0726da0bff329951a16",
+    "garmentPath": "orders/ATEL-23/v3.1/designer/garment-v3_1.glb",
+    "garmentSha256": "584c2e1e9843e4a1197781b3b25b9f77b488326ee7e5b03f229ef2dba166869d",
+    "mannequinPath": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "orderId": "ATEL-54",
+  "task": "TKT-009 repair source search",
+  "benchmark": "ATEL-35/v1",
+  "profile": "invisible-body-v1",
+  "generatedAt": "2026-11-15T17:32:51.124Z",
+  "selectionLimit": {
+    "minutes": 15,
+    "maxSources": 2
+  },
+  "studioBaseShirtResult": "orders/ATEL-54/research/studio-base-shirt.json",
+  "decision": "no-suitable-source",
+  "selectedBase": null,
+  "preparation": {
+    "next": "Lead mở preparation round mới để tìm một GLB sơ mi độc lập có cổ bẻ/chân cổ, nẹp, cổ tay và cửa rỗng; sau khi có nguồn, Designer xem gray shape sáu góc rồi QA đánh giá trước Material.",
+    "etaMinutes": 15,
+    "owner": "Studio Lead"
+  },
+  "sources": [
+    {
+      "id": "user-jk-school-uniform-4-5a70461c-v1",
+      "path": "quality/candidates/user-supplied/jk_school_uniform_4.glb",
+      "sha256": "5a70461c73f68660f0f1cd6f8e53878c58054c8b9e39ee65b1013b2709a8c406",
+      "type": "user-supplied outfit candidate",
+      "provenance": "Chủ dự án cung cấp trong phom cơ sở và cho phép sử dụng nội bộ AtelierX theo quality/USER_SUPPLIED_BASE_POLICY.md; không khẳng định license bên thứ ba đã xác minh.",
+      "visualEvidence": {
+        "front": "orders/ATEL-47/v1/research/source-01/front.png",
+        "back": "orders/ATEL-47/v1/research/source-01/back.png",
+        "browser": "orders/ATEL-47/v1/research/source-01/browser-result.json"
+      },
+      "previousEvidence": "orders/ATEL-47/v1/research/shortlist.json",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 14,
+        "primitiveCount": 14,
+        "hasUV0": true,
+        "uvEvidence": "orders/ATEL-47/v1/research/shortlist.json",
+        "collar": "Có cổ đồng phục viền V; không đọc thành cổ bẻ/chân cổ/lá cổ sơ mi công sở.",
+        "placketButtons": "Có hàng khuy trước; dải thân bất đối xứng và chi tiết đồng phục.",
+        "cuffs": "Có tay dài và cổ tay; nguồn hiển thị dạng outfit.",
+        "hollowOpenings": "Ảnh không xác nhận rõ các mép mở/cửa rỗng; không đủ căn cứ để claim.",
+        "drape": "Có nếp ở eo và tay nhưng thân áo gắn với váy đồng phục; không cô lập thành áo độc lập.",
+        "benchmark": "Kém ATEL-35/v1 về việc đọc được lớp vỏ áo độc lập; ảnh có outfit đồng phục chứ không phải base sơ mi."
+      },
+      "decision": "excluded",
+      "reason": "Không phù hợp áo sơ mi độc lập; áo gắn liền váy, cấu trúc cổ không phải cổ bẻ, node generic nên không chứng minh tách áo/UV an toàn. Chỉ giữ làm tham khảo thị giác, không chuyển làm base."
+    },
+    {
+      "id": "user-tshirt-c21ef90d-v1",
+      "path": "quality/candidates/user-supplied/tshirt.glb",
+      "sha256": "c21ef90d256b1f28177e8468cc9f69a83dbdd0cc4111addc23f9893e82a1103a",
+      "type": "user-supplied t-shirt source",
+      "provenance": "Chủ dự án cung cấp và cho phép sử dụng nội bộ theo quality/USER_SUPPLIED_BASE_POLICY.md; attribution gốc được ghi là Tabbuso, Sketchfab, CC-BY-4.0 trong orders/ATEL-35/v0.5/designer/source-uv-provenance.json.",
+      "visualEvidence": {
+        "front": "quality/evidence/ATEL-35/v0.5/source-preview/front.png",
+        "back": "quality/evidence/ATEL-35/v0.5/source-preview/back.png",
+        "browser": "quality/evidence/ATEL-35/v0.5/source-preview/source-preview.json"
+      },
+      "previousEvidence": "orders/ATEL-35/v0.5/designer/source-uv-provenance.json",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 4,
+        "primitiveCount": 4,
+        "hasUV0": true,
+        "uvEvidence": "orders/ATEL-35/v0.5/designer/source-uv-provenance.json",
+        "collar": "Cổ tròn rib knit, không có cổ bẻ/chân cổ/lá cổ.",
+        "placketButtons": "Không có nẹp/khuy.",
+        "cuffs": "Tay ngắn, không có cổ tay sơ mi.",
+        "hollowOpenings": "Ảnh front/back cho thấy cổ và tay dạng ống mở.",
+        "drape": "Có nếp nhẹ ở tay và thân; bề mặt xám dễ đối chiếu ATEL-35/v1.",
+        "benchmark": "Gần benchmark bề mặt vải, nhưng sai loại cấu trúc sơ mi."
+      },
+      "decision": "excluded",
+      "reason": "Nguồn áo thun cổ tròn không đáp ứng cấu trúc sơ mi có cổ bẻ, nẹp và cổ tay."
+    }
+  ]
+}

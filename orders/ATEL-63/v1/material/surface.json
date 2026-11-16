@@ -1,0 +1,28 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v1",
+  "geometryChanged": false,
+  "sourceGeometrySha256": "9c7d8b646bcbb72c2a9c10893dd2169b9a0eeee462ee5559ed07e769caca5e0a",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-63/v1/material/garment.glb",
+      "sha256": "36c76397c280f496f2361568ed73c242a9798e4a195d7fa4fd4ab9ac07258a45"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/basecolor.png",
+      "sha256": "a034692deb05f08d1b92ab852f20a873c1e0a41aae2746981377d065c53a2f2a"
+    },
+    {
+      "path": "orders/ATEL-63/material/pbr-preset-v1.json",
+      "sha256": "9a0ab0b1e79b83a135788b03443b0648b56d936d1c574655c861fc8edec2c8e0"
+    },
+    {
+      "path": "orders/ATEL-63/v1/material/sweater-uv-atlas-v1.svg",
+      "sha256": "8bda8e4b1526df6c7538363e9a936f883fe986b96b9a19cea365eb8eef494636"
+    },
+    {
+      "path": "orders/ATEL-63/material/placement-v1.json",
+      "sha256": "58e0ca83392ca489eb813a7e9cba26134db1cebdfb6091ede057337e4300479d"
+    }
+  ]
+}

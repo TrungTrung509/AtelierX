@@ -1,0 +1,112 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v3",
+  "stage": "surface",
+  "geometryChanged": false,
+  "sourceGeometry": {
+    "path": "orders/ATEL-41/v3/designer/garment-gray-authored-v3.glb",
+    "sha256": "ca03d97c8f96c6e9fe1f1bf30bedc90c7070b980b7b5f71901ae9b52e26742d7"
+  },
+  "geometryUvDataSha256": "7f7c32e7fe401e6e57e892d32ab538cd65aa27ac70dc11d7064b0171de20f308",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-41/v3/material/garment-surface-v3.glb",
+      "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+    },
+    {
+      "path": "orders/ATEL-41/material/pbr-preset-v1.json",
+      "sha256": "df493e7058c12a1fa8497bbc1bbed0f342d4edf6fa61e1b5ac7f1d11aac91c8d"
+    },
+    {
+      "path": "orders/ATEL-41/v3/shape-review-handoff.json",
+      "sha256": "4d70941b90d3df8f42b2edfe4efe62ffae2908f3ea5c4edc018f43d23aa8ef2c"
+    },
+    {
+      "path": "orders/ATEL-41/v3/independent-shape-review.json",
+      "sha256": "1c70b8b160ee5410a37b781bdb9ca5579e1f266e322780ffb44723bf98577c43"
+    },
+    {
+      "path": "orders/ATEL-41/v3/designer/shape-manifest-v3.json",
+      "sha256": "feb357df73c1df3ed5e94b03381ba8a9e399911852da65b6d3af226219b1878f"
+    },
+    {
+      "path": "orders/ATEL-41/v3/designer/provenance-v3.json",
+      "sha256": "8f76fa7929cde3f48e356f2182a5837d4cc724c592e155487c5c0bf64b920bdf"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/before/browser-result.json",
+      "sha256": "0f86efd8a8210fa65fc0f4e2f65d0a7757d47d0d1b7e30c59dbd3e305bd06659"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/before/front.png",
+      "sha256": "2300736f55d0a083663e8215e1354f5023dc6a01a401cd785ec4e750631adf5a"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/before/back.png",
+      "sha256": "c7d6090a4a506ac4a4f5868870cf5d0bff014d7517e94107e505a7f6e914ca01"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/before/side.png",
+      "sha256": "a0fc56e6191afe8db428ee0e72bfd7480d33ee3d461b5b0a69c318b0fa6bdf2e"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/before/oblique.png",
+      "sha256": "534c328eee122ce05bd2fa115403c9c6f6b36434b28782705285fb8afc8d5151"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/browser-result.json",
+      "sha256": "7a5cc135718c35bc7504ad7f3c5436ba74a8a107612c5a90d099de4f3e14721b"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/front.png",
+      "sha256": "9a9faf0584837b9ba8c47732ae65676103b78ecb7132406fac605a72b8fbcb7a"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/back.png",
+      "sha256": "d5d6ea5e92027437354f8ec392ea10cf18e93d96274b66c0cab9db6ddf0279ee"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/side.png",
+      "sha256": "8eed5ada2cfe2eec0769f3a77648c9850a38d64510f6775a54772efbd8215293"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/material/oblique.png",
+      "sha256": "c9bedfb5838c675a4aebb4fe02aca149c5803f10dbac54c4af22a12fa75aae0c"
+    }
+  ],
+  "material": {
+    "name": "ATEL-41 sand beige cotton-canvas twill simulation",
+    "simulatedMaterial": "matte cotton-canvas twill",
+    "baseColorHexSRGB": "#C8B58F",
+    "baseColorFactorLinear": [
+      0.57758,
+      0.46208,
+      0.27468,
+      1
+    ],
+    "roughnessFactor": 0.88,
+    "metallicFactor": 0
+  },
+  "evidence": {
+    "before": {
+      "browserResult": "quality/evidence/ATEL-41/v3/material/before/browser-result.json",
+      "front": "quality/evidence/ATEL-41/v3/material/before/front.png",
+      "back": "quality/evidence/ATEL-41/v3/material/before/back.png"
+    },
+    "after": {
+      "browserResult": "quality/evidence/ATEL-41/v3/material/browser-result.json",
+      "front": "quality/evidence/ATEL-41/v3/material/front.png",
+      "back": "quality/evidence/ATEL-41/v3/material/back.png",
+      "side": "quality/evidence/ATEL-41/v3/material/side.png",
+      "oblique": "quality/evidence/ATEL-41/v3/material/oblique.png"
+    }
+  },
+  "validation": {
+    "sourceGlbSha256": "ca03d97c8f96c6e9fe1f1bf30bedc90c7070b980b7b5f71901ae9b52e26742d7",
+    "outputGlbSha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd",
+    "inputBinSha256": "7f7c32e7fe401e6e57e892d32ab538cd65aa27ac70dc11d7064b0171de20f308",
+    "outputBinSha256": "7f7c32e7fe401e6e57e892d32ab538cd65aa27ac70dc11d7064b0171de20f308",
+    "geometryAndUvBinaryDataUnchanged": true,
+    "allPbrMaterialsMatchPreset": true
+  }
+}

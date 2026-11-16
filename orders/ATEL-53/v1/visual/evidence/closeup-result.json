@@ -1,0 +1,13 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-53/v1.2-surface-v1/index.html",
+  "loaded": true,
+  "contentLoaded": true,
+  "closeups": [
+    "collarCloseup",
+    "placketSideCloseup",
+    "cuffCloseup",
+    "cuffLeftCloseup"
+  ],
+  "errors": [],
+  "cuffCloseupAliasOf": "cuffRightCloseup"
+}

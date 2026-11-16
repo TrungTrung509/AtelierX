@@ -1,0 +1,9 @@
+{
+  "chestWidthCm": 60.4626213128174,
+  "garmentLengthCm": 77.18483209609985,
+  "sleeveExtentCm": 54.00000214576721,
+  "shoulderReferenceCm": 50,
+  "units": "cm",
+  "kind": "3D display references, not manufactured garment sizing",
+  "method": "World-space mesh envelope and chest section. Sleeve extent and mannequin shoulder span are display references, not sewing measurements."
+}

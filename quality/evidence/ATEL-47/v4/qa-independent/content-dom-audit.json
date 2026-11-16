@@ -1,0 +1,45 @@
+{
+  "title": "Sơ mi công sở xanh da trời sọc trắng",
+  "summary": "Sơ mi công sở phom vừa với nền xanh da trời sáng và sọc trắng mảnh đều chạy dọc thân trước, thân sau.",
+  "paragraphs": [
+    "Cổ bẻ, nẹp khuy trước, tay dài và khuy cổ tay tạo dáng gọn cho phong cách công sở trẻ.",
+    "Bề mặt mô phỏng cotton-poplin lì, có độ rủ nhẹ và nếp vải tự nhiên; đây là mô phỏng thị giác, không xác nhận thành phần hay tính năng của vải thật."
+  ],
+  "details": [
+    "Sọc trắng mảnh, đều và chạy dọc trên hai thân áo; tay, cổ, nẹp và cổ tay giữ màu xanh trơn theo placement v4.",
+    "Phom standalone vừa vặn, có volume và nếp thân nhẹ.",
+    "Cổ bẻ, hàng khuy trước, tay dài và cổ tay có khuy."
+  ],
+  "specifications": [
+    {
+      "label": "Chất liệu thiết kế",
+      "value": "Cotton-poplin mô phỏng · xanh da trời sáng"
+    },
+    {
+      "label": "Kiểu dáng",
+      "value": "Công sở trẻ, phom vừa, gọn gàng và sáng màu"
+    },
+    {
+      "label": "Rộng bao hiển thị",
+      "value": "82,6 cm"
+    },
+    {
+      "label": "Cao bao hiển thị",
+      "value": "59,1 cm"
+    },
+    {
+      "label": "Sâu bao hiển thị",
+      "value": "19,3 cm"
+    }
+  ],
+  "credits": [
+    "Hình học áo được dựng mới bằng topology độc lập cho ATEL-47, không dùng mesh nguồn hay mannequin; xem orders/ATEL-47/v4/designer/provenance-v4.json.",
+    "Màu cotton-poplin mô phỏng và họa tiết pinstripe là thiết kế thị giác theo brief/preset ATEL-47, không xác nhận thành phần hay tính năng vải thật; xem orders/ATEL-47/material/pbr-preset-v1.json."
+  ],
+  "contentLoaded": true,
+  "contentErrorVisible": false,
+  "viewerLoaded": true,
+  "dimensionsNote": "Thông số mẫu 3D tham khảo; không phải bảng size sản xuất.",
+  "creditsVisible": true,
+  "browserErrors": []
+}

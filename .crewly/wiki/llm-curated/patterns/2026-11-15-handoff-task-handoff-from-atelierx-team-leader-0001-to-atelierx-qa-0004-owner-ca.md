@@ -1,0 +1,14 @@
+---
+title: "[HANDOFF] Task handoff from atelierx-team-leader-0001 to atelierx-qa-0004: Owner canceled intermedia"
+migrated_from: "agent/atelierx-team-leader-0001/memory.json"
+original_id: "12e69ba1-2973-43c4-8a6b-f840bca37d44"
+original_author: "atelierx-team-leader-0001"
+original_date: "2026-11-15T09:18:22.417Z"
+category: "best-practice"
+confidence: 0.5
+routing_uncertain: false
+---
+
+# [HANDOFF] Task handoff from atelierx-team-leader-0001 to atelierx-qa-0004: Owner canceled intermedia
+
+[HANDOFF] Task handoff from atelierx-team-leader-0001 to atelierx-qa-0004: Owner canceled intermediate Verify tasks; use the same ATEL-35 WorkItem sequentially for the required independent shape QA, without creating a Verify/retry task. Designer has completed the v0.5-gray artifact handoff.

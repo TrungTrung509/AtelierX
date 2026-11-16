@@ -1,0 +1,1267 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.1",
+  "method": "Reconstructed every QA segment/triangle crossing pair from the exact frozen combined GLB; grouped by the QA point bands. For each unique involved garment triangle, measured centroid and 3 vertices against the mannequin with closest-point triangle distance plus oblique ray-parity inside test. This tests sampled garment surface points, not continuous volume or fabric thickness.",
+  "source": {
+    "qaReport": "quality/reports/ATEL-23/v2.1.json",
+    "qaReportSha256": "0626be5dfda5edff33ba4b78fdf3e54e6a26637f4a30afd2e6fe7c1407553913",
+    "intersectionResult": "quality/evidence/ATEL-23/v2.1/triangle-intersection-result.json",
+    "combined": "orders/ATEL-23/v2.1/fit-evidence/garment-on-mannequin-v2.1.glb",
+    "combinedSha256": "408e3c17167bf1b635195f7ffff77c035170088b16bb3deb6411e94264b49ede",
+    "garmentSha256": "d910a20b53d022754137060f2f5b0302dddbecdad685577fe0116bdc08975fda",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  },
+  "contactPairs": 931,
+  "contactPairsByZone": {
+    "front torso/hip/hem": 360,
+    "wrist/cuff": 68,
+    "neck/collar": 494,
+    "outside QA bands": 9
+  },
+  "zoneMeasurements": {
+    "front torso/hip/hem": {
+      "intersectingTrianglePairs": 360,
+      "uniqueGarmentTriangles": 279,
+      "surfaceSamples": 1116,
+      "insideSamples": 545,
+      "nearestSurfaceDistanceRangeMeters": [
+        4e-7,
+        0.0265204
+      ],
+      "garmentTrianglesWithInsideSamples": 274,
+      "maxObservedSampledDepthMeters": 0.0243684,
+      "penetratingTriangles": [
+        {
+          "garmentTriangle": 52413,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0020903
+        },
+        {
+          "garmentTriangle": 52415,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0020733
+        },
+        {
+          "garmentTriangle": 52414,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0020903
+        },
+        {
+          "garmentTriangle": 52444,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0020733
+        },
+        {
+          "garmentTriangle": 52500,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0013482
+        },
+        {
+          "garmentTriangle": 52501,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0008153
+        },
+        {
+          "garmentTriangle": 52479,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0013482
+        },
+        {
+          "garmentTriangle": 52478,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.001392
+        },
+        {
+          "garmentTriangle": 52477,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.001392
+        },
+        {
+          "garmentTriangle": 52503,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0007662
+        },
+        {
+          "garmentTriangle": 52502,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0008153
+        },
+        {
+          "garmentTriangle": 52524,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0007662
+        },
+        {
+          "garmentTriangle": 52381,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0024747
+        },
+        {
+          "garmentTriangle": 52380,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0026702
+        },
+        {
+          "garmentTriangle": 52383,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0024581
+        },
+        {
+          "garmentTriangle": 52412,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0024581
+        },
+        {
+          "garmentTriangle": 52382,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0024747
+        },
+        {
+          "garmentTriangle": 52445,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.001801
+        },
+        {
+          "garmentTriangle": 52447,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0017813
+        },
+        {
+          "garmentTriangle": 52446,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.001801
+        },
+        {
+          "garmentTriangle": 52476,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0017813
+        },
+        {
+          "garmentTriangle": 68912,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0004051
+        },
+        {
+          "garmentTriangle": 68913,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0004051
+        },
+        {
+          "garmentTriangle": 68787,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0004427
+        },
+        {
+          "garmentTriangle": 68786,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0005939
+        },
+        {
+          "garmentTriangle": 68810,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0004159
+        },
+        {
+          "garmentTriangle": 68811,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0003106
+        },
+        {
+          "garmentTriangle": 68788,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0004427
+        },
+        {
+          "garmentTriangle": 68789,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0004427
+        },
+        {
+          "garmentTriangle": 68839,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0016604
+        },
+        {
+          "garmentTriangle": 68812,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0003106
+        },
+        {
+          "garmentTriangle": 68813,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0003106
+        },
+        {
+          "garmentTriangle": 68841,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.002096
+        },
+        {
+          "garmentTriangle": 68834,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0001584
+        },
+        {
+          "garmentTriangle": 68840,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.002096
+        },
+        {
+          "garmentTriangle": 68838,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0019753
+        },
+        {
+          "garmentTriangle": 68864,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0016604
+        },
+        {
+          "garmentTriangle": 68865,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0016604
+        },
+        {
+          "garmentTriangle": 68862,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0015163
+        },
+        {
+          "garmentTriangle": 68863,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0010816
+        },
+        {
+          "garmentTriangle": 68889,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0010816
+        },
+        {
+          "garmentTriangle": 68886,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0009528
+        },
+        {
+          "garmentTriangle": 68888,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0010816
+        },
+        {
+          "garmentTriangle": 68887,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0004051
+        },
+        {
+          "garmentTriangle": 52527,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0001731
+        },
+        {
+          "garmentTriangle": 52525,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0002302
+        },
+        {
+          "garmentTriangle": 52526,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0002302
+        },
+        {
+          "garmentTriangle": 52548,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0001731
+        },
+        {
+          "garmentTriangle": 55371,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0001731
+        },
+        {
+          "garmentTriangle": 55372,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0003182
+        },
+        {
+          "garmentTriangle": 55376,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0015883
+        },
+        {
+          "garmentTriangle": 55377,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0015883
+        },
+        {
+          "garmentTriangle": 55408,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0011237
+        },
+        {
+          "garmentTriangle": 55407,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0011237
+        },
+        {
+          "garmentTriangle": 55406,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0014091
+        },
+        {
+          "garmentTriangle": 55409,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0011237
+        },
+        {
+          "garmentTriangle": 55438,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0010181
+        },
+        {
+          "garmentTriangle": 55439,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0007288
+        },
+        {
+          "garmentTriangle": 55440,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0007288
+        },
+        {
+          "garmentTriangle": 55441,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0007288
+        },
+        {
+          "garmentTriangle": 55471,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0005235
+        },
+        {
+          "garmentTriangle": 55470,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0006928
+        },
+        {
+          "garmentTriangle": 55474,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0000858
+        },
+        {
+          "garmentTriangle": 55473,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0000922
+        },
+        {
+          "garmentTriangle": 55472,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0000922
+        },
+        {
+          "garmentTriangle": 55498,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0000858
+        },
+        {
+          "garmentTriangle": 58575,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0000858
+        },
+        {
+          "garmentTriangle": 58576,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0001076
+        },
+        {
+          "garmentTriangle": 58602,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0014262
+        },
+        {
+          "garmentTriangle": 58603,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0004978
+        },
+        {
+          "garmentTriangle": 58581,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0014262
+        },
+        {
+          "garmentTriangle": 58605,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0004123
+        },
+        {
+          "garmentTriangle": 58604,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0004978
+        },
+        {
+          "garmentTriangle": 64251,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0016913
+        },
+        {
+          "garmentTriangle": 64250,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0016913
+        },
+        {
+          "garmentTriangle": 64272,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.001336
+        },
+        {
+          "garmentTriangle": 64273,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.001336
+        },
+        {
+          "garmentTriangle": 64274,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0011351
+        },
+        {
+          "garmentTriangle": 64275,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0011351
+        },
+        {
+          "garmentTriangle": 64297,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0006613
+        },
+        {
+          "garmentTriangle": 64296,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0006613
+        },
+        {
+          "garmentTriangle": 64299,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0003476
+        },
+        {
+          "garmentTriangle": 64298,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0003476
+        },
+        {
+          "garmentTriangle": 64293,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0014843
+        },
+        {
+          "garmentTriangle": 64294,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0014843
+        },
+        {
+          "garmentTriangle": 64292,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0008022
+        },
+        {
+          "garmentTriangle": 66568,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.000761
+        },
+        {
+          "garmentTriangle": 66569,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.000761
+        },
+        {
+          "garmentTriangle": 66582,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0005467
+        },
+        {
+          "garmentTriangle": 68910,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0002973
+        },
+        {
+          "garmentTriangle": 66597,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0014481
+        },
+        {
+          "garmentTriangle": 66595,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0014481
+        },
+        {
+          "garmentTriangle": 66596,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0014481
+        },
+        {
+          "garmentTriangle": 66594,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.001102
+        },
+        {
+          "garmentTriangle": 66613,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0008058
+        },
+        {
+          "garmentTriangle": 66611,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0008058
+        },
+        {
+          "garmentTriangle": 66612,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0008058
+        },
+        {
+          "garmentTriangle": 66610,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0006116
+        },
+        {
+          "garmentTriangle": 66637,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0004
+        },
+        {
+          "garmentTriangle": 66635,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0004
+        }
+      ]
+    },
+    "wrist/cuff": {
+      "intersectingTrianglePairs": 68,
+      "uniqueGarmentTriangles": 26,
+      "surfaceSamples": 104,
+      "insideSamples": 47,
+      "nearestSurfaceDistanceRangeMeters": [
+        0.0000307,
+        0.0168933
+      ],
+      "garmentTrianglesWithInsideSamples": 26,
+      "maxObservedSampledDepthMeters": 0.0168933,
+      "penetratingTriangles": [
+        {
+          "garmentTriangle": 202832,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0013702
+        },
+        {
+          "garmentTriangle": 202833,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0013702
+        },
+        {
+          "garmentTriangle": 202834,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0093673
+        },
+        {
+          "garmentTriangle": 202835,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0093673
+        },
+        {
+          "garmentTriangle": 202837,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0168933
+        },
+        {
+          "garmentTriangle": 202836,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0168933
+        },
+        {
+          "garmentTriangle": 202838,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0168933
+        },
+        {
+          "garmentTriangle": 202780,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0017587
+        },
+        {
+          "garmentTriangle": 202843,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0017587
+        },
+        {
+          "garmentTriangle": 202839,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.014473
+        },
+        {
+          "garmentTriangle": 202840,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.014473
+        },
+        {
+          "garmentTriangle": 202841,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.007776
+        },
+        {
+          "garmentTriangle": 202842,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.007776
+        },
+        {
+          "garmentTriangle": 202960,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0016482
+        },
+        {
+          "garmentTriangle": 202961,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0016482
+        },
+        {
+          "garmentTriangle": 202962,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0089258
+        },
+        {
+          "garmentTriangle": 202965,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0154717
+        },
+        {
+          "garmentTriangle": 202964,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0154717
+        },
+        {
+          "garmentTriangle": 202963,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0089258
+        },
+        {
+          "garmentTriangle": 202966,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0154717
+        },
+        {
+          "garmentTriangle": 202967,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0147852
+        },
+        {
+          "garmentTriangle": 202968,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0147852
+        },
+        {
+          "garmentTriangle": 202969,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0082919
+        },
+        {
+          "garmentTriangle": 202970,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0082919
+        },
+        {
+          "garmentTriangle": 202971,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0026357
+        },
+        {
+          "garmentTriangle": 202908,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0026357
+        }
+      ]
+    },
+    "neck/collar": {
+      "intersectingTrianglePairs": 494,
+      "uniqueGarmentTriangles": 377,
+      "surfaceSamples": 1508,
+      "insideSamples": 735,
+      "nearestSurfaceDistanceRangeMeters": [
+        8e-7,
+        0.0263816
+      ],
+      "garmentTrianglesWithInsideSamples": 377,
+      "maxObservedSampledDepthMeters": 0.0263816,
+      "penetratingTriangles": [
+        {
+          "garmentTriangle": 203035,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0038392
+        },
+        {
+          "garmentTriangle": 203036,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0010448
+        },
+        {
+          "garmentTriangle": 203037,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0010448
+        },
+        {
+          "garmentTriangle": 203034,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0038392
+        },
+        {
+          "garmentTriangle": 203033,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0045465
+        },
+        {
+          "garmentTriangle": 203032,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0045465
+        },
+        {
+          "garmentTriangle": 203031,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0053524
+        },
+        {
+          "garmentTriangle": 203030,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0053524
+        },
+        {
+          "garmentTriangle": 203029,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0053524
+        },
+        {
+          "garmentTriangle": 203028,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0028204
+        },
+        {
+          "garmentTriangle": 203027,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0028204
+        },
+        {
+          "garmentTriangle": 203026,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0006599
+        },
+        {
+          "garmentTriangle": 203025,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0006599
+        },
+        {
+          "garmentTriangle": 88306,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0017122
+        },
+        {
+          "garmentTriangle": 88307,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0017122
+        },
+        {
+          "garmentTriangle": 88305,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0017122
+        },
+        {
+          "garmentTriangle": 88308,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0024538
+        },
+        {
+          "garmentTriangle": 94355,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0007944
+        },
+        {
+          "garmentTriangle": 98394,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0016561
+        },
+        {
+          "garmentTriangle": 98400,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0012186
+        },
+        {
+          "garmentTriangle": 98401,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0016561
+        },
+        {
+          "garmentTriangle": 100379,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0002623
+        },
+        {
+          "garmentTriangle": 100381,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0002623
+        },
+        {
+          "garmentTriangle": 100380,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0007561
+        },
+        {
+          "garmentTriangle": 102350,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0014844
+        },
+        {
+          "garmentTriangle": 100382,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0002623
+        },
+        {
+          "garmentTriangle": 100383,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0016561
+        },
+        {
+          "garmentTriangle": 102349,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0014844
+        },
+        {
+          "garmentTriangle": 92343,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0026687
+        },
+        {
+          "garmentTriangle": 92344,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0026687
+        },
+        {
+          "garmentTriangle": 92346,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0038646
+        },
+        {
+          "garmentTriangle": 92345,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0026687
+        },
+        {
+          "garmentTriangle": 92351,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0085418
+        },
+        {
+          "garmentTriangle": 92352,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0085418
+        },
+        {
+          "garmentTriangle": 90308,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0036496
+        },
+        {
+          "garmentTriangle": 90307,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0022815
+        },
+        {
+          "garmentTriangle": 94360,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0024956
+        },
+        {
+          "garmentTriangle": 94359,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0007944
+        },
+        {
+          "garmentTriangle": 94366,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0078496
+        },
+        {
+          "garmentTriangle": 94365,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0078496
+        },
+        {
+          "garmentTriangle": 92341,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0026687
+        },
+        {
+          "garmentTriangle": 92342,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0036737
+        },
+        {
+          "garmentTriangle": 90310,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0022815
+        },
+        {
+          "garmentTriangle": 90309,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0022815
+        },
+        {
+          "garmentTriangle": 88296,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0011113
+        },
+        {
+          "garmentTriangle": 90311,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0022815
+        },
+        {
+          "garmentTriangle": 90317,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0060279
+        },
+        {
+          "garmentTriangle": 90318,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0060279
+        },
+        {
+          "garmentTriangle": 88300,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0003008
+        },
+        {
+          "garmentTriangle": 88301,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0022382
+        },
+        {
+          "garmentTriangle": 88294,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0022382
+        },
+        {
+          "garmentTriangle": 90312,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0031474
+        },
+        {
+          "garmentTriangle": 94356,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0015589
+        },
+        {
+          "garmentTriangle": 94357,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0007944
+        },
+        {
+          "garmentTriangle": 94358,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0007944
+        },
+        {
+          "garmentTriangle": 96391,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0041597
+        },
+        {
+          "garmentTriangle": 96392,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0041597
+        },
+        {
+          "garmentTriangle": 96389,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0041597
+        },
+        {
+          "garmentTriangle": 96390,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0049243
+        },
+        {
+          "garmentTriangle": 98405,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0073473
+        },
+        {
+          "garmentTriangle": 98406,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0073473
+        },
+        {
+          "garmentTriangle": 203067,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0060549
+        },
+        {
+          "garmentTriangle": 203066,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0060549
+        },
+        {
+          "garmentTriangle": 203064,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.003321
+        },
+        {
+          "garmentTriangle": 203065,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.003321
+        },
+        {
+          "garmentTriangle": 86212,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0006136
+        },
+        {
+          "garmentTriangle": 88313,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0034248
+        },
+        {
+          "garmentTriangle": 88314,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0034248
+        },
+        {
+          "garmentTriangle": 88315,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0034248
+        },
+        {
+          "garmentTriangle": 86119,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0024762
+        },
+        {
+          "garmentTriangle": 86219,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0006136
+        },
+        {
+          "garmentTriangle": 86221,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0006136
+        },
+        {
+          "garmentTriangle": 86222,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.00125
+        },
+        {
+          "garmentTriangle": 86220,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0022803
+        },
+        {
+          "garmentTriangle": 86227,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0022803
+        },
+        {
+          "garmentTriangle": 86230,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0026117
+        },
+        {
+          "garmentTriangle": 86235,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0031061
+        },
+        {
+          "garmentTriangle": 86228,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0031061
+        },
+        {
+          "garmentTriangle": 86229,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0022803
+        },
+        {
+          "garmentTriangle": 86108,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0013274
+        },
+        {
+          "garmentTriangle": 86107,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0013274
+        },
+        {
+          "garmentTriangle": 86106,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0031023
+        },
+        {
+          "garmentTriangle": 86238,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0031061
+        },
+        {
+          "garmentTriangle": 86239,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0031061
+        },
+        {
+          "garmentTriangle": 86236,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0031023
+        },
+        {
+          "garmentTriangle": 86237,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0031053
+        },
+        {
+          "garmentTriangle": 86115,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0008417
+        },
+        {
+          "garmentTriangle": 86109,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0013274
+        },
+        {
+          "garmentTriangle": 86110,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0013274
+        },
+        {
+          "garmentTriangle": 86112,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0030195
+        },
+        {
+          "garmentTriangle": 86114,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0030234
+        },
+        {
+          "garmentTriangle": 86113,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0030234
+        },
+        {
+          "garmentTriangle": 86121,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0024762
+        },
+        {
+          "garmentTriangle": 86122,
+          "insideSamples": 3,
+          "maxSampledDepthMeters": 0.0024762
+        },
+        {
+          "garmentTriangle": 86127,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0012371
+        },
+        {
+          "garmentTriangle": 86120,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0020585
+        },
+        {
+          "garmentTriangle": 86131,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0012371
+        },
+        {
+          "garmentTriangle": 86130,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0012371
+        },
+        {
+          "garmentTriangle": 86129,
+          "insideSamples": 2,
+          "maxSampledDepthMeters": 0.0012346
+        },
+        {
+          "garmentTriangle": 86128,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0012283
+        }
+      ]
+    },
+    "outside QA bands": {
+      "intersectingTrianglePairs": 9,
+      "uniqueGarmentTriangles": 2,
+      "surfaceSamples": 8,
+      "insideSamples": 2,
+      "nearestSurfaceDistanceRangeMeters": [
+        0.0057958,
+        0.0265204
+      ],
+      "garmentTrianglesWithInsideSamples": 2,
+      "maxObservedSampledDepthMeters": 0.0243684,
+      "penetratingTriangles": [
+        {
+          "garmentTriangle": 203165,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0057958
+        },
+        {
+          "garmentTriangle": 203164,
+          "insideSamples": 1,
+          "maxSampledDepthMeters": 0.0243684
+        }
+      ]
+    }
+  },
+  "rayParitySanityChecks": [
+    {
+      "point": [
+        0,
+        0,
+        2
+      ],
+      "expectedInside": false,
+      "measuredInside": false,
+      "nearest": {
+        "distance": 1.8619680515719286,
+        "triangle": 19529
+      }
+    },
+    {
+      "point": [
+        0,
+        1.38,
+        0.02
+      ],
+      "expectedInside": true,
+      "measuredInside": true,
+      "nearest": {
+        "distance": 0.07914593474085091,
+        "triangle": 13901
+      }
+    },
+    {
+      "point": [
+        1.2,
+        1.5,
+        0
+      ],
+      "expectedInside": false,
+      "measuredInside": false,
+      "nearest": {
+        "distance": 0.23624435134389266,
+        "triangle": 608
+      }
+    }
+  ],
+  "limitations": [
+    "This is sampled point-in-mesh evidence, not a volumetric boolean or continuous signed-distance field; narrow penetrations between samples can be missed.",
+    "At exact contact/intersection points, distance is zero by construction; this report separately samples involved garment triangle vertices and centroids.",
+    "A crossing pair can reflect a boundary/opening contact; pair counts are not defect counts.",
+    "Inside/outside classification assumes mannequin shell is closed and uses one oblique ray; sanity points are included.",
+    "No garment thickness/cloth simulation is modeled. QA/Lead must interpret clearances visually and decide G1."
+  ]
+}

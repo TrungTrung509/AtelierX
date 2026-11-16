@@ -1,0 +1,55 @@
+{
+  "order": "ATEL-1",
+  "revision": "v3",
+  "baseMeshId": "grab3d-hoodie-clean-v2-neckfix-placement-v3",
+  "geometry": {
+    "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/hoodie-mesh-revision.glb",
+    "sha256": "34374edd321b7e8396656e7d5a003e359d9349c5cc35bb5bc37a5c99145141bf"
+  },
+  "uvConvention": "Texture origin upper-left; U maps horizontal texture axis and V vertical texture axis; approved mesh back island is rotated relative to garment vertical.",
+  "material": {
+    "slot": "hoodie_body_pbr",
+    "baseColor": "#0f1012–#17191b black woven fabric",
+    "baseColorTexture": "quality/evidence/ATEL-1/v3/hoodie-black-skull-texture-v3.png",
+    "normalRoughness": "Retained from approved geometry GLB; no geometry/material slots changed.",
+    "frontPrint": "none"
+  },
+  "artwork": {
+    "path": "quality/evidence/ATEL-1/v3/artwork/one-eyed-skull-back-v3.svg",
+    "sha256": "855cd35ca8e7aa33b1842275d091d26f9ad7a802b28bb448ca1510e0b69b75d2",
+    "description": "Original AtelierX vector artwork for ATEL-1 v3: skull with one red iris/open eye socket, single nasal opening, defined jaw and teeth; no second eye socket.",
+    "externalAssets": "None; artwork authored for this revision."
+  },
+  "placement": {
+    "back": {
+      "center": {
+        "u": 0.5,
+        "v": 0.763
+      },
+      "bounds": {
+        "u": [
+          0.431,
+          0.569
+        ],
+        "v": [
+          0.717,
+          0.809
+        ]
+      },
+      "scale": "Artwork expanded 15% from initial diagnostic placement for normal-viewer legibility; remains inside measured torso UV island.",
+      "orientation": "Artwork is rotated +90° in texture space to compensate for the approved back UV island orientation; final browser capture confirms upright mark.",
+      "placement": "Centered on lower back panel, below hood footprint and above hem. Only the back is printed."
+    },
+    "front": "No print, per ATEL-1 brief."
+  },
+  "productGLB": {
+    "path": "quality/evidence/ATEL-1/v3/hoodie-black-one-eyed-skull-v3.glb",
+    "sha256": "e4e6de8795a341321e22d4aa852e56836fd58fab1411ee7f5590224c47ed7cb1"
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel1-v3/index.html",
+    "result": "quality/evidence/ATEL-1/v3/browser/browser-result.json",
+    "resultSha256": "25675494fae060443155c900615dd09cc119a62c219b53be0ddf69901918ff8c"
+  },
+  "status": "Designer preview; product QA retest and Visual Studio integration pending."
+}

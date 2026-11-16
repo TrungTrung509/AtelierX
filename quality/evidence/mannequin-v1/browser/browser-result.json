@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/mannequin/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "/home/node/project/AtelierX/quality/evidence/mannequin-v1/browser/front.png",
+    "back": "/home/node/project/AtelierX/quality/evidence/mannequin-v1/browser/back.png",
+    "left": "/home/node/project/AtelierX/quality/evidence/mannequin-v1/browser/left.png",
+    "right": "/home/node/project/AtelierX/quality/evidence/mannequin-v1/browser/right.png",
+    "detail": "/home/node/project/AtelierX/quality/evidence/mannequin-v1/browser/detail.png",
+    "mobile": "/home/node/project/AtelierX/quality/evidence/mannequin-v1/browser/mobile.png"
+  },
+  "errors": []
+}

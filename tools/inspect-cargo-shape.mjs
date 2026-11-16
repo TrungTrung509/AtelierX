@@ -1,0 +1,5 @@
+import {readGlb,primitives} from './showcase-glb.mjs';
+const d=readGlb('showcase/products/ATEL-41/v4/assets/display.glb'),p=primitives(d)[0];
+for(let y=0;y<=1.1;y+=.05){const ps=p.points.filter(v=>Math.abs(v[1]-y)<.012);if(ps.length<5)continue;console.log(JSON.stringify({y:+y.toFixed(2),n:ps.length,x:[Math.min(...ps.map(v=>v[0])),Math.max(...ps.map(v=>v[0]))],z:[Math.min(...ps.map(v=>v[2])),Math.max(...ps.map(v=>v[2]))]}))}
+console.log('vertices',p.points.length,'triangles',p.indices.length/3,'material',d.g.materials[0]);
+const groups={};for(let i=0;i<p.indices.length;i+=3){const [a,b,c]=p.indices.slice(i,i+3).map(j=>p.points[j]);const y=(a[1]+b[1]+c[1])/3;const u=b.map((v,k)=>v-a[k]),v=c.map((w,k)=>w-a[k]);const ny=u[2]*v[0]-u[0]*v[2],area=Math.hypot(u[1]*v[2]-u[2]*v[1],ny,u[0]*v[1]-u[1]*v[0])/2;if(area<1e-10)continue;const horizontal=Math.abs(ny)/(2*area)>.94;if(!horizontal)continue;const key=y>.85?'top':y<.10?'bottom':null;if(!key)continue;const g=groups[key]??={count:0,area:0,ymin:Infinity,ymax:-Infinity};g.count++;g.area+=area;g.ymin=Math.min(g.ymin,y);g.ymax=Math.max(g.ymax,y)}console.log('HORIZONTAL',groups);

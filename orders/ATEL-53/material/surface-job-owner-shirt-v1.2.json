@@ -1,0 +1,10 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.2-surface-v1",
+  "garment": "orders/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+  "garmentSha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c",
+  "material": "orders/ATEL-53/material/pbr-preset-owner-shirt-v1.2.json",
+  "placementProfile": "orders/ATEL-53/material/placement-owner-shirt-v1.2.json",
+  "artwork": "orders/ATEL-53/material/pinstripe-artwork-v1.svg",
+  "method": "Per-fabric-mesh TEXCOORD_0 base-color bake; preserve exact approved geometry, transforms and UVs."
+}

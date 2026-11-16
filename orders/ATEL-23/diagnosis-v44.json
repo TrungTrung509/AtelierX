@@ -1,0 +1,7 @@
+{
+  "findings": [
+    "Button faces built in XZ plane; frontal XY projection is edge-on. Fix XY circle, thickness on Z.",
+    "Shirt masking capped at y=1.44 below shoulder y~1.50; now y=1.55, below neck 1.57."
+  ],
+  "validation": "Run tools/check-shirt-buttons.mjs then render 4 views. Do not approve without visual QA."
+}

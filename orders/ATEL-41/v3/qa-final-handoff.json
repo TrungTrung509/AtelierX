@@ -1,0 +1,53 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v3",
+  "decision": "return",
+  "correctionOwner": "visual",
+  "qaReport": "quality/reports/ATEL-41-v3.json",
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-41-v3.json",
+      "sha256": "edcf478cc8fd77afd98429bddf8de446168838ba12c0f209a39f22f58c8dd162"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/qa-final-independent/browser-result.json",
+      "sha256": "0dc653ff3bfb1336fa634cf8b567d41b12ec1e53aa1dfe33b5fb6c6c1bc02327"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/qa-final-independent/front.png",
+      "sha256": "c78b687503232b81d3372e3037ce3b7ae04d1825b18b860fe5a988cae1e0c7a3"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/qa-final-independent/back.png",
+      "sha256": "4127f61b0d6e39cf75f9d8c06edc9e180006ce8b1e79a98d43515efaa304da79"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/qa-final-independent/side.png",
+      "sha256": "cb75a012953b19f438cfd750256429dbc0def5bd517d192d59be4ce70bd9dca5"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/qa-final-independent/oblique.png",
+      "sha256": "7bbc282c9166d6ce13d4c191f5dd9199cf7da696da627fa33c2be81757666ae4"
+    },
+    {
+      "path": "showcase/products/ATEL-41/v3/assets/display.glb",
+      "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+    },
+    {
+      "path": "showcase/products/ATEL-41/v3/index.html",
+      "sha256": "03cdb39f007760124b8eefa5c8331f7fa9e7e0702e7c55808dd77fb4fabaa926"
+    },
+    {
+      "path": "showcase/products/ATEL-41/v3/content.json",
+      "sha256": "a1dfb0d7d8422f8616079337f431d5beae6632ade63751ca71203cb2aae49fe1"
+    },
+    {
+      "path": "showcase/products/ATEL-41/v3/assembly.json",
+      "sha256": "f6778a8cff2c6e2b79a200b5801bbc2011e1e60d0b041373b7fd82e7ab663421"
+    },
+    {
+      "path": "orders/ATEL-41/v3/visual/visual-manifest-v3.json",
+      "sha256": "aed6a0c6aa75a081a087700382415cc50c789dd93cc84ed162f3489006c1ffe3"
+    }
+  ]
+}

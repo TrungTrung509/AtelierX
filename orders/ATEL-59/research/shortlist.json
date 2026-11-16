@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-59",
+  "profile": "invisible-body-v1",
+  "benchmark": "ATEL-35/v1",
+  "selectionLimit": {
+    "minutes": 15,
+    "maxSources": 2
+  },
+  "decision": "no-suitable-source-found-blocked",
+  "selectedBase": null,
+  "sourcesInspectedThisRound": 2,
+  "sources": [
+    "orders/ATEL-59/research/source-01.json",
+    "orders/ATEL-59/research/source-02.json"
+  ],
+  "blocker": "Hai nguồn mới đã kiểm front/back đều không phù hợp: nguồn 01 là outfit nhiều lớp che áo sơ mi; nguồn 02 là crop top không tay cổ V, không có cổ bẻ/nẹp/khuy/măng sét. Không còn nguồn sơ mi độc lập mới có thể xác minh trong thư viện local mà không lặp nguồn đã bị loại.",
+  "nextStep": "Studio Lead cần mở preparation round mới và phân công tìm tối đa hai GLB sơ mi độc lập tải được, có front/back evidence và provenance; giữ ATEL-47/v4 excluded.",
+  "etaMinutes": 15,
+  "etaBasis": "Research median 6 min; round extension needs 15 minutes to source and render up to two additional new permitted candidates."
+}

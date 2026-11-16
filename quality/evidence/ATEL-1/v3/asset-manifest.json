@@ -1,0 +1,76 @@
+{
+  "order": "ATEL-1",
+  "revision": "v3",
+  "status": "preview handoff; not approved/published",
+  "product": "Black pullover hoodie with one-eyed skull on back",
+  "base": {
+    "baseMeshId": "grab3d-hoodie-clean-v2-neckfix-placement-v3",
+    "geometryRevision": "clean-v2-neckfix-placement-v3",
+    "geometryFile": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/hoodie-mesh-revision.glb",
+    "geometrySha256": "34374edd321b7e8396656e7d5a003e359d9349c5cc35bb5bc37a5c99145141bf",
+    "derivedFrom": "grab3d-hoodie-clean-v2",
+    "sourceSHA256": "42dc0075e632eab84256f71d9cc88b6eb6d54d04cbff3682f548f62e55994a13",
+    "sourceStatus": "candidate (source SHA is provenance only; not used as geometry revision)",
+    "sourceURL": "https://grab3d.com/models/props/hoodie/",
+    "license": "CC0-1.0",
+    "licenseFile": "quality/candidates/grab3d-hoodie-LICENSE.txt"
+  },
+  "productGLB": {
+    "path": "quality/evidence/ATEL-1/v3/hoodie-black-one-eyed-skull-v3.glb",
+    "sha256": "e4e6de8795a341321e22d4aa852e56836fd58fab1411ee7f5590224c47ed7cb1"
+  },
+  "artwork": {
+    "path": "quality/evidence/ATEL-1/v3/artwork/one-eyed-skull-back-v3.svg",
+    "sha256": "855cd35ca8e7aa33b1842275d091d26f9ad7a802b28bb448ca1510e0b69b75d2",
+    "authorship": "Original vector created for AtelierX ATEL-1/v3; no external assets."
+  },
+  "texture": {
+    "path": "quality/evidence/ATEL-1/v3/hoodie-black-skull-texture-v3.png",
+    "sha256": "7bc67d0b2f09c7823f60d71d13aa87309be387ed2e78cab7747cf6dddc0b2b2a",
+    "description": "Black fabric base-color with one-eyed skull artwork composited on back UV placement; front has no print."
+  },
+  "materialSlot": "hoodie_body_pbr",
+  "placementProfile": "quality/evidence/ATEL-1/v3/placement-profile.json",
+  "captures": {
+    "front": {
+      "path": "quality/evidence/ATEL-1/v3/browser/front.png",
+      "sha256": "1ce2683bf6bea492c23d24598f1293ab2878e5d0f66945d13254680b5eeacff7"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-1/v3/browser/back.png",
+      "sha256": "148701ff28407135c15e2283a189ecdb56da36f8821d37b1e152625a961aaa7d"
+    },
+    "left": {
+      "path": "quality/evidence/ATEL-1/v3/browser/left.png",
+      "sha256": "0075809fc5ffe31957eaced67a4a77c52aeb456078042207481c872147347fd1"
+    },
+    "right": {
+      "path": "quality/evidence/ATEL-1/v3/browser/right.png",
+      "sha256": "dc54ba0b5d0884013374430eb45b662a530d346c1cb91e6672896bdc5df086ba"
+    },
+    "detail": {
+      "path": "quality/evidence/ATEL-1/v3/browser/detail.png",
+      "sha256": "bf1db5d82666d1e4454d28c28023fb8662dd5ad75d228c769510fca8b29f724f"
+    },
+    "mobile": {
+      "path": "quality/evidence/ATEL-1/v3/browser/mobile.png",
+      "sha256": "b346180b01711ecc19a8ef3e430c490c59b5964a062f4e0bd243da33fb2b3068"
+    }
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel1-v3/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "resultFile": "quality/evidence/ATEL-1/v3/browser/browser-result.json"
+  },
+  "integration": {
+    "temporaryPreview": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel1-v3/index.html",
+    "catalogOrShowcaseChanged": false,
+    "viewerSourceChanged": false,
+    "nextOwner": "Visual Studio integrates the GLB into ATEL-1 viewer; QA then retests the integrated revision."
+  }
+}

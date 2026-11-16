@@ -1,0 +1,17 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v1",
+  "preset": {
+    "path": "orders/ATEL-35/material/pbr-preset-v1.json",
+    "sha256": "5555b6b4b9fab4794b7d359eb11c79243e7eec63cc698e89cc4bbce7a87c79c9",
+    "bytes": 1474
+  },
+  "source": "orders/ATEL-35/brief.md",
+  "shader": "glTF 2.0 metallicRoughness",
+  "parameters": {
+    "baseColorHexSRGB": "#EBDDCA",
+    "roughnessFactor": 0.82,
+    "metallicFactor": 0
+  },
+  "evidenceScope": "Standalone preset only; not yet applied to or visually assessed on the final garment."
+}

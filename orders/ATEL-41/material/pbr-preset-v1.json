@@ -1,0 +1,30 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v1",
+  "materialName": "ATEL-41 sand beige cotton-canvas twill simulation",
+  "shader": "glTF 2.0 metallicRoughness",
+  "scope": "Surface preset for cargo trousers; no artwork or garment geometry included.",
+  "appearance": {
+    "simulatedMaterial": "matte cotton-canvas twill",
+    "baseColorHexSRGB": "#C8B58F",
+    "baseColorFactorLinear": [0.57758, 0.46208, 0.27468, 1.0],
+    "roughnessFactor": 0.88,
+    "metallicFactor": 0.0,
+    "alphaMode": "OPAQUE"
+  },
+  "textureMaps": {
+    "baseColor": null,
+    "roughness": null,
+    "normal": null
+  },
+  "applicationNotes": [
+    "Apply the linear base color, roughness, and metallic values with the glTF 2.0 metallic-roughness workflow.",
+    "This is a neutral sand-beige matte preset; verify under neutral lighting on front and back after applying to the approved geometry.",
+    "Preserve the approved geometry, UVs, and distinct cargo details when assigning material; do not modify geometry or UVs."
+  ],
+  "source": {
+    "brief": "ATEL-41 owner brief: sand beige cargo trousers; simulated cotton/canvas twill.",
+    "provenance": "Artist-authored visualization values derived from the requested sand-beige appearance; no external texture or measured textile data used.",
+    "limitations": "Cotton-canvas twill is a visual simulation only and does not certify fiber composition, hand, or manufacturing properties."
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "stage": "visual",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "provenance": {
+    "geometry": "AtelierX-authored standalone shirt; surface v4 preserves the QA-approved geometry.",
+    "shapeReview": {
+      "path": "orders/ATEL-47/v4/independent-shape-review.json",
+      "sha256": "976bc735bb7eccf00fb166538e71f727a941e5f23d3f9920662a3be14c027c65",
+      "decision": "pass"
+    },
+    "surface": {
+      "path": "orders/ATEL-47/v4/material/garment-surface-v4.glb",
+      "sha256": "34c4183689f4022d89d55cc33b8a31a7ccb43299a64a95caee4c29a9cede5f12",
+      "revision": "v4",
+      "geometryChanged": false
+    },
+    "content": {
+      "path": "orders/ATEL-47/v4/research/content-v4.json",
+      "sha256": "6a34fc63cc24857044dbd83987043426e664f7b830aa6fee2024e68f5d005af6",
+      "revision": "v4"
+    }
+  },
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-47/v4/index.html",
+  "qaWorkItemId": "3525b4c5-f05c-4945-85af-c9fc32b6f6a6",
+  "browserQa": {
+    "path": "quality/evidence/ATEL-47/v4/browser-qa-basic/browser-result.json",
+    "sha256": "f3c97460396f734821d677648c73b5790a6dc2ff8a82207e739f98bae0bb1339",
+    "views": [
+      "front",
+      "back",
+      "side",
+      "oblique"
+    ],
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": []
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v4/visual/showcase-job-v4.json",
+      "sha256": "913c4298ca4c6be3574de7c601a47ff61393d98aef6ee7b585da5fc51bac592f"
+    },
+    {
+      "path": "orders/ATEL-47/v4/research/content-manifest-v4.json",
+      "sha256": "05159311941a768a6f2ad93631806602260c0f6c884c580f4500610ea0e673ce"
+    },
+    {
+      "path": "orders/ATEL-47/v4/research/content-v4.json",
+      "sha256": "6a34fc63cc24857044dbd83987043426e664f7b830aa6fee2024e68f5d005af6"
+    },
+    {
+      "path": "orders/ATEL-47/v4/material/surface-manifest-v4.json",
+      "sha256": "e8279252af08bd5b40b6bd90aa900045ecfe8131154525d6377408ac0d24d913"
+    },
+    {
+      "path": "orders/ATEL-47/v4/surface-handoff.json",
+      "sha256": "52f85b3c3d4637725118b991b0c2616b5bd268891d0596d32a96675fa5828cbc"
+    },
+    {
+      "path": "orders/ATEL-47/v4/material/garment-surface-v4.glb",
+      "sha256": "34c4183689f4022d89d55cc33b8a31a7ccb43299a64a95caee4c29a9cede5f12"
+    },
+    {
+      "path": "orders/ATEL-47/v4/shape-review-handoff.json",
+      "sha256": "505095d3ac6bca59b84448d57ee39f1c8c80c22f4628fe6b534f1815672f37bf"
+    },
+    {
+      "path": "orders/ATEL-47/v4/independent-shape-review.json",
+      "sha256": "976bc735bb7eccf00fb166538e71f727a941e5f23d3f9920662a3be14c027c65"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/provenance-v4.json",
+      "sha256": "29df9d0c8655f595140fabdfa7331687ca9f6e4c30f617af1e7cf7052efd67dc"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/placement-v4.md",
+      "sha256": "545ddfcb6017da444923570d87904606e2d437a6fa87a626891ec984c1ed6106"
+    },
+    {
+      "path": "orders/ATEL-47/material/pbr-preset-v1.json",
+      "sha256": "6447378c46d3bea0d7c90f1055b55d917847f3eaada3e8544e903dfe5626ea2b"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/assembly.json",
+      "sha256": "4ccae7c65e6cd8c5625b12e913d08b2252c62ca40c787d25c84316f2bb1aaeef"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/assets/display.glb",
+      "sha256": "4abb9986b7f8079be07583a1c7e064712048592cf5fa28e239a5b442af577fb9"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/assets/asset-manifest.json",
+      "sha256": "e4c3dae1d0de6d008b70b1ed00d6b996b24247601cacae34842f16caf0c06f5d"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/content.json",
+      "sha256": "6a34fc63cc24857044dbd83987043426e664f7b830aa6fee2024e68f5d005af6"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/index.html",
+      "sha256": "9269c8162cb02992d6d201013a869118bedfedb2289c2fac56564f584968cc70"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/measurements.json",
+      "sha256": "e3f962bc064d17b3df78e3b9669c3c1480835d6f38049d04852aa7a42524cae4"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/browser-qa-basic/browser-result.json",
+      "sha256": "f3c97460396f734821d677648c73b5790a6dc2ff8a82207e739f98bae0bb1339"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/browser-qa-basic/front.png",
+      "sha256": "6896f85b90c4fe66afb3b85227310747f53fa7149b899802db1af1df58d149eb"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/browser-qa-basic/back.png",
+      "sha256": "a1faee21fcc2bfd8b1a6e6bdaf316384a681423d067a2ecc22f62d05cb6ab1fe"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/browser-qa-basic/side.png",
+      "sha256": "ee5285d19ebdc89edb8ea6088ee4f594673027cd24829def35ec616174848348"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/browser-qa-basic/oblique.png",
+      "sha256": "808e22ed61c1bfd5260d139de63648fba08520eba3cd9de3fa3775513f2250e9"
+    }
+  ]
+}

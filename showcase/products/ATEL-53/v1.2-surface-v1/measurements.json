@@ -1,0 +1,8 @@
+{
+  "envelopeWidthCm": 64.43459987640381,
+  "garmentLengthCm": 65.86771011352539,
+  "envelopeDepthCm": 28.648999333381642,
+  "units": "cm",
+  "kind": "3D display references, not manufactured garment sizing",
+  "method": "World-space envelope of the complete garment mesh in meters. Display references only, not sewing or body measurements."
+}

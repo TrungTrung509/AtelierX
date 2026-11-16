@@ -1,0 +1,27 @@
+orientation t24: False->True; same=0.295 reverse=0.305
+draft=ATEL-53 Shirt Pattern Draft B; pieces=12; seams=24
+seam t01 Front body[1]-Back body[7] n=22 p90=0.000 max=0.014
+seam t02 Front body[7]-Back body[1] n=22 p90=0.000 max=0.001
+seam t03 Front body[3]-Back body[5] n=7 p90=0.056 max=0.068
+seam t04 Front body[5]-Back body[3] n=8 p90=0.029 max=0.038
+seam t05 Sleeve L[2]-Back body[6] n=14 p90=0.011 max=0.068
+seam t06 Sleeve L[3]-Front body[2] n=14 p90=0.000 max=0.001
+seam t07 Sleeve L[1]-Sleeve L[4] n=25 p90=0.012 max=0.025
+seam t08 Sleeve L[0]-Open cuff L[2] n=17 p90=0.000 max=0.000
+seam t09 Open cuff L[1]-Open cuff L[3] n=5 p90=0.000 max=0.000
+seam t10 Sleeve R[2]-Front body[6] n=14 p90=0.000 max=0.001
+seam t11 Sleeve R[3]-Back body[2] n=14 p90=0.000 max=0.000
+seam t12 Sleeve R[1]-Sleeve R[4] n=25 p90=0.000 max=0.000
+seam t13 Sleeve R[0]-Open cuff R[2] n=17 p90=0.000 max=0.000
+seam t14 Open cuff R[1]-Open cuff R[3] n=5 p90=0.000 max=0.000
+seam t15 Front body[5]-Front collar stand L[0] n=8 p90=0.007 max=0.053
+seam t16 Back body[5]-Back collar stand L[0] n=7 p90=0.028 max=0.034
+seam t17 Front collar stand L[1]-Back collar stand L[1] n=3 p90=0.122 max=0.133
+seam t18 Front body[4]-Front collar stand R[0] n=12 p90=0.000 max=0.002
+seam t19 Back body[4]-Back collar stand R[0] n=12 p90=0.001 max=0.020
+seam t20 Front collar stand R[1]-Back collar stand R[3] n=3 p90=0.048 max=0.053
+seam t21 Collar leaf L[0]-Front collar stand L[3] n=8 p90=0.044 max=0.073
+seam t22 Collar leaf L[1]-Back collar stand L[2] n=7 p90=0.001 max=0.031
+seam t23 Collar leaf R[0]-Front collar stand R[2] n=8 p90=0.000 max=0.000
+seam t24 Collar leaf R[1]-Back collar stand R[2] n=7 p90=0.093 max=0.119
+garment meshes=1; vertices=2936; faces=5700; glb=171320 bytes

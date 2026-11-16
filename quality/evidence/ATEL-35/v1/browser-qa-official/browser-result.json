@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-35/v1/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-35/v1/browser-qa-official/front.png",
+    "back": "quality/evidence/ATEL-35/v1/browser-qa-official/back.png",
+    "side": "quality/evidence/ATEL-35/v1/browser-qa-official/side.png",
+    "oblique": "quality/evidence/ATEL-35/v1/browser-qa-official/oblique.png"
+  },
+  "errors": [],
+  "orderId": "ATEL-35",
+  "revision": "v1",
+  "displayGlb": {
+    "path": "showcase/products/ATEL-35/v1/assets/display.glb",
+    "sha256": "bb7d518f17cfbe4065d627458609bc56ba5d4f69d86af8a9917383f151f4eceb"
+  },
+  "viewer": {
+    "path": "showcase/products/ATEL-35/v1/index.html",
+    "sha256": "4f458e6f5187e490224a15f9e562fd650a1697a07e705faeaa5c5e7e4f87a007"
+  },
+  "screenshotSha256": {
+    "front": "8bdaafe2710fd06a7622b268b64940bf38a23b435bcf0b3f60aef764d40fa34e",
+    "back": "22647b2789a9ea8f6e290c83f218a9b1f9832c548eefe3eda313fe22ab68c33d",
+    "side": "a0897067af13941662fa92668aa140d34baa624781f9c43bcf973e2104741064",
+    "oblique": "72ecb90975b778d8641065d1a8282eaa351f7066a99dc3cfb0579fc8870e001e"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v2",
+  "reviewType": "independent-focused-shape-retest",
+  "reviewedAt": "2026-11-15T15:50:49Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "retestOf": ["SHAPE-01", "SHAPE-02", "SHAPE-03"],
+  "garment": {
+    "path": "orders/ATEL-47/v2/designer/garment-gray-v2.glb",
+    "sha256": "fd7fd25ec85bd1d4ca649a2678e1ec87abd76244d523791a7dd62498e8a4bda7"
+  },
+  "sourceProvenance": {
+    "path": "orders/ATEL-47/v2/designer/provenance-v2.json",
+    "sha256": "f3920cd99e0610bfecec15508f2f9ec616b853b992f4db0ae1b9438cee62309d",
+    "geometryOrigin": "Original parametric standalone shirt geometry; provenance states no source outfit geometry or UVs were reused."
+  },
+  "evidence": {
+    "browserResult": {
+      "path": "quality/evidence/ATEL-47/v2-shape/browser-result.json",
+      "sha256": "702b931f0953edeb20ad15022b536551ba0e001f873da64e56606e057ba1a98d",
+      "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-47/v2-shape/index.html",
+      "loaded": true,
+      "rotated": true,
+      "zoomed": true,
+      "desktop": true,
+      "errors": []
+    },
+    "front": {
+      "path": "quality/evidence/ATEL-47/v2-shape/front.png",
+      "sha256": "f3f87a942fb1d4ff7218cf98cb9958778cf80d6f8714cfe1b63f90c3d33e1c20"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-47/v2-shape/back.png",
+      "sha256": "d096b284ef5b1c180021a9f8a63c022c2f0d8cc4f0396b7f8479e338343d48df"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-47/v2-shape/side.png",
+      "sha256": "2c9086f0c156abdf563f3407d41874a0d882c0578122412529571c0e22e9ba23"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-47/v2-shape/oblique.png",
+      "sha256": "bb521f741c9d566e27b2163fb30023b3e6777c27ced882e26372109432f90481"
+    }
+  },
+  "checks": {
+    "garmentTypeAndCoverage": {
+      "pass": true,
+      "observation": "The four views read as a standalone long-sleeve shirt with a front placket, buttons, collar pieces, and cuff buttons; no mannequin or body is visible.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v2-shape/front.png",
+        "quality/evidence/ATEL-47/v2-shape/back.png",
+        "quality/evidence/ATEL-47/v2-shape/side.png",
+        "quality/evidence/ATEL-47/v2-shape/oblique.png"
+      ]
+    },
+    "silhouetteAndVolume": {
+      "pass": true,
+      "observation": "The torso and sleeves have readable volume from all angles; the correction preserves the regular-fit standalone silhouette.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v2-shape/front.png",
+        "quality/evidence/ATEL-47/v2-shape/back.png",
+        "quality/evidence/ATEL-47/v2-shape/side.png",
+        "quality/evidence/ATEL-47/v2-shape/oblique.png"
+      ]
+    },
+    "shoulderJoins": {
+      "pass": false,
+      "observation": "The back capture still shows dark gaps at both shoulder/sleeve joins; the oblique view shows a dark opening at the outer shoulder as well.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v2-shape/back.png",
+        "quality/evidence/ATEL-47/v2-shape/oblique.png"
+      ]
+    },
+    "collarConstruction": {
+      "pass": false,
+      "observation": "The front still reads as a small cylindrical stand with angular, separated leaves and a central strip; the parts do not read as a clean, joined office-shirt collar.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v2-shape/front.png",
+        "quality/evidence/ATEL-47/v2-shape/oblique.png"
+      ]
+    },
+    "naturalFabricFolds": {
+      "pass": true,
+      "observation": "The revised torso now shows restrained drape at the waist and lower panels in the front and oblique views; this reads adequately for a pressed office shirt without distorting the silhouette.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v2-shape/front.png",
+        "quality/evidence/ATEL-47/v2-shape/back.png",
+        "quality/evidence/ATEL-47/v2-shape/oblique.png"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "SHAPE-01",
+      "area": "Both back shoulder/sleeve joins",
+      "severity": "blocking",
+      "observation": "Dark open-looking gaps remain at both joins in the back view; a dark opening is also visible at the outer shoulder in oblique view.",
+      "expected": "Create a continuous shoulder/armhole transition between back panel and sleeves with no visible gap or stray surface.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v2-shape/back.png",
+        "quality/evidence/ATEL-47/v2-shape/oblique.png"
+      ],
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-02",
+      "area": "Collar stand and leaves, front/oblique",
+      "severity": "blocking",
+      "observation": "The stand and pointed leaves still look separated and angular; the front view does not read as a joined office-shirt collar.",
+      "expected": "Join the stand and leaves into a proportionate, recognizable shirt collar that sits cleanly on the neckline and front panels.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v2-shape/front.png",
+        "quality/evidence/ATEL-47/v2-shape/oblique.png"
+      ],
+      "correctionOwner": "designer"
+    }
+  ],
+  "decision": "return",
+  "summary": "Retest độc lập ATEL-47/v2: SHAPE-03 đã đạt với nếp drape nhẹ, phù hợp áo sơ mi công sở; silhouette/volume và các chi tiết tay dài, khuy trước/cổ tay đạt, không mannequin. SHAPE-01 và SHAPE-02 vẫn chưa đạt: còn khe tối ở hai mối vai sau và cổ chưa liền/đọc rõ thành cổ sơ mi. Hash cả 11 artifact khớp manifest. Đây là retest tập trung của correction; chưa pass shape và không chuyển Material."
+}

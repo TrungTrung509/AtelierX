@@ -1,0 +1,41 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v1",
+  "stage": "shape-candidate-assessment",
+  "decision": "replan-required",
+  "source": {
+    "baseId": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1",
+    "path": "quality/candidates/user-supplied/jnco_twin_cannon_baggy_jeans.glb",
+    "sha256": "7b0af5c3aee5e7f423107d5f7d2eae48f17699c9404326d86e9642ca62dda08c",
+    "use": "referenceBaseId; owner-authorized-project-use; no logo/label texture retained"
+  },
+  "candidateLimit": {"maxSources": 2, "used": 2, "thirdSourceAllowed": false},
+  "build": {
+    "path": "orders/ATEL-41/v1/designer/garment-gray-v1.glb",
+    "sha256": "52f49b25a97f8fa9379f482122603f4d9bd884ea4d039696afef927892cd2b22",
+    "contains": ["neutral gray source garment", "two raised thigh cargo pockets and flaps", "belt loops", "fly placket and button", "drawcords at both hems"],
+    "not_handoff_ready": true
+  },
+  "visualReview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel41-shape-v1/index.html",
+    "browser": "loaded, desktop, rotated, zoomed; no browser errors",
+    "captures": {
+      "front": {"path": "quality/evidence/ATEL-41/v1/shape-gray/front.png", "sha256": "408aae6a984da5e1fbeb30f0c2e175304cdcf8c3ab08476db5a737eed09627db"},
+      "back": {"path": "quality/evidence/ATEL-41/v1/shape-gray/back.png", "sha256": "bd9194898d7da638115e9f6233a72dffe4191d6be8d647e7a3ecc73de5c224bd"},
+      "side": {"path": "quality/evidence/ATEL-41/v1/shape-gray/side.png", "sha256": "b3a96a36f1320672556e0ab4dfab2b5713a571d828be78c46e0de8586ed1ce6c"},
+      "oblique": {"path": "quality/evidence/ATEL-41/v1/shape-gray/oblique.png", "sha256": "3b0278e684a630d9433f96c0ad4b18094df9ef0f0930329f0c06f0683e52b860"},
+      "browserReport": {"path": "quality/evidence/ATEL-41/v1/shape-gray/browser-result.json", "sha256": "83b4492ca2615b4772c5c55dfd46d49a0289e960bd984d8d7b3368223abf3fb8"}
+    },
+    "findings": [
+      "The front view shows two thigh pockets, but their flat box construction reads as protruding from the trouser surface.",
+      "The side and oblique views show pockets displaced from the leg silhouette; belt loops also appear detached from the waistband.",
+      "This remains after the single placement correction. Do not hand off as shape pass or start surface work."
+    ]
+  },
+  "attempts": {"geometryBuilds": 1, "placementCorrections": 1, "furtherCorrectionAllowed": false},
+  "recommendedReplan": {
+    "approach": "Stop the JNCO derivative. Create a pants-specific geometry plan using authored trouser panels or a genuinely conforming mesh workflow so cargo pockets, belt loops, fly and drawcords are integrated to the surface; do not add a source candidate.",
+    "additionalEtaMinutes": 25,
+    "reason": "A conforming structural rebuild is a different geometry approach and requires a new gray render and independent shape QA."
+  }
+}

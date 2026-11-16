@@ -1,0 +1,22 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v1",
+  "language": "vi",
+  "title": "Sơ mi công sở xanh sọc trắng",
+  "description": "Áo sơ mi công sở form vừa phối nền xanh da trời sáng với sọc trắng mảnh chạy dọc đều, cổ bẻ, nẹp khuy trước và tay dài có khuy cổ tay. Bề mặt mô phỏng cotton poplin mịn nhẹ, tạo vẻ gọn gàng và tươi sáng cho ngày làm việc của người trẻ.",
+  "material": {
+    "name": "Cotton poplin mô phỏng",
+    "source": "Lựa chọn biên tập theo brief ATEL-47; mô phỏng bề mặt, không xác nhận nguồn vải vật lý"
+  },
+  "pattern": {
+    "name": "Sọc dọc pinstripe trắng mảnh",
+    "source": "orders/ATEL-47/v1/research/pinstripe-tile.svg"
+  },
+  "displayDimensions": [
+    {"label": "Rộng hiển thị", "value": null, "unit": "cm", "source": null},
+    {"label": "Cao hiển thị", "value": null, "unit": "cm", "source": null},
+    {"label": "Sâu hiển thị", "value": null, "unit": "cm", "source": null},
+    {"label": "Dài tay hiển thị", "value": null, "unit": "cm", "source": null}
+  ],
+  "dimensionNote": "Để trống đến khi có mesh final; bổ sung số đo hiển thị có nguồn từ đo geometry, không ghi thành size may."
+}

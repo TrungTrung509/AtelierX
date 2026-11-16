@@ -1,0 +1,170 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.2-gray",
+  "stage": "shape",
+  "baseId": "user-supplied-shirt.glb",
+  "garment": {
+    "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+    "sha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c",
+    "bytes": 2038132
+  },
+  "derivedFrom": [
+    {
+      "path": "quality/candidates/user-supplied/shirt.glb",
+      "sha256": "1de5a29649bd5520bc5163660c40e58799f514c8cbb36cbbcd18611cc3c497d3",
+      "attribution": {
+        "author": "eigenscene (https://sketchfab.com/eigenscene)",
+        "title": "Shirt",
+        "sourceUrl": "https://sketchfab.com/3d-models/shirt-745d0d185b49405694ef4e16cf78e224",
+        "license": "CC-BY-4.0 (embedded GLB metadata; original page not independently revalidated)",
+        "projectPermission": "User-supplied base use authorized for this project under quality/USER_SUPPLIED_BASE_POLICY.md"
+      }
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.1-gray/shirt-gray-v1.1.glb",
+      "sha256": "dba1bcc1ae6ff2f1a02bbc557eb17bdfc210b2184c39a67f7d665dec2268be13",
+      "revision": "owner-shirt-v1.1-gray"
+    }
+  ],
+  "transform": {
+    "operation": "Preserved all v1.1 shirt shell geometry and added one shallow gray trial button to each cuff surface, oriented to sampled cuff normals. No texture, fabric, collar, sleeve, cuff base, placket, existing button, opening, or drape edits.",
+    "parentGeometryBufferSha256": "cbebd849a6c6b6fe83220ecf4b259c2ce4e33f18e8b63b4117acc9f5670c9eba",
+    "parentGeometryBytesPreserved": 2023888,
+    "oldGeometryBytesPreserved": true,
+    "addedFastenerCount": 2,
+    "addedFastenerMesh": "mesh 6 / node 8",
+    "sourceTextureCount": 0,
+    "derivedTextureCount": 0
+  },
+  "previewUrl": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/owner-shirt-v1.2-gray/index.html",
+  "evidence": {
+    "views": [
+      "front",
+      "back",
+      "side",
+      "oblique",
+      "top",
+      "bottom"
+    ],
+    "closeups": [
+      "collarCloseup",
+      "placketSideCloseup",
+      "cuffRightCloseup",
+      "cuffLeftCloseup"
+    ],
+    "captureSource": "Browser captures of versioned preview referencing the exact immutable v1.2 GLB SHA. Browser loaded, rotated, zoomed; no page errors. Both cuff buttons visible in front and individual cuff closeups; cuff openings remain open.",
+    "shapeDecision": "Pending independent QA; designer does not mark shape pass."
+  },
+  "artifacts": [
+    {
+      "path": "quality/candidates/user-supplied/shirt.glb",
+      "sha256": "1de5a29649bd5520bc5163660c40e58799f514c8cbb36cbbcd18611cc3c497d3",
+      "bytes": 5536028
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.1-gray/shirt-gray-v1.1.glb",
+      "sha256": "dba1bcc1ae6ff2f1a02bbc557eb17bdfc210b2184c39a67f7d665dec2268be13",
+      "bytes": 2030296
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+      "sha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c",
+      "bytes": 2038132
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+      "sha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c",
+      "bytes": 2038132
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/owner-shirt-v1.2-gray/index.html",
+      "sha256": "0e118a3f9981fb5f5321dc0b6af1c77750a35d408810d4d1a2e78094dd9a41d4",
+      "bytes": 910
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/add-cuff-fasteners.py",
+      "sha256": "684f573abe91772745f465647c2bec8593dc8f225cc9982e50d63c6f2ddcb419",
+      "bytes": 6753
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/capture-closeups.mjs",
+      "sha256": "3cfb090cd65f2a697196c0defefc3954cbaa7de8ead20cfded34e6a3b130d268",
+      "bytes": 1965
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/build-manifest.py",
+      "sha256": "fc7c4af59cead50fe8328a20832065181fc58d955fab831d81ec953ccd6bdabe",
+      "bytes": 3219
+    },
+    {
+      "path": "tools/browser-qa.mjs",
+      "sha256": "5fa754fbb96fe392e7cd84d84dee7b4f86a36354cb1c5426b1ce3ac4a375b499",
+      "bytes": 4827
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/geometry-delta-check.json",
+      "sha256": "14297198f5641a78e768e8722b568c5f4992b1f7f8e44f97600ffcb432f66c14",
+      "bytes": 1308
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/browser-result.json",
+      "sha256": "6ea18c4e3346c62a481f96d8d7aeb97d6848c552d6f8fb69ba4a05e888754cde",
+      "bytes": 655
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/closeup-result.json",
+      "sha256": "0a6c864aa3c1059f5e48ec626e9f48e0884df8f7db03d90f61e120a5c4224971",
+      "bytes": 520
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/front.png",
+      "sha256": "dec53e6a9f53b1b0c53d4caaab31486edeb21367e9a421a42e0a123f9996982a",
+      "bytes": 437316
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/back.png",
+      "sha256": "2daaad28f2f7e21a6bc309358e517a5982c41204a57bc157e3ced61afab7b9ca",
+      "bytes": 439743
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/side.png",
+      "sha256": "e2276cc6648b781a955650f622692772ee42e01a54a12e13530da7f45bf5d343",
+      "bytes": 450907
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/oblique.png",
+      "sha256": "e3db35ca3af83a801f1ca6768197dc928f5b9262be5efc8024520ec33cff930b",
+      "bytes": 443901
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/top.png",
+      "sha256": "4b0ddce2f63a4dd945ca3e9837da9e3a50daabba1288c59921005bf5302e97e4",
+      "bytes": 415056
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/bottom.png",
+      "sha256": "b3250bc5ce52ce2c503c75b9480d5474c921feb1bf40958ce75ba8f3581ab34a",
+      "bytes": 413977
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/collarCloseup.png",
+      "sha256": "3ea6ca493509241a931b0b390c5f2f36bb84905ebb0cadc8043b04da4e10c89e",
+      "bytes": 373278
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/placketSideCloseup.png",
+      "sha256": "7b5e12b4c0b27ccc6805fc570619ef5d80fc5354fedd9c270b0bb5ca551d823e",
+      "bytes": 378903
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffRightCloseup.png",
+      "sha256": "cc74f9a90446396a70634686244fc94adea007e48e336feedf6d22be4b1c28be",
+      "bytes": 378654
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffLeftCloseup.png",
+      "sha256": "ecf8cdb1a13226dc3e7836b9bd5c0ff1a9b3b50513cca9e86b83bed1873a176b",
+      "bytes": 388016
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "alternate-cc0-shirt-v0",
+  "reviewType": "independent-shape-review",
+  "reviewedAt": "2026-11-15T20:21:39Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "qaReviewer": "atelierx-qa-0004",
+  "decision": "return",
+  "sourceManifest": {
+    "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/manifest.json",
+    "sha256": "2afc62012fd8e99266e167271c503e1efef47486d733e793e4350e5d81ee09e8",
+    "artifactCount": 15,
+    "artifactHashesMatched": 15,
+    "artifactByteCountsMatched": 15
+  },
+  "garment": {
+    "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/gray-shirt-candidate.glb",
+    "sha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b"
+  },
+  "provenance": {
+    "sourceId": "CharacterCreator clothing_shirt.glb",
+    "sourceUrl": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_shirt.glb",
+    "sourceCommit": "852e48f316b90a0937234886630e4fb4cdfd1f78",
+    "license": "CC0-1.0 documented in local LICENSE-NOTES.md and clothing.json",
+    "source": {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/source-shirt.glb",
+      "sha256": "c3467876f712e63a901fa664b1d54eb0127c56d20888dbbb0a606973fd26e9cc"
+    },
+    "sourceGeometryUnchanged": true,
+    "sourceAndCandidateBinIdentical": true,
+    "sceneMeshes": [
+      "Cloth_shirt"
+    ],
+    "hasBodyOrMannequinMesh": false,
+    "hasArmature": true
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/alt-cc0-shirt-v0/index.html",
+    "garmentPath": "showcase/quality-preview/ATEL-53/alt-cc0-shirt-v0/garment.glb",
+    "garmentSha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b"
+  },
+  "browserEvidence": {
+    "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/browser-result.json",
+    "sha256": "e7209fa0a5cbb1f716cd2b5510c7d419da2daaa7d49b763ae62f8376fc258995",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": []
+  },
+  "garmentAppearance": {
+    "profile": "invisible-body-v1",
+    "reviewer": "atelierx-qa-0004",
+    "benchmark": "ATEL-35/v1",
+    "garmentType": "shirt",
+    "checks": {
+      "hollowOpenings": {
+        "passed": true,
+        "observation": "Top/bottom cho thấy khoang cổ, lòng thân và hai đầu tay mở; không thấy mặt cap bịt ngang các miệng này.",
+        "evidence": [
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/top.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/bottom.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png"
+        ]
+      },
+      "naturalDrape": {
+        "passed": false,
+        "observation": "Thân trước/sau rất trơn và cứng; ngực phồng tròn, gấu loe thành mảng rộng, tay dang ngang với ít nếp mềm ngoài khuỷu.",
+        "evidence": [
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/back.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/side.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/oblique.png"
+        ]
+      },
+      "fabricEdges": {
+        "passed": true,
+        "observation": "Các miệng cổ, gấu và ống tay còn là biên mở; ảnh dưới thấy lòng vỏ, không thấy tấm phẳng che kín.",
+        "evidence": [
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/top.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/bottom.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/cuffCloseup.png"
+        ]
+      },
+      "garmentConstruction": {
+        "passed": false,
+        "observation": "Tổng thể là áo tay dài độc lập nhưng cổ sơ mi, nẹp có khuy và cấu tạo cuff không hiện rõ trong geometry xám.",
+        "evidence": [
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/oblique.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/collarCloseup.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/placketSideCloseup.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/cuffCloseup.png"
+        ]
+      },
+      "benchmarkComparison": {
+        "passed": false,
+        "observation": "ATEL-35/v1 có nếp mềm rõ ở vai/nách/tay và thân; candidate gần như trơn, cứng và phồng đều, chất vải đọc kém tự nhiên hơn.",
+        "evidence": [
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/oblique.png",
+          "quality/evidence/ATEL-35/v0.5/front.png",
+          "quality/evidence/ATEL-35/v0.5/oblique.png"
+        ]
+      },
+      "collarConstruction": {
+        "passed": false,
+        "observation": "Cổ hiện như viền V hẹp quanh neckline; chưa thấy chân cổ tách biệt và hai lá cổ bản rộng gập mở tự nhiên như cổ sơ mi bẻ.",
+        "evidence": [
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/top.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/collarCloseup.png"
+        ]
+      },
+      "buttonAttachment": {
+        "passed": false,
+        "observation": "Không thấy khuy hình học trên nẹp hoặc cuff ở ảnh xám; metadata nguồn cho biết khuy được vẽ trong texture, nên không thể kiểm điểm bám/hướng theo bề mặt.",
+        "evidence": [
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/placketSideCloseup.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/cuffCloseup.png"
+        ]
+      },
+      "trimFollowsGeometry": {
+        "passed": false,
+        "observation": "Không thấy nẹp nổi, băng cuff hay khuy trong geometry xám; metadata ghi collar/cuffs/placket/buttons nằm trong texture, chưa chứng minh trim theo bề mặt.",
+        "evidence": [
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/placketSideCloseup.png",
+          "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/cuffCloseup.png"
+        ]
+      }
+    }
+  },
+  "evidence": {
+    "front": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+    "back": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/back.png",
+    "side": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/side.png",
+    "oblique": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/oblique.png",
+    "top": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/top.png",
+    "bottom": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/bottom.png",
+    "collarCloseup": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/collarCloseup.png",
+    "placketSideCloseup": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/placketSideCloseup.png",
+    "cuffCloseup": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/cuffCloseup.png",
+    "browserResult": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/browser-result.json",
+    "detailBrowserResult": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/detail-browser-result.json",
+    "benchmarkFront": "quality/evidence/ATEL-35/v0.5/front.png",
+    "benchmarkBack": "quality/evidence/ATEL-35/v0.5/back.png",
+    "benchmarkOblique": "quality/evidence/ATEL-35/v0.5/oblique.png"
+  },
+  "evidenceSha256": {
+    "front": "67820c4a871cd1e6cd21929e407b035095deb3379a1a88faa64e876b7f64ab21",
+    "back": "01ebbd3b287a2f824a9eea12827d5730d7b8ae55cd89b5c716beab3ba8cca40a",
+    "side": "9512c14028a7a27e6fd6fc086f7904745703917595fbf4c73d01a4c699765008",
+    "oblique": "258d2a3d41b4446e36c3aae93e63ecfbd89c4fac0a468666fb9ca5bdc8186813",
+    "top": "92d09398a4df5310390070fd4cbe25f8e56173b7270314b1fb80018b786d592f",
+    "bottom": "fc3e8217488628ec48c75a5bd59501ee3c30c6a4ae3ab90ca5e56deb2aa2f86f",
+    "collarCloseup": "40d755d7d50e283ef654f31a834e3680e162d501d771c8d73ae7ef53d72bd02b",
+    "placketSideCloseup": "26143fdc182bed250697e8ed4219fcaadab2e84e3cf6de53c17257764541c458",
+    "cuffCloseup": "6bde7cfc22b1307319fe62cdbd20cd90ce41856f8419423e3d6a30f3711a2f9e",
+    "browserResult": "e7209fa0a5cbb1f716cd2b5510c7d419da2daaa7d49b763ae62f8376fc258995",
+    "detailBrowserResult": "d2402c4ff7759caed2b7125eaf051738d834e5a655546e09457de3b2bd5e4f6e",
+    "benchmarkFront": "d4eb871ce6dedfef328b9f6a654d1e3bdba13ae1ad66784b0f354fd0c3951e04",
+    "benchmarkBack": "1687957b564f9915b94019c9b0838e6e21b83e1ea3527e28a28fe3c5544d237e",
+    "benchmarkOblique": "b8f3f285ea2447cbcbf71c3cb28c458538b8f2afaaec9d340b081c812954d98b"
+  },
+  "findings": [
+    {
+      "id": "SHAPE-01",
+      "area": "Silhouette và drape — front/back/side/oblique",
+      "severity": "blocking",
+      "observation": "Thân phồng tròn và phẳng, gấu loe rộng như một panel tách khối; tay giữ tư thế dang ngang, nếp vải chỉ lộ nhẹ quanh khuỷu. Không đạt dáng mặc vừa và độ rủ của benchmark.",
+      "expected": "Thân/tay có volume vừa, tư thế mặc tự nhiên và nếp mềm không lặp đều ở vai, nách, ngực và khuỷu.",
+      "evidence": [
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/back.png",
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/side.png",
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/oblique.png",
+        "quality/evidence/ATEL-35/v0.5/front.png",
+        "quality/evidence/ATEL-35/v0.5/oblique.png"
+      ],
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-02",
+      "area": "Cổ sơ mi — front/top/collar closeup",
+      "severity": "blocking",
+      "observation": "Neckline đọc thành viền V hẹp, chưa có chân cổ và hai lá cổ bẻ bản rõ/gập mở tự nhiên. Gray closeup chưa chứng minh được construction sơ mi.",
+      "expected": "Chân cổ liên tục quanh neckline mở, hai lá cổ đủ bản và gập ra ngoài đúng cấu trúc sơ mi.",
+      "evidence": [
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/top.png",
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/collarCloseup.png"
+      ],
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-03",
+      "area": "Nẹp, khuy và cuff — front/placketSideCloseup/cuffCloseup",
+      "severity": "blocking",
+      "observation": "Không có nẹp/khuy/cuff band thấy được trong gray geometry; hồ sơ nguồn cho biết các chi tiết này được vẽ trong texture đã loại bỏ. Hai ảnh cận nẹp và cuff cũng chưa lấy trúng chi tiết để chứng minh attachment.",
+      "expected": "Nẹp, khuy trước và khuy cuff có geometry/relief áp trên vải, thấy được ở góc nghiêng; cuff có cấu tạo riêng và ảnh cận đúng vùng.",
+      "evidence": [
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/placketSideCloseup.png",
+        "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/cuffCloseup.png"
+      ],
+      "correctionOwner": "designer"
+    }
+  ],
+  "summary": "TRẢ LẠI ATEL-53/alternate-cc0-shirt-v0. Độc lập xác minh 15/15 hash và byte count manifest; source/candidate BIN giống nhau, một mesh Cloth_shirt, không có body/mannequin mesh. Openings đạt, nhưng silhouette/drape, cổ sơ mi và nẹp/khuy/cuff chưa đạt trong geometry xám; material/texture không thể thay kiểm attachment."
+}

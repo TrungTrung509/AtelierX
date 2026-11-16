@@ -1,0 +1,37 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v1",
+  "garmentType": "shirt",
+  "readyBaseFound": false,
+  "selectionWindowMinutes": 15,
+  "recommendedSources": 1,
+  "decision": "No G1-approved shirt base is available. Recommend one user-supplied candidate as a visual/source candidate only, not as a ready base. Designer must inspect/resolve shirt-to-skirt separation or rebuild an independent full-length shirt, then deliver a neutral gray shape for QA before Material.",
+  "screeningNote": "A previously attempted white-blouse/skirt source was excluded from this handoff because its extraction had already failed in stopped order ATEL-23; its new exploratory captures were removed. ATEL-23 remains stopped. No registry state was changed.",
+  "candidate": {
+    "id": "user-jk-school-uniform-4-5a70461c-v1",
+    "status": "candidate",
+    "registryType": "outfit",
+    "path": "quality/candidates/user-supplied/jk_school_uniform_4.glb",
+    "originalFile": "phom cơ sở/jk_school_uniform_4.glb",
+    "provenance": "GLB supplied by project owner and authorized for use in AtelierX under quality/USER_SUPPLIED_BASE_POLICY.md. This is project-level permission; third-party ownership/license is not asserted as verified.",
+    "sha256": "5a70461c73f68660f0f1cd6f8e53878c58054c8b9e39ee65b1013b2709a8c406",
+    "inspection": {"glbValid": true, "meshCount": 14, "primitiveCount": 14, "hasUV0": true},
+    "visualFinding": "Browser captures show a long-sleeve collared top, front button row and cuffs, but the blouse is attached to a plaid school skirt and has asymmetric uniform panels. GLB nodes have generic Object names, so shirt/skirt mapping is not proven.",
+    "fitForBrief": "Secondary visual reference only. The attached skirt and uniform paneling conflict with the standalone office-shirt brief; do not use the full outfit as the product base or apply surface as-is. Designer may investigate the component mapping, but must stop if the shirt cannot be isolated without losing geometry or UVs; an independent reconstruction remains an option.",
+    "captures": {
+      "front": "orders/ATEL-47/v1/research/source-01/front.png",
+      "back": "orders/ATEL-47/v1/research/source-01/back.png",
+      "side": "orders/ATEL-47/v1/research/source-01/side.png",
+      "oblique": "orders/ATEL-47/v1/research/source-01/oblique.png",
+      "browserResult": "orders/ATEL-47/v1/research/source-01/browser-result.json"
+    }
+  },
+  "patternArtwork": "orders/ATEL-47/v1/research/pinstripe-tile.svg",
+  "placementNotes": "orders/ATEL-47/v1/research/artwork-placement.md",
+  "contentDraft": "orders/ATEL-47/v1/research/content-draft.json",
+  "limitations": [
+    "studio-base shirt returned no ready base; no candidate was promoted or changed in the registry.",
+    "Source browser preview loaded without page errors and rotated; zoomed=false, so zoom interaction is not claimed for this source preview.",
+    "No final garment mesh exists yet; display dimensions remain null and final UV/pattern alignment has not been verified."
+  ]
+}

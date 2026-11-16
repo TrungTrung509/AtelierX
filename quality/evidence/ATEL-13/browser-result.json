@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-13/front.png",
+    "back": "quality/evidence/ATEL-13/back.png",
+    "left": "quality/evidence/ATEL-13/left.png",
+    "right": "quality/evidence/ATEL-13/right.png",
+    "detail": "quality/evidence/ATEL-13/detail.png",
+    "mobile": "quality/evidence/ATEL-13/mobile.png"
+  },
+  "errors": []
+}

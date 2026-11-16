@@ -1,0 +1,9 @@
+{
+  "sourceFitPreviewSha256": "977a6d60620b35ed63df1107c581037280b0ca1db7a8028d7d6b22ef6da4b2c4",
+  "diagnosticGlbSha256": "f8fd800b09d2b67baa15d9ec5189feba474180c156692839377f978e4dde8b51",
+  "loaded": true,
+  "errors": [],
+  "failedResources": [],
+  "capture": "/home/node/project/AtelierX/orders/ATEL-23/v1/material/evidence/texture-mapped-fit-preview.png",
+  "warning": "Texture mapping preview only; independent QA and G1 remain pending."
+}

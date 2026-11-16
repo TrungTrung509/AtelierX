@@ -1,0 +1,9 @@
+{
+  "awaitingBrief": false,
+  "stoppedOrders": [
+    "ATEL-23"
+  ],
+  "reason": "Explicit owner repair assignment TKT-009 received 2026-11-15; active repair runs as new order ATEL-53. ATEL-23 remains stopped; ATEL-41/47 rejected geometry stays preview until a new QA-passed revision.",
+  "workflow": "standalone-v9",
+  "activeOrderId": "ATEL-63"
+}

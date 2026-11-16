@@ -1,0 +1,38 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v1",
+  "createdBy": "atelierx-tpm-0002",
+  "artwork": {
+    "path": "orders/ATEL-35/research/artwork/atel35-chest-flower-v1.svg",
+    "sha256": "0da8270ea729589c1ae27142326abbcc358c866598c3307c1895cdaf1b78e363",
+    "format": "SVG",
+    "viewBox": "0 0 256 256",
+    "background": "transparent",
+    "usage": "Motif nguyên bản, dự kiến một vị trí ngực trái; chưa có kích thước vật lý hoặc UV placement."
+  },
+  "artDirection": {
+    "path": "orders/ATEL-35/research/art-direction.md",
+    "sha256": "6db561306e8924c7fc6193ae58d83e723c316ea9f46b54fb2b87d21af822bbaa"
+  },
+  "reviewedMeshes": [
+    {
+      "id": "user-t-shirt-922001c3-v1",
+      "path": "quality/candidates/user-supplied/t-shirt.glb",
+      "sha256": "922001c3404f16be6a5e752928063696469d10c6dd0f269e44b455f41d79e237",
+      "registrySha256": "922001c3404f16be6a5e752928063696469d10c6dd0f269e44b455f41d79e237",
+      "garmentType": "tshirt",
+      "status": "candidate",
+      "hasUV0": true
+    },
+    {
+      "id": "user-t-shirt-1--4edb5292-v1",
+      "path": "quality/candidates/user-supplied/t-shirt (1).glb",
+      "sha256": "4edb5292c2a5003dba5200af62ce6cd45f3a4ca1dadbaa94ad8c8553d3e8f241",
+      "registrySha256": "4edb5292c2a5003dba5200af62ce6cd45f3a4ca1dadbaa94ad8c8553d3e8f241",
+      "garmentType": "tshirt",
+      "status": "candidate",
+      "hasUV0": true
+    }
+  ],
+  "scope": "Rà metadata loại áo/mesh/UV; không phải shape approval hoặc UV placement QA. Không dùng mannequin."
+}

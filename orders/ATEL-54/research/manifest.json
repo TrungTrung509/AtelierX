@@ -1,0 +1,62 @@
+{
+  "orderId": "ATEL-54",
+  "revision": "research-01",
+  "producer": "atelierx-tpm-0002",
+  "decision": "no-suitable-source",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-54/research/studio-base-shirt.json",
+      "sha256": "5cff0e3a8847c9a9b6cd461759056c5842cfe82d53f3f1befb9c340fa481ba79"
+    },
+    {
+      "path": "orders/ATEL-54/research/shortlist.json",
+      "sha256": "a40df27314e3a3757c2b764867e7b6bc6683a91f635c430c498c30155a579a4b"
+    },
+    {
+      "path": "orders/ATEL-54/research/handoff.md",
+      "sha256": "617f36c4dbbbefb0cd6480840cc132621043c18394e94d1da2ae9fd32a87ad9d"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "quality/candidates/user-supplied/jk_school_uniform_4.glb",
+      "sha256": "5a70461c73f68660f0f1cd6f8e53878c58054c8b9e39ee65b1013b2709a8c406"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/source-01/front.png",
+      "sha256": "71eb9e64b587ec09e3e65e9ffa287cd5964b9f8230a5fd0e0473b3704fb085c9"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/source-01/back.png",
+      "sha256": "461147b161added83239e7ffbeaa0a55497d12bceb29cceea145cf853ab1dd2c"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/source-01/browser-result.json",
+      "sha256": "9b5af2badb5466df13ab6f67a93c0a2269e4fa074e97023374b0ea670165bcbf"
+    },
+    {
+      "path": "quality/candidates/user-supplied/tshirt.glb",
+      "sha256": "c21ef90d256b1f28177e8468cc9f69a83dbdd0cc4111addc23f9893e82a1103a"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/source-preview/front.png",
+      "sha256": "6ec3b43f5db6dd1692e74d4ee80915bd9a66890714153122c4c90416af7d6b68"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/source-preview/back.png",
+      "sha256": "bd086780426b5e7cbe5eacc02bbe9719184a94a2e06ae2f0c5f6fd537876c0a5"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/source-preview/source-preview.json",
+      "sha256": "88c02ea9f9d20bf8b2b33652f5a5926f837c343da611a28dfe4ac81f2c82f1ba"
+    },
+    {
+      "path": "orders/ATEL-47/v1/research/shortlist.json",
+      "sha256": "a049b7bc818e994b1d1cc13f2801359205f8246757e733b2f929c2a62d3151e3"
+    },
+    {
+      "path": "orders/ATEL-35/v0.5/designer/source-uv-provenance.json",
+      "sha256": "22406fd54e9be3f780e5dfd236abe0e361d07a60d889af69fa1fdc364e8e3889"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "research-1",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-63/research/christmas-tree-snowflakes.svg",
+      "sha256": "65a81edb11deca9d9b5602a0f33d416faa966dd2546b0e8606a556714a2187d7"
+    },
+    {
+      "path": "orders/ATEL-63/research/artwork-placement.json",
+      "sha256": "407ef704daefd9d3813157ad93b0456ddc317fb714609a3679fe11026b3d3e49"
+    },
+    {
+      "path": "orders/ATEL-63/research/content-draft.md",
+      "sha256": "5aece1b3abd44df7a1b658d9e931e295090c9e8091ef8c97c2434eabe9279999"
+    }
+  ]
+}

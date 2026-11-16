@@ -1,0 +1,76 @@
+{
+  "source": {
+    "file": "quality/candidates/grab3d-hoodie-clean-v2.glb",
+    "sha256": "42dc0075e632eab84256f71d9cc88b6eb6d54d04cbff3682f548f62e55994a13",
+    "triangles": 21095
+  },
+  "revision": "clean-v2-neckfix-placement-v3",
+  "removedFrontBandTriangles": 1458,
+  "removedBackComponents": [
+    {
+      "root": 14047,
+      "faces": 80,
+      "min": [
+        -0.1675584316253662,
+        1.3624241352081299,
+        0.04942517727613449
+      ],
+      "max": [
+        0.13463295996189117,
+        1.4075349569320679,
+        0.09368324279785156
+      ],
+      "uvMin": [
+        0.7808379530906677,
+        0.4315958619117737
+      ],
+      "uvMax": [
+        0.803656280040741,
+        0.5891528725624084
+      ],
+      "width": 0.3021913915872574,
+      "uvWidth": 0.022818326950073242,
+      "uvHeight": 0.15755701065063477
+    },
+    {
+      "root": 14946,
+      "faces": 61,
+      "min": [
+        -0.12386548519134521,
+        1.4024544954299927,
+        0.07251999527215958
+      ],
+      "max": [
+        0.09626548737287521,
+        1.4298771619796753,
+        0.08589343726634979
+      ],
+      "uvMin": [
+        0.8594027757644653,
+        0.7647479176521301
+      ],
+      "uvMax": [
+        0.8736802339553833,
+        0.8795263767242432
+      ],
+      "width": 0.22013097256422043,
+      "uvWidth": 0.014277458190917969,
+      "uvHeight": 0.11477845907211304
+    }
+  ],
+  "removedBackTriangles": 141,
+  "remainingTriangles": 19496,
+  "revisionFile": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/hoodie-mesh-revision.glb",
+  "revisionSha256": "34374edd321b7e8396656e7d5a003e359d9349c5cc35bb5bc37a5c99145141bf",
+  "notes": "G1 diagnostic revision only; base-mesh registry and source candidate untouched. Browser evidence at browser/latest uses the same diagnostic GLB SHA as placement-profile.json. The broad disconnected hanger-like bars were removed; remaining hood-top contour is retained as connected fabric geometry for QA assessment.",
+  "topologyAssessment": {
+    "removedGeometry": "1,458 triangles formed the thin bar crossing the neck depth between front/back garment surfaces; 141 triangles belonged to two small disconnected thin strips above/behind the hood. They were removed in a new diagnostic geometry revision; the source candidate stayed untouched.",
+    "retainedContour": "The narrow curved line still visible over the back hood remains connected to the retained hood/back-torso shell and uses the hoodie_body_pbr fabric material/UV surface. It has no independent dangling component or jagged end in the final close capture. Designer interpretation: fabric edge/seam rather than a free hanger bar; independent QA should confirm this interpretation.",
+    "evidence": {
+      "beforeFront": "quality/evidence/ATEL-15/v2/browser/neck-shoulder-front-detail.png",
+      "beforeBack": "quality/evidence/ATEL-15/v2/browser/neck-shoulder-detail.png",
+      "afterFront": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/neck-shoulder-front-detail.png",
+      "afterBack": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/neck-shoulder-detail.png"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "v1.2-surface-v1",
+  "checkedAt": "2026-11-16T03:59:33Z",
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-53/v1.2-surface-v1/index.html",
+  "httpStatus": 200,
+  "browser": "Chromium headless via DevTools Protocol; software WebGL enabled",
+  "modelViewer": {
+    "loaded": true,
+    "modelIsVisible": true,
+    "src": "./assets/display.glb"
+  },
+  "content": {
+    "loaded": true,
+    "title": "Sơ mi xanh da trời sọc trắng",
+    "revision": "owner-shirt-v1.2-surface-v1"
+  },
+  "interaction": {
+    "initialOrbit": "0deg 82deg auto",
+    "backButtonOrbit": "180deg 82deg auto",
+    "zoomOrbit": "45deg 82deg 55%"
+  },
+  "resourceChecks": {
+    "viewerScript": {
+      "url": "/atelierx-products/assets/model-viewer.min.js",
+      "httpStatus": 200
+    },
+    "displayGlb": {
+      "url": "/atelierx-products/products/ATEL-53/v1.2-surface-v1/assets/display.glb",
+      "httpStatus": 200,
+      "sha256": "bc15ebd82d9b4ca3ddbdd3d7792f139313cf37687895a462b8c86ad5aa42793b",
+      "bytes": 2423128
+    },
+    "contentJson": {
+      "url": "/atelierx-products/products/ATEL-53/v1.2-surface-v1/content.json",
+      "httpStatus": 200,
+      "sha256": "7b5767dafa2b2678f74ebca50cb97ae685d3a81fea6ee8b87884067f43692593"
+    }
+  },
+  "manifestBrowserErrors": []
+}

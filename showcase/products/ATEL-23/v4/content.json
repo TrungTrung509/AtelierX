@@ -1,0 +1,45 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4",
+  "title": "Tuyến sáng · Sơ mi công sở Gen Z",
+  "summary": "Bản nháp trưng bày là sơ mi dài tay xanh trời nhạt, phom suông. Bề mặt hiện chưa có họa tiết và hàng khuy; cần xử lý ở lượt sửa tập trung trước bản chốt.",
+  "material": {
+    "name": "Poplin mô phỏng",
+    "source": "preset:poplin"
+  },
+  "style": "Sơ mi công sở dài tay, phom suông",
+  "specifications": [
+    {
+      "label": "chestWidthCm",
+      "value": 46.0,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-23/v4/measurements.json — mặt cắt ngang tại cao độ ngực mannequin"
+    },
+    {
+      "label": "garmentLengthCm",
+      "value": 81.5,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-23/v4/measurements.json — bao ngoài world-space của GLB"
+    },
+    {
+      "label": "sleeveExtentCm",
+      "value": 49.2,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-23/v4/measurements.json — độ vươn ngang từ mốc vai"
+    },
+    {
+      "label": "shoulderReferenceCm",
+      "value": 50.0,
+      "unit": "cm",
+      "source": "quality/mannequin-fit.json — khoảng cách hai anchor vai mannequin-v1"
+    }
+  ],
+  "paragraphs": [],
+  "details": [
+    "Thông số tham khảo hình học mẫu 3D, không phải số đo may hoặc bảng size sản xuất.",
+    "Draft dùng geometry ATEL-23/v3.1; họa tiết và khuy áo chưa được tích hợp."
+  ],
+  "credits": [
+    "Mannequin 1,80 m: zveoxic / Sketchfab — CC BY 4.0; https://sketchfab.com/3d-models/mannequin--model-59460931b9cb43f98c97991300c920fb; bản nội bộ đã chuẩn hóa tỷ lệ/vị trí theo quality/MANNEQUIN_REFERENCE.md."
+  ]
+}

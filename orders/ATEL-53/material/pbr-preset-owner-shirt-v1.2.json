@@ -1,0 +1,40 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.2-surface-v1",
+  "materialName": "Sky-blue pinstripe cotton-poplin-like simulation",
+  "shader": "glTF 2.0 metallicRoughness",
+  "sourceGeometry": {
+    "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+    "sha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c"
+  },
+  "appearance": {
+    "simulatedMaterial": "matte cotton-poplin-like weave",
+    "baseColorHexSRGB": "#79BCEB",
+    "baseColorFactorLinear": [0.1912, 0.5089, 0.8317, 1.0],
+    "roughnessFactor": 0.82,
+    "metallicFactor": 0.0,
+    "alphaMode": "OPAQUE"
+  },
+  "stripeSpec": {
+    "colorHexSRGB": "#F8FBFF",
+    "orientation": "vertical along existing torso/sleeve UV V axes",
+    "placement": "front, back, sleeves and fabric panels; button meshes stay plain",
+    "pitch": "mesh-specific UV repeat counts calibrated for the preserved atlas; not a garment measurement",
+    "lineWidthRatio": 0.055,
+    "phase": "front body halves share a blue gap centered on the placket",
+    "mapping": "baked into existing TEXCOORD_0 UV islands; independent mesh textures avoid overlap bleed; UVs unchanged"
+  },
+  "hardware": {
+    "baseColorHexSRGB": "#F8FBFF",
+    "baseColorFactorLinear": [0.9387, 0.9647, 1.0, 1.0],
+    "roughnessFactor": 0.68,
+    "metallicFactor": 0.0,
+    "meshes": [0, 6]
+  },
+  "textureMaps": {
+    "baseColor": "generated from the project-original pinstripe SVG",
+    "roughness": null,
+    "normal": null
+  },
+  "sourceNote": "Display-only color and material simulation derived from the owner brief. The stripe artwork is project-original; cotton-poplin appearance is not a physical fiber, hand-feel, or manufacturing claim."
+}

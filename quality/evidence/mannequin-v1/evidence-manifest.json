@@ -1,0 +1,47 @@
+{
+  "modelSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+  "sourceSha256": "dc905436fc8e57bceb1978716bdfe53ca28edc6643255b70032400e6e605a0d7",
+  "files": [
+    {
+      "view": "front",
+      "file": "quality/evidence/mannequin-v1/browser/front.png",
+      "sha256": "c992c3efad6ad5a7718077a9880ec02d84ef83455b9b11f5a0eaa0d115c8f619"
+    },
+    {
+      "view": "back",
+      "file": "quality/evidence/mannequin-v1/browser/back.png",
+      "sha256": "086eba46510fda46202b5b23ed3bf070404ec52c77455abea3f9aefa8b6c789b"
+    },
+    {
+      "view": "left",
+      "file": "quality/evidence/mannequin-v1/browser/left.png",
+      "sha256": "7e911c6e57f567922e615427b37b91889af880af192a94377efa5365dcb1a080"
+    },
+    {
+      "view": "right",
+      "file": "quality/evidence/mannequin-v1/browser/right.png",
+      "sha256": "2fa0f541a2313b98d4aaa3ebc2b58a0c2b2f1f95c6cbc028742a979b4368146d"
+    },
+    {
+      "view": "detail",
+      "file": "quality/evidence/mannequin-v1/browser/detail.png",
+      "sha256": "aa0406057ec15a4aef91c33b37832f4ca0477a873b167230156ea977cf7e6f95"
+    },
+    {
+      "view": "mobile",
+      "file": "quality/evidence/mannequin-v1/browser/mobile.png",
+      "sha256": "89649f20b78b4a6a3ce4853abb0b7d271910b1323bfa3d870490372ad6806758"
+    }
+  ],
+  "review": {
+    "reviewer": "Codex reference inspection",
+    "headHandsFeetVisible": true,
+    "frontBackConfirmed": true,
+    "pose": "T",
+    "garmentFitApproved": false,
+    "notes": [
+      "Stylized anatomy, rough side shoulder surface: check exposed shoulders on sleeveless designs.",
+      "Anchors are approximate section centers, not rig joints."
+    ]
+  }
+}

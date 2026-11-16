@@ -1,0 +1,18 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "research-1",
+  "artwork": "christmas-tree-snowflakes.svg",
+  "placement": {
+    "garmentSide": "front_only",
+    "anchor": "center_front_chest",
+    "orientation": "upright; tree trunk vertical; snowflakes frame the tree",
+    "relativeScale": "about 28% of visible front torso width; preserve safe margin from neckline, armholes, and side seams",
+    "uvMapping": "Map only to the front torso UV island after Designer supplies the UV layout; do not mirror or continue across back/side islands.",
+    "validation": "Inspect front, oblique, side, and back renders after mapping. Confirm the motif remains legible, follows chest curvature, and does not bleed onto back or sleeves."
+  },
+  "palette": {
+    "baseGarmentBrief": "red wine",
+    "motif": ["warm ivory #F4EBDD", "muted gold #D8B77D", "pale champagne #E9D5B5"]
+  },
+  "dimensions": "Artwork viewBox is a normalized vector canvas, not a garment size or print manufacturing measurement."
+}

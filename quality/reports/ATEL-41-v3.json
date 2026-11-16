@@ -1,0 +1,171 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v3",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "decision": "return",
+  "qaReviewer": "atelierx-qa-0004",
+  "reviewedAt": "2026-11-15T12:31:29.961Z",
+  "leadApproved": false,
+  "summary": "QA độc lập final v3: hình dáng sản phẩm và viewer desktop đạt. Trả đúng một lỗi chặn: content thiếu credits nên không qua showcase-basic-v1 gate cho standalone. Ba thông số display sourced đáp ứng ngưỡng tối thiểu; không ghi lỗi thiếu specification. Chờ Visual bổ sung credits, phát hành revision/hash mới và QA retest.",
+  "assets": {
+    "model": "products/ATEL-41/v3/assets/display.glb",
+    "modelSha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd",
+    "viewer": "products/ATEL-41/v3/index.html",
+    "viewerSha256": "03cdb39f007760124b8eefa5c8331f7fa9e7e0702e7c55808dd77fb4fabaa926",
+    "content": "products/ATEL-41/v3/content.json",
+    "contentSha256": "a1dfb0d7d8422f8616079337f431d5beae6632ade63751ca71203cb2aae49fe1",
+    "assembly": "showcase/products/ATEL-41/v3/assembly.json",
+    "shapeReview": "orders/ATEL-41/v3/independent-shape-review.json"
+  },
+  "brief": {
+    "requiredFeatures": [
+      "Quần cargo độc lập, không mannequin",
+      "Ống suông có volume và nếp vải",
+      "Cạp đỉa, khóa kéo và nút phía trước",
+      "Hai túi hộp lớn ở đùi và dây rút gấu",
+      "Màu be cát và chất liệu mô phỏng có nguồn",
+      "Nội dung tiếng Việt có 3–4 thông số hiển thị sourced",
+      "Viewer desktop đúng revision, xoay và zoom"
+    ]
+  },
+  "featureChecks": [
+    {
+      "feature": "Quần cargo độc lập, không mannequin",
+      "passed": true,
+      "observation": "Bốn ảnh render cho thấy quần độc lập, không mannequin.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v3/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/back.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/side.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Ống suông có volume và nếp vải",
+      "passed": true,
+      "observation": "Silhouette đọc là quần ống suông; khối hai ống và nếp/shading vải hiện rõ ở các góc.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v3/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/side.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Cạp đỉa, khóa kéo và nút phía trước",
+      "passed": true,
+      "observation": "Front/oblique cho thấy cạp có đỉa, nút và đường khóa trước.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v3/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Hai túi hộp lớn ở đùi và dây rút gấu",
+      "passed": true,
+      "observation": "Túi đùi gắn liền đọc được ở front/side/oblique; dây rút hai gấu thấy ở front/back.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v3/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/back.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/side.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Màu be cát và chất liệu mô phỏng có nguồn",
+      "passed": true,
+      "observation": "Content và material manifest cùng khai báo cotton-canvas twill mô phỏng, #C8B58F, PBR provenance; hình viewer đọc là be cát sáng.",
+      "evidence": [
+        "showcase/products/ATEL-41/v3/content.json",
+        "orders/ATEL-41/v3/material/surface-manifest-v3.json",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/front.png"
+      ]
+    },
+    {
+      "feature": "Nội dung tiếng Việt có 3–4 thông số hiển thị sourced",
+      "passed": false,
+      "observation": "Ba thông số bao mesh có nguồn và ghi rõ là tham chiếu trưng bày, không phải size may. Tuy vậy content v3 thiếu mảng credits, nên chưa đạt gate.",
+      "evidence": [
+        "showcase/products/ATEL-41/v3/content.json",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/front.png"
+      ]
+    },
+    {
+      "feature": "Viewer desktop đúng revision, xoay và zoom",
+      "passed": true,
+      "observation": "Browser độc lập truy cập http://127.0.0.1:8787/atelierx-products/products/ATEL-41/v3/index.html, loaded/rotated/zoomed/desktop=true, errors=[]; capture bốn góc từ đúng URL v3.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v3/qa-final-independent/browser-result.json",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/front.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/back.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/side.png",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/oblique.png"
+      ]
+    }
+  ],
+  "visual": {
+    "coverage": true,
+    "silhouette": true,
+    "folds": true,
+    "closures": true,
+    "contentMatches": false,
+    "observations": {
+      "coverage": "Quần độc lập, không thấy mannequin hoặc phần thiếu rõ.",
+      "silhouette": "Quần cargo ống suông; cạp, túi đùi và gấu có cấu trúc.",
+      "folds": "Nếp/shading volume thấy được trên vùng hông và ống.",
+      "closures": "Nút và fly trước đọc được.",
+      "contentMatches": "Màu/style/material/specifications khớp; credits field thiếu trong content v3."
+    }
+  },
+  "blockers": [
+    {
+      "id": "CONTENT-01",
+      "owner": "visual",
+      "summary": "Thiếu credits trong showcase/products/ATEL-41/v3/content.json; showcase-basic-v1 gate báo Missing credits.",
+      "reproduction": "Mở content JSON revision v3 và kiểm tra thuộc tính credits (không tồn tại); chạy quality gate standalone sẽ báo Missing credits.",
+      "expected": "Có mảng credits phù hợp và nguồn/ghi công chính xác, được hiển thị trong viewer khi profile yêu cầu.",
+      "evidence": [
+        "showcase/products/ATEL-41/v3/content.json",
+        "quality/evidence/ATEL-41/v3/qa-final-independent/front.png"
+      ]
+    }
+  ],
+  "correctionOwner": "visual",
+  "nextStep": "Visual bổ sung credits và handoff revision mới; QA retest trên viewer/hash mới.",
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-41/v3/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "screenshots": {
+      "front": "/tmp/atel41-qa-independent-v3/front.png",
+      "back": "/tmp/atel41-qa-independent-v3/back.png",
+      "side": "/tmp/atel41-qa-independent-v3/side.png",
+      "oblique": "/tmp/atel41-qa-independent-v3/oblique.png"
+    },
+    "errors": [],
+    "browserResultSha256": "0dc653ff3bfb1336fa634cf8b567d41b12ec1e53aa1dfe33b5fb6c6c1bc02327"
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-41/v3/qa-final-independent/front.png",
+    "back": "quality/evidence/ATEL-41/v3/qa-final-independent/back.png",
+    "side": "quality/evidence/ATEL-41/v3/qa-final-independent/side.png",
+    "oblique": "quality/evidence/ATEL-41/v3/qa-final-independent/oblique.png"
+  },
+  "evidenceSha256": {
+    "front": "c78b687503232b81d3372e3037ce3b7ae04d1825b18b860fe5a988cae1e0c7a3",
+    "back": "4127f61b0d6e39cf75f9d8c06edc9e180006ce8b1e79a98d43515efaa304da79",
+    "side": "cb75a012953b19f438cfd750256429dbc0def5bd517d192d59be4ce70bd9dca5",
+    "oblique": "7bbc282c9166d6ce13d4c191f5dd9199cf7da696da627fa33c2be81757666ae4"
+  },
+  "independentRetest": {
+    "command": "node tools/browser-qa.mjs --basic --url http://127.0.0.1:8787/atelierx-products/products/ATEL-41/v3/index.html --out /tmp/atel41-qa-independent-v3",
+    "exitCode": 0,
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": []
+  }
+}

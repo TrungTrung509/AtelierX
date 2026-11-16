@@ -1,0 +1,28 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v0.5-gray",
+  "decision": "pass",
+  "reviewer": "atelierx-qa-0004",
+  "checks": {
+    "garmentType": true,
+    "connectedParts": true,
+    "structure": true
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-35/v0.5/front.png",
+    "back": "quality/evidence/ATEL-35/v0.5/back.png",
+    "oblique": "quality/evidence/ATEL-35/v0.5/oblique.png"
+  },
+  "independentReport": "orders/ATEL-35/v0.5/independent-shape-review.json",
+  "independentReportSha256": "6b18a3fb2bfb58adcda54d5a640a2fe704c28a53088ed74ec3988f610f0c3967",
+  "garmentPath": "orders/ATEL-35/v0.5/designer/garment-v0_5.glb",
+  "garmentSha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+  "sourceProvenance": {
+    "path": "orders/ATEL-35/v0.5/designer/source-uv-provenance.json",
+    "sha256": "22406fd54e9be3f780e5dfd236abe0e361d07a60d889af69fa1fdc364e8e3889",
+    "sourcePath": "quality/candidates/user-supplied/tshirt.glb",
+    "sourceSha256": "c21ef90d256b1f28177e8468cc9f69a83dbdd0cc4111addc23f9893e82a1103a",
+    "registryId": "user-tshirt-c21ef90d-v1",
+    "license": "owner-authorized-project-use"
+  }
+}

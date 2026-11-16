@@ -1,0 +1,72 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v1",
+  "garment": {
+    "path": "orders/ATEL-47/v1/designer/garment-gray-v1.glb",
+    "sha256": "e44f8c74a3c6d555e9cad8827ccd4ab4ed91dc75bb404045992683ce0867d1eb"
+  },
+  "geometryOrigin": "Original parametric standalone shirt geometry authored from the ATEL-47 brief; no source outfit mesh imported, isolated, or modified.",
+  "screenedReference": {
+    "candidateId": "user-jk-school-uniform-4-5a70461c-v1",
+    "path": "quality/candidates/user-supplied/jk_school_uniform_4.glb",
+    "sha256": "5a70461c73f68660f0f1cd6f8e53878c58054c8b9e39ee65b1013b2709a8c406",
+    "usage": "Inspected only as a visual candidate; attached skirt and uniform panels were excluded. No source geometry or UVs reused.",
+    "permissionPolicy": "quality/USER_SUPPLIED_BASE_POLICY.md"
+  },
+  "notAReadyBase": true,
+  "displayEnvelopeMeters": {
+    "min": [
+      -0.3769983372272773,
+      0.33,
+      -0.088999330215506
+    ],
+    "max": [
+      0.3769983372272773,
+      0.982,
+      0.10929482258291663
+    ],
+    "dimensionsCm": [
+      75.4,
+      65.2,
+      19.8
+    ],
+    "source": "Measured from the current standalone gray GLB; display envelope only, not garment manufacturing size."
+  },
+  "uv": {
+    "attribute": "TEXCOORD_0",
+    "frontBackPanels": "U left-to-right across each independent panel; V=0 at shoulder and V=1 at hem, so vertical stripe artwork stays upright.",
+    "sleeves": "U wraps around each sleeve; V=0 at shoulder and V=1 at cuff.",
+    "details": "Collar stand/leaves, cuffs, placket, buttons, and shoulder caps are distinct named meshes and material groups."
+  },
+  "materialGroups": [
+    {
+      "name": "Front body panel",
+      "material": "Neutral gray Body front/back panels"
+    },
+    {
+      "name": "Back body panel",
+      "material": "Neutral gray Body front/back panels"
+    },
+    {
+      "name": "Sleeve left/right and shoulder caps",
+      "material": "Neutral gray Sleeves"
+    },
+    {
+      "name": "Collar stand and leaves",
+      "material": "Neutral gray Collar"
+    },
+    {
+      "name": "Cuff left/right",
+      "material": "Neutral gray Cuffs"
+    },
+    {
+      "name": "Front placket",
+      "material": "Neutral gray Placket"
+    },
+    {
+      "name": "Front and cuff buttons",
+      "material": "Neutral gray Buttons"
+    }
+  ],
+  "status": "Shape candidate for independent QA; not shape-approved, surface-ready, or published."
+}

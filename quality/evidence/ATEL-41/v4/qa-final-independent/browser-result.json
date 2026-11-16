@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-41/v4/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "/tmp/atel41-qa-independent-v4/front.png",
+    "back": "/tmp/atel41-qa-independent-v4/back.png",
+    "side": "/tmp/atel41-qa-independent-v4/side.png",
+    "oblique": "/tmp/atel41-qa-independent-v4/oblique.png"
+  },
+  "errors": []
+}

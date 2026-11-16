@@ -1,0 +1,69 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v1",
+  "decision": "no_ready_base; shortlist_for_designer_assessment",
+  "selectionLimit": {
+    "maxSources": 2,
+    "minutes": 15,
+    "attempted": 2
+  },
+  "policy": "quality/USER_SUPPLIED_BASE_POLICY.md permits project use of owner-supplied meshes; this permission is not quality approval. Both entries remain candidate. Do not add to quality/studio-bases.json as ready until independent shape QA.",
+  "candidates": [
+    {
+      "baseId": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1",
+      "file": "quality/candidates/user-supplied/jnco_twin_cannon_baggy_jeans.glb",
+      "sha256": "7b0af5c3aee5e7f423107d5f7d2eae48f17699c9404326d86e9642ca62dda08c",
+      "source": "Owner supplied: phom cơ sở; license scope owner-authorized-project-use; provenance/license note quality/USER_SUPPLIED_BASE_POLICY.md",
+      "images": {
+        "front": "quality/evidence/ATEL-41/research/candidate-jnco/front.png",
+        "back": "quality/evidence/ATEL-41/research/candidate-jnco/back.png",
+        "side": "quality/evidence/ATEL-41/research/candidate-jnco/side.png",
+        "oblique": "quality/evidence/ATEL-41/research/candidate-jnco/oblique.png",
+        "browserReport": "quality/evidence/ATEL-41/research/candidate-jnco/browser-result.json",
+        "frontSha256": "2272aaa9fb9a26781c2d5df4f65809502e630488620cb67478ce87de098e8833",
+        "backSha256": "b4b9ab1557f2557b0d7837fe238c44d5191b3b0d1419e8f2233c7a9e2aa4a5b6",
+        "sideSha256": "9af5fba4b1ac9558b5f9c0008650ece25ccfc09748b2c70422e913ea668e6f0f",
+        "obliqueSha256": "9f9f1926673eff9fa76c6eb949b186ceb07be7361d5438874299b9e759751139"
+      },
+      "assessment": "Ảnh thật cho thấy quần jeans ống rộng với cạp, khóa/nút, túi trước/sau và nếp ở gấu. Silhouette hợp làm tham khảo cho ống suông. Không có túi hộp cargo hoặc dây rút gấu; cần Designer bổ sung cấu trúc và QA lại. Không dùng logo/nhãn JNCO trong thiết kế mới.",
+      "displayEnvelope": {
+        "widthCm": 52.1,
+        "heightCm": 109.0,
+        "depthCm": 29.3,
+        "source": "tools/showcase-glb.mjs primitives() world-space bounds of original GLB, meters converted to centimeters",
+        "meaning": "mesh display envelope, not apparel or sewing size"
+      }
+    },
+    {
+      "baseId": "user-oversized-baggy-custom-jeans-86d4c094-v1",
+      "file": "quality/candidates/user-supplied/oversized_baggy_custom_jeans.glb",
+      "sha256": "86d4c094cf7a2baa651f751fbc0dab1e8bfa993a37f56a9c5582be381320593a",
+      "source": "Owner supplied: phom cơ sở; license scope owner-authorized-project-use; provenance/license note quality/USER_SUPPLIED_BASE_POLICY.md",
+      "images": {
+        "front": "quality/evidence/ATEL-41/research/candidate-oversized/front.png",
+        "back": "quality/evidence/ATEL-41/research/candidate-oversized/back.png",
+        "side": "quality/evidence/ATEL-41/research/candidate-oversized/side.png",
+        "oblique": "quality/evidence/ATEL-41/research/candidate-oversized/oblique.png",
+        "browserReport": "quality/evidence/ATEL-41/research/candidate-oversized/browser-result.json",
+        "frontSha256": "6c344c7ad839502d0d2b2ff16521ffb6fefa444468ac7842d93b03e68d6c8c6b",
+        "backSha256": "a4a6c831d6d17da4e2a808219d62982cf49d12887cdaf39401d877e9d351592a",
+        "sideSha256": "e7771bb3788a8d949dadf09f4b6e2e74afe47864db28b665958310d4b2c60285",
+        "obliqueSha256": "e71235883083e7c49f0ec764f54b87345efd6412ecbd60d23633bfb3c605afb7"
+      },
+      "assessment": "Ảnh thật cho thấy quần jeans rộng, túi sau, nếp gấu; không thấy túi hộp cargo/dây rút. GLB có thêm 4 mesh body với bounds ngoại lệ rất lớn; nếu chọn, cần loại bỏ/kiểm riêng body và chuẩn hóa kích thước trước QA. Phù hợp kém hơn JNCO cho đường ống suông sạch.",
+      "displayEnvelope": {
+        "widthCm": 71.1,
+        "heightCm": 187.0,
+        "depthCm": 37.6,
+        "source": "tools/showcase-glb.mjs primitives() world-space bounds of entire GLB; includes anomalous body meshes",
+        "meaning": "not usable as garment measurement; report for diagnosis only"
+      }
+    }
+  ],
+  "recommendation": "Ưu tiên JNCO làm reference silhouette, không chốt dùng nguyên phom. Designer đánh giá khả năng giữ geometry/quyền bỏ nhãn và bổ sung túi hộp + dây rút; QA phom độc lập trước khi surface. Nếu cần đủ chi tiết ngay từ base, không ứng viên nào đạt; Lead replan nguồn/preparation và ETA cụ thể thay vì tự tìm nguồn thứ ba.",
+  "limitations": [
+    "Chưa có pants base status=ready trong quality/studio-bases.json.",
+    "Cả hai ứng viên thiếu chi tiết cargo/drawcord thể hiện trong brief.",
+    "Chưa có shape QA pass; không handoff stage=shape và không đề nghị mark ready."
+  ]
+}

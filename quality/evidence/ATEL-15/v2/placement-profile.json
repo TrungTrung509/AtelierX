@@ -1,0 +1,94 @@
+{
+  "order": "ATEL-15 / ATEL-9",
+  "revision": "clean-v2-placement-test-01",
+  "status": "diagnostic only; base mesh remains candidate",
+  "source": {
+    "baseMeshId": "grab3d-hoodie-clean-v2",
+    "file": "quality/candidates/grab3d-hoodie-clean-v2.glb",
+    "sha256": "42dc0075e632eab84256f71d9cc88b6eb6d54d04cbff3682f548f62e55994a13",
+    "license": "CC0-1.0"
+  },
+  "diagnosticGLB": {
+    "file": "quality/evidence/ATEL-15/v2/grab3d-hoodie-clean-v2-placement-test.glb",
+    "sha256": "631b0673252dc4d74c72a752aed2a9c00c447ceb6ebcaf61c22c34fa0230486d"
+  },
+  "materialSlot": "hoodie_body_pbr (mesh 0, primitive 0, material 0; TEXCOORD_0)",
+  "uvConvention": "V=0 at shoulders/top; V=1 toward hem/bottom. U/V normalized 0..1.",
+  "zones": {
+    "back": {
+      "componentBounds": {
+        "u": [
+          0.41365,
+          0.773589
+        ],
+        "v": [
+          0.62524,
+          0.900859
+        ]
+      },
+      "printBounds": {
+        "u": [
+          0.5,
+          0.68
+        ],
+        "v": [
+          0.81,
+          0.89
+        ]
+      },
+      "center": {
+        "u": 0.59,
+        "v": 0.85
+      },
+      "size": {
+        "widthUV": 0.18,
+        "heightUV": 0.08
+      },
+      "orientation": "rotated +90deg in texture to compensate the back UV island; text baseline horizontal; artwork top maps to lower V"
+    },
+    "chest": {
+      "componentBounds": {
+        "u": [
+          0.135789,
+          0.408425
+        ],
+        "v": [
+          0.438687,
+          0.795748
+        ]
+      },
+      "printBounds": {
+        "u": [
+          0.27,
+          0.37
+        ],
+        "v": [
+          0.485,
+          0.6
+        ]
+      },
+      "center": {
+        "u": 0.32,
+        "v": 0.5425
+      },
+      "size": {
+        "widthUV": 0.1,
+        "heightUV": 0.115
+      },
+      "orientation": "upright; offset to viewer-right chest to clear drawcords and kangaroo pocket; artwork top maps to lower V"
+    }
+  },
+  "testArtwork": {
+    "file": "quality/evidence/ATEL-15/v2/hoodie-clean-v2-placement-test.jpg",
+    "labels": {
+      "back": "ATEL·9 / BACK TEST",
+      "chest": "AX / CHEST"
+    },
+    "purpose": "high-contrast asymmetric diagnostic marks to verify UV orientation and coverage; not production artwork"
+  },
+  "notes": [
+    "Rectangles are inset from measured torso component bounds to keep marks away from UV island edges. First pass exposed a 90-degree rotation on the back UV island and chest overlap with cords/pocket; revision 01 applies correction.",
+    "Placement has not been independently approved; shoulder/neck remnant still requires QA visual review.",
+    "Diagnostic GLB applies test texture to the same candidate UVs and does not replace the source candidate."
+  ]
+}

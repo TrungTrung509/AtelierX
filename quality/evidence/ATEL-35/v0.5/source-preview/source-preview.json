@@ -1,0 +1,14 @@
+{
+  "source": "quality/candidates/user-supplied/tshirt.glb",
+  "sourceSha256": "c21ef90d256b1f28177e8468cc9f69a83dbdd0cc4111addc23f9893e82a1103a",
+  "url": "http://127.0.0.1:8788/index.html",
+  "loaded": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "6ec3b43f5db6dd1692e74d4ee80915bd9a66890714153122c4c90416af7d6b68",
+    "back": "bd086780426b5e7cbe5eacc02bbe9719184a94a2e06ae2f0c5f6fd537876c0a5",
+    "side": "e05959c69a909c07166bcbf3f4cbd7948c5d156b5110ee8013ad84d2a7b292af",
+    "oblique": "51650d140807ec97af942ea244f5701c70e20ba90dea10096ac36502d181df21"
+  },
+  "errors": []
+}

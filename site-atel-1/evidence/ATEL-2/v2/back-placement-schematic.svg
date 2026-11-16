@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="820" viewBox="0 0 720 820" role="img" aria-labelledby="title desc">
+  <title id="title">ATEL-2 v2 back placement schematic</title>
+  <desc id="desc">Black pullover hoodie back with one-eye animal skull centered below the hood. Flat placement schematic, not a runtime viewer capture.</desc>
+  <rect width="720" height="820" fill="#eeeae3"/>
+  <text x="360" y="48" text-anchor="middle" fill="#202124" font-family="Arial,sans-serif" font-size="23" font-weight="700">ATEL-2 / v2 · MẶT SAU</text>
+  <text x="360" y="77" text-anchor="middle" fill="#60646a" font-family="Arial,sans-serif" font-size="14">Sơ đồ bố trí phẳng · không phải ảnh QA viewer</text>
+  <g transform="translate(100 108)">
+    <path d="M210 98 Q360 47 510 98 L562 164 618 348 Q622 365 605 374 L563 391 520 267 517 586 Q360 620 203 586 L200 267 157 391 115 374 Q98 365 102 348 L158 164 Z" fill="#15171a" stroke="#34373c" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M236 111 L242 41 Q360 -28 478 41 L484 111 L439 132 Q360 94 281 132 Z" fill="#17191d" stroke="#34373c" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M199 563 Q360 588 521 563 L518 593 Q360 623 202 593 Z" fill="#101215" stroke="#34373c" stroke-width="4"/>
+    <path d="M126 353 L155 365 143 402 111 389 Z M565 365 L594 353 609 389 577 402 Z" fill="#101215" stroke="#34373c" stroke-width="3"/>
+    <g transform="translate(284 234) scale(.38)" stroke-linejoin="round">
+      <path fill="#ddd8cd" d="M200 18C112 18 51 57 39 126c-11 60 13 106 62 144l30 20 17 62-18 20 10 31 29 18 31 10 31-10 29-18 10-31-18-20 17-62 30-20c49-38 73-84 62-144C349 57 288 18 200 18z"/>
+      <path fill="#a9a69f" d="M237 39c56 12 91 51 101 99 8 40-8 77-31 105l-43 34-22 71-42 10z"/>
+      <ellipse cx="200" cy="165" rx="67" ry="84" fill="#a9a69f"/>
+      <ellipse cx="200" cy="165" rx="51" ry="68" fill="#38393b"/>
+      <path fill="#38393b" d="m200 242-22 29 22 15 22-15z"/>
+      <path fill="#ddd8cd" d="m140 268 35 18 25 8 25-8 35-18-12 64-48 22-48-22z"/>
+      <path fill="#38393b" d="M146 345q54-15 108 0l-11 41-43 15-43-15z"/>
+      <path fill="#ddd8cd" d="M150 344h100l-4 13h-92zm12 4 17 1-7 34zm76 0-17 1 7 34zm-51 4h12v27h-12zm17 0h12v27h-12zm17 0h12v27h-12z"/>
+      <path fill="none" stroke="#a9a69f" stroke-width="5" d="M200 294v45"/>
+      <path fill="none" stroke="#38393b" stroke-width="5" d="m76 79 30 34-18 28m206-45-25 32 12 24M190 22l-13 41 17 19"/>
+      <path fill="#ddd8cd" d="m142 350 14-7-6 40zm116 0-14-7 6 40z"/>
+    </g>
+    <text x="360" y="677" text-anchor="middle" fill="#60646a" font-family="Arial,sans-serif" font-size="15">Một hốc mắt mở · giữa lưng · dưới mũ</text>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v1",
+  "owner": "atelierx-tpm-0002",
+  "artDirection": {
+    "path": "orders/ATEL-23/v1/researcher/art-direction.md",
+    "sha256": "b5bbf0f6574151c8906b07a25c72731aa0d96f98f426b6c82024b73f0e6c321d"
+  },
+  "artwork": {
+    "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+    "revision": "ATEL-23/v1",
+    "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99",
+    "format": "SVG",
+    "background": "transparent",
+    "repeatTile": "240x240 user units"
+  },
+  "preview": {
+    "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-preview.png",
+    "sha256": "b56c02adc0f2b6d96857b960ed81aa73e36039a6251391da4cf54eeaab87c154",
+    "note": "Browser preview on ivory and pale sky-blue swatches; not garment QA."
+  },
+  "content": {
+    "path": "orders/ATEL-23/v1/researcher/content.json",
+    "sha256": "34319660f8839af5018add2ad918dc361933b4e691d2bc2b014b7e9547622c4b",
+    "language": "vi"
+  },
+  "handoff": {
+    "teamThreadRootMessageId": "dcd7029e-6652-4d5f-9056-ada1cd5de5a1",
+    "messageId": "7138ba0f-8b13-4d99-89fc-ce88c7bff466",
+    "nextOwners": ["atelierx-designer-0003", "atelierx-frontend-developer-0006"]
+  },
+  "scopeNote": "Artwork and copy are research deliverables. Placement, garment fit, material/PBR and browser QA remain owned by their respective lanes."
+}

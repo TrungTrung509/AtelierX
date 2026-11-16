@@ -1,0 +1,98 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v0.5-gray",
+  "reviewType": "independent-early-shape-review",
+  "reviewedAt": "2026-11-15T09:20:59Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "garment": {
+    "path": "orders/ATEL-35/v0.5/designer/garment-v0_5.glb",
+    "sha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712"
+  },
+  "sourceProvenance": {
+    "path": "orders/ATEL-35/v0.5/designer/source-uv-provenance.json",
+    "sha256": "22406fd54e9be3f780e5dfd236abe0e361d07a60d889af69fa1fdc364e8e3889",
+    "sourcePath": "quality/candidates/user-supplied/tshirt.glb",
+    "sourceSha256": "c21ef90d256b1f28177e8468cc9f69a83dbdd0cc4111addc23f9893e82a1103a",
+    "registryId": "user-tshirt-c21ef90d-v1",
+    "license": "owner-authorized-project-use"
+  },
+  "evidence": {
+    "browserResult": {
+      "path": "quality/evidence/ATEL-35/v0.5/browser-result.json",
+      "sha256": "cee4d92142ba27522829135306c1990c8ce5a8c23f0e436f05cf47fceed2fa12",
+      "url": "http://127.0.0.1:8788/index.html",
+      "revision": "v0.5-gray",
+      "garmentSha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+      "loaded": true,
+      "rotated": true,
+      "zoomed": true,
+      "desktop": true,
+      "errors": []
+    },
+    "front": {
+      "path": "quality/evidence/ATEL-35/v0.5/front.png",
+      "sha256": "d4eb871ce6dedfef328b9f6a654d1e3bdba13ae1ad66784b0f354fd0c3951e04"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-35/v0.5/back.png",
+      "sha256": "1687957b564f9915b94019c9b0838e6e21b83e1ea3527e28a28fe3c5544d237e"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-35/v0.5/side.png",
+      "sha256": "38773a97e62c377b5fe864773b14477208f124f69fbd7f75b0cccd785b6569e2"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-35/v0.5/oblique.png",
+      "sha256": "b8f3f285ea2447cbcbf71c3cb28c458538b8f2afaaec9d340b081c812954d98b"
+    }
+  },
+  "checks": {
+    "garmentType": {
+      "pass": true,
+      "observation": "Bốn ảnh đọc rõ áo thun tay ngắn cổ tròn; không có nẹp/khuy polo, mannequin hoặc bộ phận cơ thể.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.5/front.png",
+        "quality/evidence/ATEL-35/v0.5/back.png",
+        "quality/evidence/ATEL-35/v0.5/side.png",
+        "quality/evidence/ATEL-35/v0.5/oblique.png"
+      ]
+    },
+    "connectedParts": {
+      "pass": true,
+      "observation": "Thân, vai và tay liên tục về mặt thị giác trong cả bốn góc; không thấy khe hở xuyên thân hoặc mảnh nổi rời. Có vài chấm tối nhỏ tại đường ráp nách/tay trước, không tạo thành lỗ hay phần tách rời.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.5/front.png",
+        "quality/evidence/ATEL-35/v0.5/back.png",
+        "quality/evidence/ATEL-35/v0.5/side.png",
+        "quality/evidence/ATEL-35/v0.5/oblique.png"
+      ]
+    },
+    "structure": {
+      "pass": true,
+      "observation": "Dải bo cổ tròn khép kín và đọc rõ; thân áo có độ phồng; nếp hình học thấy được ở vai/nách, tay và thân trước/sau dưới ánh sáng xám trung tính. Provenance ghi nguồn không có base-color/normal texture; chi tiết nếp đến từ geometry và vertex normals.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.5/front.png",
+        "quality/evidence/ATEL-35/v0.5/back.png",
+        "quality/evidence/ATEL-35/v0.5/side.png",
+        "quality/evidence/ATEL-35/v0.5/oblique.png"
+      ]
+    },
+    "desktopViewerEvidence": {
+      "pass": true,
+      "observation": "Browser result đúng v0.5-gray và đúng GLB SHA ghi loaded/rotated/zoomed/desktop=true, errors=[]; bốn ảnh desktop có hash khớp. Tại lúc QA, preview localhost:8788 đã dừng nên không chạy lại tương tác trực tiếp; verdict dùng browser evidence có hash cùng ảnh đã kiểm bằng mắt.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.5/browser-result.json",
+        "quality/evidence/ATEL-35/v0.5/front.png",
+        "quality/evidence/ATEL-35/v0.5/back.png",
+        "quality/evidence/ATEL-35/v0.5/side.png",
+        "quality/evidence/ATEL-35/v0.5/oblique.png"
+      ]
+    }
+  },
+  "findings": [],
+  "decision": "pass",
+  "summary": "QA độc lập đạt phom xám ATEL-35/v0.5-gray theo ảnh và evidence đúng GLB/hash. Có vài chấm tối nhỏ tại đường ráp nách/tay nhưng không thấy khe hở hoặc phần rời; không phải blocker hình dáng. Chỉ duyệt phom sớm, không duyệt material/artwork hoặc publish."
+}

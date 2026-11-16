@@ -1,0 +1,39 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "sweater-v1-gray",
+  "sourceGlb": "quality/candidates/user-supplied/sweater.glb",
+  "sourceGlbSha256": "9baf50b0d00f2188703b7f751b103cb9ad0071dcc0c6b2b057d4b06b780b867b",
+  "attribute": "TEXCOORD_0",
+  "coordinates": "Normalized source UV coordinates; U runs left-right and V top-bottom under the project artwork convention.",
+  "frontChestRegion": {
+    "derivation": "Front-facing source mesh triangles in the wearer chest area (world y 5.35–6.35, center x ±0.5, front z > 0.1); geometry and UV unchanged.",
+    "bounds": {
+      "u": [
+        0.513,
+        0.749
+      ],
+      "v": [
+        0.179,
+        0.378
+      ]
+    }
+  },
+  "recommendedArtworkSafeZone": {
+    "bounds": {
+      "u": [
+        0.54,
+        0.71
+      ],
+      "v": [
+        0.22,
+        0.34
+      ]
+    },
+    "center": {
+      "u": 0.625,
+      "v": 0.28
+    },
+    "note": "Keep the primary motif inside this inset chest area, away from seams/fold transitions. Material confirms orientation on the final surface preview."
+  },
+  "geometryUnchanged": true
+}

@@ -1,0 +1,167 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "decision": "pass",
+  "qaReviewer": "atelierx-qa-0004",
+  "reviewedAt": "2026-11-15T16:48:44.012Z",
+  "leadApproved": true,
+  "summary": "QA cuối độc lập ATEL-47/v4 đạt. Đối chiếu manifest/hash, shape-approved geometry, surface/material, nội dung tiếng Việt và trang showcase cùng revision. Browser desktop độc lập load/xoay/zoom đạt; front/back/side/oblique đúng màu xanh da trời sáng với sọc trắng mảnh dọc đều trên hai thân, áo standalone không mannequin. Khuy trước, cổ tay, cổ áo, tay dài và folds đọc rõ; content hiển thị mô phỏng vật liệu, style, ba kích thước display sourced, cảnh báo không phải size sản xuất và hai credits. Không có blocker; chuyển Studio Lead chạy quality gate và publish theo flow.",
+  "assets": {
+    "model": "showcase/products/ATEL-47/v4/assets/display.glb",
+    "modelSha256": "4abb9986b7f8079be07583a1c7e064712048592cf5fa28e239a5b442af577fb9",
+    "viewer": "showcase/products/ATEL-47/v4/index.html",
+    "viewerSha256": "9269c8162cb02992d6d201013a869118bedfedb2289c2fac56564f584968cc70",
+    "content": "showcase/products/ATEL-47/v4/content.json",
+    "contentSha256": "6a34fc63cc24857044dbd83987043426e664f7b830aa6fee2024e68f5d005af6",
+    "assembly": "showcase/products/ATEL-47/v4/assembly.json",
+    "assetManifest": "showcase/products/ATEL-47/v4/assets/asset-manifest.json",
+    "assetManifestSha256": "e4c3dae1d0de6d008b70b1ed00d6b996b24247601cacae34842f16caf0c06f5d",
+    "measurements": "showcase/products/ATEL-47/v4/measurements.json",
+    "shapeReview": "orders/ATEL-47/v4/independent-shape-review.json",
+    "shapeReviewSha256": "976bc735bb7eccf00fb166538e71f727a941e5f23d3f9920662a3be14c027c65",
+    "visualManifest": "orders/ATEL-47/v4/visual/visual-manifest-v4.json",
+    "visualManifestSha256": "7eeaa06743f8b538a3964550a9766bc6698460a8cd86aaa2143e64aababf224a",
+    "contentManifest": "orders/ATEL-47/v4/research/content-manifest-v4.json",
+    "browserQaBasic": "quality/evidence/ATEL-47/v4/browser-qa-basic/browser-result.json"
+  },
+  "brief": {
+    "requiredFeatures": [
+      "Áo sơ mi công sở standalone, không mannequin",
+      "Phom vừa có volume và nếp vải tự nhiên",
+      "Nền xanh da trời sáng, sọc trắng mảnh dọc đều ở thân trước/sau",
+      "Cổ sơ mi, hàng khuy trước, tay dài, cổ tay có khuy",
+      "Nội dung tiếng Việt với material/source mô phỏng, style, ba kích thước display có nguồn",
+      "Viewer desktop đúng revision, xoay/zoom"
+    ]
+  },
+  "featureChecks": [
+    {
+      "feature": "Áo standalone và silhouette",
+      "passed": true,
+      "observation": "Bốn góc browser độc lập cho thấy áo sơ mi riêng lẻ, không mannequin; phom vừa, thân và tay có volume.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v4/qa-independent/front.png",
+        "quality/evidence/ATEL-47/v4/qa-independent/back.png",
+        "quality/evidence/ATEL-47/v4/qa-independent/side.png",
+        "quality/evidence/ATEL-47/v4/qa-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Cấu trúc áo và nếp vải",
+      "passed": true,
+      "observation": "Cổ bẻ, placket/khuy trước, tay dài, cuff/button và folds nhẹ thấy rõ; vai/neckline dùng topology v4 đã QA shape pass.",
+      "evidence": [
+        "orders/ATEL-47/v4/independent-shape-review.json",
+        "quality/evidence/ATEL-47/v4/qa-independent/front.png",
+        "quality/evidence/ATEL-47/v4/qa-independent/oblique.png"
+      ]
+    },
+    {
+      "feature": "Màu, sọc và material",
+      "passed": true,
+      "observation": "Render là xanh da trời sáng với pinstripe trắng mảnh, dọc và đều trên thân trước/sau; placement giữ tay, yoke, cổ, nẹp và cuffs trơn. Content/material khai báo cotton-poplin mô phỏng, không khẳng định vật liệu thật.",
+      "evidence": [
+        "orders/ATEL-47/v4/material/surface-manifest-v4.json",
+        "orders/ATEL-47/v4/designer/placement-v4.md",
+        "showcase/products/ATEL-47/v4/content.json",
+        "quality/evidence/ATEL-47/v4/qa-independent/front.png",
+        "quality/evidence/ATEL-47/v4/qa-independent/back.png"
+      ]
+    },
+    {
+      "feature": "Nội dung tiếng Việt và thông số display sourced",
+      "passed": true,
+      "observation": "Title/summary/description, style, material, ba kích thước display và disclaimer hiển thị. Hai credits có trong DOM và hiện rõ khi cuộn tới; content load không lỗi.",
+      "evidence": [
+        "showcase/products/ATEL-47/v4/content.json",
+        "quality/evidence/ATEL-47/v4/qa-independent/content-dom-audit.json",
+        "quality/evidence/ATEL-47/v4/qa-independent/credits-visible.png"
+      ]
+    },
+    {
+      "feature": "Viewer browser desktop đồng revision",
+      "passed": true,
+      "observation": "Kiểm browser độc lập tại URL v4: loaded/rotated/zoomed/desktop=true, errors=[]; captures front/back/side/oblique đều từ viewer hiện hành.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v4/qa-independent/browser-result.json",
+        "quality/evidence/ATEL-47/v4/qa-independent/front.png",
+        "quality/evidence/ATEL-47/v4/qa-independent/back.png",
+        "quality/evidence/ATEL-47/v4/qa-independent/side.png",
+        "quality/evidence/ATEL-47/v4/qa-independent/oblique.png"
+      ]
+    }
+  ],
+  "visual": {
+    "coverage": true,
+    "silhouette": true,
+    "folds": true,
+    "closures": true,
+    "contentMatches": true,
+    "observations": {
+      "coverage": "Áo standalone, bề mặt đầy đủ; không mannequin.",
+      "silhouette": "Phom vừa; thân và tay có volume.",
+      "folds": "Nếp/shading mềm trên thân áo đọc được.",
+      "closures": "Cổ, placket với khuy trước và cuffs có khuy rõ.",
+      "contentMatches": "Màu, pinstripe, material mô phỏng, style và thông số display khớp revision v4."
+    }
+  },
+  "scores": {
+    "silhouette": 4,
+    "construction": 4,
+    "artwork": 5,
+    "placement": 5,
+    "material": 4,
+    "content": 5,
+    "web": 5
+  },
+  "blockers": [],
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-47/v4/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "screenshots": {
+      "front": "quality/evidence/ATEL-47/v4/qa-independent/front.png",
+      "back": "quality/evidence/ATEL-47/v4/qa-independent/back.png",
+      "side": "quality/evidence/ATEL-47/v4/qa-independent/side.png",
+      "oblique": "quality/evidence/ATEL-47/v4/qa-independent/oblique.png"
+    },
+    "errors": [],
+    "browserResultSha256": "c15ae04012e9b9d97a2df8fc6832a6a42bfefe45b0faa17430a79fdbf8f2d569"
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-47/v4/qa-independent/front.png",
+    "back": "quality/evidence/ATEL-47/v4/qa-independent/back.png",
+    "side": "quality/evidence/ATEL-47/v4/qa-independent/side.png",
+    "oblique": "quality/evidence/ATEL-47/v4/qa-independent/oblique.png"
+  },
+  "evidenceSha256": {
+    "front": "6896f85b90c4fe66afb3b85227310747f53fa7149b899802db1af1df58d149eb",
+    "back": "a1faee21fcc2bfd8b1a6e6bdaf316384a681423d067a2ecc22f62d05cb6ab1fe",
+    "side": "ee5285d19ebdc89edb8ea6088ee4f594673027cd24829def35ec616174848348",
+    "oblique": "808e22ed61c1bfd5260d139de63648fba08520eba3cd9de3fa3775513f2250e9",
+    "credits-visible": "b275bbdf6cc4a6fc2c12ba3f9e8664ff2bcaf86d10909b79e2725be531d5f0e0"
+  },
+  "contentDisplayEvidence": {
+    "path": "quality/evidence/ATEL-47/v4/qa-independent/content-dom-audit.json",
+    "sha256": "44be7d63a81dd2894f351f7c4c85134fbd0a4740bf11c7e6e87a88c298275986",
+    "creditsCount": 2,
+    "creditsVisible": true
+  },
+  "gate": {
+    "status": "ready-for-studio-lead-review",
+    "catalogModified": false,
+    "note": "QA final pass recorded; Studio Lead reviews same-revision evidence and runs quality gate/publish. Catalog left unchanged."
+  },
+  "nextOwner": "atelierx-team-leader-0001",
+  "nextStep": "Review QA v4 report/evidence, set lead approval and run quality gate then publish through Lead workflow.",
+  "shapeReview": "orders/ATEL-47/v4/independent-shape-review.json",
+  "leadApproval": {
+    "reviewer": "atelierx-team-leader-0001",
+    "reviewedAt": "2026-11-15T16:52:27.775Z",
+    "evidence": "Reviewed QA final v4 report and independent front/back/side/oblique/credits captures; verified all 15 qa-final handoff artifact hashes."
+  }
+}

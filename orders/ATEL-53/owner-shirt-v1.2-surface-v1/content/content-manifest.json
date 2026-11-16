@@ -1,0 +1,63 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.2-surface-v1",
+  "stage": "content",
+  "surfaceRevision": "owner-shirt-v1.2-surface-v1",
+  "surfaceGlb": {
+    "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/garment.glb",
+    "sha256": "bc15ebd82d9b4ca3ddbdd3d7792f139313cf37687895a462b8c86ad5aa42793b"
+  },
+  "decision": "ready-for-visual-integration",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/content/content.json",
+      "sha256": "7b5767dafa2b2678f74ebca50cb97ae685d3a81fea6ee8b87884067f43692593",
+      "bytes": 4430
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/surface.json",
+      "sha256": "b177b5556649e9f03d045bde53a422cf3daf9cb6ba61e518572369569f123160",
+      "bytes": 9748
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/garment.glb",
+      "sha256": "bc15ebd82d9b4ca3ddbdd3d7792f139313cf37687895a462b8c86ad5aa42793b",
+      "bytes": 2423128
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shape-manifest-v1.2-gray.json",
+      "sha256": "90ab22a835886d1585725e5d6b66909071cab232a6cf64c5d438298dade3df05",
+      "bytes": 6740
+    },
+    {
+      "path": "quality/reports/ATEL-53/owner-shirt-v1.2-gray.json",
+      "sha256": "475d4b7140737645269b599e183e0ac0ef11472183b11808f49968c6e8c4f6f6",
+      "bytes": 10628
+    },
+    {
+      "path": "orders/ATEL-53/material/pbr-preset-owner-shirt-v1.2.json",
+      "sha256": "1366e6ccb6bbfc889e1c91dbcddebbf8f699f93977fc2352ad94bdf5961ca118",
+      "bytes": 1708
+    },
+    {
+      "path": "orders/ATEL-53/material/placement-owner-shirt-v1.2.json",
+      "sha256": "f7d611721e1a45808904deb24e696f67738b2e8f6157212c780ef62af8432128",
+      "bytes": 2034
+    },
+    {
+      "path": "orders/ATEL-53/material/pinstripe-artwork-v1.svg",
+      "sha256": "09bbc8455d16de151408e27def97a813a1b791e4e464ed857f46977fe91c817b",
+      "bytes": 372
+    },
+    {
+      "path": "orders/ATEL-53/OWNER_SHIRT_BASE.md",
+      "sha256": "9a853fc50dc3c16b2e91c93be32abe2dcee9aa6e31056b997977f91e33fb60c4",
+      "bytes": 2001
+    },
+    {
+      "path": "quality/candidates/user-supplied/shirt.glb",
+      "sha256": "1de5a29649bd5520bc5163660c40e58799f514c8cbb36cbbcd18611cc3c497d3",
+      "bytes": 5536028
+    }
+  ]
+}

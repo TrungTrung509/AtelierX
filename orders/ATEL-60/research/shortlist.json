@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-60",
+  "round": 3,
+  "profile": "invisible-body-v1",
+  "benchmark": "ATEL-35/v1",
+  "selectionLimit": {
+    "minutes": 15,
+    "maxSources": 2
+  },
+  "sourcesInspected": 2,
+  "decision": "no-suitable-source",
+  "selectedBase": null,
+  "sources": [
+    {
+      "id": "3dassets-clothing-rail-shirt-on-hanger-962569c5",
+      "source": {
+        "path": "orders/ATEL-60/research/source-01/source.glb",
+        "sha256": "0cb829abe2b0a8549dc15e26b1f60ba2ae374376303fab8a3b43266484db3e0a",
+        "title": "Shirt on a hanger (Clothing Rail and Wardrobe)",
+        "author": "3D Assets",
+        "sourcePage": "https://3dassets.dev/assets/clothing-rail-and-wardrobe-shirt-on-hanger-962569c5",
+        "downloadUrl": "https://cdn.3dassets.dev/assets/35448/v1/model.glb",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "metadataSource": "3DAssets.dev listing; AI used, contributor-reported model Claude Opus 5"
+      },
+      "decision": "excluded",
+      "visualEvidence": {
+        "front": "orders/ATEL-60/research/source-01/front.png",
+        "back": "orders/ATEL-60/research/source-01/back.png",
+        "side": "orders/ATEL-60/research/source-01/side.png",
+        "oblique": "orders/ATEL-60/research/source-01/oblique.png",
+        "browserResult": "orders/ATEL-60/research/source-01/browser-result.json"
+      },
+      "reason": "The collar is a stand band without visible turned leaves, hanger display is built into the composition, and static shell does not show the natural volume/folds required by invisible-body-v1."
+    },
+    {
+      "id": "3dassets-clothing-rail-blouse-on-hanger-63527161",
+      "source": {
+        "path": "orders/ATEL-60/research/source-02/source.glb",
+        "sha256": "c826f9e30e56d86b97adef262400484903b26f5313e0954b6dfc8af3a9056d59",
+        "title": "Blouse on a hanger (Clothing Rail and Wardrobe)",
+        "author": "3D Assets",
+        "sourcePage": "https://3dassets.dev/assets/clothing-rail-and-wardrobe-blouse-on-hanger-63527161",
+        "downloadUrl": "https://cdn.3dassets.dev/assets/35449/v1/model.glb",
+        "license": "CC0 1.0 Universal",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "metadataSource": "3DAssets.dev listing; AI used, contributor-reported model Claude Opus 5"
+      },
+      "decision": "excluded",
+      "visualEvidence": {
+        "front": "orders/ATEL-60/research/source-02/front.png",
+        "back": "orders/ATEL-60/research/source-02/back.png",
+        "side": "orders/ATEL-60/research/source-02/side.png",
+        "oblique": "orders/ATEL-60/research/source-02/oblique.png",
+        "browserResult": "orders/ATEL-60/research/source-02/browser-result.json"
+      },
+      "reason": "Not a verifiable button-down collar construction; button attachment/open shell are unclear; hanger display and static low-detail surface do not meet natural drape requirements."
+    }
+  ],
+  "blocker": "Đã tải được hai GLB CC0 ngoài danh sách local nhưng cả hai là mẫu hàng trưng trên hanger low-poly/static: source 01 chỉ có stand collar band, không có collar leaves; source 02 không xác minh được collar leaves/button attachment/open shell. Cả hai thiếu nếp rủ tự nhiên; không phù hợp invisible-body-v1.",
+  "acquisitionOption": "CLO-SET CONNECT có listing miễn phí “MV2 Button-Down Shirt” (https://connect.clo-set.com/detail/7a448111957c4967acb3807241c404d8), nhưng trang yêu cầu sign-in/Add to cart và không công bố GLB tải trực tiếp. Lead cung cấp GLB/URL đã tải hợp lệ của listing hoặc nguồn garment draped có license rõ.",
+  "etaMinutes": 15,
+  "etaBasis": "Thêm 15 phút sau khi nhận direct downloadable GLB/URL để kiểm provenance, dựng front/back và đánh giá cùng giới hạn hai nguồn.",
+  "excluded": "Không lặp ATEL-54/59; không dùng ATEL-47/v4; không đánh dấu nguồn ready."
+}

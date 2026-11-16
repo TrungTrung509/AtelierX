@@ -1,0 +1,48 @@
+{
+  "orderId": "ATEL-N",
+  "revision": "v1",
+  "brief": {
+    "garmentType": "hoodie",
+    "requiredFeatures": ["màu, họa tiết, vị trí và chi tiết người dùng yêu cầu"]
+  },
+  "featureChecks": [
+    {
+      "feature": "màu, họa tiết, vị trí và chi tiết người dùng yêu cầu",
+      "passed": false,
+      "evidence": "quality/evidence/ATEL-N/v1/back.png"
+    }
+  ],
+  "assets": {
+    "baseMeshId": "approved-base-id",
+    "artwork": "showcase/products/ATEL-N/v1/assets/artwork.png",
+    "model": "showcase/products/ATEL-N/v1/assets/model.glb",
+    "viewer": "showcase/products/ATEL-N/v1/index.html"
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-N/v1/index.html",
+    "loaded": false,
+    "rotated": false,
+    "zoomed": false,
+    "desktop": true,
+    "mobile": false
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-N/v1/front.png",
+    "back": "quality/evidence/ATEL-N/v1/back.png",
+    "left": "quality/evidence/ATEL-N/v1/left.png",
+    "right": "quality/evidence/ATEL-N/v1/right.png",
+    "detail": "quality/evidence/ATEL-N/v1/detail.png",
+    "mobile": "quality/evidence/ATEL-N/v1/mobile.png"
+  },
+  "scores": {
+    "silhouette": 0,
+    "construction": 0,
+    "artwork": 0,
+    "placement": 0,
+    "material": 0,
+    "web": 0
+  },
+  "blockers": ["Chưa kiểm thị giác"],
+  "qaReviewer": "Technical Designer / QA",
+  "leadApproved": false
+}

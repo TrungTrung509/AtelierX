@@ -1,0 +1,88 @@
+{
+  "orderId": "ATEL-23",
+  "workItemId": "03387d63-e12e-47a6-8356-6d427e787d72",
+  "revision": "v4.4",
+  "deliveryProfile": "showcase-basic-v1",
+  "source": {
+    "path": "orders/ATEL-23/v4.3/designer/garment-v4_3.glb",
+    "sha256": "fa890082176ece1facf78618622abfb14a41e5f193dc3ec4734ccb9be359f768"
+  },
+  "garment": {
+    "path": "orders/ATEL-23/v4.4/designer/garment-v4_4.glb",
+    "sha256": "fc6b3282a4bd0a5b4d81d167feb598e6c6619a0c3c5e1ffa767781a9910dd442",
+    "uv": {
+      "attribute": "TEXCOORD_0",
+      "shirtMaterialSlot": 0,
+      "sourceAtlas": "v2.5 UV0"
+    },
+    "textures": {
+      "baseColor": "orders/ATEL-23/v1/material/base-color.png",
+      "roughness": "orders/ATEL-23/v1/material/roughness.png",
+      "normal": "orders/ATEL-23/v1/material/normal.png"
+    },
+    "artwork": {
+      "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+      "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99"
+    },
+    "repair": {
+      "scope": [
+        "shoulder/underarm gusset caps",
+        "front placket/buttons"
+      ],
+      "presetMaskMaxY": 1.55,
+      "buttonValidation": {
+        "passed": true,
+        "rows": [
+          {
+            "width": 0.020999999716877937,
+            "height": 0.021000027656555176,
+            "depth": 0.002499997615814209
+          },
+          {
+            "width": 0.020999999716877937,
+            "height": 0.021000027656555176,
+            "depth": 0.002499997615814209
+          },
+          {
+            "width": 0.020999999716877937,
+            "height": 0.021000027656555176,
+            "depth": 0.002499997615814209
+          },
+          {
+            "width": 0.020999999716877937,
+            "height": 0.021000027656555176,
+            "depth": 0.002499997615814209
+          },
+          {
+            "width": 0.020999999716877937,
+            "height": 0.021000027656555176,
+            "depth": 0.002499997615814209
+          },
+          {
+            "width": 0.020999999716877937,
+            "height": 0.020999908447265625,
+            "depth": 0.002499997615814209
+          }
+        ],
+        "method": "Projected XY button geometry; QA still checks visibility/contrast in images"
+      }
+    }
+  },
+  "measurements": {
+    "chestWidthCm": 60.4626213128174,
+    "garmentLengthCm": 77.18483209609985,
+    "sleeveExtentCm": 54.00000214576721,
+    "shoulderReferenceCm": 50
+  },
+  "measurementStatus": "pass",
+  "measurementWarnings": [],
+  "diagnostic": {
+    "path": "orders/ATEL-23/diagnosis-v44.json",
+    "sha256": "026db640322ca9e9cec2ff2815ed6e0795cff74c5b1b14120730e6b76b8f2ed1"
+  },
+  "mannequin": {
+    "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  },
+  "visualReview": "Pending Visual verified-fix stage/captures; QA must inspect shoulder/underarm and button visibility."
+}

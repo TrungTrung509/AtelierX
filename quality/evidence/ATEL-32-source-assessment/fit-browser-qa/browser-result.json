@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel32-fit-screen/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/front.png",
+    "back": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/back.png",
+    "left": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/left.png",
+    "right": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/right.png",
+    "detail": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/detail.png",
+    "mobile": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/mobile.png"
+  },
+  "errors": []
+}

@@ -1,0 +1,351 @@
+{
+  "order": "ATEL-35",
+  "revision": "v0.1-gray",
+  "status": "shape review pending; not approved/published",
+  "source": {
+    "path": "quality/candidates/user-supplied/t-shirt.glb",
+    "sha256": "922001c3404f16be6a5e752928063696469d10c6dd0f269e44b455f41d79e237",
+    "registryId": "user-t-shirt-922001c3-v1",
+    "sourceTitle": "T-shirt",
+    "author": "Hyperrealitystudio (https://sketchfab.com/Hyperrealitystudio)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "url": "https://sketchfab.com/3d-models/t-shirt-7c8a4dede482474fa5a74f24c6fc5e81"
+  },
+  "derived": {
+    "path": "orders/ATEL-35/v0.1/designer/garment-v0_1.glb",
+    "sha256": "48a976465da23f4e235728c4a4b42d11d3afcbcd1d9632980c7324019fb31805",
+    "meshCount": 1,
+    "primitiveCount": 1,
+    "material": "AM_102_035_002",
+    "grayBaseColorFactor": [
+      0.34,
+      0.36,
+      0.38,
+      1
+    ],
+    "baseColorTextureDetached": true
+  },
+  "normalization": {
+    "unitAssumption": "source values are centimeters",
+    "scale": 0.01,
+    "sourceRootTransforms": "two 90-degree rotations cancel to identity (net +X/+Y/+Z)",
+    "bakedTranslationMeters": [
+      0.0008230972,
+      0.3779987717,
+      -0.0228702164
+    ],
+    "normalizedBoundsMeters": {
+      "min": [
+        -0.3593075180053711,
+        0,
+        -0.14662601470947265
+      ],
+      "max": [
+        0.35930751800537114,
+        0.7559975433349609,
+        0.14662601470947265
+      ]
+    }
+  },
+  "structure": {
+    "positionCount": 27983,
+    "triangleCount": 54381,
+    "connectedComponentsBySharedVertexIndices": 9,
+    "componentNote": "nine topology islands; two large body surfaces, paired sleeve surfaces, neckline and smaller trim islands. They visually read as one shirt in the captured preview, but seams/attachments need Lead/QA shape review."
+  },
+  "uv": {
+    "semantic": "TEXCOORD_0",
+    "accessor": 2,
+    "uvBounds": {
+      "min": [
+        0.022789517417550087,
+        0.013926888816058636
+      ],
+      "max": [
+        0.9814169406890869,
+        0.9834362268447876
+      ]
+    },
+    "layoutNote": "UV0 spans nearly the full 0–1 atlas; component bounding boxes are listed below. Chest artwork placement has not been approved and no artwork was applied.",
+    "islands": [
+      {
+        "id": 2,
+        "triangleCount": 20456,
+        "vertexCount": 10390,
+        "uvBounds": {
+          "min": [
+            0.5236419439315796,
+            0.3473425805568695
+          ],
+          "max": [
+            0.9814169406890869,
+            0.9831411838531494
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.24401547014713287,
+            0,
+            -0.14662601053714752
+          ],
+          "max": [
+            0.23276977241039276,
+            0.7217150330543518,
+            0.04426772892475128
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "triangleCount": 19718,
+        "vertexCount": 10050,
+        "uvBounds": {
+          "min": [
+            0.02685031294822693,
+            0.3473425507545471
+          ],
+          "max": [
+            0.48483774065971375,
+            0.9834362268447876
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.24401547014713287,
+            0.012449759989976883,
+            -0.05752057954668999
+          ],
+          "max": [
+            0.23276977241039276,
+            0.7199639081954956,
+            0.14662601053714752
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "triangleCount": 5143,
+        "vertexCount": 2657,
+        "uvBounds": {
+          "min": [
+            0.4599827826023102,
+            0.04424741491675377
+          ],
+          "max": [
+            0.8804608583450317,
+            0.21243885159492493
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.3487683832645416,
+            0.38894474506378174,
+            -0.0789569690823555
+          ],
+          "max": [
+            -0.17494666576385498,
+            0.6623323559761047,
+            0.08501710742712021
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "triangleCount": 4853,
+        "vertexCount": 2511,
+        "uvBounds": {
+          "min": [
+            0.022789517417550087,
+            0.051162004470825195
+          ],
+          "max": [
+            0.4432913362979889,
+            0.2109527587890625
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            0.1752789467573166,
+            0.4069313406944275,
+            -0.1210029199719429
+          ],
+          "max": [
+            0.3455212712287903,
+            0.6709856390953064,
+            0.02758338488638401
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "triangleCount": 2373,
+        "vertexCount": 1264,
+        "uvBounds": {
+          "min": [
+            0.25238099694252014,
+            0.22337330877780914
+          ],
+          "max": [
+            0.6751288771629333,
+            0.3330933153629303
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.14286811649799347,
+            0.6438977122306824,
+            -0.10478170216083527
+          ],
+          "max": [
+            0.14973321557044983,
+            0.7559975385665894,
+            0.06931696832180023
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "triangleCount": 481,
+        "vertexCount": 304,
+        "uvBounds": {
+          "min": [
+            0.47767964005470276,
+            0.013926888816058636
+          ],
+          "max": [
+            0.8663957118988037,
+            0.03082766756415367
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.35930752754211426,
+            0.37627461552619934,
+            -0.08224168419837952
+          ],
+          "max": [
+            -0.2706988453865051,
+            0.49273791909217834,
+            0.08664888143539429
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "triangleCount": 479,
+        "vertexCount": 303,
+        "uvBounds": {
+          "min": [
+            0.038503922522068024,
+            0.017261624336242676
+          ],
+          "max": [
+            0.4272439777851105,
+            0.034163713455200195
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            0.2869616746902466,
+            0.396976500749588,
+            -0.12567588686943054
+          ],
+          "max": [
+            0.35930752754211426,
+            0.5222076773643494,
+            0.02301258035004139
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "triangleCount": 439,
+        "vertexCount": 252,
+        "uvBounds": {
+          "min": [
+            0.060398995876312256,
+            0.241804838180542
+          ],
+          "max": [
+            0.2289237380027771,
+            0.27550971508026123
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.07613931596279144,
+            0.5327838063240051,
+            0.05173945426940918
+          ],
+          "max": [
+            0.03086286596953869,
+            0.6818981766700745,
+            0.13662180304527283
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "triangleCount": 439,
+        "vertexCount": 252,
+        "uvBounds": {
+          "min": [
+            0.060037076473236084,
+            0.2803192138671875
+          ],
+          "max": [
+            0.22862857580184937,
+            0.314037561416626
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.010704307816922665,
+            0.5327838063240051,
+            0.04018013924360275
+          ],
+          "max": [
+            0.09681309014558792,
+            0.6790044903755188,
+            0.13662180304527283
+          ]
+        }
+      }
+    ]
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel35-v0_1/index.html",
+    "combinedStandaloneGlb": "showcase/quality-preview/atel35-v0_1/assets/garment.glb",
+    "combinedSha256": "48a976465da23f4e235728c4a4b42d11d3afcbcd1d9632980c7324019fb31805",
+    "browserResult": {
+      "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel35-v0_1/index.html",
+      "loaded": true,
+      "rotated": true,
+      "zoomed": true,
+      "desktop": true,
+      "mobile": true,
+      "screenshots": {
+        "front": "quality/evidence/ATEL-35/v0.1/front.png",
+        "back": "quality/evidence/ATEL-35/v0.1/back.png",
+        "side": "quality/evidence/ATEL-35/v0.1/side.png",
+        "oblique": "quality/evidence/ATEL-35/v0.1/oblique.png",
+        "mobile": "quality/evidence/ATEL-35/v0.1/mobile.png"
+      },
+      "errors": []
+    }
+  },
+  "captures": {
+    "front": {
+      "path": "quality/evidence/ATEL-35/v0.1/front.png",
+      "sha256": "5aae7289c9ed01664a8586cc525ca14150fed8ea77a9ad912aee241a098f2ed8"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-35/v0.1/back.png",
+      "sha256": "d14f2d0207c7da7666a850a029a54f2bcdc946e97e75970be5a83c7851fb3227"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-35/v0.1/oblique.png",
+      "sha256": "3249ac4d31a715209c784a4da82a3d549853ee6c3cd1ce2dd866b8df584d8766"
+    }
+  }
+}

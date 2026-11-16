@@ -1,0 +1,68 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "decision": "pass",
+  "qaReport": "quality/reports/ATEL-47/v4.json",
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-47/v4.json",
+      "sha256": "b4ba56e3c01cbd29df30e6a59610d64c813c69a5348a5ce88b622367ab7b0454"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/qa-independent/browser-result.json",
+      "sha256": "c15ae04012e9b9d97a2df8fc6832a6a42bfefe45b0faa17430a79fdbf8f2d569"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/qa-independent/front.png",
+      "sha256": "6896f85b90c4fe66afb3b85227310747f53fa7149b899802db1af1df58d149eb"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/qa-independent/back.png",
+      "sha256": "a1faee21fcc2bfd8b1a6e6bdaf316384a681423d067a2ecc22f62d05cb6ab1fe"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/qa-independent/side.png",
+      "sha256": "ee5285d19ebdc89edb8ea6088ee4f594673027cd24829def35ec616174848348"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/qa-independent/oblique.png",
+      "sha256": "808e22ed61c1bfd5260d139de63648fba08520eba3cd9de3fa3775513f2250e9"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/qa-independent/credits-visible.png",
+      "sha256": "b275bbdf6cc4a6fc2c12ba3f9e8664ff2bcaf86d10909b79e2725be531d5f0e0"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4/qa-independent/content-dom-audit.json",
+      "sha256": "44be7d63a81dd2894f351f7c4c85134fbd0a4740bf11c7e6e87a88c298275986"
+    },
+    {
+      "path": "orders/ATEL-47/v4/visual/visual-manifest-v4.json",
+      "sha256": "7eeaa06743f8b538a3964550a9766bc6698460a8cd86aaa2143e64aababf224a"
+    },
+    {
+      "path": "orders/ATEL-47/v4/research/content-manifest-v4.json",
+      "sha256": "05159311941a768a6f2ad93631806602260c0f6c884c580f4500610ea0e673ce"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/assets/display.glb",
+      "sha256": "4abb9986b7f8079be07583a1c7e064712048592cf5fa28e239a5b442af577fb9"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/index.html",
+      "sha256": "9269c8162cb02992d6d201013a869118bedfedb2289c2fac56564f584968cc70"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/content.json",
+      "sha256": "6a34fc63cc24857044dbd83987043426e664f7b830aa6fee2024e68f5d005af6"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/assembly.json",
+      "sha256": "4ccae7c65e6cd8c5625b12e913d08b2252c62ca40c787d25c84316f2bb1aaeef"
+    },
+    {
+      "path": "showcase/products/ATEL-47/v4/measurements.json",
+      "sha256": "e3f962bc064d17b3df78e3b9669c3c1480835d6f38049d04852aa7a42524cae4"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4.3",
+  "deliveryProfile": "showcase-basic-v1",
+  "decision": "return-after-correction",
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false,
+  "summary": "QA độc lập v4.3: xác minh đúng bundle repair và hash handoff. Browser/capture/content cùng revision, màu xanh và artwork hiển thị. Tuy vậy side/oblique vẫn để lộ mảng trắng mannequin ở junction vai/nách; hàng khuy trước vẫn không đọc thành chi tiết đóng mở rõ ở front. Hai mục tiêu sửa của v4.3 chưa đạt; chuyển Lead quyết định hướng tiếp theo, không tự mở thêm revision.",
+  "brief": {
+    "requiredFeatures": [
+      "Áo phủ mannequin dễ nhìn, đúng brief; giữ nếp gấp và khuy phù hợp loại áo.",
+      "Content ngắn nêu chất liệu, kiểu dáng và số đo tham chiếu mẫu 3D có nguồn."
+    ]
+  },
+  "assets": {
+    "garment": "orders/ATEL-23/v4.3/designer/garment-v4_3.glb",
+    "garmentSha256": "fa890082176ece1facf78618622abfb14a41e5f193dc3ec4734ccb9be359f768",
+    "fitManifest": "orders/ATEL-23/v4.3/designer/fit.json",
+    "fitManifestSha256": "98f81c0abe40e6775433ab74d2eca14111be02c2a4772571a6ce80600f4e1f7d",
+    "display": "showcase/products/ATEL-23/v4.3/assets/display.glb",
+    "displaySha256": "36cb5c099692418772b9076247ed77112e01b673d355fb78df6c7fac90493c9c",
+    "assembly": "showcase/products/ATEL-23/v4.3/assembly.json",
+    "assemblySha256": "a6b3a22081aa856994d2466f581a3ebfbb958f48eaeae89dab10673cb5e2881f",
+    "assetManifest": "showcase/products/ATEL-23/v4.3/asset-manifest.json",
+    "assetManifestSha256": "efb84f62d3feb36385741ee9cbd6b165efb108ff83e2ef518ec6dda8b9afced7",
+    "content": "showcase/products/ATEL-23/v4.3/content.json",
+    "contentSha256": "8a12ed1b2cfc68c30cd0ace0fa6854879272a3d15ff31c43c2cf418ec1b5b55b",
+    "measurements": "showcase/products/ATEL-23/v4.3/measurements.json",
+    "measurementsSha256": "6e10c9fef4219054df4741f71a0625974caa4271df80b03bf4ebd1371d0ab022",
+    "browserResult": "quality/evidence/ATEL-23/v4.3/browser-result.json",
+    "browserResultSha256": "e0c7a6f79e42341e2bbec0c525e1af61d230c450d587f8e854ca7d95384e6c5f",
+    "mannequin": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  },
+  "visual": {
+    "coverage": false,
+    "silhouette": true,
+    "folds": true,
+    "closures": false,
+    "contentMatches": true
+  },
+  "featureChecks": [
+    {
+      "feature": "Revision, hash và evidence bundle v4.3",
+      "passed": true,
+      "observation": "SHA-256 garment, fit.json, display, assembly, asset-manifest, content, measurements, browser-result và cả năm capture khớp handoff/manifests. Assembly ghi revision v4.3, stage repair.",
+      "evidence": "showcase/products/ATEL-23/v4.3/asset-manifest.json"
+    },
+    {
+      "feature": "Coverage vai/nách side và oblique",
+      "passed": false,
+      "observation": "Mảng trắng có bề mặt/ánh sáng liên tục với mannequin vẫn thấy ở bên trong junction vai/nách; đây là mannequin lộ qua armhole/underarm, không phải phần áo. Vẫn thấy trong side và oblique sau gusset-cap repair.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v4.3/side.png",
+        "quality/evidence/ATEL-23/v4.3/oblique.png"
+      ]
+    },
+    {
+      "feature": "Độ đọc hàng khuy trước",
+      "passed": false,
+      "observation": "Ở front capture, khuy/nẹp không tách thành một hàng khuy đọc được trên thân áo; chỉ thấy dấu nhỏ, nhạt chìm trong microprint. Do đó chi tiết đóng mở vẫn chưa rõ khi xem sản phẩm ở khung trưng bày.",
+      "evidence": "quality/evidence/ATEL-23/v4.3/front.png"
+    },
+    {
+      "feature": "Content và đúng brief hiển thị",
+      "passed": true,
+      "observation": "Content cùng revision nêu áo sơ mi dài tay cổ bẻ, phom suông, nền xanh trời nhạt/artwork Tuyến sáng; ghi Poplin mô phỏng với nguồn, kiểu dáng và số đo mẫu 3D có nguồn. Màu và artwork nhìn thấy trong front/back.",
+      "evidence": [
+        "showcase/products/ATEL-23/v4.3/content.json",
+        "quality/evidence/ATEL-23/v4.3/front.png",
+        "quality/evidence/ATEL-23/v4.3/back.png"
+      ]
+    },
+    {
+      "feature": "Viewer desktop/mobile",
+      "passed": true,
+      "observation": "Browser result ghi loaded/rotated/zoomed/desktop/mobile=true và errors rỗng; mobile capture có nội dung và viewer hiển thị.",
+      "evidence": "quality/evidence/ATEL-23/v4.3/browser-result.json"
+    }
+  ],
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-23/v4.3/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "browserResultSha256": "e0c7a6f79e42341e2bbec0c525e1af61d230c450d587f8e854ca7d95384e6c5f"
+  },
+  "evidence": {
+    "front": { "path": "quality/evidence/ATEL-23/v4.3/front.png", "sha256": "28249377b8d752b4ed73262a7d7070558c85523bf2582e4614f5b5fe31719a35" },
+    "back": { "path": "quality/evidence/ATEL-23/v4.3/back.png", "sha256": "055982fbb4a75fd76660dc9b64cc00fc68fce915fde4d149c6a555fa994e6184" },
+    "side": { "path": "quality/evidence/ATEL-23/v4.3/side.png", "sha256": "5a733f2d75a9a267df2f8496e9c167260d8236b228e4fa16f9fdd40957683926" },
+    "oblique": { "path": "quality/evidence/ATEL-23/v4.3/oblique.png", "sha256": "e2ee85c76759ddbb969a9fbabfe728358733bbb17a923925a545a3a65c3a98da" },
+    "mobile": { "path": "quality/evidence/ATEL-23/v4.3/mobile.png", "sha256": "b4e6694004c66b5a5eeb942bf4c4b3728ea6861a146662c7156cbbff2d3c7b7a" }
+  },
+  "blockers": [
+    {
+      "priority": "P0",
+      "issue": "Mannequin vẫn lộ tại junction vai/nách ở side/oblique sau repair v4.3; tiêu chí áo phủ mannequin dễ nhìn chưa đạt.",
+      "owner": "Studio Lead quyết định disposition; Visual Studio/Fashion Designer phụ trách artifact display/garment.",
+      "nextStep": "Lead quyết định đổi phom hoặc báo owner lý do cụ thể theo giới hạn repair đã dùng. QA không tự mở revision khác và không approve/publish."
+    },
+    {
+      "priority": "P1",
+      "issue": "Hàng khuy/nẹp trước vẫn không đọc rõ thành chi tiết đóng mở ở front capture.",
+      "owner": "Studio Lead quyết định disposition; Fashion Designer phụ trách chi tiết garment.",
+      "nextStep": "Đưa cùng finding coverage cho Lead quyết định hướng tiếp theo; không tự mở revision khác và không approve/publish."
+    }
+  ],
+  "nextOwner": "Studio Lead",
+  "nextStep": "QA trả lại v4.3 vì cả hai target của repair vẫn nhìn thấy. Chờ Lead quyết định disposition; sản phẩm chưa được approve hoặc publish."
+}

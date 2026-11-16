@@ -1,0 +1,14 @@
+---
+title: "Claimed WorkItem 'Refresh standing answer \"What is my unfinished work, and what is blocking it"
+migrated_from: "agent/atelierx-designer-0003/memory.json"
+original_id: "7d147503-c0a0-4995-aab8-2a6f9ce92105"
+original_author: "atelierx-designer-0003"
+original_date: "2026-11-15T19:36:40.219Z"
+category: "best-practice"
+confidence: 0.5
+routing_uncertain: false
+---
+
+# Claimed WorkItem 'Refresh standing answer "What is my unfinished work, and what is blocking it
+
+Claimed WorkItem 'Refresh standing answer "What is my unfinished work, and what is blocking it?" — atelierx-designer-0003 (8 newer, 1 basis invalidated)' (id: 93dd5433-85eb-475c-8c88-bd0aa67118e0, claim: 3e19424a-06c7-4298-91a6-761071b7daa8) from Task Pool

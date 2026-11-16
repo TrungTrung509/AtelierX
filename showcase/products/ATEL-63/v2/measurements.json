@@ -1,0 +1,11 @@
+{
+  "envelopeWidthCm": 138.17005157470703,
+  "garmentLengthCm": 64.38845501509908,
+  "envelopeDepthCm": 34.20142388389865,
+  "upperBodySpanCm": 67.39964153355679,
+  "units": "cm",
+  "kind": "3D display references, not manufactured garment sizing",
+  "displayScale": 0.25,
+  "method": "World-space mesh envelope and horizontal silhouette section at 75% of garment height, scaled for display by 0.25. Display references only, not sewing or body measurements.",
+  "garmentSha256": "47265ba5174e6aac8ec164d3c0d1998eac55c6a71372eb47b4cbe09fd96bc21b"
+}

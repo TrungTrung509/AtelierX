@@ -1,0 +1,75 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "pattern-sewn-v1-gray",
+  "baseId": "blender-sewn-panels-v1",
+  "garment": {
+    "path": "orders/ATEL-53/blender-sew/v1/garment-pattern-sewn-gray-v1.glb",
+    "sha256": "ace5faf9192f34d281cfd6d597e14494983577a04f94974c90888cbb5d3fb15a"
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/garment-pattern-sewn-gray-v1.glb",
+      "sha256": "ace5faf9192f34d281cfd6d597e14494983577a04f94974c90888cbb5d3fb15a"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/pattern-sewn-v1-gray/garment.glb",
+      "sha256": "ace5faf9192f34d281cfd6d597e14494983577a04f94974c90888cbb5d3fb15a"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/front.png",
+      "sha256": "6300adf4a4873bb6742f97ccfce2a503aaeef5de02bfd8d93e9ffe77a9d4d753"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/back.png",
+      "sha256": "726edd791175b750441ff7815f1fc988d4cdfdf14f28d184889ccfaf9fadb150"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/side.png",
+      "sha256": "22a0721da9e819d696269c42c4baa79c49dd529778e7cadff019d049bd44c95b"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/oblique.png",
+      "sha256": "5ec144c1121a873c27d89cd157079599a71c4d6c820e5275c7b8f6715d2dc300"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/top.png",
+      "sha256": "64f1256c5e921872fc3466359d44c5953aa4985be80a600e6aca720e14a3cffb"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/bottom.png",
+      "sha256": "a051bbd5fa4bffd21c47c381030a401505834d02e2747f54ac8b6af4411a4fcb"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-details-gray-v1/collarCloseup.png",
+      "sha256": "c363e778ce71c6a2bc6da2e7e011e93008301c36329c7d711f0d4182a4f37cad"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-details-gray-v1/placketSideCloseup.png",
+      "sha256": "61affc9ae3c2099968b901764e1b7aa4e630a10c3c44d200586886c593289d42"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-details-gray-v1/cuffCloseup.png",
+      "sha256": "47820914dd970b42ec9f9b91658fe73a2d5fdf3c315e5df7340f0aa3f2555cb6"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/pattern-sewn-v1-gray/index.html",
+      "sha256": "59b2032ba44ff52681cba5662cec786bcaaf7e7809456fd246cbc3ac3c78827d"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/build-shirt-sewn-simulation.py",
+      "sha256": "c87b92d6ed63fa3eb2d13a8330001d1b2b01b5912edad4629881e72f2211ca3f"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/shirt-sewn-simulation-v1.blend",
+      "sha256": "2f8f6fbfb8a8405c0a657443dbb1140a42e27bf58c4ea1e9e6151de008d44cb6"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/browser-result.json",
+      "sha256": "23e20791a89b644792160fbf356e08f86d76858ed8fba026ac321a4ad368b0b2"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-details-gray-v1/detail-browser-result.json",
+      "sha256": "903d8a07daed8a29cc4fcf144b96350e73dbfb550845690e39ea0fe80b01d1c8"
+    }
+  ]
+}

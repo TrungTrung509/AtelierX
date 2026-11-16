@@ -1,0 +1,57 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v1",
+  "sourceShape": {
+    "path": "orders/ATEL-35/v0.5/designer/garment-v0_5.glb",
+    "sha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+    "shapeReview": "orders/ATEL-35/v0.5/independent-shape-review.json",
+    "shapeReviewSha256": "6b18a3fb2bfb58adcda54d5a640a2fe704c28a53088ed74ec3988f610f0c3967"
+  },
+  "material": {
+    "path": "orders/ATEL-35/material/pbr-preset-v1.json",
+    "sha256": "5555b6b4b9fab4794b7d359eb11c79243e7eec63cc698e89cc4bbce7a87c79c9",
+    "name": "ATEL-35 cream cotton-like matte",
+    "baseColorHexSRGB": "#EBDDCA",
+    "roughnessFactor": 0.82,
+    "metallicFactor": 0,
+    "source": "Cream color follows the ATEL-35 owner brief. PBR values are an artist-authored reusable visualization preset; no external texture or measured material data was used."
+  },
+  "placement": {
+    "center": {
+      "u": 0.1,
+      "v": 0.77
+    },
+    "size": {
+      "width": 0.052,
+      "height": 0.068
+    },
+    "placement": "wearer-left chest (viewer-right in the front view)",
+    "orientation": "upright",
+    "uvConvention": "Texture origin upper-left; garment front chest map verified from v0.5 TEXCOORD_0 and world-space vertices.",
+    "artworkPath": "orders/ATEL-35/research/artwork/atel35-chest-flower-v1.svg",
+    "artworkSha256": "0da8270ea729589c1ae27142326abbcc358c866598c3307c1895cdaf1b78e363"
+  },
+  "surfaceMapping": {
+    "flowerMaterialMeshes": [
+      1,
+      2
+    ],
+    "creamOnlyMeshes": [
+      0,
+      3
+    ],
+    "reason": "Source UV chest tile overlaps the back island. Separate materials at existing primitive boundaries keep artwork front-only without changing geometry or UVs."
+  },
+  "artwork": {
+    "path": "orders/ATEL-35/research/artwork/atel35-chest-flower-v1.svg",
+    "sha256": "0da8270ea729589c1ae27142326abbcc358c866598c3307c1895cdaf1b78e363",
+    "texturePath": "orders/ATEL-35/visual/atel35-v1-basecolor.png",
+    "textureSha256": "1135aca89fc946ec08a7348fb1534404cdf7d4d4e8989b3b3b2d7935eb6079a1"
+  },
+  "integratedGarment": {
+    "path": "orders/ATEL-35/visual/garment-v1-cream-flower.glb",
+    "sha256": "a2fa02b57be6a5f01291e8c25d26e05f886d17b5066058c2e0a6625d679c5d63"
+  },
+  "geometryChanged": false,
+  "uvChanged": false
+}

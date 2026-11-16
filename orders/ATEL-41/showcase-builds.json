@@ -1,0 +1,12 @@
+{
+  "ATEL-41:final": {
+    "revision": "v3",
+    "model": "showcase/products/ATEL-41/v3/assets/display.glb",
+    "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+  },
+  "ATEL-41:correction": {
+    "revision": "v4",
+    "model": "showcase/products/ATEL-41/v4/assets/display.glb",
+    "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+  }
+}

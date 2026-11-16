@@ -1,0 +1,9 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v1",
+  "language": "vi",
+  "title": "Quần cargo be cát ống suông",
+  "summary": "Quần cargo 3D dáng ống suông với hai túi hộp lớn ở đùi, cạp có đỉa, khóa kéo và nút trước; dây rút gấu tạo điểm nhấn tiện dụng. Tông be cát phối chất liệu vải twill cotton mô phỏng, bề mặt lì nhẹ với nếp gấp mềm ở hông, gối và gấu. Kích thước hiển thị đo theo bao mesh của bản GLB cuối: rộng [chờ đo] cm × dài [chờ đo] cm × sâu [chờ đo] cm; đây là số tham chiếu trưng bày, không phải thông số may.",
+  "materialSimulation": "Twill cotton mô phỏng; lựa chọn chất liệu cần Material xác nhận theo preset sau khi phom đạt QA.",
+  "displayDimensions": {"status": "pending_final_mesh", "source": "orders/ATEL-41/v1/final assembly measurements.json từ tools/showcase-basic.mjs measureStandalone", "note": "Không lấy số envelope của candidate thay cho mesh sản phẩm cuối; không phải size may."}
+}

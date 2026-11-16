@@ -1,0 +1,56 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "garment": {
+    "path": "orders/ATEL-47/v4/designer/garment-gray-v4.glb",
+    "sha256": "493dfca00032176e3cc3178d46ce7ebf5113c9b6c765befdc4b6b2202aa2bccc"
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v4/designer/garment-gray-v4.glb",
+      "sha256": "493dfca00032176e3cc3178d46ce7ebf5113c9b6c765befdc4b6b2202aa2bccc"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/provenance-v4.json",
+      "sha256": "29df9d0c8655f595140fabdfa7331687ca9f6e4c30f617af1e7cf7052efd67dc"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/placement-v4.md",
+      "sha256": "545ddfcb6017da444923570d87904606e2d437a6fa87a626891ec984c1ed6106"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/build-shirt-topology-v4.mjs",
+      "sha256": "be83fad524866d2fb383aa0b8966a6acaa03c926b1b05b1ca6d14ff9c6bf2eaa"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-shape/front.png",
+      "sha256": "68e1e871f1d56eb8bfa451897e23e0f4563439573b68262a30f731758248c801"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-shape/back.png",
+      "sha256": "19ad7a34529ccd58fd29ba34253f66a872a97aa125c6e723e33e7511442b99d6"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-shape/side.png",
+      "sha256": "e740da4b37e19257dd6f136e457b99270db4594366303e250e6ab3432fffc57a"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-shape/oblique.png",
+      "sha256": "d9033f68e5fe9b647488f9e768ff541c89345d03bea36dda422068059fb38751"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v4-shape/browser-result.json",
+      "sha256": "e8be08ce187f21123a464aa6b4d365a8524f7e79acb072f8a7ce7cc4d3cc4e5f"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-47/v4-shape/index.html",
+      "sha256": "75fb1ccd5f37f3eb208ddac6c377629f178cbd24fb7d7d6f22e09825882203e8"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-47/v4-shape/garment.glb",
+      "sha256": "493dfca00032176e3cc3178d46ce7ebf5113c9b6c765befdc4b6b2202aa2bccc"
+    }
+  ],
+  "correctionOf": "orders/ATEL-47/v3/shape.json",
+  "shapeState": "New standalone topology awaiting independent shape QA; no baseId/source candidate. SHAPE-03 folds preserved; shoulder and collar retest pending."
+}

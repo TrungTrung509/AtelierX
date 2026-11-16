@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel32-source-textured/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-32-source-assessment/source-textured-qa/front.png",
+    "back": "quality/evidence/ATEL-32-source-assessment/source-textured-qa/back.png",
+    "left": "quality/evidence/ATEL-32-source-assessment/source-textured-qa/left.png",
+    "right": "quality/evidence/ATEL-32-source-assessment/source-textured-qa/right.png",
+    "detail": "quality/evidence/ATEL-32-source-assessment/source-textured-qa/detail.png",
+    "mobile": "quality/evidence/ATEL-32-source-assessment/source-textured-qa/mobile.png"
+  },
+  "errors": []
+}

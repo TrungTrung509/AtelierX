@@ -1,0 +1,45 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v3",
+  "decision": "return",
+  "correctionOwner": "lead",
+  "nextAction": "Stop geometry after the authorized v3 correction. Lead to decide replan/owner update; no further geometry correction is authorized.",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v3/independent-shape-retest.json",
+      "sha256": "92eeb3b67efcce9adc883c443d29a0e7f5ad564a95deee1d3931bf0892a59daa"
+    },
+    {
+      "path": "orders/ATEL-47/v3/shape.json",
+      "sha256": "d23ed2753559ab2c66c059dd107b974d9d98a950fcd236eaa9591b5195d8b783"
+    },
+    {
+      "path": "orders/ATEL-47/v3/designer/garment-gray-v3.glb",
+      "sha256": "c8cb4fd300995973b803ec8bbc903155715d7671fb0f3a190437dee3a3d14277"
+    },
+    {
+      "path": "orders/ATEL-47/v3/designer/provenance-v3.json",
+      "sha256": "06a26afb7a68bc2abd89a985ed5938d8bbe6bef150fc66a825262c7b1894db61"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/browser-result.json",
+      "sha256": "1b3cbdf0dfc977619cae77b2161221796017602f0c2d3798798b6903ad12b929"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/front.png",
+      "sha256": "cd73a365008437fe93d6cf65dfbc48caeb55c745f4eeaa6dd68d55ada041f838"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/back.png",
+      "sha256": "efd013b275dd92927314f404b3b497d2dd6d42dd539fb3d4818469a50934133f"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/side.png",
+      "sha256": "bcf79879c43ca2075996081e526ac8264d4d92cc140d94847f0def5f84b0084a"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/oblique.png",
+      "sha256": "11c81674319f2b907934ba9185446dd43f66af924b79227258648c468d28598f"
+    }
+  ]
+}

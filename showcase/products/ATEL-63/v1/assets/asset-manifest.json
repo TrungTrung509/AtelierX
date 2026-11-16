@@ -1,0 +1,70 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v1",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "displayScale": 0.25,
+  "assembly": {
+    "path": "showcase/products/ATEL-63/v1/assembly.json",
+    "sha256": "ec3ca3e67d434f719316c9a2eacb9e02d4519664756360da7471beb0710fca35"
+  },
+  "display": {
+    "path": "showcase/products/ATEL-63/v1/assets/display.glb",
+    "sha256": "3f0a7ae35b70083e42c30bdcda01354128a0ec3a244348adeefb5d345e845b7f"
+  },
+  "integratedGarment": {
+    "path": "orders/ATEL-63/v1/material/garment.glb",
+    "sha256": "36c76397c280f496f2361568ed73c242a9798e4a195d7fa4fd4ab9ac07258a45"
+  },
+  "surfaceHandoff": {
+    "path": "orders/ATEL-63/v1/material/surface-handoff.json",
+    "sha256": "fa131b6585e028616a69d0014405d96cbee49371cdc26266cfdbe9f89d3c5da1"
+  },
+  "materialPreset": {
+    "path": "orders/ATEL-63/material/pbr-preset-v1.json",
+    "sha256": "9a0ab0b1e79b83a135788b03443b0648b56d936d1c574655c861fc8edec2c8e0"
+  },
+  "shapeReview": {
+    "path": "orders/ATEL-63/v1/shape-review-handoff.json",
+    "sha256": "bb347f22dbbe9bac4afc9627695a0fde75f3357ae72cf6cadb7653c1aee27bc1"
+  },
+  "artwork": {
+    "path": "orders/ATEL-63/research/christmas-tree-snowflakes.svg",
+    "sha256": "65a81edb11deca9d9b5602a0f33d416faa966dd2546b0e8606a556714a2187d7"
+  },
+  "content": {
+    "path": "showcase/products/ATEL-63/v1/content.json",
+    "sha256": "f0c1d5a09286b934ad31a0053dfce5c9a873cef534c28461a60d5e8c67731c4b"
+  },
+  "viewer": {
+    "path": "showcase/products/ATEL-63/v1/index.html",
+    "sha256": "e00c7e4001f21b23fb6d5227416282afd4c1aa72e782dba05df5b80edcb25c63"
+  },
+  "measurements": {
+    "path": "showcase/products/ATEL-63/v1/measurements.json",
+    "sha256": "ef148b58c394a29eadd6c8359eeb705eef82bf90dabcc1f3f4dd5bd1b83ce017",
+    "kind": "3D display references, not manufactured garment sizing"
+  },
+  "browserEvidence": {
+    "path": "orders/ATEL-63/v1/visual/evidence/browser-result.json",
+    "sha256": "64d7780fe4b20570755bb2c4c906f732df59b868723bca767260a70cdfcc5620"
+  },
+  "screenshots": {
+    "front": {
+      "path": "orders/ATEL-63/v1/visual/evidence/front.png",
+      "sha256": "b83c73bab3ad2eb353cb951ca4846b0efac24c98a0ad0462301431ee6bd69c80"
+    },
+    "back": {
+      "path": "orders/ATEL-63/v1/visual/evidence/back.png",
+      "sha256": "83b0780b715688892dbbeeaaff082748ba59da8fb9716d2aeb2e3b2756147cbb"
+    },
+    "side": {
+      "path": "orders/ATEL-63/v1/visual/evidence/side.png",
+      "sha256": "1210eed84142f56a8bd7bd6d3496a0b35d94513be833c543b5e5d80bb7c5bf9d"
+    },
+    "oblique": {
+      "path": "orders/ATEL-63/v1/visual/evidence/oblique.png",
+      "sha256": "8efd7b51d6f03dfc48d507f494a0b561970fb7a7051693b0a7794146b6cd95fb"
+    }
+  }
+}

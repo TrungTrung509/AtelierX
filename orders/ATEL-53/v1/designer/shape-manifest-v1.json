@@ -1,0 +1,114 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "v1-gray",
+  "status": "ready for independent shape QA; not shape-approved",
+  "garment": {
+    "path": "orders/ATEL-53/v1/designer/garment-gray-v1.glb",
+    "sha256": "814a9adebd14b772b85adfd9fb5c98c43fe1595e3fcc538d875dfd9b50c8c3de"
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-53/v1/designer/garment-gray-v1.glb",
+      "sha256": "814a9adebd14b772b85adfd9fb5c98c43fe1595e3fcc538d875dfd9b50c8c3de"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/build-shirt-shell-v1.mjs",
+      "sha256": "59898ae16a3dd89d4b6f948450b65c37886b15f04e45851b3b1196a117058368"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/capture-shirt-details.mjs",
+      "sha256": "9f465a644a02ea87619fe4c2f9cfef223315c2368d299ec692db3297cac895df"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1/front.png",
+      "sha256": "2732cdbe6e3992ff87ed8696acb311672b2ccf1fe6d01a8ca4eb4272d3d25574"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1/back.png",
+      "sha256": "32e7c7f7ffaff279a64bfb9115fd6bfceb0f8746b8ef1415859eb6aad24a152d"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1/side.png",
+      "sha256": "9c2d7ab4c3b3d75799fd4d43f7cb1f5e03cbb95efbdaa1ecf95429fbd18ac7f5"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1/oblique.png",
+      "sha256": "95d1482f74e06817b525225aacc1618b484f3dd980802b0385504a3535171302"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1/top.png",
+      "sha256": "d823b9a7632454f59619d4e0b99596a73c5b95a8fab11b0b5d2295bfe2173203"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1/bottom.png",
+      "sha256": "bc435417495deb7aa723f32f8546b11fc7a93ee45920eac2588ada6840bfa14e"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1/browser-result.json",
+      "sha256": "264ac531e25dab08e2d15497363f1b41c7792e99d7f8fd2c6ea14ce9790298c2"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1/collarCloseup.png",
+      "sha256": "7655f0412a28db133ea2bc8ae24ec93c0668bad0933db585f966ae796fef8910"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1/placketSideCloseup.png",
+      "sha256": "22757c94d18c375a1271b14187832fc3771efc3552b46cead0848808b2330ccc"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1/cuffCloseup.png",
+      "sha256": "00e31edafd6f9443e2443d6c3d5a4640ac629aad0da8251f143613acab48a86f"
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1/detail-browser-result.json",
+      "sha256": "e5f140de61f19d682ee16807002ee54ec28c1777aff716fd96bb63a694d0b19a"
+    }
+  ],
+  "provenance": {
+    "method": "New procedural cloth-shell geometry authored from the owner brief using front/back fabric panels, sewn shoulder and side seams, armhole-following swept sleeves, open cuff bands, neckline-following collar stand, two folded collar leaves and a curved front placket.",
+    "sourceAssets": [],
+    "reusedGeometry": false,
+    "rejectedGeometryUsed": false,
+    "mannequin": false,
+    "toolSteps": [
+      "Built GLB via build-shirt-shell-v1.mjs from named cloth surfaces; no SDF/solid body or downloaded/source mesh.",
+      "Used a parent display transform scale [1,0.72,1], translation [0,0.42,0] for a 76.5 cm display envelope; display dimensions are not manufacturing measurements.",
+      "Copied the immutable GLB to the isolated Crewly quality-preview route and captured all evidence from that exact copy."
+    ]
+  },
+  "uv": {
+    "origin": "glTF UV upper-left",
+    "bodyPanels": "U center front/back to side seam; V shoulder to hem.",
+    "sleeves": "U around sleeve circumference; V shoulder to cuff.",
+    "materialGroups": [
+      "Neutral gray shirt shell",
+      "Collar and placket seam allowances",
+      "Cuff bands"
+    ]
+  },
+  "anchors": {
+    "collar": "Stand base follows the front/back neckline panel boundary; small left/right leaf panels follow the gray shell surface. QA to inspect collar roll and attachment.",
+    "placket": "Folded center-front textile panel follows body curvature; no decorative buttons in gray review. Attach front button anchors to placket surface normals after shape pass.",
+    "cuffs": "Open cuff-band surfaces follow distal sleeve rings; cuff-button anchors deferred until shape pass."
+  },
+  "evidence": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/v1/index.html",
+    "sourceGlbSha256": "814a9adebd14b772b85adfd9fb5c98c43fe1595e3fcc538d875dfd9b50c8c3de",
+    "views": {
+      "front": "orders/ATEL-53/v1/designer/evidence-v1/front.png",
+      "back": "orders/ATEL-53/v1/designer/evidence-v1/back.png",
+      "side": "orders/ATEL-53/v1/designer/evidence-v1/side.png",
+      "oblique": "orders/ATEL-53/v1/designer/evidence-v1/oblique.png",
+      "top": "orders/ATEL-53/v1/designer/evidence-v1/top.png",
+      "bottom": "orders/ATEL-53/v1/designer/evidence-v1/bottom.png",
+      "collarCloseup": "orders/ATEL-53/v1/designer/detail-evidence-v1/collarCloseup.png",
+      "placketSideCloseup": "orders/ATEL-53/v1/designer/detail-evidence-v1/placketSideCloseup.png",
+      "cuffCloseup": "orders/ATEL-53/v1/designer/detail-evidence-v1/cuffCloseup.png"
+    },
+    "browser": "Desktop viewer loaded, rotated and zoomed; no browser errors. These states verify the reviewer route, not shape approval."
+  },
+  "notes": [
+    "WIP checkpoint manifest from 18:36 UTC is stale and must not be used for QA.",
+    "Neutral-gray geometry only. Independent QA owns shape decision; no material handoff before shape pass."
+  ]
+}

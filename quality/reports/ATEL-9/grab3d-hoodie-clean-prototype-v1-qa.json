@@ -1,0 +1,87 @@
+{
+  "orderId": "ATEL-9",
+  "revision": "grab3d-hoodie-clean-prototype-v1",
+  "gate": "G1",
+  "decision": "return",
+  "baseMeshId": "grab3d-hoodie-clean-prototype-v1",
+  "garmentType": "hoodie",
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false,
+  "summary": "Chưa đủ điều kiện G1. Sáu ảnh browser xác nhận prototype tải và có thể xoay/zoom trên desktop/mobile; không thấy giá đỡ còn che vùng lưng. Tuy vậy mesh là bản lọc tam giác theo vùng tọa độ, chưa có kiểm tra tính toàn vẹn đường viền sau lọc, thử artwork UV/placement, hoặc placement profile gắn với revision này. Giữ trạng thái candidate.",
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie-clean-prototype/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": []
+  },
+  "evidence": {
+    "front": "quality/evidence/base-hoodie-clean-prototype/front.png",
+    "back": "quality/evidence/base-hoodie-clean-prototype/back.png",
+    "left": "quality/evidence/base-hoodie-clean-prototype/left.png",
+    "right": "quality/evidence/base-hoodie-clean-prototype/right.png",
+    "detail": "quality/evidence/base-hoodie-clean-prototype/detail.png",
+    "mobile": "quality/evidence/base-hoodie-clean-prototype/mobile.png",
+    "browserResult": "quality/evidence/base-hoodie-clean-prototype/browser-result.json",
+    "mesh": "quality/candidates/grab3d-hoodie-clean-prototype.glb",
+    "meshSha256": "5fc0f746dbd390e4bad3b692dde55b7f8de1a820e01f138e50a6e2da9eedbd76",
+    "license": "quality/candidates/grab3d-hoodie-LICENSE.txt",
+    "generator": "tools/remove-stand-prototype.mjs"
+  },
+  "checks": [
+    {
+      "criterion": "Silhouette nhận diện là hoodie ở front/back/side",
+      "score": 4,
+      "passed": true,
+      "observation": "Front và back cho thấy thân, hai tay dài, bo cổ tay/gấu, túi kangaroo và mũ. Hai góc bên rất hẹp nhưng phù hợp góc ngang. Chưa kết luận chất lượng phom may chi tiết từ bộ ảnh này.",
+      "evidence": ["quality/evidence/base-hoodie-clean-prototype/front.png", "quality/evidence/base-hoodie-clean-prototype/back.png", "quality/evidence/base-hoodie-clean-prototype/left.png", "quality/evidence/base-hoodie-clean-prototype/right.png"]
+    },
+    {
+      "criterion": "Giá đỡ/hanger không che hoặc xuyên vùng áo",
+      "score": 4,
+      "passed": true,
+      "observation": "Không thấy cọc giá đỡ chắn giữa lưng hay xuyên áo trong sáu góc đã cung cấp.",
+      "evidence": ["quality/evidence/base-hoodie-clean-prototype/back.png", "quality/evidence/base-hoodie-clean-prototype/detail.png", "quality/evidence/base-hoodie-clean-prototype/mobile.png"]
+    },
+    {
+      "criterion": "Mesh sau lọc không mất mặt/ráp nối và không có khe hoặc mép cắt lộ rõ",
+      "score": 3,
+      "passed": false,
+      "observation": "Ảnh hiện tại không cho thấy lỗi hở lớn, nhưng phần mềm lọc bỏ tam giác theo ngưỡng tọa độ; chưa có kiểm tra topology/đường viền trước-sau. Cần Designer xác nhận vùng cắt quanh tay áo, mũ và gấu.",
+      "evidence": ["quality/evidence/base-hoodie-clean-prototype/front.png", "quality/evidence/base-hoodie-clean-prototype/back.png", "quality/evidence/base-hoodie-clean-prototype/detail.png"]
+    },
+    {
+      "criterion": "UV và placement lưng/ngực đã chứng minh bằng artwork thử",
+      "score": 0,
+      "passed": false,
+      "observation": "GLB có TEXCOORD_0 nhưng chưa có hình thử xác định hướng, độ méo, tràn đường may hoặc vùng UV dùng được; chưa có placement profile cho mesh này.",
+      "evidence": ["quality/candidates/grab3d-hoodie-clean-prototype.glb"]
+    },
+    {
+      "criterion": "Nguồn, quyền và checksum gắn với candidate",
+      "score": 4,
+      "passed": true,
+      "observation": "Manifest khai báo Grab3D CC0-1.0, URL, license file và SHA-256 khớp file đang xem.",
+      "evidence": ["quality/base-meshes.json", "quality/candidates/grab3d-hoodie-LICENSE.txt"]
+    },
+    {
+      "criterion": "Viewer browser tải và tương tác trên desktop/mobile",
+      "score": 4,
+      "passed": true,
+      "observation": "browser-result.json ghi loaded/rotated/zoomed/desktop/mobile true và errors rỗng; đã rà trực tiếp đủ sáu ảnh.",
+      "evidence": ["quality/evidence/base-hoodie-clean-prototype/browser-result.json", "quality/evidence/base-hoodie-clean-prototype/mobile.png"]
+    }
+  ],
+  "blockers": [
+    "Chưa có artwork thử trên lưng và ngực để xác minh UV/placement không lật, méo hoặc tràn đường may.",
+    "Chưa có placement profile gắn với đúng SHA-256/revision candidate.",
+    "Cần Designer kiểm tra đường viền/topology quanh vùng bị lọc để chứng minh không mất mặt áo hoặc tạo mép cắt/khe hở."
+  ],
+  "retest": [
+    "Designer tạo hình thử có hướng nhận biết rõ trên lưng và ngực; chụp browser lại đủ front/back/left/right/detail/mobile.",
+    "Designer kiểm và ghi placement profile, material slot, vùng in cùng checksum/revision của mesh đã thử.",
+    "QA rà lại mesh và ảnh mới, đặc biệt mép tay áo/mũ/gấu và hình in trên vùng lưng; Lead quyết định approved sau khi G1 đủ bằng chứng."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "orderId": "ATEL-23",
+  "workItemId": "03387d63-e12e-47a6-8356-6d427e787d72",
+  "revision": "v4.2",
+  "deliveryProfile": "showcase-basic-v1",
+  "sourceGeometry": {
+    "path": "orders/ATEL-23/v2.5/designer/garment-v2.5.glb",
+    "sha256": "951e128906de9a94f4e663f0ced528da13759cd5a3385b32d5f0cf2d7f832936",
+    "preserved": true,
+    "change": "Reused long-sleeve shirt shell for full arm coverage; v4.1 remains untouched."
+  },
+  "garment": {
+    "path": "orders/ATEL-23/v4.2/designer/garment-v4_2.glb",
+    "sha256": "20cfb0b239ed811100c80daa0dc03f62daaa3f1262682ed3faabef44a64ef84a",
+    "uv": {
+      "attribute": "TEXCOORD_0",
+      "layoutSource": "v2.5 UV0 atlas",
+      "materialSlot": 0
+    },
+    "textures": {
+      "baseColor": {
+        "path": "orders/ATEL-23/v1/material/base-color.png",
+        "sha256": "4fa18ae8037b03290b1e584d4c3d9705deb2820f5789c4cce04a1077af96ed10"
+      },
+      "roughness": {
+        "path": "orders/ATEL-23/v1/material/roughness.png",
+        "sha256": "10f44823550c6b818c4e6111a890f43d6300cec40c53a6203173a7a8ae6d9509"
+      },
+      "normal": {
+        "path": "orders/ATEL-23/v1/material/normal.png",
+        "sha256": "c6dbe5aa2859192bd525d7a8dc5c89ebb480fb2b318b16c8635a565a29096ef1"
+      }
+    },
+    "artwork": {
+      "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+      "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99",
+      "mappedOn": "UV0 / baseColor texture"
+    },
+    "details": {
+      "buttonMaterialSlot": 1,
+      "buttonCenters": [
+        {
+          "x": 0,
+          "y": 1.49
+        },
+        {
+          "x": 0,
+          "y": 1.42
+        },
+        {
+          "x": 0,
+          "y": 1.35
+        },
+        {
+          "x": 0,
+          "y": 1.28
+        },
+        {
+          "x": 0,
+          "y": 1.21
+        },
+        {
+          "x": 0,
+          "y": 1.14
+        }
+      ],
+      "placement": "Z sampled from source shirt surface at each center; 18 mm diameter; low-profile geometry"
+    }
+  },
+  "display": {
+    "path": "showcase/products/ATEL-23/v4.2/assets/display.glb",
+    "sha256": "d134e30d20da78ec0bce4b08d7d6a8006b18ca14ed283123423c8bc84949f0ee"
+  },
+  "assembly": "showcase/products/ATEL-23/v4.2/assembly.json",
+  "measurements": "showcase/products/ATEL-23/v4.2/measurements.json",
+  "browserEvidence": {
+    "directory": "quality/evidence/ATEL-23/v4.2",
+    "requiredViews": [
+      "front.png",
+      "back.png",
+      "side.png",
+      "oblique.png",
+      "mobile.png"
+    ],
+    "browserResult": "quality/evidence/ATEL-23/v4.2/browser-result.json",
+    "screenshots": {
+      "front": {
+        "path": "quality/evidence/ATEL-23/v4.2/front.png",
+        "sha256": "755bf6c0330123845e30bfeb9aa9e0197d29a0cbf2f944e49fbdcc047617f46a"
+      },
+      "back": {
+        "path": "quality/evidence/ATEL-23/v4.2/back.png",
+        "sha256": "055982fbb4a75fd76660dc9b64cc00fc68fce915fde4d149c6a555fa994e6184"
+      },
+      "side": {
+        "path": "quality/evidence/ATEL-23/v4.2/side.png",
+        "sha256": "0345839ead5aa3d7b34f128007c9bb020b8032af0448658df2d476c9d34a931a"
+      },
+      "oblique": {
+        "path": "quality/evidence/ATEL-23/v4.2/oblique.png",
+        "sha256": "831c9272c42254be458edd588efec17d6669157c4d780bda5c4b849b44ec0898"
+      },
+      "mobile": {
+        "path": "quality/evidence/ATEL-23/v4.2/mobile.png",
+        "sha256": "4f42d6606d3f71fe1763bff20b72900a5fdd9e6d0c5314aee7cbf47e5998879a"
+      }
+    }
+  },
+  "reviewStatus": "Handed to independent QA; no approval/publish claimed.",
+  "mask": {
+    "enabled": true,
+    "removedTriangles": 2614,
+    "method": "showcase-basic maskCoveredBody; removes mannequin faces only when garment front/back enclose the sample"
+  },
+  "assemblySha256": "33973469798e0f9aa47809d8d089e7e8c5d2effcb8d3519a00445529377fdf81",
+  "measurementsSha256": "6e10c9fef4219054df4741f71a0625974caa4271df80b03bf4ebd1371d0ab022",
+  "contentSha256": "382644140fb638b790e365abcbe7840f594c9210411140383c6bb78b02562561",
+  "designerVisualReview": {
+    "status": "handoff-with-visible-issue-recorded",
+    "coverage": "Sleeves cover arms in front/back; the side and oblique captures still show a white patch at the shoulder/underarm junction that may be exposed mannequin. Mask covered 2614 mannequin triangles but did not remove this visible area.",
+    "colorAndArtwork": "Pale blue base and Tuyến sáng print are visible and use UV0.",
+    "details": "Buttons are surface-sampled, 18mm low-profile geometry; at full-view resolution they are subtle against the print and need QA detail inspection.",
+    "nextStep": "QA to inspect the remaining side/oblique junction and button readability on this exact revision."
+  }
+}

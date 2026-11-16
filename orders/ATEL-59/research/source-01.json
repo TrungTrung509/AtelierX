@@ -1,0 +1,39 @@
+{
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-59",
+  "revision": "preparation-round-2",
+  "candidateId": "user-regular-clothes-for-vespian-feb2bc4d-v1",
+  "source": {
+    "path": "quality/candidates/user-supplied/regular_clothes_for_vespian.glb",
+    "sha256": "feb2bc4dc43bd5666868133f4b84cfe7d724dfe5af3e3b7d4deda06cc85a2cb2",
+    "provenance": {
+      "author": "ChamberSu1996",
+      "title": "Regular Clothes For Vespian",
+      "url": "https://sketchfab.com/3d-models/regular-clothes-for-vespian-c80d2fbcf50a4a71a429bd99c6409049",
+      "license": "CC-BY-4.0 per embedded GLB metadata; owner-authorized project use per quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    "assetStructure": {
+      "meshCount": 14,
+      "shirtNamedMeshes": ["SuitPatternMakingDetailed.002_FabricForShirt_0", "VestPatternMakingDetailed.002_FabricForShirt_0"],
+      "otherGarmentsAndParts": "coat, vest, pants, shoes, rubber/metal details; full outfit rather than shirt-only source"
+    }
+  },
+  "visualEvidence": {
+    "front": "orders/ATEL-59/research/source-01/front.png",
+    "back": "orders/ATEL-59/research/source-01/back.png",
+    "side": "orders/ATEL-59/research/source-01/side.png",
+    "oblique": "orders/ATEL-59/research/source-01/oblique.png",
+    "browserResult": "orders/ATEL-59/research/source-01/browser-result.json",
+    "previewUrl": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-59/source-01/index.html"
+  },
+  "inspection": {
+    "frontBackObserved": "Front shows a pale buttoned shirt mostly hidden by a black coat on the left figure and a black vest on the right; the back shows the shirt sleeves and collar largely hidden by the vest. The file presents two complete clothed figures/outfits, not an independent shirt shell.",
+    "collarStandAndLeaves": "Not independently inspectable; shirt collar is occluded by coat/vest at both views.",
+    "placketAndButtons": "Shirt placket/buttons are largely obscured and cannot establish usable standalone shirt construction.",
+    "cuffs": "No isolated shirt cuff construction visible; shirt sleeves terminate at exposed hands.",
+    "openShell": "Not demonstrated by front/back evidence; body shell is not separable from the composite outfit based on this inspection.",
+    "naturalDrape": "Outfit silhouette reads as formal coat/vest and trousers, not a standalone shirt draped on an invisible body.",
+    "decision": "excluded",
+    "reason": "Although embedded metadata identifies shirt fabric meshes, the 14-mesh GLB is a layered full outfit; shirt collar/placket/shell cannot be verified independently and the required standalone construction is not visible. Do not select as ATEL-53 base."
+  }
+}

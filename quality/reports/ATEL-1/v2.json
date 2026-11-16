@@ -1,0 +1,100 @@
+{
+  "orderId": "ATEL-1",
+  "revision": "v2",
+  "decision": "hold-preview",
+  "brief": {
+    "garmentType": "hoodie",
+    "requiredFeatures": [
+      "Hoodie màu đen",
+      "Đầu lâu có đúng một hốc mắt nằm ở mặt lưng",
+      "Mặt trước không có họa tiết"
+    ]
+  },
+  "featureChecks": [
+    {
+      "feature": "Hoodie màu đen",
+      "passed": true,
+      "evidence": "quality/evidence/ATEL-8/ATEL-1-v2/front.png"
+    },
+    {
+      "feature": "Đầu lâu có đúng một hốc mắt nằm ở mặt lưng",
+      "passed": true,
+      "evidence": "quality/evidence/ATEL-8/ATEL-1-v2/back.png"
+    },
+    {
+      "feature": "Mặt trước không có họa tiết",
+      "passed": true,
+      "evidence": "quality/evidence/ATEL-8/ATEL-1-v2/front.png"
+    }
+  ],
+  "assets": {
+    "baseMeshId": "procedural-hoodie-mvp",
+    "artwork": "showcase/products/ATEL-1/v2/assets/models/ATEL-2/v2/hoodie-back-skull-artwork-v2.svg",
+    "model": "showcase/products/ATEL-1/v2/assets/models/ATEL-2/v2/hoodie-skull-v2.glb",
+    "viewer": "showcase/products/ATEL-1/v2/index.html"
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-1/v2/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": []
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-8/ATEL-1-v2/front.png",
+    "back": "quality/evidence/ATEL-8/ATEL-1-v2/back.png",
+    "left": "quality/evidence/ATEL-8/ATEL-1-v2/left.png",
+    "right": "quality/evidence/ATEL-8/ATEL-1-v2/right.png",
+    "detail": "quality/evidence/ATEL-8/ATEL-1-v2/detail.png",
+    "mobile": "quality/evidence/ATEL-8/ATEL-1-v2/mobile.png",
+    "browserResult": "quality/evidence/ATEL-8/ATEL-1-v2/browser-result.json",
+    "glbSha256": "cfe901ec52212ef36c37662ba09486fc0cef1433a77ea88a11244b6ebaef774a",
+    "manifest": "showcase/products/ATEL-1/v2/assets/models/ATEL-2/v2/asset-manifest.json",
+    "baseMeshRegistry": "quality/base-meshes.json"
+  },
+  "scores": {
+    "silhouette": 3,
+    "construction": 2,
+    "artwork": 4,
+    "placement": 4,
+    "material": 4,
+    "web": 5
+  },
+  "blockers": [
+    "Phom trong manifest là procedural MVP, không phải base mesh approved; quality/base-meshes.json hiện không có phom approved phù hợp. Không đủ điều kiện complete dù viewer/browser và họa tiết đạt các kiểm tra tương ứng.",
+    "Silhouette và ráp nối còn rất đơn giản/khối cạnh: front/back cho thấy tay áo và thân nối góc rõ, hood và gấu ít chi tiết; hai góc side mỏng, chưa đạt chuẩn thị giác tối thiểu 4/5.",
+    "Catalog vẫn preview là đúng; statusLabel hiện ghi 'chờ QA browser' dù browser retest này đã chạy đạt. Cần Lead cân nhắc cập nhật nhãn theo blocker phom còn lại.",
+    "Đã mở trực tiếp viewer ở route sản phẩm nội bộ Crewly; chưa xác minh một lớp iframe/gallery bên ngoài route này."
+  ],
+  "technicalChecks": [
+    {
+      "check": "Catalog entry",
+      "result": "ATEL-1 revision v2, status preview; viewer/model paths tương đối từ showcase/ trỏ tới file v2 hiện có.",
+      "command": "Đọc showcase/catalog.json và kiểm tra file tồn tại bằng Node.js."
+    },
+    {
+      "check": "Viewer source",
+      "result": "Title Hoodie ATEL-1 · v2; badge REVISION 02; model-viewer dùng đường dẫn tương đối tới hoodie-skull-v2.glb.",
+      "command": "Đọc showcase/products/ATEL-1/v2/index.html."
+    },
+    {
+      "check": "Local HTTP",
+      "result": "Viewer HTTP 200 (text/html); GLB HTTP 200 (model/gltf-binary); viewer.js và model-viewer.min.js HTTP 200.",
+      "command": "curl -sS -o /dev/null -w '%{http_code} %{content_type}' <URL>"
+    },
+    {
+      "check": "Browser thực",
+      "result": "Chromium: loaded/rotated/zoomed/desktop/mobile=true; errors rỗng; đã xem trực tiếp sáu ảnh capture.",
+      "command": "node tools/browser-qa.mjs --url http://127.0.0.1:8787/atelierx-products/products/ATEL-1/v2/index.html --out quality/evidence/ATEL-8/ATEL-1-v2"
+    },
+    {
+      "check": "Artwork và mặt đặt",
+      "result": "Back có hình đầu lâu một hốc mắt, đặt giữa và thẳng dưới hood; front trơn. Hình tương phản cao với nền vải đen.",
+      "command": "Rà trực tiếp front.png, back.png, detail.png và mobile.png trong thư mục evidence."
+    }
+  ],
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false
+}

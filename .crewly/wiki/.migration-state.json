@@ -1,0 +1,1289 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "sourceId": "learnings:37becd1336206f4f",
+      "contentHash": "54cf73cc17048ceb4b965a6b13115c87bd7ca1e79d90bd7322afc1266ac768b6",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-13T11:32:55.016Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:29a4f7524083",
+      "contentHash": "6263f0cf97d3eab307e0f9bfc8feb4d4f5d3f91a5c1a89008b121006080a198d",
+      "targetRelativePath": "llm-curated/runbooks/agents.md",
+      "migratedAt": "2026-11-13T11:32:55.037Z"
+    },
+    {
+      "sourceId": "63d51ac9-8e41-4160-a091-0a66ae73a471",
+      "contentHash": "e94de993479e13c8cd8a51117379372f50e3b31b59ecd16b9b47f2efade3b80f",
+      "targetRelativePath": "llm-curated/patterns/2026-11-06-bbs-5-current-booking-implementation-is-publicbookingpage.md",
+      "migratedAt": "2026-11-13T11:32:55.056Z"
+    },
+    {
+      "sourceId": "67f3af8d-6b17-43a7-974f-fa7bfcead27b",
+      "contentHash": "5ae62202485aa968e97f191e193ae800cae6da0ebd3c56825eaa5c7f421c3ff8",
+      "targetRelativePath": "llm-curated/patterns/2026-11-06-bbs-5-qa-created.md",
+      "migratedAt": "2026-11-13T11:32:55.068Z"
+    },
+    {
+      "sourceId": "ccc485a1-9a4c-4672-a75b-c9f4847cc3d1",
+      "contentHash": "66a43ee82ffca32fafb3abbee81e6b6ab8ab69a819dbe126127a8952e7ff6048",
+      "targetRelativePath": "llm-curated/patterns/2026-11-06-claimed-workitem-verify-persistence-and-safe-booking-backend.md",
+      "migratedAt": "2026-11-13T11:32:55.078Z"
+    },
+    {
+      "sourceId": "6ae2e23a-61a2-4ebe-826f-333a18a80d69",
+      "contentHash": "60a560f62790f357bc76960fb4e06a0e67667d5bc57ddb79520adc2d36b2ea07",
+      "targetRelativePath": "llm-curated/patterns/2026-11-06-claimed-workitem-mission-review-x-y-d-ng-ho-n-ch-nh-h-th-ng-website-qu-n-l-v-t-l.md",
+      "migratedAt": "2026-11-13T11:32:55.087Z"
+    },
+    {
+      "sourceId": "ac468fde-bbcf-48d1-90f8-f89b71373236",
+      "contentHash": "a913638cb471b7ebbdb72614a880aa82a42fde7e3268a6c8192cff5c530e2471",
+      "targetRelativePath": "llm-curated/patterns/2026-11-06-claimed-workitem-verify-barbershop-worker-output-id-da91f0a4-a12c-4618-9037-4535.md",
+      "migratedAt": "2026-11-13T11:32:55.095Z"
+    },
+    {
+      "sourceId": "51a84317-4b28-4190-ab44-ebee6f1f786b",
+      "contentHash": "9327f000e031359c878e5011894dca656961b49b862670b662a4e668d250bbf2",
+      "targetRelativePath": "llm-curated/patterns/2026-11-06-claimed-workitem-migrate-4-legacy-wiki-item-s-barbershop-booking-system-id-d8516.md",
+      "migratedAt": "2026-11-13T11:32:55.101Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:e6d12ebddcb8",
+      "contentHash": "c29e5e60d623bc24441830d1bbf4710604a44207b720a88551da4d13e0d254f8",
+      "targetRelativePath": "llm-curated/runbooks/agents-1.md",
+      "migratedAt": "2026-11-13T12:32:16.206Z"
+    },
+    {
+      "sourceId": "learnings:ed253e0744ace98e",
+      "contentHash": "d9248e2a0d8de50b82339e02d2dcec49a164ce609a41d9b6b55e8011b8285459",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-13T17:55:19.223Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:316b0bab7bd2",
+      "contentHash": "bca49b616bd1dfdd9b41ca571727c409510185d545d1f622156bf008d82dd57e",
+      "targetRelativePath": "llm-curated/decisions/operating-model.md",
+      "migratedAt": "2026-11-13T17:55:19.243Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:6ce766635e7d",
+      "contentHash": "78d276000c747ea2899eb98b6710bbbb436c89a644e6d9e80185296048f32a4f",
+      "targetRelativePath": "llm-curated/runbooks/agents-2.md",
+      "migratedAt": "2026-11-13T17:55:19.268Z"
+    },
+    {
+      "sourceId": "2da9a454-d9a4-4e30-b4aa-69413f28f8ed",
+      "contentHash": "f4c50b078079d350dbdf96a38dbbf1dbbee29cd30b8d043ca7c2519047c84b2b",
+      "targetRelativePath": "llm-curated/patterns/2026-11-13-gltf-uv-mapping-uv-origin-is-upper-left.md",
+      "migratedAt": "2026-11-13T17:55:19.282Z"
+    },
+    {
+      "sourceId": "a4e48b45-afa7-4518-8e80-6dec9ed962d8",
+      "contentHash": "4b632e04eb190936ad1173ee5a48e302e55eb24628c67a8b79af21118acabbf4",
+      "targetRelativePath": "llm-curated/patterns/2026-11-13-task-blocked-d-ng-viewer-shell-t-i-site-atel-1-dist-index.md",
+      "migratedAt": "2026-11-13T17:55:19.296Z"
+    },
+    {
+      "sourceId": "30165d54-d78b-483b-a8e0-489a628459fd",
+      "contentHash": "d23f51e878427ecf3e7a1e8b8b8d424876cda69f5ae0b56521a9285fea2ff942",
+      "targetRelativePath": "llm-curated/patterns/2026-11-13-task-blocked-s-a-ch-nh-x-c-ng-d-n-glb-v-g-c-kh-i-u-nh-n-m-t-l-ng-180-v-panel-sau.md",
+      "migratedAt": "2026-11-13T17:55:19.311Z"
+    },
+    {
+      "sourceId": "b2b5caf1-7d6e-49bb-a367-d4450f61945c",
+      "contentHash": "c51b439145f28814f039e77fcc51649297f63e9b5af109166995d9f304cd707c",
+      "targetRelativePath": "llm-curated/patterns/2026-11-13-task-blocked-th-fallback-playwright-chromium-c-s-n-launcher-l-i-thi-u-libglib-2.md",
+      "migratedAt": "2026-11-13T17:55:19.325Z"
+    },
+    {
+      "sourceId": "learnings:76d28719975e5c44",
+      "contentHash": "0bda88bba81a0971c441a90172d12145d525237352aa703fd38793746c322dc5",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-13T18:06:42.798Z"
+    },
+    {
+      "sourceId": "learnings:b6f5e21247bb07c1",
+      "contentHash": "798ed51f28feb51a1df90125baf572a376b2b70b2f21a69f1257997465ac3221",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-13T18:41:01.406Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:6efdaa69797f",
+      "contentHash": "0196a50c7013a93e2567721501bef4083bd03a7144819247ccb0c230ac47fa0f",
+      "targetRelativePath": "llm-curated/decisions/operating-model-1.md",
+      "migratedAt": "2026-11-13T18:41:01.420Z"
+    },
+    {
+      "sourceId": "learnings:42563536b15985b0",
+      "contentHash": "bbad4e43965bd2754c05b61a5e56556e9438a9955a5d70071977d780bc519928",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-14T01:43:39.278Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:0701c089f216",
+      "contentHash": "bd9df99e56ef39c82db4d4bd99d988ab97c34573c75f93eebd0d143d807deb51",
+      "targetRelativePath": "llm-curated/decisions/operating-model-2.md",
+      "migratedAt": "2026-11-14T01:43:39.361Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:edd470b39ea8",
+      "contentHash": "b5176d04b55081bb075a35190e603ab9ad4c9532deac854ea94a4fed953a1a9b",
+      "targetRelativePath": "llm-curated/runbooks/agents-3.md",
+      "migratedAt": "2026-11-14T01:43:39.448Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:0567d65b5f02",
+      "contentHash": "5582389dbb78718ce4e71d30fe5798dfbd9be629a99b1e2b986cb680cec89e64",
+      "targetRelativePath": "llm-curated/decisions/operating-model-3.md",
+      "migratedAt": "2026-11-14T04:10:52.104Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:7e3644ea3988",
+      "contentHash": "1c1f79f5f4a0985bc76409322968517e4e4dc0c9c132494b676a84f7167aa3af",
+      "targetRelativePath": "llm-curated/decisions/operating-model-4.md",
+      "migratedAt": "2026-11-14T04:43:06.510Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:e1c4f7d0748d",
+      "contentHash": "d2bc32b955321d0ac71f2ef83a27cd1af1811ffafeb1f7f7cd4873de92a83b17",
+      "targetRelativePath": "llm-curated/runbooks/agents-4.md",
+      "migratedAt": "2026-11-14T04:43:06.566Z"
+    },
+    {
+      "sourceId": "learnings:9d1053baf284f832",
+      "contentHash": "4f18e9a60676963c732ed3d7a12f8f76ca09399b094803c04c2f9954ec1f6edc",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-14T10:20:03.467Z"
+    },
+    {
+      "sourceId": "ccd55c2d-8a78-4f13-9008-d455e01dc436",
+      "contentHash": "5bcc111a1ed109d05c9698114d69941f6c2f5edd49148241697e62f2d0c124ad",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-atel-3-frontend-idle-verify-hoodie-viewer-id-8c53e4d6-44a7-49ec.md",
+      "migratedAt": "2026-11-14T10:20:03.485Z"
+    },
+    {
+      "sourceId": "ea11a7a8-f3e7-471e-aedd-40174b841393",
+      "contentHash": "0dc2214e1351747669bb0da20fd4d54bd8848727e1f2b7022b5db656cb257a46",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-ce0ec325-5b40-4392-945.md",
+      "migratedAt": "2026-11-14T10:20:03.493Z"
+    },
+    {
+      "sourceId": "learnings:7151b86205573540",
+      "contentHash": "baae6d180bb5db25dbad78c9b4ad749a05d0306d68ab53aaf20eb134a0a2b233",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-14T11:01:02.891Z"
+    },
+    {
+      "sourceId": "0803aa00-4cf6-44fb-b0e7-087e80b3d0b7",
+      "contentHash": "bead25b574bfbee89e587c267a33a0ae554e160ef93126f9aa20ffdf237a4825",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-47f006cc-fc45-4d04-89f.md",
+      "migratedAt": "2026-11-14T11:01:02.899Z"
+    },
+    {
+      "sourceId": "learnings:61dc5a182ec5ba7c",
+      "contentHash": "4f8fff62a9f5ff418c69bb37c2387d5c10c855c0ce5edad5bccd829923e47ed7",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-14T14:49:02.483Z"
+    },
+    {
+      "sourceId": "e4b61fc6-4515-413f-b58a-3d791333af9c",
+      "contentHash": "32b2098b3b08669c4b3422886887f57a112da57447b26179df76e3af724e477d",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-g-i-studio-lead-y-u-c-u-c-n-ch-nh-atel-1-l-ticket-cha-thu-c-lead-tr.md",
+      "migratedAt": "2026-11-14T14:49:02.499Z"
+    },
+    {
+      "sourceId": "6cc846b4-b20a-4122-ba86-4872336913ba",
+      "contentHash": "dca510b34e81f5e9f2562783781cc01b9d56fff95cf35b992eb39a2a3e12f00e",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-kh-i-ph-c-phi-n-atel-1-l-ticket-cha-thu-c-studio-lead-workitem-back.md",
+      "migratedAt": "2026-11-14T14:49:02.513Z"
+    },
+    {
+      "sourceId": "c7d48e26-342a-4779-956c-04d0a085da5c",
+      "contentHash": "6130a1a2a9e37750242a3f94f0d13c68303ec6136fc5dab43753392dfa0f7ebc",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-y-u-c-u-team-lead-g-i-l-i-k-t-qu-v-h-p-ng-task-b-th-t-l-c.md",
+      "migratedAt": "2026-11-14T14:49:02.528Z"
+    },
+    {
+      "sourceId": "a2e61394-b4f9-4671-9b4d-9529e9124b42",
+      "contentHash": "b7e88ddc7298edfae3510da2dd451ec617f536578c8c6b4b30fe493fdbfb5540",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-team-lead-x-c-nh-n-kh-ng-giao-th-m-vi-c-backend-cho-atel-1.md",
+      "migratedAt": "2026-11-14T14:49:02.547Z"
+    },
+    {
+      "sourceId": "ebc28a32-346a-431e-bfcf-201607d5914d",
+      "contentHash": "fa989a319f731d41bb972c5e4befb83495cff58ab196732656de1f4324db694a",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-kh-ng-c-vi-c-backend-c-n-ti-p-t-c.md",
+      "migratedAt": "2026-11-14T14:49:02.569Z"
+    },
+    {
+      "sourceId": "a414b0be-5d31-4fa5-9e32-a51b6016630a",
+      "contentHash": "26674c3ccb7d4b832459d9704922c52c498b2a7f6ca0c133fcf910dbf9bbcbf0",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-kh-i-ph-c-phi-n-v-x-c-minh-workitem-atel-1-v-n-blocked-lead-x-c-nh-.md",
+      "migratedAt": "2026-11-14T14:49:02.589Z"
+    },
+    {
+      "sourceId": "d914ce74-f4c5-4d44-82be-86e1956a4faa",
+      "contentHash": "cad81bc4d68166bb588994386a85f0e3eeec9f29268c10c37150721fc6d955b7",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-atel-15-atel-9-ki-m-m-p-c-vai-v-th-placement-clean-v2-id-299929.md",
+      "migratedAt": "2026-11-14T14:49:02.616Z"
+    },
+    {
+      "sourceId": "b176a978-dfc7-4d83-bc86-297a3aa4cd7b",
+      "contentHash": "77961f8ed69546bacd7f527d53d163ab3e851ecfd43de0d0e10532de7a5d0078",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-t-ch-h-p-local-atel-2-v2-ho-n-t-t-source-url-c-p-nh-t-ng-canonical-.md",
+      "migratedAt": "2026-11-14T14:49:02.632Z"
+    },
+    {
+      "sourceId": "4cb0acb7-35e2-4cd0-9e71-9fef88e92ecd",
+      "contentHash": "935e1008e16650ab98570f4700bd9f686d8e63e4e2aba950b9154b8579366c9b",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-t-ch-h-p-local-atel-2-v2-ho-n-t-t-source-url-canonical-ng-kh-ng-s-a.md",
+      "migratedAt": "2026-11-14T14:49:02.648Z"
+    },
+    {
+      "sourceId": "54b56274-c8ed-4ce2-a1c3-2fc6afd110a3",
+      "contentHash": "a468505dea52917f0cbfb9a5fdeeb35dac681df71739b78ce783488b5a814b60",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-ng-b-nh-n-ui-sang-atel-1-v2-revision-02-local-http-source-checks-pa.md",
+      "migratedAt": "2026-11-14T14:49:02.664Z"
+    },
+    {
+      "sourceId": "bd1bc820-6201-4362-bf43-bbf032eb999e",
+      "contentHash": "984a03d325f7eeac8fca32ef204a22c5c89e919ae88f2b3be5987c119d5dc10a",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-x-c-nh-n-browser-capture-th-t-ho-t-ng-tr-n-quality-preview-desktop-.md",
+      "migratedAt": "2026-11-14T14:49:02.700Z"
+    },
+    {
+      "sourceId": "319ba3d4-6255-4ec4-9e82-1250e179a9e1",
+      "contentHash": "f412cd1e91d4069a213b766deabe9a3051638c505285ee81ec803b9e28b29fde",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-phi-u-qa-atel-2-v2-ho-n-t-t-v-ng-trong-thread-asset-glb-manifest-te.md",
+      "migratedAt": "2026-11-14T14:49:02.713Z"
+    },
+    {
+      "sourceId": "52b018f3-74a9-4a3c-bb18-c5a4c879a229",
+      "contentHash": "fbbcf2dab1d7f54082215d1aacd5a5f9e1d1bdeb2eabb3504a65025c1273d985",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-atel-8-qa-report-was-already-posted-to-the-specified-atelierx-order.md",
+      "migratedAt": "2026-11-14T14:49:02.722Z"
+    },
+    {
+      "sourceId": "289bd1ae-f0b1-4051-897a-ff7d7d5a0d79",
+      "contentHash": "072b2e28a673a761b64de712d0388e0cc891c705238e0da0e94f2673dac017f6",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-kh-ng-th-nh-n-verify-atel-10-task-pool-v-n-b-o-queued-v-ng-target-p.md",
+      "migratedAt": "2026-11-14T14:49:02.731Z"
+    },
+    {
+      "sourceId": "4779a18f-781d-4704-802c-d0e5c89d1ad7",
+      "contentHash": "ef67e0511c6a151622cb97b9332f2f50ac43daaf917114c050021c8180675e3f",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-blocked-atel-9-n-ng-chu-n-ch-t-l-ng-phom-hoodie-v-browser-qa-at.md",
+      "migratedAt": "2026-11-14T14:49:02.741Z"
+    },
+    {
+      "sourceId": "b4bb93bd-1e7a-42f2-a024-7139ef82b84f",
+      "contentHash": "924f1e681037d6c51b8c1ae38a97959c96a210908a84bd7183268772df528fb3",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-blocked-atel-1-m-ph-ng-o-hoodie-en-c-h-a-ti-t-u-l-u-l-ng-id-413.md",
+      "migratedAt": "2026-11-14T14:49:02.749Z"
+    },
+    {
+      "sourceId": "f8349966-1bf5-4aad-8174-6dcd861ad165",
+      "contentHash": "7acb2a1bf35342b908860ad7a2afbbfcada479cae771df0095a8bea9dbc67b60",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-went-quiet-on-a-running-task-atel-15-atel-9-ki-m-m-p-c-vai-v-th.md",
+      "migratedAt": "2026-11-14T14:49:02.757Z"
+    },
+    {
+      "sourceId": "a5655a13-2606-4866-91c6-b25998fea1dd",
+      "contentHash": "c7e545780fbd50020a048940990debaa52f9da8156a31d856e09ac4378829876",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-blocked-retry-2-3-atel-10-t-m-ngu-n-phom-hoodie-s-ch-c-quy-n-s-.md",
+      "migratedAt": "2026-11-14T14:49:02.769Z"
+    },
+    {
+      "sourceId": "a1bcb518-edb7-4eff-b806-c0dd0f33fa0b",
+      "contentHash": "3d8236d564a9304ecd03e6f901bd73eb76eb78d8e859b7139ccdf2074f97611a",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-migrate-23-legacy-wiki-item-s-atelierx-id-46c2314b-60ad-4312-81.md",
+      "migratedAt": "2026-11-14T14:49:02.778Z"
+    },
+    {
+      "sourceId": "19c5147d-d6d5-48a9-babb-8bd0782af894",
+      "contentHash": "6f554a10620747fd962737d5d8943bb1db2875cf62d49ea48d14c0358ecf2d85",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-x-c-minh-workitem-6dc47db3-ang-running-ticket-cha-ghi-r-ch-studio-l.md",
+      "migratedAt": "2026-11-14T14:49:02.787Z"
+    },
+    {
+      "sourceId": "847a6d12-203d-42d3-ae74-58fd6f3757ad",
+      "contentHash": "18972066c96b25b3344181bb54d1751173cbad31c05f7b8b5ffaaa98ae36cd81",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-kh-i-ph-c-ng-c-nh-atel-1-hi-n-c-ghi-blocked-l-ch-s-n-u-ticket-cha-t.md",
+      "migratedAt": "2026-11-14T14:49:02.796Z"
+    },
+    {
+      "sourceId": "c7972149-7aa7-4c7b-ad81-4c61a9eaa845",
+      "contentHash": "3e7d379764f519110627c7f7f1818d7fe4b2ba997c2aba41b5b0e4c2375d4e3c",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-release-atel-1-v-ready-studio-lead-ti-p-qu-n-ng-ownership-g-i-struc.md",
+      "migratedAt": "2026-11-14T14:49:02.807Z"
+    },
+    {
+      "sourceId": "a1dd821a-39a5-4b82-aebb-561ecac7d310",
+      "contentHash": "f5e163f1b33f5c8a6b46e641e92a95448aa1b104cfc762fe9ceb31facc7aa0de",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-task-blocked-dispatch-atel-10-nh-ng-poll-fifo-claim-nh-m-workitem-atel-1-hai-l-n.md",
+      "migratedAt": "2026-11-14T14:49:02.845Z"
+    },
+    {
+      "sourceId": "learnings:dc6c9d3caffb8cd6",
+      "contentHash": "1925f6dd4c61980d4e46da8c804140a0f6dc2b42a934c811abff38f62ab57118",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-14T15:18:02.636Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:74231d1942a8",
+      "contentHash": "60223ffca3f6c0b89c63c21915f4e95204bab89db744364e8f61e54bf4f64fc6",
+      "targetRelativePath": "llm-curated/decisions/operating-model-5.md",
+      "migratedAt": "2026-11-14T15:18:02.664Z"
+    },
+    {
+      "sourceId": "6ad4a985-9875-4fec-87f9-585b6bc7dc5c",
+      "contentHash": "759042f9f874d4621addd48bcad10016fa85965ab71eb3a60fff1dd46977d7cd",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-atel-17-atel-17-s-a-phom-c-vai-v-t-i-u-placement-clean-v2-theo-.md",
+      "migratedAt": "2026-11-14T15:18:02.672Z"
+    },
+    {
+      "sourceId": "24469188-1bd2-4125-97ad-ebdfb396633b",
+      "contentHash": "5a1192bfda78787e02e757946fb1a7724eb2189222adf3c671549064a413ee22",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-sent-back-tkt-004-id-79975d62-9fea-4987-9c29-a1141830c71a-claim.md",
+      "migratedAt": "2026-11-14T15:18:02.678Z"
+    },
+    {
+      "sourceId": "e9d3147b-693e-4e05-8029-630852ecc1e5",
+      "contentHash": "8b1f65b00230188abf30b4534572fb9974e651b4cc617e116cadc737f6853e09",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-atel-1-m-ph-ng-o-hoodie-en-c-h-a-ti-t-u-l-u-l-ng-id-d801bc39-6b.md",
+      "migratedAt": "2026-11-14T15:18:02.714Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:e820b89dd713",
+      "contentHash": "d861f68956bc6e45eab7d065f5adfd9ab62b4cb0c7ef202befbe16a13474d0bc",
+      "targetRelativePath": "llm-curated/decisions/operating-model-6.md",
+      "migratedAt": "2026-11-14T15:48:11.703Z"
+    },
+    {
+      "sourceId": "learnings:3118d7b6a04c5cf2",
+      "contentHash": "7740300bd5ba282697ce61cea7aaf6b3646d232218b152280fa94a3aa37f25e0",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-14T16:22:02.700Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:107bb9a4c1bf",
+      "contentHash": "a7392196fccdf1c2629e02a04538a5bbb7ab5722d0878be9ec3b6b36f6dd5cf2",
+      "targetRelativePath": "llm-curated/decisions/operating-model-7.md",
+      "migratedAt": "2026-11-14T19:05:26.664Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:be3bf3a822a7",
+      "contentHash": "f474617b5551dcba6ce3e2f1080206c5d9a70a35fede578772d9b4ad75c7a47b",
+      "targetRelativePath": "llm-curated/runbooks/agents-5.md",
+      "migratedAt": "2026-11-14T19:05:26.690Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:67c04371a42f",
+      "contentHash": "01d608bdd7a7aa5b2f3f35f3a0fb75ee0337bcbbb20ad62c8e34d76a4b1c77a7",
+      "targetRelativePath": "llm-curated/decisions/operating-model-8.md",
+      "migratedAt": "2026-11-14T19:36:59.841Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:bfab2eb921b1",
+      "contentHash": "23720cecf8221c33416dd54b7e866d127555b8d272cbb7ac52e4b915ba390b84",
+      "targetRelativePath": "llm-curated/runbooks/agents-6.md",
+      "migratedAt": "2026-11-14T19:36:59.926Z"
+    },
+    {
+      "sourceId": "learnings:ba6b6552af3b921d",
+      "contentHash": "f0906750262f5cbab80a764e3de2593d8a8d7c7937d9edfdbeb936a5d02cf827",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-14T20:48:22.718Z"
+    },
+    {
+      "sourceId": "adfd9989-c302-48fb-b56c-e3a7f575cec6",
+      "contentHash": "4b3c047ea7b5f90ee51cd1526ff031d6ef3592da83fe26f9837547448ebd1aa9",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-current-unfinished-work-snapshot-2026-11-14-atel-26-workitem-8f3dbfab-9acd-44ce-.md",
+      "migratedAt": "2026-11-14T20:48:22.732Z"
+    },
+    {
+      "sourceId": "learnings:52b87faebf0ca1d9",
+      "contentHash": "aef8231b23b2e5cd0e91133eee5772bb2936a9ca4f2df0ca24fc1dad9f60bad8",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-14T22:02:40.957Z"
+    },
+    {
+      "sourceId": "a299ff88-d3a5-477a-aaf6-a7a2623d0609",
+      "contentHash": "08a30f645a2b8cfbaf885f89775d16e6ac3ae7befc406e9ebff00496bd23ef91",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-verify-retry-1-3-atel-29-atel-23-s-a-ph-n-ch-sau-v-fit-tay-o-id.md",
+      "migratedAt": "2026-11-14T22:02:40.978Z"
+    },
+    {
+      "sourceId": "df39b889-0fd2-431e-8fb0-16e75458cc69",
+      "contentHash": "af693ec980b16bea755e2a97e9b341a60c979682683b3669a0d5763276cc83f7",
+      "targetRelativePath": "llm-curated/patterns/2026-11-14-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-505ee26c-e2dd-4539-8c9.md",
+      "migratedAt": "2026-11-14T22:02:41.008Z"
+    },
+    {
+      "sourceId": "learnings:fdbb003ea33a006a",
+      "contentHash": "b5956c866bc94b70fed671695a80199c29f1b99e17062337ff5c3195b8b6b6ce",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T00:29:13.063Z"
+    },
+    {
+      "sourceId": "75d91094-84b3-41a1-9826-ad6fdfd93b7e",
+      "contentHash": "390c3244b7079c9804018c3daac580dac17949751a2647688e280d28401e7511",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-d135a3b9-c02a-4f26-908.md",
+      "migratedAt": "2026-11-15T00:29:13.092Z"
+    },
+    {
+      "sourceId": "learnings:e1716fce8bde93d2",
+      "contentHash": "c8889f099333d2cb19709cece257c3e996a4dec3cb40cb22067f278e7a1cd790",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T01:00:17.811Z"
+    },
+    {
+      "sourceId": "7235c80a-c4e3-45c2-b894-397318ec9007",
+      "contentHash": "42143e9896823e22ae704b9a964954109e38e1ee0807dcd55c4346ba105eb8a6",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-idle-self-ping-atel-30-v2.md",
+      "migratedAt": "2026-11-15T01:00:17.838Z"
+    },
+    {
+      "sourceId": "0b511475-e906-4369-8641-a98fc25d95a6",
+      "contentHash": "96375717281742feec5c958fe6ae4e06feb6801336fedc60e840ba7f8a7f31e2",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-retry-1-2-different-approach-idle-self-ping-atel-30-v2.md",
+      "migratedAt": "2026-11-15T01:00:17.873Z"
+    },
+    {
+      "sourceId": "bfebcc2e-96d1-47d2-8c6f-2d07e6d37261",
+      "contentHash": "450e7e8a96e0afcd41484ee4adad0945b39165739ce340088c5655f526f1d36d",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-idle-self-ping-atel-30-v2.md",
+      "migratedAt": "2026-11-15T01:00:17.902Z"
+    },
+    {
+      "sourceId": "5f22cd43-0308-46b2-831e-6320659dd8b5",
+      "contentHash": "65acb9d02b86b2c750e24c8a68b6eb4f07b38747a19abed653eea3453a938882",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-30-atel-30-atel-23-ph-n-lo-i-giao-c-t-v-ch-t-cleara.md",
+      "migratedAt": "2026-11-15T01:00:17.922Z"
+    },
+    {
+      "sourceId": "a162760a-8c47-4149-b3f8-fe522eb89312",
+      "contentHash": "b43b544d366c96f3ff0468911dd34f6dad9225c4e667f85fc4ede9a2689c70a1",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-5-legacy-wiki-item-s-atelierx-id-05a61502-2bdd-408b-b70.md",
+      "migratedAt": "2026-11-15T01:00:17.938Z"
+    },
+    {
+      "sourceId": "learnings:ab01a722e8a1607c",
+      "contentHash": "96a51ddaae9d9f8292a7d478f029fdd5ee1a577418abe5afde357abd856570f7",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T01:31:31.317Z"
+    },
+    {
+      "sourceId": "f282dba5-4cb4-4182-868b-c846147e62d3",
+      "contentHash": "9707b4c17ace60c6ddd0b81ec739f894cc6ff85a9a4bc6a4b418d272301632a5",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-13-low-quality-wiki-page-s-project-atelierx-id-fd.md",
+      "migratedAt": "2026-11-15T01:31:31.324Z"
+    },
+    {
+      "sourceId": "a88f9193-6cd1-44dc-a8a9-cc1746216db0",
+      "contentHash": "42dceb9fca51084b0b9b4f4d9174bc119267c44546307d145d9c07ca4dbae3d6",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-31-atel-23-s-a-giao-c-t-u-c-t-i-mi-ng-o-sau-qa-v2.md",
+      "migratedAt": "2026-11-15T01:31:31.331Z"
+    },
+    {
+      "sourceId": "6250c584-25a6-44b9-a17e-431548cc7083",
+      "contentHash": "01bbf376e607fd9bea49747e864147cc5d700b05b82ec2bad46b832a98227f9c",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-refresh-standing-answer-what-is-my-unfinished-work-and-what-is-.md",
+      "migratedAt": "2026-11-15T01:31:31.419Z"
+    },
+    {
+      "sourceId": "94fb4bba-3221-435c-b4d5-1ac95f4c6516",
+      "contentHash": "3307c98632bb26552072b83edec35280ce093d92194faa9e8a7e7ff7104e601e",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-tr-ng-th-i-atel-23-ng-y-2026-11-15-sau-lead-review-atel-31-handoff-v2.md",
+      "migratedAt": "2026-11-15T01:31:31.430Z"
+    },
+    {
+      "sourceId": "ff07cf3c-113b-47f4-9465-275a82bee693",
+      "contentHash": "126726dab37348d3f4a15547929d987c690be61c3b561bc46fe1277078d710fa",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-2026-11-15-atel-23-latest-status-after-v2.md",
+      "migratedAt": "2026-11-15T01:31:31.441Z"
+    },
+    {
+      "sourceId": "89f86a29-6767-4527-b678-384ed02e72c1",
+      "contentHash": "431d57c1efd7d2764b7498ea0a01665323d0a115f37535583018e4771e02d844",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-6-legacy-wiki-item-s-atelierx-id-ed66be6f-cce5-43a4-856.md",
+      "migratedAt": "2026-11-15T01:31:31.505Z"
+    },
+    {
+      "sourceId": "14b23584-3e83-42b5-a441-910a3ff45552",
+      "contentHash": "452d8d960119f5358e4a3aa1f88f1c691443b9d9b9532360242c35381da155dc",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-10-low-quality-wiki-page-s-project-atelierx-id-f6.md",
+      "migratedAt": "2026-11-15T02:25:55.273Z"
+    },
+    {
+      "sourceId": "a10e6e07-a206-4627-913a-586ded3cc929",
+      "contentHash": "4a6e2ca50501a8e94a44999a719a726a956ab15dd2bb1a80aee25b05672806c2",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-32-atel-23-l-m-s-ch-opening-c-v-ch-t-provenance-ph.md",
+      "migratedAt": "2026-11-15T02:25:55.289Z"
+    },
+    {
+      "sourceId": "d0a2a891-aeca-47e7-9faf-7e21960273a9",
+      "contentHash": "f47e2b8eebd298d83159a3e721e0b08a6ec67d272d82e2a433dd4bffcb11b9b5",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-10bcad88-7dd7-49f7-b83.md",
+      "migratedAt": "2026-11-15T02:25:55.306Z"
+    },
+    {
+      "sourceId": "learnings:da3c0cb0c55299d4",
+      "contentHash": "b76629b8f4499d591c76d336df482a5d5207eac5431101fe2d1b51d6a09758c8",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T02:54:57.620Z"
+    },
+    {
+      "sourceId": "05117adc-99c8-4ce7-9984-53986ee29182",
+      "contentHash": "79b5eba07f63dadacd5d0b9607bc1451db7413b5982ce11135cf64bb784bd6a9",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-atel-23-status-2026-11-15-after-v2.md",
+      "migratedAt": "2026-11-15T02:54:57.634Z"
+    },
+    {
+      "sourceId": "638cb137-434d-40c8-a1cf-4f9da671abd2",
+      "contentHash": "d23d4d4e0b43cfb7bbbdf6b55f47e65ad36697f103d2996f09c585c0a6406026",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-32-atel-23-th-m-nh-t-ch-phom-o-s-mi-t-outfit-candid.md",
+      "migratedAt": "2026-11-15T02:54:57.678Z"
+    },
+    {
+      "sourceId": "44ade938-69df-4ab5-a368-4761ec487a1b",
+      "contentHash": "1db096ff679315b8a17bdd7386825384a777e63b282f3a48598f218bb4d3371b",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-3-legacy-wiki-item-s-atelierx-id-e5dd920c-c9a9-43c1-8bc.md",
+      "migratedAt": "2026-11-15T02:54:57.703Z"
+    },
+    {
+      "sourceId": "17814ea4-b5d5-4ab7-a2a7-bdd0ef8613d9",
+      "contentHash": "abd9d1913da4878112bcf047a69136cba13a58fbfb679a03a60f2a2f3b753dd0",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-retry-1-3-atel-32-atel-23-th-m-nh-t-ch-phom-o-s-mi-t-out.md",
+      "migratedAt": "2026-11-15T03:26:16.315Z"
+    },
+    {
+      "sourceId": "learnings:4bb1a96000954f01",
+      "contentHash": "56ec2101bed1906d319f819aac0b40c87a0bde4929271cab049269a15f5c14d4",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T04:23:13.867Z"
+    },
+    {
+      "sourceId": "1416a0a3-3ba8-482b-8d9e-7158315ce28c",
+      "contentHash": "22df9b8bfbfd53899c33873240bdc75a21135b0e0636c2e6f379d591e0c9fe7f",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-went-quiet-on-a-running-task-atel-33-atel-23-r-hai-ngu-n-phom-s.md",
+      "migratedAt": "2026-11-15T04:23:13.893Z"
+    },
+    {
+      "sourceId": "229a10ae-b121-416e-b292-ecf33bff28df",
+      "contentHash": "6384568e5830a55ec7b3134aa54ef8977ccaf88baa6ffd2fcf29c113c39bd6c4",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-went-quiet-on-a-running-task-atel-34-atel-23-prototype-phom-s-m.md",
+      "migratedAt": "2026-11-15T04:23:13.920Z"
+    },
+    {
+      "sourceId": "2973011b-2e5b-453f-915d-6ca430c90e31",
+      "contentHash": "b95d42fdf38a9790c20c28c60f6bb0129191764eefbcc5229c46cde5ac04343d",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-brief-not-reaching-atelierx-tpm-0002-atel-33-atel-23-r-hai-ngu-.md",
+      "migratedAt": "2026-11-15T04:23:13.950Z"
+    },
+    {
+      "sourceId": "241c7b09-a2d9-4c58-bdb5-796058d74497",
+      "contentHash": "68f5547073b2fcfd0a3492cd2f3a5bee01e018d65b5613977004235696a297b2",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-brief-not-reaching-atelierx-designer-0003-atel-34-atel-23-proto.md",
+      "migratedAt": "2026-11-15T04:23:13.990Z"
+    },
+    {
+      "sourceId": "c38d9916-88cc-4240-8b46-817d7ad2bc9c",
+      "contentHash": "3a181860215dee235455661d95b1fc5a6fbf8ea2ccaa5671a56e86c1a355689a",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-5-legacy-wiki-item-s-atelierx-id-988f25c1-6c45-47b0-9cc.md",
+      "migratedAt": "2026-11-15T04:23:14.064Z"
+    },
+    {
+      "sourceId": "learnings:e5a21c45c7f86265",
+      "contentHash": "89a78d0d3f95b68dca07640d9e8e2ebc481b0765802aa77ac546f4a9684f5fa4",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T04:53:55.458Z"
+    },
+    {
+      "sourceId": "538d1079-1c44-4bdf-8a43-336bc33b5902",
+      "contentHash": "0aec54a7f70f83d3395f05d12678a351e3811ee0f96bd591c3af5ce0662773d7",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-33-atel-23-r-hai-ngu-n-phom-s-mi-m-i-cho-mannequin-.md",
+      "migratedAt": "2026-11-15T04:53:55.481Z"
+    },
+    {
+      "sourceId": "57d131d2-f481-40e3-80a9-ff6cd04aea9d",
+      "contentHash": "fe7b9e305d590780d18d0857c929c15585f9bd128a10ef7dfe350612ba503612",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-13-low-quality-wiki-page-s-project-atelierx-id-f8.md",
+      "migratedAt": "2026-11-15T04:53:55.511Z"
+    },
+    {
+      "sourceId": "200d400e-56ed-4fd8-bfbc-990e0f6099eb",
+      "contentHash": "0f25ca7f3a0f6b4a697d3889665f8905e01b9278e3f334cd4c39cac48e22aedc",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-idle-self-ping-atel-33-34-reset-probe-id-f740bf95-c39c-4334-b5e.md",
+      "migratedAt": "2026-11-15T04:53:55.530Z"
+    },
+    {
+      "sourceId": "72cd9559-5a67-4655-9f40-45cdffdbc971",
+      "contentHash": "5421c38564a3f72aa1d2bf707c4a7b77542e5453e7a4adc3804e1b20d2211fc8",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-34-v3.md",
+      "migratedAt": "2026-11-15T04:53:55.539Z"
+    },
+    {
+      "sourceId": "d1044df3-a47a-4306-a06f-90870568d379",
+      "contentHash": "33b41012c39f2ea743030c6d66019926d6c06827d4189c839b9d31d3b4c28b87",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-34-v3.md",
+      "migratedAt": "2026-11-15T04:53:55.546Z"
+    },
+    {
+      "sourceId": "bcf92d74-6916-45ca-9365-47c0a1c4963f",
+      "contentHash": "26fc1c3751d38199829988fb8c0f7d696ed777752c5d5ca12530b38b6592d0e8",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-idle-self-ping-atel-34-v3.md",
+      "migratedAt": "2026-11-15T04:53:55.555Z"
+    },
+    {
+      "sourceId": "3447d1df-a193-43d9-ac5d-4d29fc2da361",
+      "contentHash": "cbdf66cd1604b338768525c1281f8934ec8c9fbea21e0a5ac6c38a25a77968ec",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-7-legacy-wiki-item-s-atelierx-id-609cbf03-8900-46ea-bb3.md",
+      "migratedAt": "2026-11-15T04:53:55.563Z"
+    },
+    {
+      "sourceId": "learnings:f9f0cf7e6cdc09ab",
+      "contentHash": "649a6596f9a1b0c55925a941f6b97876499792c1b393436e096cd278e4288c09",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T05:58:28.344Z"
+    },
+    {
+      "sourceId": "aa16d102-677a-4fef-af7a-461d3a97742c",
+      "contentHash": "0d0dcc768b362df5b34cacddc64c3ace5c09f1301b112a0dc21c87cbf0a06f24",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-23-v4.md",
+      "migratedAt": "2026-11-15T05:58:28.351Z"
+    },
+    {
+      "sourceId": "3d898acd-19f8-446b-b0ec-daecb7209857",
+      "contentHash": "0f29576a884da27b7825ae28bd0b9e1fdba48bffe4f001a83fcc76cb31a52236",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-11-low-quality-wiki-page-s-project-atelierx-id-72.md",
+      "migratedAt": "2026-11-15T05:58:28.377Z"
+    },
+    {
+      "sourceId": "52aadacf-713a-42c8-9868-5e9b71b4d91e",
+      "contentHash": "02810ca93fad4c683f73d1e314180e6e788c81edac40c2de157454684199cc78",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-idle-self-ping-atel-34-v3.md",
+      "migratedAt": "2026-11-15T05:58:28.428Z"
+    },
+    {
+      "sourceId": "ee12b8be-6e92-4c5a-a22a-8c49971f5c45",
+      "contentHash": "793316312fceacb9f12a9e1df8a9d69ce1aeecd1d1e28b1f18256f817232a594",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-34-atel-23-prototype-phom-s-mi-m-i-t-s-o-mannequin.md",
+      "migratedAt": "2026-11-15T05:58:28.435Z"
+    },
+    {
+      "sourceId": "4681c15d-a85d-48a0-bad5-17a28acfffba",
+      "contentHash": "f1bceda32cd0022b25d03c7f4dc061168a88fc23c9f15d04fa844166e6e1f15f",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc-.md",
+      "migratedAt": "2026-11-15T05:58:28.442Z"
+    },
+    {
+      "sourceId": "01c8f5cf-05ea-4db4-a8c6-33e6b6dc03cb",
+      "contentHash": "eb77c4091db77087f6516898164c3a53a1070c73db301f50dce71643098d5d65",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-tl-report-atel-23-showcase-basic-v1-v4.md",
+      "migratedAt": "2026-11-15T05:58:28.448Z"
+    },
+    {
+      "sourceId": "18af4cb2-0ae1-4a3d-80d7-3bf2da2ca393",
+      "contentHash": "0dfa61eb9e0525733b36dbfa816a50e5bb3e5ec960316fe0c9359910db3186d3",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-5-legacy-wiki-item-s-atelierx-id-9fd7b92e-2cd4-48e0-b04.md",
+      "migratedAt": "2026-11-15T05:58:28.458Z"
+    },
+    {
+      "sourceId": "learnings:1ec04ab389f0fa85",
+      "contentHash": "daf52e41f10da9162ce211699f5934d95257c86e2d667fcdb94bb37279df95d7",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T06:27:42.369Z"
+    },
+    {
+      "sourceId": "2b80bee9-ea06-4203-812b-82593b1ca7b8",
+      "contentHash": "8876663b41bcd53c0ed7d940d04c13f46ca3950408e6cdeb53e20b5be0d30c7c",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-current-unfinished-work-state-2026-11-15-atel-23-v4.md",
+      "migratedAt": "2026-11-15T06:39:12.590Z"
+    },
+    {
+      "sourceId": "6b1b159f-1f88-4e1b-93bc-95807bf11a00",
+      "contentHash": "bfbeb56f674ff11841cc4cdd2c872ee2134ad090df6503dbfdd4712aa462b26f",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc--1.md",
+      "migratedAt": "2026-11-15T06:39:12.643Z"
+    },
+    {
+      "sourceId": "bff448ac-7e7f-4b6e-9afd-10233fac418c",
+      "contentHash": "a51a1315bceae95241142e295ed244463034876678f308ab1644bc1d3d53ce1e",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc--2.md",
+      "migratedAt": "2026-11-15T06:39:12.695Z"
+    },
+    {
+      "sourceId": "b14d813c-0e16-422f-9cae-2193f087a72b",
+      "contentHash": "69cddfddc8029e3a9ff5f8e8d13c09f1a0584ab198c7c4d3d9eb77e1575a40e9",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-verify-atel-25-atel-23-qa-c-l-p-fit-v-s-n-ph-m-mannequin-v1-id-.md",
+      "migratedAt": "2026-11-15T06:39:12.725Z"
+    },
+    {
+      "sourceId": "ba111fc5-9da3-4f73-89bd-96184460203b",
+      "contentHash": "05d88b564ab9e1892b53cb5e572e3bfc688f78d8396739b3afd0f732b91a7eee",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc--3.md",
+      "migratedAt": "2026-11-15T06:39:12.794Z"
+    },
+    {
+      "sourceId": "350ef88b-bacb-4407-aa0b-b137db56a831",
+      "contentHash": "1c24745d57d7255e2f46a7108e26a86e00b569d3d90164defc35ccaf3968ebdb",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-f9f61df3-1e7c-43ac-a5b.md",
+      "migratedAt": "2026-11-15T06:39:12.816Z"
+    },
+    {
+      "sourceId": "981a478a-a691-4ecc-a9f5-89442a9c20a6",
+      "contentHash": "72d65a986abd646e96d1b7ba74fad9d11e7e3a479d824531f8e67edc938a7b6c",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-6-legacy-wiki-item-s-atelierx-id-a6ef735e-b98a-4e3d-a54.md",
+      "migratedAt": "2026-11-15T06:39:12.833Z"
+    },
+    {
+      "sourceId": "learnings:433c21c270f3b83b",
+      "contentHash": "23775a06343cd06d32f54acbf285d8488107057021425eb30263dac4068faf60",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T07:10:42.310Z"
+    },
+    {
+      "sourceId": "b046bcc6-29cf-4626-afa3-1bc5a0859bdf",
+      "contentHash": "fbeffe340fd588be0e6f0f1694397e961adfe728c5d3ee78975e52c67c9fe35c",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-23-o-s-mi-c-ng-s-gen-z-m-u-t-i-s-ng-id-083ef786-18bf-40dc-.md",
+      "migratedAt": "2026-11-15T07:10:42.318Z"
+    },
+    {
+      "sourceId": "bbf5473f-9d12-449d-879f-9548aa83ce8e",
+      "contentHash": "86791ea1cc527ed198cb2b728074b99fff51ce5a6ce650352946f07c1c9cc8d3",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-16-low-quality-wiki-page-s-project-atelierx-id-85.md",
+      "migratedAt": "2026-11-15T07:10:42.325Z"
+    },
+    {
+      "sourceId": "learnings:7effff08ae1e062c",
+      "contentHash": "8aa13b8b584952a190a9f7de56fd9ea2a6bcae591e44cd83529dfd425850c4db",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T08:23:22.770Z"
+    },
+    {
+      "sourceId": "loose:operating-model.md:9fab368f9298",
+      "contentHash": "8c5ec9e196732fc6dc380193d58017a38c12dca191c43ce9dee5b1964a62f1b2",
+      "targetRelativePath": "llm-curated/decisions/operating-model-9.md",
+      "migratedAt": "2026-11-15T08:23:22.990Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:9fab368f9298",
+      "contentHash": "032bcd5e62bb7a700bb72473c8e15981fb35c097dd49aa3bcf3a94a98036a43c",
+      "targetRelativePath": "llm-curated/runbooks/agents-7.md",
+      "migratedAt": "2026-11-15T08:23:23.246Z"
+    },
+    {
+      "sourceId": "75a3247f-7009-49c1-8993-b75b3838993c",
+      "contentHash": "9f12b77491d44c3b93e7eb750d756752c77b4d787a23ca0222361bed7d668937",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-35-early-shape-review-v0.md",
+      "migratedAt": "2026-11-15T08:23:23.325Z"
+    },
+    {
+      "sourceId": "03d892a4-4b4f-4fe7-96af-df7ede95bdca",
+      "contentHash": "42928d44449452047549ba73e1fcb0e5b226770e2b4f0677b4d1e4be518f1b25",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-ac79c50f-6328-40d6-bb2.md",
+      "migratedAt": "2026-11-15T08:23:23.362Z"
+    },
+    {
+      "sourceId": "learnings:ed189e86d82682ef",
+      "contentHash": "7f64ec20579fd7a5a36b9f8c91993ad731afce35697a8d9500bb46b0b140ac5f",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T09:46:46.397Z"
+    },
+    {
+      "sourceId": "5442881e-0370-4a81-8416-5d105dba85de",
+      "contentHash": "fb83bab9da2080ec0819c2826eb89543f1c102f9f0b3f48c6945ac3dc2e24e72",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-goal.md",
+      "migratedAt": "2026-11-15T09:46:46.460Z"
+    },
+    {
+      "sourceId": "5f31beb0-a216-4e38-b55c-6798100a0a6f",
+      "contentHash": "070e0c7c383e60e6b8ef11edbea9d587b6a33598c3e5b5f593ea06a7b712f73d",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-goal-1.md",
+      "migratedAt": "2026-11-15T09:46:46.534Z"
+    },
+    {
+      "sourceId": "cc3b27b7-2a80-4903-b3a8-f01ccc19f41b",
+      "contentHash": "44a4add9bea1932513bd77142c876c7454d09bc8b6198a6a14fc60f75f3cd592",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-refresh-standing-answer-what-is-my-unfinished-work-and-what-is-.md",
+      "migratedAt": "2026-11-15T09:46:46.585Z"
+    },
+    {
+      "sourceId": "96a36526-5dcf-4c1e-9213-295c5747194a",
+      "contentHash": "876e0d7f88db2535461882aa47b9c0bd4c84f140c829ec82275189df439d926d",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-o-thun-3d-m-u-kem-h-a-ti-t-hoa-nh-ng-c-tr-i-id-a7994afe-7761-48.md",
+      "migratedAt": "2026-11-15T09:46:46.624Z"
+    },
+    {
+      "sourceId": "f1941170-4ca7-4169-bdf8-19d984d69cbf",
+      "contentHash": "469764efd9482ead3aea5d1d3b3a178b9c0728e56df15bf1dcc8cca7d29395f2",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-o-thun-3d-m-u-kem-h-a-ti-t-hoa-nh-ng-c-tr-i-id-a7994afe-7761-48-1.md",
+      "migratedAt": "2026-11-15T09:46:46.749Z"
+    },
+    {
+      "sourceId": "12e69ba1-2973-43c4-8a6b-f840bca37d44",
+      "contentHash": "b4687ca016e5a555b9bd5214ef721281bd142276a7c6abed492f8b6e729fe34f",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-handoff-task-handoff-from-atelierx-team-leader-0001-to-atelierx-qa-0004-owner-ca.md",
+      "migratedAt": "2026-11-15T09:46:46.776Z"
+    },
+    {
+      "sourceId": "d4810952-2a3b-4d84-afa9-e5060966542b",
+      "contentHash": "cec55b45d63b30765444b2da49052ae206b9c48c52fd5358c57b8320a19e7133",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-handoff-task-handoff-from-atelierx-team-leader-0001-to-atelierx-frontend-develop.md",
+      "migratedAt": "2026-11-15T09:46:46.809Z"
+    },
+    {
+      "sourceId": "74a24a6d-273d-41b3-afcb-18307bc8c1c5",
+      "contentHash": "17cbdb5482b27688db22d1747f107ee48ee379c5aab33a6c9cceab0d7afa96df",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-31e98563-b5ea-4884-aee.md",
+      "migratedAt": "2026-11-15T09:46:46.833Z"
+    },
+    {
+      "sourceId": "2f911e1b-f53a-4b67-a043-56d13f7a3e1d",
+      "contentHash": "766c48ae91ac071ba729a06524f57ddc7ea381bbf31108cb6dd8e1c0f89103fd",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-11-low-quality-wiki-page-s-project-atelierx-id-ea.md",
+      "migratedAt": "2026-11-15T09:51:52.844Z"
+    },
+    {
+      "sourceId": "4b3430c6-bbe6-49a0-bdcb-aad63e87e676",
+      "contentHash": "cdf19758e3dd6798df32822ebaf6d1c15613c108b6e714272a528320df5d2015",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-35-v0.md",
+      "migratedAt": "2026-11-15T09:51:52.885Z"
+    },
+    {
+      "sourceId": "6e66099f-b99d-4f8d-911a-943b7b39c29b",
+      "contentHash": "d162e272d1d92e9bc19ea6cb85b5ac387d79f7fcf64ef76eae30b4af3379c449",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-35-v0-1.md",
+      "migratedAt": "2026-11-15T09:51:52.944Z"
+    },
+    {
+      "sourceId": "8c55a15b-a72b-45db-b31d-e6ba48244a32",
+      "contentHash": "f4e86a9bb2ca2bf09ac3b334813227a1adb96cf6bb755dfa3a4d75ebb5bc7a8e",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-3-legacy-wiki-item-s-atelierx-id-767d73bb-6d94-4cda-b6a.md",
+      "migratedAt": "2026-11-15T09:51:52.974Z"
+    },
+    {
+      "sourceId": "learnings:54d5b85b9f6b28e8",
+      "contentHash": "6be8160e2cccaf4886963e64dd9a80a3b6474e5b8898039b1737beeccc7c6888",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T10:20:57.759Z"
+    },
+    {
+      "sourceId": "3c1617d8-d0e8-41d1-bc39-934df60415ef",
+      "contentHash": "4e1814fc36a47e55025b43b34f0ebd1875bd206f71f5433714038350e85ff373",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-cleanup-10-of-13-low-quality-wiki-page-s-project-atelierx-id-3d.md",
+      "migratedAt": "2026-11-15T10:20:57.788Z"
+    },
+    {
+      "sourceId": "91c5c318-e52d-45da-9659-7cf322f2c038",
+      "contentHash": "0ee7e8feb5dd73d94298afa4488bef9beb3d23561e548a8bbbc6f25a28fc4ba7",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-20a6c020-f302-43c2-b07.md",
+      "migratedAt": "2026-11-15T10:20:57.815Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:bd8bfac2ebc2",
+      "contentHash": "c00b4b4a97969db3953bedeac69efbe6c97591a9a3ea1e56e3737a57fe6bcc19",
+      "targetRelativePath": "llm-curated/runbooks/agents-8.md",
+      "migratedAt": "2026-11-15T11:03:20.797Z"
+    },
+    {
+      "sourceId": "e0e61234-41ac-4efe-a5af-8533f34249a3",
+      "contentHash": "9731816e0863e0ed97eabe4ed786e9c63860817dedce7031b70a720e70b6213e",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-21ced91b-9b8a-44f7-bd4.md",
+      "migratedAt": "2026-11-15T11:03:20.809Z"
+    },
+    {
+      "sourceId": "learnings:6d0fcc5c9c4e5205",
+      "contentHash": "d2b7e9a6d2446476d1a78f65726b38ac4708b5dc921f708d3784decd7347ff98",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T12:51:01.616Z"
+    },
+    {
+      "sourceId": "f270e214-2e1e-4c66-be8d-af6331683d6a",
+      "contentHash": "b88fa0a2a596c94d3d0996775362ec6e12b88fae79904703c584ad610d4d77e2",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-d-ng-s-n-ph-m-trong-s-n-tr-ng-b-y-qu-n-cargo-be-c-t-id-.md",
+      "migratedAt": "2026-11-15T12:51:01.622Z"
+    },
+    {
+      "sourceId": "b6eb2282-fb0d-4b07-a24c-409b51cc6ef5",
+      "contentHash": "51d8d88d3d6f66c4c8128ea4f509b35537cc6d153afaee6ebf1e195f5e31e8f2",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-d-ng-s-n-ph-m-trong-s-n-tr-ng-b-y-qu-n-cargo-be-c-t-id--1.md",
+      "migratedAt": "2026-11-15T12:51:01.636Z"
+    },
+    {
+      "sourceId": "9d85acbf-d26e-4944-9960-a0dcbe0c4ab7",
+      "contentHash": "f48f671b70e044bd91d1201ba9d4a34d934c0bde1b0f54fb12d85c4ed16cb3bb",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-d-ng-s-n-ph-m-trong-s-n-tr-ng-b-y-qu-n-cargo-be-c-t-id--2.md",
+      "migratedAt": "2026-11-15T12:51:01.658Z"
+    },
+    {
+      "sourceId": "3a417fa3-313d-484a-a506-5efbbe8e23f9",
+      "contentHash": "7fa6773a77e0c1cc07760be53e42c3a1d3b13fbbc1a42316543b15a431d204a1",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-d-ng-s-n-ph-m-trong-s-n-tr-ng-b-y-qu-n-cargo-be-c-t-id--3.md",
+      "migratedAt": "2026-11-15T12:51:01.685Z"
+    },
+    {
+      "sourceId": "d8f5ce64-9fb9-4ca2-a9ee-b9b73a8a89b2",
+      "contentHash": "dc8674fc8372ede95f1608294459f4e3070fca9657dd4914806e3212eaa45450",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-atel-41-i-u-ph-i-v-b-n-giao-qu-n-cargo-be-c-t-id-6e0058.md",
+      "migratedAt": "2026-11-15T12:51:01.694Z"
+    },
+    {
+      "sourceId": "85584895-9a83-4859-a042-2fe824eaca13",
+      "contentHash": "d7341ac065deb011708a18b38cb8a1a253c74513487690a495693389d5103fce",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-3-legacy-wiki-item-s-atelierx-id-49cd0ecc-c706-48b1-87f.md",
+      "migratedAt": "2026-11-15T12:51:01.701Z"
+    },
+    {
+      "sourceId": "fbe6f23e-67cc-46c4-92de-d55a571e19ca",
+      "contentHash": "0b1d91028ce4fdc35c9f2fb8a0b750179b8e3e4e39a406d3dd44adf77aa630b8",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-research-fallback-check-id-a6d3df0b-8ec5-42e4-9722-ff85.md",
+      "migratedAt": "2026-11-15T12:56:17.156Z"
+    },
+    {
+      "sourceId": "a8b40308-dac6-4ac8-a9c4-f1a996866255",
+      "contentHash": "fed09eb2d98bdb7eaab27f31c155f9efaadbb1059040736f32ace46e942e6404",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-qa-idle-inspect-final-decision-id-5bc97047-eb5a-4509-92.md",
+      "migratedAt": "2026-11-15T12:56:17.220Z"
+    },
+    {
+      "sourceId": "23d7e106-df31-495e-b1f5-f36f0a487b5b",
+      "contentHash": "ebf55d506fc8adc8ffb4f1bb90daa00f5eae426485d27f71ca076a96f3bff647",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-41-visual-idle-inspect-viewer-handoff-id-651b8e5a-88ad-4ca.md",
+      "migratedAt": "2026-11-15T12:56:17.284Z"
+    },
+    {
+      "sourceId": "learnings:d66136e476546da2",
+      "contentHash": "4daee41a1f5cd8b1804eaf87b6174202fdd3e4f76f6b2879e59c6488ade7db9f",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T16:59:12.390Z"
+    },
+    {
+      "sourceId": "83512af0-27a1-4401-b510-ab671b1d3eda",
+      "contentHash": "80bd9f1465ea5977613c5d3a021c246ecbb6b9c0081e69bb773b2eaec04b481c",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-47-v2-shape-retest-verified-all-11-manifest-hashes-and-inspect.md",
+      "migratedAt": "2026-11-15T16:59:12.408Z"
+    },
+    {
+      "sourceId": "b7e6c37f-b9ad-4948-99c2-3ca2c03bc10c",
+      "contentHash": "574d4dc4684f9b2ada58eec411ce9d3cb8688cd54535da1421cb2c865e4da3ce",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-qa-focused-retest-cu-i-atel-47-v3-tr-l-i-hash-provenance-browser-ev.md",
+      "migratedAt": "2026-11-15T16:59:12.431Z"
+    },
+    {
+      "sourceId": "f78f6ae4-cb76-47e7-8396-9cb2a0735ce2",
+      "contentHash": "9467d55871485f70bd05c6a0d0f229dbe803971372b5a0c8fc8590b219f07fc6",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-47-atel-47-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-56.md",
+      "migratedAt": "2026-11-15T16:59:12.452Z"
+    },
+    {
+      "sourceId": "runbook:AGENTS.md:a36896f7b9ab",
+      "contentHash": "3b6e6e68fad4c34f2dcdb052cac4c56afda05b8d3f08e3f0eeccc4eb8a3749e0",
+      "targetRelativePath": "llm-curated/runbooks/agents-9.md",
+      "migratedAt": "2026-11-15T17:11:22.365Z"
+    },
+    {
+      "sourceId": "learnings:40164042759e01c5",
+      "contentHash": "b397e5d126818e63b7d9ae2674eb3458dfa457ac24f4b2cfd4e52f985132296e",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T17:44:37.702Z"
+    },
+    {
+      "sourceId": "e02138ce-30be-47d3-a4df-5e261564682a",
+      "contentHash": "cd06fb202acd74673a440cdc2cdcc3051080bf5743aeac52c75a90c2dc966489",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-workitem-backend-c-c-a-atel-1-c-lead-release-sau-blocked-review-tic.md",
+      "migratedAt": "2026-11-15T17:44:37.709Z"
+    },
+    {
+      "sourceId": "9dff4fa9-9454-4998-bb2b-a8eec9b828df",
+      "contentHash": "0bbf4761febee5ef95fd82e50960a970bd350c91fc065b7f997cc00ef23d3c68",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-chu-n-b-preset-pbr-cotton-canvas-twill-gi-l-p-m-u-be-c-t-v-manifest.md",
+      "migratedAt": "2026-11-15T17:44:37.714Z"
+    },
+    {
+      "sourceId": "c36086c7-57e3-4a31-9a3a-7b9265b2115d",
+      "contentHash": "2cf642d34f3962ec210fc10a630162c2cdc5f524f05528b19b8d4a7cdc4d9db1",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-claim-workitem-t-o-preset-pbr-cotton-canvas-twill-m-u-be-c-t-v-mani.md",
+      "migratedAt": "2026-11-15T17:44:37.721Z"
+    },
+    {
+      "sourceId": "7518afd9-e2a4-40ee-b66a-73dffe642797",
+      "contentHash": "d3ee92022a3774080c1dd1bb67bf26d9e80047cc7f5cd9ec4775a23ed05067e0",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-grab3d-clean-v2-uv-placement-atel-9-island-uv-m-t-l-ng-c-a-grab3d-hoodie-clean-v.md",
+      "migratedAt": "2026-11-15T17:44:37.741Z"
+    },
+    {
+      "sourceId": "811a5ee4-030e-45d8-8f80-5a3e6f869ee0",
+      "contentHash": "ac011ad60995d9d25db51907bddb3b57ec1ddddf23cd9ac08d4e1b61df5a738d",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-atelierx-revision-eta-calibration-in-atel-20-the-published-revision-median-was-2.md",
+      "migratedAt": "2026-11-15T17:44:37.758Z"
+    },
+    {
+      "sourceId": "706df16e-c8dc-46f8-9939-6c894845f630",
+      "contentHash": "da2bd35329cc99c86efc3a8f5b687bc5a3373d8594eb3627bbd60edb673e29c3",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-atel-24-revision-estimate-the-29-minute-revision-exceeded-the-15-minute-estimate.md",
+      "migratedAt": "2026-11-15T17:44:37.774Z"
+    },
+    {
+      "sourceId": "6d200bf7-0414-4f8d-8006-e78504df9c6f",
+      "contentHash": "0512760805f5c2fee35e850e77f069033f49a1a3fc4fd52f25946d4963c165c2",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-atel-29-retry-eta-the-initial-eta-2-min-was-too-low-because-i-classified-the-tas.md",
+      "migratedAt": "2026-11-15T17:44:37.792Z"
+    },
+    {
+      "sourceId": "7e611728-b6ed-4680-948e-664881ce64c0",
+      "contentHash": "9da0c9074b26a6600794a6e1c247447eb642adfde9673d0f5008aa12f9f04202",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-atel-32-source-assessment-the-10-minute-completion-beat-the-22-minute-revision-e.md",
+      "migratedAt": "2026-11-15T17:44:37.813Z"
+    },
+    {
+      "sourceId": "45a1492e-9494-4f3c-844d-c72a4cfe84f5",
+      "contentHash": "2280de9fe1f7eab054f8db9a7c4ba503e61be298bc3fd2c0afac65b38314fd01",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-goal-thay-h-ng-phom-atel-35-sau-khi-hai-ngu-n-x-m-tr-c-ch-a-t-v.md",
+      "migratedAt": "2026-11-15T17:44:37.836Z"
+    },
+    {
+      "sourceId": "029c20df-69c1-4f40-8b8d-5612aeafac28",
+      "contentHash": "ea6896f05d1a1ea3ca0c6e90521b614ceac84afdc797c6b41c144f2cf9c6a038",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-th-m-nh-ngu-n-makehuman-t-shirt-kh-c-hai-glb-tr-c-t-o-b-n-x-m-v0.md",
+      "migratedAt": "2026-11-15T17:44:37.855Z"
+    },
+    {
+      "sourceId": "87daa74d-a1c1-4df2-9a0c-d49ea294f541",
+      "contentHash": "644e67a563e8159c87f2a74531808297e18da873ec87f00df6c2581ec2ebd08c",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-goal-ch-n-phom-o-thun-kh-c-cho-atel-35-sau-v0.md",
+      "migratedAt": "2026-11-15T17:44:37.886Z"
+    },
+    {
+      "sourceId": "317666b1-68ea-43c3-8f4f-3750a98b0ee4",
+      "contentHash": "62fe633ce21a570e8b3697c05276c573461fb1bf9e5663424ffb939dde672433",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-standinganswerrefresh-standing-answer-refresh-can-surface-stale-historical-block.md",
+      "migratedAt": "2026-11-15T17:44:37.915Z"
+    },
+    {
+      "sourceId": "1f2ad845-a665-4460-9dc7-3a1fd32ca1a9",
+      "contentHash": "22f01c418ca3ca49b92854323cfe7d1c8c2da81ed5d382bf7aff93c1553f6f48",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-26-viewer-scaffold-v-n-i-dung-ti-ng-vi-t-s-n-x-c-minh-m-i-nh-t.md",
+      "migratedAt": "2026-11-15T17:44:37.950Z"
+    },
+    {
+      "sourceId": "9461482f-74fc-4269-a29d-d3101be3c37b",
+      "contentHash": "223262d7184abb857bbbb163724d421b3679ea2388d09bbb4b8d5dfd6f60c3ee",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-26-ang-blocked-ng-tr-ng-th-i-viewer-scaffold-mannequin-v1-v-n-.md",
+      "migratedAt": "2026-11-15T17:44:37.976Z"
+    },
+    {
+      "sourceId": "58ff06fc-310d-4c62-849d-7d30b29b513f",
+      "contentHash": "3d829664c7b9f32eb014e8188c218aa4507019aa727825a23bff14477384b867",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-26-ti-p-t-c-blocked-theo-c-ng-g1.md",
+      "migratedAt": "2026-11-15T17:44:37.998Z"
+    },
+    {
+      "sourceId": "4cb4ccc7-8fbd-47e0-9016-571b5dca0ccc",
+      "contentHash": "a723248e487e00cab0e058539082ddc09bc6a743551df10c5a5f3f5dc6dc3e12",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-23-v4-draft-gh-p-c-content-ng-n-s-o-ngu-n-manifest-hash-v-qa-b.md",
+      "migratedAt": "2026-11-15T17:44:38.032Z"
+    },
+    {
+      "sourceId": "c3b1674e-36af-4fc1-a844-fd1e697f35bd",
+      "contentHash": "81640b2aa4c8a776aa43fbceae8eeede47b489e18791e7f50696f523cfccc54a",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-23-v4.md",
+      "migratedAt": "2026-11-15T17:44:38.055Z"
+    },
+    {
+      "sourceId": "0e9ad1b9-f66a-45cc-a506-df84ede7cbdd",
+      "contentHash": "a3e81c1c75ad5f6346626d6fc97df7bd4bd6fd12f42cc4099ad284afdf165dce",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-26-ang-ch-handoff-designer-v4.md",
+      "migratedAt": "2026-11-15T17:44:38.075Z"
+    },
+    {
+      "sourceId": "cbdca767-2186-496c-8396-23c5236d5611",
+      "contentHash": "8bd2532c298183a9631d973ea0b7d6eca6fbfc92515938967bd6faef6b1e1262",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-23-v4-1.md",
+      "migratedAt": "2026-11-15T17:44:38.115Z"
+    },
+    {
+      "sourceId": "1bca2d6a-6e2a-4fa4-b515-bdeb03f52326",
+      "contentHash": "e8560a0d0a092a5bb55651c7a63a25f33245a4c72ec69289e640cefc809d00ef",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-25-ch-a-th-ti-p-t-c-retest-atel-30-ch-a-b-n-giao-v2.md",
+      "migratedAt": "2026-11-15T17:44:38.134Z"
+    },
+    {
+      "sourceId": "2ba45f6f-0c07-4aa5-9be3-a60663ba336b",
+      "contentHash": "686ca51f844681c2cea8ad9d0464a374d432baf97f7615f3a66910fd01c6e9ea",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-qa-g1-v2.md",
+      "migratedAt": "2026-11-15T17:44:38.151Z"
+    },
+    {
+      "sourceId": "320ac96f-2edf-4d1c-bbd3-7d34cbdec5bc",
+      "contentHash": "165664d2360adbbdb7dba7278a66d4d64df0037cf0b1cb3898e8066bdc5d185f",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-23-v2.md",
+      "migratedAt": "2026-11-15T17:44:38.170Z"
+    },
+    {
+      "sourceId": "dbf5212f-9f57-4ab1-be9e-566dd524314c",
+      "contentHash": "ef95e8784a5d62719e735938c47cd25897ea5134bf3718c7521310780083e120",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-23-v2-1.md",
+      "migratedAt": "2026-11-15T17:44:38.203Z"
+    },
+    {
+      "sourceId": "78a9a8b4-8287-4e52-8388-0606b1b6038a",
+      "contentHash": "c7f87ff07a6ed3db37cef90ae68d62f1ff93885d8ed0c139ce161f6284ca4286",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-ph-c-h-i-ng-c-nh-atel-25-v-n-blocked.md",
+      "migratedAt": "2026-11-15T17:44:38.222Z"
+    },
+    {
+      "sourceId": "fed404e2-0ca3-4091-8ea5-a57b318ad318",
+      "contentHash": "bcbb4ee06fa7df4880e3af8864f3975c7648b0595c49e7dca9473d26cd09e872",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-25-v-n-blocked-theo-quy-t-nh-lead.md",
+      "migratedAt": "2026-11-15T17:44:38.256Z"
+    },
+    {
+      "sourceId": "e31829ec-ef10-4c5a-a9a9-5b310b7f4181",
+      "contentHash": "00496233b7d466e67beb6d3dacb985a15387e8f1d9e68c4bdbb8054ac6765c21",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-25-v-n-ch-final-handoff-theo-showcase-basic-v1.md",
+      "migratedAt": "2026-11-15T17:44:38.287Z"
+    },
+    {
+      "sourceId": "06d6a040-e8be-44c3-b382-71f57202b19f",
+      "contentHash": "951f4b718e35ec221f06aa43211730f3706ab3da6dec530e534adeb3951de08b",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-qa-v4.md",
+      "migratedAt": "2026-11-15T17:44:38.316Z"
+    },
+    {
+      "sourceId": "8a47e709-8c40-431f-8673-9dec8da060c1",
+      "contentHash": "37a20d086702f100dba7520f0a33076f87b066e4f38fcc1ce0a997c862f70e56",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-phi-u-qa-v4.md",
+      "migratedAt": "2026-11-15T17:44:38.334Z"
+    },
+    {
+      "sourceId": "21f15036-34c9-4ba0-9dcb-d23cf02ae873",
+      "contentHash": "ff8353b963d3137a73ebae3f81b243fd59c2b9456727df14f6e271098ab98040",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-qa-v4-1.md",
+      "migratedAt": "2026-11-15T17:44:38.383Z"
+    },
+    {
+      "sourceId": "626fd942-3cf4-4f94-b95c-8b73aa44b5cf",
+      "contentHash": "7d5e9217cea5c33ab52d0292b24c5a482edab65a2b4459788fb330d3ef06a7f1",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-atel-53-qa-must-wait-for-an-actual-gray-handoff.md",
+      "migratedAt": "2026-11-15T17:44:38.414Z"
+    },
+    {
+      "sourceId": "4a131b08-c26b-4c90-8512-b55141f6708f",
+      "contentHash": "ee31ca2d4ecbf33f876d9807f7a219ca91cfbef15de1621bc13e7a842e7319b1",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-1-m-ph-ng-o-hoodie-en-c-h-a-ti-t-u-l-u-l-ng-id-413.md",
+      "migratedAt": "2026-11-15T17:44:38.443Z"
+    },
+    {
+      "sourceId": "b68e6642-ba30-4d5a-ab32-be33ad6b20dd",
+      "contentHash": "2ec7a550672dc632c1a9133732a468aede02e1f3508cad2ae1c4df6a84c27436",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-1-m-ph-ng-o-hoodie-en-c-h-a-ti-t-u-l-u-l-ng-id-d801bc39-6b.md",
+      "migratedAt": "2026-11-15T17:44:38.474Z"
+    },
+    {
+      "sourceId": "55b5c799-b126-4ecb-85f1-b85c53f5091a",
+      "contentHash": "c3a6beb64b4179f13b8ec8f9f2ef23db0cefebebbdce7935e39ae0301d29b8d9",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-2-legacy-wiki-item-s-atelierx-id-505ee26c-e2dd-4539-8c9.md",
+      "migratedAt": "2026-11-15T17:44:38.505Z"
+    },
+    {
+      "sourceId": "6f5663b7-d81f-4ef8-bfb1-63d18a385e32",
+      "contentHash": "ab85a7b94b51c220099cdd21b50ae73965c0f2a9629d739f602e566aa71d77c0",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-tl-report-atel-23-ch-a-th-m-l-i-atel-25-x-c-minh-atel-30-v-n-in-pro.md",
+      "migratedAt": "2026-11-15T17:44:38.613Z"
+    },
+    {
+      "sourceId": "428b457c-1acb-4046-959e-87c95780efc7",
+      "contentHash": "ed707b76fc6ad9f866d6d2ebb9644734d9ae0d223e072f9c946de94da0be2029",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-atelierx-researcher-artwork-handoff-eta-2-ph-t-theo-median-other-th-p-cho-u-ra-a.md",
+      "migratedAt": "2026-11-15T17:44:38.734Z"
+    },
+    {
+      "sourceId": "17d9bdd8-d84a-4040-aa2b-df66039f2572",
+      "contentHash": "ed54712b506b3a7e9f5d81a7313913cd2aa61c37d924277c287281e1a6e27127",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-task-blocked-atel-23-v4-2.md",
+      "migratedAt": "2026-11-15T17:44:38.901Z"
+    },
+    {
+      "sourceId": "learnings:0c621543a9df3aa2",
+      "contentHash": "439be1b1da27a8cf73501f32103a6f439625693a2cb5fc1cd65b79be76bfd2e9",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T18:17:19.610Z"
+    },
+    {
+      "sourceId": "ea3bd336-2053-42aa-8b1a-d9bbf7d8fa8f",
+      "contentHash": "664f2bca6de6b8998f0ed48d774771068d0eedddd77cbec969618ebdd01ce129",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-migrate-1-legacy-wiki-item-s-atelierx-id-060ce049-19fc-4b6a-807.md",
+      "migratedAt": "2026-11-15T18:17:19.617Z"
+    },
+    {
+      "sourceId": "learnings:60c0a61dbd744fa5",
+      "contentHash": "43f715db1a542ac3428b999dae7b38fa8d72e4d22ac974f5849e9324703f1125",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-15T23:04:05.518Z"
+    },
+    {
+      "sourceId": "7d147503-c0a0-4995-aab8-2a6f9ce92105",
+      "contentHash": "2d56571f835152b6d57c9ddfdb241002c4b6afe517b488f2085f4d49c6368d83",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-refresh-standing-answer-what-is-my-unfinished-work-and-what-is-.md",
+      "migratedAt": "2026-11-15T23:04:05.576Z"
+    },
+    {
+      "sourceId": "59000b9f-bd61-4236-b722-fce0a199065a",
+      "contentHash": "ebe3d2255ed3e6f3c70246499de2c8a8586221d95d2e7f7a9cf5fccc00ba3285",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-62-atel-53-thi-t-k-phom-o-o-s-mi-xanh-s-c-tr-ng-id-ec09071.md",
+      "migratedAt": "2026-11-15T23:04:05.610Z"
+    },
+    {
+      "sourceId": "6e92b476-2cbb-4b4d-990e-1330e91a9a34",
+      "contentHash": "e3fbd0d12fac739f79bd5b5f2aadb6efb45f604a25c393e4538b6a8d72d48965",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-current-unfinished-work-atel-62-atel-53-shirt-shape-workitem-ec090719-14b6-4e75-.md",
+      "migratedAt": "2026-11-15T23:04:05.637Z"
+    },
+    {
+      "sourceId": "12487f58-3658-48e7-aca4-f22d40a8119d",
+      "contentHash": "e3f23b8328b8a58fac5f96325f6d2e8711599c180e6329303542327f2fc92acb",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05.md",
+      "migratedAt": "2026-11-15T23:04:05.665Z"
+    },
+    {
+      "sourceId": "ea5286f0-0e72-424f-bea1-9250cc8df7ed",
+      "contentHash": "b7aae314dcfd6fb1abddeed8718c6a31cb2236fc4363c6c72707bb0ede4c094f",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-blocked-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-.md",
+      "migratedAt": "2026-11-15T23:04:05.684Z"
+    },
+    {
+      "sourceId": "0f757368-a3c8-47e0-bd19-d9561e5e7faf",
+      "contentHash": "e642e7b9f77d0282af3e003f647bc2978586b8ddc416db6532f782928105d821",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05-1.md",
+      "migratedAt": "2026-11-15T23:04:05.714Z"
+    },
+    {
+      "sourceId": "7063e55e-75b3-4ac8-bec2-2c29c0e26914",
+      "contentHash": "2146c654076d737f89352946931dfb0f6f1fcec59cfcaaa6d2f97cf71ae3cb29",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05-2.md",
+      "migratedAt": "2026-11-15T23:04:05.763Z"
+    },
+    {
+      "sourceId": "4151644b-3e72-474f-b08e-ffe8cbd48db7",
+      "contentHash": "612444090fa36167d2d6887af402bb4d1a19c56b8287275004cacdd9089bd138",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05-3.md",
+      "migratedAt": "2026-11-15T23:04:05.833Z"
+    },
+    {
+      "sourceId": "0471fe27-03f0-40fc-87e5-74c8019348a7",
+      "contentHash": "c5654f7b903870521c5e1665d59ccd4ae9fa6e35d0619466b6eef41ad4bfaadf",
+      "targetRelativePath": "llm-curated/patterns/2026-11-15-claimed-workitem-atel-53-atel-53-i-u-ph-i-v-b-n-giao-o-s-mi-xanh-s-c-tr-ng-id-05-4.md",
+      "migratedAt": "2026-11-15T23:04:05.894Z"
+    },
+    {
+      "sourceId": "learnings:89c0a5e2ae49ce73",
+      "contentHash": "54e8eae4a3b71ac7084dd157d096a2686679f69baef8185e66bad305fd0ab785",
+      "targetRelativePath": "llm-curated/log.md",
+      "migratedAt": "2026-11-16T05:46:26.649Z"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v1",
+  "receivedAt": "2026-11-14T19:46:18Z",
+  "targetMinutes": 60,
+  "readiness": {
+    "baseMeshId": null,
+    "mannequinProfile": "quality/mannequin-fit.json",
+    "fitReady": false,
+    "preparationMinutes": null
+  },
+  "milestones": {
+    "assignedAt": "2026-11-14T19:47:48Z",
+    "firstArtifactAt": "2026-11-14T19:50:14Z",
+    "fitReviewedAt": null,
+    "assembledAt": null,
+    "qaVerdictAt": null,
+    "publishedAt": null
+  },
+  "lanes": {
+    "lead": {
+      "owner": "atelierx-team-leader-0001",
+      "ticketId": "ATEL-23",
+      "workItemId": "083ef786-18bf-40dc-a863-62b919064a86",
+      "output": "brief, orchestration, flow/catalog, final approval",
+      "dependsOn": [],
+      "startedAt": "2026-11-14T19:46:25Z",
+      "handoffAt": null,
+      "waitingMinutes": 0,
+      "waitingReason": null
+    },
+    "research_artwork_content": {
+      "owner": "atelierx-tpm-0002",
+      "ticketId": "ATEL-28",
+      "workItemId": "001c8134-44f4-4f15-9a6c-b92c4429cde4",
+      "output": "art direction, original artwork, Vietnamese content.json",
+      "dependsOn": [],
+      "startedAt": "2026-11-14T19:47:48Z",
+      "handoffAt": "2026-11-14T19:52:23Z",
+      "waitingMinutes": 0,
+      "waitingReason": null,
+      "handoffMessageId": "7138ba0f-8b13-4d99-89fc-ce88c7bff466",
+      "artifactManifest": "orders/ATEL-23/v1/researcher/artifact-manifest.json",
+      "outputSha256": {
+        "artwork": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99",
+        "content": "34319660f8839af5018add2ad918dc361933b4e691d2bc2b014b7e9547622c4b"
+      }
+    },
+    "designer_geometry_fit": {
+      "owner": "atelierx-designer-0003",
+      "ticketId": "ATEL-24",
+      "workItemId": "d32acba2-d624-47c5-a731-7d8cefbe13c0",
+      "output": "shirt garment.glb, fit.json, candidate ID and source hash",
+      "dependsOn": [],
+      "startedAt": "2026-11-14T19:47:48Z",
+      "handoffAt": null,
+      "waitingMinutes": 0,
+      "waitingReason": null
+    },
+    "visual_assembly_viewer": {
+      "owner": "atelierx-frontend-developer-0006",
+      "ticketId": "ATEL-26",
+      "workItemId": "8f3dbfab-9acd-44ce-a97c-8c3b65d4b8cd",
+      "output": "mannequin display.glb, viewer, content integration and browser captures",
+      "dependsOn": [
+        "designer_geometry_fit",
+        "research_artwork_content"
+      ],
+      "startedAt": "2026-11-14T19:47:48Z",
+      "handoffAt": null,
+      "waitingMinutes": 0,
+      "waitingReason": null
+    },
+    "qa_independent": {
+      "owner": "atelierx-qa-0004",
+      "ticketId": "ATEL-25",
+      "workItemId": "af1fad6d-e258-49c3-ba71-0e573f1e646e",
+      "output": "independent fit/product QA report with browser evidence",
+      "dependsOn": [
+        "designer_geometry_fit"
+      ],
+      "startedAt": "2026-11-14T19:47:48Z",
+      "handoffAt": null,
+      "waitingMinutes": 0,
+      "waitingReason": null
+    },
+    "material_pbr": {
+      "owner": "atelierx-backend-developer-0005",
+      "ticketId": "ATEL-27",
+      "workItemId": "639a67f2-1ef9-467d-a24a-45fdc60b0b2a",
+      "output": "texture/PBR assets and material.json",
+      "dependsOn": [
+        "research_artwork_content",
+        "designer_geometry_fit"
+      ],
+      "startedAt": "2026-11-14T19:53:00Z",
+      "handoffAt": null,
+      "waitingMinutes": null,
+      "waitingReason": null
+    }
+  },
+  "blockers": [],
+  "reworkCount": 0,
+  "note": "Tiến độ đang chạy; phom shirt và pair-fit chưa được QA duyệt. Material lane đã assign đúng chủ sở hữu texture/PBR. Final assembly/quality gates chờ handoff garment + texture."
+}

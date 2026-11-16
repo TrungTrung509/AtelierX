@@ -1,0 +1,185 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.2-gray",
+  "reviewType": "independent-shape-review",
+  "reviewedAt": "2026-11-16T03:05:20.119Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "qaReviewer": "atelierx-qa-0004",
+  "decision": "pass",
+  "sourceManifest": {
+    "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shape-manifest-v1.2-gray.json",
+    "sha256": "90ab22a835886d1585725e5d6b66909071cab232a6cf64c5d438298dade3df05",
+    "artifactCount": 22,
+    "artifactHashesMatched": 22,
+    "artifactByteCountsMatched": 22
+  },
+  "garment": {
+    "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+    "sha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c",
+    "bytes": 2038132
+  },
+  "provenance": {
+    "sourceId": "Shirt",
+    "author": "eigenscene (https://sketchfab.com/eigenscene)",
+    "sourceUrl": "https://sketchfab.com/3d-models/shirt-745d0d185b49405694ef4e16cf78e224",
+    "license": "CC-BY-4.0 (embedded GLB metadata; original page not independently revalidated)",
+    "projectPermission": "User-supplied base use authorized for this project under quality/USER_SUPPLIED_BASE_POLICY.md",
+    "source": {
+      "path": "quality/candidates/user-supplied/shirt.glb",
+      "sha256": "1de5a29649bd5520bc5163660c40e58799f514c8cbb36cbbcd18611cc3c497d3"
+    },
+    "geometryBufferPreserved": true,
+    "parentGeometryBufferSha256": "cbebd849a6c6b6fe83220ecf4b259c2ce4e33f18e8b63b4117acc9f5670c9eba",
+    "addedFastenerCount": 2,
+    "hasBodyOrMannequinMesh": false
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/owner-shirt-v1.2-gray/index.html",
+    "garmentPath": "showcase/quality-preview/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+    "garmentSha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c"
+  },
+  "browserEvidence": {
+    "path": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/browser-result.json",
+    "sha256": "6ea18c4e3346c62a481f96d8d7aeb97d6848c552d6f8fb69ba4a05e888754cde",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": []
+  },
+  "garmentAppearance": {
+    "profile": "invisible-body-v1",
+    "reviewer": "atelierx-qa-0004",
+    "benchmark": "ATEL-35/v1",
+    "garmentType": "shirt",
+    "checks": {
+      "hollowOpenings": {
+        "passed": true,
+        "observation": "Top/bottom inspect shows open neckline, open torso shell and both cuff interiors; no horizontal caps obstruct the collar, hem or sleeve openings.",
+        "evidence": [
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/top.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/bottom.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffRightCloseup.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffLeftCloseup.png"
+        ]
+      },
+      "naturalDrape": {
+        "passed": true,
+        "observation": "The front and oblique retain a wearable torso volume with localized chest/shoulder/elbow folds. Back folds are pronounced but read as fabric gathering rather than closed solid geometry; overall drape meets the ATEL-35/v1 fabric standard.",
+        "evidence": [
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/front.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/back.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/side.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/oblique.png",
+          "quality/evidence/ATEL-35/v0.5/front.png",
+          "quality/evidence/ATEL-35/v0.5/back.png",
+          "quality/evidence/ATEL-35/v0.5/oblique.png"
+        ]
+      },
+      "fabricEdges": {
+        "passed": true,
+        "observation": "Hem, neck and cuff terminals remain open shell edges. Both cuffs show open inner surfaces in closeup; added buttons do not bridge or cap the openings.",
+        "evidence": [
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/top.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/bottom.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffRightCloseup.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffLeftCloseup.png"
+        ]
+      },
+      "garmentConstruction": {
+        "passed": true,
+        "observation": "Standalone long-sleeve shirt silhouette, collar stand with two leaves, front placket and buttons, tubular cuffs and two cuff fasteners all read in the neutral-gray geometry.",
+        "evidence": [
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/front.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/oblique.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/collarCloseup.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/placketSideCloseup.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffRightCloseup.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffLeftCloseup.png"
+        ]
+      },
+      "benchmarkComparison": {
+        "passed": true,
+        "observation": "Compared only cloth form/drape with ATEL-35/v1: this shirt has similarly visible fabric folds and a volumetric wearable silhouette; its back gathering is stronger, but remains legible and non-solid.",
+        "evidence": [
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/front.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/back.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/oblique.png",
+          "quality/evidence/ATEL-35/v0.5/front.png",
+          "quality/evidence/ATEL-35/v0.5/back.png",
+          "quality/evidence/ATEL-35/v0.5/oblique.png"
+        ]
+      },
+      "collarConstruction": {
+        "passed": true,
+        "observation": "Raised collar band follows the neckline and two pointed leaves fold onto the chest; top/closeup show an open neck cavity. The existing v1.1 collar remains unchanged in this cuff-only correction.",
+        "evidence": [
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/front.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/top.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/collarCloseup.png"
+        ]
+      },
+      "buttonAttachment": {
+        "passed": true,
+        "observation": "Front-placket buttons remain seated. The new shallow gray fastener on each cuff is visible in front/oblique and both cuff closeups; each follows the cuff surface and shows no visible float. Buttons sit close to the terminal edge but do not cover the opening.",
+        "evidence": [
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/front.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/oblique.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/placketSideCloseup.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffRightCloseup.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffLeftCloseup.png"
+        ]
+      },
+      "trimFollowsGeometry": {
+        "passed": true,
+        "observation": "The placket tracks the shirt front, cuff bands follow sleeve terminals, and each added fastener follows its local cuff surface; no detached cuff ring or blocked opening is visible.",
+        "evidence": [
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/front.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/side.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/oblique.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffRightCloseup.png",
+          "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffLeftCloseup.png"
+        ]
+      }
+    }
+  },
+  "evidence": {
+    "front": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/front.png",
+    "back": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/back.png",
+    "side": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/side.png",
+    "oblique": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/oblique.png",
+    "top": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/top.png",
+    "bottom": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/bottom.png",
+    "collarCloseup": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/collarCloseup.png",
+    "placketSideCloseup": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/placketSideCloseup.png",
+    "cuffRightCloseup": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffRightCloseup.png",
+    "cuffLeftCloseup": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/cuffLeftCloseup.png",
+    "browserResult": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/browser-result.json",
+    "closeupResult": "orders/ATEL-53/owner-shirt-v1.2-gray/captures/closeup-result.json",
+    "benchmarkFront": "quality/evidence/ATEL-35/v0.5/front.png",
+    "benchmarkBack": "quality/evidence/ATEL-35/v0.5/back.png",
+    "benchmarkOblique": "quality/evidence/ATEL-35/v0.5/oblique.png"
+  },
+  "evidenceSha256": {
+    "front": "dec53e6a9f53b1b0c53d4caaab31486edeb21367e9a421a42e0a123f9996982a",
+    "back": "2daaad28f2f7e21a6bc309358e517a5982c41204a57bc157e3ced61afab7b9ca",
+    "side": "e2276cc6648b781a955650f622692772ee42e01a54a12e13530da7f45bf5d343",
+    "oblique": "e3db35ca3af83a801f1ca6768197dc928f5b9262be5efc8024520ec33cff930b",
+    "top": "4b0ddce2f63a4dd945ca3e9837da9e3a50daabba1288c59921005bf5302e97e4",
+    "bottom": "b3250bc5ce52ce2c503c75b9480d5474c921feb1bf40958ce75ba8f3581ab34a",
+    "collarCloseup": "3ea6ca493509241a931b0b390c5f2f36bb84905ebb0cadc8043b04da4e10c89e",
+    "placketSideCloseup": "7b5e12b4c0b27ccc6805fc570619ef5d80fc5354fedd9c270b0bb5ca551d823e",
+    "cuffRightCloseup": "cc74f9a90446396a70634686244fc94adea007e48e336feedf6d22be4b1c28be",
+    "cuffLeftCloseup": "ecf8cdb1a13226dc3e7836b9bd5c0ff1a9b3b50513cca9e86b83bed1873a176b",
+    "browserResult": "6ea18c4e3346c62a481f96d8d7aeb97d6848c552d6f8fb69ba4a05e888754cde",
+    "closeupResult": "0a6c864aa3c1059f5e48ec626e9f48e0884df8f7db03d90f61e120a5c4224971",
+    "benchmarkFront": "d4eb871ce6dedfef328b9f6a654d1e3bdba13ae1ad66784b0f354fd0c3951e04",
+    "benchmarkBack": "1687957b564f9915b94019c9b0838e6e21b83e1ea3527e28a28fe3c5544d237e",
+    "benchmarkOblique": "b8f3f285ea2447cbcbf71c3cb28c458538b8f2afaaec9d340b081c812954d98b"
+  },
+  "findings": [],
+  "summary": "PASS shape ATEL-53/owner-shirt-v1.2-gray on GLB SHA-256 4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c. Independently verified 22/22 manifest hash+byte counts, preview same SHA, browser load/rotate/zoom and six views/four details. The two cuff fasteners are seated on cuff fabric and openings remain hollow. Shape gate passes; Material may proceed; QA WorkItem remains open for final Visual/final QA."
+}

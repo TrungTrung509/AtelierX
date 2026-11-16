@@ -1,0 +1,21 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "sweater-v1-gray",
+  "decision": "pass",
+  "reviewer": "atelierx-qa-0004",
+  "checks": {
+    "garmentType": true,
+    "connectedParts": true,
+    "structure": true
+  },
+  "evidence": {
+    "front": "orders/ATEL-63/v1/designer/evidence/front.png",
+    "back": "orders/ATEL-63/v1/designer/evidence/back.png",
+    "oblique": "orders/ATEL-63/v1/designer/evidence/oblique.png"
+  },
+  "derivedFrom": {
+    "path": "quality/reports/ATEL-63/sweater-v1-gray.json",
+    "sha256": "13e62413a3770b9a386281f18f2570c968b3c5ac50c679d0ae19cd026a59f3a1"
+  },
+  "mappingNote": "Lead-side gate mapping derived from the independent shape review: garment construction establishes garment type/connected construction; openings, drape and construction establish garment structure. No geometry changed after that pass."
+}

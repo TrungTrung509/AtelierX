@@ -1,0 +1,90 @@
+{
+  "candidateSha256": "d4d27b29cead3a83141d67a1cbaffd0bca0822f1030df4407b9f319c6d7fe41e",
+  "combinedFitSha256": "b55785dafefbbf1f2c54ab704ba323aaf3d8ccbba978c09910aa85e15ed5622e",
+  "captures": [
+    {
+      "kind": "candidate",
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/candidate-browser-qa/front.png",
+      "sha256": "4f959d50709104705aa438d912bd6815744f6ae63345eda0cb9011cbb6994a02",
+      "bytes": 72335
+    },
+    {
+      "kind": "candidate",
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/candidate-browser-qa/back.png",
+      "sha256": "91ec46b3810f6edee587d12b84e10ea19fdd6e782f3d1193192140b7f092035a",
+      "bytes": 70493
+    },
+    {
+      "kind": "candidate",
+      "view": "left",
+      "path": "quality/evidence/ATEL-32-source-assessment/candidate-browser-qa/left.png",
+      "sha256": "60de53fc924b71b9d2b0ec9e1ce483e566f296884af13ebf183f943ea7f8ad70",
+      "bytes": 53006
+    },
+    {
+      "kind": "candidate",
+      "view": "right",
+      "path": "quality/evidence/ATEL-32-source-assessment/candidate-browser-qa/right.png",
+      "sha256": "0f9300a2133e0c45092510b1fb275b378c6b29458ea9433e43c05670fc04f3a3",
+      "bytes": 52249
+    },
+    {
+      "kind": "candidate",
+      "view": "detail",
+      "path": "quality/evidence/ATEL-32-source-assessment/candidate-browser-qa/detail.png",
+      "sha256": "5bed0a01d7399f7648a5e44c48f44b806bdc746b47f7dba9aa1f3d1a5090b97b",
+      "bytes": 159398
+    },
+    {
+      "kind": "candidate",
+      "view": "mobile",
+      "path": "quality/evidence/ATEL-32-source-assessment/candidate-browser-qa/mobile.png",
+      "sha256": "e4d8223bd4446f0fd4c4308973b4047510c8b858382712796155177297badff9",
+      "bytes": 56410
+    },
+    {
+      "kind": "fit",
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/front.png",
+      "sha256": "03bf37c5b61abef2f78161da4749020fc227afcfc21eee038ad0f912907122e4",
+      "bytes": 95189
+    },
+    {
+      "kind": "fit",
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/back.png",
+      "sha256": "adb00707a3c00ea3e2a8a9e47aad2306311714b642dfb0411eca6d41922fadff",
+      "bytes": 94514
+    },
+    {
+      "kind": "fit",
+      "view": "left",
+      "path": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/left.png",
+      "sha256": "ff5cf832fec5fda2703fce38cb7cd98cf90e2440e3bc4f2f63ab5bb932c5b221",
+      "bytes": 66992
+    },
+    {
+      "kind": "fit",
+      "view": "right",
+      "path": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/right.png",
+      "sha256": "ffdbd39dd2c6f90d91d3f8954d4fcacc29ea9dd993be11cf7c5ff7b2f00e853a",
+      "bytes": 70002
+    },
+    {
+      "kind": "fit",
+      "view": "detail",
+      "path": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/detail.png",
+      "sha256": "55d7e44a5bfaf173ff7b41f773fd2766c9b318dc7185cae4ab630ff5a37821ea",
+      "bytes": 174102
+    },
+    {
+      "kind": "fit",
+      "view": "mobile",
+      "path": "quality/evidence/ATEL-32-source-assessment/fit-browser-qa/mobile.png",
+      "sha256": "b0dde76a5a7d8d1ad3ede04e5438d5ac126c3b3477613a30b68a9dd82f9193d3",
+      "bytes": 36123
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v0.5-gray",
+  "status": "gray shape-review candidate; pending independent QA; not approved or published",
+  "source": {
+    "path": "quality/candidates/user-supplied/tshirt.glb",
+    "sha256": "c21ef90d256b1f28177e8468cc9f69a83dbdd0cc4111addc23f9893e82a1103a",
+    "registryId": "user-tshirt-c21ef90d-v1",
+    "registryPath": "quality/base-meshes.json",
+    "registryLicense": "owner-authorized-project-use",
+    "licensePolicy": "quality/USER_SUPPLIED_BASE_POLICY.md",
+    "originalFile": "phom cơ sở/tshirt.glb",
+    "originalAttribution": {
+      "author": "Tabbuso (https://sketchfab.com/Tabbuso)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/tshirt-5a21282b2e454d1696547148f617d3d0",
+      "title": "Tshirt"
+    }
+  },
+  "derived": {
+    "path": "orders/ATEL-35/v0.5/designer/garment-v0_5.glb",
+    "sha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+    "meshCount": 4,
+    "primitiveCount": 4,
+    "method": "Preserve source mesh geometry, transforms, normals and UV0; apply one uniform meter/display-scale parent with the hem at y=0 and the body centered; remove color-image bindings and assign neutral gray PBR. No garment geometry was added or removed.",
+    "material": [
+      {
+        "name": "FABRIC_1_FRONT_4193",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.26,
+            0.27,
+            0.28,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.92
+        }
+      }
+    ]
+  },
+  "normalization": {
+    "targetHeightMeters": 0.68,
+    "uniformScale": 0.027586674319396775,
+    "translationMeters": [
+      -0.0012744295562928168,
+      -1.1450119995034134,
+      0.04886951666921623
+    ],
+    "isManufacturingSize": false
+  },
+  "uv0": [
+    {
+      "meshIndex": 0,
+      "meshName": "Object_0",
+      "primitiveIndex": 0,
+      "accessor": 2,
+      "count": 65532,
+      "min": [
+        0.7654190063476562,
+        1.2996599674224854
+      ],
+      "max": [
+        1.2757710218429565,
+        1.9714930057525635
+      ]
+    },
+    {
+      "meshIndex": 1,
+      "meshName": "Object_1",
+      "primitiveIndex": 0,
+      "accessor": 6,
+      "count": 65532,
+      "min": [
+        -0.7193490266799927,
+        -0.11520499736070633
+      ],
+      "max": [
+        1.0104190111160278,
+        2.377639055252075
+      ]
+    },
+    {
+      "meshIndex": 2,
+      "meshName": "Object_2",
+      "primitiveIndex": 0,
+      "accessor": 10,
+      "count": 65532,
+      "min": [
+        -0.7193490266799927,
+        -0.11520499736070633
+      ],
+      "max": [
+        1.0134470462799072,
+        2.3678770065307617
+      ]
+    },
+    {
+      "meshIndex": 3,
+      "meshName": "Object_3",
+      "primitiveIndex": 0,
+      "accessor": 14,
+      "count": 4999,
+      "min": [
+        -0.20040400326251984,
+        1.2996599674224854
+      ],
+      "max": [
+        1.0134470462799072,
+        1.9714930057525635
+      ]
+    }
+  ],
+  "surfaceDetail": {
+    "sourceNormalTexture": false,
+    "sourceBaseColorTexture": false,
+    "note": "Source has no normal or base-color textures; visible folds in gray are geometry and supplied vertex normals."
+  },
+  "sourcePreview": {
+    "manifest": "quality/evidence/ATEL-35/v0.5/source-preview/source-preview.json",
+    "manifestSha256": "88c02ea9f9d20bf8b2b33652f5a5926f837c343da611a28dfe4ac81f2c82f1ba",
+    "url": "http://127.0.0.1:8788/index.html",
+    "loaded": true,
+    "desktop": true,
+    "screenshotHashes": {
+      "front": "6ec3b43f5db6dd1692e74d4ee80915bd9a66890714153122c4c90416af7d6b68",
+      "back": "bd086780426b5e7cbe5eacc02bbe9719184a94a2e06ae2f0c5f6fd537876c0a5",
+      "side": "e05959c69a909c07166bcbf3f4cbd7948c5d156b5110ee8013ad84d2a7b292af",
+      "oblique": "51650d140807ec97af942ea244f5701c70e20ba90dea10096ac36502d181df21"
+    }
+  },
+  "desktopBrowser": {
+    "result": "quality/evidence/ATEL-35/v0.5/browser-result.json",
+    "resultSha256": "cee4d92142ba27522829135306c1990c8ce5a8c23f0e436f05cf47fceed2fa12",
+    "url": "http://127.0.0.1:8788/index.html",
+    "revision": "v0.5-gray",
+    "garmentSha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": [],
+    "screenshots": {
+      "front": {
+        "path": "quality/evidence/ATEL-35/v0.5/front.png",
+        "sha256": "d4eb871ce6dedfef328b9f6a654d1e3bdba13ae1ad66784b0f354fd0c3951e04"
+      },
+      "back": {
+        "path": "quality/evidence/ATEL-35/v0.5/back.png",
+        "sha256": "1687957b564f9915b94019c9b0838e6e21b83e1ea3527e28a28fe3c5544d237e"
+      },
+      "side": {
+        "path": "quality/evidence/ATEL-35/v0.5/side.png",
+        "sha256": "38773a97e62c377b5fe864773b14477208f124f69fbd7f75b0cccd785b6569e2"
+      },
+      "oblique": {
+        "path": "quality/evidence/ATEL-35/v0.5/oblique.png",
+        "sha256": "b8f3f285ea2447cbcbf71c3cb28c458538b8f2afaaec9d340b081c812954d98b"
+      }
+    }
+  }
+}

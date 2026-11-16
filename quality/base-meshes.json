@@ -1,0 +1,583 @@
+{
+  "version": 1,
+  "meshes": [
+    {
+      "id": "grab3d-hoodie-candidate-v1",
+      "garmentType": "hoodie",
+      "status": "candidate",
+      "file": "quality/candidates/grab3d-hoodie.glb",
+      "source": "https://grab3d.com/models/props/hoodie/",
+      "license": "CC0-1.0",
+      "licenseFile": "quality/candidates/grab3d-hoodie-LICENSE.txt",
+      "sha256": "ab4d75b01d5ab50079a61b06b8a7eea22a19b33ecd266b8ed0210d1027b92617",
+      "notes": "Ứng viên có UV; chưa duyệt phom, khả năng tách vùng in và ảnh browser các góc. Không dùng cho đơn complete."
+    },
+    {
+      "id": "grab3d-hoodie-clean-prototype-v1",
+      "garmentType": "hoodie",
+      "status": "candidate",
+      "file": "quality/candidates/grab3d-hoodie-clean-prototype.glb",
+      "derivedFrom": "grab3d-hoodie-candidate-v1",
+      "source": "https://grab3d.com/models/props/hoodie/",
+      "license": "CC0-1.0",
+      "licenseFile": "quality/candidates/grab3d-hoodie-LICENSE.txt",
+      "sha256": "5fc0f746dbd390e4bad3b692dde55b7f8de1a820e01f138e50a6e2da9eedbd76",
+      "notes": "Prototype lọc tam giác giá đỡ bằng tọa độ; ảnh browser có tại quality/evidence/base-hoodie-clean-prototype. Chưa kiểm UV/placement và chưa được QA/Lead duyệt G1. Không dùng cho đơn complete."
+    },
+    {
+      "id": "grab3d-hoodie-clean-v2",
+      "garmentType": "hoodie",
+      "status": "candidate",
+      "file": "quality/candidates/grab3d-hoodie-clean-v2.glb",
+      "source": "https://grab3d.com/models/props/hoodie/",
+      "license": "CC0-1.0",
+      "licenseFile": "quality/candidates/grab3d-hoodie-LICENSE.txt",
+      "sha256": "42dc0075e632eab84256f71d9cc88b6eb6d54d04cbff3682f548f62e55994a13",
+      "notes": "ATEL-11/v2 · ứng viên dẫn xuất từ grab3d-hoodie-candidate-v1 bằng script spatial filter; GLB giữ nguyên POSITION/NORMAL/TEXCOORD_0 gốc và chỉ thay index list. Browser preview và UV checker ở showcase/quality-preview/hoodie-clean-v2/ và quality/evidence/ATEL-11/v2/. Còn vài vệt nhỏ gần cổ cần QA độc lập; chưa duyệt và không dùng cho sản phẩm complete."
+    },
+    {
+      "id": "user-basic-sweatshirt-28920906-v1",
+      "garmentType": "sweatshirt",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/basic_sweatshirt.glb",
+      "originalFile": "phom cơ sở/basic_sweatshirt.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "28920906f55c4a701cc91534e83958470a9c7b2df2acb11a9ad8a50e308b51bf",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-canada-goose-winter-jacket-c1784d2e-v1",
+      "garmentType": "jacket",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/canada_goose_winter_jacket.glb",
+      "originalFile": "phom cơ sở/canada_goose_winter_jacket.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "c1784d2eb138795874a435ff5683e0df6b7699ed9145e1758833e27ad0c70a71",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 14,
+        "primitiveCount": 14,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-caterpillar-work-boot-03515365-v1",
+      "garmentType": "footwear",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/caterpillar_work_boot.glb",
+      "originalFile": "phom cơ sở/caterpillar_work_boot.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "035153652ef27a23a29ecdba30b081a5acf0614ee11d4e99b3de50b78a7901c0",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-cheap-shearling-jacket-agisoftclotheschallenge-9395757f-v1",
+      "garmentType": "jacket",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/cheap_shearling_jacket_agisoftclotheschallenge.glb",
+      "originalFile": "phom cơ sở/cheap_shearling_jacket_agisoftclotheschallenge.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "9395757fb0086a49c5a098835bb76a990bd228e6ae0d148d901cd47543b992de",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-classic-black-flame-hoodie-0a923687-v1",
+      "garmentType": "hoodie",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/classic_black_flame_hoodie.glb",
+      "originalFile": "phom cơ sở/classic_black_flame_hoodie.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "0a923687177e004af482a8480beda31a59886f5b57e00d86e3050ee22e714e22",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 14,
+        "primitiveCount": 14,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-cloth-jacket-9c42e3c3-v1",
+      "garmentType": "jacket",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/cloth_jacket.glb",
+      "originalFile": "phom cơ sở/cloth_jacket.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "9c42e3c37d1404180b3b58f6c034e269edb26797f411c3fb3849f48af1b6437d",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 2,
+        "primitiveCount": 2,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-coat-leather-jacket-3d-model-free-a2ae7888-v1",
+      "garmentType": "jacket",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/coat_leather_jacket_3d_model_free.glb",
+      "originalFile": "phom cơ sở/coat_leather_jacket_3d_model_free.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "a2ae78881e8826da45ec67b7fe15af58913db01c149ab6b1678fb90b10b88a65",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-fleece-jacket-71444016-v1",
+      "garmentType": "jacket",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/fleece_jacket.glb",
+      "originalFile": "phom cơ sở/fleece_jacket.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "714440165c9beaefb86d404686cc0cfebb6735c9f15242ffda502609bf9e9f81",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 10,
+        "primitiveCount": 10,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-green-and-white-hoodie-25f4b3ee-v1",
+      "garmentType": "hoodie",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/green_and_white_hoodie.glb",
+      "originalFile": "phom cơ sở/green_and_white_hoodie.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "25f4b3ee6c0d4043af6c110655bf3873179f89c77147f8dc1ccd702d6acffaeb",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 8,
+        "primitiveCount": 8,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-japanese-school-uniform-2061a93d-v1",
+      "garmentType": "outfit",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/japanese_school_uniform.glb",
+      "originalFile": "phom cơ sở/japanese_school_uniform.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "2061a93d7c86dd9a32eba365e26caee59526b69eb93df49b943e387815620390",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 7,
+        "primitiveCount": 7,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-jeans-skirt-8e4e8e64-v1",
+      "garmentType": "skirt",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/jeans_skirt.glb",
+      "originalFile": "phom cơ sở/jeans_skirt.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "8e4e8e64be1ca7e5aab15b19762ca1248e83702f1a9e556978d1ee7173855bab",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-jk-school-uniform-4-5a70461c-v1",
+      "garmentType": "outfit",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/jk_school_uniform_4.glb",
+      "originalFile": "phom cơ sở/jk_school_uniform_4.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "5a70461c73f68660f0f1cd6f8e53878c58054c8b9e39ee65b1013b2709a8c406",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 14,
+        "primitiveCount": 14,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1",
+      "garmentType": "pants",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/jnco_twin_cannon_baggy_jeans.glb",
+      "originalFile": "phom cơ sở/jnco_twin_cannon_baggy_jeans.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "7b0af5c3aee5e7f423107d5f7d2eae48f17699c9404326d86e9642ca62dda08c",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 3,
+        "primitiveCount": 3,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-make-me-purr-crop-top-748c1a8b-v1",
+      "garmentType": "top",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/make_me_purr_crop_top.glb",
+      "originalFile": "phom cơ sở/make_me_purr_crop_top.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "748c1a8b926c7f5807cbf128acd3cd2e0d7dc5d01f8a4ed9853613bbb8f42a71",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-man-black-business-suit-e585ced6-v1",
+      "garmentType": "outfit",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/man_black_business_suit.glb",
+      "originalFile": "phom cơ sở/man_black_business_suit.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "e585ced6202f6e7d27bf93de0ac31c76aeb2316b9821e4e9f86ddc3b7cd973e0",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 37,
+        "primitiveCount": 37,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-my-sweet-piano-pants-with-bones-9205b1ac-v1",
+      "garmentType": "pants",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/my_sweet_piano_pants_with_bones.glb",
+      "originalFile": "phom cơ sở/my_sweet_piano_pants_with_bones.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "9205b1ac34f63808a84d28b0d957c486fb230046586e496393f53f3a5fb61721",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 3,
+        "primitiveCount": 3,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-nike-air-zoom-pegasus-36-d81874d6-v1",
+      "garmentType": "footwear",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/nike_air_zoom_pegasus_36.glb",
+      "originalFile": "phom cơ sở/nike_air_zoom_pegasus_36.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "d81874d66f97b013841368c35ac663e8434634a8e71be759b72a4566a669d424",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-oversized-baggy-custom-jeans-86d4c094-v1",
+      "garmentType": "pants",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/oversized_baggy_custom_jeans.glb",
+      "originalFile": "phom cơ sở/oversized_baggy_custom_jeans.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "86d4c094cf7a2baa651f751fbc0dab1e8bfa993a37f56a9c5582be381320593a",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 7,
+        "primitiveCount": 7,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-plaid-gothic-mini-skirt-0fca8823-v1",
+      "garmentType": "skirt",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/plaid_gothic_mini_skirt.glb",
+      "originalFile": "phom cơ sở/plaid_gothic_mini_skirt.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "0fca88232e746d42187d6481269d2058a6a3eac55236e6abc3fc96af63956edd",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-puff-sleeve-and-jumper-skirt-5628f5ee-v1",
+      "garmentType": "outfit",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/puff_sleeve_and_jumper_skirt.glb",
+      "originalFile": "phom cơ sở/puff_sleeve_and_jumper_skirt.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "5628f5eee851c570dcddc466c6a4446d4a17e749f99f073d7015ac7d491d3bab",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 2,
+        "primitiveCount": 2,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-real-army-jacket-e9a1c84e-v1",
+      "garmentType": "jacket",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/real_army_jacket.glb",
+      "originalFile": "phom cơ sở/real_army_jacket.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "e9a1c84ec9ccfed6ba88d1d09e5a86ae0b352ef838ac7ca2ded276180690b8c7",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 8,
+        "primitiveCount": 8,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-regular-clothes-for-vespian-feb2bc4d-v1",
+      "garmentType": "outfit",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/regular_clothes_for_vespian.glb",
+      "originalFile": "phom cơ sở/regular_clothes_for_vespian.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "feb2bc4dc43bd5666868133f4b84cfe7d724dfe5af3e3b7d4deda06cc85a2cb2",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 14,
+        "primitiveCount": 14,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-t-shirt-1--4edb5292-v1",
+      "garmentType": "tshirt",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/t-shirt (1).glb",
+      "originalFile": "phom cơ sở/t-shirt (1).glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "4edb5292c2a5003dba5200af62ce6cd45f3a4ca1dadbaa94ad8c8553d3e8f241",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-t-shirt-922001c3-v1",
+      "garmentType": "tshirt",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/t-shirt.glb",
+      "originalFile": "phom cơ sở/t-shirt.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "922001c3404f16be6a5e752928063696469d10c6dd0f269e44b455f41d79e237",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 1,
+        "primitiveCount": 1,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-t-shirt-lp-7158e4b6-v1",
+      "garmentType": "tshirt",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/t-shirt___lp.glb",
+      "originalFile": "phom cơ sở/t-shirt___lp.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "7158e4b64cdc94df03a3ac14cf72df8a6716bdd2650dd0472df87e4cbf27c3c3",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 4,
+        "primitiveCount": 4,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-tommy-hilfiger-jacket-809ef0de-v1",
+      "garmentType": "jacket",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/tommy_hilfiger_jacket.glb",
+      "originalFile": "phom cơ sở/tommy_hilfiger_jacket.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "809ef0de80f72a47d526c07a9d33e6219efee6c861740c6b4138c6dbc2afc3e1",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 5,
+        "primitiveCount": 5,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-tshirt-c21ef90d-v1",
+      "garmentType": "tshirt",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/tshirt.glb",
+      "originalFile": "phom cơ sở/tshirt.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "c21ef90d256b1f28177e8468cc9f69a83dbdd0cc4111addc23f9893e82a1103a",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 4,
+        "primitiveCount": 4,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-white-shirt-black-leather-skirt-outfit-48f2e9ba-v1",
+      "garmentType": "outfit",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/white_shirt_black_leather_skirt_outfit.glb",
+      "originalFile": "phom cơ sở/white_shirt_black_leather_skirt_outfit.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 13,
+        "primitiveCount": 13,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "user-t-shirt-174d2439-v1",
+      "garmentType": "tshirt",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/t_shirt.glb",
+      "originalFile": "phom cơ sở/t_shirt.glb",
+      "source": "user-supplied:phom cơ sở",
+      "license": "owner-authorized-project-use",
+      "sha256": "174d2439c1505a928e189234209a65656646c89c9c6344963c9f5c82b30831f1",
+      "inspection": {
+        "glbValid": true,
+        "meshCount": 10,
+        "primitiveCount": 10,
+        "hasUV0": true
+      },
+      "notes": "Chủ dự án cho phép dùng làm phom tham khảo hoặc dẫn xuất trong AtelierX; ưu tiên thiết kế lại kiểu dáng, màu, vật liệu và họa tiết. Chưa qua QA phom/UV/vùng in; chỉ dùng cho đơn complete sau khi G1 approved.",
+      "licenseFile": "quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    {
+      "id": "grab3d-hoodie-clean-v2-neckfix-placement-v3",
+      "garmentType": "hoodie",
+      "status": "approved",
+      "file": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/hoodie-mesh-revision.glb",
+      "derivedFrom": "grab3d-hoodie-clean-v2",
+      "source": "https://grab3d.com/models/props/hoodie/",
+      "license": "CC0-1.0",
+      "licenseFile": "quality/candidates/grab3d-hoodie-LICENSE.txt",
+      "sha256": "34374edd321b7e8396656e7d5a003e359d9349c5cc35bb5bc37a5c99145141bf",
+      "approvedBy": "atelierx-team-leader-0001",
+      "approvedRevision": "clean-v2-neckfix-placement-v3",
+      "qaReport": "quality/reports/ATEL-9/clean-v2-neckfix-placement-v3-qa.json",
+      "placementProfile": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/placement-profile.json",
+      "evidence": {
+        "front": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/front.png",
+        "back": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/back.png",
+        "left": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/left.png",
+        "right": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/right.png"
+      },
+      "notes": "Lead duyệt G1 riêng cho geometry revision clean-v2-neckfix-placement-v3 sau QA độc lập ATEL-19 khuyến nghị PASS; geometry SHA-256 34374edd321b7e8396656e7d5a003e359d9349c5cc35bb5bc37a5c99145141bf. Diagnostic GLB 964e87b98a215cf1c8b86ce0b42f6a881b384202caf8faeaca3928aa6c64ea92 khớp payload hình học. Source entry grab3d-hoodie-clean-v2 SHA 42dc0075e632eab84256f71d9cc88b6eb6d54d04cbff3682f548f62e55994a13 vẫn candidate; không dùng SHA nguồn để đại diện revision đã duyệt. Browser evidence là placement diagnostics; artwork ATEL-1 cần QA riêng."
+    }
+  ]
+}

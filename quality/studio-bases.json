@@ -1,0 +1,122 @@
+{
+  "version": 9,
+  "bases": [
+    {
+      "id": "tee-crew-short-sleeve-v1",
+      "garmentType": "tshirt",
+      "status": "ready",
+      "file": "orders/ATEL-35/v0.5/designer/garment-v0_5.glb",
+      "sha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+      "features": {
+        "neck": "crew",
+        "sleeves": "short",
+        "folds": true,
+        "volume": true
+      },
+      "images": {
+        "front": "quality/evidence/ATEL-35/v0.5/front.png",
+        "back": "quality/evidence/ATEL-35/v0.5/back.png",
+        "side": "quality/evidence/ATEL-35/v0.5/side.png",
+        "oblique": "quality/evidence/ATEL-35/v0.5/oblique.png"
+      },
+      "shapeReview": "orders/ATEL-35/v0.5/independent-shape-review.json",
+      "placementProfile": "orders/ATEL-35/visual/placement-profile-v1.json",
+      "materialPreset": "orders/ATEL-35/material/pbr-preset-v1.json",
+      "successfulOrders": [
+        "ATEL-35/v1"
+      ],
+      "limitations": [
+        "Mesh trước/sau chồng UV; dùng flowerMaterialMeshes [1,2], creamOnlyMeshes [0,3] từ placement profile.",
+        "Được tái dùng nguyên geometry; đổi cổ/tay/dáng cần QA phom mới."
+      ]
+    },
+    {
+      "id": "exclude-makehuman-tshirt.glb",
+      "garmentType": "tshirt",
+      "status": "rejected",
+      "file": "quality/candidates/makehuman-tshirt.glb",
+      "reason": "Phom méo; đã loại trong BASE_AUDIT.md.",
+      "scope": "Áo thun tay ngắn cổ tròn; nguồn khác loại vẫn có thể dùng cho brief phù hợp sau kiểm ảnh."
+    },
+    {
+      "id": "exclude-t-shirt.glb",
+      "garmentType": "tshirt",
+      "status": "rejected",
+      "file": "quality/candidates/user-supplied/t-shirt.glb",
+      "reason": "Không phù hợp áo thun cổ tròn: v0.1 đọc thành polo.",
+      "scope": "Áo thun tay ngắn cổ tròn; nguồn khác loại vẫn có thể dùng cho brief phù hợp sau kiểm ảnh."
+    },
+    {
+      "id": "exclude-t-shirt (1).glb",
+      "garmentType": "tshirt",
+      "status": "rejected",
+      "file": "quality/candidates/user-supplied/t-shirt (1).glb",
+      "reason": "Không phù hợp mức hiển thị mong muốn: bo cổ/nếp gấp không rõ.",
+      "scope": "Áo thun tay ngắn cổ tròn; nguồn khác loại vẫn có thể dùng cho brief phù hợp sau kiểm ảnh."
+    },
+    {
+      "id": "exclude-t-shirt___lp.glb",
+      "garmentType": "tshirt",
+      "status": "rejected",
+      "file": "quality/candidates/user-supplied/t-shirt___lp.glb",
+      "reason": "Áo dài tay raglan có nẹp ba khuy, không phải áo thun tay ngắn cổ tròn.",
+      "scope": "Áo thun tay ngắn cổ tròn; nguồn khác loại vẫn có thể dùng cho brief phù hợp sau kiểm ảnh."
+    },
+    {
+      "id": "shirt-owner-supplied-v1",
+      "garmentType": "shirt",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/shirt.glb",
+      "sha256": "1de5a29649bd5520bc5163660c40e58799f514c8cbb36cbbcd18611cc3c497d3",
+      "features": {
+        "collar": "folded shirt collar",
+        "sleeves": "long",
+        "buttons": true,
+        "folds": true,
+        "volume": true
+      },
+      "images": {
+        "front": "quality/evidence/shirt-owner/browser/front.png",
+        "back": "quality/evidence/shirt-owner/browser/back.png",
+        "side": "quality/evidence/shirt-owner/browser/side.png",
+        "oblique": "quality/evidence/shirt-owner/browser/oblique.png",
+        "top": "quality/evidence/shirt-owner/browser/top.png",
+        "bottom": "quality/evidence/shirt-owner/browser/bottom.png"
+      },
+      "sourceNote": "orders/ATEL-53/OWNER_SHIRT_BASE.md",
+      "license": "CC-BY-4.0 (GLB embedded metadata)",
+      "sourceUrl": "https://sketchfab.com/3d-models/shirt-745d0d185b49405694ef4e16cf78e224",
+      "scope": "ATEL-53; QA shape review required before ready"
+    },
+    {
+      "id": "sweater-owner-supplied-v1",
+      "garmentType": "sweater",
+      "status": "candidate",
+      "file": "quality/candidates/user-supplied/sweater.glb",
+      "sha256": "9baf50b0d00f2188703b7f751b103cb9ad0071dcc0c6b2b057d4b06b780b867b",
+      "features": {
+        "neck": "crew",
+        "sleeves": "long",
+        "cuffs": true,
+        "hemBand": true,
+        "folds": true,
+        "volume": true
+      },
+      "images": {
+        "front": "quality/evidence/sweater-owner/browser/front.png",
+        "back": "quality/evidence/sweater-owner/browser/back.png",
+        "side": "quality/evidence/sweater-owner/browser/side.png",
+        "oblique": "quality/evidence/sweater-owner/browser/oblique.png",
+        "top": "quality/evidence/sweater-owner/browser/top.png",
+        "bottom": "quality/evidence/sweater-owner/browser/bottom.png"
+      },
+      "sourceNote": "quality/SWEATER_OWNER_BASE.md",
+      "license": "CC-BY-4.0 (GLB embedded metadata)",
+      "sourceUrl": "https://sketchfab.com/3d-models/sweater-03ec2c29e4dc497080b32951f3168754",
+      "limitations": [
+        "QA shape review required before ready",
+        "Remove existing source label and appearance from new design"
+      ]
+    }
+  ]
+}

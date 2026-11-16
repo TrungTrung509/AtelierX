@@ -1,0 +1,71 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v1",
+  "inputs": {
+    "artwork": {
+      "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+      "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99"
+    },
+    "garment": {
+      "path": "orders/ATEL-23/v1/designer/garment-v1.glb",
+      "sha256": "87d6d1f1fa98bae641df5578b634ca08a9453026586e314e2ba7d13e59a0c3bd"
+    },
+    "fit": {
+      "path": "orders/ATEL-23/v1/designer/fit.json",
+      "sha256": "acfb9a9b0b1f26b6dab7588b10eb3e54c4827ba27c9f1056098d9811505d5ba1",
+      "status": "designer-fit-handoff; independent QA pending; not approved"
+    },
+    "fitPreview": {
+      "path": "orders/ATEL-23/v1/fit-evidence/garment-on-mannequin-v1.glb",
+      "sha256": "977a6d60620b35ed63df1107c581037280b0ca1db7a8028d7d6b22ef6da4b2c4"
+    }
+  },
+  "inputStatus": {
+    "designerGeometry": "Frozen Designer geometry verified against fit.json; channel handoff 654c563f-698a-49b7-8f40-9b51492f92ec.",
+    "fitApproval": "independent QA pending; not approved",
+    "g1": "not approved until independent QA/Lead review"
+  },
+  "designerHandoff": {
+    "teamThreadRootMessageId": "dcd7029e-6652-4d5f-9056-ada1cd5de5a1",
+    "messageId": "654c563f-698a-49b7-8f40-9b51492f92ec"
+  },
+  "assets": {
+    "base-color.png": {
+      "sha256": "4fa18ae8037b03290b1e584d4c3d9705deb2820f5789c4cce04a1077af96ed10",
+      "bytes": 92775
+    },
+    "roughness.png": {
+      "sha256": "10f44823550c6b818c4e6111a890f43d6300cec40c53a6203173a7a8ae6d9509",
+      "bytes": 262311
+    },
+    "normal.png": {
+      "sha256": "c6dbe5aa2859192bd525d7a8dc5c89ebb480fb2b318b16c8635a565a29096ef1",
+      "bytes": 272293
+    },
+    "material.json": {
+      "sha256": "7fb7a7143bdaaa55eb693640910db1cc682a9a70b140c10b7617eba35eaa6a0d",
+      "bytes": 4149
+    },
+    "material-preview.png": {
+      "sha256": "952c8150b336612a28bd5f444a78fb0e7244a55ebb6b18fba7cd578912144a38",
+      "bytes": 163073
+    }
+  },
+  "mappingEvidence": {
+    "capture": {
+      "path": "orders/ATEL-23/v1/material/evidence/texture-mapped-fit-preview.png",
+      "sha256": "33393a4c18c9295e691f6c9d5559a5c847fada489a3f33b40e94b67af03ef2c2"
+    },
+    "report": {
+      "path": "orders/ATEL-23/v1/material/evidence/capture-report.json",
+      "sha256": "22446919fb5242940bd33033f398581e64443e8fdbceb4a2b257d09ef203876a"
+    },
+    "diagnosticGlb": {
+      "path": "orders/ATEL-23/v1/material/evidence/texture-mapped-fit-preview.glb",
+      "sha256": "f8fd800b09d2b67baa15d9ec5189feba474180c156692839377f978e4dde8b51"
+    },
+    "scope": "Local diagnostic application to Designer fit-preview copy; mapping visually inspected. Not final product QA/G1."
+  },
+  "generatedBy": "build-material-assets.mjs",
+  "note": "Material maps are tied to the frozen geometry and fit manifest SHA; independent QA and G1 approval remain pending."
+}

@@ -1,0 +1,142 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4.2",
+  "deliveryProfile": "showcase-basic-v1",
+  "decision": "return-after-correction",
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false,
+  "summary": "QA v4.2 độc lập: màu xanh trời, artwork Tuyến sáng, coverage tay ở front/back, content, measurements và browser viewer đạt. Side/oblique còn mảng trắng lộ tại junction vai/nách; xác nhận đó là mannequin lộ qua armhole dù maskCoveredBody bật. Kiểm tra detail từ camera front cho thấy khuy quá nhỏ/nhạt để đọc thành hàng khuy rõ trên nền họa tiết. Hai lỗi còn lại khiến v4.2 chưa đạt showcase-basic-v1.",
+  "brief": {
+    "requiredFeatures": [
+      "Sơ mi công sở dài tay cho Gen Z, màu tươi xanh trời nhạt.",
+      "Họa tiết vi tuyến đô thị Tuyến sáng nhìn thấy trên áo.",
+      "Áo phủ mannequin dễ nhìn; nếp vải và khuy phù hợp, khuy trước đọc được.",
+      "Content ngắn có chất liệu, kiểu dáng và số đo tham chiếu mẫu 3D có nguồn."
+    ]
+  },
+  "assets": {
+    "garment": "orders/ATEL-23/v4.2/designer/garment-v4_2.glb",
+    "garmentSha256": "20cfb0b239ed811100c80daa0dc03f62daaa3f1262682ed3faabef44a64ef84a",
+    "display": "showcase/products/ATEL-23/v4.2/assets/display.glb",
+    "displaySha256": "d134e30d20da78ec0bce4b08d7d6a8006b18ca14ed283123423c8bc84949f0ee",
+    "fitManifest": "orders/ATEL-23/v4.2/designer/fit.json",
+    "fitManifestSha256": "780c610659a24f405e34f3356c8b6e5e0744c6b16827a0fc7cacd71bb82f7e4d",
+    "assembly": "showcase/products/ATEL-23/v4.2/assembly.json",
+    "assemblySha256": "33973469798e0f9aa47809d8d089e7e8c5d2effcb8d3519a00445529377fdf81",
+    "measurements": "showcase/products/ATEL-23/v4.2/measurements.json",
+    "measurementsSha256": "6e10c9fef4219054df4741f71a0625974caa4271df80b03bf4ebd1371d0ab022",
+    "content": "showcase/products/ATEL-23/v4.2/content.json",
+    "contentSha256": "382644140fb638b790e365abcbe7840f594c9210411140383c6bb78b02562561",
+    "assetManifest": "showcase/products/ATEL-23/v4.2/asset-manifest.json",
+    "assetManifestSha256": "a1af9cf3bdc9a66bee567ab93abdf314999939f913d54de2d8c2ab20973f84cc",
+    "mannequin": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "sourceGeometry": "orders/ATEL-23/v2.5/designer/garment-v2.5.glb",
+    "sourceGeometrySha256": "951e128906de9a94f4e663f0ced528da13759cd5a3385b32d5f0cf2d7f832936",
+    "artwork": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+    "artworkSha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99",
+    "textureHashes": {
+      "baseColor": "4fa18ae8037b03290b1e584d4c3d9705deb2820f5789c4cce04a1077af96ed10",
+      "roughness": "10f44823550c6b818c4e6111a890f43d6300cec40c53a6203173a7a8ae6d9509",
+      "normal": "c6dbe5aa2859192bd525d7a8dc5c89ebb480fb2b318b16c8635a565a29096ef1"
+    }
+  },
+  "visual": {
+    "coverage": false,
+    "silhouette": true,
+    "folds": true,
+    "closures": false,
+    "contentMatches": true
+  },
+  "featureChecks": [
+    {
+      "feature": "Revision/hash của garment, display, fit, assembly, content và evidence",
+      "passed": true,
+      "observation": "Các SHA-256 trên đĩa khớp manifest/fit handoff v4.2. Đủ 5 capture front/back/side/oblique/mobile; hash của từng ảnh khớp manifest.",
+      "evidence": "showcase/products/ATEL-23/v4.2/asset-manifest.json"
+    },
+    {
+      "feature": "Áo phủ mannequin ở vai/nách và tay áo",
+      "passed": false,
+      "observation": "Ảnh side và oblique cho thấy mảng trắng có bề mặt mannequin lộ rõ tại junction vai/nách, nằm bên trong đường bao tay/armhole; đây không phải artwork hoặc màu áo. Vùng này vẫn lộ dù maskCoveredBody đã bật và xóa 2.614 triangles mannequin.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v4.2/side.png",
+        "quality/evidence/ATEL-23/v4.2/oblique.png",
+        "quality/evidence/ATEL-23/v4.2/back.png"
+      ]
+    },
+    {
+      "feature": "Màu xanh trời nhạt và họa tiết Tuyến sáng",
+      "passed": true,
+      "observation": "Nền xanh trời nhạt và artwork vi tuyến đô thị nhìn thấy rõ trên thân và tay; UV0 artwork/texture hash khớp fit manifest.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v4.2/front.png",
+        "quality/evidence/ATEL-23/v4.2/back.png"
+      ]
+    },
+    {
+      "feature": "Nếp vải phù hợp",
+      "passed": true,
+      "observation": "Nếp vải nhẹ hiện trên thân/tay và hợp với mô tả content v4.2.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v4.2/front.png",
+        "quality/evidence/ATEL-23/v4.2/oblique.png"
+      ]
+    },
+    {
+      "feature": "Khuy/nẹp đóng mở đọc rõ ở front và detail",
+      "passed": false,
+      "observation": "Button geometry có khai báo trong fit.json nhưng tại full front và ảnh camera-close-up chỉ hiện dấu nhỏ, nhạt trên nền microprint; không nhận ra rõ một hàng khuy đóng mở theo brief.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v4.2/front.png",
+        "quality/evidence/ATEL-23/v4.2/qa-button-detail.png"
+      ]
+    },
+    {
+      "feature": "Silhouette và content ngắn đúng revision",
+      "passed": true,
+      "observation": "Sơ mi dài tay cổ bẻ, phom suông; content v4.2 cùng revision, ghi Poplin mô phỏng với source, style, 4 thông số có nguồn và nêu rõ đây là số đo tham chiếu mẫu 3D, không phải size may/sản xuất.",
+      "evidence": "showcase/products/ATEL-23/v4.2/content.json"
+    },
+    {
+      "feature": "Viewer tải/xoay/zoom và mobile",
+      "passed": true,
+      "observation": "Viewer trả HTTP 200. Browser report ghi loaded/rotated/zoomed/desktop/mobile=true, errors rỗng.",
+      "evidence": "quality/evidence/ATEL-23/v4.2/browser-result.json"
+    }
+  ],
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-23/v4.2/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "browserResultSha256": "31420fc1537b9dd9f0753f97d6bffa6a2eca920c53727c975bbc1b3cd809d9d6"
+  },
+  "evidence": {
+    "front": { "path": "quality/evidence/ATEL-23/v4.2/front.png", "sha256": "755bf6c0330123845e30bfeb9aa9e0197d29a0cbf2f944e49fbdcc047617f46a" },
+    "back": { "path": "quality/evidence/ATEL-23/v4.2/back.png", "sha256": "055982fbb4a75fd76660dc9b64cc00fc68fce915fde4d149c6a555fa994e6184" },
+    "side": { "path": "quality/evidence/ATEL-23/v4.2/side.png", "sha256": "0345839ead5aa3d7b34f128007c9bb020b8032af0448658df2d476c9d34a931a" },
+    "oblique": { "path": "quality/evidence/ATEL-23/v4.2/oblique.png", "sha256": "831c9272c42254be458edd588efec17d6669157c4d780bda5c4b849b44ec0898" },
+    "mobile": { "path": "quality/evidence/ATEL-23/v4.2/mobile.png", "sha256": "4f42d6606d3f71fe1763bff20b72900a5fdd9e6d0c5314aee7cbf47e5998879a" },
+    "qaButtonDetail": { "path": "quality/evidence/ATEL-23/v4.2/qa-button-detail.png", "sha256": "79a1d0e1daff2aecc7c2ffe806c1b236e646e297d287d9b01feec28201605957" }
+  },
+  "blockers": [
+    {
+      "priority": "P0",
+      "issue": "Mảng mannequin trắng còn lộ tại junction vai/nách trong side/oblique dù maskCoveredBody bật; lỗi nhìn thấy rõ, không đáp ứng tiêu chí áo phủ mannequin dễ nhìn.",
+      "owner": "Studio Lead quyết định disposition; Visual Studio/Fashion Designer là chủ artifact display/garment",
+      "nextStep": "Correction stage v4.2 đã được dùng. Chuyển kết quả cho Lead quyết định disposition theo showcase-basic-v1; không tự tạo revision tiếp, không approve/publish."
+    },
+    {
+      "priority": "P1",
+      "issue": "Khuy/nẹp trước không đọc rõ ở front hoặc camera-close-up; các nút quá nhỏ/nhạt so với họa tiết nên không nhận ra hàng khuy.",
+      "owner": "Studio Lead quyết định disposition; Fashion Designer là chủ chi tiết garment",
+      "nextStep": "Đưa cho Lead cùng lỗi mannequin lộ; quyết định trong giới hạn correction hiện tại. Không tự mở thêm revision hoặc mark complete."
+    }
+  ],
+  "nextOwner": "Studio Lead",
+  "nextStep": "QA trả lại v4.2 do mannequin lộ ở vai/nách và khuy không đọc rõ. Correction stage v4.2 đã dùng; Lead quyết định disposition, giữ catalog và sản phẩm chưa complete."
+}

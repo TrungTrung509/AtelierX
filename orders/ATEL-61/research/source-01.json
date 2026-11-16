@@ -1,0 +1,28 @@
+{
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-61",
+  "round": 4,
+  "candidateId": "github-dnewcome-custom-shirts",
+  "sourcePage": "https://github.com/dnewcome/custom-shirts",
+  "evidence": {
+    "metadata": "orders/ATEL-61/research/source-01/github-metadata.json",
+    "readme": "orders/ATEL-61/research/source-01/README.md"
+  },
+  "provenance": {
+    "owner": "dnewcome",
+    "repository": "public GitHub repository",
+    "license": null,
+    "licenseCheck": "GitHub API license=null; raw LICENSE returns HTTP 404"
+  },
+  "availability": {
+    "publishedGlb": false,
+    "glbInRepository": false,
+    "sourceContains": "FreeSewing pattern generator and Newton/Style3D drape code; no published GLB asset.",
+    "technicalNotes": "Drape requires NVIDIA GPU/CUDA 12. README states procedural collar is off by default and reads as stiff cardboard when enabled."
+  },
+  "visualInspection": {
+    "frontBackSideOblique": "No downloadable GLB or source render files present in repository listing; no actual model captures or source GLB hash can be produced.",
+    "decision": "excluded",
+    "reason": "No explicit license and no prebuilt GLB; documented collar caveat."
+  }
+}

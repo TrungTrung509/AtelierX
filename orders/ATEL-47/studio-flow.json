@@ -1,0 +1,160 @@
+{
+  "version": 9,
+  "orderId": "ATEL-47",
+  "name": "Áo sơ mi xanh sọc trắng",
+  "requestId": "7580966e-280f-471f-b141-1d9f2924b260",
+  "createdAt": "2026-11-15T14:57:33.540Z",
+  "phase": "visual",
+  "shapeDeadlineAt": "2026-11-15T15:12:33.540Z",
+  "maxCandidateAttempts": 2,
+  "candidateAttempts": [],
+  "events": [
+    {
+      "id": "shape:v1:7c0aef21fea071b4cdfd12de3461626319585705aacd6791976073680207b92a",
+      "stage": "shape",
+      "revision": "v1",
+      "file": "orders/ATEL-47/v1/shape.json",
+      "createdAt": "2026-11-15T15:30:17.430Z"
+    },
+    {
+      "id": "shape-review:v1:5fcd65c45a9896c7a5e692ed66275122bade5673cdeb49480ffffee242fbcf98",
+      "stage": "shape-review",
+      "revision": "v1",
+      "file": "orders/ATEL-47/v1/shape-review-handoff.json",
+      "createdAt": "2026-11-15T15:33:31.699Z"
+    },
+    {
+      "id": "shape:v2:b8dea7e5ff2ebf61767b885c5fc9b05db15c07d77fc90e3a100aed8b2601062e",
+      "stage": "shape",
+      "revision": "v2",
+      "file": "orders/ATEL-47/v2/shape.json",
+      "createdAt": "2026-11-15T15:49:09.561Z"
+    },
+    {
+      "id": "shape-review:v2:5f7efaeea1057f393a29becbd32ee4d50cfb440fbd066d33040eae2af658295c",
+      "stage": "shape-review",
+      "revision": "v2",
+      "file": "orders/ATEL-47/v2/shape-review-handoff.json",
+      "createdAt": "2026-11-15T15:52:02.738Z"
+    },
+    {
+      "id": "shape:v3:d23ed2753559ab2c66c059dd107b974d9d98a950fcd236eaa9591b5195d8b783",
+      "stage": "shape",
+      "revision": "v3",
+      "file": "orders/ATEL-47/v3/shape.json",
+      "createdAt": "2026-11-15T16:03:03.706Z"
+    },
+    {
+      "id": "shape-review:v3:7284c4441b7a726e8b055b6da31eedd401fe086daad558bfe178ac09c07ffa29",
+      "stage": "shape-review",
+      "revision": "v3",
+      "file": "orders/ATEL-47/v3/shape-review-handoff.json",
+      "createdAt": "2026-11-15T16:06:45.483Z"
+    },
+    {
+      "id": "shape:v4:95d0d789d2e303992c255f3d251497030a35441fd621d5cc275b28d21598b3f0",
+      "stage": "shape",
+      "revision": "v4",
+      "file": "orders/ATEL-47/v4/shape.json",
+      "createdAt": "2026-11-15T16:27:36.846Z"
+    },
+    {
+      "id": "shape-review:v4:505095d3ac6bca59b84448d57ee39f1c8c80c22f4628fe6b534f1815672f37bf",
+      "stage": "shape-review",
+      "revision": "v4",
+      "file": "orders/ATEL-47/v4/shape-review-handoff.json",
+      "createdAt": "2026-11-15T16:30:25.191Z"
+    },
+    {
+      "id": "content:v4:05159311941a768a6f2ad93631806602260c0f6c884c580f4500610ea0e673ce",
+      "stage": "content",
+      "revision": "v4",
+      "file": "orders/ATEL-47/v4/research/content-manifest-v4.json",
+      "createdAt": "2026-11-15T16:35:25.159Z"
+    },
+    {
+      "id": "surface:v4:e8279252af08bd5b40b6bd90aa900045ecfe8131154525d6377408ac0d24d913",
+      "stage": "surface",
+      "revision": "v4",
+      "file": "orders/ATEL-47/v4/material/surface-manifest-v4.json",
+      "createdAt": "2026-11-15T16:36:17.610Z"
+    },
+    {
+      "id": "surface:v4:52f85b3c3d4637725118b991b0c2616b5bd268891d0596d32a96675fa5828cbc",
+      "stage": "surface",
+      "revision": "v4",
+      "file": "orders/ATEL-47/v4/surface-handoff.json",
+      "createdAt": "2026-11-15T16:38:29.805Z"
+    },
+    {
+      "id": "visual:v4:7eeaa06743f8b538a3964550a9766bc6698460a8cd86aaa2143e64aababf224a",
+      "stage": "visual",
+      "revision": "v4",
+      "file": "orders/ATEL-47/v4/visual/visual-manifest-v4.json",
+      "createdAt": "2026-11-15T16:43:15.376Z"
+    },
+    {
+      "id": "qa-final:v4:679b5e400fccc2f92067d2741e790bce2d990dcda46c5dbbf106a29439ef1f0f",
+      "stage": "qa-final",
+      "revision": "v4",
+      "file": "orders/ATEL-47/v4/qa-final-handoff.json",
+      "createdAt": "2026-11-15T16:48:56.899Z"
+    },
+    {
+      "id": "qa-final:v4:3b1d4079ed05ebde9c081695e2397e3a64a6f9e695754f2eecd738a7350b9b38",
+      "stage": "qa-final",
+      "revision": "v4",
+      "file": "orders/ATEL-47/v4/qa-final-handoff.json",
+      "createdAt": "2026-11-15T16:52:27.875Z"
+    }
+  ],
+  "tasks": {
+    "research": {
+      "person": "An",
+      "target": "atelierx-tpm-0002",
+      "title": "ATEL-47 · Nghiên cứu phom, họa tiết và nội dung · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-48",
+      "workItemId": "aceab7cc-1f00-41a0-81b8-922a0d359a81"
+    },
+    "designer": {
+      "person": "Vy",
+      "target": "atelierx-designer-0003",
+      "title": "ATEL-47 · Thiết kế phom áo · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-49",
+      "workItemId": "6c47554f-bb30-418e-9d75-600169cf9686"
+    },
+    "material": {
+      "person": "Linh",
+      "target": "atelierx-backend-developer-0005",
+      "title": "ATEL-47 · Hoàn thiện màu và chất liệu · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-50",
+      "workItemId": "3477c75a-34f0-4222-a395-4853a895aac8"
+    },
+    "visual": {
+      "person": "Nhi",
+      "target": "atelierx-frontend-developer-0006",
+      "title": "ATEL-47 · Dựng sản phẩm trong Sàn trưng bày · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-51",
+      "workItemId": "af7e84bb-32a9-480d-9d9a-56b3c5eb08da"
+    },
+    "qa": {
+      "person": "Khoa",
+      "target": "atelierx-qa-0004",
+      "title": "ATEL-47 · Kiểm tra phom và sản phẩm · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-52",
+      "workItemId": "3525b4c5-f05c-4945-85af-c9fc32b6f6a6"
+    },
+    "lead": {
+      "person": "Minh",
+      "target": "atelierx-team-leader-0001",
+      "title": "ATEL-47 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-47",
+      "workItemId": "56def604-c31a-488c-8b30-399648f98d02"
+    }
+  },
+  "replan": {
+    "reason": "QA v3 xác nhận SHAPE-01/02 vẫn fail sau focused correction cuối; dừng hẳn topology hiện tại, không vá tiếp v3. Replan: Designer dựng lại standalone shirt bằng topology mới với armhole/shoulder seam liên tục giữa thân và tay, collar stand/leaves cùng neckline được nối hình học rõ ràng; giữ folds v2/v3 đã pass, không mesh nguồn, không candidate mới. ETA mục tiêu 16:40 UTC cho gray GLB, manifest, provenance/UV, captures bốn góc; QA độc lập retest cùng WorkItem. Material chờ shape pass; nếu geometry mới fail thì dừng và báo owner.",
+    "at": "2026-11-15T16:08:19.211Z"
+  },
+  "shapeApproved": true
+}

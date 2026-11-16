@@ -1,0 +1,51 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v1",
+  "garment": {
+    "path": "orders/ATEL-47/v1/designer/garment-gray-v1.glb",
+    "sha256": "e44f8c74a3c6d555e9cad8827ccd4ab4ed91dc75bb404045992683ce0867d1eb"
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v1/designer/garment-gray-v1.glb",
+      "sha256": "e44f8c74a3c6d555e9cad8827ccd4ab4ed91dc75bb404045992683ce0867d1eb"
+    },
+    {
+      "path": "orders/ATEL-47/v1/designer/provenance-v1.json",
+      "sha256": "935250fcb050450c7d74398597fa7d194a21a5c830a7fdc8d02353601f2ffe02"
+    },
+    {
+      "path": "orders/ATEL-47/v1/designer/placement-v1.md",
+      "sha256": "6b5c9a16e7e9cbcdd94eb66c74ad4c297580ba66453f1e1c7c4dabd17ac1069e"
+    },
+    {
+      "path": "orders/ATEL-47/v1/designer/build-standalone-shirt.mjs",
+      "sha256": "6b666d80cbc26e3259f45eeb2754df258251c9b1e65bd485c752d27e2059b996"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v1-shape/front.png",
+      "sha256": "f774359e0fef3e3928a78c92e073d61bdd25704ec4231adf083fe25c008bd8cf"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v1-shape/back.png",
+      "sha256": "d8544685ca458d136525bd9da83c72d54bcdbcb8082b7b2318e12c3631d16a30"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v1-shape/side.png",
+      "sha256": "c40f97eabca1d5c4529246b19f46a20806dba1b56ee04ee9526277e0e8657478"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v1-shape/oblique.png",
+      "sha256": "fbb2d8838fac5ba757089e98d05ab14b5bdc3464e80c4baed401a0e748147a30"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v1-shape/browser-result.json",
+      "sha256": "6e6e403ab86d123a427cdc61380ef9bd098656546c0b456ac72843e1566fc9e1"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-47/v1-shape/index.html",
+      "sha256": "706e55cd05d3c7eecb14d871ce2a6906226ff5de21e711d99a73d43fd2a3d8c1"
+    }
+  ],
+  "shapeState": "awaiting independent QA; no baseId because the geometry is authored standalone"
+}

@@ -1,0 +1,21 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.1-gray",
+  "decision": "return",
+  "correctionOwner": "designer",
+  "nextAction": "Add cuff-button geometry on the cuff surface, preserve hollow cuff openings, then hand off a new gray snapshot with hash and six-angle/three-detail evidence for QA retest on the same WorkItem.",
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-53/owner-shirt-v1.1-gray.json",
+      "sha256": "2ed38c0b96342dd26cb9bac318c9cd4f945016465c6b8aa3aece419c1bbdeef8"
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.1-gray/shape-manifest-v1.1-gray.json",
+      "sha256": "4b3802758680ac3b9a31a5447122cb4b65375f50cd95a601c7e788a9c539d25f"
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.1-gray/shirt-gray-v1.1.glb",
+      "sha256": "dba1bcc1ae6ff2f1a02bbc557eb17bdfc210b2184c39a67f7d665dec2268be13"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v1",
+  "materialName": "Sweater len dệt đỏ rượu vang · mô phỏng hiển thị",
+  "shader": "glTF 2.0 metallicRoughness",
+  "sourceGeometry": {
+    "path": "orders/ATEL-63/v1/designer/sweater-gray-v1.glb",
+    "sha256": "9c7d8b646bcbb72c2a9c10893dd2169b9a0eeee462ee5559ed07e769caca5e0a"
+  },
+  "appearance": {
+    "simulatedMaterial": "Mô phỏng bề mặt len dệt matte; màu và độ nhám phục vụ hiển thị, không xác nhận thành phần sợi, cảm giác tay hoặc đặc tính sản xuất.",
+    "baseColorHexSRGB": "#6F1C31",
+    "baseColorFactorLinear": [0.156, 0.0123, 0.0319, 1.0],
+    "roughnessFactor": 0.9,
+    "metallicFactor": 0.0,
+    "alphaMode": "OPAQUE"
+  },
+  "trim": {
+    "colorHexSRGB": "#F4EBDD",
+    "regions": ["viền cổ", "bo cổ tay", "bo gấu"],
+    "application": "Tô trên UV atlas hiện hữu theo mặt tam giác được phân loại trong không gian world; không tạo mesh/material group mới."
+  },
+  "textureMaps": {
+    "baseColor": "orders/ATEL-63/v1/material/basecolor.png",
+    "roughness": null,
+    "normal": null
+  },
+  "artwork": {
+    "source": "orders/ATEL-63/research/christmas-tree-snowflakes.svg",
+    "placementSource": "orders/ATEL-63/research/artwork-placement.json",
+    "application": "Ngực trước, cây thông đứng thẳng và bông tuyết màu sáng; bản đồ chỉ vẽ trong safe zone UV ngực trước."
+  },
+  "sourceNote": "Màu, độ nhám, bề mặt len dệt và bo màu là mô phỏng trực quan theo brief. Không tuyên bố sợi len thật hay chứng nhận thông số vật liệu."
+}

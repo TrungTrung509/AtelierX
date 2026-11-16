@@ -1,0 +1,189 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.1",
+  "sourceRevision": "designer-parametric-shirt-v2.1-implicit-junction",
+  "supersedes": "ATEL-23/v2 report remains TRẢ LẠI; report quality/reports/ATEL-23/v2.json",
+  "gate": "G1",
+  "decision": "return",
+  "garmentType": "áo sơ mi dài tay — geometry preview",
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false,
+  "summary": "TRẢ LẠI — QA fit chưa thể xác nhận không clipping ở ATEL-23/v2.1. Hash garment, combined preview, mannequin-v1, fit.json và capture hashes khớp frozen handoff. V2.1 đã khắc phục rõ khe hở upper-back/neck và posterior armholes: rear-wide/oblique không còn mảng mannequin lộ qua lưng/vai; side-oblique cho thấy bàn tay nằm đúng trục T-pose và đi qua cuff hở. Tuy nhiên triangle intersection screen còn 931 cặp giao/cắt tiếp xúc toàn cục: 494 quanh neck/collar, 68 quanh sleeve/wrist, 360 vùng front torso/hip/hem, 0 trong posterior armhole band đã khoanh. Ảnh không cho thấy clipping rõ ở thân/cổ tay, nhưng phép sàng lọc không đo độ xuyên và không loại coplanar contacts; không thể kết luận clearance/no-clipping đạt. Trả Designer xác minh và xử lý/biện minh các vùng tiếp xúc trước G1. Artwork/PBR và viewer chính thức chưa tích hợp; final product QA pending.",
+  "assets": {
+    "garment": "orders/ATEL-23/v2.1/designer/garment-v2.1.glb",
+    "garmentSha256": "d910a20b53d022754137060f2f5b0302dddbecdad685577fe0116bdc08975fda",
+    "combinedPreview": "orders/ATEL-23/v2.1/fit-evidence/garment-on-mannequin-v2.1.glb",
+    "combinedPreviewSha256": "408e3c17167bf1b635195f7ffff77c035170088b16bb3deb6411e94264b49ede",
+    "mannequin": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinId": "atelierx-mannequin-180cm-v1",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "fitManifest": "orders/ATEL-23/v2.1/designer/fit.json",
+    "fitManifestSha256": "8a1997350a3a366edd68f478a3dc0e358cb093325b8202d48147b2ddeba22286",
+    "candidateReview": "orders/ATEL-23/v2.1/designer/candidate-review.json",
+    "candidateReviewSha256": "ab947fcc4ef6fbe006a4da96092c36bab40fa89af625c587db1e2e86c0bdecbf",
+    "baseMeshId": "designer-parametric-shirt-v2.1-implicit-junction",
+    "baseMeshApproval": "ID custom v2.1 chưa có entry approved trong quality/base-meshes.json; Lead quyết định G1.",
+    "triangleIntersectionResult": "quality/evidence/ATEL-23/v2.1/triangle-intersection-result.json",
+    "triangleIntersectionResultSha256": "917f82c66545e9852089c64976e014c81cb639fe9307f2d57f2f3741a62efdaa",
+    "triangleIntersectionScript": "quality/evidence/ATEL-23/v2.1/triangle-intersection-screen.mjs",
+    "triangleIntersectionScriptSha256": "4113e175b09c13ed1b195807c986b7bd88a2f542560af7c8d581a98797009d18",
+    "designerHandoffMessageId": "1dbbe5e7-893f-43c0-9ca6-e71030ae1f11"
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit-v2_1/index.html",
+    "loaded": true,
+    "rotated": false,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "scope": "Fit preview; không phải viewer sản phẩm cuối."
+  },
+  "evidence": {
+    "capture_front": "quality/evidence/ATEL-23/v2.1/browser-fit/front.png",
+    "capture_back": "quality/evidence/ATEL-23/v2.1/browser-fit/back.png",
+    "capture_left": "quality/evidence/ATEL-23/v2.1/browser-fit/left.png",
+    "capture_right": "quality/evidence/ATEL-23/v2.1/browser-fit/right.png",
+    "capture_detail": "quality/evidence/ATEL-23/v2.1/browser-fit/detail.png",
+    "capture_mobile": "quality/evidence/ATEL-23/v2.1/browser-fit/mobile.png",
+    "capture_armhole-oblique-positiveX": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-oblique-positiveX.png",
+    "capture_armhole-oblique-negativeX": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-oblique-negativeX.png",
+    "capture_armhole-rear-wide": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-rear-wide.png",
+    "capture_armhole-side-oblique-wide": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-side-oblique-wide.png",
+    "capture_browser-result": "quality/evidence/ATEL-23/v2.1/browser-fit/browser-result.json",
+    "capture_armhole-oblique-result": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-oblique-result.json"
+  },
+  "evidenceSha256": {
+    "capture_front": "7fd70e85ff98001851591a0e1a35dd319be19ef480d06b6461c6d3d3bd37f9b6",
+    "capture_back": "0a8fd503a27bcbe68274a95473dc4cdd99683443bf5f90c89e6e9a393a5c6514",
+    "capture_left": "2625a14d0fd3f3c21bd66146691c30343d81b1aff149630d74d56cfd44897fd4",
+    "capture_right": "c222186292b82f1d96f1f4163525419fd52bd6e1706e705a0e9a450f40da3ba0",
+    "capture_detail": "a5e27cc9bf530df87589577f0679fb6d12e5b3f6bd9a3a03a267900a1ed211c2",
+    "capture_mobile": "46a9f03394af3383ad1f2051a048bdb958d415c55475733a0e5680322c9c19e1",
+    "capture_armhole-oblique-positiveX": "62dd161aff65dcb86f00e8359330416fe5f6a55d61320cdbde2c2115ed901568",
+    "capture_armhole-oblique-negativeX": "3bb6ac7cc2329db2da891213b449dd17982039d0e58dbdcf3ffa53877c473e42",
+    "capture_armhole-rear-wide": "a2dc974fbb586a1babbbc35c59ce18ec6b73638fe7820f5063c895c3999bbe36",
+    "capture_armhole-side-oblique-wide": "62930e2b52094fa1eb2013ac7d48b1ff2a1a4e1e80af630c8031f51833821712",
+    "capture_browser-result": "6b9b2a981aa3a1d0e6be5656a2a5c4715262304ef9091ec71f2b520807facc69",
+    "capture_armhole-oblique-result": "246afac0af86ffd83a453c5a6d871100ba2ac95dbcfd6df3000c00c7d2c3554b"
+  },
+  "featureChecks": [
+    {
+      "feature": "Đúng garment v2.1 và mannequin-v1 theo handoff",
+      "passed": true,
+      "observation": "Garment d910a20b53d022754137060f2f5b0302dddbecdad685577fe0116bdc08975fda; combined 408e3c17167bf1b635195f7ffff77c035170088b16bb3deb6411e94264b49ede; mannequin da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9; tất cả khớp fit.json và filesystem.",
+      "evidence": "orders/ATEL-23/v2.1/designer/fit.json"
+    },
+    {
+      "feature": "Upper-back/neck coverage và hai posterior armhole không lộ mannequin",
+      "passed": true,
+      "observation": "Rear-wide và oblique ±X cho thấy panel lưng trên liền, không còn khe hở v2; không thấy mảng mannequin lộ qua hai posterior armhole.",
+      "evidence": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-rear-wide.png"
+    },
+    {
+      "feature": "Clearance cổ/collar, thân-hông-gấu và cuff; không giao cắt/clipping",
+      "passed": false,
+      "observation": "Triangle screen tìm 931 cặp crossing/contact; 494 neck/collar, 68 sleeve/wrist, 360 front torso/hip/hem. Hình không cho thấy clipping rõ tại các vùng này; do screen không đo penetration depth/coplanar contacts, QA không thể xác nhận no-clipping. Cần Designer kiểm clearance/đánh giá từng boundary và bàn giao kết quả.",
+      "evidence": "quality/evidence/ATEL-23/v2.1/triangle-intersection-result.json"
+    },
+    {
+      "feature": "Shoulder silhouette và điểm sáng ở cổ tay",
+      "passed": true,
+      "observation": "Không thấy flap vai mới; side-oblique-wide cho thấy điểm sáng là bàn tay trên trục T-pose đi qua cuff hở, không phải exposure tại shoulder. Triangle contacts cuff vẫn cần clearance resolution.",
+      "evidence": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-side-oblique-wide.png"
+    },
+    {
+      "feature": "Artwork/màu/PBR được áp đúng placement trên áo",
+      "passed": false,
+      "observation": "GLB này là geometry preview; artwork và production PBR chưa tích hợp, không thể đánh giá garment-scale contrast/placement.",
+      "evidence": "orders/ATEL-23/v2.1/designer/fit.json"
+    },
+    {
+      "feature": "Viewer product tải/xoay/zoom desktop/mobile và copy tiếng Việt bên mannequin",
+      "passed": false,
+      "observation": "Fit preview loaded/zoomed, desktop/mobile true, errors rỗng, rotated=false. Showcase còn scaffold; chưa có viewer product tích hợp v2.1, nên nội dung và tương tác sản phẩm cuối pending.",
+      "evidence": "quality/evidence/ATEL-23/v2.1/browser-fit/browser-result.json"
+    }
+  ],
+  "scores": {
+    "silhouette": 3,
+    "construction": 2,
+    "artwork": 0,
+    "placement": 0,
+    "material": 0,
+    "web": 1
+  },
+  "checks": [
+    {
+      "criterion": "Hash/revision và evidence mapping",
+      "score": 5,
+      "passed": true,
+      "observation": "Garment, combined preview, mannequin và fit.json hash khớp; 10 captures được manifest tham chiếu và hash khớp.",
+      "evidence": [
+        "orders/ATEL-23/v2.1/designer/fit.json",
+        "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-oblique-result.json"
+      ]
+    },
+    {
+      "criterion": "Khe upper-back/neck và posterior armhole",
+      "score": 4,
+      "passed": true,
+      "observation": "Ảnh rear-wide/oblique xác nhận v2 opening đã được khép, không lộ mannequin qua hai armhole. Đây là kiểm fit candidate, không phải G1 approval của Lead.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-oblique-positiveX.png",
+        "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-oblique-negativeX.png",
+        "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-rear-wide.png"
+      ]
+    },
+    {
+      "criterion": "Triangle-level intersection/clearance",
+      "score": 2,
+      "passed": false,
+      "observation": "AABB-BVH + segment/triangle screen: 16,345 candidate pairs, 931 crossing/contact pairs toàn cục; 0 posterior-armhole band, 494 neck/collar, 68 wrist/cuff, 360 torso/hip/hem; 9 ngoài các band đã phân loại. Count không duy nhất theo defect và không đo độ xuyên; unresolved contact evidence chặn no-clipping verdict.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v2.1/triangle-intersection-screen.mjs",
+        "quality/evidence/ATEL-23/v2.1/triangle-intersection-result.json"
+      ]
+    },
+    {
+      "criterion": "Cuff và silhouette vai",
+      "score": 3,
+      "passed": false,
+      "observation": "Không thấy flap vai; tay mannequin hiện đúng trục và đi qua cuff hở ở side-oblique-wide. Tuy nhiên 68 pair contact tại wrist/cuff cần được đánh giá clearance trước khi pass fit.",
+      "evidence": [
+        "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-side-oblique-wide.png",
+        "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-side-wide.png"
+      ]
+    },
+    {
+      "criterion": "Artwork/material và viewer product cuối",
+      "score": 1,
+      "passed": false,
+      "observation": "Chưa áp artwork/PBR lên mesh; catalog asset-manifest display vẫn null và viewer chính thức chưa tích hợp v2.1. Browser fit-preview rotated=false. Final product QA pending.",
+      "evidence": [
+        "orders/ATEL-23/v2.1/designer/fit.json",
+        "showcase/products/ATEL-23/v1/asset-manifest.json",
+        "showcase/products/ATEL-23/v1/index.html"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "issue": "931 triangle crossing/contact pairs chưa được phân loại depth/severity; tập trung neck/collar, wrist/cuff và front torso/hip/hem.",
+      "owner": "Fashion Designer",
+      "nextStep": "Đánh giá/ease hoặc xác nhận có kiểm soát các contact tại neck/collar, cuff, hip/hem; cung cấp collision/clearance evidence hoặc corrective revision SHA mới. QA retest các vùng."
+    },
+    {
+      "issue": "Base ID designer-parametric-shirt-v2.1-implicit-junction chưa có entry approved trong quality/base-meshes.json.",
+      "owner": "Studio Lead + Designer",
+      "nextStep": "Lead quyết định G1/base approval theo quy trình; QA không cập nhật registry."
+    },
+    {
+      "issue": "Artwork/PBR và viewer product chính thức chưa tích hợp; chưa thể final QA.",
+      "owner": "Material + Visual sau G1",
+      "nextStep": "Sau khi G1 đạt, tích hợp artwork/material/viewer theo đúng geometry SHA và giao QA final product review."
+    }
+  ],
+  "nextOwner": "Studio Lead",
+  "nextStep": "Lead quyết định G1; khuyến nghị chưa pass fit cho tới khi Designer giải quyết triangle contact/clearance còn lại. ATEL-25 final product QA tiếp tục đến sau G1 và official viewer integration."
+}

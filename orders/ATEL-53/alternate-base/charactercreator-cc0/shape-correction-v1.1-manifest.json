@@ -1,0 +1,204 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "alternate-cc0-shirt-v1.1-gray",
+  "stage": "shape",
+  "status": "candidate pending Lead review; not shape-approved",
+  "garment": {
+    "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/gray-shirt-correction-v1.1.glb",
+    "sha256": "d2b5c13c29d605f1bb6eec6b9ac8c6fb1d3c8e30758f51fa6062a4d5fef59158"
+  },
+  "provenance": {
+    "sourceId": "CharacterCreator clothing_shirt.glb",
+    "sourceCommit": "852e48f316b90a0937234886630e4fb4cdfd1f78",
+    "sourceLicense": "CC0-1.0 per local LICENSE-NOTES.md + clothing.json",
+    "sourcePath": "orders/ATEL-53/alternate-base/charactercreator-cc0/source-shirt.glb",
+    "sourceSha256": "c3467876f712e63a901fa664b1d54eb0127c56d20888dbbb0a606973fd26e9cc",
+    "baseGrayPath": "orders/ATEL-53/alternate-base/charactercreator-cc0/gray-shirt-candidate.glb",
+    "baseGraySha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b",
+    "geometryOrigin": "Static bind/rest-pose bake from the unchanged CC0 Cloth_shirt mesh; no body/mannequin or rejected geometry. New neutral-gray collar/placket/cuff/button construction geometry added; source and base candidate remain unchanged.",
+    "geometryChanged": true,
+    "reusedGeometry": false,
+    "rejectedGeometryUsed": false,
+    "mannequin": false,
+    "staticPose": "Source has one 53-joint skin and no animation clips. Static export bakes the current bind/rest pose, then applies a 10-degree local sleeve relaxation and minor shape edits."
+  },
+  "construction": {
+    "silhouette": "Reduced hem flare and chest projection; added localized asymmetric shell relief; natural drape still needs Lead review.",
+    "collar": "Added low collar stand geometry following the neckline boundary, plus two curved, broad collar leaf panels over upper chest.",
+    "placket": "Raised center-front panel geometry with five gray trial buttons placed on its front surface.",
+    "cuffs": "Two hollow cuff-band panels follow sleeve terminal boundary; one gray trial button on each cuff. Openings are uncapped."
+  },
+  "uv": {
+    "origin": "glTF upper-left",
+    "body": "Retained original shirt UVs.",
+    "details": "New construction panels use local 0–1 pattern UVs."
+  },
+  "anchors": {
+    "neckline": "Collar stand is sampled from the source neck boundary loop; two leaves sit over front shell.",
+    "placket": "Raised panel is sampled from source front shell; gray trial buttons follow local surface height.",
+    "cuffs": "Open cuff bands follow terminal sleeve boundary arcs; trial buttons sit on exposed cuff surface.",
+    "openings": "Neck, hem and cuff are uncapped and remain open."
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/alt-cc0-shirt-v1.1/index.html",
+    "garmentPath": "showcase/quality-preview/ATEL-53/alt-cc0-shirt-v1.1/garment.glb",
+    "garmentSha256": "d2b5c13c29d605f1bb6eec6b9ac8c6fb1d3c8e30758f51fa6062a4d5fef59158"
+  },
+  "evidence": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/alt-cc0-shirt-v1.1/index.html",
+    "views": {
+      "front": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/front.png",
+      "back": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/back.png",
+      "side": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/side.png",
+      "oblique": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/oblique.png",
+      "top": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/top.png",
+      "bottom": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/bottom.png"
+    },
+    "closeups": {
+      "collar": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-details-correction-v1.1/collarCloseup.png",
+      "placketSide": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-details-correction-v1.1/placketSideCloseup.png",
+      "cuff": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-details-correction-v1.1/cuffCloseup.png"
+    },
+    "browserResult": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/browser-result.json",
+    "detailBrowserResult": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-details-correction-v1.1/detail-browser-result.json",
+    "capturedFromSnapshotSha256": "d2b5c13c29d605f1bb6eec6b9ac8c6fb1d3c8e30758f51fa6062a4d5fef59158"
+  },
+  "correction": {
+    "fromRevision": "alternate-cc0-shirt-v0",
+    "qaReport": "quality/reports/ATEL-53/alternate-cc0-shirt-v0.json",
+    "qaDecision": "return",
+    "findingsAddressed": [
+      "SHAPE-01: relaxed sleeves, narrowed hem flare, reduced chest projection, localized folds added.",
+      "SHAPE-02: collar stand and two collar leaves added as geometry.",
+      "SHAPE-03: raised placket, open cuff bands and gray trial buttons added as geometry."
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/source-shirt.glb",
+      "sha256": "c3467876f712e63a901fa664b1d54eb0127c56d20888dbbb0a606973fd26e9cc",
+      "bytes": 605956
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/gray-shirt-candidate.glb",
+      "sha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b",
+      "bytes": 605860
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/clothing.json",
+      "sha256": "768877fa15b04fa8598c4617e7f12bd825d08895a86bbb8aeaeaa5372e74be34",
+      "bytes": 13514
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/LICENSE-NOTES.md",
+      "sha256": "18af8d071bcb1cab2260263991ad49c314dc616facf7f33b0ab19bee78d4ec13",
+      "bytes": 18771
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/README.md",
+      "sha256": "6e1aa0c6ddba2b86e20e2163613fcda490cc61fc14e6282d0c0601a2930af512",
+      "bytes": 1341
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/neutralize-to-gray.mjs",
+      "sha256": "64c32c91e067b4d2a8e57e7736724c86670f5fc26d11c1d9f0b09a16d04d8c19",
+      "bytes": 1469
+    },
+    {
+      "path": "quality/reports/ATEL-53/alternate-cc0-shirt-v0.json",
+      "sha256": "00946a06c692b1c2345110840af9679b503a65ed1a46b9b70716b2e1d492d47a",
+      "bytes": 12575
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/shape-review-handoff.json",
+      "sha256": "b0317f9059026a16b3531861707d328d853e777213f2391510a7af576670051e",
+      "bytes": 6105
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/build-gray-correction-v1.1.mjs",
+      "sha256": "567f97fdd11b1aab8fe3997a574f086d632932f4985c40a7e4edc887df4b71ed",
+      "bytes": 16222
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/gray-shirt-correction-v1.1.glb",
+      "sha256": "d2b5c13c29d605f1bb6eec6b9ac8c6fb1d3c8e30758f51fa6062a4d5fef59158",
+      "bytes": 160596
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/capture-shirt-details.mjs",
+      "sha256": "1db65e664f1cdb86864d491c8350cfc63a0de5e37adb5d12501c211fd308df18",
+      "bytes": 1845
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/alt-cc0-shirt-v1.1/garment.glb",
+      "sha256": "d2b5c13c29d605f1bb6eec6b9ac8c6fb1d3c8e30758f51fa6062a4d5fef59158",
+      "bytes": 160596
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/alt-cc0-shirt-v1.1/index.html",
+      "sha256": "6682ba4633fa4a841eedad03d97b2fabbe70b527fdf25663b9eddb61a64239b6",
+      "bytes": 1001
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/front.png",
+      "sha256": "20b75243b7a7c2f1a04c3b33b7eb0e0119f507aab508554d1b466585b9080bd2",
+      "bytes": 451680
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/back.png",
+      "sha256": "ccc60a6ff812c9d1710d1a1fd50278be40bc0e2c9c8c8e7fb51cee73f649dd7f",
+      "bytes": 434893
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/side.png",
+      "sha256": "9024bb1d9e82440f08d79d26816c71c77a87256d976731771e4606361d347643",
+      "bytes": 435271
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/oblique.png",
+      "sha256": "cfa5a8f30d9cd6887b563a1d53a71b3ed8f19fb4c3d00af5c2798a6a87ef9d3a",
+      "bytes": 452051
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/top.png",
+      "sha256": "f863dc3e6c2cc9b2afabc5d6f740b693dff9d2078863ad6b259cd684b935c59c",
+      "bytes": 430320
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/bottom.png",
+      "sha256": "095f7065d2409bd670f86af285da93673eb81deac716c93c0bf3dcea1f8fee5f",
+      "bytes": 425065
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-correction-v1.1/browser-result.json",
+      "sha256": "7476782b2423212b28e6b8c1693f476435ffe3cdbff592b784a5a5fcabd2f2d3",
+      "bytes": 832
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-details-correction-v1.1/collarCloseup.png",
+      "sha256": "56e9b0e44a3f62d7bd56d46aec084cba3414ec623357adbe9e6ea9039f2cb0eb",
+      "bytes": 390921
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-details-correction-v1.1/placketSideCloseup.png",
+      "sha256": "6feea3ef4bba6737d20e1c74dec3a3ff5b5f9c983e9470029cc7eea065ac24d8",
+      "bytes": 420494
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-details-correction-v1.1/cuffCloseup.png",
+      "sha256": "fd5f02815c5eb2d43ef5fb8ad1571f7717faf6301ec4fea7c362ea9d4c2d48c8",
+      "bytes": 357548
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence-details-correction-v1.1/detail-browser-result.json",
+      "sha256": "a97c2b1e8db4cf3c610f057d90bbb36df0f878809f803fff32c3fc61e5bcf371",
+      "bytes": 454
+    }
+  ],
+  "notes": [
+    "No blue color, stripes, artwork texture or surface material applied. Gray trial buttons are geometry for attachment review only.",
+    "Build script writes only gray-shirt-correction-v1.1-wip.glb. Final snapshot is a separate file; preview GLB copy has the same SHA; six views and three details were captured after the snapshot.",
+    "Browser load/rotate/zoom succeeded with no console/page errors; this is not shape approval.",
+    "Self-review: collar construction and placket/cuff relief now read more clearly, openings remain open, but body drape is still modest and collar leaves remain somewhat angular. Candidate needs Lead review before QA release; no pass claimed."
+  ]
+}

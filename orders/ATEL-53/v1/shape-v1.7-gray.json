@@ -1,0 +1,155 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "v1.7-gray",
+  "stage": "shape",
+  "status": "candidate pending Lead review; not shape-approved",
+  "garment": {
+    "path": "orders/ATEL-53/v1/designer/garment-gray-v1.7.glb",
+    "sha256": "300e56570f0b769286347eb049dda664ba0d1e22b4a41f577d0c29543bec26e3"
+  },
+  "provenance": {
+    "method": "New pattern-panel/shared-seam revision authored from the approved v1.7 plan; no prior or rejected source geometry reused.",
+    "sourceAssets": [],
+    "reusedGeometry": false,
+    "rejectedGeometryUsed": false,
+    "mannequin": false,
+    "buildScript": {
+      "path": "orders/ATEL-53/v1/designer/build-shirt-pattern-v1.7.mjs",
+      "sha256": "b51e754827280526184f1fc31ac11a65056ad69fb2806c2f77cd9ce90d5a3de2"
+    }
+  },
+  "uv": {
+    "origin": "glTF upper-left",
+    "bodyPanels": "Pattern U centerline to side seam; V hem to shoulder.",
+    "sleeves": "Pattern U around sleeve seam; V shoulder to open cuff.",
+    "materialGroups": [
+      "Neutral gray shirt shell",
+      "Collar/placket textile",
+      "Open cuff facing",
+      "Neutral gray trial buttons"
+    ]
+  },
+  "anchors": {
+    "shoulder": "Front/back pattern panels meet on a common upper shoulder seam line.",
+    "armhole": "Sleeve halves share the same sampled torso armhole perimeter with consistent outward winding; cuffs remain open.",
+    "neckline": "Low collar stand follows the neckline loop; separate curved-fold leaves sit over the chest.",
+    "buttons": "Neutral gray trial buttons mounted on local placket and cuff normals."
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/v1.7/index.html",
+    "garmentPath": "showcase/quality-preview/ATEL-53/v1.7/garment.glb",
+    "garmentSha256": "300e56570f0b769286347eb049dda664ba0d1e22b4a41f577d0c29543bec26e3"
+  },
+  "evidence": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/v1.7/index.html",
+    "views": {
+      "front": "orders/ATEL-53/v1/designer/evidence-v1.7/front.png",
+      "back": "orders/ATEL-53/v1/designer/evidence-v1.7/back.png",
+      "side": "orders/ATEL-53/v1/designer/evidence-v1.7/side.png",
+      "oblique": "orders/ATEL-53/v1/designer/evidence-v1.7/oblique.png",
+      "top": "orders/ATEL-53/v1/designer/evidence-v1.7/top.png",
+      "bottom": "orders/ATEL-53/v1/designer/evidence-v1.7/bottom.png"
+    },
+    "closeups": {
+      "collar": "orders/ATEL-53/v1/designer/detail-evidence-v1.7/collarCloseup.png",
+      "placketSide": "orders/ATEL-53/v1/designer/detail-evidence-v1.7/placketSideCloseup.png",
+      "cuff": "orders/ATEL-53/v1/designer/detail-evidence-v1.7/cuffCloseup.png"
+    },
+    "browserResult": "orders/ATEL-53/v1/designer/evidence-v1.7/browser-result.json",
+    "detailBrowserResult": "orders/ATEL-53/v1/designer/detail-evidence-v1.7/detail-browser-result.json",
+    "capturedFromSnapshotSha256": "300e56570f0b769286347eb049dda664ba0d1e22b4a41f577d0c29543bec26e3"
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-53/v1/designer/garment-gray-v1.7.glb",
+      "sha256": "300e56570f0b769286347eb049dda664ba0d1e22b4a41f577d0c29543bec26e3",
+      "bytes": 1920516
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/build-shirt-pattern-v1.7.mjs",
+      "sha256": "b51e754827280526184f1fc31ac11a65056ad69fb2806c2f77cd9ce90d5a3de2",
+      "bytes": 14013
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/capture-shirt-details.mjs",
+      "sha256": "1db65e664f1cdb86864d491c8350cfc63a0de5e37adb5d12501c211fd308df18",
+      "bytes": 1845
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/v1.7/garment.glb",
+      "sha256": "300e56570f0b769286347eb049dda664ba0d1e22b4a41f577d0c29543bec26e3",
+      "bytes": 1920516
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/v1.7/index.html",
+      "sha256": "fde8e8566b95791f1ee15643ed7029667e0296cc456f342ef5a66869402c03ea",
+      "bytes": 958
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.7/front.png",
+      "sha256": "171dff45ad0241172ccd3d2912be58b3ebfd07393d01fbfad45d9cf83d012b27",
+      "bytes": 442298
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.7/back.png",
+      "sha256": "40162df4095aeee3762362965eabaf027352ec09caac39ae72a484d7c7a1a977",
+      "bytes": 440887
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.7/side.png",
+      "sha256": "505c5090994e489a40f8dac67e2f9b387da3af9a718615c73d9f8cc5041bfde1",
+      "bytes": 437738
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.7/oblique.png",
+      "sha256": "5045d2b685e93d6608a659b969b0e0a334df01ed7f32da5f187f045cef6ba85f",
+      "bytes": 444855
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.7/top.png",
+      "sha256": "d9d8f9862230bdfe9b4303a1e1bfcad793f5f06228dbde29fa3cc14ce195eee9",
+      "bytes": 414017
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.7/bottom.png",
+      "sha256": "ca9b8bb606b3b2d784dbf6b52629c2c59253fa61ff0bd7d9ae01f7338579fd6c",
+      "bytes": 401512
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/evidence-v1.7/browser-result.json",
+      "sha256": "b6611a9e2a1b15eb3001fd9c5cb17f554a13cbc959107d19daf67a0af87fa9fd",
+      "bytes": 608
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.7/collarCloseup.png",
+      "sha256": "3dee8fbbc6252128bb1ad6081039feac6d9c1ac2a178b5d14366e976e58adcb5",
+      "bytes": 378381
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.7/placketSideCloseup.png",
+      "sha256": "63d2b09abb36a29cff2b42a9c5ac21f2cb26c661d9fdd456d9018c9c0c372d0d",
+      "bytes": 372834
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.7/cuffCloseup.png",
+      "sha256": "2f746d6735147964fa1d750340ed3f4ffbd310df6ca88ad27b87eeeb4ba6b0b4",
+      "bytes": 350519
+    },
+    {
+      "path": "orders/ATEL-53/v1/designer/detail-evidence-v1.7/detail-browser-result.json",
+      "sha256": "f2a88b8fbcfb68ad16f18172caff32c6afb978513177ee4690c3719934c9c4a8",
+      "bytes": 440
+    }
+  ],
+  "correction": {
+    "fromRevision": "v1.6-gray",
+    "replan": "orders/ATEL-53/studio-flow.json#replan",
+    "approach": "Corrected sleeve half-panel winding, created lower continuous stand and curved-fold collar leaves with chest shell-following depth, increased asymmetric localized folds."
+  },
+  "notes": [
+    "No blue color, stripes, or surface treatment applied; gray trial buttons remain for attachment review.",
+    "The final snapshot is a separate copy from the build WIP; preview points to a matching copy, and all nine current captures were taken after copying that snapshot. Build script writes only the WIP path.",
+    "Stale evidence-v1.7-stale-candidate* folders are historical experiments and are excluded from this manifest.",
+    "Browser load/rotate/zoom passed; this is not shape approval. Self-review: collar leaves still do not read cleanly as shirt collar leaves; torso folds remain shallow. Candidate is for Lead review only, not QA-ready."
+  ]
+}

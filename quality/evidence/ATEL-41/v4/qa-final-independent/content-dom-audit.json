@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-41/v4/index.html",
+  "httpStatus": 200,
+  "loaded": true,
+  "creditsCount": 2,
+  "creditsVisible": true,
+  "credits": [
+    "Hình học quần do AtelierX Fashion Studio tự dựng. Phom JNCO Twin Cannon owner-supplied chỉ dùng làm tham khảo silhouette; không tái sử dụng mesh, texture, logo, patch hoặc nhãn (orders/ATEL-41/v3/designer/provenance-v3.json).",
+    "Màu be cát và bề mặt PBR twill cotton-canvas là mô phỏng thị giác theo preset nội bộ orders/ATEL-41/material/pbr-preset-v1.json, áp dụng trong orders/ATEL-41/v3/material/surface-manifest-v3.json; không đại diện thành phần hay tính năng của vải thật."
+  ],
+  "displaySpecifications": 3,
+  "scrollScreenshot": "quality/evidence/ATEL-41/v4/qa-final-independent/credits-visible.png",
+  "contentSha256": "084fa4535b80ee4819b2ce7b9e78f7ac25cec4b75c12fa1c2601283ebd171605",
+  "visualManifestSha256": "59255a6c945d34c873b033409a1dac67b8ed69044672a17a1fa655d1ee48f57c",
+  "browserEvidenceSha256": "7c4c864d0d1e25f602355e82650b01c6bb67ff10065af34609d6c715887a4603",
+  "manifestArtifactsVerified": 26
+}

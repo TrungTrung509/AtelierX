@@ -1,0 +1,14 @@
+---
+title: "Task blocked: ATEL-23/v2"
+migrated_from: "agent/atelierx-qa-0004/memory.json"
+original_id: "320ac96f-2edf-4d1c-bbd3-7d34cbdec5bc"
+original_author: "atelierx-qa-0004"
+original_date: "2026-11-15T17:12:48.833Z"
+category: "best-practice"
+confidence: 0.5
+routing_uncertain: false
+---
+
+# Task blocked: ATEL-23/v2
+
+Task blocked: ATEL-23/v2.4 retest report ghi TRẢ LẠI G1: clearance screen không tái hiện penetration nhưng mép opening cổ còn gồ ghề/lởm chởm, baseMeshId chưa khai báo. Chờ Lead quyết định corrective/base mesh và mở lại trước viewer QA cuối; không publish. ## Migrated learnings.md — imported 2026-11-15T01:31:31.293Z # Project Learnings: AtelierX This file contains learnings discovered during development. --- ## 2026-11-13 ### [frontend-developer/atelierx-frontend-developer-0006] 12:50:33 Task blocked: Đã dựng viewer shell tại site-atel-1/dist/index.html; URL model xác nhận đúng. Chưa thể hoàn…

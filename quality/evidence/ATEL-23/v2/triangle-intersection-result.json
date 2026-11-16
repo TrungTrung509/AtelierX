@@ -1,0 +1,41 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2",
+  "garmentPath": "orders/ATEL-23/v2/designer/garment-v2.glb",
+  "garmentSha256": "d51cbc10580d04b6195dae7fc041e297461fe217a94fcbc4487cf07319747f66",
+  "mannequinPath": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+  "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+  "combinedPath": "orders/ATEL-23/v2/fit-evidence/garment-on-mannequin-v2.glb",
+  "combinedSha256": "9d58af5fe58ad7a6fedd14778b6ea4fef9b38be0b3289b1de1b4a4c7f2829fb8",
+  "method": "AABB BVH broad phase over indexed triangles, followed by edge-segment vs opposing triangle Moller-Trumbore intersection checks in both directions. Geometry uses GLB world positions; nodes have identity transforms.",
+  "counts": {
+    "mannequinTriangles": 19574,
+    "garmentTriangles": 174122,
+    "aabbCandidateTrianglePairs": 13825,
+    "intersectingTrianglePairs": 520
+  },
+  "spatialScreen": {
+    "posteriorArmholeBand": {
+      "definition": "0.14 < abs(x) < 0.46 m; 1.35 < y < 1.54 m; z < -0.03 m (posterior side in +Z-front coordinate system)",
+      "intersectingPairs": 0
+    },
+    "neckCollarBand": {
+      "definition": "abs(x) < 0.12 m; 1.50 < y < 1.61 m",
+      "intersectingPairs": 89
+    },
+    "sleeveWristBand": {
+      "definition": "0.60 < abs(x) < 0.80 m; 1.40 < y < 1.56 m",
+      "intersectingPairs": 68
+    },
+    "frontTorsoHipHemBand": {
+      "definition": "abs(x) < 0.20 m; 0.85 <= y < 1.04 m; z > 0",
+      "intersectingPairs": 354
+    }
+  },
+  "limitations": [
+    "Pair counts include repeated triangle pairs across the same local contact region; they are not unique defect counts.",
+    "Edge-through-triangle checks detect non-coplanar crossings/contact; coplanar overlaps may not be detected.",
+    "This screen does not estimate penetration depth or collision severity. Visual evidence of exposed mannequin/open garment gaps is assessed separately."
+  ],
+  "script": "quality/evidence/ATEL-23/v2/triangle-intersection-screen.mjs"
+}

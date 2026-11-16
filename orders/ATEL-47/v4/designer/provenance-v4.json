@@ -1,0 +1,69 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "garment": {
+    "path": "orders/ATEL-47/v4/designer/garment-gray-v4.glb",
+    "sha256": "493dfca00032176e3cc3178d46ce7ebf5113c9b6c765befdc4b6b2202aa2bccc"
+  },
+  "geometryOrigin": "New parametric standalone shirt topology authored from the ATEL-47 brief after v3 review; no source mesh, ready base, or candidate geometry/reference used or reused.",
+  "notAReadyBase": true,
+  "displayEnvelopeMeters": {
+    "min": [
+      -0.4128869825933681,
+      0.33,
+      -0.08830742530179668
+    ],
+    "max": [
+      0.4128869825933681,
+      0.921112281532347,
+      0.1043262037232605
+    ],
+    "dimensionsCm": [
+      82.6,
+      59.1,
+      19.3
+    ],
+    "source": "Measured from the standalone gray GLB; display envelope only, not manufacturing size."
+  },
+  "uv": {
+    "attribute": "TEXCOORD_0",
+    "frontBackPanels": "Separate front/back body shells use U left-to-right with V=0 at shoulder to V=1 at hem; keep vertical stripe artwork upright and aligned to body centerline.",
+    "sleeves": "Sleeve U wraps around the swept sleeve cross-section; V=0 at shoulder root and V=1 at cuff.",
+    "details": "Shoulder yokes, neckline facing, collar stand/leaves, sleeve root closures, cuffs, placket, and buttons are named groups for separate surface assignment."
+  },
+  "materialGroups": [
+    {
+      "name": "Front body panel",
+      "material": "Neutral gray Body front/back panels"
+    },
+    {
+      "name": "Back body panel",
+      "material": "Neutral gray Body front/back panels"
+    },
+    {
+      "name": "Shoulder yokes and neckline facing",
+      "material": "Neutral gray Body front/back panels"
+    },
+    {
+      "name": "Swept sleeves and root closures",
+      "material": "Neutral gray Sleeves"
+    },
+    {
+      "name": "Collar stand and leaves",
+      "material": "Neutral gray Collar"
+    },
+    {
+      "name": "Cuffs",
+      "material": "Neutral gray Cuffs"
+    },
+    {
+      "name": "Front placket",
+      "material": "Neutral gray Placket"
+    },
+    {
+      "name": "Front and cuff buttons",
+      "material": "Neutral gray Buttons"
+    }
+  ],
+  "status": "New-topology gray shape candidate awaiting independent QA; not shape-approved, surface-ready, or published."
+}

@@ -1,0 +1,286 @@
+{
+  "version": 9,
+  "orderId": "ATEL-53",
+  "name": "Áo sơ mi xanh sọc trắng",
+  "requestId": "445ea941-034d-4479-b633-fbdc1646bc4c",
+  "createdAt": "2026-11-15T17:29:07.171Z",
+  "phase": "preparation",
+  "shapeDeadlineAt": "2026-11-16T02:50:38.546Z",
+  "maxCandidateAttempts": 2,
+  "candidateAttempts": [
+    "user-supplied-shirt.glb"
+  ],
+  "events": [
+    {
+      "id": "shape:v1.1-gray:834213e7a212cc07781a999c0590d7006745ac1c311226ee7c251454049e5ca7",
+      "stage": "shape",
+      "revision": "v1.1-gray",
+      "file": "orders/ATEL-53/v1/designer/shape-manifest-v1.1.json",
+      "createdAt": "2026-11-15T19:04:24.371Z"
+    },
+    {
+      "id": "shape-review:v1.1-gray:c65e49d1abc8ea5108759394519836e90b7002256015ae914b00c3ab609fd3f9",
+      "stage": "shape-review",
+      "revision": "v1.1-gray",
+      "file": "orders/ATEL-53/v1/shape-review-handoff-v1.1.json",
+      "createdAt": "2026-11-15T19:10:28.556Z"
+    },
+    {
+      "id": "shape:v1.4-gray:3ae192e963312652462de30c33d906822ce300f03797dc94fb082a375af95fcd",
+      "stage": "shape",
+      "revision": "v1.4-gray",
+      "file": "orders/ATEL-53/v1/shape-v1.4-gray.json",
+      "createdAt": "2026-11-15T19:24:22.248Z"
+    },
+    {
+      "id": "shape-review:v1.4-gray:ed82557e6d95657626f60d744737a2ff6bf59445a569063e340c020b8e906e0b",
+      "stage": "shape-review",
+      "revision": "v1.4-gray",
+      "file": "orders/ATEL-53/v1/shape-review-handoff-v1.4.json",
+      "createdAt": "2026-11-15T19:30:52.405Z"
+    },
+    {
+      "id": "shape:alternate-cc0-shirt-v0:2afc62012fd8e99266e167271c503e1efef47486d733e793e4350e5d81ee09e8",
+      "stage": "shape",
+      "revision": "alternate-cc0-shirt-v0",
+      "file": "orders/ATEL-53/alternate-base/charactercreator-cc0/manifest.json",
+      "createdAt": "2026-11-15T20:17:48.589Z"
+    },
+    {
+      "id": "shape-review:alternate-cc0-shirt-v0:b0317f9059026a16b3531861707d328d853e777213f2391510a7af576670051e",
+      "stage": "shape-review",
+      "revision": "alternate-cc0-shirt-v0",
+      "file": "orders/ATEL-53/alternate-base/charactercreator-cc0/shape-review-handoff.json",
+      "createdAt": "2026-11-15T20:22:31.948Z"
+    },
+    {
+      "id": "shape:alternate-cc0-shirt-v1.1-gray:e2788cdde28921f17fc46afb63346dc1596153df8047d9535f4ac8d2fe2a729e",
+      "stage": "shape",
+      "revision": "alternate-cc0-shirt-v1.1-gray",
+      "file": "orders/ATEL-53/alternate-base/charactercreator-cc0/shape-correction-v1.1-manifest.json",
+      "createdAt": "2026-11-15T20:37:37.943Z"
+    },
+    {
+      "id": "shape-review:alternate-cc0-shirt-v1.1-gray:70dba5b1d7783fe423ad01c7673fb43e6c265adc310fb5be47c1e31f6362b3d5",
+      "stage": "shape-review",
+      "revision": "alternate-cc0-shirt-v1.1-gray",
+      "file": "orders/ATEL-53/alternate-base/charactercreator-cc0/shape-review-handoff-v1.1.json",
+      "createdAt": "2026-11-15T20:41:13.960Z"
+    },
+    {
+      "id": "shape:pattern-sewn-v1-gray:aefe3a6e0eea31d7992c050b482f534e4b7e2cc5fe4fad539b04edff7f02e06c",
+      "stage": "shape",
+      "revision": "pattern-sewn-v1-gray",
+      "file": "orders/ATEL-53/blender-sew/v1/flow-shape-manifest.json",
+      "createdAt": "2026-11-15T21:18:44.541Z",
+      "baseId": "blender-sewn-panels-v1"
+    },
+    {
+      "id": "shape:owner-shirt-v1.1-gray:4b3802758680ac3b9a31a5447122cb4b65375f50cd95a601c7e788a9c539d25f",
+      "stage": "shape",
+      "revision": "owner-shirt-v1.1-gray",
+      "file": "orders/ATEL-53/owner-shirt-v1.1-gray/shape-manifest-v1.1-gray.json",
+      "createdAt": "2026-11-16T02:32:47.918Z",
+      "baseId": "user-supplied-shirt.glb"
+    },
+    {
+      "id": "shape-review:owner-shirt-v1.1-gray:4403ab6106024b24fae7f45305edfbbbc9f3b80c4c2e342891167b3fbbc3986b",
+      "stage": "shape-review",
+      "revision": "owner-shirt-v1.1-gray",
+      "file": "orders/ATEL-53/owner-shirt-v1.1-gray/shape-review-handoff.json",
+      "createdAt": "2026-11-16T02:39:50.711Z"
+    },
+    {
+      "id": "shape:owner-shirt-v1.2-gray:90ab22a835886d1585725e5d6b66909071cab232a6cf64c5d438298dade3df05",
+      "stage": "shape",
+      "revision": "owner-shirt-v1.2-gray",
+      "file": "orders/ATEL-53/owner-shirt-v1.2-gray/shape-manifest-v1.2-gray.json",
+      "createdAt": "2026-11-16T03:01:08.589Z",
+      "baseId": "user-supplied-shirt.glb"
+    },
+    {
+      "id": "shape-review:owner-shirt-v1.2-gray:7906e8e78dded0260c2ae5a959db073597cc44a052f49c6588ba17dadac0d0c6",
+      "stage": "shape-review",
+      "revision": "owner-shirt-v1.2-gray",
+      "file": "orders/ATEL-53/owner-shirt-v1.2-gray/shape-review-handoff.json",
+      "createdAt": "2026-11-16T03:05:32.028Z"
+    },
+    {
+      "id": "surface:owner-shirt-v1.2-surface-v1:f7c6365726c77d4ce316df6327b21501dae5649b65f854ddc3f912b37aadc884",
+      "stage": "surface",
+      "revision": "owner-shirt-v1.2-surface-v1",
+      "file": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/surface.json",
+      "createdAt": "2026-11-16T03:31:41.730Z"
+    },
+    {
+      "id": "surface:owner-shirt-v1.2-surface-v1:b177b5556649e9f03d045bde53a422cf3daf9cb6ba61e518572369569f123160",
+      "stage": "surface",
+      "revision": "owner-shirt-v1.2-surface-v1",
+      "file": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/surface.json",
+      "createdAt": "2026-11-16T03:32:05.451Z"
+    },
+    {
+      "id": "content:owner-shirt-v1.2-surface-v1:82bb048e967b149b3e09a1fae9d59e58c7240c19fb8526d9b1bc46bf5c12d8b3",
+      "stage": "content",
+      "revision": "owner-shirt-v1.2-surface-v1",
+      "file": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/content/content-manifest.json",
+      "createdAt": "2026-11-16T03:35:47.525Z"
+    },
+    {
+      "id": "visual:v1.2-surface-v1:b3807871d6397906e83ab4c5ea261d60700209b433271b81772176b967963c46",
+      "stage": "visual",
+      "revision": "v1.2-surface-v1",
+      "file": "orders/ATEL-53/v1/visual/visual-manifest.json",
+      "createdAt": "2026-11-16T03:48:16.173Z"
+    },
+    {
+      "id": "visual:v1.2-surface-v1:60e3b5e25381d08ca9769a5c5c69cdda56748831a20c5ab7527b3f5361755eeb",
+      "stage": "visual",
+      "revision": "v1.2-surface-v1",
+      "file": "orders/ATEL-53/v1/visual/visual-manifest.json",
+      "createdAt": "2026-11-16T03:49:09.251Z"
+    },
+    {
+      "id": "visual:v1.2-surface-v1:cced31754818126905e37733027ef5025e69cc0e348f9db57de372612c674dd2",
+      "stage": "visual",
+      "revision": "v1.2-surface-v1",
+      "file": "orders/ATEL-53/v1/visual/visual-manifest.json",
+      "createdAt": "2026-11-16T03:51:23.123Z"
+    },
+    {
+      "id": "qa-final:v1.2-surface-v1:0592e1421d4f0dd6fd3b42034d2e67b4710f3e207ff00b0bec0a9c86ea37d8af",
+      "stage": "qa-final",
+      "revision": "v1.2-surface-v1",
+      "file": "orders/ATEL-53/v1/visual/qa-final-handoff.json",
+      "createdAt": "2026-11-16T03:59:33.858Z"
+    }
+  ],
+  "tasks": {
+    "research": {
+      "person": "An",
+      "target": "atelierx-tpm-0002",
+      "title": "ATEL-53 · Nghiên cứu phom, họa tiết và nội dung · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-61",
+      "workItemId": "f4daad5f-8d11-4803-b0a8-b9242d1e85ed"
+    },
+    "designer": {
+      "person": "Vy",
+      "target": "atelierx-designer-0003",
+      "title": "ATEL-53 · Thiết kế phom áo · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-62",
+      "workItemId": "ec090719-14b6-4e75-8615-7260c53cdade"
+    },
+    "material": {
+      "person": "Linh",
+      "target": "atelierx-backend-developer-0005",
+      "title": "ATEL-53 · Hoàn thiện màu và chất liệu · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-56",
+      "workItemId": "893fd790-ff56-4e06-8a94-a13213b0c00b"
+    },
+    "visual": {
+      "person": "Nhi",
+      "target": "atelierx-frontend-developer-0006",
+      "title": "ATEL-53 · Dựng sản phẩm trong Sàn trưng bày · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-57",
+      "workItemId": "6d973122-6736-4f0b-acdc-bae085e5c56c"
+    },
+    "qa": {
+      "person": "Khoa",
+      "target": "atelierx-qa-0004",
+      "title": "ATEL-53 · Kiểm tra phom và sản phẩm · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-58",
+      "workItemId": "92ff0d6b-d686-441f-889e-55756bafa5a2"
+    },
+    "lead": {
+      "person": "Minh",
+      "target": "atelierx-team-leader-0001",
+      "title": "ATEL-53 · Điều phối và bàn giao · Áo sơ mi xanh sọc trắng",
+      "ticketId": "ATEL-53",
+      "workItemId": "051ab175-6f92-42b2-9b39-c912582fd424"
+    }
+  },
+  "preparationRounds": [
+    {
+      "endedAt": "2026-11-15T17:38:18.750Z",
+      "candidates": [],
+      "reason": "Hai nguồn đã kiểm đều không phù hợp: đồng phục liền váy/sai cổ và áo thun sai cấu trúc. Mở vòng chuẩn bị riêng để tìm tối đa hai GLB áo sơ mi độc lập có cổ bẻ, nẹp, cuff và cửa rỗng; sau khi có nguồn, Designer/QA kiểm sáu góc xám trước surface. Không dùng ATEL-47/v4."
+    },
+    {
+      "endedAt": "2026-11-15T17:51:49.571Z",
+      "candidates": [],
+      "reason": "Round 2 đã hoàn tất; nguồn 01 là outfit nhiều lớp che sơ mi, nguồn 02 là crop top cổ V không tay thiếu nẹp/khuy/cuff. Manifest hashes đã kiểm, không có base phù hợp. Mở preparation round 3 tối đa hai GLB sơ mi độc lập mới, có ảnh front/back và provenance; không lặp nguồn đã loại và không dùng ATEL-47/v4. Sau chọn nguồn Designer/QA kiểm gray sáu góc trước Material."
+    },
+    {
+      "endedAt": "2026-11-15T18:02:50.537Z",
+      "candidates": [],
+      "reason": "Round 3 đã kiểm đủ hai nguồn CC0 mới ngoài local; cả hai là áo tĩnh trên hanger, thiếu cấu trúc cổ/lá và drape. Manifest hashes khớp. Mở preparation round 4 tối đa hai nguồn mới; ưu tiên GLB garment draped được tải trực tiếp và có provenance rõ; nếu không có, ghi option cần owner cung cấp asset. Giữ ATEL-47/v4 excluded; QA studio-wait: shape."
+    },
+    {
+      "endedAt": "2026-11-15T18:19:21.437Z",
+      "candidates": [],
+      "reason": "Preparation round 4 completed: exactly two fresh sources checked; neither qualifies (GitHub lacks explicit license/published GLB, ArtStation is gated and gallery shows wrong crew-neck short-sleeve shape). No new candidate/base selected. Await owner-provided permitted shirt GLB or direct URL with explicit license; resume only after receipt, then verify provenance/hash and send to Designer/QA. Keep QA at studio-wait: shape; exclude ATEL-47/v4; do not handoff Material."
+    },
+    {
+      "endedAt": "2026-11-15T18:28:05.898Z",
+      "candidates": [],
+      "reason": "Owner instructed immediate self-build after no further asset will be supplied. Designer assigned ATEL-62 / ec090719-14b6-4e75-8615-7260c53cdade to create NEW standalone shirt gray shell; no mannequin, no rejected geometry, no SDF/closed solid. First file/image checkpoint due within 10 minutes; continue to six-angle gray shape and collar/placket/cuff closeups. Keep the sole QA WorkItem at studio-wait: shape; do not apply color or hand off Material before QA pass."
+    },
+    {
+      "endedAt": "2026-11-15T19:33:32.258Z",
+      "candidates": [],
+      "reason": "QA v1.4-gray tiếp tục trả về trên đúng hash. Dừng topology bodyPoint + sleeve tube/bridge; chọn tái cấu trúc pattern-panel/shared-seam: panel rập thật với biên neckline/armhole/side/hem, perimeter chung thân–sleeve, vai khép liên tục, collar stand khớp neckline và lá cổ bản rộng gập sang hai bên; giữ cửa mở và nút trial theo pháp tuyến. Không dùng source search/rejected geometry, không Material. ETA 20 phút để dựng topology mới và recapture sáu góc/ba cận."
+    },
+    {
+      "endedAt": "2026-11-15T19:59:57.318Z",
+      "candidates": [],
+      "reason": "Lead duyệt phương án v1.7 trên cùng ATEL-62 sau review v1.6: giữ collar stand thấp theo neckline; dựng hai lá cổ bằng panel riêng, đường gập cong kiểu Bezier và đầu bo tù, loft nhẹ để lá áp ngực; vai/nách dùng chung sampled boundary thân-sleeve, kiểm winding/normals và seam edge để loại khe/z-fighting; bỏ gờ eo, thêm nếp cục bộ lệch nhau ở ngực/nách/tay/khuỷu. Designer ETA 15 phút (revision). Không QA/Material trước Lead review mới."
+    },
+    {
+      "endedAt": "2026-11-15T20:16:40.162Z",
+      "candidates": [],
+      "reason": "Lead dừng nhánh dựng procedural pattern-panel sau các lượt collar/drape không đạt. Chọn alternate source/tool mới: standalone garment mesh  từ CharacterCreator/MakeHuman system assets CC0-1.0 (commit 852e48f316b90a0937234886630e4fb4cdfd1f78), không có body/mannequin mesh; Lead đã tạo checkpoint xám và sáu ảnh browser tại orders/ATEL-53/alternate-base/charactercreator-cc0/. Designer tiếp tục cùng ATEL-62: kiểm nguồn/rig, tạo static standalone gray candidate nếu cần, không tái dùng geometry bị owner từ chối; QA shape trước màu/sọc/khuy. ETA 15 phút revision do import/rig validation, shape checks and matching evidence."
+    },
+    {
+      "endedAt": "2026-11-15T20:47:41.617Z",
+      "candidates": [],
+      "reason": "Lead đã dừng CC0 correction v1.1 sau QA return. Tool mới Blender 5.2.4 LTS portable được tải từ download.blender.org, SHA-256 đã xác minh và chạy headless thành công. Phê duyệt Designer dựng áo từ sewn pattern panels bằng cloth simulation trong Blender trên cùng ATEL-62; không dùng lại CC0 geometry hoặc custom parametric bodyPoint/tube/bridge. Output static gray standalone garment, openings thật, trial construction geometry, sáu góc + ba cận; chờ Lead review trước QA. Replan 30 phút do pipeline/tool mới và cần simulation, bake/export, recapture."
+    },
+    {
+      "endedAt": "2026-11-15T21:18:41.290Z",
+      "candidates": [],
+      "reason": "Lead kiểm tra pattern-sewn-v1-gray và xác minh 16/16 artifact hash; snapshot/preview khớp. Candidate chưa QA-ready: shoulder-armhole gaps, collar stand/leaves dựng nhọn, global diagonal drape quá mạnh. Yêu cầu đúng một correction trên Blender sewing-panel cloth simulation: khép chung seam trước sim, hạ/bo collar và giảm/địa phương hóa drape. Không dùng CC0, không tái dùng parametric bodyPoint/tube/bridge, không mở nguồn mới; chưa QA/Material. ETA 30 phút revision do simulation/bake/recapture."
+    },
+    {
+      "endedAt": "2026-11-15T21:24:27.157Z",
+      "candidates": [
+        "blender-sewn-panels-v1"
+      ],
+      "reason": "Lead dừng Blender sewing-spring topology sau v2 vì seam gaps, collar buckling và global diagonal ridges. Hướng thay thế được chọn: giữ Blender 5.2.4 nhưng đổi sang cloth-drape workflow với torso/arm collision proxy tạm chỉ trong sim file; nối/weld shared seam loops trước mô phỏng, bật garment/self collision, bỏ sewing springs. Collar/cuff là panels có shared boundary riêng; sau bake loại bỏ proxy để export static standalone shell với openings mở. Đây là route khác, không tái dùng CC0 hay v1/v2 geometry. Một lượt candidate mới 30 phút vì setup collider, seam weld, simulation/bake/recapture; nếu vẫn lỗi dừng route."
+    },
+    {
+      "endedAt": "2026-11-15T21:34:21.954Z",
+      "candidates": [],
+      "reason": "Lead dừng hoàn toàn generic Blender cloth/spring and proxy routes sau v2 và proxy-v1 fail. Chọn garment-specific OpenSew2 (GPL-3.0, commit 86b432238464d88e3d2c5e1cf3fbf693f1e51722), Blender 5.2 plugin đã import thành công. Pipeline khác: draft shirt pattern trong clothing_design, khớp sleeve cap/armhole, sew low-gravity → weld seam vertices thành shell liên tục → settle full gravity; không xuất body/avatar, chỉ shirt geometry. One candidate, 30 phút do garment pattern/collar/cuff drafting + sew/weld/settle + bake/evidence. Nếu còn fail dừng, không patch."
+    },
+    {
+      "endedAt": "2026-11-15T21:52:33.165Z",
+      "candidates": [],
+      "reason": "OpenSew2 candidate trực quan thất bại (gap/distortion vai-nách, cổ rối, thân xếp dải, cuff rách); dừng route, không patch/QA. Chọn route khác: build Seamstress từ mã nguồn MIT (không mua binary $25) để tạo pattern/sew/simulation; xác nhận toolchain/buildability trong checkpoint đầu 10 phút, chỉ dựng candidate sau khi chạy được. Một candidate trên cùng ATEL-62; nếu build/tool không chạy được thì dừng và báo blocker, không chuyển sang route thất bại khác. QA/Material giữ hold."
+    },
+    {
+      "endedAt": "2026-11-15T23:10:37.407Z",
+      "candidates": [],
+      "reason": "Lead alternate recovery checkpoint: chọn route khác là Marvelous Designer garment-specific trên Linux, nhưng không thể bắt đầu hình học trước khi có Enterprise Team Linux license và runtime được hỗ trợ (Rocky Linux 9/RHEL 9/equivalent); host hiện Debian 12, chưa có license/runtime. Không mua license, đổi OS, cài đặt, hoặc sửa geometry khi chưa được owner cho phép. Giữ các candidate failed bất biến, QA/Material/Visual hold. Nếu owner chưa cấp môi trường sau checkpoint, ATEL-53 tiếp tục production hold; không mở research/retry task."
+    },
+    {
+      "endedAt": "2026-11-16T02:20:38.546Z",
+      "candidates": [],
+      "reason": "Owner supplied shirt.glb; use this base and stop the Marvelous Designer branch"
+    }
+  ],
+  "replan": {
+    "reason": "Owner supplied shirt.glb; use this base and stop the Marvelous Designer branch",
+    "at": "2026-11-16T02:20:38.546Z"
+  },
+  "shapeApproved": true
+}

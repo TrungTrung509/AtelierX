@@ -1,0 +1,103 @@
+{
+  "orderId": "ATEL-9",
+  "revision": "clean-v2-placement-test-01",
+  "sourceRevision": "grab3d-hoodie-clean-v2",
+  "gate": "G1",
+  "decision": "return",
+  "baseMeshId": "grab3d-hoodie-clean-v2",
+  "garmentType": "hoodie",
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false,
+  "candidateStatus": "candidate",
+  "sourceSha256": "42dc0075e632eab84256f71d9cc88b6eb6d54d04cbff3682f548f62e55994a13",
+  "diagnosticSha256": "631b0673252dc4d74c72a752aed2a9c00c447ceb6ebcaf61c22c34fa0230486d",
+  "summary": "TRẢ LẠI — G1 chưa đạt. Source SHA khớp candidate trong base-meshes.json. Diagnostic GLB xác nhận TEXCOORD_0 và một material slot hoodie_body_pbr; hình thử ngực đọc được nhưng bị dây rút lấn nhẹ, còn dấu lưng bị hood che rõ một phần lớn. Hai cận cổ-vai cho thấy dải ngang nổi phía trên cổ/mũ với đầu không liền mạch, trông giống residue hình học hơn cấu tạo áo; ảnh chưa chứng minh nguồn gốc nên cần Designer xác minh và sửa/loại bỏ nếu không phải chi tiết chủ ý. Giữ base mesh ở candidate, chưa dùng làm phom approved.",
+  "placementProfile": "quality/evidence/ATEL-15/v2/placement-profile.json",
+  "materialSlot": "hoodie_body_pbr (mesh 0, primitive 0, material 0; TEXCOORD_0)",
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie-clean-v2-placement-test/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": []
+  },
+  "evidence": {
+    "sourceMesh": "quality/candidates/grab3d-hoodie-clean-v2.glb",
+    "diagnosticMesh": "quality/evidence/ATEL-15/v2/grab3d-hoodie-clean-v2-placement-test.glb",
+    "browserResult": "quality/evidence/ATEL-15/v2/browser/browser-result.json",
+    "front": "quality/evidence/ATEL-15/v2/browser/front.png",
+    "back": "quality/evidence/ATEL-15/v2/browser/back.png",
+    "left": "quality/evidence/ATEL-15/v2/browser/left.png",
+    "right": "quality/evidence/ATEL-15/v2/browser/right.png",
+    "detail": "quality/evidence/ATEL-15/v2/browser/detail.png",
+    "mobile": "quality/evidence/ATEL-15/v2/browser/mobile.png",
+    "neckShoulderBack": "quality/evidence/ATEL-15/v2/browser/neck-shoulder-detail.png",
+    "neckShoulderFront": "quality/evidence/ATEL-15/v2/browser/neck-shoulder-front-detail.png",
+    "placementProfile": "quality/evidence/ATEL-15/v2/placement-profile.json",
+    "designerReview": "quality/evidence/ATEL-15/v2/designer-review.md"
+  },
+  "checks": [
+    {
+      "criterion": "Source candidate identity and revision",
+      "score": 5,
+      "passed": true,
+      "observation": "SHA-256 trên file khớp giá trị được giao và entry grab3d-hoodie-clean-v2 trong quality/base-meshes.json.",
+      "evidence": ["quality/candidates/grab3d-hoodie-clean-v2.glb", "quality/base-meshes.json"]
+    },
+    {
+      "criterion": "Silhouette và các góc browser",
+      "score": 3,
+      "passed": false,
+      "observation": "Viewer tải được và có đủ front/back/left/right/detail/mobile. Hoodie nhận diện được, nhưng hai góc bên gần như edge-on và các ảnh không làm rõ phom vai/cổ sạch; dải nổi trên miệng cổ/mũ làm đường viền kém hoàn chỉnh.",
+      "evidence": ["quality/evidence/ATEL-15/v2/browser/front.png", "quality/evidence/ATEL-15/v2/browser/back.png", "quality/evidence/ATEL-15/v2/browser/left.png", "quality/evidence/ATEL-15/v2/browser/right.png", "quality/evidence/ATEL-15/v2/browser/mobile.png"]
+    },
+    {
+      "criterion": "Cấu tạo cổ/vai và dải ngang phía trên cổ/mũ",
+      "score": 2,
+      "passed": false,
+      "observation": "Cận trước cho thấy dải ngang nổi nằm phía sau miệng cổ V; cận sau cho thấy một thanh/mảnh ngang phía trên mũ, hai đầu gồ ghề. Chúng không đọc như đường may hoặc chi tiết hoàn thiện có chủ ý. Nguồn gốc residue chưa thể khẳng định chỉ từ ảnh; cần Designer xác minh, và nếu không phải cấu tạo thì loại bỏ khỏi mesh revision mới.",
+      "evidence": ["quality/evidence/ATEL-15/v2/browser/neck-shoulder-front-detail.png", "quality/evidence/ATEL-15/v2/browser/neck-shoulder-detail.png"]
+    },
+    {
+      "criterion": "UV, material slot và hướng artwork thử",
+      "score": 4,
+      "passed": true,
+      "observation": "Candidate và diagnostic GLB đều có một material hoodie_body_pbr trên mesh 0/primitive 0, TEXCOORD_0. Profile đặt artwork lưng xoay +90 độ bù UV; ký tự ở ảnh back/detail hiển thị đúng chiều. Dấu chest cũng đúng chiều. Đây là vùng thử chẩn đoán, chưa chứng minh mọi vùng in hoặc UV seam an toàn.",
+      "evidence": ["quality/evidence/ATEL-15/v2/placement-profile.json", "quality/evidence/ATEL-15/v2/browser/back.png", "quality/evidence/ATEL-15/v2/browser/detail.png", "quality/evidence/ATEL-15/v2/browser/front.png"]
+    },
+    {
+      "criterion": "Placement lưng không bị hood che",
+      "score": 1,
+      "passed": false,
+      "observation": "Hood phủ rõ phần trên của dấu ATEL·9 / BACK TEST; biểu tượng và phần đầu chữ bị che, làm placement ở giữa lưng không dùng được tại bounds hiện tại. Cần Designer thử vùng in thấp hơn/khác và chụp lại, hoặc đề xuất phom khác nếu không còn vùng lưng sạch.",
+      "evidence": ["quality/evidence/ATEL-15/v2/browser/back.png", "quality/evidence/ATEL-15/v2/browser/detail.png", "quality/evidence/ATEL-15/v2/browser/neck-shoulder-detail.png", "quality/evidence/ATEL-15/v2/placement-profile.json"]
+    },
+    {
+      "criterion": "Placement ngực và clearances",
+      "score": 3,
+      "passed": false,
+      "observation": "Dấu AX/CHEST nằm trên ngực và đọc được; dây rút chồng/lấn nhẹ vào mép phía trong của vùng test. Cần dịch vùng in hoặc định nghĩa clearances để dây không cắt qua artwork thực.",
+      "evidence": ["quality/evidence/ATEL-15/v2/browser/front.png", "quality/evidence/ATEL-15/v2/browser/mobile.png", "quality/evidence/ATEL-15/v2/placement-profile.json"]
+    },
+    {
+      "criterion": "Viewer browser desktop/mobile",
+      "score": 5,
+      "passed": true,
+      "observation": "Kết quả browser ghi loaded, rotated, zoomed, desktop và mobile đều true; errors rỗng. QA đã xem trực tiếp đủ sáu capture chính và hai cận cổ-vai.",
+      "evidence": ["quality/evidence/ATEL-15/v2/browser/browser-result.json", "quality/evidence/ATEL-15/v2/browser/front.png", "quality/evidence/ATEL-15/v2/browser/back.png", "quality/evidence/ATEL-15/v2/browser/left.png", "quality/evidence/ATEL-15/v2/browser/right.png", "quality/evidence/ATEL-15/v2/browser/detail.png", "quality/evidence/ATEL-15/v2/browser/mobile.png"]
+    }
+  ],
+  "blockers": [
+    "Dải ngang nổi phía trên cổ/mũ có đầu gồ ghề, không đọc như cấu tạo hoàn thiện; Designer cần xác minh và sửa mesh nếu là residue.",
+    "Placement lưng ở U 0.50–0.68 / V 0.81–0.89 bị hood che một phần lớn; placement hiện tại không đạt. Designer cần tìm bounds thấp hơn/vùng khác hoặc đề xuất phom thay thế.",
+    "Placement ngực bị dây rút lấn nhẹ vào mép artwork; Designer cần dịch vùng hoặc xác định clearances cho artwork thực."
+  ],
+  "nextOwner": "Designer phụ trách mesh/placement (ATEL-15)",
+  "retest": [
+    "Designer bàn giao mesh revision mới với SHA mới sau khi xác minh/sửa dải ngang cổ-mũ; gửi lại cận trước/sau cổ-vai.",
+    "Designer cập nhật placement-profile để artwork lưng nằm ngoài vùng hood che và dấu ngực không giao với dây rút; xuất diagnostic GLB cùng revision.",
+    "Chụp lại browser thật đủ front/back/left/right/detail/mobile và neck/shoulder closeups; QA kiểm độc lập revision/SHA mới."
+  ]
+}

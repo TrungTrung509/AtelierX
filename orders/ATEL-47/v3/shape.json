@@ -1,0 +1,56 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v3",
+  "garment": {
+    "path": "orders/ATEL-47/v3/designer/garment-gray-v3.glb",
+    "sha256": "c8cb4fd300995973b803ec8bbc903155715d7671fb0f3a190437dee3a3d14277"
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v3/designer/garment-gray-v3.glb",
+      "sha256": "c8cb4fd300995973b803ec8bbc903155715d7671fb0f3a190437dee3a3d14277"
+    },
+    {
+      "path": "orders/ATEL-47/v3/designer/provenance-v3.json",
+      "sha256": "06a26afb7a68bc2abd89a985ed5938d8bbe6bef150fc66a825262c7b1894db61"
+    },
+    {
+      "path": "orders/ATEL-47/v3/designer/placement-v3.md",
+      "sha256": "53665e9bbe56756f97e09298a52bbef1ae25f0fac50e823d734fd89a002a0c99"
+    },
+    {
+      "path": "orders/ATEL-47/v3/designer/build-standalone-shirt.mjs",
+      "sha256": "6eacfd198b1fbda872996e2101e368c7bca78a9e2490bc45f460fb874fc9da65"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/front.png",
+      "sha256": "cd73a365008437fe93d6cf65dfbc48caeb55c745f4eeaa6dd68d55ada041f838"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/back.png",
+      "sha256": "efd013b275dd92927314f404b3b497d2dd6d42dd539fb3d4818469a50934133f"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/side.png",
+      "sha256": "bcf79879c43ca2075996081e526ac8264d4d92cc140d94847f0def5f84b0084a"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/oblique.png",
+      "sha256": "11c81674319f2b907934ba9185446dd43f66af924b79227258648c468d28598f"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v3-shape/browser-result.json",
+      "sha256": "1b3cbdf0dfc977619cae77b2161221796017602f0c2d3798798b6903ad12b929"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-47/v3-shape/index.html",
+      "sha256": "5d68788c485007d133b705573ae5e3fba935804977f93ef1dd1bad4c3c7af9ba"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-47/v3-shape/garment.glb",
+      "sha256": "c8cb4fd300995973b803ec8bbc903155715d7671fb0f3a190437dee3a3d14277"
+    }
+  ],
+  "correctionOf": "orders/ATEL-47/v2/shape.json",
+  "shapeState": "Final focused correction candidate awaiting independent QA for SHAPE-01/02; SHAPE-03 folds preserved from v2; no baseId because geometry is standalone."
+}

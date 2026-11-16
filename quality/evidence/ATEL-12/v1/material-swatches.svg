@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+  <title id="title">ATEL-12/v1 — swatch sáng và tối</title>
+  <desc id="desc">Bảng màu số đề xuất cho vải hoodie đen và vùng in tương phản, đặt trên nền sáng và tối.</desc>
+  <rect width="960" height="480" fill="#f4f4f2"/>
+  <text x="32" y="42" font-family="sans-serif" font-size="24" font-weight="700" fill="#17191d">ATEL-12/v1 · Swatch vật liệu số</text>
+  <text x="32" y="72" font-family="sans-serif" font-size="14" fill="#50545a">Bảng màu định hướng — không phải ảnh render trên model / bằng chứng QA.</text>
+  <g font-family="sans-serif">
+    <rect x="32" y="100" width="432" height="330" rx="14" fill="#e5e5e2"/>
+    <text x="54" y="132" font-size="18" font-weight="700" fill="#303238">Nền sáng</text>
+    <rect x="54" y="154" width="178" height="88" rx="8" fill="#17191D"/><text x="54" y="266" font-size="14" fill="#303238">Fleece đen · #17191D</text>
+    <rect x="250" y="154" width="178" height="88" rx="8" fill="#E7E0D2"/><text x="250" y="266" font-size="14" fill="#303238">Mực ngà · #E7E0D2</text>
+    <rect x="54" y="294" width="178" height="72" rx="8" fill="#AAA69D"/><text x="54" y="390" font-size="14" fill="#303238">Trung gian · #AAA69D</text>
+    <rect x="250" y="294" width="178" height="72" rx="8" fill="#34363A"/><text x="250" y="390" font-size="14" fill="#303238">Bóng than · #34363A</text>
+    <rect x="496" y="100" width="432" height="330" rx="14" fill="#24262a"/>
+    <text x="518" y="132" font-size="18" font-weight="700" fill="#f3f1eb">Nền tối</text>
+    <rect x="518" y="154" width="178" height="88" rx="8" fill="#17191D" stroke="#73767b"/><text x="518" y="266" font-size="14" fill="#f3f1eb">Fleece đen · #17191D</text>
+    <rect x="714" y="154" width="178" height="88" rx="8" fill="#E7E0D2"/><text x="714" y="266" font-size="14" fill="#f3f1eb">Mực ngà · #E7E0D2</text>
+    <rect x="518" y="294" width="178" height="72" rx="8" fill="#AAA69D"/><text x="518" y="390" font-size="14" fill="#f3f1eb">Trung gian · #AAA69D</text>
+    <rect x="714" y="294" width="178" height="72" rx="8" fill="#34363A" stroke="#777a7e"/><text x="714" y="390" font-size="14" fill="#f3f1eb">Bóng than · #34363A</text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v1",
+  "preset": {
+    "path": "orders/ATEL-47/material/pbr-preset-v1.json",
+    "sha256": "6447378c46d3bea0d7c90f1055b55d917847f3eaada3e8544e903dfe5626ea2b",
+    "bytes": 1828
+  },
+  "source": "ATEL-47 owner brief",
+  "shader": "glTF 2.0 metallicRoughness",
+  "parameters": {
+    "baseColorHexSRGB": "#79BCEB",
+    "roughnessFactor": 0.82,
+    "metallicFactor": 0,
+    "stripeColorHexSRGB": "#F8FBFF"
+  },
+  "evidenceScope": "Preset only; no surface GLB generated because shape-review pass and Designer UV/placement mapping are pending."
+}

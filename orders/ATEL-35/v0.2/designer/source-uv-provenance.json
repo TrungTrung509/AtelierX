@@ -1,0 +1,329 @@
+{
+  "order": "ATEL-35",
+  "revision": "v0.2-gray",
+  "status": "shape review pending; not approved/published",
+  "source": {
+    "path": "quality/candidates/user-supplied/t-shirt (1).glb",
+    "sha256": "4edb5292c2a5003dba5200af62ce6cd45f3a4ca1dadbaa94ad8c8553d3e8f241",
+    "registryId": "user-t-shirt-1--4edb5292-v1",
+    "title": "T-shirt",
+    "author": "Sirenko (https://sketchfab.com/sirenko)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "url": "https://sketchfab.com/3d-models/t-shirt-00daf5abf6d44db9a310b8264ad0e834"
+  },
+  "derived": {
+    "path": "orders/ATEL-35/v0.2/designer/garment-v0_2.glb",
+    "sha256": "92bed02f547da276d786c1508106b813f29370ce27d90952f87134493dd88b24",
+    "meshCount": 1,
+    "primitiveCount": 1,
+    "positionCount": 319,
+    "triangleCount": 464,
+    "grayBaseColorFactor": [
+      0.34,
+      0.36,
+      0.38,
+      1
+    ]
+  },
+  "normalization": {
+    "sourceUnitAssumption": "millimeter-like coordinates",
+    "sourceRootScale": 1.3708950281143188,
+    "unitScale": 0.001,
+    "effectiveScale": 0.0013708950281143188,
+    "axisMapping": "source x,y,z -> output x,z,-y",
+    "translationMeters": [
+      0.0043102993,
+      -1.4967004182,
+      -0.0017117048
+    ],
+    "boundsMeters": {
+      "min": [
+        -0.3994243109192848,
+        0,
+        -0.17397672648558637
+      ],
+      "max": [
+        0.3994243109192848,
+        0.7739642915890144,
+        0.17397672648558637
+      ]
+    },
+    "rootTransformBaked": true
+  },
+  "structure": {
+    "connectedComponentsBySharedVertexIndices": 4,
+    "components": [
+      {
+        "id": 1,
+        "triangleCount": 172,
+        "vertexCount": 114,
+        "uvBounds": {
+          "min": [
+            0.019999999552965164,
+            0.3723999857902527
+          ],
+          "max": [
+            0.5471000075340271,
+            0.9800000190734863
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.28221583366394043,
+            0,
+            -0.06279837340116501
+          ],
+          "max": [
+            0.29073867201805115,
+            0.7701553106307983,
+            0.17397671937942505
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "triangleCount": 148,
+        "vertexCount": 101,
+        "uvBounds": {
+          "min": [
+            0.5309000015258789,
+            0.019999999552965164
+          ],
+          "max": [
+            0.9702000021934509,
+            0.6269999742507935
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.28221583366394043,
+            0.001661909045651555,
+            -0.17397671937942505
+          ],
+          "max": [
+            0.29073867201805115,
+            0.7739642858505249,
+            -0.02530316263437271
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "triangleCount": 72,
+        "vertexCount": 52,
+        "uvBounds": {
+          "min": [
+            0.19210000336170197,
+            0.19869999587535858
+          ],
+          "max": [
+            0.5217999815940857,
+            0.3504999876022339
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            0.24826861917972565,
+            0.4815344214439392,
+            -0.1289023756980896
+          ],
+          "max": [
+            0.39942431449890137,
+            0.703874409198761,
+            0.053601302206516266
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "triangleCount": 72,
+        "vertexCount": 52,
+        "uvBounds": {
+          "min": [
+            0.0794999971985817,
+            0.015399999916553497
+          ],
+          "max": [
+            0.41119998693466187,
+            0.1868000030517578
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.39942431449890137,
+            0.46657973527908325,
+            -0.12877091765403748
+          ],
+          "max": [
+            -0.23523648083209991,
+            0.7041336297988892,
+            0.055100101977586746
+          ]
+        }
+      }
+    ],
+    "note": "Low-poly source; connected index islands and visible seams/attachment need shape review."
+  },
+  "uv": {
+    "semantic": "TEXCOORD_0",
+    "accessor": 3,
+    "count": 319,
+    "bounds": {
+      "min": [
+        0.019999999552965164,
+        0.015399999916553497
+      ],
+      "max": [
+        0.9702000021934509,
+        0.9800000190734863
+      ]
+    },
+    "components": [
+      {
+        "id": 1,
+        "triangleCount": 172,
+        "vertexCount": 114,
+        "uvBounds": {
+          "min": [
+            0.019999999552965164,
+            0.3723999857902527
+          ],
+          "max": [
+            0.5471000075340271,
+            0.9800000190734863
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.28221583366394043,
+            0,
+            -0.06279837340116501
+          ],
+          "max": [
+            0.29073867201805115,
+            0.7701553106307983,
+            0.17397671937942505
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "triangleCount": 148,
+        "vertexCount": 101,
+        "uvBounds": {
+          "min": [
+            0.5309000015258789,
+            0.019999999552965164
+          ],
+          "max": [
+            0.9702000021934509,
+            0.6269999742507935
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.28221583366394043,
+            0.001661909045651555,
+            -0.17397671937942505
+          ],
+          "max": [
+            0.29073867201805115,
+            0.7739642858505249,
+            -0.02530316263437271
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "triangleCount": 72,
+        "vertexCount": 52,
+        "uvBounds": {
+          "min": [
+            0.19210000336170197,
+            0.19869999587535858
+          ],
+          "max": [
+            0.5217999815940857,
+            0.3504999876022339
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            0.24826861917972565,
+            0.4815344214439392,
+            -0.1289023756980896
+          ],
+          "max": [
+            0.39942431449890137,
+            0.703874409198761,
+            0.053601302206516266
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "triangleCount": 72,
+        "vertexCount": 52,
+        "uvBounds": {
+          "min": [
+            0.0794999971985817,
+            0.015399999916553497
+          ],
+          "max": [
+            0.41119998693466187,
+            0.1868000030517578
+          ]
+        },
+        "positionBoundsMeters": {
+          "min": [
+            -0.39942431449890137,
+            0.46657973527908325,
+            -0.12877091765403748
+          ],
+          "max": [
+            -0.23523648083209991,
+            0.7041336297988892,
+            0.055100101977586746
+          ]
+        }
+      }
+    ]
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel35-v0_2/index.html",
+    "browserResult": {
+      "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel35-v0_2/index.html",
+      "loaded": true,
+      "rotated": true,
+      "zoomed": true,
+      "desktop": true,
+      "mobile": true,
+      "screenshots": {
+        "front": "quality/evidence/ATEL-35/v0.2/front.png",
+        "back": "quality/evidence/ATEL-35/v0.2/back.png",
+        "side": "quality/evidence/ATEL-35/v0.2/side.png",
+        "oblique": "quality/evidence/ATEL-35/v0.2/oblique.png",
+        "mobile": "quality/evidence/ATEL-35/v0.2/mobile.png"
+      },
+      "errors": []
+    }
+  },
+  "captures": {
+    "front": {
+      "path": "quality/evidence/ATEL-35/v0.2/front.png",
+      "sha256": "bf6d6ce5d18a7653ff489916143d8d55167d517d0dd15e78792cd58502093e83"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-35/v0.2/back.png",
+      "sha256": "273459146d5d36a39d0f9f7f96ab16593bd8ce058b149840dcfd064cd643a6a5"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-35/v0.2/side.png",
+      "sha256": "b9b8788f80d83f4c7ebfb36769aa7a6b7f0cb6c69346a181af20b29ce5073257"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-35/v0.2/oblique.png",
+      "sha256": "00dda3a90505e95de350dd3688f7b3aad7b95632f61859d597ed2a1252a13282"
+    }
+  }
+}

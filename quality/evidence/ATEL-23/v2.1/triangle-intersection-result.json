@@ -1,0 +1,89 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.1",
+  "garmentPath": "orders/ATEL-23/v2.1/designer/garment-v2.1.glb",
+  "garmentSha256": "d910a20b53d022754137060f2f5b0302dddbecdad685577fe0116bdc08975fda",
+  "combinedPath": "orders/ATEL-23/v2.1/fit-evidence/garment-on-mannequin-v2.1.glb",
+  "combinedSha256": "408e3c17167bf1b635195f7ffff77c035170088b16bb3deb6411e94264b49ede",
+  "mannequinPath": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+  "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+  "method": "AABB BVH broad phase over indexed triangles followed by segment-edge vs opposing triangle Moller-Trumbore checks in both directions; geometry in combined GLB world positions; nodes identity transform.",
+  "counts": {
+    "mannequinTriangles": 19574,
+    "garmentTriangles": 203254,
+    "aabbCandidateTrianglePairs": 16345,
+    "crossingOrContactTrianglePairs": 931
+  },
+  "spatialScreen": {
+    "posteriorArmholeBand": {
+      "definition": "0.14 < abs(x) < 0.46 m; 1.35 < y < 1.56 m; z < -0.03 m",
+      "intersectingTrianglePairs": 0,
+      "pointBoundsMeters": null
+    },
+    "neckCollarBand": {
+      "definition": "abs(x) < 0.12 m; 1.50 < y < 1.64 m",
+      "intersectingTrianglePairs": 494,
+      "pointBoundsMeters": [
+        [
+          -0.09081261502026558,
+          0.09011710041284149
+        ],
+        [
+          1.5555137070905913,
+          1.6388330459594727
+        ],
+        [
+          -0.09344819270107124,
+          0.1032249393269418
+        ]
+      ]
+    },
+    "sleeveWristBand": {
+      "definition": "0.60 < abs(x) < 0.80 m; 1.40 < y < 1.56 m",
+      "intersectingTrianglePairs": 68,
+      "pointBoundsMeters": [
+        [
+          -0.7882885396862672,
+          0.7870471327620226
+        ],
+        [
+          1.4719927076460484,
+          1.5089205190765589
+        ],
+        [
+          -0.007054229673871569,
+          0.014895500296825634
+        ]
+      ]
+    },
+    "frontTorsoHipHemBand": {
+      "definition": "abs(x) < 0.20 m; 0.85 <= y < 1.04 m; z > 0",
+      "intersectingTrianglePairs": 360,
+      "pointBoundsMeters": [
+        [
+          -0.17215827006774925,
+          0.174100576595156
+        ],
+        [
+          0.8550000190734863,
+          1.0307858262531135
+        ],
+        [
+          0.0420993500394372,
+          0.1025952016414562
+        ]
+      ]
+    },
+    "upperArmBand": {
+      "definition": "0.20 < abs(x) < 0.60 m; 1.37 < y < 1.56 m",
+      "intersectingTrianglePairs": 0,
+      "pointBoundsMeters": null
+    }
+  },
+  "limitations": [
+    "Pair counts are not unique defect counts; many triangle pairs may represent one local patch.",
+    "Coplanar overlaps may not be detected; intersections are not penetration-depth measurements.",
+    "Expected openings at the neck, cuffs and hem require visual/clearance interpretation; this screen flags contacts for review and does not decide whether they are acceptable."
+  ],
+  "script": "quality/evidence/ATEL-23/v2.1/triangle-intersection-screen.mjs"
+}

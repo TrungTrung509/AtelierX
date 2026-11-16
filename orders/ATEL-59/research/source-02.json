@@ -1,0 +1,39 @@
+{
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-59",
+  "revision": "preparation-round-2",
+  "candidateId": "user-make-me-purr-crop-top-748c1a8b-v1",
+  "source": {
+    "path": "quality/candidates/user-supplied/make_me_purr_crop_top.glb",
+    "sha256": "748c1a8b926c7f5807cbf128acd3cd2e0d7dc5d01f8a4ed9853613bbb8f42a71",
+    "provenance": {
+      "author": "DaaGHrii",
+      "title": "Make Me Purr Crop Top",
+      "url": "https://sketchfab.com/3d-models/make-me-purr-crop-top-a1e9702d686243059cd1eda1f9a16ed1",
+      "license": "CC-BY-4.0 per embedded GLB metadata; owner-authorized project use per quality/USER_SUPPLIED_BASE_POLICY.md"
+    },
+    "assetStructure": {
+      "meshCount": 1,
+      "primitiveCount": 1,
+      "classification": "single crop top mesh; upper-body top, not collared button-down shirt"
+    }
+  },
+  "visualEvidence": {
+    "front": "orders/ATEL-59/research/source-02/front.png",
+    "back": "orders/ATEL-59/research/source-02/back.png",
+    "side": "orders/ATEL-59/research/source-02/side.png",
+    "oblique": "orders/ATEL-59/research/source-02/oblique.png",
+    "browserResult": "orders/ATEL-59/research/source-02/browser-result.json",
+    "previewUrl": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-59/source-02/index.html"
+  },
+  "inspection": {
+    "frontBackObserved": "Front/back screenshots show a standalone sleeveless cropped top with V-shaped front neckline, short cropped hem, and existing pink “MAKE ME PURR” text/graphic. Back is plain with no sleeves or cuffs.",
+    "collarStandAndLeaves": "Absent; V-neckline has no collar stand or collar leaves.",
+    "placketAndButtons": "Absent; no placket or buttons.",
+    "cuffs": "Absent; sleeveless.",
+    "openShell": "Images do not establish natural open shirt openings; topology is a crop top shell.",
+    "naturalDrape": "Bulged cropped-top silhouette with short hem; not a long-sleeved woven shirt.",
+    "decision": "excluded",
+    "reason": "Wrong garment construction for requested blue striped button-down shirt; collar/placket/cuffs are absent, and existing text graphic is not appropriate for reuse."
+  }
+}

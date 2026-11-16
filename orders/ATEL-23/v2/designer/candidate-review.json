@@ -1,0 +1,59 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2",
+  "reviewedBy": "atelierx-designer-0003",
+  "decision": "Bàn giao candidate cho QA retest độc lập; chưa phê duyệt G1.",
+  "geometrySha256": "d51cbc10580d04b6195dae7fc041e297461fe217a94fcbc4487cf07319747f66",
+  "fitPreviewSha256": "9d58af5fe58ad7a6fedd14778b6ea4fef9b38be0b3289b1de1b4a4c7f2829fb8",
+  "sourceFrozenSha256": "87d6d1f1fa98bae641df5578b634ca08a9453026586e314e2ba7d13e59a0c3bd",
+  "summary": "Tái dựng junction thân/tay bằng implicit union; sửa sleeve-root SDF và clipping do rear grid bound. Hai cận posterior armhole hiện cho thấy bề mặt garment liên tục; điểm mannequin arm-surface không nằm ngoài field. QA cần xác minh giao cắt triangle-level và dấu sáng vai trong side captures.",
+  "captures": {
+    "front": {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/front.png",
+      "sha256": "79b328e86a00e0054c8b9f1241d43b26f60b58d2fcb9b548f61a9f3c56ecb56a"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/back.png",
+      "sha256": "16b641eeac225321271dc56d05688b0131fe46b9e06f46ea167917a67be21406"
+    },
+    "left": {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/left.png",
+      "sha256": "d922c75e8c94988b5e98768fe0ea607a886f8ffae28b2484981c54e6bb634ee2"
+    },
+    "right": {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/right.png",
+      "sha256": "8f02e9675b6bbdc4969f835681c0f5c3deab80a18b3b29a2e733e8bcbb62ac62"
+    },
+    "detail": {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/detail.png",
+      "sha256": "357a12781741e15e3306a47caef3ce4e774e034d4957e5620a8ff8a3ca9454be"
+    },
+    "mobile": {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/mobile.png",
+      "sha256": "aea617c8a8741ee0ce8d6d541c3ffd145986703e37549c4a915930f9565166fe"
+    },
+    "posteriorArmholePositiveX": {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/armhole-back-positiveX.png",
+      "sha256": "d149a966bfda99bfa409acdce32b7d7929ebfc0522f566125bc514e3529a0994"
+    },
+    "posteriorArmholeNegativeX": {
+      "path": "quality/evidence/ATEL-23/v2/browser-fit/armhole-back-negativeX.png",
+      "sha256": "b147b04e117cf5290caebba131fb81b942cadf9ef7eb5e0b9002dd92bc0c7d79"
+    }
+  },
+  "checks": {
+    "browserLoaded": true,
+    "browserErrors": [],
+    "mannequinVerticesTested": 1959,
+    "verticesOutsideImplicitGarmentField": 0,
+    "independentQaPending": true,
+    "g1Approved": false
+  },
+  "limitations": [
+    "Parametric diagnostic mesh; not a sewn-garment simulation.",
+    "Point-sample field test is not an independent or exact triangle collision verdict.",
+    "Browser runner rotation flag is false; do not claim rotation interaction pass.",
+    "Artwork/material/viewer/catalog were not changed.",
+    "Side captures show a bright mannequin-colored shoulder detail; QA should determine whether it is harmless visibility or exposure/intersection."
+  ]
+}

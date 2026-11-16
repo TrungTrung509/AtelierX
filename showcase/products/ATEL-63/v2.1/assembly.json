@@ -1,0 +1,46 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v2.1",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "stage": "hollow sweater color repair",
+  "garmentSha256": "69736e2659da1de08145f48bbd60ab8b0abcdaa0fddbf48c2f10c4ab35699cfa",
+  "displaySha256": "ca09e7424368bced2e1720078f1eb8c880c160f09422c635bdb5745051d246f0",
+  "mannequinSha256": null,
+  "mask": {
+    "enabled": false,
+    "removedTriangles": 0,
+    "exception": false
+  },
+  "status": "pass",
+  "errors": [],
+  "warnings": [],
+  "measurements": {
+    "envelopeWidthCm": 34.54251289367676,
+    "garmentLengthCm": 16.09711375377477,
+    "envelopeDepthCm": 8.550355970974662,
+    "upperBodySpanCm": 16.849910383389197
+  },
+  "boundsMeters": {
+    "min": [
+      -0.1727125644683838,
+      0.27866443844728755,
+      -0.049903420522205484
+    ],
+    "max": [
+      0.1727125644683838,
+      0.4396355759850353,
+      0.03560013918754113
+    ]
+  },
+  "displayScale": 0.25,
+  "method": "World-space mesh envelope and horizontal silhouette section at 75% of garment height; v2 measurements multiplied by the model-viewer scale 0.25 to report the final displayed dimensions. Display references only, not sewing or body measurements.",
+  "viewerScale": 0.25,
+  "measurementSource": {
+    "path": "showcase/products/ATEL-63/v2.1/measurements.json",
+    "sha256": "120bbb79e63876453d858c04bf6210ca8df484012414d62c0a9b01e649365913",
+    "derivedFrom": "showcase/products/ATEL-63/v2/measurements.json",
+    "derivedFromSha256": "b390b352bca1a6db8133cb9578ea1e46c7949557a93f88d3d04e360558f30d4c"
+  },
+  "innerLining": false
+}

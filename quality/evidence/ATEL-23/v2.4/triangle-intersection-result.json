@@ -1,0 +1,336 @@
+{
+  "candidatePairs": 47,
+  "intersectionPairs": 0,
+  "candidateDetails": [
+    {
+      "mannequinTriangle": 16950,
+      "garmentTriangle": 883795,
+      "clearanceMeters": 0.0079925,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16950,
+      "garmentTriangle": 883794,
+      "clearanceMeters": 0.0078771,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16957,
+      "garmentTriangle": 883795,
+      "clearanceMeters": 0.0104932,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16957,
+      "garmentTriangle": 883794,
+      "clearanceMeters": 0.0045531,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16949,
+      "garmentTriangle": 883795,
+      "clearanceMeters": 0.0070115,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16949,
+      "garmentTriangle": 883794,
+      "clearanceMeters": 0.003561,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16948,
+      "garmentTriangle": 883795,
+      "clearanceMeters": 0.003483,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16948,
+      "garmentTriangle": 883794,
+      "clearanceMeters": 0.0015826,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16947,
+      "garmentTriangle": 883795,
+      "clearanceMeters": 0.0013844,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16947,
+      "garmentTriangle": 883794,
+      "clearanceMeters": 0.0013844,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 17667,
+      "garmentTriangle": 883797,
+      "clearanceMeters": 0.0038031,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 17667,
+      "garmentTriangle": 883796,
+      "clearanceMeters": 0.0035961,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16947,
+      "garmentTriangle": 883797,
+      "clearanceMeters": 0.0111623,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16947,
+      "garmentTriangle": 883796,
+      "clearanceMeters": 0.0010013,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16946,
+      "garmentTriangle": 883797,
+      "clearanceMeters": 0.0086541,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 16946,
+      "garmentTriangle": 883796,
+      "clearanceMeters": 0.0005931,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 17670,
+      "garmentTriangle": 883797,
+      "clearanceMeters": 0.0054191,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 17670,
+      "garmentTriangle": 883796,
+      "clearanceMeters": 0.0005931,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 17671,
+      "garmentTriangle": 883797,
+      "clearanceMeters": 0.0037874,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 17671,
+      "garmentTriangle": 883796,
+      "clearanceMeters": 0.0016058,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 17666,
+      "garmentTriangle": 883797,
+      "clearanceMeters": 0.0035352,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 17666,
+      "garmentTriangle": 883796,
+      "clearanceMeters": 0.0021113,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 12684,
+      "garmentTriangle": 883978,
+      "clearanceMeters": 0.0187991,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 12684,
+      "garmentTriangle": 883977,
+      "clearanceMeters": 0.0190862,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 9820,
+      "garmentTriangle": 592520,
+      "clearanceMeters": 0.0181558,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 12859,
+      "garmentTriangle": 883953,
+      "clearanceMeters": 0.0132475,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 12859,
+      "garmentTriangle": 883954,
+      "clearanceMeters": 0.0132475,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 12002,
+      "garmentTriangle": 883923,
+      "clearanceMeters": 0.0122499,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 12002,
+      "garmentTriangle": 883922,
+      "clearanceMeters": 0.0063211,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11998,
+      "garmentTriangle": 883923,
+      "clearanceMeters": 0.0105751,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11998,
+      "garmentTriangle": 883922,
+      "clearanceMeters": 0.0058628,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11999,
+      "garmentTriangle": 883923,
+      "clearanceMeters": 0.0053466,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11999,
+      "garmentTriangle": 883922,
+      "clearanceMeters": 0.0031427,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 10387,
+      "garmentTriangle": 883924,
+      "clearanceMeters": 0.0022722,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 10387,
+      "garmentTriangle": 883925,
+      "clearanceMeters": 0.0051858,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11994,
+      "garmentTriangle": 883923,
+      "clearanceMeters": 0.0028309,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11994,
+      "garmentTriangle": 883922,
+      "clearanceMeters": 0.0028309,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11994,
+      "garmentTriangle": 883924,
+      "clearanceMeters": 0.0023011,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11994,
+      "garmentTriangle": 883925,
+      "clearanceMeters": 0.0110607,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11995,
+      "garmentTriangle": 883924,
+      "clearanceMeters": 0.0022722,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 11995,
+      "garmentTriangle": 883925,
+      "clearanceMeters": 0.0105124,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 10386,
+      "garmentTriangle": 883924,
+      "clearanceMeters": 0.0030118,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 10386,
+      "garmentTriangle": 883925,
+      "clearanceMeters": 0.0051229,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 10382,
+      "garmentTriangle": 883924,
+      "clearanceMeters": 0.0030613,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 10382,
+      "garmentTriangle": 883925,
+      "clearanceMeters": 0.004927,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 10383,
+      "garmentTriangle": 883924,
+      "clearanceMeters": 0.0030831,
+      "intersects": false,
+      "point": null
+    },
+    {
+      "mannequinTriangle": 10383,
+      "garmentTriangle": 883925,
+      "clearanceMeters": 0.0046674,
+      "intersects": false,
+      "point": null
+    }
+  ],
+  "firstHits": []
+}

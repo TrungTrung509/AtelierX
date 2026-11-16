@@ -1,0 +1,72 @@
+{
+  "loaded": true,
+  "errors": [],
+  "captures": [
+    {
+      "path": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-oblique-positiveX.png",
+      "sha256": "62dd161aff65dcb86f00e8359330416fe5f6a55d61320cdbde2c2115ed901568",
+      "camera": {
+        "target": {
+          "x": 0.22,
+          "y": 1.475,
+          "z": -0.045
+        },
+        "orbit": {
+          "theta": 2.356194490192345,
+          "phi": 1.2740903539558606,
+          "radius": 1.15
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-oblique-negativeX.png",
+      "sha256": "3bb6ac7cc2329db2da891213b449dd17982039d0e58dbdcf3ffa53877c473e42",
+      "camera": {
+        "target": {
+          "x": -0.22,
+          "y": 1.475,
+          "z": -0.045
+        },
+        "orbit": {
+          "theta": 3.9269908169872414,
+          "phi": 1.2740903539558606,
+          "radius": 1.15
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-rear-wide.png",
+      "sha256": "a2dc974fbb586a1babbbc35c59ce18ec6b73638fe7820f5063c895c3999bbe36",
+      "camera": {
+        "target": {
+          "x": 0,
+          "y": 1.405,
+          "z": -0.045
+        },
+        "orbit": {
+          "theta": 3.296551142525815,
+          "phi": 1.3962634015954636,
+          "radius": 2.25
+        }
+      }
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v2.1/browser-fit/armhole-side-oblique-wide.png",
+      "sha256": "62930e2b52094fa1eb2013ac7d48b1ff2a1a4e1e80af630c8031f51833821712",
+      "camera": {
+        "target": {
+          "x": 0.04,
+          "y": 1.435,
+          "z": 0
+        },
+        "orbit": {
+          "theta": 1.9547687622336491,
+          "phi": 1.361356816555577,
+          "radius": 2.65
+        }
+      }
+    }
+  ],
+  "garmentSha256": "d910a20b53d022754137060f2f5b0302dddbecdad685577fe0116bdc08975fda",
+  "fitPreviewSha256": "408e3c17167bf1b635195f7ffff77c035170088b16bb3deb6411e94264b49ede"
+}

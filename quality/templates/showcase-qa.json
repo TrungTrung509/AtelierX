@@ -1,0 +1,15 @@
+{
+  "orderId": "ATEL-N",
+  "revision": "vN",
+  "deliveryProfile": "showcase-basic-v1",
+  "assembly": "showcase/products/ATEL-N/vN/assembly.json",
+  "assets": {"model": "products/ATEL-N/vN/assets/display.glb", "viewer": "products/ATEL-N/vN/index.html", "content": "products/ATEL-N/vN/content.json"},
+  "brief": {"requiredFeatures": ["Điền các yêu cầu thực tế"]},
+  "featureChecks": [],
+  "evidence": {"front": "", "back": "", "side": "", "oblique": ""},
+  "visual": {"coverage": false, "silhouette": false, "folds": false, "closures": false, "contentMatches": false},
+  "browser": {"loaded": false, "rotated": false, "zoomed": false, "mobile": false},
+  "blockers": ["Chưa QA"],
+  "qaReviewer": "",
+  "leadApproved": false
+}

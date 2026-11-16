@@ -1,0 +1,101 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "reviewType": "independent-new-topology-shape-review",
+  "reviewedAt": "2026-11-15T16:29:29Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "retestOf": ["SHAPE-01", "SHAPE-02"],
+  "garment": {
+    "path": "orders/ATEL-47/v4/designer/garment-gray-v4.glb",
+    "sha256": "493dfca00032176e3cc3178d46ce7ebf5113c9b6c765befdc4b6b2202aa2bccc"
+  },
+  "sourceProvenance": {
+    "path": "orders/ATEL-47/v4/designer/provenance-v4.json",
+    "sha256": "29df9d0c8655f595140fabdfa7331687ca9f6e4c30f617af1e7cf7052efd67dc",
+    "geometryOrigin": "New parametric standalone topology; provenance states no source mesh, ready base, or candidate geometry/reference was used or reused."
+  },
+  "evidence": {
+    "browserResult": {
+      "path": "quality/evidence/ATEL-47/v4-shape/browser-result.json",
+      "sha256": "e8be08ce187f21123a464aa6b4d365a8524f7e79acb072f8a7ce7cc4d3cc4e5f",
+      "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-47/v4-shape/index.html",
+      "loaded": true,
+      "rotated": true,
+      "zoomed": true,
+      "desktop": true,
+      "errors": []
+    },
+    "front": {
+      "path": "quality/evidence/ATEL-47/v4-shape/front.png",
+      "sha256": "68e1e871f1d56eb8bfa451897e23e0f4563439573b68262a30f731758248c801"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-47/v4-shape/back.png",
+      "sha256": "19ad7a34529ccd58fd29ba34253f66a872a97aa125c6e723e33e7511442b99d6"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-47/v4-shape/side.png",
+      "sha256": "e740da4b37e19257dd6f136e457b99270db4594366303e250e6ab3432fffc57a"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-47/v4-shape/oblique.png",
+      "sha256": "d9033f68e5fe9b647488f9e768ff541c89345d03bea36dda422068059fb38751"
+    }
+  },
+  "checks": {
+    "garmentTypeAndCoverage": {
+      "pass": true,
+      "observation": "All four captures read as a standalone long-sleeve shirt with front placket/buttons, cuffs, and a shirt collar. No mannequin or body is present.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v4-shape/front.png",
+        "quality/evidence/ATEL-47/v4-shape/back.png",
+        "quality/evidence/ATEL-47/v4-shape/side.png",
+        "quality/evidence/ATEL-47/v4-shape/oblique.png"
+      ]
+    },
+    "shoulderAndArmholeTopology": {
+      "pass": true,
+      "observation": "The new shoulder yokes bridge the front/back body edges and the sleeve-root closures meet the swept sleeves. Front, back, side, and oblique views show continuous shoulders and armholes without the open dark gaps seen in v1-v3; the small edge shadows read as seams, not openings.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v4-shape/front.png",
+        "quality/evidence/ATEL-47/v4-shape/back.png",
+        "quality/evidence/ATEL-47/v4-shape/side.png",
+        "quality/evidence/ATEL-47/v4-shape/oblique.png"
+      ]
+    },
+    "collarAndNeckline": {
+      "pass": true,
+      "observation": "The neckline facing and collar stand now sit on the neckline, with both collar leaves attached at the front boundary. The four views read as a joined pointed office-shirt collar; no detached cylindrical ring or open neck seam is visible.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v4-shape/front.png",
+        "quality/evidence/ATEL-47/v4-shape/back.png",
+        "quality/evidence/ATEL-47/v4-shape/side.png",
+        "quality/evidence/ATEL-47/v4-shape/oblique.png"
+      ]
+    },
+    "silhouetteVolumeAndFolds": {
+      "pass": true,
+      "observation": "Regular-fit torso and swept sleeves retain visible volume; restrained torso drape from the previously approved correction remains visible. The new topology does not flatten the garment.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v4-shape/front.png",
+        "quality/evidence/ATEL-47/v4-shape/back.png",
+        "quality/evidence/ATEL-47/v4-shape/side.png",
+        "quality/evidence/ATEL-47/v4-shape/oblique.png"
+      ]
+    },
+    "buttonsAndCuffs": {
+      "pass": true,
+      "observation": "The front placket and button row remain legible, and both long sleeves end in cuffs with visible cuff buttons.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v4-shape/front.png",
+        "quality/evidence/ATEL-47/v4-shape/oblique.png"
+      ]
+    }
+  },
+  "findings": [],
+  "decision": "pass",
+  "summary": "QA độc lập duyệt phom xám ATEL-47/v4. Cả 11 hash khớp manifest; provenance xác nhận topology standalone mới, không dùng mesh nguồn; browser preview desktop load/rotate/zoom đạt, không lỗi. Vai/armhole và cổ/neckline liền topology trong bốn góc; folds được giữ pass, áo vẫn có volume, tay dài, khuy trước/cổ tay và không mannequin. Cho phép chuyển Material; màu/artwork, content, viewer và QA cuối vẫn chưa duyệt."
+}

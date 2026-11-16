@@ -1,0 +1,27 @@
+{
+  "ATEL-23:draft": {
+    "revision": "v4",
+    "model": "showcase/products/ATEL-23/v4/assets/display.glb",
+    "sha256": "c35bc28175d605321253e63eb334be3d1d0fdf46ade47eeeb48385c59516a255"
+  },
+  "ATEL-23:final": {
+    "revision": "v4.1",
+    "model": "showcase/products/ATEL-23/v4.1/assets/display.glb",
+    "sha256": "661160106217cf94ca7750e54ca44044746255f24a0a33c939e9d3483282ffa6"
+  },
+  "ATEL-23:correction": {
+    "revision": "v4.2",
+    "model": "showcase/products/ATEL-23/v4.2/assets/display.glb",
+    "sha256": "d134e30d20da78ec0bce4b08d7d6a8006b18ca14ed283123423c8bc84949f0ee"
+  },
+  "ATEL-23:repair": {
+    "revision": "v4.3",
+    "model": "showcase/products/ATEL-23/v4.3/assets/display.glb",
+    "sha256": "36cb5c099692418772b9076247ed77112e01b673d355fb78df6c7fac90493c9c"
+  },
+  "ATEL-23:verified-fix": {
+    "revision": "v4.4",
+    "model": "showcase/products/ATEL-23/v4.4/assets/display.glb",
+    "sha256": "36af61d8a9fa6a965585a96b3972c7d594d37830bf9e29d11b44db1702622ed3"
+  }
+}

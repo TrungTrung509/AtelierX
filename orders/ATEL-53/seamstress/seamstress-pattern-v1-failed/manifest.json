@@ -1,0 +1,41 @@
+{
+  "order": "ATEL-53",
+  "workItem": "ec090719-14b6-4e75-8615-7260c53cdade",
+  "revision": "seamstress-pattern-v1-failed",
+  "stage": "designer-self-review-blocked",
+  "decision": "shape-fail; do not handoff to QA or Material",
+  "source": {
+    "project": "Seamstress",
+    "repository": "https://github.com/MangoDragonHub/Seamstress",
+    "commit": "9c5cf4a0fd7901273f4f5be6fbb6bac8542f6e91",
+    "license": "MIT",
+    "licensePath": "/tmp/atelierx-seamstress-preflight/source/LICENSE",
+    "licenseSha256": "c1d6158e717e54dbb92dead7fd3e400b3011ca3a82e730a6fd565eee4bb3e1bb"
+  },
+  "toolchain": {
+    "seamstress": "locally built from pinned source",
+    "dotnetSdk": "9.0.321",
+    "qt": "6.11.3 Quick3D",
+    "exporter": "Seamstress Core GltfExporter; avatar excluded; one garment mesh exported"
+  },
+  "artifacts": [
+    {"path":"shirt-gray-v1.glb","bytes":171320,"sha256":"afc14406652599b3979c377a781983d0d3623ef9dddc617450e9486e25aba2ff","role":"immutable gray garment-only snapshot; failed candidate"},
+    {"path":"simulated-source.garment.json","bytes":86270,"sha256":"ccea9e583a2876d91ebebc8a213b097baf83d88d65ccee7e6bc23ec521b15f2a","role":"saved simulation input/result; avatar is a fitting aid here only"},
+    {"path":"pattern-draft.py","bytes":4178,"sha256":"4623f0e4f71e31554f712c1bba9248c68a8fbf2e48ea5d01ceb10a4a12df6d5a","role":"pattern draft generator"},
+    {"path":"captures/tool-viewport-self-review.png","bytes":473584,"sha256":"6ef11247f5872bb75ba3b92a3da81856b58828e5f79c487d8bbccd5ca089e17b","role":"actual Seamstress app view of simulated garment for failure diagnosis; avatar visible; tool evidence only, not standalone shape evidence"}
+  ],
+  "selfReview": {
+    "result": "fail",
+    "observed": [
+      "Both sleeve/shoulder transitions visibly detach and hang away from the torso.",
+      "Neck opening/collar pieces are broken and jagged rather than a shirt collar.",
+      "Torso panels are incomplete/uneven and do not read as a wearable shirt silhouette."
+    ],
+    "seamDiagnostics": "seam-diagnostics.txt",
+    "captureCompleteness": "Only one tool viewport screenshot retained. Six-angle/three-closeup garment evidence was not produced because the first actual-shape review failed; no QA handoff is authorized."
+  },
+  "provenanceNotes": {
+    "priorCandidates": "No geometry reused from CC0, procedural v1/v2, Blender proxy-collision, or OpenSew2 artifacts.",
+    "immutability": "This failed snapshot and evidence are preserved; do not overwrite or promote as final."
+  }
+}

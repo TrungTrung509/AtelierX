@@ -1,0 +1,159 @@
+{
+  "orderId": "ATEL-9",
+  "revision": "clean-v2-neckfix-placement-v3",
+  "gate": "G1",
+  "decision": "pass",
+  "baseMeshId": "grab3d-hoodie-clean-v2",
+  "geometryRevision": "hoodie-mesh-revision.glb",
+  "diagnosticRevision": "ATEL-17 placement diagnostic",
+  "garmentType": "hoodie",
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false,
+  "candidateStatus": "candidate",
+  "sourceSha256": "42dc0075e632eab84256f71d9cc88b6eb6d54d04cbff3682f548f62e55994a13",
+  "geometrySha256": "34374edd321b7e8396656e7d5a003e359d9349c5cc35bb5bc37a5c99145141bf",
+  "diagnosticSha256": "964e87b98a215cf1c8b86ce0b42f6a881b384202caf8faeaca3928aa6c64ea92",
+  "summary": "QA độc lập khuyến nghị PASS G1 cho revision clean-v2-neckfix-placement-v3. Source, geometry revision và diagnostic SHA khớp task; browser evidence manifest khớp hash cả tám ảnh. Dải cong trên đỉnh hood đọc như viền/đường ráp vải liên tục, không phải thanh rời hay residue; badge lưng có khoảng hở nhìn thấy với hood và gấu; badge ngực không giao dây rút hoặc túi. Viewer load/rotate/zoom desktop/mobile đạt, không có lỗi. Đây là quyết định QA cho G1; base mesh vẫn candidate và cần Lead quyết định duyệt.",
+  "source": "quality/candidates/grab3d-hoodie-clean-v2.glb",
+  "geometryRevisionFile": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/hoodie-mesh-revision.glb",
+  "diagnosticFile": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/diagnostic.glb",
+  "placementProfile": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/placement-profile.json",
+  "materialSlot": "hoodie_body_pbr (mesh 0 / primitive 0 / material 0); TEXCOORD_0",
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie-clean-v2-rev03/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": []
+  },
+  "evidence": {
+    "browserResult": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/browser-result.json",
+    "captureManifest": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser-evidence-manifest.json",
+    "front": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/front.png",
+      "sha256": "2380ff67a1dcb4890607326b0c1595dae134eb1e2f66f7df0630bb973ebe41cb"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/back.png",
+      "sha256": "38a406d362857044abbf1503597de6916139fe6cabf3f100c3575b32e5e5f6b2"
+    },
+    "left": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/left.png",
+      "sha256": "57be956a82a42bb59cd32b07c7e79a0a3cb3056c046cff2f4e81618b8407df60"
+    },
+    "right": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/right.png",
+      "sha256": "33e76495d6b3bc178236af6898aeeefa39953eef310cd9db5aea3527c07d9861"
+    },
+    "detail": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/detail.png",
+      "sha256": "2135e797dd03e75d4704e4e0250a771241f6828be0671746faff58c1e5c6561a"
+    },
+    "mobile": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/mobile.png",
+      "sha256": "25f9db447aeb2b3c7d4d70854570e7a383baa5dd4a13e116c8d5665c3580e945"
+    },
+    "neckShoulderFront": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/neck-shoulder-front-detail.png",
+      "sha256": "7e46fbc549264ab962dfd93b5a5dab80a9891f12796139a0c50001118c47c789"
+    },
+    "neckShoulderBack": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/neck-shoulder-detail.png",
+      "sha256": "015a642186348b9b474e86fac21c01eaa0b9a1a3447b7e947e464566dc37e3e1"
+    },
+    "filterDetails": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/filter-details.json",
+    "designerReview": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/designer-review.md"
+  },
+  "checks": [
+    {
+      "criterion": "Source, mesh revision, diagnostic SHA and revision linkage",
+      "score": 5,
+      "passed": true,
+      "observation": "The three on-disk GLB hashes match the assigned values. placement-profile.json and browser evidence manifest identify clean-v2-neckfix-placement-v3 and the same diagnostic SHA.",
+      "evidence": [
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/placement-profile.json",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser-evidence-manifest.json",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/filter-details.json"
+      ]
+    },
+    {
+      "criterion": "Diagnostic GLB geometry matches geometry revision",
+      "score": 5,
+      "passed": true,
+      "observation": "Independently compared GLB accessor payloads: POSITION, NORMAL, TEXCOORD_0 and index data are byte-identical between hoodie-mesh-revision.glb and diagnostic.glb; both contain 19,496 triangles. Diagnostic adds placement texture/material image without changing tested geometry.",
+      "evidence": [
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/hoodie-mesh-revision.glb",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/diagnostic.glb"
+      ]
+    },
+    {
+      "criterion": "Neck/shoulder and retained hood-edge contour",
+      "score": 4,
+      "passed": true,
+      "observation": "The prior front cross-bar and two isolated rear strips are absent. In front and rear closeups, the remaining shallow curve follows the crown edge of the hood, blends into the same fabric surface/material, and has no free dangling segment or jagged ends. It reads as a fabric edge/seam rather than residue. Tiny raised transitions at the ends are visible but do not form a blocking detached part.",
+      "evidence": [
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/neck-shoulder-front-detail.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/neck-shoulder-detail.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/filter-details.json"
+      ]
+    },
+    {
+      "criterion": "Back badge clearance from hood and hem",
+      "score": 4,
+      "passed": true,
+      "observation": "Back and detail captures show the complete diagnostic badge below the hood footprint and above the hem seam, with visible gaps at both edges. The bottom gap is modest but remains visibly clear; no hood or hem overlap is present.",
+      "evidence": [
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/back.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/detail.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/placement-profile.json"
+      ]
+    },
+    {
+      "criterion": "Chest badge clearance from drawcords and pocket",
+      "score": 4,
+      "passed": true,
+      "observation": "Chest badge appears on viewer-left as configured and does not intersect either drawcord or the kangaroo pocket in front, detail, or mobile captures.",
+      "evidence": [
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/front.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/detail.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/mobile.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/placement-profile.json"
+      ]
+    },
+    {
+      "criterion": "Material slot and UV placement",
+      "score": 4,
+      "passed": true,
+      "observation": "Geometry revision and diagnostic GLB each contain one hoodie_body_pbr material on mesh 0/primitive 0 with TEXCOORD_0. Diagnostic text is upright at chest and back; profile records the +90 degree back rotation. The marks are placement diagnostics, not production artwork, so this verifies UV/clearance rather than final art quality.",
+      "evidence": [
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/placement-profile.json",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/front.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/back.png"
+      ]
+    },
+    {
+      "criterion": "Viewer loads and interacts on desktop/mobile",
+      "score": 5,
+      "passed": true,
+      "observation": "browser-result.json reports loaded, rotated, zoomed, desktop and mobile all true with errors empty. QA directly viewed all six browser captures and both closeups.",
+      "evidence": [
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/browser-result.json",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/front.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/back.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/left.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/right.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/detail.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/mobile.png"
+      ]
+    }
+  ],
+  "blockers": [],
+  "nonBlockingNotes": [
+    "The retained hood-edge contour has small raised transitions at its ends; current browser evidence supports treating it as a seam/edge, not detached residue.",
+    "The back badge's hem clearance is visible but modest. Preserve this clearance when applying production artwork; the current artwork is diagnostic only."
+  ],
+  "nextOwner": "Studio Lead decides G1 and any base-mesh registry/catalog state after reviewing this QA report.",
+  "nextStep": "Lead independently reviews the captures/report and decides whether to approve the candidate. No registry or catalog change was made by QA."
+}

@@ -1,0 +1,3 @@
+Xây dựng AtelierX cho người dùng muốn xem thử một ý tưởng áo trước khi may. Người dùng chỉ cần nhắn loại áo và họa tiết vào #general của AtelierX Fashion Studio. Sáu agent trên Crewly tự phân công, thiết kế, dựng mẫu 3D và kiểm tra. Studio Lead tự quyết các chi tiết còn mở và duyệt mẫu cuối. Người dùng có thể theo dõi công việc thực tế của từng phòng, xem bản nháp và xoay chiếc áo hoàn chỉnh ngay trên web.
+
+Bản đầu hỗ trợ áo thun oversize trên phom có sẵn, với một họa tiết ở mặt trước hoặc sau. Ví dụ, yêu cầu “áo thun đen, cá chép đỏ ở lưng” được xem là hoàn thành khi web hiển thị đúng chiếc áo đã duyệt, mở ở góc nhìn từ sau và cho phép xoay 360°, phóng to họa tiết. Người dùng không cần duyệt trung gian hay tải file.

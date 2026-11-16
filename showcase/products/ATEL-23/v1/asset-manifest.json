@@ -1,0 +1,46 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v1",
+  "deliveryProfile": "mannequin-v1",
+  "state": "scaffold-awaiting-fit-qa-g1-and-material-manifest",
+  "mannequin": {
+    "path": "assets/mannequin-180cm-v1.glb",
+    "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "profile": "quality/mannequin-fit.json"
+  },
+  "garment": {
+    "source": "orders/ATEL-23/v1/designer/garment-v1.glb",
+    "sha256": "87d6d1f1fa98bae641df5578b634ca08a9453026586e314e2ba7d13e59a0c3bd",
+    "fitManifest": "orders/ATEL-23/v1/designer/fit.json",
+    "fitManifestSha256": "acfb9a9b0b1f26b6dab7588b10eb3e54c4827ba27c9f1056098d9811505d5ba1",
+    "fitPreview": "orders/ATEL-23/v1/fit-evidence/garment-on-mannequin-v1.glb",
+    "fitPreviewSha256": "977a6d60620b35ed63df1107c581037280b0ca1db7a8028d7d6b22ef6da4b2c4",
+    "status": "designer-fit-handoff; independent QA pending; not approved",
+    "uvAttribute": true,
+    "independentQaPending": true
+  },
+  "material": {
+    "source": "orders/ATEL-23/v1/material/material.json",
+    "sha256": "f2cfafc1888e551771c91c3a1f7bf95a78f4ef5d2a2fe46f6c660737b55c0436",
+    "manifest": "orders/ATEL-23/v1/material/manifest.json",
+    "manifestSha256": "ad204a09a1780765febe4c750ff9141e485bad7404519171d821d71babb800e1",
+    "textures": {
+      "base-color.png": "4fa18ae8037b03290b1e584d4c3d9705deb2820f5789c4cce04a1077af96ed10",
+      "roughness.png": "10f44823550c6b818c4e6111a890f43d6300cec40c53a6203173a7a8ae6d9509",
+      "normal.png": "c6dbe5aa2859192bd525d7a8dc5c89ebb480fb2b318b16c8635a565a29096ef1"
+    },
+    "status": "material manifest still references previous garment SHA f24b498f2d0ae6b1bbbf3dab3213f32f51c957b6820acdbce50fd0eb40012ce5; await backend handoff updated for frozen garment SHA 87d6d1f1fa98bae641df5578b634ca08a9453026586e314e2ba7d13e59a0c3bd"
+  },
+  "artwork": {
+    "source": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+    "path": "assets/artwork/atel23-cityline-microprint-v1.svg",
+    "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99"
+  },
+  "content": {
+    "source": "orders/ATEL-23/v1/researcher/content.json",
+    "sourceSha256": "34319660f8839af5018add2ad918dc361933b4e691d2bc2b014b7e9547622c4b",
+    "integratedPath": "content.json",
+    "integratedSha256": "484dc3275c1bc8775e44db83fdcbc80bd287ed0f78af88326c60dd27a3cd8bd8"
+  },
+  "display": null
+}

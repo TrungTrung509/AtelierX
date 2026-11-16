@@ -1,0 +1,84 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v3",
+  "reviewType": "independent-early-shape-retest",
+  "reviewedAt": "2026-11-15T12:04:00Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "retestOf": ["SHAPE-01", "SHAPE-02"],
+  "garment": {
+    "path": "orders/ATEL-41/v3/designer/garment-gray-authored-v3.glb",
+    "sha256": "ca03d97c8f96c6e9fe1f1bf30bedc90c7070b980b7b5f71901ae9b52e26742d7"
+  },
+  "sourceProvenance": {
+    "path": "orders/ATEL-41/v3/designer/provenance-v3.json",
+    "sha256": "8f76fa7929cde3f48e356f2182a5837d4cc724c592e155487c5c0bf64b920bdf",
+    "referenceBaseId": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1",
+    "referenceRole": "Silhouette reference only; provenance states the authored garment includes no source mesh, texture, logo, patch, or label."
+  },
+  "evidence": {
+    "browserResult": {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/browser-result.json",
+      "sha256": "83c0a58cff299442eaa6361d6e9b201d360bd9aa9897cd1d94ed2d9d344aa09e",
+      "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel41-shape-v1/index.html",
+      "loaded": true,
+      "rotated": true,
+      "zoomed": true,
+      "desktop": true,
+      "errors": []
+    },
+    "front": {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/front.png",
+      "sha256": "ba85b311fa17d36c451215d713507289c6f642b7b95470a9f41276ac11ebbe5a"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/back.png",
+      "sha256": "963ddf406196aa4b73d9338a4f622bb80a112f95856d1434eca80ed1c9e03f15"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/side.png",
+      "sha256": "01ba5594a301cf20f8a6c535e88c13ff785090238723409bc6328cc68b1edd6a"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/oblique.png",
+      "sha256": "dfeb85f053bbd8096ade3506b896674c9f5f31ae041cb7f1f59560fa457bb4e0"
+    }
+  },
+  "checks": {
+    "beltLoops": {
+      "pass": true,
+      "observation": "Distinct raised loop straps cross the waistband and are identifiable from the front, back, side and oblique views. They read as attached loops rather than the plain continuous band from v2.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/front.png",
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/back.png",
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/side.png",
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/oblique.png"
+      ]
+    },
+    "hemDrawcords": {
+      "pass": true,
+      "observation": "Cord exits and hanging ends are clearly visible at both cuff channels from front and back; the oblique and side views also show the cords attached at the hems. The drawstrings are distinguishable from the cuff seam bands.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/front.png",
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/back.png",
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/side.png",
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/oblique.png"
+      ]
+    },
+    "retainedGarmentShape": {
+      "pass": true,
+      "observation": "The four views still read as standalone straight-leg cargo trousers with a continuous seat, visible front button/fly, two attached thigh pockets, and broad body volume. No mannequin or detached part is apparent. This is shape-only approval; surface/color/content/final viewer QA remain pending.",
+      "evidence": [
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/front.png",
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/back.png",
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/side.png",
+        "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/oblique.png"
+      ]
+    }
+  },
+  "findings": [],
+  "decision": "pass",
+  "summary": "QA độc lập retest ATEL-41/v3 đạt hai correction SHAPE-01/02: đỉa cạp đọc rõ ở cả bốn góc; dây rút có lối ra và đầu dây thấy được tại cả hai gấu. Hash manifest/GLB/provenance/captures khớp. Duyệt phom xám để chuyển Material; chưa duyệt màu/chất liệu, content hay viewer final."
+}

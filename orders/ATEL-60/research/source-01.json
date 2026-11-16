@@ -1,0 +1,44 @@
+{
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-60",
+  "round": 3,
+  "candidateId": "3dassets-clothing-rail-shirt-on-hanger-962569c5",
+  "source": {
+    "path": "orders/ATEL-60/research/source-01/source.glb",
+    "sha256": "0cb829abe2b0a8549dc15e26b1f60ba2ae374376303fab8a3b43266484db3e0a",
+    "title": "Shirt on a hanger (Clothing Rail and Wardrobe)",
+    "author": "3D Assets",
+    "sourcePage": "https://3dassets.dev/assets/clothing-rail-and-wardrobe-shirt-on-hanger-962569c5",
+    "downloadUrl": "https://cdn.3dassets.dev/assets/35448/v1/model.glb",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "metadataSource": "3DAssets.dev listing; AI used, contributor-reported model Claude Opus 5"
+  },
+  "publishedSpecs": {
+    "dimensionsMetres": [
+      0.624,
+      0.851,
+      0.15
+    ],
+    "triangles": 1364,
+    "materials": 4,
+    "animations": 0
+  },
+  "visualEvidence": {
+    "front": "orders/ATEL-60/research/source-01/front.png",
+    "back": "orders/ATEL-60/research/source-01/back.png",
+    "side": "orders/ATEL-60/research/source-01/side.png",
+    "oblique": "orders/ATEL-60/research/source-01/oblique.png",
+    "browserResult": "orders/ATEL-60/research/source-01/browser-result.json"
+  },
+  "inspection": {
+    "observed": "Front/back/oblique show off-white long-sleeved shirt on a shaped hanger; blue cuffs and a narrow blue front placket; rear shell is plain and nearly planar.",
+    "collar": "Listing identifies a stand collar; captures show a narrow band only, no two turned collar leaves. Fails collar stand + leaves requirement.",
+    "placketAndButtons": "Listing states five modelled buttons and buttoned placket; visible placket is a simple narrow strip with minimal button detail.",
+    "cuffs": "Blue cuff bands visible at both sleeve ends.",
+    "openings": "Hanger and shirt are a single display composition; captures do not prove natural open body/cuff shell edges after removing hanger.",
+    "drape": "Static 1,364-triangle geometry on hanger; no cloth simulation per listing; visible body is straight/flat with negligible garment folds.",
+    "decision": "excluded",
+    "reason": "The collar is a stand band without visible turned leaves, hanger display is built into the composition, and static shell does not show the natural volume/folds required by invisible-body-v1."
+  }
+}

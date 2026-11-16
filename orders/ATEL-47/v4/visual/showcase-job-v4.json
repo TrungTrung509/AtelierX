@@ -1,0 +1,13 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "garment": "orders/ATEL-47/v4/material/garment-surface-v4.glb",
+  "garmentType": "shirt",
+  "maskBody": false,
+  "material": {
+    "name": "Cotton-poplin mô phỏng · xanh da trời sáng",
+    "source": "orders/ATEL-47/v4/material/surface-manifest-v4.json; preset thị giác orders/ATEL-47/material/pbr-preset-v1.json"
+  }
+}

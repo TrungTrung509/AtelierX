@@ -1,0 +1,127 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "v1.2-surface-v1",
+  "stage": "qa-final",
+  "decision": "pass",
+  "qaWorkItemId": "92ff0d6b-d686-441f-889e-55756bafa5a2",
+  "visualManifest": {
+    "path": "orders/ATEL-53/v1/visual/visual-manifest.json",
+    "sha256": "cced31754818126905e37733027ef5025e69cc0e348f9db57de372612c674dd2"
+  },
+  "report": {
+    "path": "quality/reports/ATEL-53/v1.2-surface-v1-final.json",
+    "sha256": "639a8bd18aeea9f1b8d9933889cbd5692e2b70c924d72553c0faf3e732c773f3"
+  },
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-53/v1.2-surface-v1-final.json",
+      "sha256": "639a8bd18aeea9f1b8d9933889cbd5692e2b70c924d72553c0faf3e732c773f3",
+      "bytes": 11403
+    },
+    {
+      "path": "quality/reports/ATEL-53/v1.2-surface-v1-runtime-check.json",
+      "sha256": "6d2b6f1e7cd256d85308e52c9ad6af93086245dfd98615750128125bfae4b250",
+      "bytes": 1317
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/visual-manifest.json",
+      "sha256": "cced31754818126905e37733027ef5025e69cc0e348f9db57de372612c674dd2",
+      "bytes": 7830
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/surface.json",
+      "sha256": "b177b5556649e9f03d045bde53a422cf3daf9cb6ba61e518572369569f123160",
+      "bytes": 9748
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/content/content-manifest.json",
+      "sha256": "82bb048e967b149b3e09a1fae9d59e58c7240c19fb8526d9b1bc46bf5c12d8b3",
+      "bytes": 2293
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/content/content.json",
+      "sha256": "7b5767dafa2b2678f74ebca50cb97ae685d3a81fea6ee8b87884067f43692593",
+      "bytes": 4430
+    },
+    {
+      "path": "showcase/products/ATEL-53/v1.2-surface-v1/assets/display.glb",
+      "sha256": "bc15ebd82d9b4ca3ddbdd3d7792f139313cf37687895a462b8c86ad5aa42793b",
+      "bytes": 2423128
+    },
+    {
+      "path": "showcase/products/ATEL-53/v1.2-surface-v1/assembly.json",
+      "sha256": "96b1dda08460e9231c02986c13b8e970d12eae778c5cfb28c9a5827cc628db29",
+      "bytes": 1003
+    },
+    {
+      "path": "showcase/products/ATEL-53/v1.2-surface-v1/measurements.json",
+      "sha256": "21e7bbd18b82aa8d6c0e0d0080d54a6c66c6e21fb73a8e5206a683e349bfeb3f",
+      "bytes": 342
+    },
+    {
+      "path": "showcase/products/ATEL-53/v1.2-surface-v1/content.json",
+      "sha256": "7b5767dafa2b2678f74ebca50cb97ae685d3a81fea6ee8b87884067f43692593",
+      "bytes": 4430
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/browser-result.json",
+      "sha256": "2b68e7501435690768907cbbcf1a34195f16f3331e01584c8d70e8b887ae01a9",
+      "bytes": 570
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/closeup-result.json",
+      "sha256": "4df916b65d19eed975d6e84c9f8542172c6651a16ee451e7d4864a29fa968fb9",
+      "bytes": 311
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/front.png",
+      "sha256": "df3b15224910d06831f4a13bc3d09a2269fd18251aba046fe336f0a8c6ba98b7",
+      "bytes": 471797
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/back.png",
+      "sha256": "8f7b7e335706940b83e3175fe7ef779118cab129e1478d249b8beecdde99fa1a",
+      "bytes": 475615
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/side.png",
+      "sha256": "b07147114472b74f1040e946f662cb670fa6464274e92badffab552939f8dd26",
+      "bytes": 440370
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/oblique.png",
+      "sha256": "0a6aa703abced564d3f11d64c858f381e0762d1d416d8026dd79f62ae270b249",
+      "bytes": 473736
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/top.png",
+      "sha256": "a5a553b93259a66614784a35a2bcceadb9b92323ce609c32a91d10e73776ecf5",
+      "bytes": 414781
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/bottom.png",
+      "sha256": "ba3dcc6e88309ea0ae82efe954d258872c08dbe32ce2454e798a89f20cd093f8",
+      "bytes": 451127
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/collarCloseup.png",
+      "sha256": "0a27dd144dd9aac9305d283fb258c6e0e44041ac7219b389308481d54d1efc27",
+      "bytes": 402324
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/placketSideCloseup.png",
+      "sha256": "136151c0f5e1b8bd5e8f7373074ae646b1e0065a80420b0f59ef947a5a0f9b1f",
+      "bytes": 474515
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/cuffCloseup.png",
+      "sha256": "7fae71fccfe450a96081d9f8eadf012b424fe554bf87f64ac8d4cf96d2fddf42",
+      "bytes": 413379
+    },
+    {
+      "path": "orders/ATEL-53/v1/visual/evidence/cuffLeftCloseup.png",
+      "sha256": "6390910baea358acb887aa589c6514b37b615740b088a592a5744444b5fbaa78",
+      "bytes": 417303
+    }
+  ]
+}

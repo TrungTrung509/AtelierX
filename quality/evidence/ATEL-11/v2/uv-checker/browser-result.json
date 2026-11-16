@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie-uv-checker-v2/index.html",
+  "loaded": true,
+  "rotated": false,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-11/v2/uv-checker/front.png",
+    "back": "quality/evidence/ATEL-11/v2/uv-checker/back.png",
+    "left": "quality/evidence/ATEL-11/v2/uv-checker/left.png",
+    "right": "quality/evidence/ATEL-11/v2/uv-checker/right.png",
+    "detail": "quality/evidence/ATEL-11/v2/uv-checker/detail.png",
+    "mobile": "quality/evidence/ATEL-11/v2/uv-checker/mobile.png"
+  },
+  "errors": []
+}

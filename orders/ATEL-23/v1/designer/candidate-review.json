@@ -1,0 +1,30 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v1",
+  "reviewedBy": "atelierx-designer-0003",
+  "scope": "Tối đa hai phom sơ mi nội bộ; kiểm garment type, mesh/UV và khả năng làm phom tham chiếu. Ảnh kiểm tra nguồn nằm tại quality/evidence/ATEL-23/v1/source-inspection/.",
+  "candidates": [
+    {
+      "id": "user-white-shirt-black-leather-skirt-outfit-48f2e9ba-v1",
+      "path": "quality/candidates/user-supplied/white_shirt_black_leather_skirt_outfit.glb",
+      "sha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "garmentType": "outfit",
+      "meshCount": 13,
+      "primitiveCount": 13,
+      "hasTEXCOORD_0": true,
+      "decision": "Dùng làm referenceBaseMeshId cho phong cách sơ mi; không lấy trực tiếp làm garment bàn giao vì là outfit gồm áo và chân váy, vùng áo không được tách thành một garment riêng có kiểm soát. Hình học v1 được dựng riêng theo mannequin-v1."
+    },
+    {
+      "id": "user-tshirt-c21ef90d-v1",
+      "path": "quality/candidates/user-supplied/tshirt.glb",
+      "sha256": "c21ef90d256b1f28177e8468cc9f69a83dbdd0cc4111addc23f9893e82a1103a",
+      "garmentType": "tshirt",
+      "meshCount": 4,
+      "primitiveCount": 4,
+      "hasTEXCOORD_0": true,
+      "decision": "Không chọn làm sơ mi vì là T-shirt, không có cấu tạo sơ mi cài nút/cổ bẻ cần cho đơn. Transform nguồn tạo kích thước thế giới khoảng 24.65 m theo chiều cao, không tương thích trực tiếp với mannequin 1.80 m."
+    }
+  ],
+  "selectedOutput": "designer-parametric-shirt-v1",
+  "approval": "Không phom candidate nào được đổi status; sản phẩm v1 chờ QA/Lead G1."
+}

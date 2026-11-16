@@ -1,0 +1,64 @@
+{
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-59",
+  "revision": "preparation-round-2",
+  "decision": "no-suitable-source-found-blocked",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-59/research/source-01.json",
+      "sha256": "c4885621f7ed547b4f35bb8b70cdc359f2bfe4a3c89748bc991e6483dad4c5a6"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-02.json",
+      "sha256": "621e5cdeff493d638830bc41530d67e26aa76fbf579ccaa84f8591b7b89e2139"
+    },
+    {
+      "path": "orders/ATEL-59/research/shortlist.json",
+      "sha256": "ec098e35351c63771912680312e97d41db1f2c00aaf06a511f9bc330c20ac998"
+    },
+    {
+      "path": "orders/ATEL-59/research/handoff.md",
+      "sha256": "1fd5846d1ffd7232ca654547fb62f9a6f0366ac2a2c0b8e8e87637f001a43f49"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-01/front.png",
+      "sha256": "ca9db38f1916e2936c29afa64c23ffc9ab1cf3cfa6dc6a08155488691637ef97"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-01/back.png",
+      "sha256": "3fa9e0af9497c7c457630e56b0264ea99e13b6e56740290b4f14c32bfbdce66c"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-01/side.png",
+      "sha256": "622bca4b95e339695932b6691f6e064baae599a89c430226826cb3f285825561"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-01/oblique.png",
+      "sha256": "db1a1f4f2cac6ef2f2b9137f30e809d975905864421bfe24c2cd00a0118d88fc"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-01/browser-result.json",
+      "sha256": "4e4947b5e8c7426c2d51a2f9c49a6a93355d80ccbd4442f8cdbdac71f56fbfc3"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-02/front.png",
+      "sha256": "a317d81d93bdd1d22b48f4c54a74afff50eb9b81b57a248eb027dbd7da8b9911"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-02/back.png",
+      "sha256": "71ba77b89dd767dcd3f7b9ba509dc521a1c1c66fb738dfa7db3df09608cafcc8"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-02/side.png",
+      "sha256": "889e22b7ecb8d305b639fe0a0cd07891bfae060a22f3b0a6cbb404fa3596fcdf"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-02/oblique.png",
+      "sha256": "b4e1037f875a6ed89e8624db48d1e55a9059ae58a720b72c7c1ba295b4921b81"
+    },
+    {
+      "path": "orders/ATEL-59/research/source-02/browser-result.json",
+      "sha256": "2654530318402b9d3382d80b4a596ff41612d39b31e5b6ce2c8d5c0d4400486f"
+    }
+  ]
+}

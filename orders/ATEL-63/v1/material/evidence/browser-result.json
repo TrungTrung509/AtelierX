@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-63/sweater-surface-v1/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "orders/ATEL-63/v1/material/evidence/front.png",
+    "back": "orders/ATEL-63/v1/material/evidence/back.png",
+    "side": "orders/ATEL-63/v1/material/evidence/side.png",
+    "oblique": "orders/ATEL-63/v1/material/evidence/oblique.png",
+    "top": "orders/ATEL-63/v1/material/evidence/top.png",
+    "bottom": "orders/ATEL-63/v1/material/evidence/bottom.png"
+  },
+  "errors": []
+}

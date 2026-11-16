@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-1/v3/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-21/integration-smoke/front.png",
+    "back": "quality/evidence/ATEL-21/integration-smoke/back.png",
+    "left": "quality/evidence/ATEL-21/integration-smoke/left.png",
+    "right": "quality/evidence/ATEL-21/integration-smoke/right.png",
+    "detail": "quality/evidence/ATEL-21/integration-smoke/detail.png",
+    "mobile": "quality/evidence/ATEL-21/integration-smoke/mobile.png"
+  },
+  "errors": []
+}

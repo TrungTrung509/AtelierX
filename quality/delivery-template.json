@@ -1,0 +1,22 @@
+{
+  "deliveryProfile": "mannequin-v1",
+  "display": {
+    "mannequinFile": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "modelSha256": "",
+    "checks": {
+      "fullBody": false,
+      "headHandsFeet": false,
+      "garmentFitted": false,
+      "noClipping": false,
+      "artworkVisible": false,
+      "contentVisible": false
+    },
+    "evidence": {
+      "fullBody": "",
+      "fitDetail": "",
+      "content": ""
+    }
+  },
+  "note": "Ghép các trường này vào report-template.json, không thay report cũ. assets.content là đường dẫn tương đối showcase, catalog.content phải trùng. QA chỉ đặt true sau khi xem ảnh thật."
+}

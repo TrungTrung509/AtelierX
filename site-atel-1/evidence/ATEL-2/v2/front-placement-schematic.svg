@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="820" viewBox="0 0 720 820" role="img" aria-labelledby="title desc">
+  <title id="title">ATEL-2 v2 front placement schematic</title>
+  <desc id="desc">Black pullover hoodie front, with plain torso, hood, drawcords and kangaroo pocket. Not a runtime viewer capture.</desc>
+  <rect width="720" height="820" fill="#eeeae3"/>
+  <text x="360" y="48" text-anchor="middle" fill="#202124" font-family="Arial,sans-serif" font-size="23" font-weight="700">ATEL-2 / v2 · MẶT TRƯỚC</text>
+  <text x="360" y="77" text-anchor="middle" fill="#60646a" font-family="Arial,sans-serif" font-size="14">Sơ đồ bố trí phẳng · không phải ảnh QA viewer</text>
+  <g transform="translate(100 108)">
+    <path d="M210 98 Q360 47 510 98 L562 164 618 348 Q622 365 605 374 L563 391 520 267 517 586 Q360 620 203 586 L200 267 157 391 115 374 Q98 365 102 348 L158 164 Z" fill="#15171a" stroke="#34373c" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M236 111 L242 41 Q360 -28 478 41 L484 111 L439 132 Q360 94 281 132 Z" fill="#17191d" stroke="#34373c" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M199 563 Q360 588 521 563 L518 593 Q360 623 202 593 Z" fill="#101215" stroke="#34373c" stroke-width="4"/>
+    <path d="M126 353 L155 365 143 402 111 389 Z M565 365 L594 353 609 389 577 402 Z" fill="#101215" stroke="#34373c" stroke-width="3"/>
+    <path d="M333 120 C331 158 332 177 337 201 M387 120 C389 158 388 177 383 201" fill="none" stroke="#8b8c8e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M269 365 Q360 344 451 365 L439 470 Q360 500 281 470 Z" fill="#181a1e" stroke="#33363a" stroke-width="4"/>
+    <path d="M269 365 L285 385 M451 365 L435 385" stroke="#44474b" stroke-width="3"/>
+    <text x="360" y="677" text-anchor="middle" fill="#60646a" font-family="Arial,sans-serif" font-size="15">Thân trước trơn, không in họa tiết</text>
+  </g>
+</svg>

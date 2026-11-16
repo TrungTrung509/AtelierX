@@ -1,0 +1,11 @@
+{
+  "order": "ATEL-2",
+  "revision": "v1",
+  "garment": "black pullover hoodie MVP",
+  "model": "hoodie-skull-v1.glb",
+  "texture": "hoodie-back-skull-texture-v1.png",
+  "artwork": "hoodie-back-skull-artwork-v1.svg",
+  "source": "site-atel-1/tools/generate-atel2.mjs",
+  "formNote": "Procedural MVP mesh; no approved base hoodie mesh or UV source was present.",
+  "printPlacement": "Centered on back panel, upright, below hood; front torso has no print."
+}

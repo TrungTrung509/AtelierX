@@ -1,0 +1,31 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v2",
+  "decision": "return",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-41/v2/independent-shape-review.json",
+      "sha256": "0227f522a0fa48b536e1afdbdaace288d82205f276804e8004a08742bb864afd"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v1/shape-gray-authored-v2/front.png",
+      "sha256": "24419e8133ea7d6984001888de8fbd3d63a505d6c2b515b71a16c1849b68a69f"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v1/shape-gray-authored-v2/back.png",
+      "sha256": "e1b59f0c488f8e24acf327f60614f1766e5f028849cf9ba267a5ea214b5bc481"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v1/shape-gray-authored-v2/side.png",
+      "sha256": "3e7211e44b2838d04f62b8722177b94677961a17b1a0d714c627ecaec7476939"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v1/shape-gray-authored-v2/oblique.png",
+      "sha256": "6e5051bc8804d2e816ad12d6c9a2368b1ed666fa1770a79fc6c26208f5c78b91"
+    },
+    {
+      "path": "orders/ATEL-41/v1/designer/garment-gray-authored-v2.glb",
+      "sha256": "063caa76fb0b734b5a519574d0a875a7341cf2ea0eceeb9bf14ca272da452170"
+    }
+  ]
+}

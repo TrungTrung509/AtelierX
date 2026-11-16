@@ -1,0 +1,13 @@
+{
+  "testOnly": true,
+  "passed": true,
+  "maskedTriangles": 2327,
+  "views": [
+    "front",
+    "back",
+    "side",
+    "oblique",
+    "mobile"
+  ],
+  "warnings": []
+}

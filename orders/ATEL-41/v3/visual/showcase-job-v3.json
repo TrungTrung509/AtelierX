@@ -1,0 +1,13 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v3",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "garment": "orders/ATEL-41/v3/material/garment-surface-v3.glb",
+  "garmentType": "cargo-pants",
+  "maskBody": false,
+  "material": {
+    "name": "Matte cotton-canvas twill simulation · be cát #C8B58F",
+    "source": "orders/ATEL-41/v3/material/surface-manifest-v3.json; preset PBR thị giác orders/ATEL-41/material/pbr-preset-v1.json, roughness 0.88, metallic 0."
+  }
+}

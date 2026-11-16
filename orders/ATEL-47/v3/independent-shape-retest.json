@@ -1,0 +1,119 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v3",
+  "reviewType": "independent-final-focused-shape-retest",
+  "reviewedAt": "2026-11-15T16:05:40Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "retestOf": ["SHAPE-01", "SHAPE-02"],
+  "finalCorrectionAttempt": true,
+  "garment": {
+    "path": "orders/ATEL-47/v3/designer/garment-gray-v3.glb",
+    "sha256": "c8cb4fd300995973b803ec8bbc903155715d7671fb0f3a190437dee3a3d14277"
+  },
+  "sourceProvenance": {
+    "path": "orders/ATEL-47/v3/designer/provenance-v3.json",
+    "sha256": "06a26afb7a68bc2abd89a985ed5938d8bbe6bef150fc66a825262c7b1894db61",
+    "geometryOrigin": "Original parametric standalone shirt geometry; provenance states no source outfit mesh was imported, isolated, or modified."
+  },
+  "evidence": {
+    "browserResult": {
+      "path": "quality/evidence/ATEL-47/v3-shape/browser-result.json",
+      "sha256": "1b3cbdf0dfc977619cae77b2161221796017602f0c2d3798798b6903ad12b929",
+      "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-47/v3-shape/index.html",
+      "loaded": true,
+      "rotated": true,
+      "zoomed": true,
+      "desktop": true,
+      "errors": []
+    },
+    "front": {
+      "path": "quality/evidence/ATEL-47/v3-shape/front.png",
+      "sha256": "cd73a365008437fe93d6cf65dfbc48caeb55c745f4eeaa6dd68d55ada041f838"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-47/v3-shape/back.png",
+      "sha256": "efd013b275dd92927314f404b3b497d2dd6d42dd539fb3d4818469a50934133f"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-47/v3-shape/side.png",
+      "sha256": "bcf79879c43ca2075996081e526ac8264d4d92cc140d94847f0def5f84b0084a"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-47/v3-shape/oblique.png",
+      "sha256": "11c81674319f2b907934ba9185446dd43f66af924b79227258648c468d28598f"
+    }
+  },
+  "checks": {
+    "garmentTypeAndCoverage": {
+      "pass": true,
+      "observation": "The four views and GLB scene read as a standalone long-sleeve shirt with front placket/buttons and cuff buttons; there is no mannequin or body.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v3-shape/front.png",
+        "quality/evidence/ATEL-47/v3-shape/back.png",
+        "quality/evidence/ATEL-47/v3-shape/side.png",
+        "quality/evidence/ATEL-47/v3-shape/oblique.png"
+      ]
+    },
+    "shoulderJoins": {
+      "pass": false,
+      "observation": "The back view is smoother than v2, but dark notches remain at the outer shoulder joins in the front and oblique views; an open-looking dark cutout is clearest at the right shoulder in the oblique view.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v3-shape/front.png",
+        "quality/evidence/ATEL-47/v3-shape/back.png",
+        "quality/evidence/ATEL-47/v3-shape/oblique.png"
+      ]
+    },
+    "collarConstruction": {
+      "pass": false,
+      "observation": "The collar still reads as a small isolated cylindrical band with sharp triangular pieces and visible dark breaks around the neckline; it does not read as one cleanly joined office-shirt collar from front, side, and oblique views.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v3-shape/front.png",
+        "quality/evidence/ATEL-47/v3-shape/side.png",
+        "quality/evidence/ATEL-47/v3-shape/oblique.png"
+      ]
+    },
+    "naturalFabricFolds": {
+      "pass": true,
+      "observation": "Retained from the v2 focused review as directed; the gray render continues to show restrained torso drape suitable for a pressed office shirt.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v3-shape/front.png",
+        "quality/evidence/ATEL-47/v3-shape/back.png",
+        "quality/evidence/ATEL-47/v3-shape/oblique.png"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "SHAPE-01",
+      "area": "Outer shoulder joins, front/back/oblique",
+      "severity": "blocking",
+      "observation": "Dark notches remain at the outer shoulder joins; the right shoulder shows an open-looking dark cutout in the oblique view despite a smoother back silhouette.",
+      "expected": "A continuous shoulder-to-sleeve transition without visible open gaps, notches, or stray surfaces in the four views.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v3-shape/front.png",
+        "quality/evidence/ATEL-47/v3-shape/back.png",
+        "quality/evidence/ATEL-47/v3-shape/oblique.png"
+      ],
+      "correctionOwner": "lead"
+    },
+    {
+      "id": "SHAPE-02",
+      "area": "Collar stand/leaves and neckline, front/side/oblique",
+      "severity": "blocking",
+      "observation": "The stand and leaves remain visually separated by dark breaks; the collar reads as a cylindrical band plus sharp triangles instead of a joined, recognizable office-shirt collar.",
+      "expected": "A cleanly attached, proportionate shirt collar integrated with the neckline and front panels.",
+      "evidence": [
+        "quality/evidence/ATEL-47/v3-shape/front.png",
+        "quality/evidence/ATEL-47/v3-shape/side.png",
+        "quality/evidence/ATEL-47/v3-shape/oblique.png"
+      ],
+      "correctionOwner": "lead"
+    }
+  ],
+  "decision": "return",
+  "nextAction": "Stop geometry after the authorized v3 correction. Lead to decide replan/owner update; no further geometry correction is authorized.",
+  "summary": "QA độc lập lượt cuối shape ATEL-47/v3: manifest/hash và browser captures hợp lệ. SHAPE-01 vẫn fail vì còn khe tối/notch ở vai ngoài, rõ nhất vai phải từ góc oblique. SHAPE-02 vẫn fail vì cổ còn đọc thành vòng trụ và hai miếng tam giác bị ngắt bởi khe tối, chưa thành cổ sơ mi liền. SHAPE-03 được giữ pass theo chỉ đạo Lead; áo độc lập, có volume, tay dài, khuy và không mannequin. Ghi verdict TRẢ LẠI; dừng geometry theo quyết định đã chốt, chuyển Lead quyết định replan/owner update, không mở thêm correction và không chuyển Material."
+}

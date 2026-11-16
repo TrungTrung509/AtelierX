@@ -1,0 +1,47 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4.3",
+  "title": "Tuyến sáng · Sơ mi công sở Gen Z",
+  "summary": "Sơ mi công sở dài tay, nền xanh trời nhạt với họa tiết vi tuyến đô thị Tuyến sáng. Phom suông có cổ bẻ, nẹp khuy xanh và nếp vải nhẹ.",
+  "material": {
+    "name": "Poplin mô phỏng",
+    "source": "orders/ATEL-23/v1/material/manifest.json"
+  },
+  "style": "Sơ mi dài tay cổ bẻ, phom suông, nẹp khuy trước",
+  "specifications": [
+    {
+      "label": "Ngang ngực tham chiếu",
+      "value": 60.5,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-23/v4.3/measurements.json — mặt cắt ngực world-space của GLB"
+    },
+    {
+      "label": "Dài áo bao ngoài",
+      "value": 77.2,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-23/v4.3/measurements.json — bao ngoài world-space của GLB"
+    },
+    {
+      "label": "Độ vươn tay từ vai",
+      "value": 54,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-23/v4.3/measurements.json — bao ngoài GLB so với mốc vai"
+    },
+    {
+      "label": "Mốc vai mannequin",
+      "value": 50,
+      "unit": "cm",
+      "source": "showcase/products/ATEL-23/v4.3/measurements.json — anchors quality/mannequin-fit.json"
+    }
+  ],
+  "paragraphs": [],
+  "details": [
+    "Artwork Tuyến sáng lặp nhỏ trên nền xanh trời #D9EEF4 theo UV0.",
+    "Khuy trước gắn với bề mặt thân áo; số đo là tham chiếu mẫu 3D, không phải size may hoặc size sản xuất."
+  ],
+  "credits": [
+    "Mannequin tham chiếu 1,80 m: zveoxic, ‘Mannequin_ model’, Sketchfab, CC BY 4.0; https://sketchfab.com/3d-models/mannequin--model-59460931b9cb43f98c97991300c920fb; bản nội bộ chuẩn hóa theo quality/MANNEQUIN_REFERENCE.md.",
+    "Phom sơ mi tham khảo ranh giới tay/nách: Christina M. Hein, ‘shirt’, MIT License, https://github.com/ChristinaHein/shirt; lưới 3D được dựng lại theo tỷ lệ mannequin, giữ thông báo giấy phép tại orders/ATEL-23/v2.5/designer/LICENSE-ChristinaHein-shirt-MIT.txt.",
+    "Hướng hình và artwork gốc vi tuyến đô thị Tuyến sáng: AtelierX Research, ATEL-23/v1; artwork được map trên UV0 trong texture base-color của mẫu v4.3."
+  ]
+}

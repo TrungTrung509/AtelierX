@@ -1,0 +1,24 @@
+{
+  "garmentType": "shirt",
+  "ready": [],
+  "needsPreparation": true,
+  "excluded": [
+    {
+      "file": "quality/candidates/makehuman-tshirt.glb",
+      "reason": "Phom méo; đã loại trong BASE_AUDIT.md."
+    },
+    {
+      "file": "quality/candidates/user-supplied/t-shirt.glb",
+      "reason": "Không phù hợp áo thun cổ tròn: v0.1 đọc thành polo."
+    },
+    {
+      "file": "quality/candidates/user-supplied/t-shirt (1).glb",
+      "reason": "Không phù hợp mức hiển thị mong muốn: bo cổ/nếp gấp không rõ."
+    },
+    {
+      "file": "quality/candidates/user-supplied/t-shirt___lp.glb",
+      "reason": "Áo dài tay raglan có nẹp ba khuy, không phải áo thun tay ngắn cổ tròn."
+    }
+  ],
+  "next": "Research xem ảnh tối đa hai nguồn; giới hạn chuẩn bị 15 phút, không chọn lại nguồn rejected."
+}

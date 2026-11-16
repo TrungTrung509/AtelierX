@@ -1,0 +1,158 @@
+{
+  "version": 9,
+  "orderId": "ATEL-41",
+  "name": "Quần cargo be cát",
+  "requestId": "62d6b870-6d4b-4308-821b-04714d728cd1",
+  "createdAt": "2026-11-15T11:17:01.907Z",
+  "phase": "preparation",
+  "shapeDeadlineAt": "2026-11-15T11:32:01.907Z",
+  "maxCandidateAttempts": 2,
+  "candidateAttempts": [
+    "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1",
+    "user-oversized-baggy-custom-jeans-86d4c094-v1"
+  ],
+  "events": [
+    {
+      "id": "content:v1:ca2693bfce9e5d021bd7d17712ff30ceea7ec62f7b10e37b9a5f31171fbba324",
+      "stage": "content",
+      "revision": "v1",
+      "file": "orders/ATEL-41/v1/research/manifest.json",
+      "createdAt": "2026-11-15T11:26:30.145Z"
+    },
+    {
+      "id": "shape:v2:72629bb28267554ef3d76d7a4d492b723e0edefeb1bf942c5259df8f3c5dc872",
+      "stage": "shape",
+      "revision": "v2",
+      "file": "orders/ATEL-41/v1/designer/shape-manifest-v2.json",
+      "createdAt": "2026-11-15T11:49:41.686Z",
+      "baseId": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1"
+    },
+    {
+      "id": "shape-review:v2:bafbf6c8962f680de9151fd3396043dce3c1394772f717ab5f943ce902427aa8",
+      "stage": "shape-review",
+      "revision": "v2",
+      "file": "orders/ATEL-41/v2/shape-review-handoff.json",
+      "createdAt": "2026-11-15T11:56:06.841Z"
+    },
+    {
+      "id": "shape:v3:feb357df73c1df3ed5e94b03381ba8a9e399911852da65b6d3af226219b1878f",
+      "stage": "shape",
+      "revision": "v3",
+      "file": "orders/ATEL-41/v3/designer/shape-manifest-v3.json",
+      "createdAt": "2026-11-15T12:02:37.329Z",
+      "baseId": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1"
+    },
+    {
+      "id": "shape-review:v3:4d70941b90d3df8f42b2edfe4efe62ffae2908f3ea5c4edc018f43d23aa8ef2c",
+      "stage": "shape-review",
+      "revision": "v3",
+      "file": "orders/ATEL-41/v3/shape-review-handoff.json",
+      "createdAt": "2026-11-15T12:04:46.953Z"
+    },
+    {
+      "id": "surface:v3:2362fc94b612cc3adffdfbe3938cc03df0bd560a1e97c07c2c1ec18f315d36e0",
+      "stage": "surface",
+      "revision": "v3",
+      "file": "orders/ATEL-41/v3/material/surface-manifest-v3.json",
+      "createdAt": "2026-11-15T12:13:22.407Z"
+    },
+    {
+      "id": "content:v3:ca521e0450e6b3768f6ab69f2122db1f9417b74261b9ef1013f4a5c2a2d92246",
+      "stage": "content",
+      "revision": "v3",
+      "file": "orders/ATEL-41/v3/visual/content-manifest-v3.json",
+      "createdAt": "2026-11-15T12:15:18.480Z"
+    },
+    {
+      "id": "visual:v3:aed6a0c6aa75a081a087700382415cc50c789dd93cc84ed162f3489006c1ffe3",
+      "stage": "visual",
+      "revision": "v3",
+      "file": "orders/ATEL-41/v3/visual/visual-manifest-v3.json",
+      "createdAt": "2026-11-15T12:20:39.455Z"
+    },
+    {
+      "id": "qa-final:v3:4869806ed65f02a5fd49047b7e5dd45da061c28671f993a24e79d7fc2934846a",
+      "stage": "qa-final",
+      "revision": "v3",
+      "file": "orders/ATEL-41/v3/qa-final-handoff.json",
+      "createdAt": "2026-11-15T12:31:30.349Z"
+    },
+    {
+      "id": "content:v4:a9ca52d137d05299d839994dad32a6cb79d404b29f5deb87a4d794befcca37e6",
+      "stage": "content",
+      "revision": "v4",
+      "file": "orders/ATEL-41/v4/visual/content-manifest-v4.json",
+      "createdAt": "2026-11-15T12:36:57.831Z"
+    },
+    {
+      "id": "visual:v4:59255a6c945d34c873b033409a1dac67b8ed69044672a17a1fa655d1ee48f57c",
+      "stage": "visual",
+      "revision": "v4",
+      "file": "orders/ATEL-41/v4/visual/visual-manifest-v4.json",
+      "createdAt": "2026-11-15T12:37:01.569Z"
+    },
+    {
+      "id": "qa-final:v4:518d91e6f3410dd015983c0591c0da86aeeadad5a74a7792e98e06c04ad5d444",
+      "stage": "qa-final",
+      "revision": "v4",
+      "file": "orders/ATEL-41/v4/qa-final-handoff.json",
+      "createdAt": "2026-11-15T12:42:29.780Z"
+    },
+    {
+      "id": "qa-final:v4:59aae1ae3f8909d0446c669ab33c356d5e2165910f665ccc8154093db6d4c427",
+      "stage": "qa-final",
+      "revision": "v4",
+      "file": "orders/ATEL-41/v4/qa-final-handoff.json",
+      "createdAt": "2026-11-15T12:46:10.097Z"
+    }
+  ],
+  "tasks": {
+    "research": {
+      "person": "An",
+      "target": "atelierx-tpm-0002",
+      "title": "ATEL-41 · Nghiên cứu phom, họa tiết và nội dung · Quần cargo be cát",
+      "ticketId": "ATEL-42",
+      "workItemId": "7a22e5ae-6ea1-47ae-9476-7809174bd9d0"
+    },
+    "designer": {
+      "person": "Vy",
+      "target": "atelierx-designer-0003",
+      "title": "ATEL-41 · Thiết kế phom · Quần cargo be cát",
+      "ticketId": "ATEL-44",
+      "workItemId": "44d1f845-c634-4c4c-9683-5f4a38dde501"
+    },
+    "material": {
+      "person": "Linh",
+      "target": "atelierx-backend-developer-0005",
+      "title": "ATEL-41 · Hoàn thiện màu và chất liệu · Quần cargo be cát",
+      "ticketId": "ATEL-43",
+      "workItemId": "a7e9926b-a429-4e10-a706-c4e0c0b97b55"
+    },
+    "visual": {
+      "person": "Nhi",
+      "target": "atelierx-frontend-developer-0006",
+      "title": "ATEL-41 · Dựng sản phẩm trong Sàn trưng bày · Quần cargo be cát",
+      "ticketId": "ATEL-45",
+      "workItemId": "541b4670-fb3c-422c-89e5-0f969d06e8ec"
+    },
+    "qa": {
+      "person": "Khoa",
+      "target": "atelierx-qa-0004",
+      "title": "ATEL-41 · Kiểm tra phom và sản phẩm · Quần cargo be cát",
+      "ticketId": "ATEL-46",
+      "workItemId": "edfeafa5-1ef1-4a04-a300-d5069a2bc181"
+    },
+    "lead": {
+      "person": "Minh",
+      "target": "atelierx-team-leader-0001",
+      "title": "ATEL-41 · Điều phối và bàn giao · Quần cargo be cát",
+      "ticketId": "ATEL-41",
+      "workItemId": "6e0058f6-aa5c-4a8b-bef4-06d1dc218578"
+    }
+  },
+  "replan": {
+    "reason": "Đã xem ảnh thật và xác minh hash của gray GLB/captures; sau một correction, túi vẫn rời silhouette ở side/oblique và đỉa tách cạp. Dừng derivative JNCO. Chuyển sang Designer tự dựng cấu trúc panel/quần và chi tiết bám mặt, không dùng nguồn thứ ba; candidate cũ chỉ làm silhouette reference, bỏ mọi branding. ETA gray GLB/provenance và front/back/side/oblique 12:00 UTC. Chỉ sau shape QA pass mới chuyển Material; nếu geometry authored không đạt, báo blocker/ETA thay vì thêm vòng sửa.",
+    "at": "2026-11-15T11:34:52.142Z"
+  },
+  "shapeApproved": true
+}

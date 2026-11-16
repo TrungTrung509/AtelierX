@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-63/v2.1/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "orders/ATEL-63/v2.1/visual/evidence/front.png",
+    "back": "orders/ATEL-63/v2.1/visual/evidence/back.png",
+    "side": "orders/ATEL-63/v2.1/visual/evidence/side.png",
+    "oblique": "orders/ATEL-63/v2.1/visual/evidence/oblique.png",
+    "top": "orders/ATEL-63/v2.1/visual/evidence/top.png",
+    "bottom": "orders/ATEL-63/v2.1/visual/evidence/bottom.png"
+  },
+  "errors": []
+}

@@ -1,0 +1,151 @@
+{
+  "orderId": "ATEL-63",
+  "requestId": "7be512c2-6b8f-443c-a9ed-1604cef29f9c",
+  "revision": "v2.1",
+  "status": "complete; owner review pending",
+  "catalogStatus": "Hoàn thành · chờ bạn xem",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "viewerUrl": "http://127.0.0.1:8787/atelierx-products/products/ATEL-63/v2.1/index.html",
+  "createdAt": "2026-11-16T07:36:28.658Z",
+  "qualityGate": {
+    "command": "node tools/quality-gate.mjs --product ATEL-63 --publish",
+    "passed": true,
+    "exitCode": 0
+  },
+  "independentQA": {
+    "decision": "pass",
+    "report": "quality/reports/ATEL-63/v2.1-final.json",
+    "reportSha256": "c08cf8c59b63f268e556beb87674bf95b87f6a059309ee8ca57f45f391552d22",
+    "handoff": "orders/ATEL-63/v2.1/qa-final-handoff.json",
+    "handoffSha256": "80124cde9cdcbf973abe2b54196b72f5bb77698e18c7e896e07d8995c3a6efd4"
+  },
+  "leadReview": {
+    "leadApproved": true,
+    "displayScaleMatchesMeasurements": true,
+    "displayScale": 0.25,
+    "geometryUnchanged": true,
+    "visualReviewed": [
+      "front",
+      "top"
+    ]
+  },
+  "flow": {
+    "path": "orders/ATEL-63/studio-flow.json",
+    "sha256": "20928eee0a763710a0178d09b7134a2d091dee7216a9b2bc1472953f5de71c57",
+    "events": [
+      "shape:sweater-v1-gray:36a0f26f8eb975edbd59675984f5121f034f6dc72d3603318a2893b10c6b3f2f",
+      "shape-review:sweater-v1-gray:bb347f22dbbe9bac4afc9627695a0fde75f3357ae72cf6cadb7653c1aee27bc1",
+      "surface:v1:fa131b6585e028616a69d0014405d96cbee49371cdc26266cfdbe9f89d3c5da1",
+      "visual:v1:54a197f4e28c961bb9b2025504378fe85dda80243314494b152b8d065fe8147f",
+      "qa-final:v1:020b2c6fd68f7196f8157e5d67ae9c0c8b7d16426307990f2d0ac69e893a0afa",
+      "surface:v2:e040fd903fbe1a9309ba8a6dd453dde2f15fa8a91224ab79aee2edeefd891c52",
+      "visual:v2:f84c821ce91b2a66d6603f7f52e773b81d0573122e79bfa94f4a110cb0357c7f",
+      "qa-final:v2:c0ab4142244a7c4aa9047d3e3edc1fde58fc8b435d534cc4df722f05196126c4",
+      "visual:v2.1:6455ac606bc325fdeb0a4d07ef74e30634a4721bf212ed860f3a51ba5858310e",
+      "qa-final:v2.1:80124cde9cdcbf973abe2b54196b72f5bb77698e18c7e896e07d8995c3a6efd4"
+    ],
+    "workItems": {
+      "research": {
+        "person": "An",
+        "target": "atelierx-tpm-0002",
+        "title": "ATEL-63 · Nghiên cứu phom, họa tiết và nội dung · Áo sweater Giáng sinh đỏ rượu vang",
+        "ticketId": "ATEL-64",
+        "workItemId": "9148d821-ac40-4c37-b685-22c070ecd644"
+      },
+      "designer": {
+        "person": "Vy",
+        "target": "atelierx-designer-0003",
+        "title": "ATEL-63 · Thiết kế phom áo · Áo sweater Giáng sinh đỏ rượu vang",
+        "ticketId": "ATEL-65",
+        "workItemId": "d606733c-8d46-475c-b990-e6fec753834b"
+      },
+      "material": {
+        "person": "Linh",
+        "target": "atelierx-backend-developer-0005",
+        "title": "ATEL-63 · Hoàn thiện màu và chất liệu · Áo sweater Giáng sinh đỏ rượu vang",
+        "ticketId": "ATEL-67",
+        "workItemId": "5a3160e6-24a3-458d-8b07-fd9472070908"
+      },
+      "visual": {
+        "person": "Nhi",
+        "target": "atelierx-frontend-developer-0006",
+        "title": "ATEL-63 · Dựng sản phẩm trong Sàn trưng bày · Áo sweater Giáng sinh đỏ rượu vang",
+        "ticketId": "ATEL-68",
+        "workItemId": "52c6eddf-7408-433b-87d7-af197d6afe24"
+      },
+      "qa": {
+        "person": "Khoa",
+        "target": "atelierx-qa-0004",
+        "title": "ATEL-63 · Kiểm tra phom và sản phẩm · Áo sweater Giáng sinh đỏ rượu vang",
+        "ticketId": "ATEL-66",
+        "workItemId": "e3413325-8524-4fbf-b759-a248a9395d56"
+      },
+      "lead": {
+        "person": "Minh",
+        "target": "atelierx-team-leader-0001",
+        "title": "ATEL-63 · Điều phối và bàn giao · Áo sweater Giáng sinh đỏ rượu vang",
+        "ticketId": "ATEL-63",
+        "workItemId": "6b5eb8b4-78e9-43c1-ad2d-a4f853f35578"
+      }
+    }
+  },
+  "linkedTickets": {
+    "research": "ATEL-64",
+    "designer": "ATEL-65",
+    "qa": "ATEL-66",
+    "material": "ATEL-67",
+    "visual": "ATEL-68",
+    "lead": "ATEL-63"
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-63/v1/shape-review-handoff.json",
+      "sha256": "bb347f22dbbe9bac4afc9627695a0fde75f3357ae72cf6cadb7653c1aee27bc1"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/surface-handoff.json",
+      "sha256": "e040fd903fbe1a9309ba8a6dd453dde2f15fa8a91224ab79aee2edeefd891c52"
+    },
+    {
+      "path": "orders/ATEL-63/v2.1/visual/visual-manifest.json",
+      "sha256": "6455ac606bc325fdeb0a4d07ef74e30634a4721bf212ed860f3a51ba5858310e"
+    },
+    {
+      "path": "orders/ATEL-63/v2.1/qa-final-handoff.json",
+      "sha256": "80124cde9cdcbf973abe2b54196b72f5bb77698e18c7e896e07d8995c3a6efd4"
+    },
+    {
+      "path": "quality/reports/ATEL-63/v2.1-final.json",
+      "sha256": "c08cf8c59b63f268e556beb87674bf95b87f6a059309ee8ca57f45f391552d22"
+    },
+    {
+      "path": "quality/reports/ATEL-63/v2.1.json",
+      "sha256": "c3b9a591e4e1e68cc790b04c0f096a0bb34d074354ddd7e88c440d47c0b20f1a"
+    },
+    {
+      "path": "showcase/products/ATEL-63/v2.1/assets/display.glb",
+      "sha256": "91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99"
+    },
+    {
+      "path": "showcase/products/ATEL-63/v2.1/content.json",
+      "sha256": "4ea2c81ea04de9d22f35ba079d05963e92b28c9db113399dda7fd446f7633bcf"
+    },
+    {
+      "path": "showcase/products/ATEL-63/v2.1/measurements.json",
+      "sha256": "120bbb79e63876453d858c04bf6210ca8df484012414d62c0a9b01e649365913"
+    },
+    {
+      "path": "orders/ATEL-63/v2.1/visual/evidence/browser-result.json",
+      "sha256": "175a1b89b4f08c8c1bbf2c8bfe5f99b873ca446787736e0440cf8328b780957d"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2.1-final-browser/browser-result.json",
+      "sha256": "ed7360939d1d5d5f15bca8c562efb82751f7c3e87a6497d5853c27f572d899b2"
+    },
+    {
+      "path": "showcase/catalog.json",
+      "sha256": "1900ba328dedf507ee906b667e8d1cb134f2ce22e0b5af1e654b7f61ce1fde50"
+    }
+  ]
+}

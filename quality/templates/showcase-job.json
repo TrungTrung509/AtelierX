@@ -1,0 +1,12 @@
+{
+  "orderId": "ATEL-NEW",
+  "revision": "v1",
+  "presentation": "standalone",
+  "garment": "orders/ATEL-NEW/v1/designer/garment.glb",
+  "garmentType": "shirt",
+  "maskBody": false,
+  "material": {
+    "name": "Theo brief/preset",
+    "source": "brief"
+  }
+}

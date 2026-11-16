@@ -1,0 +1,125 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4.3",
+  "deliveryProfile": "showcase-basic-v1",
+  "stage": "repair",
+  "status": "handoff-to-QA; no QA verdict claimed",
+  "repairScope": [
+    "shoulder/underarm gusset caps",
+    "front placket/buttons"
+  ],
+  "sources": {
+    "garment": {
+      "path": "orders/ATEL-23/v4.3/designer/garment-v4_3.glb",
+      "sha256": "fa890082176ece1facf78618622abfb14a41e5f193dc3ec4734ccb9be359f768"
+    },
+    "sourceGeometry": {
+      "path": "orders/ATEL-23/v4.2/designer/garment-v4_2.glb",
+      "sha256": "20cfb0b239ed811100c80daa0dc03f62daaa3f1262682ed3faabef44a64ef84a"
+    },
+    "mannequin": {
+      "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+      "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+    },
+    "artwork": {
+      "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+      "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99"
+    },
+    "textures": {
+      "baseColor": {
+        "path": "orders/ATEL-23/v1/material/base-color.png",
+        "sha256": "4fa18ae8037b03290b1e584d4c3d9705deb2820f5789c4cce04a1077af96ed10"
+      },
+      "roughness": {
+        "path": "orders/ATEL-23/v1/material/roughness.png",
+        "sha256": "10f44823550c6b818c4e6111a890f43d6300cec40c53a6203173a7a8ae6d9509"
+      },
+      "normal": {
+        "path": "orders/ATEL-23/v1/material/normal.png",
+        "sha256": "c6dbe5aa2859192bd525d7a8dc5c89ebb480fb2b318b16c8635a565a29096ef1"
+      }
+    }
+  },
+  "outputs": {
+    "display": {
+      "path": "showcase/products/ATEL-23/v4.3/assets/display.glb",
+      "sha256": "36cb5c099692418772b9076247ed77112e01b673d355fb78df6c7fac90493c9c"
+    },
+    "assembly": {
+      "path": "showcase/products/ATEL-23/v4.3/assembly.json",
+      "sha256": "a6b3a22081aa856994d2466f581a3ebfbb958f48eaeae89dab10673cb5e2881f"
+    },
+    "measurements": {
+      "path": "showcase/products/ATEL-23/v4.3/measurements.json",
+      "sha256": "6e10c9fef4219054df4741f71a0625974caa4271df80b03bf4ebd1371d0ab022"
+    },
+    "content": {
+      "path": "showcase/products/ATEL-23/v4.3/content.json",
+      "sha256": "8a12ed1b2cfc68c30cd0ace0fa6854879272a3d15ff31c43c2cf418ec1b5b55b"
+    },
+    "viewer": {
+      "path": "showcase/products/ATEL-23/v4.3/index.html",
+      "sha256": "93f30a532a64a843233d146c8aefe5e4d9d2f7696bf089929f4e7bf68a0767ea"
+    },
+    "fit": {
+      "path": "orders/ATEL-23/v4.3/designer/fit.json",
+      "sha256": "98f81c0abe40e6775433ab74d2eca14111be02c2a4772571a6ce80600f4e1f7d"
+    },
+    "showcaseJob": {
+      "path": "orders/ATEL-23/v4.3/showcase-job.json",
+      "sha256": "c4a03681500074aea8f7a14c0d733acbe5fc77dcc05e5ad95c2c8678630262de"
+    }
+  },
+  "ledger": {
+    "path": "orders/ATEL-23/showcase-builds.json",
+    "stage": "ATEL-23:repair",
+    "revision": "v4.3",
+    "displaySha256": "36cb5c099692418772b9076247ed77112e01b673d355fb78df6c7fac90493c9c"
+  },
+  "browser": {
+    "path": "quality/evidence/ATEL-23/v4.3/browser-result.json",
+    "sha256": "e0c7a6f79e42341e2bbec0c525e1af61d230c450d587f8e854ca7d95384e6c5f",
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-23/v4.3/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "captures": {
+      "front": {
+        "path": "quality/evidence/ATEL-23/v4.3/front.png",
+        "sha256": "28249377b8d752b4ed73262a7d7070558c85523bf2582e4614f5b5fe31719a35"
+      },
+      "back": {
+        "path": "quality/evidence/ATEL-23/v4.3/back.png",
+        "sha256": "055982fbb4a75fd76660dc9b64cc00fc68fce915fde4d149c6a555fa994e6184"
+      },
+      "side": {
+        "path": "quality/evidence/ATEL-23/v4.3/side.png",
+        "sha256": "5a733f2d75a9a267df2f8496e9c167260d8236b228e4fa16f9fdd40957683926"
+      },
+      "oblique": {
+        "path": "quality/evidence/ATEL-23/v4.3/oblique.png",
+        "sha256": "e2ee85c76759ddbb969a9fbabfe728358733bbb17a923925a545a3a65c3a98da"
+      },
+      "mobile": {
+        "path": "quality/evidence/ATEL-23/v4.3/mobile.png",
+        "sha256": "b4e6694004c66b5a5eeb942bf4c4b3728ea6861a146662c7156cbbff2d3c7b7a"
+      }
+    }
+  },
+  "qaHandoff": {
+    "ticket": "ATEL-25",
+    "workItemId": "af1fad6d-e258-49c3-ba71-0e573f1e646e",
+    "nextOwner": "atelierx-qa-0004",
+    "reviewOnly": [
+      "shoulder/underarm coverage",
+      "button readability"
+    ],
+    "visualNote": "Side/oblique captures may still show a white patch at shoulder/underarm; QA to independently confirm. Do not treat script status as visual approval."
+  },
+  "catalog": "unchanged",
+  "productApproved": false,
+  "published": false
+}

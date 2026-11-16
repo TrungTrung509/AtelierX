@@ -1,0 +1,195 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v1",
+  "deliveryProfile": "showcase-basic-v1",
+  "decision": "pass",
+  "qaReviewer": "atelierx-qa-0004",
+  "reviewedAt": "2026-11-15T09:50:48.252Z",
+  "leadApproved": true,
+  "summary": "QA độc lập ATEL-35/v1 đạt theo evidence official desktop. Viewer/browser-result, display GLB và captures khớp revision/hash; ảnh xác nhận áo thun độc lập màu kem, hoa nhỏ ở ngực trái, lưng sạch, cổ tròn bo liền và nếp/volume đọc được. Content ghi chất liệu cotton-like matte là mô phỏng PBR và ba số đo hiển thị 3D có nguồn, không phải size may. Chờ Studio Lead quyết định; chưa publish.",
+  "assets": {
+    "model": "products/ATEL-35/v1/assets/display.glb",
+    "modelSha256": "bb7d518f17cfbe4065d627458609bc56ba5d4f69d86af8a9917383f151f4eceb",
+    "viewer": "products/ATEL-35/v1/index.html",
+    "viewerSha256": "4f458e6f5187e490224a15f9e562fd650a1697a07e705faeaa5c5e7e4f87a007",
+    "content": "products/ATEL-35/v1/content.json",
+    "contentSha256": "3c22fadea620437d021270fbccacff9201d0ebf684677a3a244c3025fef5635e",
+    "assembly": "showcase/products/ATEL-35/v1/assembly.json",
+    "assemblySha256": "b09cdfed6319877d99ee2577f5f8995409c02fe8d9cdf9959f0a37d28cfcce66",
+    "assetManifest": "showcase/products/ATEL-35/v1/assets/asset-manifest.json",
+    "assetManifestSha256": "f3e1d12de74b289fabc00869208b28740f8c12ba461d7ddec05806cc28a56287",
+    "integratedGarment": "orders/ATEL-35/visual/garment-v1-cream-flower.glb",
+    "integratedGarmentSha256": "a2fa02b57be6a5f01291e8c25d26e05f886d17b5066058c2e0a6625d679c5d63",
+    "sourceShape": "orders/ATEL-35/v0.5/designer/garment-v0_5.glb",
+    "sourceShapeSha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+    "sourceShapeReview": "orders/ATEL-35/v0.5/independent-shape-review.json",
+    "sourceShapeReviewSha256": "6b18a3fb2bfb58adcda54d5a640a2fe704c28a53088ed74ec3988f610f0c3967",
+    "materialPreset": "orders/ATEL-35/material/pbr-preset-v1.json",
+    "materialPresetSha256": "5555b6b4b9fab4794b7d359eb11c79243e7eec63cc698e89cc4bbce7a87c79c9",
+    "artwork": "orders/ATEL-35/research/artwork/atel35-chest-flower-v1.svg",
+    "artworkSha256": "0da8270ea729589c1ae27142326abbcc358c866598c3307c1895cdaf1b78e363",
+    "measurements": "showcase/products/ATEL-35/v1/measurements.json",
+    "measurementsSha256": "bc3d339fa77a19952b9575811d02806c0b1c3853e008192e9a1375d7dfd6f700"
+  },
+  "brief": {
+    "requiredFeatures": [
+      "Viewer và model đúng revision v1",
+      "Phom áo độc lập và cấu trúc",
+      "Màu kem, hoa ngực trái, lưng sạch",
+      "Mô tả vật liệu mô phỏng và kích thước có nguồn",
+      "Viewer desktop và bốn góc official",
+      "Nguồn, artwork và material provenance"
+    ]
+  },
+  "featureChecks": [
+    {
+      "feature": "Viewer và model đúng revision v1",
+      "passed": true,
+      "observation": "Browser result, viewer SHA và display GLB SHA khớp manifest/assembly; display GLB SHA-256 bb7d518f17cfbe4065d627458609bc56ba5d4f69d86af8a9917383f151f4eceb.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v1/browser-qa-official/browser-result.json",
+        "showcase/products/ATEL-35/v1/assets/asset-manifest.json"
+      ]
+    },
+    {
+      "feature": "Phom áo độc lập và cấu trúc",
+      "passed": true,
+      "observation": "Bốn góc đọc là áo thun tay ngắn cổ tròn; dải bo cổ liền, thân/tay có volume và nếp thấy được; không có mannequin, lỗ xuyên hoặc mảnh rời rõ.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v1/browser-qa-official/front.png",
+        "quality/evidence/ATEL-35/v1/browser-qa-official/back.png",
+        "quality/evidence/ATEL-35/v1/browser-qa-official/side.png",
+        "quality/evidence/ATEL-35/v1/browser-qa-official/oblique.png"
+      ]
+    },
+    {
+      "feature": "Màu kem, hoa ngực trái, lưng sạch",
+      "passed": true,
+      "observation": "Front/oblique cho thấy một hoa năm cánh hồng đất ở phía ngực trái người mặc; front/oblique thấy màu kem. Ảnh back không có artwork.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v1/browser-qa-official/front.png",
+        "quality/evidence/ATEL-35/v1/browser-qa-official/back.png",
+        "quality/evidence/ATEL-35/v1/browser-qa-official/oblique.png"
+      ]
+    },
+    {
+      "feature": "Mô tả vật liệu mô phỏng và kích thước có nguồn",
+      "passed": true,
+      "observation": "Content gọi vật liệu cotton-like matte là mô phỏng PBR, không tuyên bố thành phần/tính năng vải thật; có ba thông số bao hình học từ measurements.json và ghi rõ không phải size may.",
+      "evidence": [
+        "showcase/products/ATEL-35/v1/content.json",
+        "orders/ATEL-35/material/pbr-preset-v1.json",
+        "showcase/products/ATEL-35/v1/measurements.json"
+      ]
+    },
+    {
+      "feature": "Viewer desktop và bốn góc official",
+      "passed": true,
+      "observation": "Browser result v1 ghi loaded/rotated/zoomed/desktop=true, errors=[]; bốn capture official tồn tại và hash khớp result.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v1/browser-qa-official/browser-result.json",
+        "quality/evidence/ATEL-35/v1/browser-qa-official/front.png",
+        "quality/evidence/ATEL-35/v1/browser-qa-official/back.png",
+        "quality/evidence/ATEL-35/v1/browser-qa-official/side.png",
+        "quality/evidence/ATEL-35/v1/browser-qa-official/oblique.png"
+      ]
+    },
+    {
+      "feature": "Nguồn, artwork và material provenance",
+      "passed": true,
+      "observation": "Asset manifest SHA khớp các file được trỏ tới; source shape v0.5-gray và phiếu QA độc lập pass có hash khớp; material preset và SVG artwork/source copy đối chiếu khớp.",
+      "evidence": [
+        "showcase/products/ATEL-35/v1/assets/asset-manifest.json",
+        "orders/ATEL-35/v0.5/independent-shape-review.json",
+        "orders/ATEL-35/material/pbr-preset-v1.json",
+        "orders/ATEL-35/research/artwork/atel35-chest-flower-v1.svg"
+      ]
+    }
+  ],
+  "evidence": {
+    "front": "quality/evidence/ATEL-35/v1/browser-qa-official/front.png",
+    "back": "quality/evidence/ATEL-35/v1/browser-qa-official/back.png",
+    "side": "quality/evidence/ATEL-35/v1/browser-qa-official/side.png",
+    "oblique": "quality/evidence/ATEL-35/v1/browser-qa-official/oblique.png"
+  },
+  "evidenceSha256": {
+    "front": "8bdaafe2710fd06a7622b268b64940bf38a23b435bcf0b3f60aef764d40fa34e",
+    "back": "22647b2789a9ea8f6e290c83f218a9b1f9832c548eefe3eda313fe22ab68c33d",
+    "side": "a0897067af13941662fa92668aa140d34baa624781f9c43bcf973e2104741064",
+    "oblique": "72ecb90975b778d8641065d1a8282eaa351f7066a99dc3cfb0579fc8870e001e"
+  },
+  "visual": {
+    "coverage": true,
+    "silhouette": true,
+    "folds": true,
+    "closures": true,
+    "contentMatches": true,
+    "observations": {
+      "coverage": "Standalone garment surface is visible; no body/mannequin or obvious missing areas.",
+      "silhouette": "Reads as a short-sleeve crew-neck T-shirt.",
+      "folds": "Fold shading is visible around sleeves/underarms and lower torso in front/back/oblique.",
+      "closures": "No closure is required for this T-shirt style.",
+      "contentMatches": "Color, flower placement, clean back, style, simulated material and sourced display dimensions match the visible product/content."
+    }
+  },
+  "scores": {
+    "scale": "1–5; 5 means clear and complete evidence against the brief.",
+    "silhouette": 4,
+    "construction": 4,
+    "artwork": 5,
+    "placement": 5,
+    "material": 4,
+    "content": 5,
+    "web": 5,
+    "notes": "Minor dark crease/shadow artifacts at sleeve-underarm joins; inspected images show no clear hole or detached geometry, so these are non-blocking."
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-35/v1/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": [],
+    "browserResultSha256": "b9729c1c25463f55c1373e84d736a8922f4b8ba324472de8ccad263c8aba6b8a",
+    "displayGlbSha256": "bb7d518f17cfbe4065d627458609bc56ba5d4f69d86af8a9917383f151f4eceb",
+    "viewerSha256": "4f458e6f5187e490224a15f9e562fd650a1697a07e705faeaa5c5e7e4f87a007"
+  },
+  "provenance": {
+    "sourceShape": {
+      "path": "orders/ATEL-35/v0.5/designer/garment-v0_5.glb",
+      "sha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+      "reviewPath": "orders/ATEL-35/v0.5/independent-shape-review.json",
+      "reviewSha256": "6b18a3fb2bfb58adcda54d5a640a2fe704c28a53088ed74ec3988f610f0c3967",
+      "decision": "pass",
+      "reviewedRevision": "v0.5-gray"
+    },
+    "material": {
+      "path": "orders/ATEL-35/material/pbr-preset-v1.json",
+      "sha256": "5555b6b4b9fab4794b7d359eb11c79243e7eec63cc698e89cc4bbce7a87c79c9",
+      "simulation": "Cotton-like matte màu kem (mô phỏng PBR)",
+      "source": "orders/ATEL-35/material/pbr-preset-v1.json; màu theo brief, PBR do AtelierX thiết lập để mô phỏng thị giác, không phải thông số vật liệu đo thực tế."
+    },
+    "artwork": {
+      "source": "orders/ATEL-35/research/artwork/atel35-chest-flower-v1.svg",
+      "sha256": "0da8270ea729589c1ae27142326abbcc358c866598c3307c1895cdaf1b78e363",
+      "displayCopy": "showcase/products/ATEL-35/v1/assets/atel35-chest-flower-v1.svg",
+      "displayCopySha256": "0da8270ea729589c1ae27142326abbcc358c866598c3307c1895cdaf1b78e363"
+    },
+    "measurements": {
+      "path": "showcase/products/ATEL-35/v1/measurements.json",
+      "sha256": "bc3d339fa77a19952b9575811d02806c0b1c3853e008192e9a1375d7dfd6f700",
+      "method": "World-space envelope in meters; width includes sleeves. Display references only, not sewing or body measurements.",
+      "kind": "3D display references, not manufactured garment sizing"
+    }
+  },
+  "blockers": [],
+  "nextOwner": "Studio Lead",
+  "nextStep": "Studio Lead reviews this independent QA result and decides approval; leadApproved remains false pending that decision.",
+  "shapeReview": "orders/ATEL-35/v1/shape-review.json",
+  "leadApproval": {
+    "reviewer": "atelierx-team-leader-0001",
+    "decision": "pass",
+    "note": "Đã xem trực tiếp bốn ảnh desktop v1, xác nhận bản report và asset hash khớp. QA độc lập đạt, blockers rỗng."
+  },
+  "assembly": "showcase/products/ATEL-35/v1/assembly.json"
+}

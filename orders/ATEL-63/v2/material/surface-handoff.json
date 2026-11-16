@@ -1,0 +1,171 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v2",
+  "stage": "surface",
+  "correction": {
+    "returnedRevision": "v1",
+    "owner": "material",
+    "finding": "F-01",
+    "qaHandoff": "orders/ATEL-63/v1/qa-final-handoff.json",
+    "qaReport": "quality/reports/ATEL-63/v1-final.json",
+    "qaReportSha256": "e1909837f260efac7b92fa0e1693d2d88b07f5d5719c7a50f49b8265f72e5744",
+    "change": "Only the cream neck trim mask was narrowed to follow the source neckline boundary. Geometry, UV, artwork, cuffs and hem were kept."
+  },
+  "geometryChanged": false,
+  "sourceGeometry": {
+    "path": "orders/ATEL-63/v1/designer/sweater-gray-v1.glb",
+    "sha256": "9c7d8b646bcbb72c2a9c10893dd2169b9a0eeee462ee5559ed07e769caca5e0a",
+    "binaryBufferBytes": 12904896,
+    "binaryBufferSha256": "90f7cc2b327a673fd473f9654fdb5e2bbec798918b0a6463f1cbb43d1f2848f4"
+  },
+  "surface": {
+    "path": "orders/ATEL-63/v2/material/garment.glb",
+    "sha256": "47265ba5174e6aac8ec164d3c0d1998eac55c6a71372eb47b4cbe09fd96bc21b",
+    "geometryBufferPrefixPreserved": true,
+    "attributeValuesPreserved": {
+      "POSITION": true,
+      "NORMAL": true,
+      "TEXCOORD_0": true,
+      "indices": true
+    }
+  },
+  "material": {
+    "path": "orders/ATEL-63/v2/material/pbr-preset-v2.json",
+    "simulatedFiber": "len dệt matte giả lập, không xác nhận thành phần sợi thật",
+    "baseColorHexSRGB": "#6F1C31",
+    "roughnessFactor": 0.9,
+    "metallicFactor": 0
+  },
+  "artwork": {
+    "source": "orders/ATEL-63/research/christmas-tree-snowflakes.svg",
+    "sourceSha256": "65a81edb11deca9d9b5602a0f33d416faa966dd2546b0e8606a556714a2187d7",
+    "placementSource": "orders/ATEL-63/research/artwork-placement.json",
+    "placementUnchanged": true,
+    "visualCheck": "Motif cây thông/tuyết giữ nguyên ở giữa ngực trước; không thấy bleed ra lưng hoặc tay."
+  },
+  "neckCorrection": {
+    "method": "Distance-mask from the source mesh neckline boundary edges; 0.07 world-unit band, mapped through existing TEXCOORD_0.",
+    "sourceBoundaryEdgeCount": 118,
+    "visualCheck": "Front/top show a narrow contour-following collar band and no flat shoulder yoke patch."
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-63/sweater-surface-v2/index.html",
+    "type": "Material correction preview, not final viewer or QA",
+    "browserEvidence": "orders/ATEL-63/v2/material/evidence/browser-result.json",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "views": [
+      "front",
+      "back",
+      "side",
+      "oblique",
+      "top",
+      "bottom"
+    ],
+    "errors": []
+  },
+  "materialInspection": {
+    "reviewer": "atelierx-backend-developer-0005",
+    "status": "correction ready for Visual integration and focused QA retest",
+    "observations": {
+      "front": "Viền cổ kem hẹp theo đường neckline; không còn mảng yoke vuông trên vai. Motif đứng thẳng, dễ đọc.",
+      "top": "Cổ mở; dải kem bám quanh contour opening, không lan thành mảng phẳng.",
+      "back": "Không có artwork; không thấy yoke kem rộng sau cổ.",
+      "side": "Viền cổ hẹp; không in trên tay.",
+      "bottom": "Gấu mở, bo kem giữ như v1."
+    }
+  },
+  "inputs": {
+    "shapeQaReport": "quality/reports/ATEL-63/sweater-v1-gray.json",
+    "shapeDecision": "pass",
+    "qaReturnManifest": "orders/ATEL-63/v1/qa-final-handoff.json",
+    "qaReturnSha256": "020b2c6fd68f7196f8157e5d67ae9c0c8b7d16426307990f2d0ac69e893a0afa",
+    "researchRevision": "research-1",
+    "sourceMaterialSurface": "orders/ATEL-63/v1/material/garment.glb",
+    "sourceMaterialSurfaceSha256": "36c76397c280f496f2361568ed73c242a9798e4a195d7fa4fd4ab9ac07258a45"
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-63/v2/material/garment.glb",
+      "sha256": "47265ba5174e6aac8ec164d3c0d1998eac55c6a71372eb47b4cbe09fd96bc21b"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/basecolor.png",
+      "sha256": "f2fb6f1e55cac118d3b1f9439feff14b71b47660f6f5ba3a4797054fdd01868e"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/pbr-preset-v2.json",
+      "sha256": "4449e538e8e7a1095f87cc5f4e593752f94e8d8d94bab6ef728ce01782ecd978"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/placement-v2.json",
+      "sha256": "53c4e4aa665cac2e573d24b7ea20f8cc90519fadcbfcaa9c38e3ae695ccedb90"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/sweater-uv-atlas-v2.svg",
+      "sha256": "1699f1ee6d373d1050e9333d8769b2117033ab4215484dc1829d073a07fcc47c"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/surface-job-v2.json",
+      "sha256": "fd6309bad47d28ad3f3c69dd444724334fa741b8944849bdfa9834636b4cfa19"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/build-atlas-v2.mjs",
+      "sha256": "6cac551254ce4ea5db50b050d5d3c985a798ee7fab01146248af06d9973382f2"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/surface.json",
+      "sha256": "c20a3bc2550f067af9c3bdc9b40f552ed23620fecad8530120173fa2ab2d55b5"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-63/sweater-surface-v2/index.html",
+      "sha256": "eee5ff7739857809a73b4e841d0dd67c76f75fbcfc3667d8fa64e524d6abfc3a"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-63/sweater-surface-v2/garment.glb",
+      "sha256": "47265ba5174e6aac8ec164d3c0d1998eac55c6a71372eb47b4cbe09fd96bc21b"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/evidence/browser-result.json",
+      "sha256": "430d396c4bf4e636c0d918a531a192d8c38f2d7d5777975c2eddccd84278dc06"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/evidence/front.png",
+      "sha256": "ab608e40102530bc706eb60f9be70ede6117c2c9a5359a7448245564c9ee126a"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/evidence/back.png",
+      "sha256": "1b06953c1c8c0893cab628546ab4e2b208e0c7864949b2aee93d4641cebe696f"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/evidence/side.png",
+      "sha256": "d2663846e927c57910f7b5f104fc44563706432008b9e1737de5824466944b77"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/evidence/oblique.png",
+      "sha256": "4e4fb65dea297b0ee0111977d9f81b140a0592583ec67b7f0552f7dee0eb3744"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/evidence/top.png",
+      "sha256": "438103ab710c24098323386f3683eff6384f780a44b5fe2125c185e2b8afd6d6"
+    },
+    {
+      "path": "orders/ATEL-63/v2/material/evidence/bottom.png",
+      "sha256": "946976d069eeea29ef350b0de1a2308d5fffe31362ba907f6675150e22d76f5d"
+    },
+    {
+      "path": "orders/ATEL-63/research/christmas-tree-snowflakes.svg",
+      "sha256": "65a81edb11deca9d9b5602a0f33d416faa966dd2546b0e8606a556714a2187d7"
+    },
+    {
+      "path": "orders/ATEL-63/research/artwork-placement.json",
+      "sha256": "407ef704daefd9d3813157ad93b0456ddc317fb714609a3679fe11026b3d3e49"
+    },
+    {
+      "path": "orders/ATEL-63/v1/designer/uv-placement.json",
+      "sha256": "ea3e649e1bf21834ee2d5ae5c7b9f2790755a0e95decdb5664072a29bd5d6c95"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "note": "Broad sanity ranges for display, not tailoring fit tolerances. Warnings require visual review, not automatic rejection.",
+  "shirt": {"chestWidthRatio": [1.02, 1.7], "lengthCm": [45, 90], "sleeveCm": [40, 65], "mask": {"minY": 1.04, "maxY": 1.55, "maxAbsX": 0.64}, "buttons": true},
+  "hoodie": {"chestWidthRatio": [1.06, 1.9], "lengthCm": [45, 90], "sleeveCm": [40, 65], "mask": {"minY": 1.04, "maxY": 1.44, "maxAbsX": 0.64}, "buttons": false},
+  "tshirt": {"chestWidthRatio": [1.02, 1.8], "lengthCm": [40, 85], "sleeveCm": [10, 35], "mask": {"minY": 1.04, "maxY": 1.40, "maxAbsX": 0.30}, "buttons": false}
+}

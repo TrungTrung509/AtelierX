@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/proxy-collision-drape-v1-gray/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/front.png",
+    "back": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/back.png",
+    "side": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/side.png",
+    "oblique": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/oblique.png",
+    "top": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/top.png",
+    "bottom": "orders/ATEL-53/blender-cloth-proxy/v1/evidence-gray-candidate1/bottom.png"
+  },
+  "errors": []
+}

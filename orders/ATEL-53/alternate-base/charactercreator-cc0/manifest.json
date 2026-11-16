@@ -1,0 +1,118 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "alternate-cc0-shirt-v0",
+  "stage": "shape",
+  "status": "Lead-selected alternate base candidate; pending independent shape QA, not approved",
+  "source": {
+    "id": "CharacterCreator clothing_shirt.glb",
+    "commit": "852e48f316b90a0937234886630e4fb4cdfd1f78",
+    "url": "https://github.com/kblood/CharacterCreator/blob/852e48f316b90a0937234886630e4fb4cdfd1f78/output/clothing_shirt.glb",
+    "license": "CC0-1.0 per upstream LICENSE-NOTES.md and output/clothing.json; MakeHuman system source assets CC0",
+    "sourcePath": "orders/ATEL-53/alternate-base/charactercreator-cc0/source-shirt.glb",
+    "sourceSha256": "c3467876f712e63a901fa664b1d54eb0127c56d20888dbbb0a606973fd26e9cc",
+    "sceneMeshes": [
+      "Cloth_shirt"
+    ],
+    "hasBodyOrMannequinMesh": false,
+    "hasArmature": true
+  },
+  "garment": {
+    "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/gray-shirt-candidate.glb",
+    "sha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b"
+  },
+  "inspection": {
+    "method": "Source mesh retained unchanged; material texture references removed and neutral-gray factors set by neutralize-to-gray.mjs for shape inspection only.",
+    "geometryChanged": false,
+    "preview": {
+      "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/alt-cc0-shirt-v0/index.html",
+      "garmentPath": "showcase/quality-preview/ATEL-53/alt-cc0-shirt-v0/garment.glb",
+      "garmentSha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b"
+    },
+    "browserEvidence": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/browser-result.json",
+    "views": {
+      "front": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+      "back": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/back.png",
+      "side": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/side.png",
+      "oblique": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/oblique.png",
+      "top": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/top.png",
+      "bottom": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/bottom.png"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/source-shirt.glb",
+      "sha256": "c3467876f712e63a901fa664b1d54eb0127c56d20888dbbb0a606973fd26e9cc",
+      "bytes": 605956
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/clothing.json",
+      "sha256": "768877fa15b04fa8598c4617e7f12bd825d08895a86bbb8aeaeaa5372e74be34",
+      "bytes": 13514
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/LICENSE-NOTES.md",
+      "sha256": "18af8d071bcb1cab2260263991ad49c314dc616facf7f33b0ab19bee78d4ec13",
+      "bytes": 18771
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/neutralize-to-gray.mjs",
+      "sha256": "64c32c91e067b4d2a8e57e7736724c86670f5fc26d11c1d9f0b09a16d04d8c19",
+      "bytes": 1469
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/README.md",
+      "sha256": "6e1aa0c6ddba2b86e20e2163613fcda490cc61fc14e6282d0c0601a2930af512",
+      "bytes": 1341
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/gray-shirt-candidate.glb",
+      "sha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b",
+      "bytes": 605860
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/alt-cc0-shirt-v0/garment.glb",
+      "sha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b",
+      "bytes": 605860
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/alt-cc0-shirt-v0/index.html",
+      "sha256": "e1c1eb396cf75195fa44ac02eb644a45491f7c47d0bdb44b42aba2e9cfc6b7ab",
+      "bytes": 1000
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+      "sha256": "67820c4a871cd1e6cd21929e407b035095deb3379a1a88faa64e876b7f64ab21",
+      "bytes": 399824
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/back.png",
+      "sha256": "01ebbd3b287a2f824a9eea12827d5730d7b8ae55cd89b5c716beab3ba8cca40a",
+      "bytes": 388923
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/side.png",
+      "sha256": "9512c14028a7a27e6fd6fc086f7904745703917595fbf4c73d01a4c699765008",
+      "bytes": 401276
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/oblique.png",
+      "sha256": "258d2a3d41b4446e36c3aae93e63ecfbd89c4fac0a468666fb9ca5bdc8186813",
+      "bytes": 408077
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/top.png",
+      "sha256": "92d09398a4df5310390070fd4cbe25f8e56173b7270314b1fb80018b786d592f",
+      "bytes": 400332
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/bottom.png",
+      "sha256": "fc3e8217488628ec48c75a5bd59501ee3c30c6a4ae3ab90ca5e56deb2aa2f86f",
+      "bytes": 405867
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/browser-result.json",
+      "sha256": "e7209fa0a5cbb1f716cd2b5510c7d419da2daaa7d49b763ae62f8376fc258995",
+      "bytes": 734
+    }
+  ]
+}

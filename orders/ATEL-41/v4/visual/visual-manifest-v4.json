@@ -1,0 +1,108 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v4",
+  "stage": "visual",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "correctionFrom": "v3",
+  "correctionFinding": "CONTENT-01",
+  "provenance": {
+    "geometry": "Authored by AtelierX Fashion Studio; no JNCO mesh/texture/branding used.",
+    "silhouetteReference": "Owner-supplied JNCO Twin Cannon was used only as silhouette reference; see orders/ATEL-41/v3/designer/provenance-v3.json.",
+    "surface": {
+      "path": "orders/ATEL-41/v3/material/garment-surface-v3.glb",
+      "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd",
+      "revision": "v3",
+      "reusedUnchanged": true
+    },
+    "material": "Visual PBR simulation from internal preset orders/ATEL-41/material/pbr-preset-v1.json; not measured textile data."
+  },
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-41/v4/index.html",
+  "qaWorkItemId": "edfeafa5-1ef1-4a04-a300-d5069a2bc181",
+  "artifacts": [
+    {
+      "path": "showcase/products/ATEL-41/v4/assembly.json",
+      "sha256": "853dc1df0c147511559877ca0964c2cb6948e9e1068b2c9ec4fb1fbb30420e8f"
+    },
+    {
+      "path": "showcase/products/ATEL-41/v4/assets/display.glb",
+      "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+    },
+    {
+      "path": "orders/ATEL-41/v3/material/garment-surface-v3.glb",
+      "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+    },
+    {
+      "path": "orders/ATEL-41/v3/material/surface-manifest-v3.json",
+      "sha256": "2362fc94b612cc3adffdfbe3938cc03df0bd560a1e97c07c2c1ec18f315d36e0"
+    },
+    {
+      "path": "showcase/products/ATEL-41/v4/content.json",
+      "sha256": "084fa4535b80ee4819b2ce7b9e78f7ac25cec4b75c12fa1c2601283ebd171605"
+    },
+    {
+      "path": "orders/ATEL-41/v4/visual/content.json",
+      "sha256": "084fa4535b80ee4819b2ce7b9e78f7ac25cec4b75c12fa1c2601283ebd171605"
+    },
+    {
+      "path": "orders/ATEL-41/v4/visual/content-manifest-v4.json",
+      "sha256": "a9ca52d137d05299d839994dad32a6cb79d404b29f5deb87a4d794befcca37e6"
+    },
+    {
+      "path": "showcase/products/ATEL-41/v4/index.html",
+      "sha256": "be9be5970b88b59b1c0a4097b03cf9acc2a20b5a9a86a834fea547eda3de4a49"
+    },
+    {
+      "path": "showcase/products/ATEL-41/v4/measurements.json",
+      "sha256": "2ed1524b84cca70864888d96bdb53efa73881fd547ac6b84ae9c081647399bda"
+    },
+    {
+      "path": "orders/ATEL-41/v3/independent-shape-review.json",
+      "sha256": "1c70b8b160ee5410a37b781bdb9ca5579e1f266e322780ffb44723bf98577c43"
+    },
+    {
+      "path": "orders/ATEL-41/v3/designer/provenance-v3.json",
+      "sha256": "8f76fa7929cde3f48e356f2182a5837d4cc724c592e155487c5c0bf64b920bdf"
+    },
+    {
+      "path": "orders/ATEL-41/material/pbr-preset-v1.json",
+      "sha256": "df493e7058c12a1fa8497bbc1bbed0f342d4edf6fa61e1b5ac7f1d11aac91c8d"
+    },
+    {
+      "path": "orders/ATEL-41/v4/visual/showcase-job-v4.json",
+      "sha256": "d4d9f12b30aa7b085ac67e1ef4ade54db27add3c53d53e1f7e3488ce0d920857"
+    },
+    {
+      "path": "quality/reports/ATEL-41-v3.json",
+      "sha256": "edcf478cc8fd77afd98429bddf8de446168838ba12c0f209a39f22f58c8dd162"
+    },
+    {
+      "path": "orders/ATEL-41/v3/qa-final-handoff.json",
+      "sha256": "4869806ed65f02a5fd49047b7e5dd45da061c28671f993a24e79d7fc2934846a"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/browser-result.json",
+      "sha256": "e298d971058145f85312c80522f7fb431650f1b9b80a4f0a0ac54feaf1260c8a"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/front.png",
+      "sha256": "72e2b5c47e33f9d1b3eb24b35e6d34f49cdec95de45ae97c588cb5656e6facac"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/back.png",
+      "sha256": "4d34eda2efe7b5572e2f9af89c09b83d40d0b21ccbfa12b591f95c003fdce4f8"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/side.png",
+      "sha256": "5032a356254198e086f35d5332a0d1a2e1dd4eea2ae23d0d8efd8cf9dde7666d"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/oblique.png",
+      "sha256": "3ac33fb18950c81d0f4901ea8d332ea5b2ec2fb518d266898b9564e7fb8eaa9d"
+    },
+    {
+      "path": "showcase/products/ATEL-41/v4/assets/asset-manifest.json",
+      "sha256": "e77bde4491fd04cf6d057edcc267ac4c035a1922e1b750f1387cfb08cb90feb6"
+    }
+  ]
+}

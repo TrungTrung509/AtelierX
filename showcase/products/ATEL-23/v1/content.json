@@ -1,0 +1,29 @@
+{
+  "title": "Tuyến sáng — sơ mi công sở Gen Z",
+  "summary": "Một chiếc sơ mi sáng màu với họa tiết vi tuyến đô thị nhỏ, phối xanh trời và những điểm coral, vàng chanh vừa đủ để tạo nét trẻ trung nơi công sở.",
+  "paragraphs": [
+    "Tuyến sáng lấy cảm hứng từ những con đường giao nhau và mặt đứng gọn gàng của thành phố. Các nét xanh trời mảnh tạo thành nhịp hình học thoáng, xen những khối phố bo góc và vài điểm màu coral, vàng chanh.",
+    "Họa tiết được thiết kế theo ô lặp nhỏ để tạo điểm nhấn gần khi nhìn, trong khi tổng thể vẫn sáng và tiết chế ở khoảng cách thường ngày. Bảng màu gợi ý dùng nền sơ mi ivory hoặc xanh trời nhạt, giữ các nét và điểm màu đủ tương phản mà không lấn át vẻ chuyên nghiệp.",
+    "Đây là mô tả thiết kế số; chất liệu và cảm giác mặc thực tế chưa được xác định. Kiểu dáng, độ rủ và độ vừa sẽ được đánh giá trên mẫu 3D cùng mannequin tham chiếu trước khi nghiệm thu."
+  ],
+  "details": [
+    "Họa tiết vi tuyến đô thị hình học, quy mô nhỏ và lặp đều.",
+    "Nét xanh trời trên nền trong suốt, điểm nhấn coral và vàng chanh.",
+    "Phối màu nền đề xuất: ivory hoặc xanh trời nhạt.",
+    "Tổng thể sáng, gọn và phù hợp bối cảnh công sở trẻ.",
+    "Artwork ATEL-23/v1 là bản vẽ gốc; chưa phải texture/PBR hay bản in đã kiểm trên áo."
+  ],
+  "credits": [
+    "Hướng hình và artwork vi tuyến đô thị: AtelierX Research, ATEL-23/v1; artwork gốc, không dùng tài sản tham chiếu bên ngoài.",
+    "Mannequin tham chiếu studio cao 1,80 m: zveoxic, ‘Mannequin_ model’, Sketchfab, CC BY 4.0; bản nội bộ đã chuẩn hóa trục/kích thước và vật liệu theo quality/MANNEQUIN_REFERENCE.md."
+  ],
+  "artwork": {
+    "file": "./assets/artwork/atel23-cityline-microprint-v1.svg",
+    "revision": "ATEL-23/v1",
+    "format": "SVG",
+    "background": "transparent",
+    "use": "Tiling artwork preview; garment placement and scale to be confirmed by Designer/QA on the final geometry."
+  },
+  "orderId": "ATEL-23",
+  "revision": "v1"
+}

@@ -1,0 +1,65 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v0.1-gray",
+  "garment": {
+    "path": "orders/ATEL-35/v0.1/designer/garment-v0_1.glb",
+    "sha256": "48a976465da23f4e235728c4a4b42d11d3afcbcd1d9632980c7324019fb31805"
+  },
+  "sourceProvenance": {
+    "path": "orders/ATEL-35/v0.1/designer/source-uv-provenance.json",
+    "sha256": "5fd8851c5983ca74d4050bc8a47ffa53a8e5011b9ae6ce3d57825879ff805e60",
+    "sourcePath": "quality/candidates/user-supplied/t-shirt.glb",
+    "sourceSha256": "922001c3404f16be6a5e752928063696469d10c6dd0f269e44b455f41d79e237",
+    "connectedComponentsBySharedVertexIndices": 9
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel35-v0_1/index.html",
+    "browserResult": "quality/evidence/ATEL-35/v0.1/browser-result.json",
+    "browserResultSha256": "c5b26dfc136666cce88817821ce3ce750c80d7c392a1b69d4cb827d077bf0bfb",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "mobile": true,
+    "errors": []
+  },
+  "evidence": {
+    "front": { "path": "quality/evidence/ATEL-35/v0.1/front.png", "sha256": "5aae7289c9ed01664a8586cc525ca14150fed8ea77a9ad912aee241a098f2ed8" },
+    "back": { "path": "quality/evidence/ATEL-35/v0.1/back.png", "sha256": "d14f2d0207c7da7666a850a029a54f2bcdc946e97e75970be5a83c7851fb3227" },
+    "side": { "path": "quality/evidence/ATEL-35/v0.1/side.png", "sha256": "3ddb1cbb0ec0a197a27a7de0e0bc19a92a47453967d8a66c416f6f2fcef6231f" },
+    "oblique": { "path": "quality/evidence/ATEL-35/v0.1/oblique.png", "sha256": "3249ac4d31a715209c784a4da82a3d549853ee6c3cd1ce2dd866b8df584d8766" },
+    "mobile": { "path": "quality/evidence/ATEL-35/v0.1/mobile.png", "sha256": "9929f9a97e31262e8360d6debd697b0a9d8a0b2e8da27ba0861b9d7aecdc312e" }
+  },
+  "checks": {
+    "garmentType": {
+      "pass": false,
+      "observation": "Thân và tay áo có silhouette T-shirt, nhưng front có cổ bẻ/ve và nẹp chữ V; nhìn tổng thể đọc giống polo hơn áo thun cổ tròn cơ bản. Cần Lead quyết định đây có phải kiểu cổ chủ đích trước khi áp màu/artwork.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.1/front.png",
+        "quality/evidence/ATEL-35/v0.1/oblique.png"
+      ]
+    },
+    "connectedParts": {
+      "pass": true,
+      "observation": "Thân trước/sau nối thị giác liên tục với hai tay và khu vực vai/nách. Chín topology island không tự gây lỗi nhìn thấy: các island đọc thành một chiếc áo, không thấy mảnh rời lơ lửng ở front/back/side/oblique.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.1/front.png",
+        "quality/evidence/ATEL-35/v0.1/back.png",
+        "quality/evidence/ATEL-35/v0.1/side.png",
+        "quality/evidence/ATEL-35/v0.1/oblique.png"
+      ]
+    },
+    "structure": {
+      "pass": true,
+      "observation": "Thân có độ phồng nhẹ; nếp gấp hiện rõ ở vai và tay. Các viền cổ, gấu và miệng tay mở phù hợp cấu trúc áo rỗng; không thấy lỗ thủng ngoài ý muốn hoặc seam hở lớn trong bốn góc.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.1/front.png",
+        "quality/evidence/ATEL-35/v0.1/back.png",
+        "quality/evidence/ATEL-35/v0.1/side.png",
+        "quality/evidence/ATEL-35/v0.1/oblique.png"
+      ]
+    }
+  },
+  "decision": "revise",
+  "reviewer": "atelierx-qa-0004",
+  "summary": "Phom xám đọc được là áo tay ngắn với thân/tay gắn liền và không có island rời nhìn thấy. Tuy nhiên cổ ve và nẹp chữ V làm mặt trước đọc như polo. Chưa nên chuyển sang trang trí cuối cho đến khi Lead xác nhận kiểu cổ có phù hợp brief áo thun hay yêu cầu đổi hướng cổ. Không sửa GLB và không publish."
+}

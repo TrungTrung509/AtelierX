@@ -1,0 +1,130 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "alternate-cc0-shirt-v0",
+  "decision": "return",
+  "reviewer": "atelierx-qa-0004",
+  "correctionOwner": "designer",
+  "nextAction": "Review three blocking findings and choose a suitable geometry correction or replacement; keep Material/Visual held. QA continues using the same WorkItem after a verified gray handoff.",
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-53/alternate-cc0-shirt-v0.json",
+      "sha256": "00946a06c692b1c2345110840af9679b503a65ed1a46b9b70716b2e1d492d47a"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/manifest.json",
+      "sha256": "2afc62012fd8e99266e167271c503e1efef47486d733e793e4350e5d81ee09e8"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/gray-shirt-candidate.glb",
+      "sha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/source-shirt.glb",
+      "sha256": "c3467876f712e63a901fa664b1d54eb0127c56d20888dbbb0a606973fd26e9cc"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/clothing.json",
+      "sha256": "768877fa15b04fa8598c4617e7f12bd825d08895a86bbb8aeaeaa5372e74be34"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/LICENSE-NOTES.md",
+      "sha256": "18af8d071bcb1cab2260263991ad49c314dc616facf7f33b0ab19bee78d4ec13"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/neutralize-to-gray.mjs",
+      "sha256": "64c32c91e067b4d2a8e57e7736724c86670f5fc26d11c1d9f0b09a16d04d8c19"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/README.md",
+      "sha256": "6e1aa0c6ddba2b86e20e2163613fcda490cc61fc14e6282d0c0601a2930af512"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/alt-cc0-shirt-v0/garment.glb",
+      "sha256": "b78f86c1ea75a662860417eb82b39dd1ed9ff1316d88dd30ac7c86f487964b4b"
+    },
+    {
+      "path": "showcase/quality-preview/ATEL-53/alt-cc0-shirt-v0/index.html",
+      "sha256": "e1c1eb396cf75195fa44ac02eb644a45491f7c47d0bdb44b42aba2e9cfc6b7ab"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/front.png",
+      "sha256": "67820c4a871cd1e6cd21929e407b035095deb3379a1a88faa64e876b7f64ab21"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/back.png",
+      "sha256": "01ebbd3b287a2f824a9eea12827d5730d7b8ae55cd89b5c716beab3ba8cca40a"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/side.png",
+      "sha256": "9512c14028a7a27e6fd6fc086f7904745703917595fbf4c73d01a4c699765008"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/oblique.png",
+      "sha256": "258d2a3d41b4446e36c3aae93e63ecfbd89c4fac0a468666fb9ca5bdc8186813"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/top.png",
+      "sha256": "92d09398a4df5310390070fd4cbe25f8e56173b7270314b1fb80018b786d592f"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/bottom.png",
+      "sha256": "fc3e8217488628ec48c75a5bd59501ee3c30c6a4ae3ab90ca5e56deb2aa2f86f"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/collarCloseup.png",
+      "sha256": "40d755d7d50e283ef654f31a834e3680e162d501d771c8d73ae7ef53d72bd02b"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/placketSideCloseup.png",
+      "sha256": "26143fdc182bed250697e8ed4219fcaadab2e84e3cf6de53c17257764541c458"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/cuffCloseup.png",
+      "sha256": "6bde7cfc22b1307319fe62cdbd20cd90ce41856f8419423e3d6a30f3711a2f9e"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/browser-result.json",
+      "sha256": "e7209fa0a5cbb1f716cd2b5510c7d419da2daaa7d49b763ae62f8376fc258995"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/detail-browser-result.json",
+      "sha256": "d2402c4ff7759caed2b7125eaf051738d834e5a655546e09457de3b2bd5e4f6e"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/front.png",
+      "sha256": "d4eb871ce6dedfef328b9f6a654d1e3bdba13ae1ad66784b0f354fd0c3951e04"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/back.png",
+      "sha256": "1687957b564f9915b94019c9b0838e6e21b83e1ea3527e28a28fe3c5544d237e"
+    },
+    {
+      "path": "quality/evidence/ATEL-35/v0.5/oblique.png",
+      "sha256": "b8f3f285ea2447cbcbf71c3cb28c458538b8f2afaaec9d340b081c812954d98b"
+    },
+    {
+      "path": "orders/ATEL-53/alternate-base/charactercreator-cc0/evidence/details/detail-browser-result.json",
+      "sha256": "d2402c4ff7759caed2b7125eaf051738d834e5a655546e09457de3b2bd5e4f6e"
+    }
+  ],
+  "findings": [
+    {
+      "id": "SHAPE-01",
+      "area": "Silhouette và drape — front/back/side/oblique",
+      "observation": "Thân phồng tròn và phẳng, gấu loe rộng như một panel tách khối; tay giữ tư thế dang ngang, nếp vải chỉ lộ nhẹ quanh khuỷu. Không đạt dáng mặc vừa và độ rủ của benchmark.",
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-02",
+      "area": "Cổ sơ mi — front/top/collar closeup",
+      "observation": "Neckline đọc thành viền V hẹp, chưa có chân cổ và hai lá cổ bẻ bản rõ/gập mở tự nhiên. Gray closeup chưa chứng minh được construction sơ mi.",
+      "correctionOwner": "designer"
+    },
+    {
+      "id": "SHAPE-03",
+      "area": "Nẹp, khuy và cuff — front/placketSideCloseup/cuffCloseup",
+      "observation": "Không có nẹp/khuy/cuff band thấy được trong gray geometry; hồ sơ nguồn cho biết các chi tiết này được vẽ trong texture đã loại bỏ. Hai ảnh cận nẹp và cuff cũng chưa lấy trúng chi tiết để chứng minh attachment.",
+      "correctionOwner": "designer"
+    }
+  ]
+}

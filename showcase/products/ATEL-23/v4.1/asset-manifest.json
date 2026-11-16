@@ -1,0 +1,94 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4.1",
+  "deliveryProfile": "showcase-basic-v1",
+  "stage": "final",
+  "status": "needs-visual-correction-review; not handed to QA",
+  "sources": {
+    "garment": {
+      "path": "orders/ATEL-23/v4/designer/garment-v4_1.glb",
+      "sha256": "c0c88a9af99feb3b66948ffbb81fc75d570071bd0cf86da3e461397dc6a7ca19"
+    },
+    "mannequin": {
+      "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+      "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+    },
+    "artwork": {
+      "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+      "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99",
+      "applied": false,
+      "reason": "The visible final garment has no artwork texture; UV mapping was not confirmed as clean."
+    },
+    "material": {
+      "name": "Poplin mô phỏng",
+      "source": "preset:poplin"
+    }
+  },
+  "outputs": {
+    "display": {
+      "path": "showcase/products/ATEL-23/v4.1/assets/display.glb",
+      "sha256": "661160106217cf94ca7750e54ca44044746255f24a0a33c939e9d3483282ffa6"
+    },
+    "content": {
+      "path": "showcase/products/ATEL-23/v4.1/content.json",
+      "sha256": "b3748ae04bfa3aef3bcf1b2595214af96486f79805055a38647ca9a251727091"
+    },
+    "measurements": {
+      "path": "showcase/products/ATEL-23/v4.1/measurements.json",
+      "sha256": "3406e7b5ab6726a08010022b1f67151adf15a9c039870a45a3dcb72c74209f9c"
+    },
+    "assembly": {
+      "path": "showcase/products/ATEL-23/v4.1/assembly.json",
+      "sha256": "dfaf728227e2ec60ab87d416704f6c30c29dca5008107e9281def11be19d4aa6"
+    },
+    "designerFit": {
+      "path": "orders/ATEL-23/v4/designer/fit.json",
+      "sha256": "90db30461bd6ccd3f351494709c5a83b3661cc9df2ec8dca3e4e6037aa8d0707"
+    }
+  },
+  "ledger": {
+    "path": "orders/ATEL-23/showcase-builds.json",
+    "revision": "v4.1",
+    "displaySha256": "661160106217cf94ca7750e54ca44044746255f24a0a33c939e9d3483282ffa6"
+  },
+  "browser": {
+    "path": "quality/evidence/ATEL-23/v4.1/browser-result.json",
+    "sha256": "2d912fed43bcd81c490b532cdc8b21b8e3ce067d84061e91a96ff961a7718b29",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "captures": {
+      "front": {
+        "path": "quality/evidence/ATEL-23/v4.1/front.png",
+        "sha256": "93b7e9f67cfb5bab6771cacd34fdd89bddfd3ebe395533334ae9e389c075316d"
+      },
+      "back": {
+        "path": "quality/evidence/ATEL-23/v4.1/back.png",
+        "sha256": "c69fbac206dad6f4bfcf2c20c1ba7caab515f5fc5f3ba2f27da5a523b6ba88a0"
+      },
+      "side": {
+        "path": "quality/evidence/ATEL-23/v4.1/side.png",
+        "sha256": "0833e9c801d5e0bfbdab4effb5fe1538f91e686326ce5f4e83676f9629442f84"
+      },
+      "oblique": {
+        "path": "quality/evidence/ATEL-23/v4.1/oblique.png",
+        "sha256": "a6efddd8f9b062644ea42755368c82bb7b7d3d56e26e5e31572280e03ac252cf"
+      },
+      "mobile": {
+        "path": "quality/evidence/ATEL-23/v4.1/mobile.png",
+        "sha256": "ed286ececd6b975c83f4c21ff75a2ac8f3b031e625104043f3e728e1b7fd73f0"
+      }
+    }
+  },
+  "visualFindings": [
+    "Artwork Tuyến sáng chưa xuất hiện trên áo.",
+    "Áo hiển thị trắng thay vì xanh trời nhạt theo brief/content mong muốn.",
+    "Coverage tay áo thiếu; cánh tay mannequin lộ rõ.",
+    "Khuy và nếp gấp nhìn lệch khỏi bề mặt ở các ảnh front/oblique."
+  ],
+  "catalog": "unchanged",
+  "qaHandoff": "withheld because earlier Lead condition requires pattern/buttons/collar/coverage to look acceptable in four views; visible review does not pass."
+}

@@ -1,0 +1,38 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v1",
+  "materialName": "ATEL-47 bright sky-blue fine white stripe shirt simulation",
+  "shader": "glTF 2.0 metallicRoughness",
+  "scope": "Surface preset for a standalone office shirt; geometry and stripe artwork are not included.",
+  "appearance": {
+    "simulatedMaterial": "matte cotton-poplin weave",
+    "baseColorHexSRGB": "#79BCEB",
+    "baseColorFactorLinear": [0.1912, 0.5089, 0.8317, 1.0],
+    "roughnessFactor": 0.82,
+    "metallicFactor": 0.0,
+    "alphaMode": "OPAQUE"
+  },
+  "stripeSpec": {
+    "colorHexSRGB": "#F8FBFF",
+    "orientation": "vertical, parallel to garment centerline when worn",
+    "width": "fine, consistent",
+    "spacing": "even",
+    "application": "front and back shirt body panels only; do not extend onto collar, sleeves, cuffs, placket, buttons, or other trim",
+    "status": "pending Designer UV and placement mapping"
+  },
+  "textureMaps": {
+    "baseColor": null,
+    "roughness": null,
+    "normal": null
+  },
+  "applicationNotes": [
+    "Apply the linear base color and metallic-roughness values with the glTF 2.0 metallic-roughness workflow.",
+    "Wait for a passed shape review and Designer-provided UV/placement mapping before producing a surface GLB.",
+    "Preserve approved geometry and UVs; verify stripe direction, spacing, and clean boundaries on front and back under neutral lighting."
+  ],
+  "source": {
+    "brief": "ATEL-47 owner brief: bright sky-blue office shirt with fine, evenly spaced white vertical stripes.",
+    "provenance": "Artist-authored visualization values derived from the requested appearance; no external texture or measured textile data used.",
+    "limitations": "Cotton-poplin and stripe appearance are visual simulations only and do not certify fiber composition, hand, or manufacturing properties."
+  }
+}

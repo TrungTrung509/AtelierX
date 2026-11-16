@@ -1,0 +1,281 @@
+{
+  "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+  "candidateDiagnosticSha256": "b686f6e3d7f840f4151ef5ce040e23285c18637cdb6afbcfc25da73bee642782",
+  "loaded": true,
+  "errors": [],
+  "captures": [
+    {
+      "meshIndex": 0,
+      "sourceNodeIndex": 2,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-00-front.png",
+      "sha256": "8af20770390106644904cad5f5cf305128b1dba484726f60311dc5a96c827b36"
+    },
+    {
+      "meshIndex": 0,
+      "sourceNodeIndex": 2,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-00-side.png",
+      "sha256": "189db1f46a3a9ff7a150947c6e7d3bf0751b15b39e8b4952ebec9777f0240551"
+    },
+    {
+      "meshIndex": 0,
+      "sourceNodeIndex": 2,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-00-back.png",
+      "sha256": "b4d8bf5169b03dd57f97ec084a00b8329dabd2e2b32564af743aca20230742a7"
+    },
+    {
+      "meshIndex": 1,
+      "sourceNodeIndex": 3,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-01-front.png",
+      "sha256": "dcc4f7c57f89fe6c36204473038648fdeed9ef1fb3449de9a73dfe31d7635953"
+    },
+    {
+      "meshIndex": 1,
+      "sourceNodeIndex": 3,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-01-side.png",
+      "sha256": "a991b8ee442b60e285ea1d8be0ac5e85d62809e117f10c9f017b461751a28efc"
+    },
+    {
+      "meshIndex": 1,
+      "sourceNodeIndex": 3,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-01-back.png",
+      "sha256": "7d94caed87d8191f824beefe53044bee96fac1457473c80721f5fe38a902b9d5"
+    },
+    {
+      "meshIndex": 2,
+      "sourceNodeIndex": 4,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-02-front.png",
+      "sha256": "d8ab27a28341c832829836e2a4269e8c4878278724a78391e544c3a7e118852f"
+    },
+    {
+      "meshIndex": 2,
+      "sourceNodeIndex": 4,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-02-side.png",
+      "sha256": "693753acc4cb722d484a53936386abcb09c2de383ce11439697599405667868b"
+    },
+    {
+      "meshIndex": 2,
+      "sourceNodeIndex": 4,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-02-back.png",
+      "sha256": "115bd7adb6ef2fbd95cf47bac0299446375516a574ca155eba7c3a1c23059e14"
+    },
+    {
+      "meshIndex": 3,
+      "sourceNodeIndex": 5,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-03-front.png",
+      "sha256": "57776b29b7d670ac12b4a186467c355cdea94bcf86d399d8a44bb79348960dec"
+    },
+    {
+      "meshIndex": 3,
+      "sourceNodeIndex": 5,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-03-side.png",
+      "sha256": "26a0bfb462b36685f7ffa0105ea881250b20d32658d323083d687ff8e77e8ba0"
+    },
+    {
+      "meshIndex": 3,
+      "sourceNodeIndex": 5,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-03-back.png",
+      "sha256": "4f6442227927a694d48b07bb4cb6e351bb0547aa80726747a44c77680b0c3e2c"
+    },
+    {
+      "meshIndex": 4,
+      "sourceNodeIndex": 6,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-04-front.png",
+      "sha256": "fb6cf6bae8c199f41fa6cf17a72ae415c92ad8d0fdf2074f66c19d01d324c552"
+    },
+    {
+      "meshIndex": 4,
+      "sourceNodeIndex": 6,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-04-side.png",
+      "sha256": "35f22d41e765d1f3cf67617df6b4c491a73fa227cdc09cf026214269c7d193ab"
+    },
+    {
+      "meshIndex": 4,
+      "sourceNodeIndex": 6,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-04-back.png",
+      "sha256": "4039b8b3f313ce234376e9fbb79aa02da64987b662eca4e1d1f024f8fac7be2a"
+    },
+    {
+      "meshIndex": 5,
+      "sourceNodeIndex": 7,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-05-front.png",
+      "sha256": "40fa90d31798563c25e4977ca93fd936845463e39a2dfc9f71cbf5610e9cfa2b"
+    },
+    {
+      "meshIndex": 5,
+      "sourceNodeIndex": 7,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-05-side.png",
+      "sha256": "02b2eca1fa4a693c59ca7529429ef72ec31cfc1dba76caf32175b4a368b6c266"
+    },
+    {
+      "meshIndex": 5,
+      "sourceNodeIndex": 7,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-05-back.png",
+      "sha256": "f04490747f6f3bf996a2287ca054905339b8d0035ddb4e2e1e1a99ac0a56a77e"
+    },
+    {
+      "meshIndex": 6,
+      "sourceNodeIndex": 8,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-06-front.png",
+      "sha256": "74ead44c1d669d378339f9f46620250f66c3cf1aa5e1dd2418291bcc3f831c23"
+    },
+    {
+      "meshIndex": 6,
+      "sourceNodeIndex": 8,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-06-side.png",
+      "sha256": "ef3925f0d9c1c724cc54e3972477343fbe70db7ef0975e8f60f2f477c8eeea1f"
+    },
+    {
+      "meshIndex": 6,
+      "sourceNodeIndex": 8,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-06-back.png",
+      "sha256": "e93656f1a14e3757102b6f3ac863e5b3c36a198c4b54edd516cc11a16e396339"
+    },
+    {
+      "meshIndex": 7,
+      "sourceNodeIndex": 9,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-07-front.png",
+      "sha256": "a7623aafdf03195254a5d9b9aa3c70b4a3dfe98fd55215944179aa7465abc514"
+    },
+    {
+      "meshIndex": 7,
+      "sourceNodeIndex": 9,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-07-side.png",
+      "sha256": "a46af8907173805e38fc745be96d4eec6172053d424c9d74bcf128b78d3d82e4"
+    },
+    {
+      "meshIndex": 7,
+      "sourceNodeIndex": 9,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-07-back.png",
+      "sha256": "590b1b5eeecee31a884411563b3ce2476f23affa3e57ce66acdbd079e7a95b8b"
+    },
+    {
+      "meshIndex": 8,
+      "sourceNodeIndex": 10,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-08-front.png",
+      "sha256": "45e7fb8cfc3a426bc885b6a7e822bb7cdb137445765deb0227b493a53528846f"
+    },
+    {
+      "meshIndex": 8,
+      "sourceNodeIndex": 10,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-08-side.png",
+      "sha256": "694b3e643c89e57858ea4bbf974b0d8befe51d11d3883f5f6062f355f93c9e3a"
+    },
+    {
+      "meshIndex": 8,
+      "sourceNodeIndex": 10,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-08-back.png",
+      "sha256": "56d8222c7faf9748eb7f18c6ac3636feb1ac478603effd6726f70aa3a8bcefc5"
+    },
+    {
+      "meshIndex": 9,
+      "sourceNodeIndex": 11,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-09-front.png",
+      "sha256": "2eb9069538cdd49f10028b207055862621e34f99d188cb158f7c284e1052a76b"
+    },
+    {
+      "meshIndex": 9,
+      "sourceNodeIndex": 11,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-09-side.png",
+      "sha256": "7c9a24aa0a8a973207c8df31507faf96b4fd807d7710a4c16ec2db49aa938f31"
+    },
+    {
+      "meshIndex": 9,
+      "sourceNodeIndex": 11,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-09-back.png",
+      "sha256": "f43a3bfeb66a7aa0e55d08b04b5c9648903282937e260c0f6655475c08ad0bb7"
+    },
+    {
+      "meshIndex": 10,
+      "sourceNodeIndex": 12,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-10-front.png",
+      "sha256": "61aa717564772d5ce7e4ddea66b4cca765e343da1091da25bd3ff4bf95aafe7a"
+    },
+    {
+      "meshIndex": 10,
+      "sourceNodeIndex": 12,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-10-side.png",
+      "sha256": "a08d649d3728a20f0bbe693e3313941a09842ed77adfc49dabc5b30824aca393"
+    },
+    {
+      "meshIndex": 10,
+      "sourceNodeIndex": 12,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-10-back.png",
+      "sha256": "f1a8eaad61e2076cd851e7eac78c5981f6698175ada80028bf8061619803315a"
+    },
+    {
+      "meshIndex": 11,
+      "sourceNodeIndex": 13,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-11-front.png",
+      "sha256": "54e6015ae518c6f46eebf82a5f5316aedfb76bae81825b20f1252afbfaadbe25"
+    },
+    {
+      "meshIndex": 11,
+      "sourceNodeIndex": 13,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-11-side.png",
+      "sha256": "84957495177e1efe0e9ba26cc98f03b2deeb1af9a08f1416e9ba8d73468c15ab"
+    },
+    {
+      "meshIndex": 11,
+      "sourceNodeIndex": 13,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-11-back.png",
+      "sha256": "a00ec0027704754b6fb42ec4ea250b3edef58a03db1bccb32ed4b3d099584155"
+    },
+    {
+      "meshIndex": 12,
+      "sourceNodeIndex": 14,
+      "view": "front",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-12-front.png",
+      "sha256": "909f57bdb0ad46b9227d6c8d45b1f02d7811571ecfb08620edfc9b71ce3c0e58"
+    },
+    {
+      "meshIndex": 12,
+      "sourceNodeIndex": 14,
+      "view": "side",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-12-side.png",
+      "sha256": "8590ee3ac5d0762a3ebd002be79a153038e875650198cd49bae08c504f876fcf"
+    },
+    {
+      "meshIndex": 12,
+      "sourceNodeIndex": 14,
+      "view": "back",
+      "path": "quality/evidence/ATEL-32-source-assessment/isolated-captures/mesh-12-back.png",
+      "sha256": "b157e9332a0b3de4a1f9cba4125dd0a157f4a8a8dcb1f81c64c493b8648edb75"
+    }
+  ]
+}

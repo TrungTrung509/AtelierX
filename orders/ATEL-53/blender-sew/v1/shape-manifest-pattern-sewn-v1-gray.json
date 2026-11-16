@@ -1,0 +1,114 @@
+{
+  "orderId": "ATEL-53",
+  "workItemId": "ec090719-14b6-4e75-8615-7260c53cdade",
+  "revision": "pattern-sewn-v1-gray",
+  "stage": "shape-candidate-lead-review",
+  "decision": "WIP candidate only; not shape-approved; do not release QA or Material before Lead review",
+  "createdUtc": "2026-11-15",
+  "construction": {
+    "method": "Self-authored Blender pattern-panel sewing and cloth simulation; front/back torso panels, tubular sleeve panels, collar stand and leaves, open cuff bands, center placket; explicit sewing springs; baked static mesh.",
+    "simulation": "Blender Cloth, frames 1-16, gravity -0.35 Z, quality 6, sewing force max 10, no mannequin/body/collision proxy; buttons are low-profile neutral-gray trial hardware.",
+    "openings": "Neck, garment hem, sleeve cuffs remain open; standalone garment only.",
+    "surface": "Neutral gray only; no blue/stripes/material artwork."
+  },
+  "tool": {
+    "name": "Blender",
+    "version": "5.2.4 LTS",
+    "executable": "/tmp/atelierx-blender-tools/blender-5.2.4-linux-x64/blender",
+    "archiveSha256": "2fd14c50987426897ba60237ee996edf2b4151f4b1a72a460ca20be58c1d2d86"
+  },
+  "snapshot": {
+    "path": "orders/ATEL-53/blender-sew/v1/garment-pattern-sewn-gray-v1.glb",
+    "sha256": "ace5faf9192f34d281cfd6d597e14494983577a04f94974c90888cbb5d3fb15a",
+    "bytes": 297844,
+    "immutableAfterCapture": true
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-53/pattern-sewn-v1-gray/index.html",
+    "glbPath": "showcase/quality-preview/ATEL-53/pattern-sewn-v1-gray/garment.glb",
+    "glbSha256": "ace5faf9192f34d281cfd6d597e14494983577a04f94974c90888cbb5d3fb15a",
+    "browserEvidence": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/browser-result.json",
+    "browserCheck": "loaded, rotated, zoomed, desktop; no browser errors"
+  },
+  "views": {
+    "front": {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/front.png",
+      "bytes": 407984,
+      "sha256": "6300adf4a4873bb6742f97ccfce2a503aaeef5de02bfd8d93e9ffe77a9d4d753"
+    },
+    "back": {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/back.png",
+      "bytes": 404196,
+      "sha256": "726edd791175b750441ff7815f1fc988d4cdfdf14f28d184889ccfaf9fadb150"
+    },
+    "side": {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/side.png",
+      "bytes": 402622,
+      "sha256": "22a0721da9e819d696269c42c4baa79c49dd529778e7cadff019d049bd44c95b"
+    },
+    "oblique": {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/oblique.png",
+      "bytes": 423546,
+      "sha256": "5ec144c1121a873c27d89cd157079599a71c4d6c820e5275c7b8f6715d2dc300"
+    },
+    "top": {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/top.png",
+      "bytes": 410020,
+      "sha256": "64f1256c5e921872fc3466359d44c5953aa4985be80a600e6aca720e14a3cffb"
+    },
+    "bottom": {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/bottom.png",
+      "bytes": 407693,
+      "sha256": "a051bbd5fa4bffd21c47c381030a401505834d02e2747f54ac8b6af4411a4fcb"
+    }
+  },
+  "details": {
+    "collarCloseup": {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-details-gray-v1/collarCloseup.png",
+      "bytes": 317237,
+      "sha256": "c363e778ce71c6a2bc6da2e7e011e93008301c36329c7d711f0d4182a4f37cad"
+    },
+    "placketSideCloseup": {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-details-gray-v1/placketSideCloseup.png",
+      "bytes": 301288,
+      "sha256": "61affc9ae3c2099968b901764e1b7aa4e630a10c3c44d200586886c593289d42"
+    },
+    "cuffCloseup": {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-details-gray-v1/cuffCloseup.png",
+      "bytes": 308254,
+      "sha256": "47820914dd970b42ec9f9b91658fe73a2d5fdf3c315e5df7340f0aa3f2555cb6"
+    }
+  },
+  "provenanceArtifacts": [
+    {
+      "path": "showcase/quality-preview/ATEL-53/pattern-sewn-v1-gray/index.html",
+      "bytes": 1067,
+      "sha256": "59b2032ba44ff52681cba5662cec786bcaaf7e7809456fd246cbc3ac3c78827d"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/build-shirt-sewn-simulation.py",
+      "bytes": 13280,
+      "sha256": "c87b92d6ed63fa3eb2d13a8330001d1b2b01b5912edad4629881e72f2211ca3f"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/shirt-sewn-simulation-v1.blend",
+      "bytes": 291177,
+      "sha256": "2f8f6fbfb8a8405c0a657443dbb1140a42e27bf58c4ea1e9e6151de008d44cb6"
+    }
+  ],
+  "evidenceArtifacts": [
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-gray-v1/browser-result.json",
+      "bytes": 660,
+      "sha256": "23e20791a89b644792160fbf356e08f86d76858ed8fba026ac321a4ad368b0b2"
+    },
+    {
+      "path": "orders/ATEL-53/blender-sew/v1/evidence-details-gray-v1/detail-browser-result.json",
+      "bytes": 456,
+      "sha256": "903d8a07daed8a29cc4fcf144b96350e73dbfb550845690e39ea0fe80b01d1c8"
+    }
+  ],
+  "selfAssessment": "Visible unresolved WIP defects: collar stand/leaves are raised and angular rather than naturally turned; shoulder/sleeve junction shows open notches/gaps; front drape has strong diagonal ridges. Cuff and placket trial details are visible. Lead visual review requested; no shape pass claimed.",
+  "qaStatus": "blocked: studio-wait: shape; awaiting Lead review/release",
+  "materialStatus": "hold"
+}

@@ -1,0 +1,14 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel41-shape-v1/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-41/v1/shape-gray-authored/front.png",
+    "back": "quality/evidence/ATEL-41/v1/shape-gray-authored/back.png",
+    "side": "quality/evidence/ATEL-41/v1/shape-gray-authored/side.png",
+    "oblique": "quality/evidence/ATEL-41/v1/shape-gray-authored/oblique.png"
+  },
+  "errors": []
+}

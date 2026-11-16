@@ -1,0 +1,19 @@
+{
+  "orderId": "ATEL-53",
+  "checkpoint": "2026-11-15-plan",
+  "status": "prototype-wip-not-qa",
+  "artifacts": [
+    {"path": "orders/ATEL-53/checkpoints/2026-11-15-plan/checkpoint.md", "sha256": "2a9ef6f6739b338ca969743a32aa3f59ab13a923fa19be2c8aa6007a7664e0fc"},
+    {"path": "orders/ATEL-53/checkpoints/2026-11-15-plan/gray-wip-preview.html", "sha256": "5e417a9dda9d931c967c6619218bba87b16fc2d39bc32c7cf54c9ea7b3a95830"},
+    {"path": "orders/ATEL-53/checkpoints/2026-11-15-plan/gray-wip-front.png", "sha256": "7161df2a502877d79d4356dfce89133dbd762cf59e920c07d33216938bf3b1a0"},
+    {"path": "orders/ATEL-53/v1/designer/build-shirt-shell-v1.mjs", "sha256": "316f0f4724ac96c4cc61165435354e79e6401d938beeb71905ad9f5bac74858d"},
+    {"path": "orders/ATEL-53/v1/designer/garment-gray-v1-wip.glb", "sha256": "950c278e11bce09994ca72237245dd38232c5215f2d489050a84e5c51964172c"},
+    {"path": "orders/ATEL-53/checkpoints/2026-11-15-plan/excluded-artstation-front-gallery.jpg", "sha256": "b2cc23d19d0a9631e883b1f1e6acc9a297be7f654ebe029eb3e70bfbeef19349"},
+    {"path": "orders/ATEL-53/checkpoints/2026-11-15-plan/excluded-artstation-oblique-gallery.jpg", "sha256": "f21abc33f8a490aadccd95016bc0b4d6e64ed1e58bfb615e247dd13514283cef"}
+  ],
+  "designerTicket": "ATEL-62",
+  "designerWorkItem": "ec090719-14b6-4e75-8615-7260c53cdade",
+  "qaWorkItem": "92ff0d6b-d686-441f-889e-55756bafa5a2",
+  "qa": "not started; current file is WIP and lacks six-angle review package",
+  "publish": false
+}

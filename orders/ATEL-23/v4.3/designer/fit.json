@@ -1,0 +1,101 @@
+{
+  "orderId": "ATEL-23",
+  "workItemId": "03387d63-e12e-47a6-8356-6d427e787d72",
+  "revision": "v4.3",
+  "deliveryProfile": "showcase-basic-v1",
+  "source": {
+    "path": "orders/ATEL-23/v4.2/designer/garment-v4_2.glb",
+    "sha256": "20cfb0b239ed811100c80daa0dc03f62daaa3f1262682ed3faabef44a64ef84a",
+    "revision": "v4.2"
+  },
+  "garment": {
+    "path": "orders/ATEL-23/v4.3/designer/garment-v4_3.glb",
+    "sha256": "fa890082176ece1facf78618622abfb14a41e5f193dc3ec4734ccb9be359f768",
+    "uv": {
+      "attribute": "TEXCOORD_0",
+      "shirtMaterialSlot": 0,
+      "sourceAtlas": "ATEL-23/v2.5 UV0"
+    },
+    "textures": {
+      "baseColor": "orders/ATEL-23/v1/material/base-color.png",
+      "roughness": "orders/ATEL-23/v1/material/roughness.png",
+      "normal": "orders/ATEL-23/v1/material/normal.png"
+    },
+    "artwork": {
+      "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+      "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99"
+    },
+    "repair": {
+      "areas": [
+        "shoulder/underarm gusset caps",
+        "front placket/buttons"
+      ],
+      "caps": {
+        "xCentersMeters": [
+          -0.32,
+          0.32
+        ],
+        "yCenterMeters": 1.499,
+        "zCenterMeters": -0.045,
+        "halfAxesMeters": [
+          0.072,
+          0.082
+        ]
+      },
+      "buttons": {
+        "count": 6,
+        "diameterMeters": 0.021,
+        "materialSlot": 3,
+        "placement": "sampled from front shirt surface"
+      }
+    }
+  },
+  "measurements": {
+    "chestWidthCm": 60.4626213128174,
+    "garmentLengthCm": 77.18483209609985,
+    "sleeveExtentCm": 54.00000214576721,
+    "shoulderReferenceCm": 50
+  },
+  "measurementStatus": "pass",
+  "measurementWarnings": [],
+  "mannequin": {
+    "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9"
+  },
+  "visualEvidence": {
+    "directory": "quality/evidence/ATEL-23/v4.3",
+    "browserResult": "quality/evidence/ATEL-23/v4.3/browser-result.json",
+    "browserResultSha256": "e0c7a6f79e42341e2bbec0c525e1af61d230c450d587f8e854ca7d95384e6c5f",
+    "display": "showcase/products/ATEL-23/v4.3/assets/display.glb",
+    "displaySha256": "36cb5c099692418772b9076247ed77112e01b673d355fb78df6c7fac90493c9c",
+    "assembly": "showcase/products/ATEL-23/v4.3/assembly.json",
+    "assemblySha256": "a6b3a22081aa856994d2466f581a3ebfbb958f48eaeae89dab10673cb5e2881f",
+    "screenshots": {
+      "front": {
+        "path": "quality/evidence/ATEL-23/v4.3/front.png",
+        "sha256": "28249377b8d752b4ed73262a7d7070558c85523bf2582e4614f5b5fe31719a35"
+      },
+      "back": {
+        "path": "quality/evidence/ATEL-23/v4.3/back.png",
+        "sha256": "055982fbb4a75fd76660dc9b64cc00fc68fce915fde4d149c6a555fa994e6184"
+      },
+      "side": {
+        "path": "quality/evidence/ATEL-23/v4.3/side.png",
+        "sha256": "5a733f2d75a9a267df2f8496e9c167260d8236b228e4fa16f9fdd40957683926"
+      },
+      "oblique": {
+        "path": "quality/evidence/ATEL-23/v4.3/oblique.png",
+        "sha256": "e2ee85c76759ddbb969a9fbabfe728358733bbb17a923925a545a3a65c3a98da"
+      },
+      "mobile": {
+        "path": "quality/evidence/ATEL-23/v4.3/mobile.png",
+        "sha256": "b4e6694004c66b5a5eeb942bf4c4b3728ea6861a146662c7156cbbff2d3c7b7a"
+      }
+    }
+  },
+  "qaStatus": "Pending QA review of the two repair targets; Designer does not claim pass.",
+  "visualReview": {
+    "coverage": "Four-angle capture still appears to show white mannequin at shoulder/underarm side/oblique junction; QA must confirm whether the gusset caps closed the visible leak.",
+    "closures": "Higher contrast 21 mm buttons and pale placket geometry included; full-front capture still does not make an obvious button row at this view size; QA should check closure readability."
+  }
+}

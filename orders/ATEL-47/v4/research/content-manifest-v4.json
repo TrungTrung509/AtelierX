@@ -1,0 +1,43 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v4",
+  "stage": "content",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v4/research/content-v4.json",
+      "sha256": "6a34fc63cc24857044dbd83987043426e664f7b830aa6fee2024e68f5d005af6"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/provenance-v4.json",
+      "sha256": "29df9d0c8655f595140fabdfa7331687ca9f6e4c30f617af1e7cf7052efd67dc"
+    },
+    {
+      "path": "orders/ATEL-47/v4/independent-shape-review.json",
+      "sha256": "976bc735bb7eccf00fb166538e71f727a941e5f23d3f9920662a3be14c027c65"
+    },
+    {
+      "path": "orders/ATEL-47/v4/shape-review-handoff.json",
+      "sha256": "505095d3ac6bca59b84448d57ee39f1c8c80c22f4628fe6b534f1815672f37bf"
+    },
+    {
+      "path": "orders/ATEL-47/v4/shape.json",
+      "sha256": "95d0d789d2e303992c255f3d251497030a35441fd621d5cc275b28d21598b3f0"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/garment-gray-v4.glb",
+      "sha256": "493dfca00032176e3cc3178d46ce7ebf5113c9b6c765befdc4b6b2202aa2bccc"
+    },
+    {
+      "path": "orders/ATEL-47/material/pbr-preset-v1.json",
+      "sha256": "6447378c46d3bea0d7c90f1055b55d917847f3eaada3e8544e903dfe5626ea2b"
+    },
+    {
+      "path": "orders/ATEL-47/material/manifest.json",
+      "sha256": "ef3ef1bf53385198a63b26864604f5763471c7fc33d9022982291a2736457fe4"
+    },
+    {
+      "path": "orders/ATEL-47/v4/designer/placement-v4.md",
+      "sha256": "545ddfcb6017da444923570d87904606e2d437a6fa87a626891ec984c1ed6106"
+    }
+  ]
+}

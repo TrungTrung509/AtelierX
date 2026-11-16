@@ -1,0 +1,70 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v2",
+  "garment": {
+    "path": "orders/ATEL-47/v2/designer/garment-gray-v2.glb",
+    "sha256": "fd7fd25ec85bd1d4ca649a2678e1ec87abd76244d523791a7dd62498e8a4bda7"
+  },
+  "geometryOrigin": "Original parametric standalone shirt geometry authored from the ATEL-47 brief; no source outfit mesh imported, isolated, or modified.",
+  "screenedReference": {
+    "candidateId": "user-jk-school-uniform-4-5a70461c-v1",
+    "path": "quality/candidates/user-supplied/jk_school_uniform_4.glb",
+    "usage": "Candidate B inspected only as a visual reference for collar, sleeve, and cuff proportions; no source geometry or UVs reused."
+  },
+  "notAReadyBase": true,
+  "displayEnvelopeMeters": {
+    "min": [
+      -0.385312603952635,
+      0.3224926833458942,
+      -0.08899599528690529
+    ],
+    "max": [
+      0.385312603952635,
+      0.95,
+      0.1092949222325474
+    ],
+    "dimensionsCm": [
+      77.1,
+      62.8,
+      19.8
+    ],
+    "source": "Measured from the current standalone gray GLB; display envelope only, not garment manufacturing size."
+  },
+  "uv": {
+    "attribute": "TEXCOORD_0",
+    "frontBackPanels": "U left-to-right across each independent panel; V=0 at shoulder and V=1 at hem, so vertical stripe artwork stays upright.",
+    "sleeves": "U wraps around each sleeve; V=0 at shoulder and V=1 at cuff.",
+    "details": "Collar stand/leaves, cuffs, placket, and buttons are distinct named meshes and material groups."
+  },
+  "materialGroups": [
+    {
+      "name": "Front body panel",
+      "material": "Neutral gray Body front/back panels"
+    },
+    {
+      "name": "Back body panel",
+      "material": "Neutral gray Body front/back panels"
+    },
+    {
+      "name": "Sleeve left/right",
+      "material": "Neutral gray Sleeves"
+    },
+    {
+      "name": "Collar stand and leaves",
+      "material": "Neutral gray Collar"
+    },
+    {
+      "name": "Cuff left/right",
+      "material": "Neutral gray Cuffs"
+    },
+    {
+      "name": "Front placket",
+      "material": "Neutral gray Placket"
+    },
+    {
+      "name": "Front and cuff buttons",
+      "material": "Neutral gray Buttons"
+    }
+  ],
+  "status": "Correction candidate for independent QA; not shape-approved, surface-ready, or published."
+}

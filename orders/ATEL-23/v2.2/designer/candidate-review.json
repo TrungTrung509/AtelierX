@@ -1,0 +1,66 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2.2",
+  "status": "candidate; no G1 approval",
+  "sourceRevision": "v2.1 frozen",
+  "garmentSha256": "db2cd7b037dfcb3546f4e072faa59c7092d9ae4e005cdc255165909c024e2412",
+  "combinedPreviewSha256": "afb221333f0d0ff752ac8efe3dd73e1bb1feb78125e627c78d98ab556ea99fe3",
+  "fitManifestSha256": "03d29f7e1f2953f70168873b4a868b352d14346c152fe044af7511b9a16a7add",
+  "clearance": {
+    "screenedPairs": 462,
+    "residualSampledPenetration": true,
+    "maxObservedDepthMeters": 0.0089839,
+    "detail": "quality/evidence/ATEL-23/v2.2/contact-clearance-review.json"
+  },
+  "review": "Tăng ease vùng thân/tay 30 mm và cập nhật chi tiết để giảm penetration. Không còn crossing trong vùng cuff và torso/hip/hem theo triangle screen, nhưng còn 462 cặp, phần lớn vùng cổ/đầu; sample penetration tối đa 8.98 mm. Không đạt no-clipping; cần Lead/QA quyết định corrective round tiếp theo.",
+  "captures": {
+    "front": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/front.png",
+      "sha256": "0894fbf2a75f2edbb5f086791c84dd7ea27226e5bb919d7531022d256d1316ba"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/back.png",
+      "sha256": "1992c8dc81fc009d0346fecbca078a69754548bdaa9a6fd955fb4744557285ff"
+    },
+    "left": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/left.png",
+      "sha256": "abbb3c9a3b805183d6e2b5d153b6c57cefbf5e39123cececa53560984346fa3c"
+    },
+    "right": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/right.png",
+      "sha256": "50fbc725bdf747cfb6cb97cc889ce090d80c87042aab4eaf6511afcce1daadbd"
+    },
+    "detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/detail.png",
+      "sha256": "1b8b4338e837ea0a11645ec8b5f096610db1998968d56c13730905ab123b368d"
+    },
+    "mobile": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/mobile.png",
+      "sha256": "3023946ca887e3ef1024f9a40e94e6ef5acecfd5ec07beaf7307e6bf0cff86a4"
+    },
+    "collar-front-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/collar-front-detail.png",
+      "sha256": "eb939d5486fad039a20aadfd91cffe4396e4bf628c6342b9b363b3ca65440ca0"
+    },
+    "collar-side-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/collar-side-detail.png",
+      "sha256": "e001da2ea17e247a6d696dd2453e332b2a0c5f8a5ba46692584e135f881d208e"
+    },
+    "cuff-positiveX-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/cuff-positiveX-detail.png",
+      "sha256": "39695a33bd6d1dbbed1ac1d6a4faf5ee9a118127f0557ccb28feac414f7d97d0"
+    },
+    "cuff-negativeX-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/cuff-negativeX-detail.png",
+      "sha256": "a235de00b7dae50a0f3e864c4af383ab6947f0c294b92bccb107ad14639ae990"
+    },
+    "hem-front-detail": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/hem-front-detail.png",
+      "sha256": "c9f8c9c4f8fc53b16fce440fec6f7591e4fe45a22e9244f5a4736efadd6d5884"
+    },
+    "armhole-rear-wide": {
+      "path": "quality/evidence/ATEL-23/v2.2/browser-fit/armhole-rear-wide.png",
+      "sha256": "2edc56efa751e33d5a1f835811fb97a122197d9af544cfaf0c6f8f6496a15084"
+    }
+  }
+}

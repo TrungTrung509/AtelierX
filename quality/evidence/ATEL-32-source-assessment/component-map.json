@@ -1,0 +1,587 @@
+{
+  "sourcePath": "quality/candidates/user-supplied/white_shirt_black_leather_skirt_outfit.glb",
+  "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+  "sourceLicense": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+  "sourceUrl": "https://sketchfab.com/3d-models/white-shirt-black-leather-skirt-outfit-9f9e3d05217a4f969cd08224ad0b0aee",
+  "registryId": "user-white-shirt-black-leather-skirt-outfit-48f2e9ba-v1",
+  "registryStatus": "candidate",
+  "sourceUnitsAssumption": "Geometry bounds suggest source coordinates are millimeters; assessment applies 0.001 scale after source node transforms to express meters. Verify by browser/reference before use.",
+  "sourceRootMatrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    2.220446049250313e-16,
+    -1,
+    0,
+    0,
+    1,
+    2.220446049250313e-16,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "materialTable": [
+    {
+      "index": 0,
+      "name": "uniform_1001",
+      "hasBaseColorTexture": true
+    },
+    {
+      "index": 1,
+      "name": "-Button",
+      "baseColorFactor": [
+        0.819608,
+        0.796078,
+        0.74902,
+        1
+      ],
+      "hasBaseColorTexture": false
+    }
+  ],
+  "componentCount": 13,
+  "components": [
+    {
+      "objectId": "Object_2",
+      "sourceNodeIndex": 2,
+      "sourceMeshIndex": 0,
+      "sourceMeshName": "Object_0",
+      "sourceObjectName": "Object_2",
+      "vertices": 2890,
+      "triangles": 5112,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.15487100219726563,
+          0.3000130004882813,
+          -0.008493459701538017
+        ],
+        "max": [
+          0.16027699279785157,
+          1.1024200439453125,
+          0.0867387008666993
+        ]
+      },
+      "centerMeters": [
+        0.0027029953002929707,
+        0.7012165222167969,
+        0.03912262058258064
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 2890,
+          "triangles": 5112,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Skirt hem/edge trim",
+      "garmentGroup": "skirt",
+      "visualEvidence": "Isolated capture shows a narrow curved trim/edge; full diagnostic places it along skirt perimeter.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_3",
+      "sourceNodeIndex": 3,
+      "sourceMeshIndex": 1,
+      "sourceMeshName": "Object_1",
+      "sourceObjectName": "Object_3",
+      "vertices": 10925,
+      "triangles": 21128,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.16891799926757814,
+          0.25288600158691404,
+          -0.029165100097656195
+        ],
+        "max": [
+          0.08768329620361329,
+          1.103760009765625,
+          0.14002099609375024
+        ]
+      },
+      "centerMeters": [
+        -0.040617351531982426,
+        0.6783230056762696,
+        0.055427947998047025
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 10925,
+          "triangles": 21128,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Front draped skirt panel",
+      "garmentGroup": "skirt",
+      "visualEvidence": "Large asymmetric draped panel; front capture confirms skirt placement.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_4",
+      "sourceNodeIndex": 4,
+      "sourceMeshIndex": 2,
+      "sourceMeshName": "Object_2",
+      "sourceObjectName": "Object_4",
+      "vertices": 7116,
+      "triangles": 13426,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.24526800537109375,
+          0.9224450073242187,
+          -0.08342739868164033
+        ],
+        "max": [
+          0.07146869659423828,
+          1.443780029296875,
+          0.16559300231933619
+        ]
+      },
+      "centerMeters": [
+        -0.08689965438842773,
+        1.1831125183105469,
+        0.04108280181884793
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 7116,
+          "triangles": 13426,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Left shirt sleeve with narrow front-facing strip",
+      "garmentGroup": "shirt",
+      "visualEvidence": "Isolated sleeve/arm piece; narrow strip remains part of same mesh.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_5",
+      "sourceNodeIndex": 5,
+      "sourceMeshIndex": 3,
+      "sourceMeshName": "Object_3",
+      "sourceObjectName": "Object_5",
+      "vertices": 11618,
+      "triangles": 22346,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.14996499633789062,
+          0.30550900268554687,
+          -0.00795753002166741
+        ],
+        "max": [
+          0.17182400512695312,
+          1.110949951171875,
+          0.12232700347900413
+        ]
+      },
+      "centerMeters": [
+        0.010929504394531248,
+        0.708229476928711,
+        0.05718473672866836
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 11618,
+          "triangles": 22346,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Opposite/front skirt panel",
+      "garmentGroup": "skirt",
+      "visualEvidence": "Broad smooth panel at lower-body height; full diagnostic shows skirt front/right.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_6",
+      "sourceNodeIndex": 6,
+      "sourceMeshIndex": 4,
+      "sourceMeshName": "Object_4",
+      "sourceObjectName": "Object_6",
+      "vertices": 4458,
+      "triangles": 7990,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.09994670104980469,
+          1.0971800537109375,
+          -0.07567559814453091
+        ],
+        "max": [
+          0.10183100128173829,
+          1.5351400146484375,
+          0.16751699829101588
+        ]
+      },
+      "centerMeters": [
+        0.0009421501159668014,
+        1.3161600341796875,
+        0.04592070007324248
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 4458,
+          "triangles": 7990,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Shirt collar and lapel assembly",
+      "garmentGroup": "shirt",
+      "visualEvidence": "Distinct collar/lapel shape in isolated front/back views.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_7",
+      "sourceNodeIndex": 7,
+      "sourceMeshIndex": 5,
+      "sourceMeshName": "Object_5",
+      "sourceObjectName": "Object_7",
+      "vertices": 9651,
+      "triangles": 18094,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.23938999938964844,
+          0.8339580078125001,
+          -0.08035050201415986
+        ],
+        "max": [
+          0.24198500061035158,
+          1.442699951171875,
+          0.12261299896240258
+        ]
+      },
+      "centerMeters": [
+        0.001297500610351568,
+        1.1383289794921876,
+        0.02113124847412136
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 9651,
+          "triangles": 18094,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Right sleeve/cuff plus disconnected skirt waist tie (islands 6–7 excluded)",
+      "garmentGroup": "shirt",
+      "visualEvidence": "Sleeve tube and cuff-shaped disconnected surfaces; full diagnostic confirms right sleeve.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_8",
+      "sourceNodeIndex": 8,
+      "sourceMeshIndex": 6,
+      "sourceMeshName": "Object_6",
+      "sourceObjectName": "Object_8",
+      "vertices": 8362,
+      "triangles": 15284,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.19486799621582032,
+          0.25711099243164065,
+          -0.1454369964599609
+        ],
+        "max": [
+          0.16049000549316406,
+          1.4963399658203125,
+          0.1649940032958987
+        ]
+      },
+      "centerMeters": [
+        -0.017188995361328133,
+        0.8767254791259765,
+        0.009778503417968903
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 8362,
+          "triangles": 15284,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Shirt front panel pair plus disconnected skirt drape/hem islands",
+      "garmentGroup": "mixed",
+      "visualEvidence": "Isolated mesh has shirt-front-sized surface and separate narrow/curved parts; full diagnostic places the latter over the skirt.",
+      "isolationDisposition": "not safely separable at source-object level"
+    },
+    {
+      "objectId": "Object_9",
+      "sourceNodeIndex": 9,
+      "sourceMeshIndex": 7,
+      "sourceMeshName": "Object_7",
+      "sourceObjectName": "Object_9",
+      "vertices": 8803,
+      "triangles": 15668,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.14393200683593751,
+          0.24765299987792966,
+          -0.03262799835205045
+        ],
+        "max": [
+          0.19303199768066406,
+          1.4971600341796876,
+          0.16557899475097682
+        ]
+      },
+      "centerMeters": [
+        0.024549995422363274,
+        0.8724065170288087,
+        0.06647549819946319
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 8803,
+          "triangles": 15668,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Shirt front panel pair plus disconnected skirt drape/cord islands",
+      "garmentGroup": "mixed",
+      "visualEvidence": "Isolated mesh combines shirt-front-sized surface with thin hanging loop/cord pieces visible over the skirt.",
+      "isolationDisposition": "not safely separable at source-object level"
+    },
+    {
+      "objectId": "Object_10",
+      "sourceNodeIndex": 10,
+      "sourceMeshIndex": 8,
+      "sourceMeshName": "Object_8",
+      "sourceObjectName": "Object_10",
+      "vertices": 8964,
+      "triangles": 16904,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.19537100219726564,
+          1.08843994140625,
+          -0.10946800231933568
+        ],
+        "max": [
+          0.19393099975585937,
+          1.5033499755859376,
+          0.040239601135254155
+        ]
+      },
+      "centerMeters": [
+        -0.0007200012207031342,
+        1.2958949584960937,
+        -0.03461420059204076
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 8964,
+          "triangles": 16904,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Shirt back body/yoke",
+      "garmentGroup": "shirt",
+      "visualEvidence": "Broad upper-torso surface; full diagnostic confirms visible back/yoke.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_11",
+      "sourceNodeIndex": 11,
+      "sourceMeshIndex": 9,
+      "sourceMeshName": "Object_9",
+      "sourceObjectName": "Object_11",
+      "vertices": 15444,
+      "triangles": 29940,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.16891600036621093,
+          0.26225799560546875,
+          -0.14504400634765618
+        ],
+        "max": [
+          0.17241299438476562,
+          1.1143199462890625,
+          0.04067869949340845
+        ]
+      },
+      "centerMeters": [
+        0.0017484970092773444,
+        0.6882889709472656,
+        -0.052182653427123867
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 15444,
+          "triangles": 29940,
+          "uv0": true,
+          "materialIndex": 0,
+          "materialName": "uniform_1001"
+        }
+      ],
+      "visualClassification": "Back skirt panel",
+      "garmentGroup": "skirt",
+      "visualEvidence": "Large lower-body panel; full diagnostic and bounds place it on skirt.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_12",
+      "sourceNodeIndex": 12,
+      "sourceMeshIndex": 10,
+      "sourceMeshName": "Object_10",
+      "sourceObjectName": "Object_12",
+      "vertices": 7575,
+      "triangles": 12714,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          0.02779439926147461,
+          0.8950789794921875,
+          -0.027732500076293746
+        ],
+        "max": [
+          0.22406900024414064,
+          1.4165600585937501,
+          0.11620600128173858
+        ]
+      },
+      "centerMeters": [
+        0.12593169975280763,
+        1.1558195190429688,
+        0.04423675060272242
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 7575,
+          "triangles": 12714,
+          "uv0": true,
+          "materialIndex": 1,
+          "materialName": "-Button"
+        }
+      ],
+      "visualClassification": "Button groups mixed across shirt and skirt; only shirt-position islands included",
+      "garmentGroup": "mixed shirt/skirt trim",
+      "visualEvidence": "Small repeated button-like pieces; aligns with shirt placket in full diagnostic.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_13",
+      "sourceNodeIndex": 13,
+      "sourceMeshIndex": 11,
+      "sourceMeshName": "Object_11",
+      "sourceObjectName": "Object_13",
+      "vertices": 7575,
+      "triangles": 12714,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.23540600585937502,
+          0.8514039916992188,
+          -0.02467530059814434
+        ],
+        "max": [
+          0.23023699951171875,
+          1.2295,
+          0.1492359924316409
+        ]
+      },
+      "centerMeters": [
+        -0.0025845031738281343,
+        1.0404519958496095,
+        0.06228034591674828
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 7575,
+          "triangles": 12714,
+          "uv0": true,
+          "materialIndex": 1,
+          "materialName": "-Button"
+        }
+      ],
+      "visualClassification": "Button groups mixed across shirt and skirt; only shirt-position islands included",
+      "garmentGroup": "mixed shirt/skirt trim",
+      "visualEvidence": "Small repeated button-like pieces; aligns with shirt placket in full diagnostic.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    },
+    {
+      "objectId": "Object_14",
+      "sourceNodeIndex": 14,
+      "sourceMeshIndex": 12,
+      "sourceMeshName": "Object_12",
+      "sourceObjectName": "Object_14",
+      "vertices": 5050,
+      "triangles": 8476,
+      "uv0": true,
+      "boundsMeters": {
+        "min": [
+          -0.22916099548339844,
+          0.8984749755859375,
+          -0.019727500915527142
+        ],
+        "max": [
+          0.002158289909362793,
+          1.15777001953125,
+          0.16415699768066433
+        ]
+      },
+      "centerMeters": [
+        -0.11350135278701783,
+        1.0281224975585936,
+        0.0722147483825686
+      ],
+      "primitives": [
+        {
+          "primitiveIndex": 0,
+          "vertices": 5050,
+          "triangles": 8476,
+          "uv0": true,
+          "materialIndex": 1,
+          "materialName": "-Button"
+        }
+      ],
+      "visualClassification": "Button groups mixed across shirt and skirt; only shirt-position islands included",
+      "garmentGroup": "mixed shirt/skirt trim",
+      "visualEvidence": "Small repeated button-like pieces; aligns with shirt placket in full diagnostic.",
+      "isolationDisposition": "candidate shirt component, assessment only"
+    }
+  ],
+  "assessmentConclusion": "Object-level extraction alone is unsafe because source meshes 5–7 and 10–12 also contain skirt islands. A narrowly bounded candidate was therefore extracted by retaining only complete shared-index connected components visually classified as shirt; details are in island-map-all.json and candidate fit manifest. The original outfit remains unchanged and the source registry status remains candidate.",
+  "isolationCaptureManifest": "quality/evidence/ATEL-32-source-assessment/isolated-captures/capture-manifest.json",
+  "islandMap": "quality/evidence/ATEL-32-source-assessment/island-map-all.json",
+  "candidatePath": "orders/ATEL-23/source-assessment/candidate-shirt-islands.glb",
+  "candidateSha256": "d4d27b29cead3a83141d67a1cbaffd0bca0822f1030df4407b9f319c6d7fe41e",
+  "candidateStatus": "candidate-only; not approved; no G1 claim"
+}

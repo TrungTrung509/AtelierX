@@ -1,0 +1,221 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v2",
+  "status": "designer-candidate-handoff; independent QA retest pending; G1 not approved",
+  "designer": "atelierx-designer-0003",
+  "sourceRevision": {
+    "revision": "v1 frozen",
+    "path": "orders/ATEL-23/v1/designer/garment-v1.glb",
+    "sha256": "87d6d1f1fa98bae641df5578b634ca08a9453026586e314e2ba7d13e59a0c3bd"
+  },
+  "garment": {
+    "path": "orders/ATEL-23/v2/designer/garment-v2.glb",
+    "sha256": "d51cbc10580d04b6195dae7fc041e297461fe217a94fcbc4487cf07319747f66",
+    "type": "long-sleeve button-up shirt geometry preview with reconstructed torso/sleeve-root junction",
+    "baseMeshId": "designer-parametric-shirt-v2-implicit-junction",
+    "derivedFromRevision": "v1",
+    "dimensionsMeters": {
+      "min": [
+        -0.79,
+        0.855,
+        -0.23040436000103134
+      ],
+      "max": [
+        0.79,
+        1.603,
+        0.1317561922832708
+      ]
+    },
+    "topology": {
+      "vertices": 87685,
+      "triangles": 174122,
+      "primitiveCount": 1,
+      "hasPOSITION": true,
+      "hasNORMAL": true,
+      "hasTEXCOORD_0": true,
+      "uvZones": {
+        "torso": {
+          "u": [
+            0.02,
+            0.48
+          ],
+          "v": [
+            0.04,
+            0.72
+          ]
+        },
+        "positiveXSleeve": {
+          "u": [
+            0.52,
+            0.96
+          ],
+          "v": [
+            0.04,
+            0.46
+          ]
+        },
+        "negativeXSleeve": {
+          "u": [
+            0.52,
+            0.96
+          ],
+          "v": [
+            0.54,
+            0.96
+          ]
+        },
+        "collarAndDetails": {
+          "u": [
+            0.02,
+            0.48
+          ],
+          "v": [
+            0.77,
+            0.96
+          ]
+        }
+      }
+    },
+    "materialSlot": {
+      "primitiveIndex": 0,
+      "materialIndex": 0,
+      "name": "ATEL-23 shirt_body (geometry preview only)",
+      "previewOnly": true,
+      "productionArtworkOrPbrApplied": false
+    }
+  },
+  "mannequin": {
+    "id": "atelierx-mannequin-180cm-v1",
+    "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "profile": "quality/mannequin-fit.json",
+    "units": "meters",
+    "heightMeters": 1.8,
+    "up": "+Y",
+    "front": "+Z",
+    "pose": "T-pose",
+    "sourceGLBModified": false
+  },
+  "fitAssessment": {
+    "method": "Mannequin arm-surface vertices sampled against the same implicit garment field used to generate the shell; browser captures reviewed front/back/sides/detail/mobile and close posterior armhole angles. This is a designer screening check, not a triangle-level collision solver or independent QA.",
+    "posteriorArmholes": {
+      "positiveX": "Implicit shell covers sampled mannequin arm-surface vertices; current close browser capture shows continuous garment coverage at the rear sleeve-root junction.",
+      "negativeX": "Implicit shell covers sampled mannequin arm-surface vertices; current close browser capture shows continuous garment coverage at the rear sleeve-root junction."
+    },
+    "surfaceSampleCheck": {
+      "region": "Both arms; abs(x) 0.14–0.73 m, y 1.37–1.56 m",
+      "mannequinVerticesTested": 1959,
+      "verticesOutsideImplicitGarmentField": 0,
+      "nearestSampleSignedFieldMeters": -0.020219296539041916,
+      "interpretation": "All sampled surface vertices lie at least about 0.020 m inside the generated garment field. Point sampling only; QA must inspect actual triangle intersections and concealed overlap."
+    },
+    "shellTopology": {
+      "boundaryEdges": 1232,
+      "nonmanifoldEdges": 0,
+      "note": "Boundary edges remain at intended garment openings/cut joins including hem, neck/collar, cuffs and details. No posterior armhole opening is visible in the current browser captures; QA should validate topology/collision independently."
+    },
+    "garmentFitApproved": false,
+    "requiredNextReview": "QA independently checks actual posterior armhole exposure/intersection, sleeve-root topology, shoulder silhouette and whole-garment fit against this exact revision and mannequin SHA.",
+    "visualReview": {
+      "posteriorArmholes": "Both close captures show continuous garment coverage with no visible mannequin patches at the rear sleeve-root junction.",
+      "sideShoulder": "Side captures show a bright mannequin-colored shoulder detail; QA should confirm it is not arm exposure or intersection.",
+      "silhouette": "No broad flap is visible from front/back; sleeve-root fullness and shoulder contour remain subject to QA review.",
+      "independentQaPending": true
+    }
+  },
+  "patternBoundaryReference": {
+    "repository": "https://github.com/ChristinaHein/shirt",
+    "commit": "7c0c47ada21ba59eede853bc022a059412befe0c",
+    "license": "MIT",
+    "attributionFile": "orders/ATEL-23/v2/designer/references/PATTERN-SOURCE-NOTICE.md",
+    "licenseFile": "orders/ATEL-23/v2/designer/references/LICENSE-ChristinaHein-shirt-MIT.txt"
+  },
+  "artworkReference": {
+    "path": "orders/ATEL-23/v1/researcher/artwork/atel23-cityline-microprint-v1.svg",
+    "sha256": "1538d63898f31b2682cf136275e55383ae890667581c51cd6a44ffd3ed198d99",
+    "appliedToGeometry": false
+  },
+  "fitPreview": {
+    "path": "orders/ATEL-23/v2/fit-evidence/garment-on-mannequin-v2.glb",
+    "sha256": "9d58af5fe58ad7a6fedd14778b6ea4fef9b38be0b3289b1de1b4a4c7f2829fb8",
+    "includes": [
+      "mannequin-v1 unchanged",
+      "garment-v2.glb"
+    ],
+    "garmentContrastColorIsDiagnosticOnly": true
+  },
+  "evidence": {
+    "browserUrl": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit-v2/index.html",
+    "browserReport": "quality/evidence/ATEL-23/v2/browser-fit/browser-result.json",
+    "browserStatus": {
+      "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit-v2/index.html",
+      "loaded": true,
+      "rotated": false,
+      "zoomed": true,
+      "desktop": true,
+      "mobile": true,
+      "screenshots": {
+        "front": "quality/evidence/ATEL-23/v2/browser-fit/front.png",
+        "back": "quality/evidence/ATEL-23/v2/browser-fit/back.png",
+        "left": "quality/evidence/ATEL-23/v2/browser-fit/left.png",
+        "right": "quality/evidence/ATEL-23/v2/browser-fit/right.png",
+        "detail": "quality/evidence/ATEL-23/v2/browser-fit/detail.png",
+        "mobile": "quality/evidence/ATEL-23/v2/browser-fit/mobile.png"
+      },
+      "errors": []
+    },
+    "captures": {
+      "front": {
+        "path": "quality/evidence/ATEL-23/v2/browser-fit/front.png",
+        "sha256": "79b328e86a00e0054c8b9f1241d43b26f60b58d2fcb9b548f61a9f3c56ecb56a"
+      },
+      "back": {
+        "path": "quality/evidence/ATEL-23/v2/browser-fit/back.png",
+        "sha256": "16b641eeac225321271dc56d05688b0131fe46b9e06f46ea167917a67be21406"
+      },
+      "left": {
+        "path": "quality/evidence/ATEL-23/v2/browser-fit/left.png",
+        "sha256": "d922c75e8c94988b5e98768fe0ea607a886f8ffae28b2484981c54e6bb634ee2"
+      },
+      "right": {
+        "path": "quality/evidence/ATEL-23/v2/browser-fit/right.png",
+        "sha256": "8f02e9675b6bbdc4969f835681c0f5c3deab80a18b3b29a2e733e8bcbb62ac62"
+      },
+      "detail": {
+        "path": "quality/evidence/ATEL-23/v2/browser-fit/detail.png",
+        "sha256": "357a12781741e15e3306a47caef3ce4e774e034d4957e5620a8ff8a3ca9454be"
+      },
+      "mobile": {
+        "path": "quality/evidence/ATEL-23/v2/browser-fit/mobile.png",
+        "sha256": "aea617c8a8741ee0ce8d6d541c3ffd145986703e37549c4a915930f9565166fe"
+      },
+      "posteriorArmholePositiveX": {
+        "path": "quality/evidence/ATEL-23/v2/browser-fit/armhole-back-positiveX.png",
+        "sha256": "d149a966bfda99bfa409acdce32b7d7929ebfc0522f566125bc514e3529a0994"
+      },
+      "posteriorArmholeNegativeX": {
+        "path": "quality/evidence/ATEL-23/v2/browser-fit/armhole-back-negativeX.png",
+        "sha256": "b147b04e117cf5290caebba131fb81b942cadf9ef7eb5e0b9002dd92bc0c7d79"
+      }
+    }
+  },
+  "geometryBuild": {
+    "method": "Marching-tetrahedra isosurface of smooth union between torso shell and mirrored sleeve-root lofts",
+    "gridResolutionMeters": 0.008,
+    "gridBoundsMeters": {
+      "x": [
+        -0.742,
+        0.742
+      ],
+      "y": [
+        0.855,
+        1.573
+      ],
+      "z": [
+        -0.3,
+        0.18
+      ]
+    },
+    "posteriorBoundsChange": "Expanded from z=-0.22 m after edge/capture review found the rear torso field clipped at the grid limit."
+  }
+}

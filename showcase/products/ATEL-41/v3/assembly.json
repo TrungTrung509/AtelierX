@@ -1,0 +1,36 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v3",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "stage": "final",
+  "garmentSha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd",
+  "displaySha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd",
+  "mannequinSha256": null,
+  "mask": {
+    "enabled": false,
+    "removedTriangles": 0,
+    "exception": false
+  },
+  "status": "pass",
+  "errors": [],
+  "warnings": [],
+  "measurements": {
+    "envelopeWidthCm": 54.59437370300293,
+    "garmentLengthCm": 110.50000470131636,
+    "envelopeDepthCm": 25.724077224731445
+  },
+  "boundsMeters": {
+    "min": [
+      -0.27297186851501465,
+      -0.029999999329447746,
+      -0.1294230818748474
+    ],
+    "max": [
+      0.27297186851501465,
+      1.0750000476837158,
+      0.12781769037246704
+    ]
+  },
+  "method": "World-space envelope of the complete garment mesh in meters. Display references only, not sewing or body measurements."
+}

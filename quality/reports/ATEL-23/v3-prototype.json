@@ -1,0 +1,147 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v3-prototype",
+  "gate": "G1 prototype fit review",
+  "decision": "return",
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": false,
+  "scope": "QA độc lập sớm về hình học và độ vừa. Chưa đánh giá artwork, vật liệu sản xuất hoặc viewer sản phẩm cuối.",
+  "summary": "TRẢ LẠI G1 prototype. SHA garment khớp handoff; SHA của các capture browser đã rà khớp fit.json. Preview tải, xoay, zoom được trên desktop/mobile và không báo lỗi. Ảnh cho thấy mannequin lộ, hình học hở/gồ ghề ở cả hai junction vai/nách, collar rời với phần đầu/cổ chồng lấn, và silhouette nhìn ngang còn khối hộp. Triangle screen ghi 1.039 cặp giao cắt và sampled penetration tối đa 51,0 mm. Prototype chưa đạt fit và không được duyệt hoặc dùng làm bản cuối.",
+  "assets": {
+    "garment": "orders/ATEL-23/v3-prototype/designer/garment-v3-prototype.glb",
+    "garmentSha256": "547192b5428be8ceb3b1faf9a3312cc5f746534fc3ae9dc38e4139085136e8fc",
+    "combinedPreview": "orders/ATEL-23/v3-prototype/fit-evidence/garment-on-mannequin-v3-prototype.glb",
+    "combinedPreviewSha256": "83ed5ac0df014449e70d4daeb696a868a07c20548a474c7234641cf9744a368a",
+    "fitManifest": "orders/ATEL-23/v3-prototype/designer/fit.json",
+    "fitManifestSha256": "4fd83e66916c44dc21698cb32ee1db80aaf3c8ed31b51089a95d891d2ce60394",
+    "baseMeshId": "designer-parametric-measured-shirt-v3-prototype",
+    "baseMeshStatus": "phom prototype candidate; chưa được duyệt trong quality/base-meshes.json",
+    "mannequin": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "mannequinId": "atelierx-mannequin-180cm-v1",
+    "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "clearanceReport": "quality/evidence/ATEL-23/v3-prototype/contact-clearance-analysis.json",
+    "clearanceReportSha256": "94e9a0477a3c57b1e0cd2f412f4ca054bf5edbc470e1c8594f6c66c17a1f4efa",
+    "intersectionReport": "quality/evidence/ATEL-23/v3-prototype/triangle-intersection-result.json",
+    "intersectionReportSha256": "7515ac7c0fb63a71b4f30f9fb92b7281d21847cc1c3fe359451ea5b9ac843c71"
+  },
+  "clearanceSummary": {
+    "method": "AABB-BVH broad phase, kiểm giao cắt tam giác chính xác trên candidate pairs, cộng ray parity ở vertex/centroid và lấy mẫu tới bề mặt gần nhất; không phải đo liên tục toàn bề mặt hoặc mô hình độ dày vải.",
+    "candidatePairs": 17709,
+    "intersectionPairs": 1039,
+    "insideSamples": 24516,
+    "maxSampledDepthMeters": 0.0510337,
+    "byRegion": {
+      "shoulder/upper torso": { "intersectionPairs": 648, "insideSamples": 19700, "maxSampledDepthMeters": 0.0510337 },
+      "neck/collar": { "intersectionPairs": 176, "insideSamples": 1128, "maxSampledDepthMeters": 0.0254081 },
+      "other": { "intersectionPairs": 215, "insideSamples": 3688, "maxSampledDepthMeters": 0.0081109 }
+    },
+    "limitations": [
+      "Lấy mẫu trên candidate pairs không chứng minh khoảng cách tối thiểu liên tục của toàn bề mặt.",
+      "Không mô phỏng độ dày vải hoặc mô phỏng vải.",
+      "Có thể bỏ sót penetration nhỏ nằm ngoài vị trí lấy mẫu."
+    ]
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-v3-prototype/index.html",
+    "scope": "Fit preview của Designer, không phải viewer sản phẩm chính thức.",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": [],
+    "browserReport": "quality/evidence/ATEL-23/v3-prototype/browser-fit/browser-result.json",
+    "browserReportSha256": "d255811c6e97c216a67cbd4f58cd454da2ac71186fb92f7aa0bd39592b4c3e7a"
+  },
+  "evidence": {
+    "front": { "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/front.png", "sha256": "e8e05b8fa95221f7349e34a728cb3e3d07aff5e7b72a34564339bcc07d3e85e2" },
+    "back": { "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/back.png", "sha256": "d2ccf50f966e9c594777b3c595980594e137081bc134a4f8596ea04900773711" },
+    "left": { "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/left.png", "sha256": "65966674b33e65ad3033ad1e249e4778fe6736719e1c13ad06c213ed547b439b" },
+    "right": { "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/right.png", "sha256": "dee06cb38c2ca4b00689e50d4b422bb257ddcbe8f4efdfe245b74e5e45888105" },
+    "detail": { "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/detail.png", "sha256": "f2dba4fa11e0de8a7b739efa19caed570ac8e66b460539578a1b3f0bec0290be" },
+    "mobile": { "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/mobile.png", "sha256": "8960003ad78d37d0bc9b2d73619bcc4f774986c09bbc0cac2ad7e9c7557968ad" },
+    "neckFront": { "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/neck-front.png", "sha256": "e7670db362830748d5b3b56cc0a77526da1ac1bb6a6526ed5edca30d14f1161a" },
+    "armholeNegativeX": { "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/armhole-negativeX.png", "sha256": "839eca42793e443c77c77608d9e12ca1df0f2b190fd9df57c8566fd75c2e47ea" },
+    "armholePositiveX": { "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/armhole-positiveX.png", "sha256": "a236bfb10b396898e20190322680acdab0302aaa59d888be7d349272091c5119" }
+  },
+  "featureChecks": [
+    {
+      "feature": "Đúng revision và nhận diện garment theo handoff",
+      "passed": true,
+      "observation": "SHA-256 garment khớp handoff v3-prototype. Fit manifest ghi đúng revision và mannequin tham chiếu đã đo.",
+      "evidence": "orders/ATEL-23/v3-prototype/designer/fit.json"
+    },
+    {
+      "feature": "Đúng mannequin-v1",
+      "passed": true,
+      "observation": "SHA-256 mannequin khớp quality/mannequin-fit.json; lượt rà này không đo lại hoặc áp transform bổ sung.",
+      "evidence": "quality/candidates/mannequin/mannequin-180cm-v1.glb"
+    },
+    {
+      "feature": "Vai và hai junction vòng nách",
+      "passed": false,
+      "observation": "Ảnh trước, sau và cận góc xiên cho thấy mannequin lộ, khe hở và mép garment răng cưa ở cả hai chân tay; intersection screen ghi 648 cặp ở vùng vai/thân trên và sampled penetration tối đa 51,0 mm.",
+      "evidence": "quality/evidence/ATEL-23/v3-prototype/browser-fit/armhole-positiveX.png"
+    },
+    {
+      "feature": "Opening cổ và điểm gắn collar",
+      "passed": false,
+      "observation": "Chân collar tách rời thân áo; ảnh cận trước cho thấy đầu/cổ chồng vào opening. Screen vùng cổ/collar ghi 176 giao cắt và sampled depth tối đa 25,4 mm.",
+      "evidence": "quality/evidence/ATEL-23/v3-prototype/browser-fit/neck-front.png"
+    },
+    {
+      "feature": "Silhouette nhìn ngang và bề mặt thân áo",
+      "passed": false,
+      "observation": "Ảnh ngang cho cảm giác phẳng/khối hộp với chuyển tiếp gắt; geometry chưa có độ dày vải và cần chỉnh silhouette trước khi kết luận fit garment.",
+      "evidence": "quality/evidence/ATEL-23/v3-prototype/browser-fit/left.png"
+    },
+    {
+      "feature": "Tương tác preview browser và độ phủ capture",
+      "passed": true,
+      "observation": "Kết quả browser của fit preview báo tải/xoay/zoom và desktop/mobile đạt, không có lỗi; đủ capture trước/sau/trái/phải/cận/mobile và các hash đã đối chiếu khớp.",
+      "evidence": "quality/evidence/ATEL-23/v3-prototype/browser-fit/browser-result.json"
+    },
+    {
+      "feature": "Fit G1 / không có penetration nhìn thấy",
+      "passed": false,
+      "observation": "Mannequin lộ rõ và kết quả intersection/inside-sample không đạt cổng fit sớm. Đây chỉ là QA fit preview, chưa phải QA viewer hoặc sản phẩm cuối.",
+      "evidence": "quality/evidence/ATEL-23/v3-prototype/contact-clearance-analysis.json"
+    }
+  ],
+  "scores": {
+    "silhouette": 2,
+    "construction": 1,
+    "artwork": null,
+    "placement": null,
+    "material": null,
+    "web": 4
+  },
+  "blockers": [
+    {
+      "priority": "P0",
+      "issue": "Junction vai/vòng nách hở và răng cưa làm lộ mannequin; sampled penetration vùng vai/thân trên tới 51,0 mm.",
+      "owner": "Fashion Designer",
+      "nextStep": "Dựng lại vòng nách và chuyển tiếp chân tay thành bề mặt liên tục; retest hai bên bằng ảnh trước/sau/góc xiên và clearance evidence."
+    },
+    {
+      "priority": "P1",
+      "issue": "Chân collar đang rời; ảnh thấy đầu/cổ chồng lấn và sampled penetration cổ/collar tới 25,4 mm.",
+      "owner": "Fashion Designer",
+      "nextStep": "Gắn collar vào opening cổ có biên sạch, rồi kiểm clearance từ trước và bên trước lượt QA fit tiếp theo."
+    },
+    {
+      "priority": "P1",
+      "issue": "Silhouette ngang phẳng/khối hộp, chuyển tiếp thân áo gắt và chưa có độ dày vải.",
+      "owner": "Fashion Designer",
+      "nextStep": "Chỉnh loft thân/đường bao ngang; tiếp tục tách dựng prototype khỏi vật liệu sản xuất/artwork."
+    },
+    {
+      "priority": "P2",
+      "issue": "Vùng other ghi 215 cặp giao cắt và sampled penetration tới 8,1 mm.",
+      "owner": "Fashion Designer",
+      "nextStep": "Phân loại vị trí tiếp xúc ở vùng other và sửa clipping nhìn thấy được trước khi xác nhận fit-ready."
+    }
+  ],
+  "nextOwner": "Studio Lead",
+  "nextStep": "Designer xử lý các lỗi geometry theo thứ tự ưu tiên; Lead quyết định có tiếp tục nhánh prototype này không. Giữ G1 chưa duyệt và không dùng làm bản cuối."
+}

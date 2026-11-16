@@ -1,0 +1,60 @@
+{
+  "order": "ATEL-17 / ATEL-9",
+  "revision": "clean-v2-neckfix-placement-v3",
+  "sourceCandidateSha256": "42dc0075e632eab84256f71d9cc88b6eb6d54d04cbff3682f548f62e55994a13",
+  "geometryRevisionSha256": "34374edd321b7e8396656e7d5a003e359d9349c5cc35bb5bc37a5c99145141bf",
+  "diagnosticGLBSha256": "964e87b98a215cf1c8b86ce0b42f6a881b384202caf8faeaca3928aa6c64ea92",
+  "viewer": "http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie-clean-v2-rev03/index.html",
+  "runner": "node tools/browser-qa.mjs --url http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie-clean-v2-rev03/index.html --out quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest --front-deg 0",
+  "browserResult": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie-clean-v2-rev03/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "screenshots": {
+      "front": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/front.png",
+      "back": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/back.png",
+      "left": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/left.png",
+      "right": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/right.png",
+      "detail": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/detail.png",
+      "mobile": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/mobile.png"
+    },
+    "errors": []
+  },
+  "screenshots": {
+    "front.png": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/front.png",
+      "sha256": "2380ff67a1dcb4890607326b0c1595dae134eb1e2f66f7df0630bb973ebe41cb"
+    },
+    "back.png": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/back.png",
+      "sha256": "38a406d362857044abbf1503597de6916139fe6cabf3f100c3575b32e5e5f6b2"
+    },
+    "left.png": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/left.png",
+      "sha256": "57be956a82a42bb59cd32b07c7e79a0a3cb3056c046cff2f4e81618b8407df60"
+    },
+    "right.png": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/right.png",
+      "sha256": "33e76495d6b3bc178236af6898aeeefa39953eef310cd9db5aea3527c07d9861"
+    },
+    "detail.png": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/detail.png",
+      "sha256": "2135e797dd03e75d4704e4e0250a771241f6828be0671746faff58c1e5c6561a"
+    },
+    "mobile.png": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/mobile.png",
+      "sha256": "25f9db447aeb2b3c7d4d70854570e7a383baa5dd4a13e116c8d5665c3580e945"
+    },
+    "neck-shoulder-front-detail.png": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/neck-shoulder-front-detail.png",
+      "sha256": "7e46fbc549264ab962dfd93b5a5dab80a9891f12796139a0c50001118c47c789"
+    },
+    "neck-shoulder-detail.png": {
+      "path": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/neck-shoulder-detail.png",
+      "sha256": "015a642186348b9b474e86fac21c01eaa0b9a1a3447b7e947e464566dc37e3e1"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v2.1",
+  "stage": "qa-final",
+  "decision": "pass",
+  "sourceManifest": {
+    "path": "orders/ATEL-63/v2.1/visual/visual-manifest.json",
+    "sha256": "6455ac606bc325fdeb0a4d07ef74e30634a4721bf212ed860f3a51ba5858310e"
+  },
+  "displayGlb": {
+    "path": "showcase/products/ATEL-63/v2.1/assets/display.glb",
+    "sha256": "91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99",
+    "byteIdenticalToV2": true
+  },
+  "report": {
+    "path": "quality/reports/ATEL-63/v2.1-final.json",
+    "sha256": "c08cf8c59b63f268e556beb87674bf95b87f6a059309ee8ca57f45f391552d22"
+  },
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-63/v2.1-final.json",
+      "sha256": "c08cf8c59b63f268e556beb87674bf95b87f6a059309ee8ca57f45f391552d22"
+    },
+    {
+      "path": "orders/ATEL-63/v2.1/visual/visual-manifest.json",
+      "sha256": "6455ac606bc325fdeb0a4d07ef74e30634a4721bf212ed860f3a51ba5858310e"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2.1-final-browser/front.png",
+      "sha256": "55d1540ea93c119d04823a074aa5a86a8c2dd6cb530fbfb07be8cc09ab355b56"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2.1-final-browser/back.png",
+      "sha256": "f552eee96b891f38201a84e0e21aca56111b0d9c77696c0da4390c97a6c82670"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2.1-final-browser/side.png",
+      "sha256": "2af929cb543381ecfd0c793153452408014242e0c8d19f66ebd28981c3398591"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2.1-final-browser/oblique.png",
+      "sha256": "f8a37bcf3ecb9279a49be4c0156ad60c73939e39809982d3434b77c690b53f2b"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2.1-final-browser/top.png",
+      "sha256": "c7a1892c77d951b4a25d646016d2053ae52c41408e4a79d126d4bee8d883d73c"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2.1-final-browser/bottom.png",
+      "sha256": "44fc83123bec6c108419ca052723a3dc0febf412856585ca75dc9fca1ecc7b74"
+    },
+    {
+      "path": "showcase/products/ATEL-63/v2.1/content.json",
+      "sha256": "4ea2c81ea04de9d22f35ba079d05963e92b28c9db113399dda7fd446f7633bcf"
+    },
+    {
+      "path": "showcase/products/ATEL-63/v2.1/measurements.json",
+      "sha256": "120bbb79e63876453d858c04bf6210ca8df484012414d62c0a9b01e649365913"
+    },
+    {
+      "path": "showcase/products/ATEL-63/v2.1/assets/display.glb",
+      "sha256": "91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99"
+    }
+  ]
+}

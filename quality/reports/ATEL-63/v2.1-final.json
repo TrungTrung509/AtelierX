@@ -1,0 +1,254 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v2.1",
+  "reviewType": "independent-focused-final-retest",
+  "reviewedAt": "2026-11-16T07:29:54.744Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "qaReviewer": "atelierx-qa-0004",
+  "decision": "pass",
+  "sourceManifest": {
+    "path": "orders/ATEL-63/v2.1/visual/visual-manifest.json",
+    "sha256": "6455ac606bc325fdeb0a4d07ef74e30634a4721bf212ed860f3a51ba5858310e",
+    "artifactCount": 14,
+    "artifactHashesMatched": true,
+    "referencedFilesMatched": true,
+    "nestedHashesMatched": true
+  },
+  "garment": {
+    "path": "showcase/products/ATEL-63/v2.1/assets/display.glb",
+    "sha256": "91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99",
+    "bytes": 13525644,
+    "byteIdenticalToV2": true
+  },
+  "provenance": {
+    "surfaceManifest": {
+      "path": "orders/ATEL-63/v2/material/surface-handoff.json",
+      "sha256": "e040fd903fbe1a9309ba8a6dd453dde2f15fa8a91224ab79aee2edeefd891c52"
+    },
+    "surfaceGlb": {
+      "path": "orders/ATEL-63/v2/material/garment.glb",
+      "sha256": "47265ba5174e6aac8ec164d3c0d1998eac55c6a71372eb47b4cbe09fd96bc21b"
+    },
+    "shapeReview": {
+      "path": "orders/ATEL-63/v1/shape-review-handoff.json",
+      "sha256": "bb347f22dbbe9bac4afc9627695a0fde75f3357ae72cf6cadb7653c1aee27bc1",
+      "decision": "pass"
+    },
+    "geometryChanged": false,
+    "sourceGeometryPreserved": true,
+    "mannequinIncluded": false,
+    "correctionRetest": {
+      "fromRevision": "v2",
+      "finding": "display dimensions did not reflect viewerScale 0.25",
+      "owner": "visual",
+      "outcome": "fixed in v2.1 metadata; source GLB and v2 QA report unchanged"
+    }
+  },
+  "viewer": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-63/v2.1/index.html",
+    "revision": "v2.1",
+    "displayGlbSha256": "91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99",
+    "loaded": true,
+    "modelVisible": true,
+    "contentLoaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": [],
+    "runtimeCheck": {
+      "path": "quality/evidence/ATEL-63/v2.1-final-browser/browser-result.json",
+      "sha256": "ed7360939d1d5d5f15bca8c562efb82751f7c3e87a6497d5853c27f572d899b2"
+    }
+  },
+  "content": {
+    "language": "vi",
+    "revision": "v2.1",
+    "title": "Áo sweater Giáng sinh đỏ rượu vang",
+    "summary": "Sweater cổ tròn tay dài màu đỏ rượu vang, bo kem ở cổ, cổ tay và gấu; cây thông cùng bông tuyết tông sáng đặt giữa ngực trước. Bề mặt len dệt matte là mô phỏng PBR theo preset AtelierX, không xác nhận thành phần sợi hay đặc tính sản xuất.",
+    "simulatedMaterial": "orders/ATEL-63/v2/material/pbr-preset-v2.json; màu #6F1C31, roughness 0.9, metallic 0. Mô phỏng thị giác do AtelierX thiết lập, không phải thành phần vật liệu được xác minh.",
+    "dimensions": [
+      {
+        "label": "Ngang bao áo (gồm tay)",
+        "value": 34.5,
+        "unit": "cm",
+        "source": "showcase/products/ATEL-63/v2.1/measurements.json · envelopeWidthCm; kích thước tham khảo của viewer sau scale 0.25, không phải size may."
+      },
+      {
+        "label": "Dài bao áo",
+        "value": 16.1,
+        "unit": "cm",
+        "source": "showcase/products/ATEL-63/v2.1/measurements.json · garmentLengthCm; kích thước tham khảo của viewer sau scale 0.25, không phải size may."
+      },
+      {
+        "label": "Sâu bao áo",
+        "value": 8.6,
+        "unit": "cm",
+        "source": "showcase/products/ATEL-63/v2.1/measurements.json · envelopeDepthCm; kích thước tham khảo của viewer sau scale 0.25, không phải size may."
+      },
+      {
+        "label": "Ngang hình chiếu ở 3/4 chiều cao",
+        "value": 16.8,
+        "unit": "cm",
+        "source": "showcase/products/ATEL-63/v2.1/measurements.json · upperBodySpanCm; kích thước tham khảo của viewer sau scale 0.25, không phải size may."
+      }
+    ],
+    "displayDimensionsDisclaimerPresent": true,
+    "dimensionsSourceMatchesSurfaceGlb": true,
+    "displayScaleMatchesMeasurements": true,
+    "dimensionsMethod": "World-space mesh envelope and horizontal silhouette section at 75% of garment height; v2 measurements multiplied by the model-viewer scale 0.25 to report the final displayed dimensions. Display references only, not sewing or body measurements.",
+    "dimensionCalculation": {
+      "viewerScale": 0.25,
+      "sourceValues": {
+        "envelopeWidthCm": {
+          "source": 138.17005157470703,
+          "display": 34.54251289367676
+        },
+        "garmentLengthCm": {
+          "source": 64.38845501509908,
+          "display": 16.09711375377477
+        },
+        "envelopeDepthCm": {
+          "source": 34.20142388389865,
+          "display": 8.550355970974662
+        },
+        "upperBodySpanCm": {
+          "source": 67.39964153355679,
+          "display": 16.849910383389197
+        }
+      },
+      "displayValues": [
+        34.5,
+        16.1,
+        8.6,
+        16.8
+      ],
+      "valuesMatchExpected": true
+    }
+  },
+  "garmentAppearance": {
+    "profile": "invisible-body-v1",
+    "reviewer": "atelierx-qa-0004",
+    "benchmark": "ATEL-35/v1",
+    "garmentType": "crew-neck sweater",
+    "checks": {
+      "hollowOpenings": {
+        "passed": true,
+        "observation": "Sáu góc mới cho thấy lỗ cổ và gấu là khoảng rỗng của lớp vỏ; hai đầu tay mở, không có mannequin hoặc mặt cap bịt ngang.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v2.1-final-browser/top.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/bottom.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/side.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/oblique.png"
+        ]
+      },
+      "naturalDrape": {
+        "passed": true,
+        "observation": "Dáng sweater độc lập giữ thể tích vai/thân và nếp gấp không đều ở nách, tay áo; độ nhăn thân mềm hơn benchmark ATEL-35/v1 phù hợp chất len dày, còn nếp tay đọc rõ.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v2.1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/back.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/side.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/oblique.png",
+          "quality/evidence/ATEL-35/v1/browser-qa-official/front.png",
+          "quality/evidence/ATEL-35/v1/browser-qa-official/oblique.png"
+        ]
+      },
+      "fabricEdges": {
+        "passed": true,
+        "observation": "Bo cổ, bo tay và bo gấu theo mép vải; các đầu tay và cửa cổ/gấu vẫn thông, không bị trim bắc kín.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v2.1-final-browser/top.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/bottom.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/side.png"
+        ]
+      },
+      "garmentConstruction": {
+        "passed": true,
+        "observation": "Sweater cổ tròn tay dài, bo kem và artwork Giáng sinh giữa ngực trước; cấu tạo phù hợp loại áo, không có mannequin.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v2.1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/back.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/oblique.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/top.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/bottom.png"
+        ]
+      },
+      "benchmarkComparison": {
+        "passed": true,
+        "observation": "So với ATEL-35/v1, mẫu giữ thể tích garment và nếp gấp đọc được; thân ít nếp nhỏ hơn nhưng tay/nách có nếp cấu trúc rõ, phù hợp sweater knit.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v2.1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/back.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/oblique.png",
+          "quality/evidence/ATEL-35/v1/browser-qa-official/front.png",
+          "quality/evidence/ATEL-35/v1/browser-qa-official/back.png",
+          "quality/evidence/ATEL-35/v1/browser-qa-official/oblique.png"
+        ]
+      },
+      "colorAndPattern": {
+        "passed": true,
+        "observation": "Đỏ rượu vang, bo kem và motif cây thông/bông tuyết sáng ở giữa ngực trước khớp brief; ảnh sau và nghiêng không thấy motif tràn ra lưng/tay.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v2.1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/back.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/side.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/oblique.png"
+        ]
+      },
+      "trimFollowsGeometry": {
+        "passed": true,
+        "observation": "Viền kem cổ tròn là dải hẹp bám quanh opening; không thấy mảng vai/yoke kem hình chữ nhật ở front/top/oblique.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v2.1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/top.png",
+          "quality/evidence/ATEL-63/v2.1-final-browser/oblique.png"
+        ]
+      },
+      "contentAndDimensions": {
+        "passed": true,
+        "observation": "Content tiếng Việt đúng revision v2.1; bốn số 34,5/16,1/8,6/16,8 cm bằng số nguồn v2 nhân viewerScale 0,25, có nguồn/phương pháp và ghi rõ chỉ là tham khảo mẫu 3D, không phải size may.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v2.1-final-browser/front.png",
+          "showcase/products/ATEL-63/v2.1/content.json",
+          "showcase/products/ATEL-63/v2.1/measurements.json"
+        ]
+      }
+    }
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-63/v2.1-final-browser/front.png",
+    "back": "quality/evidence/ATEL-63/v2.1-final-browser/back.png",
+    "side": "quality/evidence/ATEL-63/v2.1-final-browser/side.png",
+    "oblique": "quality/evidence/ATEL-63/v2.1-final-browser/oblique.png",
+    "top": "quality/evidence/ATEL-63/v2.1-final-browser/top.png",
+    "bottom": "quality/evidence/ATEL-63/v2.1-final-browser/bottom.png",
+    "browserResult": "quality/evidence/ATEL-63/v2.1-final-browser/browser-result.json",
+    "visualManifest": "orders/ATEL-63/v2.1/visual/visual-manifest.json",
+    "surfaceHandoff": "orders/ATEL-63/v2/material/surface-handoff.json",
+    "sourceSurface": "orders/ATEL-63/v2/material/garment.glb",
+    "shapeReview": "orders/ATEL-63/v1/shape-review-handoff.json",
+    "content": "showcase/products/ATEL-63/v2.1/content.json",
+    "measurements": "showcase/products/ATEL-63/v2.1/measurements.json"
+  },
+  "evidenceSha256": {
+    "front": "55d1540ea93c119d04823a074aa5a86a8c2dd6cb530fbfb07be8cc09ab355b56",
+    "back": "f552eee96b891f38201a84e0e21aca56111b0d9c77696c0da4390c97a6c82670",
+    "side": "2af929cb543381ecfd0c793153452408014242e0c8d19f66ebd28981c3398591",
+    "oblique": "f8a37bcf3ecb9279a49be4c0156ad60c73939e39809982d3434b77c690b53f2b",
+    "top": "c7a1892c77d951b4a25d646016d2053ae52c41408e4a79d126d4bee8d883d73c",
+    "bottom": "44fc83123bec6c108419ca052723a3dc0febf412856585ca75dc9fca1ecc7b74",
+    "browserResult": "ed7360939d1d5d5f15bca8c562efb82751f7c3e87a6497d5853c27f572d899b2",
+    "visualManifest": "6455ac606bc325fdeb0a4d07ef74e30634a4721bf212ed860f3a51ba5858310e",
+    "surfaceHandoff": "e040fd903fbe1a9309ba8a6dd453dde2f15fa8a91224ab79aee2edeefd891c52",
+    "sourceSurface": "47265ba5174e6aac8ec164d3c0d1998eac55c6a71372eb47b4cbe09fd96bc21b",
+    "shapeReview": "bb347f22dbbe9bac4afc9627695a0fde75f3357ae72cf6cadb7653c1aee27bc1",
+    "content": "4ea2c81ea04de9d22f35ba079d05963e92b28c9db113399dda7fd446f7633bcf",
+    "measurements": "120bbb79e63876453d858c04bf6210ca8df484012414d62c0a9b01e649365913",
+    "displayGlb": "91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99"
+  },
+  "findings": [],
+  "summary": "PASS focused independent QA for ATEL-63/v2.1. Verified all 14 visual manifest artifacts and five referenced file hashes; display GLB is byte-identical to v2 (SHA-256 91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99). Independently captured and inspected six current browser views; loaded/rotated/zoomed/desktop passed with no runtime errors. All four dimensions equal v2 source values × viewerScale 0.25 and content points to v2.1. Geometry, open shell, drape, neckline trim, artwork and Vietnamese content pass. No publish performed; v2 QA report remains unchanged."
+}

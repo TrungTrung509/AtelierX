@@ -1,0 +1,21 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.2-gray",
+  "decision": "pass",
+  "nextStage": "surface",
+  "nextAction": "Shape review passed; Material may proceed with surface work while retaining exact v1.2 geometry/hash and open cuffs. QA WorkItem remains open for final viewer QA after Visual handoff.",
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-53/owner-shirt-v1.2-gray.json",
+      "sha256": "475d4b7140737645269b599e183e0ac0ef11472183b11808f49968c6e8c4f6f6"
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shape-manifest-v1.2-gray.json",
+      "sha256": "90ab22a835886d1585725e5d6b66909071cab232a6cf64c5d438298dade3df05"
+    },
+    {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+      "sha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c"
+    }
+  ]
+}

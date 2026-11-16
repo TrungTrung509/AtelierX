@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/hoodie-clean-v2-rev03/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/front.png",
+    "back": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/back.png",
+    "left": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/left.png",
+    "right": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/right.png",
+    "detail": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/detail.png",
+    "mobile": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/mobile.png"
+  },
+  "errors": []
+}

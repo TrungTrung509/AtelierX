@@ -1,0 +1,12 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4.2",
+  "garment": "orders/ATEL-23/v4.2/designer/garment-v4_2.glb",
+  "garmentType": "shirt",
+  "exposure": "opaque",
+  "maskBody": true,
+  "material": {
+    "name": "Poplin mô phỏng, nền xanh trời và họa tiết Tuyến sáng",
+    "source": "orders/ATEL-23/v1/material/manifest.json#base-color.png"
+  }
+}

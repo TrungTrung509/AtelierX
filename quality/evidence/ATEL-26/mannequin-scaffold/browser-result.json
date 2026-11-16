@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-23/v1/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-26/mannequin-scaffold/front.png",
+    "back": "quality/evidence/ATEL-26/mannequin-scaffold/back.png",
+    "left": "quality/evidence/ATEL-26/mannequin-scaffold/left.png",
+    "right": "quality/evidence/ATEL-26/mannequin-scaffold/right.png",
+    "detail": "quality/evidence/ATEL-26/mannequin-scaffold/detail.png",
+    "mobile": "quality/evidence/ATEL-26/mannequin-scaffold/mobile.png"
+  },
+  "errors": []
+}

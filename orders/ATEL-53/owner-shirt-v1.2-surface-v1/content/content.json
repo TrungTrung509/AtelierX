@@ -1,0 +1,87 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.2-surface-v1",
+  "language": "vi",
+  "title": "Sơ mi xanh da trời sọc trắng",
+  "summary": "Sơ mi dài tay phom gọn, cổ bẻ và nẹp khuy trước; nền xanh da trời sáng với sọc trắng mảnh dọc thân và tay.",
+  "description": "Thiết kế công sở trẻ với cổ bẻ, hàng khuy trước và măng sét. Sọc trắng mảnh chạy dọc các mảng vải thân và tay; khuy giữ màu sáng trơn.",
+  "style": "Công sở trẻ, gọn gàng, sắc xanh sáng.",
+  "material": {
+    "name": "Cotton-poplin mô phỏng · xanh da trời sáng",
+    "simulatedMaterial": "Bề mặt lì mô phỏng dệt cotton-poplin; đây là mô phỏng thị giác, không phải khẳng định thành phần, cảm giác tay hay đặc tính sản xuất của vải thật.",
+    "baseColorHexSRGB": "#79BCEB",
+    "roughnessFactor": 0.82,
+    "metallicFactor": 0,
+    "source": {
+      "path": "orders/ATEL-53/material/pbr-preset-owner-shirt-v1.2.json",
+      "sha256": "1366e6ccb6bbfc889e1c91dbcddebbf8f699f93977fc2352ad94bdf5961ca118",
+      "note": "Preset hiển thị được tạo theo brief của chủ dự án."
+    }
+  },
+  "pattern": {
+    "name": "Sọc trắng mảnh",
+    "colorHexSRGB": "#F8FBFF",
+    "orientation": "Dọc theo trục UV V hiện có trên thân và tay áo.",
+    "placement": "Các bề mặt vải thân trước, thân sau và tay; khuy không phủ sọc.",
+    "source": {
+      "path": "orders/ATEL-53/material/placement-owner-shirt-v1.2.json",
+      "sha256": "f7d611721e1a45808904deb24e696f67738b2e8f6157212c780ef62af8432128",
+      "artwork": {
+        "path": "orders/ATEL-53/material/pinstripe-artwork-v1.svg",
+        "sha256": "09bbc8455d16de151408e27def97a813a1b791e4e464ed857f46977fe91c817b"
+      }
+    }
+  },
+  "specifications": [
+    {
+      "label": "Rộng bao hiển thị",
+      "value": 64.43,
+      "unit": "cm"
+    },
+    {
+      "label": "Dài bao hiển thị",
+      "value": 65.87,
+      "unit": "cm"
+    },
+    {
+      "label": "Sâu bao hiển thị",
+      "value": 28.65,
+      "unit": "cm"
+    }
+  ],
+  "displayDimensionsNote": "Kích thước bao hình học của GLB surface này, đo bằng world-space envelope theo showcase-basic-v1; chỉ để tham chiếu hiển thị, không phải size cơ thể, size may hay số đo sản xuất.",
+  "dimensionsSource": {
+    "method": "World-space mesh envelope in meters, converted to cm by tools/showcase-basic.mjs measureStandalone.",
+    "garmentPath": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/garment.glb",
+    "garmentSha256": "bc15ebd82d9b4ca3ddbdd3d7792f139313cf37687895a462b8c86ad5aa42793b",
+    "shapeRevision": "owner-shirt-v1.2-gray",
+    "shapeManifest": {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shape-manifest-v1.2-gray.json",
+      "sha256": "90ab22a835886d1585725e5d6b66909071cab232a6cf64c5d438298dade3df05"
+    }
+  },
+  "sourceRevision": {
+    "surface": {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-surface-v1/material/surface.json",
+      "sha256": "b177b5556649e9f03d045bde53a422cf3daf9cb6ba61e518572369569f123160",
+      "revision": "owner-shirt-v1.2-surface-v1"
+    },
+    "geometry": {
+      "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+      "sha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c",
+      "shapeManifest": {
+        "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shape-manifest-v1.2-gray.json",
+        "sha256": "90ab22a835886d1585725e5d6b66909071cab232a6cf64c5d438298dade3df05"
+      }
+    },
+    "shapeReview": {
+      "path": "quality/reports/ATEL-53/owner-shirt-v1.2-gray.json",
+      "sha256": "475d4b7140737645269b599e183e0ac0ef11472183b11808f49968c6e8c4f6f6",
+      "decision": "pass"
+    }
+  },
+  "credits": [
+    "Hình học cơ sở: áo sơ mi do chủ dự án cung cấp cho ATEL-53; metadata nhúng ghi tác giả eigenscene, tiêu đề Shirt, nguồn https://sketchfab.com/3d-models/shirt-745d0d185b49405694ef4e16cf78e224 và giấy phép CC-BY-4.0. Credit theo OWNER_SHIRT_BASE.md; trang nguồn ngoài chưa được xác minh độc lập.",
+    "Màu xanh và bề mặt cotton-poplin mô phỏng theo brief chủ dự án; artwork sọc là thiết kế gốc của dự án. Đây là mô phỏng hiển thị, không tuyên bố thành phần hay tính năng vật liệu thật."
+  ]
+}

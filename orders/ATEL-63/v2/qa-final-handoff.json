@@ -1,0 +1,62 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v2",
+  "stage": "qa-final",
+  "decision": "pass",
+  "sourceManifest": {
+    "path": "orders/ATEL-63/v2/visual/visual-manifest.json",
+    "sha256": "f84c821ce91b2a66d6603f7f52e773b81d0573122e79bfa94f4a110cb0357c7f"
+  },
+  "displayGlb": {
+    "path": "showcase/products/ATEL-63/v2/assets/display.glb",
+    "sha256": "91f278f20d4ea578e49991eed2798e83258cc79983aaa601cc4e20ed889c6a99"
+  },
+  "report": {
+    "path": "quality/reports/ATEL-63/v2-final.json",
+    "sha256": "dad7dd8b850be981b1e743f489a4a787d05e664a9a71e890bfd2e1e669586843"
+  },
+  "correctionRetest": {
+    "fromRevision": "v1",
+    "finding": "F-01",
+    "owner": "material",
+    "outcome": "fixed"
+  },
+  "artifacts": [
+    {
+      "path": "quality/reports/ATEL-63/v2-final.json",
+      "sha256": "dad7dd8b850be981b1e743f489a4a787d05e664a9a71e890bfd2e1e669586843"
+    },
+    {
+      "path": "orders/ATEL-63/v2/visual/visual-manifest.json",
+      "sha256": "f84c821ce91b2a66d6603f7f52e773b81d0573122e79bfa94f4a110cb0357c7f"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2-final-browser/front.png",
+      "sha256": "3d2cf87238cff21e8b1b9df06ed767d399dd7d68d78fb8ae316bf43bd148820a"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2-final-browser/back.png",
+      "sha256": "870110aed5b7cb56ad43fe8f21944c20e21e5faf0196ee507f1b50259758fdf8"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2-final-browser/side.png",
+      "sha256": "daa99d3f58b3418b88b64d649a3f6f27aedc52bebcf3c4748eb77a5ccadd1947"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2-final-browser/oblique.png",
+      "sha256": "0293db3dc278dc4a67b8fef32e7653bf619013bed764571a7e49bc88972ee12c"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2-final-browser/top.png",
+      "sha256": "87827a6d43aae9c48796986c0e4329530e900f0e8a45560f55c2b0b38e505fc6"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2-final-browser/bottom.png",
+      "sha256": "8190001b071686edef54455435dbffbb825fffcdef972ea212b2100b78a60db5"
+    },
+    {
+      "path": "quality/evidence/ATEL-63/v2-final-browser/browser-result.json",
+      "sha256": "4bdf3de4d87386ef869bca8ff75e085004fd24182a2e6346e518fcec378fcae3"
+    }
+  ]
+}

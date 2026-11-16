@@ -1,0 +1,322 @@
+{
+  "id": "atelierx-mannequin-180cm-v1",
+  "status": "measured-reference",
+  "file": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+  "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+  "sourceFile": "quality/candidates/mannequin/mannequin-model-v1.glb",
+  "sourceSha256": "dc905436fc8e57bceb1978716bdfe53ca28edc6643255b70032400e6e605a0d7",
+  "source": "https://sketchfab.com/3d-models/mannequin--model-59460931b9cb43f98c97991300c920fb",
+  "author": "zveoxic",
+  "license": "CC-BY-4.0",
+  "units": "meters",
+  "heightConvention": "Studio reference height chosen as 1.80 m; original real-world scale is unspecified.",
+  "coordinateSystem": {
+    "up": "+Y",
+    "front": "+Z",
+    "horizontal": "+X",
+    "floorY": 0,
+    "pose": "T-pose, static, no skeleton",
+    "positiveX": "use coordinate names; do not infer anatomical left/right"
+  },
+  "worldTransform": {
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "sourceToNormalized": {
+    "uniformScale": 0.9644462431469607,
+    "translation": [
+      0.001488643846171632,
+      0.9053970188663223,
+      0.0006876344517655215
+    ],
+    "after": "all source node world transforms"
+  },
+  "boundsMeters": {
+    "min": [
+      -0.9642374343467309,
+      0,
+      -0.14194917264195284
+    ],
+    "max": [
+      0.9642374343467309,
+      1.8,
+      0.14194917264195284
+    ]
+  },
+  "measurements": {
+    "chest": {
+      "y": 1.37,
+      "xmin": -0.19462887914542,
+      "xmax": 0.19552015658662933,
+      "zmin": -0.13490865515308542,
+      "zmax": 0.10592756984186098,
+      "perimeter": 1.0508055382937975,
+      "closed": true,
+      "width": 0.3901490357320493,
+      "depth": 0.2408362249949464
+    },
+    "waist": {
+      "y": 1.18,
+      "xmin": -0.13952356256736614,
+      "xmax": 0.14142850817732727,
+      "zmin": -0.07656393280301962,
+      "zmax": 0.11117853398229524,
+      "perimeter": 0.7623138196659617,
+      "closed": true,
+      "width": 0.2809520707446934,
+      "depth": 0.18774246678531487
+    },
+    "hip": {
+      "y": 0.94,
+      "xmin": -0.16900729998424702,
+      "xmax": 0.17083508193918953,
+      "zmin": -0.11853273417817348,
+      "zmax": 0.10138553931059613,
+      "perimeter": 0.9152052477209014,
+      "closed": true,
+      "width": 0.3398423819234365,
+      "depth": 0.2199182734887696
+    },
+    "neck": {
+      "y": 1.57,
+      "xmin": -0.07153104271635113,
+      "xmax": 0.07208707673304919,
+      "zmin": -0.08286789858798736,
+      "zmax": 0.0610344172183455,
+      "perimeter": 0.4594593851695218,
+      "closed": true,
+      "width": 0.14361811944940034,
+      "depth": 0.14390231580633286
+    }
+  },
+  "armStations": {
+    "positiveX_shoulder": {
+      "x": 0.25,
+      "yCenter": 1.4990732699805789,
+      "zCenter": -0.04544832550754629,
+      "height": 0.10834479331168967,
+      "depth": 0.13251929334256424,
+      "perimeter": 0.38791726109703556,
+      "method": "section at approximate anatomical x station; not rig joint"
+    },
+    "negativeX_shoulder": {
+      "x": -0.25,
+      "yCenter": 1.4989747354112626,
+      "zCenter": -0.04636626775680382,
+      "height": 0.10847581786946447,
+      "depth": 0.1326141599018374,
+      "perimeter": 0.38754613662513,
+      "method": "section at approximate anatomical x station; not rig joint"
+    },
+    "positiveX_upperArm": {
+      "x": 0.34,
+      "yCenter": 1.4930688625490123,
+      "zCenter": -0.04624779048197019,
+      "height": 0.08060329420923029,
+      "depth": 0.12298633263405491,
+      "perimeter": 0.3296845135137169,
+      "method": "section at approximate anatomical x station; not rig joint"
+    },
+    "negativeX_upperArm": {
+      "x": -0.34,
+      "yCenter": 1.4925765500195192,
+      "zCenter": -0.045959584390234336,
+      "height": 0.08090344925281245,
+      "depth": 0.12250064927786998,
+      "perimeter": 0.32913284822727384,
+      "method": "section at approximate anatomical x station; not rig joint"
+    },
+    "positiveX_elbow": {
+      "x": 0.53,
+      "yCenter": 1.4926020037587249,
+      "zCenter": -0.04514912163704312,
+      "height": 0.09101550961032734,
+      "depth": 0.08249476450537398,
+      "perimeter": 0.27207318523978685,
+      "method": "section at approximate anatomical x station; not rig joint"
+    },
+    "negativeX_elbow": {
+      "x": -0.53,
+      "yCenter": 1.492659000341951,
+      "zCenter": -0.044700377660723295,
+      "height": 0.09067357630606421,
+      "depth": 0.0810833582685811,
+      "perimeter": 0.2700528012153409,
+      "method": "section at approximate anatomical x station; not rig joint"
+    },
+    "positiveX_wrist": {
+      "x": 0.73,
+      "yCenter": 1.5063257079351553,
+      "zCenter": -0.031129830722185538,
+      "height": 0.04104141156663199,
+      "depth": 0.05387160010070703,
+      "perimeter": 0.1505877208908391,
+      "method": "section at approximate anatomical x station; not rig joint"
+    },
+    "negativeX_wrist": {
+      "x": -0.73,
+      "yCenter": 1.5067397679139811,
+      "zCenter": -0.030363355831424427,
+      "height": 0.0392569938679892,
+      "depth": 0.053852845874456094,
+      "perimeter": 0.1484495357601485,
+      "method": "section at approximate anatomical x station; not rig joint"
+    }
+  },
+  "anchors": {
+    "floor": [
+      0,
+      0,
+      0
+    ],
+    "crown": [
+      0,
+      1.8,
+      0
+    ],
+    "positiveX_underarmApprox": [
+      0.22,
+      1.41,
+      -0.03
+    ],
+    "negativeX_underarmApprox": [
+      -0.22,
+      1.41,
+      -0.03
+    ],
+    "chestCenter": [
+      0.00044563872060467136,
+      1.37,
+      -0.01449054265561222
+    ],
+    "chestFront": [
+      0,
+      1.37,
+      0.10592756984186098
+    ],
+    "chestBack": [
+      0,
+      1.37,
+      -0.13490865515308542
+    ],
+    "waistCenter": [
+      0.0009524728049805642,
+      1.18,
+      0.01730730058963781
+    ],
+    "waistFront": [
+      0,
+      1.18,
+      0.11117853398229524
+    ],
+    "waistBack": [
+      0,
+      1.18,
+      -0.07656393280301962
+    ],
+    "hipCenter": [
+      0.0009138909774712572,
+      0.94,
+      -0.008573597433788674
+    ],
+    "hipFront": [
+      0,
+      0.94,
+      0.10138553931059613
+    ],
+    "hipBack": [
+      0,
+      0.94,
+      -0.11853273417817348
+    ],
+    "neckCenter": [
+      0.00027801700834902826,
+      1.57,
+      -0.01091674068482093
+    ],
+    "neckFront": [
+      0,
+      1.57,
+      0.0610344172183455
+    ],
+    "neckBack": [
+      0,
+      1.57,
+      -0.08286789858798736
+    ],
+    "positiveX_shoulder": [
+      0.25,
+      1.4990732699805789,
+      -0.04544832550754629
+    ],
+    "negativeX_shoulder": [
+      -0.25,
+      1.4989747354112626,
+      -0.04636626775680382
+    ],
+    "positiveX_upperArm": [
+      0.34,
+      1.4930688625490123,
+      -0.04624779048197019
+    ],
+    "negativeX_upperArm": [
+      -0.34,
+      1.4925765500195192,
+      -0.045959584390234336
+    ],
+    "positiveX_elbow": [
+      0.53,
+      1.4926020037587249,
+      -0.04514912163704312
+    ],
+    "negativeX_elbow": [
+      -0.53,
+      1.492659000341951,
+      -0.044700377660723295
+    ],
+    "positiveX_wrist": [
+      0.73,
+      1.5063257079351553,
+      -0.031129830722185538
+    ],
+    "negativeX_wrist": [
+      -0.73,
+      1.5067397679139811,
+      -0.030363355831424427
+    ]
+  },
+  "anchorAccuracy": "Approximate anatomical stations chosen on inspected mesh. Arm points are section centers, not skeletal joints. Circumferences are mesh section lengths, not tailoring measurements.",
+  "evidence": {
+    "front": "quality/evidence/mannequin-v1/browser/front.png",
+    "back": "quality/evidence/mannequin-v1/browser/back.png",
+    "left": "quality/evidence/mannequin-v1/browser/left.png",
+    "right": "quality/evidence/mannequin-v1/browser/right.png",
+    "detail": "quality/evidence/mannequin-v1/browser/detail.png",
+    "mobile": "quality/evidence/mannequin-v1/browser/mobile.png"
+  },
+  "browserReport": "quality/evidence/mannequin-v1/browser/browser-result.json",
+  "fitPolicy": {
+    "garmentFitApproved": false,
+    "rule": "Reference is measured and visually inspected. Each garment must pass independent fit QA; no automatic approved pair.",
+    "recommendedInitialClearanceMeters": {
+      "body": 0.015,
+      "sleeve": 0.015
+    },
+    "clearanceNote": "Starting allowance only; adjust to garment style and check intersections in 3D. Do not simply inflate all axes.",
+    "poseRule": "Fit garment to this T-pose or deliberately create a new measured pose revision. Never hide intersections with camera."
+  }
+}

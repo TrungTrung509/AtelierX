@@ -1,0 +1,44 @@
+{
+  "orderId": "ATEL-47",
+  "revision": "v2",
+  "decision": "return",
+  "correctionOwner": "designer",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-47/v2/independent-shape-retest.json",
+      "sha256": "31e1ae1fc1c31fa9708a53b3c19acd2c1401f1f87ea548f63e0301069c81385b"
+    },
+    {
+      "path": "orders/ATEL-47/v2/shape.json",
+      "sha256": "b8dea7e5ff2ebf61767b885c5fc9b05db15c07d77fc90e3a100aed8b2601062e"
+    },
+    {
+      "path": "orders/ATEL-47/v2/designer/garment-gray-v2.glb",
+      "sha256": "fd7fd25ec85bd1d4ca649a2678e1ec87abd76244d523791a7dd62498e8a4bda7"
+    },
+    {
+      "path": "orders/ATEL-47/v2/designer/provenance-v2.json",
+      "sha256": "f3920cd99e0610bfecec15508f2f9ec616b853b992f4db0ae1b9438cee62309d"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v2-shape/browser-result.json",
+      "sha256": "702b931f0953edeb20ad15022b536551ba0e001f873da64e56606e057ba1a98d"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v2-shape/front.png",
+      "sha256": "f3f87a942fb1d4ff7218cf98cb9958778cf80d6f8714cfe1b63f90c3d33e1c20"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v2-shape/back.png",
+      "sha256": "d096b284ef5b1c180021a9f8a63c022c2f0d8cc4f0396b7f8479e338343d48df"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v2-shape/side.png",
+      "sha256": "2c9086f0c156abdf563f3407d41874a0d882c0578122412529571c0e22e9ba23"
+    },
+    {
+      "path": "quality/evidence/ATEL-47/v2-shape/oblique.png",
+      "sha256": "bb521f741c9d566e27b2163fb30023b3e6777c27ced882e26372109432f90481"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "orderId": "ATEL-53",
+  "revision": "owner-shirt-v1.2-surface-v1",
+  "profile": "uv-pinstripe-per-fabric-mesh-v1",
+  "sourceGeometry": {
+    "path": "orders/ATEL-53/owner-shirt-v1.2-gray/shirt-gray-v1.2.glb",
+    "sha256": "4c9e01ed516f454a96a29fd9f7e7081d659988d1fce536395575cc3b3ce3bc9c"
+  },
+  "surfaceMapping": {
+    "fabricMeshes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "buttonMeshes": [
+      0,
+      6
+    ],
+    "basis": "GLB inspection identifies mesh 0 as the original placket-button group, meshes 1-5 as source shirt-fabric group, and mesh 6 as the two added cuff fasteners. Existing UV islands overlap across some mesh groups, so each fabric mesh receives an independent texture with matched phase/frequency."
+  },
+  "placement": {
+    "coordinateSpace": "Existing TEXCOORD_0 UV space",
+    "stripeAxis": "parallel to UV V on body/sleeve fabric islands; stripe bands vary across U",
+    "surfaceExtent": "all shirt fabric surfaces, front/back/sleeves; buttons unpatterned",
+    "uvPolicy": "Preserve source geometry, transforms, topology, and all original UV accessors. Each fabric mesh gets its own texture so overlapping atlas islands cannot overwrite one another."
+  },
+  "fabricMeshProfiles": [
+    {
+      "mesh": 1,
+      "region": "front body right half",
+      "repeatCount": 120,
+      "centerlineU": 0.07584
+    },
+    {
+      "mesh": 2,
+      "region": "right sleeve and collar fabric islands",
+      "repeatCount": 60,
+      "centerlineU": 0.305
+    },
+    {
+      "mesh": 3,
+      "region": "left sleeve",
+      "repeatCount": 55,
+      "centerlineU": 0.792
+    },
+    {
+      "mesh": 4,
+      "region": "back body",
+      "repeatCount": 74,
+      "centerlineU": 0.42135
+    },
+    {
+      "mesh": 5,
+      "region": "front body left half and back yoke",
+      "repeatCount": 120,
+      "centerlineU": 0.76644
+    }
+  ],
+  "textureRaster": {
+    "width": 2048,
+    "height": 2048,
+    "uvVOrigin": "top-left interpretation used by glTF browser sampling",
+    "dilationPixels": 0
+  }
+}

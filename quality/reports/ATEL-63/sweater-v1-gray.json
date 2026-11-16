@@ -1,0 +1,143 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "sweater-v1-gray",
+  "reviewType": "independent-shape-review",
+  "reviewedAt": "2026-11-16T06:16:18.777Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "qaReviewer": "atelierx-qa-0004",
+  "decision": "pass",
+  "sourceManifest": {
+    "path": "orders/ATEL-63/v1/designer/shape-manifest.json",
+    "sha256": "36a0f26f8eb975edbd59675984f5121f034f6dc72d3603318a2893b10c6b3f2f",
+    "artifactCount": 13,
+    "artifactHashesMatched": 13,
+    "artifactByteCountsMatched": 13,
+    "additionalReferencesChecked": 3
+  },
+  "garment": {
+    "path": "orders/ATEL-63/v1/designer/sweater-gray-v1.glb",
+    "sha256": "9c7d8b646bcbb72c2a9c10893dd2169b9a0eeee462ee5559ed07e769caca5e0a",
+    "bytes": 12908612
+  },
+  "provenance": {
+    "sourceId": "sweater-owner-supplied-v1",
+    "author": "Tristen (https://sketchfab.com/tristenkrause)",
+    "sourceUrl": "https://sketchfab.com/3d-models/sweater-03ec2c29e4dc497080b32951f3168754",
+    "license": "CC-BY-4.0 (embedded GLB metadata; project use authorized under quality/USER_SUPPLIED_BASE_POLICY.md)",
+    "projectPermission": "User-supplied base use authorized for this project under quality/USER_SUPPLIED_BASE_POLICY.md",
+    "source": {
+      "path": "quality/candidates/user-supplied/sweater.glb",
+      "sha256": "9baf50b0d00f2188703b7f751b103cb9ad0071dcc0c6b2b057d4b06b780b867b"
+    },
+    "geometryBufferPreserved": true,
+    "parentGeometryBufferSha256": "90f7cc2b327a673fd473f9654fdb5e2bbec798918b0a6463f1cbb43d1f2848f4",
+    "derivedGeometryBufferSha256": "90f7cc2b327a673fd473f9654fdb5e2bbec798918b0a6463f1cbb43d1f2848f4",
+    "hasBodyOrMannequinMesh": false
+  },
+  "preview": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/ATEL-63/sweater-v1-gray/index.html",
+    "garmentPath": "showcase/quality-preview/ATEL-63/sweater-v1-gray/sweater-gray-v1.glb",
+    "garmentSha256": "9c7d8b646bcbb72c2a9c10893dd2169b9a0eeee462ee5559ed07e769caca5e0a",
+    "viewerSha256": "d86db6bc7f84b53a691a4c0c11f9b670fdc8087d45d265fefb64b1280a35a717"
+  },
+  "browserEvidence": {
+    "path": "orders/ATEL-63/v1/designer/evidence/browser-result.json",
+    "sha256": "e507d39052695e3780a71480c20a13c1138df69f5a46eafe8af705496add2fd1",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": []
+  },
+  "garmentAppearance": {
+    "profile": "invisible-body-v1",
+    "reviewer": "atelierx-qa-0004",
+    "benchmark": "ATEL-35/v1",
+    "garmentType": "crew-neck sweater",
+    "checks": {
+      "hollowOpenings": {
+        "passed": true,
+        "observation": "Front/oblique/top show the open crew neckline; side/oblique show the open sleeve terminals; bottom shows the hollow torso hem. The shell interior is visible and no cap or mannequin closes these openings.",
+        "evidence": [
+          "orders/ATEL-63/v1/designer/evidence/front.png",
+          "orders/ATEL-63/v1/designer/evidence/oblique.png",
+          "orders/ATEL-63/v1/designer/evidence/side.png",
+          "orders/ATEL-63/v1/designer/evidence/top.png",
+          "orders/ATEL-63/v1/designer/evidence/bottom.png"
+        ]
+      },
+      "naturalDrape": {
+        "passed": true,
+        "observation": "The sweater has a wearable shoulder/chest volume and a tapered torso. Irregular folds gather around underarms, elbows and forearms, with softer folds across the lower body. Compared with the thinner ATEL-35 tee, torso creasing is quieter while sleeve folds remain legible, consistent with a thicker knit.",
+        "evidence": [
+          "orders/ATEL-63/v1/designer/evidence/front.png",
+          "orders/ATEL-63/v1/designer/evidence/back.png",
+          "orders/ATEL-63/v1/designer/evidence/side.png",
+          "orders/ATEL-63/v1/designer/evidence/oblique.png",
+          "quality/evidence/ATEL-35/v1/browser/front.png",
+          "quality/evidence/ATEL-35/v1/browser/oblique.png"
+        ]
+      },
+      "fabricEdges": {
+        "passed": true,
+        "observation": "Neck, both sleeve ends and lower hem remain continuous open fabric edges. Top/bottom and side views show the interior shell and edge thickness; no flat surface bridges the openings.",
+        "evidence": [
+          "orders/ATEL-63/v1/designer/evidence/side.png",
+          "orders/ATEL-63/v1/designer/evidence/top.png",
+          "orders/ATEL-63/v1/designer/evidence/bottom.png"
+        ]
+      },
+      "garmentConstruction": {
+        "passed": true,
+        "observation": "The front/back/oblique read as a standalone long-sleeved crew-neck sweater. The neck band follows the neckline; sleeve and hem terminals are proportionate and open. Fine rib-knit surface detail is intentionally absent from this neutral-gray geometry review and remains for Material.",
+        "evidence": [
+          "orders/ATEL-63/v1/designer/evidence/front.png",
+          "orders/ATEL-63/v1/designer/evidence/back.png",
+          "orders/ATEL-63/v1/designer/evidence/oblique.png",
+          "orders/ATEL-63/v1/designer/evidence/side.png",
+          "orders/ATEL-63/v1/designer/evidence/top.png",
+          "orders/ATEL-63/v1/designer/evidence/bottom.png"
+        ]
+      },
+      "benchmarkComparison": {
+        "passed": true,
+        "observation": "Against ATEL-35/v1, the sweater retains a comparable cloth-shell silhouette and readable natural folds. The tee has slightly more visible torso shading folds; the sweater has stronger localized sleeve folds and a fuller knit silhouette. No solid-body substitution or opening caps are visible.",
+        "evidence": [
+          "orders/ATEL-63/v1/designer/evidence/front.png",
+          "orders/ATEL-63/v1/designer/evidence/back.png",
+          "orders/ATEL-63/v1/designer/evidence/oblique.png",
+          "quality/evidence/ATEL-35/v1/browser/front.png",
+          "quality/evidence/ATEL-35/v1/browser/back.png",
+          "quality/evidence/ATEL-35/v1/browser/oblique.png"
+        ]
+      }
+    }
+  },
+  "evidence": {
+    "front": "orders/ATEL-63/v1/designer/evidence/front.png",
+    "back": "orders/ATEL-63/v1/designer/evidence/back.png",
+    "side": "orders/ATEL-63/v1/designer/evidence/side.png",
+    "oblique": "orders/ATEL-63/v1/designer/evidence/oblique.png",
+    "top": "orders/ATEL-63/v1/designer/evidence/top.png",
+    "bottom": "orders/ATEL-63/v1/designer/evidence/bottom.png",
+    "benchmarkFront": "quality/evidence/ATEL-35/v1/browser/front.png",
+    "benchmarkBack": "quality/evidence/ATEL-35/v1/browser/back.png",
+    "benchmarkOblique": "quality/evidence/ATEL-35/v1/browser/oblique.png"
+  },
+  "evidenceSha256": {
+    "front": "118df9d151f490beca3eec7b252904b2260057b5ede0cc94e23dea54e9dc3e5f",
+    "back": "2f8d4175df17538a7d7131b3d14976e9c131c89ea21eabac817bb6bcf1bf1a8b",
+    "side": "bf2a1e81f050f4219c0ef11aed7f8f57157ac8be6d99cb148cce060d3b9b8004",
+    "oblique": "f5469a4db38c6fe769731e4a1d8fbd01a81e068003272f2f0413936cf28c5ee1",
+    "top": "fec035386a7a4e48b39a5867bbfdeca7184ac072ef8d4b8ebe1812dc1535f12f",
+    "bottom": "782d43eab9e99a747a3b71dbf16fa37322ea9ce044a017fc5e74243336eec8a6",
+    "benchmarkFront": "8bdaafe2710fd06a7622b268b64940bf38a23b435bcf0b3f60aef764d40fa34e",
+    "benchmarkBack": "22647b2789a9ea8f6e290c83f218a9b1f9832c548eefe3eda313fe22ab68c33d",
+    "benchmarkOblique": "72ecb90975b778d8641065d1a8282eaa351f7066a99dc3cfb0579fc8870e001e"
+  },
+  "findings": [],
+  "summary": "PASS shape ATEL-63/sweater-v1-gray on GLB SHA-256 9c7d8b646bcbb72c2a9c10893dd2169b9a0eeee462ee5559ed07e769caca5e0a. Independently verified 13/13 manifest artifact hashes and byte counts, plus 3 referenced files; source and derived BIN chunks match. Inspected six actual gray views and compared to ATEL-35/v1. Shape passes; Material may proceed. The same QA WorkItem remains open for final viewer QA."
+}

@@ -1,0 +1,47 @@
+{
+  "garmentSha256": "547192b5428be8ceb3b1faf9a3312cc5f746534fc3ae9dc38e4139085136e8fc",
+  "previewSha256": "83ed5ac0df014449e70d4daeb696a868a07c20548a474c7234641cf9744a368a",
+  "candidatePairs": 17709,
+  "intersectionPairs": 1039,
+  "regions": {
+    "other": {
+      "candidatePairs": 3264,
+      "intersections": 215,
+      "insideSamples": 3688,
+      "minPairClearanceMeters": 0,
+      "maxSampledDepthMeters": 0.0081109
+    },
+    "shoulder/upper torso": {
+      "candidatePairs": 13692,
+      "intersections": 648,
+      "insideSamples": 19700,
+      "minPairClearanceMeters": 0,
+      "maxSampledDepthMeters": 0.0510337
+    },
+    "neck/collar": {
+      "candidatePairs": 753,
+      "intersections": 176,
+      "insideSamples": 1128,
+      "minPairClearanceMeters": 0,
+      "maxSampledDepthMeters": 0.0254081
+    }
+  },
+  "maxSampledDepthMeters": 0.0510337,
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-v3-prototype/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "screenshots": {
+      "front": "quality/evidence/ATEL-23/v3-prototype/browser-fit/front.png",
+      "back": "quality/evidence/ATEL-23/v3-prototype/browser-fit/back.png",
+      "left": "quality/evidence/ATEL-23/v3-prototype/browser-fit/left.png",
+      "right": "quality/evidence/ATEL-23/v3-prototype/browser-fit/right.png",
+      "detail": "quality/evidence/ATEL-23/v3-prototype/browser-fit/detail.png",
+      "mobile": "quality/evidence/ATEL-23/v3-prototype/browser-fit/mobile.png"
+    },
+    "errors": []
+  }
+}

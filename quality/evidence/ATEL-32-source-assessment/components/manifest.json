@@ -1,0 +1,129 @@
+{
+  "source": "quality/candidates/user-supplied/white_shirt_black_leather_skirt_outfit.glb",
+  "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+  "scale": [
+    0.001,
+    0.001,
+    0.001
+  ],
+  "unitsAssumption": "millimeters converted to meters",
+  "components": [
+    {
+      "meshIndex": 0,
+      "nodeIndex": 2,
+      "nodeName": "Object_2",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-00.glb",
+      "diagnosticSha256": "64235f802967c558b334626642b318b793e982a0478c3c7da18b171050ea75a0",
+      "bytes": 8385200
+    },
+    {
+      "meshIndex": 1,
+      "nodeIndex": 3,
+      "nodeName": "Object_3",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-01.glb",
+      "diagnosticSha256": "0527a8433534c42921707ed44b0c318aa5d27c32d9b1e9775e206c00b8076cdb",
+      "bytes": 8385200
+    },
+    {
+      "meshIndex": 2,
+      "nodeIndex": 4,
+      "nodeName": "Object_4",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-02.glb",
+      "diagnosticSha256": "8e7aba7a380a0a2580147dc3b5f3ce2ed6eedac6cd73be85c233ffe825a4a7d8",
+      "bytes": 8385200
+    },
+    {
+      "meshIndex": 3,
+      "nodeIndex": 5,
+      "nodeName": "Object_5",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-03.glb",
+      "diagnosticSha256": "d2a97f3e3c11b319ce04e6728908658fb961ee0a67597eb5ca439bbd2e657252",
+      "bytes": 8385200
+    },
+    {
+      "meshIndex": 4,
+      "nodeIndex": 6,
+      "nodeName": "Object_6",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-04.glb",
+      "diagnosticSha256": "b91d918556166a7c9c0f7b19d0b76fc081825ec21f98d940c44ac3991bc3f726",
+      "bytes": 8385200
+    },
+    {
+      "meshIndex": 5,
+      "nodeIndex": 7,
+      "nodeName": "Object_7",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-05.glb",
+      "diagnosticSha256": "a6182d0c18e3d0175dd618f84408b34d294b46f2a120ec66c638165f6d1b25f4",
+      "bytes": 8385200
+    },
+    {
+      "meshIndex": 6,
+      "nodeIndex": 8,
+      "nodeName": "Object_8",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-06.glb",
+      "diagnosticSha256": "6ff31202aadbbff438ce181bde7277f76b4cef7701d315be3997eb78cdb2b634",
+      "bytes": 8385196
+    },
+    {
+      "meshIndex": 7,
+      "nodeIndex": 9,
+      "nodeName": "Object_9",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-07.glb",
+      "diagnosticSha256": "3905660ef5e51fbab6f7f9c4e965bfae7714777cb3bf0e0c59008c9c97525cc7",
+      "bytes": 8385200
+    },
+    {
+      "meshIndex": 8,
+      "nodeIndex": 10,
+      "nodeName": "Object_10",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-08.glb",
+      "diagnosticSha256": "80edfa12e829d0123e64e70b52ec4516da29a18ad7a1408a92fe06a799d86798",
+      "bytes": 8385204
+    },
+    {
+      "meshIndex": 9,
+      "nodeIndex": 11,
+      "nodeName": "Object_11",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-09.glb",
+      "diagnosticSha256": "f929e369b615e0b9b0f8a69026edf7a62b82be8dedf595eb797bc60a20386f45",
+      "bytes": 8385204
+    },
+    {
+      "meshIndex": 10,
+      "nodeIndex": 12,
+      "nodeName": "Object_12",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-10.glb",
+      "diagnosticSha256": "2c1f13fe7c453f17f315cdf50858c0871e9d0f883e6c83aa5021845822518674",
+      "bytes": 8385200
+    },
+    {
+      "meshIndex": 11,
+      "nodeIndex": 13,
+      "nodeName": "Object_13",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-11.glb",
+      "diagnosticSha256": "2a723fa3cd3de5cd592dbd67a65f9df0cc44dee8294172beb085fb878985dec8",
+      "bytes": 8385204
+    },
+    {
+      "meshIndex": 12,
+      "nodeIndex": 14,
+      "nodeName": "Object_14",
+      "sourceSha256": "48f2e9ba4694355b36c7148006c49af925c9002bd78b09cd28504d3dd0c0a93c",
+      "diagnosticPath": "quality/evidence/ATEL-32-source-assessment/components/mesh-12.glb",
+      "diagnosticSha256": "ec86b6d074e47fcc6204619b59074eefef8826eaf68c43f8f03fa94bb45dca10",
+      "bytes": 8385204
+    }
+  ]
+}

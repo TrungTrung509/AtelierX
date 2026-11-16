@@ -1,0 +1,80 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v0.3-gray",
+  "status": "blocked at source assessment; not approved or published",
+  "source": {
+    "path": "quality/candidates/makehuman-tshirt.glb",
+    "sha256": "f77eaea89354ad57bcce48a877bec314e82d71de84700810e7c8290b20886063",
+    "asset": "MakeHuman Cloth_tshirt",
+    "assetRegister": "quality/candidates/makehuman-licenses.json",
+    "author": "makehuman_system",
+    "license": "CC0",
+    "source": "http://www.makehumancommunity.org",
+    "selectionReason": "Existing internal candidate, distinct from both failed user-supplied t-shirt GLBs; contains one shirt mesh with UV0."
+  },
+  "derived": {
+    "path": "orders/ATEL-35/v0.3/designer/garment-v0_3.glb",
+    "sha256": "e39794b78415b5c61d6a76b08b9c2c0c97039aecbc7d33dee2a858965b38e9f8",
+    "method": "Source transforms and surface topology retained; source image/texture bindings removed; neutral gray PBR assigned; no additional collar or fold geometry added.",
+    "meshCount": 1,
+    "primitiveCount": 1,
+    "positionCount": 902,
+    "triangleCount": 1528,
+    "attributeSemantics": [
+      "_CCZONE",
+      "POSITION",
+      "NORMAL",
+      "TEXCOORD_0",
+      "JOINTS_0",
+      "WEIGHTS_0"
+    ],
+    "grayBaseColorFactor": [
+      0.38,
+      0.39,
+      0.4,
+      1
+    ],
+    "metallicFactor": 0,
+    "roughnessFactor": 0.92
+  },
+  "uv": {
+    "semantic": "TEXCOORD_0",
+    "accessor": 3,
+    "count": 902,
+    "min": [
+      0.019303224980831146,
+      0.04603075981140137
+    ],
+    "max": [
+      0.9805418848991394,
+      0.9358769655227661
+    ]
+  },
+  "preview": {
+    "browserResult": "quality/evidence/ATEL-35/v0.3/browser-result.json",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobileChecked": false,
+    "errors": []
+  },
+  "evidence": {
+    "front": {
+      "path": "quality/evidence/ATEL-35/v0.3/front.png",
+      "sha256": "0b307677eae5c09d48b0a4f9f2164ac3c929028c689a3a837152a9e0a1ddd50e"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-35/v0.3/back.png",
+      "sha256": "b2ef7b5c5fddde7b0b0374af93eea6bfe0a4bb80df3435b3bab8a2c0c0e7059b"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-35/v0.3/side.png",
+      "sha256": "58229fcd1a7f1e1cade3811b890c0ae706831784f772ce6d7cfe7c5322ef8d4f"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-35/v0.3/oblique.png",
+      "sha256": "04526ee03f29f793b92344418df083eb740d2d4d9426bc85328223821419cfa4"
+    }
+  }
+}

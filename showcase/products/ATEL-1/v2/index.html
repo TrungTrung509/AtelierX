@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#cbd2d8">
+  <title>Hoodie ATEL-1 · v2</title>
+  <style>
+    :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #cbd2d8; color: #18212b; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; background: radial-gradient(ellipse at 50% 38%, #e2e6e9 0%, #cbd2d8 52%, #aab4be 100%); }
+    main { min-height: 100svh; display: grid; grid-template-rows: auto 1fr auto; width: min(100%, 1440px); margin-inline: auto; padding: clamp(20px, 4vw, 48px); }
+    header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; border-bottom: 1px solid #26374630; padding-bottom: 18px; }
+    h1 { margin: 0; font-size: clamp(14px, 2vw, 18px); font-weight: 550; letter-spacing: .12em; text-transform: uppercase; }
+    .revision { color: #52616e; font-size: 12px; letter-spacing: .12em; }
+    .stage { min-height: min(70vh, 760px); position: relative; display: grid; place-items: center; overflow: hidden; }
+    model-viewer { display: block; width: 100%; height: 100%; min-height: min(70vh, 760px); --poster-color: transparent; }
+    .loading { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 14px; color: #334454; font-size: 13px; letter-spacing: .04em; pointer-events: none; }
+    .spinner { width: 22px; height: 22px; border: 1px solid #33445450; border-top-color: #334454; border-radius: 50%; animation: spin .8s linear infinite; }
+    .error { max-width: 340px; padding: 18px; text-align: center; line-height: 1.6; color: #8b2432; }
+    [hidden] { display: none !important; }
+    footer { display: flex; justify-content: center; align-items: center; gap: 12px; min-height: 52px; color: #52616e; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
+    .dot { width: 3px; height: 3px; border-radius: 50%; background: #62717e; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (max-width: 600px) { main { padding: 20px 18px max(18px, env(safe-area-inset-bottom)); } .stage, model-viewer { min-height: 68svh; } header { padding-bottom: 14px; } }
+    @media (prefers-reduced-motion: reduce) { .spinner { animation-duration: 2s; } }
+  </style>
+  <script type="module" src="/atelierx-products/assets/model-viewer.min.js"></script>
+</head>
+<body>
+  <main>
+    <header><h1>Hoodie ATEL-1</h1><span class="revision">REVISION 02</span></header>
+    <section class="stage" aria-label="Mô hình hoodie có thể xoay">
+      <model-viewer id="hoodie" src="./assets/models/ATEL-2/v2/hoodie-skull-v2.glb" alt="Mô hình hoodie đen, mặt sau có họa tiết đầu lâu" camera-orbit="180deg 82deg 2.6m" min-camera-orbit="auto 20deg 1.1m" max-camera-orbit="auto 160deg 5m" field-of-view="30deg" camera-controls touch-action="pan-y" interaction-prompt="none" shadow-intensity="1.5" exposure="1.2" loading="eager" reveal="auto"></model-viewer>
+      <div class="loading" id="loading" role="status"><span class="spinner" aria-hidden="true"></span><span>Đang tải mô hình…</span></div>
+      <div class="loading error" id="error" role="alert" hidden>Không tải được mô hình hoodie. Vui lòng thử tải lại trang.</div>
+    </section>
+    <footer><span>Kéo để xoay</span><i class="dot" aria-hidden="true"></i><span>Chụm hoặc cuộn để phóng to</span></footer>
+  </main>
+  <script type="module" src="/atelierx-products/assets/viewer.js"></script>
+</body>
+</html>

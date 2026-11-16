@@ -1,0 +1,24 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v0.4-gray",
+  "garment": "orders/ATEL-35/v0.4/designer/garment-v0_4.glb",
+  "garmentSha256": "c563460ab32907471fd0a0a22fade832551a608d6ea1f7817603d183d1f25508",
+  "url": "http://127.0.0.1:8788/index.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": false,
+  "desktop": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-35/v0.4/front.png",
+    "back": "quality/evidence/ATEL-35/v0.4/back.png",
+    "side": "quality/evidence/ATEL-35/v0.4/side.png",
+    "oblique": "quality/evidence/ATEL-35/v0.4/oblique.png"
+  },
+  "screenshotSha256": {
+    "front": "92d0a2a2b7e6a012ed8ed14ae4dd80ba8f57bbb3a81a2a9edd58f8b5ed6a8294",
+    "back": "bf180c72a4df3273f7c7a0fb306e305ceed7297fa3b69bbd6c0ff9cf74318d1d",
+    "side": "1f7056f299c3d912dfd7b028c4c5036e258ac2bca924d40cf6ef36ad00ad5a8f",
+    "oblique": "94dcd26ea9eb28b301a223e2ff50565a3db22a2afa815d45cef0d342e5c57dfa"
+  },
+  "errors": []
+}

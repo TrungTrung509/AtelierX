@@ -1,0 +1,71 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v1",
+  "deliveryProfile": "showcase-basic-v1",
+  "presentation": "standalone",
+  "assembly": {
+    "path": "showcase/products/ATEL-35/v1/assembly.json",
+    "sha256": "b09cdfed6319877d99ee2577f5f8995409c02fe8d9cdf9959f0a37d28cfcce66"
+  },
+  "display": {
+    "path": "showcase/products/ATEL-35/v1/assets/display.glb",
+    "sha256": "bb7d518f17cfbe4065d627458609bc56ba5d4f69d86af8a9917383f151f4eceb"
+  },
+  "integratedGarment": {
+    "path": "orders/ATEL-35/visual/garment-v1-cream-flower.glb",
+    "sha256": "a2fa02b57be6a5f01291e8c25d26e05f886d17b5066058c2e0a6625d679c5d63"
+  },
+  "sourceShape": {
+    "path": "orders/ATEL-35/v0.5/designer/garment-v0_5.glb",
+    "sha256": "28f74d1abd4953919a9f862a756694972e8f52787e6598666e8bde4947702712",
+    "shapeReviewPath": "orders/ATEL-35/v0.5/independent-shape-review.json",
+    "shapeReviewSha256": "6b18a3fb2bfb58adcda54d5a640a2fe704c28a53088ed74ec3988f610f0c3967"
+  },
+  "material": {
+    "path": "orders/ATEL-35/material/pbr-preset-v1.json",
+    "sha256": "5555b6b4b9fab4794b7d359eb11c79243e7eec63cc698e89cc4bbce7a87c79c9"
+  },
+  "placementProfile": {
+    "path": "orders/ATEL-35/visual/placement-profile-v1.json",
+    "sha256": "d0216ddd756faa0849e04e5ee43008c106422f51bc27fc88dcd6d33b835ed35b"
+  },
+  "artwork": {
+    "path": "orders/ATEL-35/research/artwork/atel35-chest-flower-v1.svg",
+    "sha256": "0da8270ea729589c1ae27142326abbcc358c866598c3307c1895cdaf1b78e363",
+    "copy": "showcase/products/ATEL-35/v1/assets/atel35-chest-flower-v1.svg",
+    "copySha256": "0da8270ea729589c1ae27142326abbcc358c866598c3307c1895cdaf1b78e363"
+  },
+  "baseColorTexture": {
+    "path": "showcase/products/ATEL-35/v1/assets/atel35-v1-basecolor.png",
+    "sha256": "1135aca89fc946ec08a7348fb1534404cdf7d4d4e8989b3b3b2d7935eb6079a1"
+  },
+  "content": {
+    "path": "showcase/products/ATEL-35/v1/content.json",
+    "sha256": "3c22fadea620437d021270fbccacff9201d0ebf684677a3a244c3025fef5635e"
+  },
+  "viewer": {
+    "path": "showcase/products/ATEL-35/v1/index.html",
+    "sha256": "4f458e6f5187e490224a15f9e562fd650a1697a07e705faeaa5c5e7e4f87a007"
+  },
+  "measurements": {
+    "path": "showcase/products/ATEL-35/v1/measurements.json",
+    "sha256": "bc3d339fa77a19952b9575811d02806c0b1c3853e008192e9a1375d7dfd6f700",
+    "kind": "3D display references, not manufactured garment sizing",
+    "method": "World-space envelope in meters; width includes sleeves. Display references only, not sewing or body measurements."
+  },
+  "shapeReview": {
+    "path": "orders/ATEL-35/v1/shape-review.json",
+    "sha256": "c0ab0feb061587d4839391dfa9f9056612a9884aa715c73423124f395db73802"
+  },
+  "surfaceMapping": {
+    "flowerMaterialMeshes": [
+      1,
+      2
+    ],
+    "creamOnlyMeshes": [
+      0,
+      3
+    ],
+    "reason": "Source UV chest tile overlaps the back island. Separate materials at existing primitive boundaries keep artwork front-only without changing geometry or UVs."
+  }
+}

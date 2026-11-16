@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Cây thông Giáng sinh và bông tuyết</title>
+  <desc id="desc">Họa tiết ngực trước phong cách tối giản, màu kem ngà và vàng ấm, nền trong suốt.</desc>
+  <g fill="none" stroke="#F4EBDD" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Centered evergreen, composed as a clean embroidered-style line motif. -->
+    <path stroke="#E9D5B5" stroke-width="28" d="M500 218 L330 465 H420 L285 640 H420 L345 760 H655 L580 640 H715 L580 465 H670 Z"/>
+    <path stroke="#F4EBDD" stroke-width="19" d="M500 250 V758 M500 355 L409 477 M500 455 L600 570 M500 552 L405 665 M500 630 L590 728"/>
+    <path stroke="#D8B77D" stroke-width="20" d="M461 782 H539 M477 818 H523"/>
+    <!-- Small ornaments -->
+    <g fill="#D8B77D" stroke="none">
+      <circle cx="430" cy="493" r="19"/><circle cx="568" cy="540" r="18"/>
+      <circle cx="431" cy="652" r="17"/><circle cx="560" cy="689" r="18"/>
+      <path d="M500 165 l16 27 -16 27 -16-27z"/>
+    </g>
+    <!-- Snowflakes frame, kept clear of the tree silhouette. -->
+    <g stroke="#F4EBDD" stroke-width="17">
+      <path d="M224 337v132 M158 403h132 M177 356l94 94 M271 356l-94 94"/>
+      <path d="M776 337v132 M710 403h132 M729 356l94 94 M823 356l-94 94"/>
+      <path d="M255 675v105 M202 727h106 M218 690l75 75 M293 690l-75 75"/>
+      <path d="M745 675v105 M692 727h106 M708 690l75 75 M783 690l-75 75"/>
+    </g>
+    <g stroke="#D8B77D" stroke-width="12">
+      <path d="M224 337l-17 22m17-22 17 22m-83 66 24-17m-24 17 24 17m109-17-24-17m24 17-24 17M224 469l-17-22m17 22 17-22"/>
+      <path d="M776 337l-17 22m17-22 17 22m-83 66 24-17m-24 17 24 17m109-17-24-17m24 17-24 17m-63 66-17-22m17 22 17-22"/>
+    </g>
+  </g>
+</svg>

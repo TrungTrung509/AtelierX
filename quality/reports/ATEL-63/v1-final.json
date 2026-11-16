@@ -1,0 +1,225 @@
+{
+  "orderId": "ATEL-63",
+  "revision": "v1",
+  "reviewType": "independent-final-visual-review",
+  "reviewedAt": "2026-11-16T06:50:30.983Z",
+  "reviewer": {
+    "sessionName": "atelierx-qa-0004",
+    "role": "qa"
+  },
+  "qaReviewer": "atelierx-qa-0004",
+  "decision": "return",
+  "correctionOwner": "material",
+  "sourceManifest": {
+    "path": "orders/ATEL-63/v1/visual/visual-manifest.json",
+    "sha256": "54a197f4e28c961bb9b2025504378fe85dda80243314494b152b8d065fe8147f",
+    "artifactCount": 11,
+    "artifactHashesMatched": 11,
+    "referencedFilesMatched": 4,
+    "nestedHashesMatched": true
+  },
+  "garment": {
+    "path": "showcase/products/ATEL-63/v1/assets/display.glb",
+    "sha256": "3f0a7ae35b70083e42c30bdcda01354128a0ec3a244348adeefb5d345e845b7f",
+    "bytes": 13507976
+  },
+  "provenance": {
+    "surfaceManifest": {
+      "path": "orders/ATEL-63/v1/material/surface-handoff.json",
+      "sha256": "fa131b6585e028616a69d0014405d96cbee49371cdc26266cfdbe9f89d3c5da1"
+    },
+    "surfaceGlb": {
+      "path": "orders/ATEL-63/v1/material/garment.glb",
+      "sha256": "36c76397c280f496f2361568ed73c242a9798e4a195d7fa4fd4ab9ac07258a45",
+      "bytes": 13507976
+    },
+    "shapeReview": {
+      "path": "orders/ATEL-63/v1/shape-review-handoff.json",
+      "sha256": "bb347f22dbbe9bac4afc9627695a0fde75f3357ae72cf6cadb7653c1aee27bc1",
+      "decision": "pass"
+    },
+    "geometryChanged": false,
+    "sourceGeometryPreserved": true,
+    "mannequinIncluded": false,
+    "attributionNote": "Nguồn GLB do chủ dự án cung cấp; nội dung giữ credit theo metadata/manifest hiện có."
+  },
+  "viewer": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-63/v1/index.html",
+    "revision": "v1",
+    "displayGlbSha256": "3f0a7ae35b70083e42c30bdcda01354128a0ec3a244348adeefb5d345e845b7f",
+    "loaded": true,
+    "modelVisible": true,
+    "contentLoaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "errors": [],
+    "runtimeCheck": {
+      "path": "quality/evidence/ATEL-63/v1-final-browser/browser-result.json",
+      "sha256": "dee1d84173b0cd4736ea90600151f0ae6e40968d829805aaa1a1f47b22c337f3"
+    }
+  },
+  "content": {
+    "language": "vi",
+    "title": "Áo sweater Giáng sinh đỏ rượu vang",
+    "summary": "Sweater cổ tròn tay dài màu đỏ rượu vang, bo kem ở cổ, cổ tay và gấu; cây thông cùng bông tuyết tông sáng đặt giữa ngực trước. Bề mặt len dệt matte là mô phỏng PBR theo preset AtelierX, không xác nhận thành phần sợi hay đặc tính sản xuất.",
+    "simulatedMaterial": "Len dệt matte đỏ rượu vang (mô phỏng PBR); orders/ATEL-63/material/pbr-preset-v1.json; màu #6F1C31, roughness 0.9, metallic 0. Mô phỏng thị giác do AtelierX thiết lập, không phải thành phần vật liệu được xác minh.",
+    "dimensions": [
+      {
+        "label": "Ngang bao áo (gồm tay)",
+        "value": 138.2,
+        "unit": "cm",
+        "source": "showcase/products/ATEL-63/v1/measurements.json · envelopeWidthCm; tham khảo mẫu hiển thị 3D, không phải size may."
+      },
+      {
+        "label": "Dài bao áo",
+        "value": 64.4,
+        "unit": "cm",
+        "source": "showcase/products/ATEL-63/v1/measurements.json · garmentLengthCm; tham khảo mẫu hiển thị 3D, không phải size may."
+      },
+      {
+        "label": "Sâu bao áo",
+        "value": 34.2,
+        "unit": "cm",
+        "source": "showcase/products/ATEL-63/v1/measurements.json · envelopeDepthCm; tham khảo mẫu hiển thị 3D, không phải size may."
+      },
+      {
+        "label": "Ngang hình chiếu ở 3/4 chiều cao",
+        "value": 67.4,
+        "unit": "cm",
+        "source": "showcase/products/ATEL-63/v1/measurements.json · upperBodySpanCm; mặt cắt hình chiếu ngang tại 75% chiều cao mẫu, tham khảo 3D, không phải size may."
+      }
+    ],
+    "displayDimensionsDisclaimerPresent": true,
+    "dimensionsSourceMatchesSurfaceGlb": true,
+    "displayScaleMatchesMeasurements": false,
+    "dimensionsMethod": "World-space mesh envelope and horizontal silhouette section at 75% of garment height, scaled for display by 0.25. Display references only, not sewing or body measurements."
+  },
+  "garmentAppearance": {
+    "profile": "invisible-body-v1",
+    "reviewer": "atelierx-qa-0004",
+    "benchmark": "ATEL-35/v1",
+    "garmentType": "crew-neck sweater",
+    "checks": {
+      "hollowOpenings": {
+        "passed": true,
+        "observation": "Current v1 top/bottom captures show the neckline and hem cavities; side/oblique show both sleeve terminals open. No cap surface or mannequin closes the shell.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v1-final-browser/top.png",
+          "quality/evidence/ATEL-63/v1-final-browser/bottom.png",
+          "quality/evidence/ATEL-63/v1-final-browser/side.png",
+          "quality/evidence/ATEL-63/v1-final-browser/oblique.png"
+        ]
+      },
+      "naturalDrape": {
+        "passed": true,
+        "observation": "Front/back/side/oblique preserve the approved sweater volume and irregular folds at underarms and sleeves. Torso folds remain visible under the burgundy surface and compare acceptably with ATEL-35/v1 for a thicker knit.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v1-final-browser/back.png",
+          "quality/evidence/ATEL-63/v1-final-browser/side.png",
+          "quality/evidence/ATEL-63/v1-final-browser/oblique.png",
+          "quality/evidence/ATEL-35/v1/browser/front.png",
+          "quality/evidence/ATEL-35/v1/browser/oblique.png"
+        ]
+      },
+      "fabricEdges": {
+        "passed": true,
+        "observation": "Neck, hem and cuff openings retain open inner surfaces; colored texture does not cap the openings. Edge finish remains continuous.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v1-final-browser/top.png",
+          "quality/evidence/ATEL-63/v1-final-browser/bottom.png",
+          "quality/evidence/ATEL-63/v1-final-browser/side.png"
+        ]
+      },
+      "garmentConstruction": {
+        "passed": true,
+        "observation": "Standalone long-sleeved crew-neck sweater silhouette, edge zones and open neck/cuff/hem construction remain legible. Geometry matches the approved sweater-v1-gray shape.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v1-final-browser/side.png",
+          "quality/evidence/ATEL-63/v1-final-browser/oblique.png",
+          "quality/evidence/ATEL-63/v1-final-browser/top.png",
+          "quality/evidence/ATEL-63/v1-final-browser/bottom.png"
+        ]
+      },
+      "benchmarkComparison": {
+        "passed": true,
+        "observation": "Against ATEL-35/v1, the sweater keeps comparable garment volume and readable fabric folds; torso creasing is quieter and sleeve creasing stronger, consistent with thicker knit.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v1-final-browser/back.png",
+          "quality/evidence/ATEL-63/v1-final-browser/oblique.png",
+          "quality/evidence/ATEL-35/v1/browser/front.png",
+          "quality/evidence/ATEL-35/v1/browser/back.png",
+          "quality/evidence/ATEL-35/v1/browser/oblique.png"
+        ]
+      },
+      "colorAndPattern": {
+        "passed": false,
+        "observation": "Burgundy color and centered ivory/gold tree motif are visible, but ivory neck trim spreads beyond the crew-neck band into a broad flat shoulder/yoke patch with hard rectangular edges in front and top views; the brief calls for cream trim at collar, cuffs and hem.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v1-final-browser/top.png",
+          "quality/evidence/ATEL-63/v1-final-browser/oblique.png"
+        ]
+      },
+      "trimFollowsGeometry": {
+        "passed": false,
+        "observation": "The cream neck region is not confined to the collar contour: front/top show a wide planar patch extending laterally across the shoulder line instead of a narrow band following the opening.",
+        "evidence": [
+          "quality/evidence/ATEL-63/v1-final-browser/front.png",
+          "quality/evidence/ATEL-63/v1-final-browser/top.png"
+        ]
+      },
+      "contentAndDimensions": {
+        "passed": true,
+        "observation": "Vietnamese title/description are concise and specific; PBR fiber/color are explicitly qualified as visual simulation, source credit is present, and display dimensions link to the surface GLB and are explicitly not manufacturing sizes.",
+        "evidence": [
+          "showcase/products/ATEL-63/v1/content.json",
+          "showcase/products/ATEL-63/v1/measurements.json"
+        ]
+      }
+    }
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-63/v1-final-browser/front.png",
+    "back": "quality/evidence/ATEL-63/v1-final-browser/back.png",
+    "side": "quality/evidence/ATEL-63/v1-final-browser/side.png",
+    "oblique": "quality/evidence/ATEL-63/v1-final-browser/oblique.png",
+    "top": "quality/evidence/ATEL-63/v1-final-browser/top.png",
+    "bottom": "quality/evidence/ATEL-63/v1-final-browser/bottom.png",
+    "browserResult": "quality/evidence/ATEL-63/v1-final-browser/browser-result.json",
+    "visualManifest": "orders/ATEL-63/v1/visual/visual-manifest.json",
+    "surfaceHandoff": "orders/ATEL-63/v1/material/surface-handoff.json",
+    "content": "showcase/products/ATEL-63/v1/content.json",
+    "measurements": "showcase/products/ATEL-63/v1/measurements.json"
+  },
+  "evidenceSha256": {
+    "front": "b83c73bab3ad2eb353cb951ca4846b0efac24c98a0ad0462301431ee6bd69c80",
+    "back": "83b0780b715688892dbbeeaaff082748ba59da8fb9716d2aeb2e3b2756147cbb",
+    "side": "1210eed84142f56a8bd7bd6d3496a0b35d94513be833c543b5e5d80bb7c5bf9d",
+    "oblique": "8efd7b51d6f03dfc48d507f494a0b561970fb7a7051693b0a7794146b6cd95fb",
+    "top": "27394799a8327d5d5cc4d36075befa13b0e62c3b9bbad1a7da95a560aaa080cd",
+    "bottom": "0963cef7c5d6659ea85bafbbbf5b4308d257c8fc6379ee3ee6f09f7cc47e0e2f",
+    "browserResult": "dee1d84173b0cd4736ea90600151f0ae6e40968d829805aaa1a1f47b22c337f3",
+    "visualManifest": "54a197f4e28c961bb9b2025504378fe85dda80243314494b152b8d065fe8147f",
+    "surfaceHandoff": "fa131b6585e028616a69d0014405d96cbee49371cdc26266cfdbe9f89d3c5da1",
+    "content": "f0c1d5a09286b934ad31a0053dfce5c9a873cef534c28461a60d5e8c67731c4b",
+    "measurements": "ef148b58c394a29eadd6c8359eeb705eef82bf90dabcc1f3f4dd5bd1b83ce017"
+  },
+  "findings": [
+    {
+      "id": "F-01",
+      "severity": "blocker",
+      "owner": "material",
+      "location": "Cổ/vai trên, front và top",
+      "issue": "Thu hẹp và căn lại vùng màu kem của viền cổ trong UV atlas để chỉ phủ lên băng cổ theo đường mở. Ở ảnh front/top hiện tại, phần kem tạo thành mảng phẳng rộng như yoke với cạnh vuông lộ trên vai; brief chỉ yêu cầu bo kem ở cổ, cổ tay và gấu.",
+      "evidence": [
+        "quality/evidence/ATEL-63/v1-final-browser/front.png",
+        "quality/evidence/ATEL-63/v1-final-browser/top.png"
+      ]
+    }
+  ],
+  "summary": "TRẢ LẠI final QA ATEL-63/v1. The current Crewly viewer loads the exact v1 display GLB; desktop rotate/zoom work. Verified 11/11 visual artifact hashes and 4 referenced handoff hashes; inspected six current color views. Shape, openings, drape, content and sourced display dimensions pass. Blocker F-01: ivory neck trim spills beyond the collar into a broad shoulder/yoke patch. correctionOwner=material; retain this QA WorkItem for correction and focused retest."
+}

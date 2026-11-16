@@ -1,0 +1,14 @@
+---
+title: "Task blocked: ATEL-23/v2"
+migrated_from: "agent/atelierx-qa-0004/memory.json"
+original_id: "dbf5212f-9f57-4ab1-be9e-566dd524314c"
+original_author: "atelierx-qa-0004"
+original_date: "2026-11-15T17:12:48.836Z"
+category: "best-practice"
+confidence: 0.5
+routing_uncertain: false
+---
+
+# Task blocked: ATEL-23/v2
+
+Task blocked: ATEL-23/v2.5 được rà sơ bộ: hash garment/combined/mannequin và 12 capture khớp; clearance vẫn ghi 1.295 giao cắt, 34.745 inside samples, depth 16,16 mm; baseMeshId null, chưa có shirt base approved, preview chưa phải official viewer và rotate=false. Fit bundle tự ghi Lead verification/QA retest pending. WorkItem tiếp tục blocked theo quyết định hiện hành; cần Lead xác minh handoff và xử lý điều kiện G1 rồi mới mở retest.

@@ -1,0 +1,55 @@
+{
+  "order": "ATEL-23",
+  "task": "ATEL-33 source assessment",
+  "revision": "research-01",
+  "mannequin": {
+    "path": "quality/candidates/mannequin/mannequin-180cm-v1.glb",
+    "sha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+    "reference": "quality/mannequin-fit.json"
+  },
+  "excludedRejectedSource": "Do not reuse white_shirt_black_leather_skirt_outfit.glb or its shirt islands: Lead rejected it for 4600 triangle intersections and 24.0511 mm sampled penetration; this task assessed two independent alternatives.",
+  "candidates": [
+    {
+      "id": "user-japanese-school-uniform-2061a93d-v1",
+      "path": "quality/candidates/user-supplied/japanese_school_uniform.glb",
+      "description": "Trang phục đồng phục học sinh; có áo trên được gắn vật liệu tên shirt và collar/cuff riêng, nhưng đi cùng nơ, chân váy; silhouette không phải sơ mi công sở.",
+      "recommendation": "Không đưa nguyên outfit vào ATEL-23. Có thể xem xét shirt-only derivation sau khi chốt transform/fit; chưa có bounds trong mét đối chiếu mannequin và cần kiểm giao cắt độc lập.",
+      "bounds": "Nguồn local POSITION bounds x≈-32.7..32.5, z≈116.1..161.5; root có phép xoay trục. Chưa quy đổi an toàn sang mannequin meters.",
+      "meshes": "7 mesh tổng; mesh 1,2 là hai shell áo gần trùng bounds; mesh 3 phụ kiện/cổ/tay; mesh 0 nơ; mesh 4–6 váy.",
+      "sha": "2061a93d7c86dd9a32eba365e26caee59526b69eb93df49b943e387815620390",
+      "author": "sivayuce",
+      "title": "Japanese School Uniform",
+      "url": "https://sketchfab.com/3d-models/japanese-school-uniform-5358af0b05724d509be427628a316397",
+      "license": "CC-BY-4.0 (asset metadata); additionally owner-authorized for project use",
+      "uv": "All 7 primitives have TEXCOORD_0; UV coverage/placement not inspected.",
+      "sha256": "2061a93d7c86dd9a32eba365e26caee59526b69eb93df49b943e387815620390"
+    },
+    {
+      "id": "user-man-black-business-suit-e585ced6-v1",
+      "path": "quality/candidates/user-supplied/man_black_business_suit.glb",
+      "description": "Outfit vest công sở 37 mesh; gần bối cảnh công sở nhưng thân áo sơ mi bị che/không có mesh shirt riêng xác định từ metadata.",
+      "recommendation": "Không chọn làm source phom sơ mi. Chỉ dùng làm reference silhouette nếu Designer/Lead muốn; cần map mesh và bỏ jacket/tie/button layers trước bất kỳ thử fit nào.",
+      "bounds": "Geometry local Z khoảng 0..1,618 (assumed source units), root xoay trục; transform/scale chưa được xác nhận. Không so trực tiếp với mannequin.",
+      "meshes": "37 mesh, đa số dùng material uniform_1001; một số button materials. Shirt shell cannot be isolated confidently from names/materials.",
+      "sha": "e585ced6202f6e7d27bf93de0ac31c76aeb2316b9821e4e9f86ddc3b7cd973e0",
+      "author": "Style3D CG",
+      "title": "Man Black Business Suit",
+      "url": "https://sketchfab.com/3d-models/man-black-business-suit-7a669a06fb954d459985ccaa98672177",
+      "license": "CC-BY-4.0 (asset metadata); additionally owner-authorized for project use",
+      "uv": "All 37 primitives have TEXCOORD_0; UV layout/placement not inspected.",
+      "sha256": "e585ced6202f6e7d27bf93de0ac31c76aeb2316b9821e4e9f86ddc3b7cd973e0"
+    }
+  ],
+  "browser": {
+    "route": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel33-source-inspection/index.html",
+    "result": "HTTP 200 route; attempted actual screenshot capture timed out during page screenshot of 37-mesh suit; no ATEL-33 browser screenshots produced. Existing ATEL-32 component-map captures are for the rejected outfit only and are not evidence for these candidates."
+  },
+  "decision": "No candidate is presently suitable to promote or use as an approved shirt base. Japanese school uniform is the stronger source lead if Lead explicitly authorizes a separate extraction/fit assessment; business suit lacks an identifiable shirt-only mesh. Recommend proceed with Designer measured-mannequin prototype while keeping ATEL-33 references as candidates.",
+  "registry": "No status or registry changes made; both remain candidate.",
+  "limits": [
+    "No shirt-only extraction performed",
+    "No actual mannequin overlay or intersection test for these two sources",
+    "UV flags confirm TEXCOORD_0 exists, not that placement is usable",
+    "Bounds are source-local and include unresolved unit/axis transform"
+  ]
+}

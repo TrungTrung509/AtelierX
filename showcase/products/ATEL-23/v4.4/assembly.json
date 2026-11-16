@@ -1,0 +1,36 @@
+{
+  "orderId": "ATEL-23",
+  "revision": "v4.4",
+  "deliveryProfile": "showcase-basic-v1",
+  "stage": "verified-fix",
+  "garmentSha256": "fc6b3282a4bd0a5b4d81d167feb598e6c6619a0c3c5e1ffa767781a9910dd442",
+  "displaySha256": "36af61d8a9fa6a965585a96b3972c7d594d37830bf9e29d11b44db1702622ed3",
+  "mannequinSha256": "da6d3e8ddf25e31a0b20242852a1f9757661fa8115fde0d0800ff5cc715355e9",
+  "mask": {
+    "enabled": true,
+    "removedTriangles": 6118,
+    "exception": false
+  },
+  "status": "pass",
+  "errors": [],
+  "warnings": [],
+  "measurements": {
+    "chestWidthCm": 60.4626213128174,
+    "garmentLengthCm": 77.18483209609985,
+    "sleeveExtentCm": 54.00000214576721,
+    "shoulderReferenceCm": 50
+  },
+  "boundsMeters": {
+    "min": [
+      -0.7900000214576721,
+      0.8550000190734863,
+      -0.23999999463558197
+    ],
+    "max": [
+      0.7900000214576721,
+      1.6268483400344849,
+      0.1850000023841858
+    ]
+  },
+  "method": "World-space mesh envelope and chest section. Sleeve extent and mannequin shoulder span are display references, not sewing measurements."
+}

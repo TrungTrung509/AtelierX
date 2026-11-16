@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit/garment-only.html",
+  "loaded": true,
+  "rotated": true,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-23/v1/browser-garment/front.png",
+    "back": "quality/evidence/ATEL-23/v1/browser-garment/back.png",
+    "left": "quality/evidence/ATEL-23/v1/browser-garment/left.png",
+    "right": "quality/evidence/ATEL-23/v1/browser-garment/right.png",
+    "detail": "quality/evidence/ATEL-23/v1/browser-garment/detail.png",
+    "mobile": "quality/evidence/ATEL-23/v1/browser-garment/mobile.png"
+  },
+  "errors": []
+}

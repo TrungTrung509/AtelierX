@@ -1,0 +1,44 @@
+{
+  "orderId": "ATEL-53",
+  "ticketId": "ATEL-60",
+  "round": 3,
+  "candidateId": "3dassets-clothing-rail-blouse-on-hanger-63527161",
+  "source": {
+    "path": "orders/ATEL-60/research/source-02/source.glb",
+    "sha256": "c826f9e30e56d86b97adef262400484903b26f5313e0954b6dfc8af3a9056d59",
+    "title": "Blouse on a hanger (Clothing Rail and Wardrobe)",
+    "author": "3D Assets",
+    "sourcePage": "https://3dassets.dev/assets/clothing-rail-and-wardrobe-blouse-on-hanger-63527161",
+    "downloadUrl": "https://cdn.3dassets.dev/assets/35449/v1/model.glb",
+    "license": "CC0 1.0 Universal",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "metadataSource": "3DAssets.dev listing; AI used, contributor-reported model Claude Opus 5"
+  },
+  "publishedSpecs": {
+    "dimensionsMetres": [
+      0.565,
+      0.791,
+      0.138
+    ],
+    "triangles": 1300,
+    "materials": 5,
+    "animations": 0
+  },
+  "visualEvidence": {
+    "front": "orders/ATEL-60/research/source-02/front.png",
+    "back": "orders/ATEL-60/research/source-02/back.png",
+    "side": "orders/ATEL-60/research/source-02/side.png",
+    "oblique": "orders/ATEL-60/research/source-02/oblique.png",
+    "browserResult": "orders/ATEL-60/research/source-02/browser-result.json"
+  },
+  "inspection": {
+    "observed": "Front/back/oblique show an indigo blouse on a velvet hanger, with white cuffs and a straight white front strip; back is plain, body flares slightly at hem.",
+    "collar": "Listing calls it an off-white collar; screenshot top is dominated by hanger/neck bridge and does not show a turned collar with separate leaves or a readable stand.",
+    "placketAndButtons": "A white placket is visible, but the listing does not specify buttons; screenshots show one small light dot, not clear enough to verify button attachment.",
+    "cuffs": "White cuff bands visible at sleeve ends.",
+    "openings": "Display remains mounted on hanger; actual neck/sleeve shell opening edges cannot be verified from screenshots.",
+    "drape": "Static 1,300-triangle geometry; listing explicitly says no cloth simulation and no runtime creasing. Silhouette reads rigid and low-detail.",
+    "decision": "excluded",
+    "reason": "Not a verifiable button-down collar construction; button attachment/open shell are unclear; hanger display and static low-detail surface do not meet natural drape requirements."
+  }
+}

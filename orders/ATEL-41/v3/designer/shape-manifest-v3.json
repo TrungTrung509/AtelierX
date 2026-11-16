@@ -1,0 +1,51 @@
+{
+  "orderId": "ATEL-41",
+  "revision": "v3",
+  "stage": "shape",
+  "baseId": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1",
+  "referenceBaseId": "user-jnco-twin-cannon-baggy-jeans-7b0af5c3-v1",
+  "garment": {
+    "path": "orders/ATEL-41/v3/designer/garment-gray-authored-v3.glb",
+    "sha256": "ca03d97c8f96c6e9fe1f1bf30bedc90c7070b980b7b5f71901ae9b52e26742d7"
+  },
+  "provenance": "orders/ATEL-41/v3/designer/provenance-v3.json",
+  "correctionFor": [
+    "SHAPE-01",
+    "SHAPE-02"
+  ],
+  "decision": "pending_independent_shape_retest",
+  "artifacts": [
+    {
+      "path": "orders/ATEL-41/v3/designer/garment-gray-authored-v3.glb",
+      "sha256": "ca03d97c8f96c6e9fe1f1bf30bedc90c7070b980b7b5f71901ae9b52e26742d7"
+    },
+    {
+      "path": "orders/ATEL-41/v3/designer/provenance-v3.json",
+      "sha256": "8f76fa7929cde3f48e356f2182a5837d4cc724c592e155487c5c0bf64b920bdf"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/front.png",
+      "sha256": "ba85b311fa17d36c451215d713507289c6f642b7b95470a9f41276ac11ebbe5a"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/back.png",
+      "sha256": "963ddf406196aa4b73d9338a4f622bb80a112f95856d1434eca80ed1c9e03f15"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/side.png",
+      "sha256": "01ba5594a301cf20f8a6c535e88c13ff785090238723409bc6328cc68b1edd6a"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/oblique.png",
+      "sha256": "dfeb85f053bbd8096ade3506b896674c9f5f31ae041cb7f1f59560fa457bb4e0"
+    },
+    {
+      "path": "quality/evidence/ATEL-41/v3/shape-gray-authored-v3/browser-result.json",
+      "sha256": "83c0a58cff299442eaa6361d6e9b201d360bd9aa9897cd1d94ed2d9d344aa09e"
+    },
+    {
+      "path": "showcase/quality-preview/atel41-shape-v1/index.html",
+      "sha256": "af57debbc6d7fd16c25b4c718efd39affc9216444d9c9ff104f98d5e756781f6"
+    }
+  ]
+}

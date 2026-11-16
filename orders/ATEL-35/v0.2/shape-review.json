@@ -1,0 +1,100 @@
+{
+  "orderId": "ATEL-35",
+  "revision": "v0.2-gray",
+  "garment": {
+    "path": "orders/ATEL-35/v0.2/designer/garment-v0_2.glb",
+    "sha256": "92bed02f547da276d786c1508106b813f29370ce27d90952f87134493dd88b24"
+  },
+  "sourceProvenance": {
+    "path": "orders/ATEL-35/v0.2/designer/source-uv-provenance.json",
+    "sha256": "3fbabf6ab5097312dd1f5d745e5a8e6a9948d26d5b251c47b59b0a5c6338e5c5"
+  },
+  "evidence": {
+    "browserResult": {
+      "path": "quality/evidence/ATEL-35/v0.2/browser-result.json",
+      "sha256": "4ee72cd281d6402e7352ab340b61e52ee95154bc9667fa2d6185180fbf983217",
+      "loaded": true,
+      "rotated": true,
+      "zoomed": true,
+      "mobile": true,
+      "errors": []
+    },
+    "front": {
+      "path": "quality/evidence/ATEL-35/v0.2/front.png",
+      "sha256": "bf6d6ce5d18a7653ff489916143d8d55167d517d0dd15e78792cd58502093e83"
+    },
+    "back": {
+      "path": "quality/evidence/ATEL-35/v0.2/back.png",
+      "sha256": "273459146d5d36a39d0f9f7f96ab16593bd8ce058b149840dcfd064cd643a6a5"
+    },
+    "side": {
+      "path": "quality/evidence/ATEL-35/v0.2/side.png",
+      "sha256": "b9b8788f80d83f4c7ebfb36769aa7a6b7f0cb6c69346a181af20b29ce5073257"
+    },
+    "oblique": {
+      "path": "quality/evidence/ATEL-35/v0.2/oblique.png",
+      "sha256": "00dda3a90505e95de350dd3688f7b3aad7b95632f61859d597ed2a1252a13282"
+    }
+  },
+  "checks": {
+    "garmentType": {
+      "pass": true,
+      "observation": "Ảnh front/back/side/oblique đọc là áo thun tay ngắn cổ tròn độc lập; không thấy mannequin hoặc phần cơ thể.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.2/front.png",
+        "quality/evidence/ATEL-35/v0.2/back.png",
+        "quality/evidence/ATEL-35/v0.2/side.png",
+        "quality/evidence/ATEL-35/v0.2/oblique.png"
+      ]
+    },
+    "connectedParts": {
+      "pass": true,
+      "observation": "Thân và hai tay đọc liền thành một áo ở bốn góc; không thấy mảnh bay hoặc khe hở xuyên thân. Bốn topology islands trong provenance không được dùng thay cho kết luận thị giác.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.2/front.png",
+        "quality/evidence/ATEL-35/v0.2/back.png",
+        "quality/evidence/ATEL-35/v0.2/side.png",
+        "quality/evidence/ATEL-35/v0.2/oblique.png"
+      ]
+    },
+    "structure": {
+      "pass": false,
+      "observation": "Áo có khối thân/tay và miệng tay rỗng nhìn được, nhưng phom còn quá trơn và thiếu chi tiết cấu trúc cổ để đạt yêu cầu phom áo có nếp gấp và cổ áo phù hợp.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.2/front.png",
+        "quality/evidence/ATEL-35/v0.2/back.png",
+        "quality/evidence/ATEL-35/v0.2/side.png",
+        "quality/evidence/ATEL-35/v0.2/oblique.png"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "SHAPE-1",
+      "severity": "major",
+      "area": "cổ trước",
+      "issue": "Miệng cổ là một lỗ tối có mép mỏng, không thấy viền bo cổ tròn; ở front và oblique nó giống miệng cắt thô hơn cổ áo thun hoàn thiện.",
+      "expected": "Cổ tròn có dải bo/viền rõ và mép sạch, liên tục quanh lỗ cổ.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.2/front.png",
+        "quality/evidence/ATEL-35/v0.2/oblique.png"
+      ]
+    },
+    {
+      "id": "SHAPE-2",
+      "severity": "major",
+      "area": "thân trước/sau, vai và tay",
+      "issue": "Bề mặt thân và tay gần như trơn, chỉ có bóng chuyển nhẹ; không đọc được nếp gấp vải ở front/back/side/oblique. Silhouette cũng có góc gãy rõ ở vai và gấu.",
+      "expected": "Bổ sung nếp gấp nhẹ, có chủ đích quanh vai/nách và thân; làm mềm các góc gãy để phom có độ rủ và khối áo rõ hơn.",
+      "evidence": [
+        "quality/evidence/ATEL-35/v0.2/front.png",
+        "quality/evidence/ATEL-35/v0.2/back.png",
+        "quality/evidence/ATEL-35/v0.2/side.png",
+        "quality/evidence/ATEL-35/v0.2/oblique.png"
+      ]
+    }
+  ],
+  "decision": "revise",
+  "reviewer": "atelierx-qa-0004",
+  "summary": "Trả lại phom xám trước artwork. Loại áo và sự liền mạch thị giác đạt; còn thiếu viền bo cổ tròn và nếp gấp/độ rủ cần thiết. Giữ nguyên GLB hiện tại; Designer xử lý hai vùng được chỉ rõ rồi bàn giao revision mới để Lead quyết định bước tiếp theo."
+}

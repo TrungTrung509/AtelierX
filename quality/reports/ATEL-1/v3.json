@@ -1,0 +1,228 @@
+{
+  "orderId": "ATEL-1",
+  "revision": "v3",
+  "gate": "G4",
+  "decision": "pass",
+  "verdict": "ĐẠT — QA khuyến nghị Lead chạy quality gate; chưa phải phê duyệt/publish.",
+  "brief": {
+    "garmentType": "hoodie",
+    "requiredFeatures": [
+      "Loại sản phẩm là hoodie",
+      "Màu hoodie là đen",
+      "Đầu lâu có đúng một mắt, đọc rõ ở kích thước xem bình thường và nằm ở mặt lưng",
+      "Mặt trước trơn, chỉ mặt lưng có hình in",
+      "Hình lưng nằm dưới hood và trên gấu",
+      "Viewer chính thức tải và tương tác được trên desktop/mobile"
+    ]
+  },
+  "featureChecks": [
+    {
+      "feature": "Loại sản phẩm là hoodie",
+      "passed": true,
+      "observation": "Thân chui đầu, mũ, tay dài, bo cổ tay và túi kangaroo nhận diện rõ.",
+      "evidence": "quality/evidence/ATEL-1/v3/retry1-browser/back.png"
+    },
+    {
+      "feature": "Màu hoodie là đen",
+      "passed": true,
+      "observation": "Thân áo, tay và mũ đều hiển thị đen trên nền viewer sáng; các biên áo và túi vẫn đọc được.",
+      "evidence": "quality/evidence/ATEL-1/v3/retry1-browser/back.png"
+    },
+    {
+      "feature": "Đầu lâu có đúng một mắt, đọc rõ ở kích thước xem bình thường và nằm ở mặt lưng",
+      "passed": true,
+      "observation": "Ở góc toàn thân, đầu lâu vẫn nhận ra với một mắt đỏ nổi bật và nét sẹo ở phía còn lại, không có hốc mắt thứ hai. Kích thước vừa phải nên artwork được chấm 4/5, không phải 5/5.",
+      "evidence": "quality/evidence/ATEL-1/v3/retry1-browser/front.png"
+    },
+    {
+      "feature": "Mặt trước trơn, chỉ mặt lưng có hình in",
+      "passed": true,
+      "observation": "Ảnh lưng có đầu lâu; ảnh trước chỉ có túi kangaroo và dây rút, không thấy hình in.",
+      "evidence": "quality/evidence/ATEL-1/v3/retry1-browser/back.png"
+    },
+    {
+      "feature": "Hình lưng nằm dưới hood và trên gấu",
+      "passed": true,
+      "observation": "Ảnh lưng cho thấy hình dưới footprint hood và phía trên đường gấu; không bị che.",
+      "evidence": "quality/evidence/ATEL-1/v3/retry1-browser/front.png"
+    },
+    {
+      "feature": "Viewer chính thức tải và tương tác được trên desktop/mobile",
+      "passed": true,
+      "observation": "Viewer chính thức tải, xoay và zoom được trên desktop/mobile; lỗi rỗng.",
+      "evidence": "quality/evidence/ATEL-1/v3/retry1-browser/browser-result.json"
+    }
+  ],
+  "assets": {
+    "baseMeshId": "grab3d-hoodie-clean-v2-neckfix-placement-v3",
+    "geometryRevision": "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/hoodie-mesh-revision.glb",
+    "geometrySha256": "34374edd321b7e8396656e7d5a003e359d9349c5cc35bb5bc37a5c99145141bf",
+    "artwork": "quality/evidence/ATEL-1/v3/artwork/one-eyed-skull-back-v3.svg",
+    "model": "products/ATEL-1/v3/assets/hoodie-black-one-eyed-skull-v3.glb",
+    "productGLB": "quality/evidence/ATEL-1/v3/hoodie-black-one-eyed-skull-v3.glb",
+    "productSha256": "e4e6de8795a341321e22d4aa852e56836fd58fab1411ee7f5590224c47ed7cb1",
+    "assetManifest": "quality/evidence/ATEL-1/v3/asset-manifest.json",
+    "placementProfile": "quality/evidence/ATEL-1/v3/placement-profile.json",
+    "materialSlot": "hoodie_body_pbr",
+    "viewer": "products/ATEL-1/v3/index.html",
+    "runtimeViewerUrl": "http://127.0.0.1:8787/atelierx-products/products/ATEL-1/v3/index.html"
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8787/atelierx-products/products/ATEL-1/v3/index.html",
+    "loaded": true,
+    "rotated": true,
+    "zoomed": true,
+    "desktop": true,
+    "mobile": true,
+    "errors": []
+  },
+  "evidence": {
+    "front": "quality/evidence/ATEL-1/v3/retry1-browser/back.png",
+    "back": "quality/evidence/ATEL-1/v3/retry1-browser/front.png",
+    "left": "quality/evidence/ATEL-1/v3/retry1-browser/left.png",
+    "right": "quality/evidence/ATEL-1/v3/retry1-browser/right.png",
+    "detail": "quality/evidence/ATEL-1/v3/retry1-browser/detail.png",
+    "mobile": "quality/evidence/ATEL-1/v3/retry1-browser/mobile.png",
+    "browserResult": "quality/evidence/ATEL-1/v3/retry1-browser/browser-result.json",
+    "captureMapping": [
+      {
+        "file": "front.png",
+        "cameraOrbit": "180deg",
+        "garmentSide": "back",
+        "visibleContent": "Hoodie back with one-eyed skull print"
+      },
+      {
+        "file": "back.png",
+        "cameraOrbit": "0deg",
+        "garmentSide": "front",
+        "visibleContent": "Blank hoodie front with kangaroo pocket"
+      },
+      {
+        "file": "left.png",
+        "cameraOrbit": "270deg",
+        "garmentSide": "side profile",
+        "visibleContent": "Side view"
+      },
+      {
+        "file": "right.png",
+        "cameraOrbit": "90deg",
+        "garmentSide": "side profile",
+        "visibleContent": "Opposite side view"
+      },
+      {
+        "file": "detail.png",
+        "cameraOrbit": "180deg, zoomed",
+        "garmentSide": "back",
+        "visibleContent": "Close-up of skull print"
+      },
+      {
+        "file": "mobile.png",
+        "cameraOrbit": "180deg initial",
+        "garmentSide": "back",
+        "visibleContent": "Mobile view of skull print"
+      }
+    ],
+    "captureSha256": {
+      "front.png": "6fe5b2dd3f50f7964c978a216b2a16066afaa8d29a2efae48f9309364a72c4e9",
+      "back.png": "fd69c8bdbc56410290caa91096c17a7f3b410060efe3789924cae70f36916c66",
+      "left.png": "6381534c16fc4eebaf48948f7b8d0ae633958bb3265838eaee87c341f8c6c30a",
+      "right.png": "5c2ab52e8da8599f436b891794bb72b4efa34b943c5abfca5b1d8c39ce2ba852",
+      "detail.png": "34c262582a25d924df3275be40ca7cba6a8231ce4bdda082a5fce57f22d09352",
+      "mobile.png": "805a77f7ed6c8715d05b4b96fc8bf2e56745d55ada5ffaf53a39a5f948389b1b"
+    }
+  },
+  "scores": {
+    "silhouette": 4,
+    "construction": 4,
+    "artwork": 4,
+    "placement": 4,
+    "material": 4,
+    "web": 5
+  },
+  "checks": [
+    {
+      "criterion": "Silhouette hoodie",
+      "score": 4,
+      "passed": true,
+      "observation": "Mũ, thân chui đầu, tay dài, bo tay và túi kangaroo nhìn rõ ở mặt trước; phom vẫn nhận diện được ở hai góc bên.",
+      "evidence": [
+        "quality/evidence/ATEL-1/v3/retry1-browser/back.png",
+        "quality/evidence/ATEL-1/v3/retry1-browser/left.png",
+        "quality/evidence/ATEL-1/v3/retry1-browser/right.png"
+      ]
+    },
+    {
+      "criterion": "Kết cấu nhìn thấy được",
+      "score": 4,
+      "passed": true,
+      "observation": "Không thấy bộ phận áo lơ lửng hoặc xuyên thân ở các capture. Đường gờ nhỏ trên đỉnh hood vẫn hiện nhẹ; geometry revision đã qua G1 và đường gờ này đọc như mép ráp vải, không phải thanh rời. Đây là ghi chú không chặn.",
+      "evidence": [
+        "quality/evidence/ATEL-1/v3/retry1-browser/front.png",
+        "quality/evidence/ATEL-1/v3/retry1-browser/back.png",
+        "quality/evidence/ATEL-17/clean-v2-neckfix-placement-v3/browser/latest/neck-shoulder-detail.png"
+      ]
+    },
+    {
+      "criterion": "Nhận diện đúng họa tiết một mắt",
+      "score": 4,
+      "passed": true,
+      "observation": "Ở ảnh toàn thân chính thức, hình vẫn đọc là đầu lâu một mắt với mống mắt đỏ và hàm răng; mobile cũng giữ được nét nhận diện. Kích thước hơi khiêm tốn so với lưng áo nên chấm 4/5, chưa phải 5/5.",
+      "evidence": [
+        "quality/evidence/ATEL-1/v3/retry1-browser/front.png",
+        "quality/evidence/ATEL-1/v3/retry1-browser/detail.png"
+      ]
+    },
+    {
+      "criterion": "Vị trí/hướng/tỉ lệ hình in",
+      "score": 4,
+      "passed": true,
+      "observation": "Hình thẳng chiều, đặt giữa mặt lưng, không bị hood hoặc gấu che; mặt trước không in.",
+      "evidence": [
+        "quality/evidence/ATEL-1/v3/retry1-browser/front.png",
+        "quality/evidence/ATEL-1/v3/retry1-browser/detail.png",
+        "quality/evidence/ATEL-1/v3/retry1-browser/back.png"
+      ]
+    },
+    {
+      "criterion": "Màu/chất liệu/độ tương phản",
+      "score": 4,
+      "passed": true,
+      "observation": "Vải hiển thị đen với nếp và túi còn đọc được trên nền xám; màu sáng của đầu lâu tương phản rõ với nền áo.",
+      "evidence": [
+        "quality/evidence/ATEL-1/v3/retry1-browser/front.png",
+        "quality/evidence/ATEL-1/v3/retry1-browser/back.png",
+        "quality/evidence/ATEL-1/v3/retry1-browser/detail.png"
+      ]
+    },
+    {
+      "criterion": "Viewer và tương tác web",
+      "score": 5,
+      "passed": true,
+      "observation": "URL chính thức trả 200; browser QA tải, xoay, zoom desktop/mobile đạt và không báo lỗi.",
+      "evidence": [
+        "quality/evidence/ATEL-1/v3/retry1-browser/browser-result.json",
+        "quality/evidence/ATEL-1/v3/retry1-browser/mobile.png"
+      ]
+    }
+  ],
+  "blockers": [],
+  "nonBlockingNotes": [
+    "Hình in có kích thước vừa phải; đầu lâu và một mắt vẫn nhận ra ở capture toàn thân/mobile nhưng không chiếm mảng lưng lớn.",
+    "Tên file front.png/back.png của browser-qa theo góc camera, bị ngược so với tên mặt áo: front.png ở góc 180° là mặt lưng có hình; back.png ở góc 0° là mặt trước trơn.",
+    "Một gờ nhỏ trên đỉnh hood còn thấy trong ảnh lưng; cùng geometry đã được QA G1 xem là mép ráp liên tục, không gây che hình hoặc cản tương tác."
+  ],
+  "qaReviewer": "atelierx-qa-0004",
+  "leadApproved": true,
+  "qualityGateRecommendation": "Studio Lead đã kiểm tra độc lập và phê duyệt G4; chạy quality gate, chỉ công bố khi gate đạt.",
+  "nextOwner": "Studio Lead",
+  "nextStep": "Studio Lead đối chiếu report/captures, chạy quality gate và quyết định trạng thái sản phẩm.",
+  "leadApproval": {
+    "reviewer": "atelierx-team-leader-0001",
+    "decision": "approved",
+    "gate": "G4",
+    "revision": "v3",
+    "productSha256": "e4e6de8795a341321e22d4aa852e56836fd58fab1411ee7f5590224c47ed7cb1",
+    "geometrySha256": "34374edd321b7e8396656e7d5a003e359d9349c5cc35bb5bc37a5c99145141bf",
+    "note": "Lead đã kiểm tra capture lưng/toàn thân, mặt trước, hai bên, cận cảnh và mobile; đối chiếu đủ bằng chứng sáu tính năng, hash, geometry đã approved, catalog và viewer chính thức. Artwork nhỏ vừa phải nhưng đầu lâu một mắt vẫn nhận diện rõ ở toàn thân/mobile; 4/5 đạt ngưỡng."
+  }
+}

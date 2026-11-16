@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8787/atelierx-products/quality-preview/atel23-fit-v2_3/index.html",
+  "loaded": true,
+  "rotated": false,
+  "zoomed": true,
+  "desktop": true,
+  "mobile": true,
+  "screenshots": {
+    "front": "quality/evidence/ATEL-23/v2.3/qa-browser/front.png",
+    "back": "quality/evidence/ATEL-23/v2.3/qa-browser/back.png",
+    "left": "quality/evidence/ATEL-23/v2.3/qa-browser/left.png",
+    "right": "quality/evidence/ATEL-23/v2.3/qa-browser/right.png",
+    "detail": "quality/evidence/ATEL-23/v2.3/qa-browser/detail.png",
+    "mobile": "quality/evidence/ATEL-23/v2.3/qa-browser/mobile.png"
+  },
+  "errors": []
+}

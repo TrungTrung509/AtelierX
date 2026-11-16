@@ -1,0 +1,20 @@
+{
+  "captures": [
+    {
+      "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/neck-front.png",
+      "sha256": "e7670db362830748d5b3b56cc0a77526da1ac1bb6a6526ed5edca30d14f1161a"
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/armhole-positiveX.png",
+      "sha256": "a236bfb10b396898e20190322680acdab0302aaa59d888be7d349272091c5119"
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/armhole-negativeX.png",
+      "sha256": "839eca42793e443c77c77608d9e12ca1df0f2b190fd9df57c8566fd75c2e47ea"
+    },
+    {
+      "path": "quality/evidence/ATEL-23/v3-prototype/browser-fit/back.png",
+      "sha256": "d2ccf50f966e9c594777b3c595980594e137081bc134a4f8596ea04900773711"
+    }
+  ]
+}

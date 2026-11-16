@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+const hash=p=>createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex');
+const p=read('quality/mannequin-fit.json'),m=read('quality/evidence/mannequin-v1/measurements.json');
+assert.equal(hash(p.file),p.sha256);assert.equal(hash(p.sourceFile),p.sourceSha256);
+assert(Math.abs(p.boundsMeters.max[1]-1.8)<1e-6);assert.equal(p.boundsMeters.min[1],0);
+assert(Math.abs(p.boundsMeters.min[0]+p.boundsMeters.max[0])<1e-6);
+assert.equal(p.units,'meters');assert.equal(p.coordinateSystem.front,'+Z');
+for(const section of Object.values(p.measurements)){assert(section.closed);assert(section.perimeter>0);assert(section.width>0);}
+for(const s of Object.values(p.armStations)) assert(s.yCenter>1.3 && s.yCenter<1.6);
+const blob=fs.readFileSync(path.join(root,p.file));assert.equal(blob.readUInt32LE(8),blob.length);
+const gltf=JSON.parse(blob.subarray(20,20+blob.readUInt32LE(12)));assert.equal(gltf.accessors[0].count,m.vertices);assert.equal(gltf.accessors[1].count,m.triangles*3);
+assert.equal(hash('showcase/quality-preview/mannequin/mannequin.glb'),p.sha256);
+const browser=read(p.browserReport);for(const k of ['loaded','rotated','zoomed','desktop','mobile'])assert.equal(browser[k],true);assert.equal(browser.errors.length,0);
+const files=Object.entries(p.evidence).map(([view,file])=>({view,file,sha256:hash(file)}));
+fs.writeFileSync(path.join(root,'quality/evidence/mannequin-v1/evidence-manifest.json'),JSON.stringify({modelSha256:p.sha256,sourceSha256:p.sourceSha256,files,review:{reviewer:'Codex reference inspection',headHandsFeetVisible:true,frontBackConfirmed:true,pose:'T',garmentFitApproved:false,notes:['Stylized anatomy, rough side shoulder surface: check exposed shoulders on sleeveless designs.','Anchors are approximate section centers, not rig joints.']}},null,2)+'\n');
+console.log('PASS: normalized geometry, hashes, body sections, anchors, preview copy and browser evidence');
