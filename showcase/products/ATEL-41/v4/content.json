@@ -3,34 +3,34 @@
   "revision": "v4",
   "language": "vi",
   "title": "Quần cargo be cát ống suông",
-  "summary": "Quần cargo dáng ống suông được dựng độc lập, có hai túi hộp lớn ở đùi, cạp đỉa, khóa kéo và nút trước cùng dây rút gấu. Bề mặt mô phỏng vải twill cotton-canvas lì màu be cát (#C8B58F), với độ nhám cao và nếp vải mềm; đây là mô phỏng thị giác, không xác nhận thành phần hay tính năng của vải thật. Kích thước bao mesh hiển thị là rộng 54,59 × dài 110,5 × sâu 25,72 cm, đo trên GLB surface v3; đây là thông số trưng bày, không phải size may.",
+  "summary": "Quần cargo be cát dáng ống suông trưng bày độc lập, có hai túi hộp nổi và nắp túi ở đùi, đường may rõ, đỉa thắt lưng, nút trước và dây rút gấu. Bề mặt mô phỏng twill cotton-canvas màu be cát (#C8B58F), thân quần lì với nắp túi có độ bóng nhẹ. Kích thước bao model hiển thị: rộng 54,59 × dài 85,80 × sâu 26,94 cm; đây là thông số 3D, không phải size may.",
   "style": "Cargo tiện dụng, ống suông, tông be cát",
   "material": {
     "name": "ATEL-41 sand beige cotton-canvas twill simulation",
     "simulatedMaterial": "matte cotton-canvas twill",
     "baseColorHexSRGB": "#C8B58F",
-    "roughnessFactor": 0.88,
+    "roughnessFactor": 0.68,
     "metallicFactor": 0,
-    "source": "orders/ATEL-41/v3/material/surface-manifest-v3.json; preset provenance: orders/ATEL-41/material/pbr-preset-v1.json"
+    "source": "orders/ATEL-41/material/pbr-preset-v1.json; direct GLB detail edit: tools/enhance-cargo-detail.mjs"
   },
   "specifications": [
     {
       "label": "Rộng bao mesh hiển thị",
       "value": 54.59,
       "unit": "cm",
-      "source": "orders/ATEL-41/v3/material/garment-surface-v3.glb; tools/showcase-glb.mjs primitives() world-space bounds; SHA-256 490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+      "source": "showcase/products/ATEL-41/v4/assets/display.glb; world-space mesh bounds; SHA-256 935b0a8bc65bd92e4244fbf6c2f5911da9ebfcdd47c0d90751b889d4ddb5da6e"
     },
     {
       "label": "Dài bao mesh hiển thị",
-      "value": 110.5,
+      "value": 85.8,
       "unit": "cm",
-      "source": "orders/ATEL-41/v3/material/garment-surface-v3.glb; tools/showcase-glb.mjs primitives() world-space bounds; SHA-256 490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+      "source": "showcase/products/ATEL-41/v4/assets/display.glb; world-space mesh bounds; SHA-256 935b0a8bc65bd92e4244fbf6c2f5911da9ebfcdd47c0d90751b889d4ddb5da6e"
     },
     {
       "label": "Sâu bao mesh hiển thị",
-      "value": 25.72,
+      "value": 26.94,
       "unit": "cm",
-      "source": "orders/ATEL-41/v3/material/garment-surface-v3.glb; tools/showcase-glb.mjs primitives() world-space bounds; SHA-256 490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+      "source": "showcase/products/ATEL-41/v4/assets/display.glb; world-space mesh bounds; SHA-256 935b0a8bc65bd92e4244fbf6c2f5911da9ebfcdd47c0d90751b889d4ddb5da6e"
     }
   ],
   "displayDimensionsNote": "Kích thước bao không gian của mesh để tham chiếu khi trưng bày; không phải kích thước cơ thể, size trang phục hay số đo sản xuất.",
@@ -43,5 +43,11 @@
   "credits": [
     "Hình học quần do AtelierX Fashion Studio tự dựng. Phom JNCO Twin Cannon owner-supplied chỉ dùng làm tham khảo silhouette; không tái sử dụng mesh, texture, logo, patch hoặc nhãn (orders/ATEL-41/v3/designer/provenance-v3.json).",
     "Màu be cát và bề mặt PBR twill cotton-canvas là mô phỏng thị giác theo preset nội bộ orders/ATEL-41/material/pbr-preset-v1.json, áp dụng trong orders/ATEL-41/v3/material/surface-manifest-v3.json; không đại diện thành phần hay tính năng của vải thật."
-  ]
+  ],
+  "directEdit": {
+    "model": "showcase/products/ATEL-41/v4/assets/display.glb",
+    "sha256": "935b0a8bc65bd92e4244fbf6c2f5911da9ebfcdd47c0d90751b889d4ddb5da6e",
+    "tool": "tools/enhance-cargo-detail.mjs",
+    "browserEvidence": "quality/evidence/ATEL-41/v4/cargo-detail-current/browser-result.json"
+  }
 }

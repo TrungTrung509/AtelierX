@@ -3,22 +3,27 @@
   "revision": "v4",
   "deliveryProfile": "showcase-basic-v1",
   "presentation": "standalone",
-  "stage": "correction",
+  "stage": "owner-requested-direct-edit",
   "garmentSha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd",
-  "displaySha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd",
+  "displaySha256": "935b0a8bc65bd92e4244fbf6c2f5911da9ebfcdd47c0d90751b889d4ddb5da6e",
   "mannequinSha256": null,
   "mask": {
     "enabled": false,
     "removedTriangles": 0,
     "exception": false
   },
-  "status": "pass",
+  "status": "preview",
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "GLB details edited directly; browser smoke passed. Prior QA report is historical and does not approve this edit."
+  ],
   "measurements": {
     "envelopeWidthCm": 54.59437370300293,
-    "garmentLengthCm": 110.50000470131636,
-    "envelopeDepthCm": 25.724077224731445
+    "garmentLengthCm": 85.80000083893538,
+    "envelopeDepthCm": 26.939567923545837,
+    "units": "cm",
+    "kind": "3D display references, not manufactured garment sizing",
+    "method": "World-space envelope of the complete garment mesh in meters. Display references only, not sewing or body measurements."
   },
   "boundsMeters": {
     "min": [
@@ -28,8 +33,8 @@
     ],
     "max": [
       0.27297186851501465,
-      1.0750000476837158,
-      0.12781769037246704
+      0.828000009059906,
+      0.13997259736061096
     ]
   },
   "method": "World-space envelope of the complete garment mesh in meters. Display references only, not sewing or body measurements."

@@ -9,11 +9,11 @@
   },
   "assembly": {
     "path": "showcase/products/ATEL-41/v4/assembly.json",
-    "sha256": "853dc1df0c147511559877ca0964c2cb6948e9e1068b2c9ec4fb1fbb30420e8f"
+    "sha256": "47543b0ad08bdd4d83ec6157b8a5bb8e23a6be70b869ea54be957568d09ace2d"
   },
   "display": {
     "path": "showcase/products/ATEL-41/v4/assets/display.glb",
-    "sha256": "490f8da0ce62c741fbbd8248903ca5c87c750a5835ab6d3a1794db0b3f738bdd"
+    "sha256": "935b0a8bc65bd92e4244fbf6c2f5911da9ebfcdd47c0d90751b889d4ddb5da6e"
   },
   "integratedGarment": {
     "path": "orders/ATEL-41/v3/material/garment-surface-v3.glb",
@@ -25,7 +25,7 @@
   },
   "content": {
     "path": "showcase/products/ATEL-41/v4/content.json",
-    "sha256": "084fa4535b80ee4819b2ce7b9e78f7ac25cec4b75c12fa1c2601283ebd171605"
+    "sha256": "f4393b63ba950d5ffdbafee8be6e8304bfe625a6095b188f87bac9aa8c3f8207"
   },
   "sourceContent": {
     "path": "orders/ATEL-41/v4/visual/content.json",
@@ -37,11 +37,11 @@
   },
   "viewer": {
     "path": "showcase/products/ATEL-41/v4/index.html",
-    "sha256": "be9be5970b88b59b1c0a4097b03cf9acc2a20b5a9a86a834fea547eda3de4a49"
+    "sha256": "f2a220abe5bb4223346823ae106ac811b84c5dd2339862dd4506cdafa4d5d3f2"
   },
   "measurements": {
     "path": "showcase/products/ATEL-41/v4/measurements.json",
-    "sha256": "2ed1524b84cca70864888d96bdb53efa73881fd547ac6b84ae9c081647399bda",
+    "sha256": "88b971ee99a6bd2f2712c646b8ae564bb4f6a715e033fa3d64125b751b963f49",
     "kind": "3D display references, not manufactured garment sizing"
   },
   "shapeReview": {
@@ -62,24 +62,40 @@
   },
   "browserEvidence": {
     "browserResult": {
-      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/browser-result.json",
-      "sha256": "e298d971058145f85312c80522f7fb431650f1b9b80a4f0a0ac54feaf1260c8a"
+      "path": "quality/evidence/ATEL-41/v4/cargo-detail-current/browser-result.json",
+      "sha256": "b2088380e224f8234c732b800bad947209be062fdb16f927d10cea7ce9bf4697"
     },
     "front": {
-      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/front.png",
-      "sha256": "72e2b5c47e33f9d1b3eb24b35e6d34f49cdec95de45ae97c588cb5656e6facac"
+      "path": "quality/evidence/ATEL-41/v4/cargo-detail-current/front.png",
+      "sha256": "998b999ef2d3e0f579b7a79b2965155696e32038b796c6c91a720a428ab6bbb7"
     },
     "back": {
-      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/back.png",
-      "sha256": "4d34eda2efe7b5572e2f9af89c09b83d40d0b21ccbfa12b591f95c003fdce4f8"
+      "path": "quality/evidence/ATEL-41/v4/cargo-detail-current/back.png",
+      "sha256": "a0155cb7edf2b714445b751c2ee0d345de1d3bb0ce2c31dc9b82f1499df6e04c"
     },
     "side": {
-      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/side.png",
-      "sha256": "5032a356254198e086f35d5332a0d1a2e1dd4eea2ae23d0d8efd8cf9dde7666d"
+      "path": "quality/evidence/ATEL-41/v4/cargo-detail-current/side.png",
+      "sha256": "20735c1211fb9d0ab4d945819aa19f2a15da5d4ae6a773acb916bc05726dfd61"
     },
     "oblique": {
-      "path": "quality/evidence/ATEL-41/v4/browser-qa-correction/oblique.png",
-      "sha256": "3ac33fb18950c81d0f4901ea8d332ea5b2ec2fb518d266898b9564e7fb8eaa9d"
+      "path": "quality/evidence/ATEL-41/v4/cargo-detail-current/oblique.png",
+      "sha256": "98d9480ddc0f12c277dca0400eb68edfddd595c02d8caf8c9c85b883d479deee"
+    },
+    "top": {
+      "path": "quality/evidence/ATEL-41/v4/cargo-detail-current/top.png",
+      "sha256": "ded97c1424bddb8a55991cc0efc3d545535c7997794e70b92b4d79d9177073f4"
+    },
+    "bottom": {
+      "path": "quality/evidence/ATEL-41/v4/cargo-detail-current/bottom.png",
+      "sha256": "f1aa3977fdab9a66ccca0cfba23c1e9efc7ad890f434b783180457b516a715f3"
     }
+  },
+  "directEdit": {
+    "model": {
+      "path": "showcase/products/ATEL-41/v4/assets/display.glb",
+      "sha256": "935b0a8bc65bd92e4244fbf6c2f5911da9ebfcdd47c0d90751b889d4ddb5da6e"
+    },
+    "tool": "tools/enhance-cargo-detail.mjs",
+    "review": "owner-pending"
   }
 }

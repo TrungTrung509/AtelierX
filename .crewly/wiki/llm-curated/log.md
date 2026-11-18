@@ -12620,3 +12620,51 @@ done by: Studio Lead
 did: AtelierX Lead is reserved for product coordination; auto-created maintenance is excluded from studio workflow
 outcome: cancelled — AtelierX Lead is reserved for product coordination; auto-created maintenance is excluded from studio workflow, under a minute
 meta: wi=ae5b6123-fe48-4268-94e5-8b919f508cb5 phase=final status=cancelled asked_by=orchestrator:orchestrator done_by=atelierx-team-leader-0001 outcome=cancelled
+
+## [2026-11-18T04:54:40.670Z] work_record | atelierx-team-leader-0001
+
+ref: work-record:d05ba917-200d-46ed-9294-e8358b982ece#final
+
+(record) **Cleanup 10 of 34 low-quality wiki page(s) — project AtelierX** — done (no review)
+asked by: the orchestrator — "Review 10 cleanup candidates in /home/node/project/AtelierX/.crewly/wiki; decide keep/delete; call wiki-cleanup --apply with the final list."
+done by: Studio Lead
+did: Deleted 5 stale or one-off pages and kept 5 reusable learnings; archive preserved the removed content.
+outputs: /home/node/project/AtelierX/.crewly/wiki/.wiki-cleanup-archive.json; 1 check passed
+outcome: done (no review), 1.7 h
+meta: wi=d05ba917-200d-46ed-9294-e8358b982ece phase=final status=done asked_by=orchestrator:orchestrator done_by=atelierx-team-leader-0001 outcome=done
+
+## [2026-11-18T06:36:11.043Z] work_record | atelierx-tpm-0002
+
+ref: work-record:23c0b499-7d8e-47a5-81a4-55c5d16d005e#final
+
+(record) **Refresh standing answer "What is my unfinished work, and what is blocking it?" — atelierx-tpm-0002 (4 newer)** — done (no review)
+asked by: Crewly (system) — "Refresh the standing-answer page unfinished-work at /home/node/.crewly/agents/atelierx-tpm-0002/standing.md: 4 in-scope memories are newer than the page."
+done by: Market & Trend Researcher
+did: Standing answer đã được làm mới theo trạng thái hiện hành; blocker đã được gỡ, giữ trạng thái stopped, không còn việc nối tiếp TPM.
+outputs: /home/node/.crewly/agents/atelierx-tpm-0002/standing.md; 1 check passed
+outcome: done (no review)
+meta: wi=23c0b499-7d8e-47a5-81a4-55c5d16d005e phase=final status=done asked_by=system:system done_by=atelierx-tpm-0002 outcome=done
+
+## [2026-11-18T06:37:25.770Z] work_record | atelierx-team-leader-0001
+
+ref: work-record:8e8d5572-e8df-47d9-b04c-09ed111e1c51#final
+
+(record) **Refresh standing answer "What is my unfinished work, and what is blocking it?" — atelierx-team-leader-0001 (10 newer, 1…** — done (no review)
+asked by: Crewly (system) — "Refresh the standing-answer page unfinished-work at /home/node/.crewly/agents/atelierx-team-leader-0001/standing.md: 10 in-scope memories are newer than the pa…"
+done by: Studio Lead
+did: Standing answer refreshed from current in-force sources: retained stopped, replaced invalidated status, added the environment blocker, and updated handoff/QA state.
+outputs: /home/node/.crewly/agents/atelierx-team-leader-0001/standing.md; 1 check passed
+outcome: done (no review), 2 min
+meta: wi=8e8d5572-e8df-47d9-b04c-09ed111e1c51 phase=final status=done asked_by=system:system done_by=atelierx-team-leader-0001 outcome=done
+
+## [2026-11-18T06:38:13.648Z] work_record | atelierx-team-leader-0001
+
+ref: work-record:23c0b499-7d8e-47a5-81a4-55c5d16d005e:review:idle_holder#final
+
+(record) **Went quiet on a running task: Refresh standing answer "What is my unfinished work, and what is blocking it?" —** — done (no review)
+asked by: the team lead (team lead) — "`atelierx-tpm-0002` claimed WorkItem `` and then stopped: no output and no API call long enough for its claim to lapse, while its session is still up."
+done by: Studio Lead
+did: Resolved stale idle-holder review: source is now done, and atelierx-tpm-0002 is active and idle. No reassignment or intervention needed.
+outputs: 1 check passed
+outcome: done (no review), under a minute
+meta: wi=23c0b499-7d8e-47a5-81a4-55c5d16d005e:review:idle_holder phase=final status=done asked_by=lead:lead done_by=atelierx-team-leader-0001 outcome=done team=af30c001-2789-4f20-b917-000000000010
